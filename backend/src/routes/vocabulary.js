@@ -2,10 +2,11 @@ import express from "express";
 import fs from "fs";
 import path from "path";
 import { fileURLToPath } from "url";
-import { db, getDailyNewWordIds, addDailyNewWordIds, getDailyNewLimit, setDailyNewLimit } from "../db.js";
+import { getDailyNewWordIds, addDailyNewWordIds, getDailyNewLimit, setDailyNewLimit } from "../db.js";
 import { scheduleNext, isDue } from "../srs.js";
 import { generateVocabPassage, generateWordDetail } from "../vocabAi.js";
 import { fetchDictionaryEntry } from "../freeDictionary.js";
+import { asyncHandler } from "../auth.js";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const dataPath = path.join(__dirname, "..", "..", "data", "vocabulary.json");
@@ -32,7 +33,7 @@ function wordStatus(progress) {
 router.get("/topics", (req, res) => {
   const summary = vocabData.topics.map((t) => {
     const total = t.words.length;
-    const learned = t.words.filter((w) => db.data.wordProgress[w.id]).length;
+    const learned = t.words.filter((w) => req.state.wordProgress[w.id]).length;
     return { id: t.id, name: t.name, emoji: t.emoji, total, learned };
   });
   res.json(summary);
@@ -43,7 +44,7 @@ router.get("/topics/:id", (req, res) => {
   if (!topic) return res.status(404).json({ error: "Topic not found" });
   const words = topic.words
     .map((w) => {
-      const progress = db.data.wordProgress[w.id] || null;
+      const progress = req.state.wordProgress[w.id] || null;
       return { ...w, progress, status: wordStatus(progress) };
     })
     .sort((a, b) => (a.frequency || 0) - (b.frequency || 0));
@@ -55,7 +56,7 @@ router.get("/stats", (req, res) => {
   const byLevel = {};
   for (const lv of levels) byLevel[lv] = { total: 0, new: 0, learning: 0, mastered: 0 };
   for (const w of allWords()) {
-    const status = wordStatus(db.data.wordProgress[w.id]);
+    const status = wordStatus(req.state.wordProgress[w.id]);
     byLevel[w.level].total += 1;
     byLevel[w.level][status] += 1;
   }
@@ -74,7 +75,7 @@ router.get("/review", (req, res) => {
   const limit = Math.min(parseInt(req.query.limit) || 30, 100);
 
   let words = allWords().map((w) => {
-    const progress = db.data.wordProgress[w.id] || null;
+    const progress = req.state.wordProgress[w.id] || null;
     return { ...w, progress, status: wordStatus(progress) };
   });
 
@@ -100,12 +101,12 @@ router.get("/review", (req, res) => {
   res.json({ count: words.length, words: words.slice(0, limit) });
 });
 
-router.get("/daily-session", async (req, res) => {
+router.get("/daily-session", asyncHandler(async (req, res) => {
   const { level } = req.query;
-  const dailyNewLimit = getDailyNewLimit();
+  const dailyNewLimit = getDailyNewLimit(req.state);
 
   let words = allWords().map((w) => {
-    const progress = db.data.wordProgress[w.id] || null;
+    const progress = req.state.wordProgress[w.id] || null;
     return { ...w, progress, status: wordStatus(progress) };
   });
   if (level) words = words.filter((w) => w.level === level);
@@ -115,7 +116,7 @@ router.get("/daily-session", async (req, res) => {
     .sort((a, b) => a.progress.due - b.progress.due)
     .slice(0, 60);
 
-  const introducedToday = getDailyNewWordIds();
+  const introducedToday = getDailyNewWordIds(req.state);
   const alreadyPicked = words.filter((w) => w.status === "new" && introducedToday.includes(w.id));
   const remaining = Math.max(0, dailyNewLimit - introducedToday.length);
 
@@ -124,8 +125,8 @@ router.get("/daily-session", async (req, res) => {
     .sort((a, b) => (a.frequency || 0) - (b.frequency || 0));
   const freshPicked = remaining > 0 ? freshCandidates.slice(0, remaining) : [];
   if (freshPicked.length > 0) {
-    addDailyNewWordIds(freshPicked.map((w) => w.id));
-    await db.write();
+    addDailyNewWordIds(req.state, freshPicked.map((w) => w.id));
+    await req.saveState();
   }
 
   const newWords = [...alreadyPicked, ...freshPicked];
@@ -134,49 +135,49 @@ router.get("/daily-session", async (req, res) => {
     due,
     newWords,
     dailyNewLimit,
-    newIntroducedToday: getDailyNewWordIds().length
+    newIntroducedToday: getDailyNewWordIds(req.state).length
   });
-});
+}));
 
 router.get("/settings", (req, res) => {
-  res.json({ dailyNewLimit: getDailyNewLimit() });
+  res.json({ dailyNewLimit: getDailyNewLimit(req.state) });
 });
 
-router.put("/settings", async (req, res) => {
+router.put("/settings", asyncHandler(async (req, res) => {
   const { dailyNewLimit } = req.body;
   const n = parseInt(dailyNewLimit, 10);
   if (!Number.isInteger(n) || n < 1 || n > 200) {
     return res.status(400).json({ error: "dailyNewLimit must be an integer between 1 and 200" });
   }
-  setDailyNewLimit(n);
-  await db.write();
+  setDailyNewLimit(req.state, n);
+  await req.saveState();
   res.json({ dailyNewLimit: n });
-});
+}));
 
-router.get("/words/:id/detail", async (req, res) => {
+router.get("/words/:id/detail", asyncHandler(async (req, res) => {
   const word = allWords().find((w) => w.id === req.params.id);
   if (!word) return res.status(404).json({ error: "Word not found" });
-  const progress = db.data.wordProgress[word.id] || null;
+  const progress = req.state.wordProgress[word.id] || null;
   const [detail, dictionary] = await Promise.all([
     generateWordDetail(word),
     fetchDictionaryEntry(word.word)
   ]);
   res.json({ ...word, ...detail, dictionary, progress });
-});
+}));
 
-router.post("/words/:id/grade", async (req, res) => {
+router.post("/words/:id/grade", asyncHandler(async (req, res) => {
   const { grade } = req.body;
   if (!["forgot", "hard", "good", "easy"].includes(grade)) {
     return res.status(400).json({ error: "Invalid grade" });
   }
-  const prevState = db.data.wordProgress[req.params.id];
+  const prevState = req.state.wordProgress[req.params.id];
   const nextState = scheduleNext(prevState, grade);
-  db.data.wordProgress[req.params.id] = nextState;
-  await db.write();
+  req.state.wordProgress[req.params.id] = nextState;
+  await req.saveState();
   res.json({ wordId: req.params.id, state: nextState });
-});
+}));
 
-router.post("/practice-reading", async (req, res) => {
+router.post("/practice-reading", asyncHandler(async (req, res) => {
   const { wordIds, level, count } = req.body;
   const words = allWords();
 
@@ -184,7 +185,7 @@ router.post("/practice-reading", async (req, res) => {
   if (Array.isArray(wordIds) && wordIds.length > 0) {
     target = words.filter((w) => wordIds.includes(w.id));
   } else {
-    let pool = words.map((w) => ({ ...w, progress: db.data.wordProgress[w.id] || null }));
+    let pool = words.map((w) => ({ ...w, progress: req.state.wordProgress[w.id] || null }));
     if (level) pool = pool.filter((w) => w.level === level);
     pool = pool
       .map((w) => ({ ...w, status: wordStatus(w.progress) }))
@@ -197,6 +198,6 @@ router.post("/practice-reading", async (req, res) => {
 
   const passage = await generateVocabPassage(target);
   res.json(passage);
-});
+}));
 
 export default router;

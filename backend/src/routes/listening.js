@@ -2,7 +2,7 @@ import express from "express";
 import fs from "fs";
 import path from "path";
 import { fileURLToPath } from "url";
-import { db } from "../db.js";
+import { asyncHandler } from "../auth.js";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const dataPath = path.join(__dirname, "..", "..", "data", "listening.json");
@@ -16,7 +16,7 @@ router.get("/", (req, res) => {
     level: l.level,
     topic: l.topic,
     title: l.title,
-    completed: Boolean(db.data.listeningProgress[l.id])
+    completed: Boolean(req.state.listeningProgress[l.id])
   }));
   res.json(list);
 });
@@ -27,13 +27,13 @@ router.get("/:id", (req, res) => {
   res.json(lesson);
 });
 
-router.post("/:id/complete", async (req, res) => {
+router.post("/:id/complete", asyncHandler(async (req, res) => {
   const { score } = req.body;
   const lesson = listeningData.lessons.find((l) => l.id === req.params.id);
   if (!lesson) return res.status(404).json({ error: "Lesson not found" });
-  db.data.listeningProgress[req.params.id] = { completedAt: Date.now(), score: score ?? null };
-  await db.write();
+  req.state.listeningProgress[req.params.id] = { completedAt: Date.now(), score: score ?? null };
+  await req.saveState();
   res.json({ ok: true });
-});
+}));
 
 export default router;

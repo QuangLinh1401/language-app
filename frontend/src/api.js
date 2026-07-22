@@ -1,19 +1,56 @@
 const BASE = "/api";
 
+const TOKEN_KEY = "language-app-token";
+const USERNAME_KEY = "language-app-username";
+
+export const auth = {
+  token: () => localStorage.getItem(TOKEN_KEY),
+  username: () => localStorage.getItem(USERNAME_KEY),
+  save(token, username) {
+    localStorage.setItem(TOKEN_KEY, token);
+    localStorage.setItem(USERNAME_KEY, username);
+  },
+  clear() {
+    localStorage.removeItem(TOKEN_KEY);
+    localStorage.removeItem(USERNAME_KEY);
+  }
+};
+
 async function request(path, options = {}) {
-  const res = await fetch(`${BASE}${path}`, {
-    headers: { "Content-Type": "application/json" },
-    ...options
-  });
+  const headers = { "Content-Type": "application/json" };
+  const token = auth.token();
+  if (token) headers.Authorization = `Bearer ${token}`;
+
+  const res = await fetch(`${BASE}${path}`, { headers, ...options });
+  if (res.status === 401 && !path.startsWith("/auth/")) {
+    // Token missing/expired — drop it and send the user back to the login screen.
+    auth.clear();
+    window.dispatchEvent(new Event("auth-expired"));
+    throw new Error("Not logged in");
+  }
   if (!res.ok) {
-    const text = await res.text();
-    throw new Error(`API error ${res.status}: ${text}`);
+    let message = `API error ${res.status}`;
+    try {
+      const body = await res.json();
+      if (body.error) message = body.error;
+    } catch {
+      // non-JSON error body — keep the generic message
+    }
+    throw new Error(message);
   }
   return res.json();
 }
 
 export const api = {
   health: () => request("/health"),
+
+  auth: {
+    login: (username, password) =>
+      request("/auth/login", { method: "POST", body: JSON.stringify({ username, password }) }),
+    register: (username, password) =>
+      request("/auth/register", { method: "POST", body: JSON.stringify({ username, password }) }),
+    me: () => request("/auth/me")
+  },
 
   progress: {
     get: () => request("/progress"),

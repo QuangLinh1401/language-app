@@ -577,3 +577,31 @@ h1.page-title {
   .flashcard { min-height: 340px; }
   .grade-row { max-width: 480px; }
 }
+
+.text-input {
+  width: 100%;
+  border: 2px solid var(--line);
+  border-radius: 14px;
+  padding: 12px 14px;
+  font-size: 14px;
+  font-family: inherit;
+  font-weight: 600;
+  color: var(--ink);
+  background: var(--card);
+  outline: none;
+  transition: border-color 0.12s ease;
+}
+.text-input:focus { border-color: var(--teal); }
+.text-input::placeholder { color: var(--ink-soft); opacity: 0.6; font-weight: 500; }
+
+.link-btn {
+  border: none;
+  background: none;
+  padding: 0;
+  font-family: inherit;
+  font-size: inherit;
+  font-weight: 800;
+  color: var(--teal-deep);
+  cursor: pointer;
+  text-decoration: underline;
+}

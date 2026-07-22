@@ -1,10 +1,4 @@
 import { neon } from "@neondatabase/serverless";
-import fs from "fs";
-import path from "path";
-import { fileURLToPath } from "url";
-
-const __dirname = path.dirname(fileURLToPath(import.meta.url));
-const legacyJsonPath = path.join(__dirname, "..", "data", "user-progress.json");
 
 export function defaultState() {
   return {
@@ -30,77 +24,81 @@ if (!connectionString) {
 
 // Neon's serverless driver runs queries over HTTPS (port 443) instead of the
 // Postgres wire protocol (5432), which many networks/firewalls block.
-const sql = neon(connectionString);
+export const sql = neon(connectionString);
 
-// This app has a single user (by design), so all progress lives in one row.
-const ROW_ID = "default";
-
-await sql`
-  create table if not exists app_state (
-    id text primary key,
-    state jsonb not null,
-    updated_at timestamptz not null default now()
-  )
-`;
-
-// Load the existing row, or seed it — migrating the old JSON file on first run
-// so previously-saved progress (XP, streak, word progress) isn't lost.
-async function loadInitialState() {
-  const rows = await sql`select state from app_state where id = ${ROW_ID}`;
-  if (rows.length > 0) return rows[0].state;
-
-  let seed = defaultState();
-  try {
-    if (fs.existsSync(legacyJsonPath)) {
-      const legacy = JSON.parse(fs.readFileSync(legacyJsonPath, "utf-8"));
-      seed = { ...defaultState(), ...legacy };
-      console.log("[db] Migrated existing user-progress.json into Neon.");
-    }
-  } catch (err) {
-    console.error("[db] Could not read legacy JSON, seeding fresh state:", err.message);
+// Schema setup runs once per process (serverless instances are reused, so in
+// practice this is rare). `create table if not exists` keeps it idempotent.
+let tablesReady = null;
+export function ensureTables() {
+  if (!tablesReady) {
+    tablesReady = (async () => {
+      await sql`
+        create table if not exists users (
+          id serial primary key,
+          username text unique not null,
+          password_hash text not null,
+          created_at timestamptz not null default now()
+        )
+      `;
+      await sql`
+        create table if not exists user_state (
+          user_id integer primary key references users(id) on delete cascade,
+          state jsonb not null,
+          updated_at timestamptz not null default now()
+        )
+      `;
+      // Legacy single-user table from before accounts existed; kept so the
+      // first registered user can inherit that progress (see auth route).
+      await sql`
+        create table if not exists app_state (
+          id text primary key,
+          state jsonb not null,
+          updated_at timestamptz not null default now()
+        )
+      `;
+    })();
   }
+  return tablesReady;
+}
 
-  await sql`insert into app_state (id, state) values (${ROW_ID}, ${JSON.stringify(seed)}::jsonb) on conflict (id) do nothing`;
+// Loads one user's progress blob, seeding a fresh default row if missing.
+export async function loadState(userId) {
+  await ensureTables();
+  const rows = await sql`select state from user_state where user_id = ${userId}`;
+  if (rows.length > 0) return { ...defaultState(), ...rows[0].state };
+  const seed = defaultState();
+  await saveState(userId, seed);
   return seed;
 }
 
-// Same shape the rest of the app expects from the old lowdb instance:
-// `db.data` is the in-memory state, `db.write()` persists it.
-export const db = {
-  data: await loadInitialState(),
-  async write() {
-    await sql`
-      insert into app_state (id, state, updated_at)
-      values (${ROW_ID}, ${JSON.stringify(this.data)}::jsonb, now())
-      on conflict (id) do update set state = excluded.state, updated_at = now()
-    `;
-  }
-};
-
-// Replaces the whole progress blob with a fresh default (used by "reset
-// progress" in Settings). Mutates in place so existing imports of `db` stay
-// valid, then callers persist with db.write().
-export function resetState() {
-  db.data = defaultState();
+export async function saveState(userId, state) {
+  await ensureTables();
+  await sql`
+    insert into user_state (user_id, state, updated_at)
+    values (${userId}, ${JSON.stringify(state)}::jsonb, now())
+    on conflict (user_id) do update set state = excluded.state, updated_at = now()
+  `;
 }
 
-export function touchStreak() {
+// ---- Helpers that operate on a loaded state object ----
+
+export function touchStreak(state) {
   const today = new Date().toISOString().slice(0, 10);
-  const last = db.data.streak.lastActiveDate;
-  if (last === today) return db.data.streak;
+  const last = state.streak.lastActiveDate;
+  if (last === today) return state.streak;
   const yesterday = new Date(Date.now() - 86400000).toISOString().slice(0, 10);
   if (last === yesterday) {
-    db.data.streak.current += 1;
+    state.streak.current += 1;
   } else {
-    db.data.streak.current = 1;
+    state.streak.current = 1;
   }
-  db.data.streak.lastActiveDate = today;
-  return db.data.streak;
+  state.streak.lastActiveDate = today;
+  return state.streak;
 }
 
-export function addXp(amount) {
-  db.data.xp += amount;
-  return db.data.xp;
+export function addXp(state, amount) {
+  state.xp += amount;
+  return state.xp;
 }
 
 export function todayKey() {
@@ -109,29 +107,29 @@ export function todayKey() {
 
 // Returns the list of word ids already introduced as "new" today,
 // resetting the tracker if the day has rolled over.
-export function getDailyNewWordIds() {
+export function getDailyNewWordIds(state) {
   const today = todayKey();
-  if (!db.data.dailyNewWords || db.data.dailyNewWords.date !== today) {
-    db.data.dailyNewWords = { date: today, wordIds: [] };
+  if (!state.dailyNewWords || state.dailyNewWords.date !== today) {
+    state.dailyNewWords = { date: today, wordIds: [] };
   }
-  return db.data.dailyNewWords.wordIds;
+  return state.dailyNewWords.wordIds;
 }
 
-export function addDailyNewWordIds(ids) {
-  const list = getDailyNewWordIds();
+export function addDailyNewWordIds(state, ids) {
+  const list = getDailyNewWordIds(state);
   for (const id of ids) {
     if (!list.includes(id)) list.push(id);
   }
 }
 
 // Defensive getter: older save files may predate the settings field.
-export function getDailyNewLimit() {
-  if (!db.data.settings) db.data.settings = { dailyNewLimit: 20 };
-  return db.data.settings.dailyNewLimit;
+export function getDailyNewLimit(state) {
+  if (!state.settings) state.settings = { dailyNewLimit: 20 };
+  return state.settings.dailyNewLimit;
 }
 
-export function setDailyNewLimit(limit) {
-  if (!db.data.settings) db.data.settings = { dailyNewLimit: 20 };
-  db.data.settings.dailyNewLimit = limit;
-  return db.data.settings.dailyNewLimit;
+export function setDailyNewLimit(state, limit) {
+  if (!state.settings) state.settings = { dailyNewLimit: 20 };
+  state.settings.dailyNewLimit = limit;
+  return state.settings.dailyNewLimit;
 }

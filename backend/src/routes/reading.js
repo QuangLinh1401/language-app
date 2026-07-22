@@ -2,7 +2,7 @@ import express from "express";
 import fs from "fs";
 import path from "path";
 import { fileURLToPath } from "url";
-import { db } from "../db.js";
+import { asyncHandler } from "../auth.js";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const dataPath = path.join(__dirname, "..", "..", "data", "reading.json");
@@ -12,7 +12,7 @@ const router = express.Router();
 
 router.get("/", (req, res) => {
   const list = readingData.passages.map((p) => {
-    const progress = db.data.readingProgress[p.id];
+    const progress = req.state.readingProgress[p.id];
     return {
       id: p.id,
       level: p.level,
@@ -34,17 +34,17 @@ router.get("/:id", (req, res) => {
   res.json(passage);
 });
 
-router.post("/:id/complete", async (req, res) => {
+router.post("/:id/complete", asyncHandler(async (req, res) => {
   const { score, timeSeconds } = req.body;
   const passage = readingData.passages.find((p) => p.id === req.params.id);
   if (!passage) return res.status(404).json({ error: "Passage not found" });
-  db.data.readingProgress[req.params.id] = {
+  req.state.readingProgress[req.params.id] = {
     completedAt: Date.now(),
     score: score ?? null,
     timeSeconds: timeSeconds ?? null
   };
-  await db.write();
+  await req.saveState();
   res.json({ ok: true });
-});
+}));
 
 export default router;

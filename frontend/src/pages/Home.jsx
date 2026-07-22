@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
-import { api } from "../api.js";
+import { api, auth } from "../api.js";
 import Icon from "../components/Icon.jsx";
 
 export default function Home() {
@@ -23,9 +23,10 @@ export default function Home() {
 
   return (
     <div>
-      <div style={{ display: "flex", alignItems: "center", justifyContent: "space-between", marginBottom: 14 }}>
+      {/* paddingRight leaves room for the floating settings gear (top-right of the app shell) */}
+      <div style={{ display: "flex", alignItems: "center", justifyContent: "space-between", marginBottom: 14, paddingRight: 44 }}>
         <div>
-          <div style={{ fontSize: 13, fontWeight: 700 }}>Hi there 👋</div>
+          <div style={{ fontSize: 13, fontWeight: 700 }}>Hi {auth.username() || "there"} 👋</div>
           <div style={{ fontSize: 11, color: "var(--ink-soft)" }}>Let's learn some English today</div>
         </div>
         <div className="pill" style={{ background: "#FFF3E4", borderColor: "#F3DCAE", color: "#B5720F" }}>

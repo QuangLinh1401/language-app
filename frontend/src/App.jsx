@@ -1,10 +1,12 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { Routes, Route, useLocation } from "react-router-dom";
 import BottomNav from "./components/BottomNav.jsx";
 import ScrollToTop from "./components/ScrollToTop.jsx";
 import SettingsModal from "./components/SettingsModal.jsx";
 import Icon from "./components/Icon.jsx";
+import { auth } from "./api.js";
 
+import Login from "./pages/Login.jsx";
 import Home from "./pages/Home.jsx";
 import Vocabulary from "./pages/Vocabulary.jsx";
 import VocabTopic from "./pages/VocabTopic.jsx";
@@ -27,6 +29,24 @@ export default function App() {
   const location = useLocation();
   const [showSettings, setShowSettings] = useState(false);
   const [resetKey, setResetKey] = useState(0);
+  const [user, setUser] = useState(() => (auth.token() ? auth.username() : null));
+
+  // api.js fires this when a request comes back 401 (expired/invalid token).
+  useEffect(() => {
+    const onExpired = () => setUser(null);
+    window.addEventListener("auth-expired", onExpired);
+    return () => window.removeEventListener("auth-expired", onExpired);
+  }, []);
+
+  function logout() {
+    auth.clear();
+    setUser(null);
+    setShowSettings(false);
+  }
+
+  if (!user) {
+    return <Login onLogin={(name) => setUser(name)} />;
+  }
 
   return (
     <div className="app-shell">
@@ -34,8 +54,8 @@ export default function App() {
       <button
         className="settings-gear"
         onClick={() => setShowSettings(true)}
-        aria-label="Cài đặt"
-        title="Cài đặt"
+        aria-label="Settings"
+        title="Settings"
       >
         <Icon name="gear" size={20} />
       </button>
@@ -71,8 +91,10 @@ export default function App() {
       <BottomNav />
       {showSettings && (
         <SettingsModal
+          username={user}
           onClose={() => setShowSettings(false)}
           onReset={() => setResetKey((k) => k + 1)}
+          onLogout={logout}
         />
       )}
     </div>
