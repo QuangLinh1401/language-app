@@ -40,13 +40,25 @@ Nếu trước đây bạn đã học và có tiến độ trong `backend/data/u
 
 Muốn tự sao lưu bất cứ lúc nào: bấm **icon bánh răng (góc phải trên)** → **"Tải bản sao dữ liệu (JSON)"**. Cũng ở đó có nút **"Đặt lại toàn bộ tiến độ"** (có xác nhận) nếu muốn học lại từ đầu.
 
-## Deploy nhanh (host ở URL thật)
+## Deploy lên Vercel (1 project, cả frontend + backend)
 
-Vì cần backend + database, app không mở bằng `file://` được — phải host:
+Repo đã cấu hình sẵn để deploy toàn bộ trên **Vercel**:
 
-- **Frontend** (static): `cd frontend && npm run build` ra thư mục `dist/`, deploy lên **Netlify** hoặc **GitHub Pages**. Nhớ trỏ các request `/api/*` về URL backend (sửa proxy/base URL cho môi trường production).
-- **Backend** (Node): deploy lên **Render**, **Railway**, hoặc **Fly.io** — đặt biến môi trường `DATABASE_URL` (và `ANTHROPIC_API_KEY` nếu muốn) trong dashboard của dịch vụ, đừng commit `.env`.
-- **Database**: Neon đã là cloud sẵn, không cần deploy thêm.
+- `frontend/` build thành trang tĩnh (`frontend/dist`).
+- `backend/` (Express) chạy dạng **serverless function** tại `api/index.js` — file `backend/app.js` export app (không `listen`), còn `backend/server.js` chỉ dùng cho chạy local.
+- `vercel.json` lo: build frontend, đưa các file nội dung `backend/data/**` vào function, và rewrite mọi request `/api/*` về function.
+
+**Các bước:**
+1. Push repo này lên GitHub.
+2. Vào [vercel.com](https://vercel.com) → **Add New Project** → import repo `language-app`. Vercel tự đọc `vercel.json`, không cần chỉnh build settings.
+3. Ở **Settings → Environment Variables**, thêm:
+   - `DATABASE_URL` = chuỗi kết nối Neon (bắt buộc — thiếu là API lỗi).
+   - `ANTHROPIC_API_KEY` = (tuỳ chọn, để có bài đọc luyện từ do AI viết).
+4. **Deploy**. Xong sẽ có 1 URL dùng được ở bất cứ đâu; frontend gọi `/api/*` cùng domain nên không cần cấu hình URL backend riêng.
+
+> Neon là database cloud sẵn, không phải deploy. `DATABASE_URL` chỉ đặt trong Environment Variables của Vercel (phía server), không lộ ra frontend.
+
+Chạy local vẫn như cũ: `cd backend && npm run dev` + `cd frontend && npm run dev` (dùng `backend/.env`).
 
 ## Cấu trúc nội dung học
 
