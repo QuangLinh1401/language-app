@@ -1,4 +1,4 @@
-# App học tiếng Anh 4 kỹ năng
+# Language App — học tiếng Anh 4 kỹ năng
 
 Dự án cá nhân gồm 2 phần chạy độc lập:
 
