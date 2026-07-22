@@ -1,0 +1,2568 @@
+{
+  "shadowing": [
+    {
+      "id": "greet-1",
+      "topic": "Greetings & Meeting People",
+      "level": "A1",
+      "sentence": "Hi, how are you doing today?",
+      "ipa": "/haɪ haʊ ɑːr juː ˈduːɪŋ təˈdeɪ/",
+      "meaning": "Chào, hôm nay bạn thế nào?"
+    },
+    {
+      "id": "greet-2",
+      "topic": "Greetings & Meeting People",
+      "level": "A1",
+      "sentence": "Nice to meet you. I'm Minh.",
+      "ipa": "/naɪs tuː miːt juː aɪm mɪn/",
+      "meaning": "Rất vui được gặp bạn. Tôi là Minh."
+    },
+    {
+      "id": "greet-3",
+      "topic": "Greetings & Meeting People",
+      "level": "A1",
+      "sentence": "What's your name, and where are you from?",
+      "ipa": "/wɒts jɔːr neɪm ənd wer ɑːr juː frɒm/",
+      "meaning": "Bạn tên gì và bạn đến từ đâu?"
+    },
+    {
+      "id": "greet-4",
+      "topic": "Greetings & Meeting People",
+      "level": "A2",
+      "sentence": "Long time no see! How have you been?",
+      "ipa": "/lɒŋ taɪm noʊ siː haʊ hæv juː bɪn/",
+      "meaning": "Lâu rồi không gặp! Dạo này bạn thế nào?"
+    },
+    {
+      "id": "greet-5",
+      "topic": "Greetings & Meeting People",
+      "level": "A2",
+      "sentence": "This is my colleague, Anna. She works in marketing.",
+      "ipa": "/ðɪs ɪz maɪ ˈkɒliːɡ ˈænə ʃiː wɜːrks ɪn ˈmɑːrkɪtɪŋ/",
+      "meaning": "Đây là đồng nghiệp của tôi, Anna. Cô ấy làm marketing."
+    },
+    {
+      "id": "greet-6",
+      "topic": "Greetings & Meeting People",
+      "level": "B1",
+      "sentence": "I don't think we've met before — I'm Lan.",
+      "ipa": "/aɪ doʊnt θɪŋk wiːv met bɪˈfɔːr aɪm læn/",
+      "meaning": "Hình như chúng ta chưa gặp nhau — tôi là Lan."
+    },
+    {
+      "id": "greet-7",
+      "topic": "Greetings & Meeting People",
+      "level": "B1",
+      "sentence": "What do you do for a living?",
+      "ipa": "/wɒt duː juː duː fɔːr ə ˈlɪvɪŋ/",
+      "meaning": "Bạn làm nghề gì?"
+    },
+    {
+      "id": "greet-8",
+      "topic": "Greetings & Meeting People",
+      "level": "B1",
+      "sentence": "How do you two know each other?",
+      "ipa": "/haʊ duː juː tuː noʊ iːtʃ ˈʌðər/",
+      "meaning": "Hai bạn quen nhau như thế nào?"
+    },
+    {
+      "id": "greet-9",
+      "topic": "Greetings & Meeting People",
+      "level": "B2",
+      "sentence": "I've heard so much about you, it's great to finally meet.",
+      "ipa": "/aɪv hɜːrd soʊ mʌtʃ əˈbaʊt juː ɪts ɡreɪt tuː ˈfaɪnəli miːt/",
+      "meaning": "Tôi nghe kể nhiều về bạn rồi, cuối cùng cũng được gặp."
+    },
+    {
+      "id": "greet-10",
+      "topic": "Greetings & Meeting People",
+      "level": "B2",
+      "sentence": "Feel free to reach out if you ever need anything.",
+      "ipa": "/fiːl friː tuː riːtʃ aʊt ɪf juː ˈevər niːd ˈeniθɪŋ/",
+      "meaning": "Cứ liên hệ nếu bạn cần gì nhé."
+    },
+    {
+      "id": "smalltalk-1",
+      "topic": "Everyday Small Talk",
+      "level": "A1",
+      "sentence": "It's a nice day today, isn't it?",
+      "ipa": "/ɪts ə naɪs deɪ təˈdeɪ ˈɪzənt ɪt/",
+      "meaning": "Hôm nay trời đẹp nhỉ?"
+    },
+    {
+      "id": "smalltalk-2",
+      "topic": "Everyday Small Talk",
+      "level": "A1",
+      "sentence": "How was your weekend?",
+      "ipa": "/haʊ wɒz jɔːr ˈwiːkend/",
+      "meaning": "Cuối tuần của bạn thế nào?"
+    },
+    {
+      "id": "smalltalk-3",
+      "topic": "Everyday Small Talk",
+      "level": "A2",
+      "sentence": "Did you have a good trip?",
+      "ipa": "/dɪd juː hæv ə ɡʊd trɪp/",
+      "meaning": "Chuyến đi của bạn có vui không?"
+    },
+    {
+      "id": "smalltalk-4",
+      "topic": "Everyday Small Talk",
+      "level": "A2",
+      "sentence": "I really like your haircut, it suits you.",
+      "ipa": "/aɪ ˈriːəli laɪk jɔːr ˈherkʌt ɪt suːts juː/",
+      "meaning": "Mình rất thích kiểu tóc mới của bạn, hợp lắm."
+    },
+    {
+      "id": "smalltalk-5",
+      "topic": "Everyday Small Talk",
+      "level": "B1",
+      "sentence": "So, what have you been up to lately?",
+      "ipa": "/soʊ wɒt hæv juː bɪn ʌp tuː ˈleɪtli/",
+      "meaning": "Dạo này bạn bận rộn với việc gì vậy?"
+    },
+    {
+      "id": "smalltalk-6",
+      "topic": "Everyday Small Talk",
+      "level": "B1",
+      "sentence": "Can you believe how fast this year has gone?",
+      "ipa": "/kæn juː bɪˈliːv haʊ fæst ðɪs jɪr hæz ɡɒn/",
+      "meaning": "Bạn có tin nổi năm nay trôi nhanh vậy không?"
+    },
+    {
+      "id": "smalltalk-7",
+      "topic": "Everyday Small Talk",
+      "level": "B1",
+      "sentence": "I heard the traffic was terrible this morning.",
+      "ipa": "/aɪ hɜːrd ðə ˈtræfɪk wɒz ˈterəbəl ðɪs ˈmɔːrnɪŋ/",
+      "meaning": "Nghe nói sáng nay kẹt xe kinh khủng."
+    },
+    {
+      "id": "smalltalk-8",
+      "topic": "Everyday Small Talk",
+      "level": "B2",
+      "sentence": "I can't complain, though it's been a hectic week.",
+      "ipa": "/aɪ kænt kəmˈpleɪn ðoʊ ɪts bɪn ə ˈhektɪk wiːk/",
+      "meaning": "Cũng ổn thôi, dù tuần này khá bận rộn."
+    },
+    {
+      "id": "smalltalk-9",
+      "topic": "Everyday Small Talk",
+      "level": "B2",
+      "sentence": "We should really catch up properly sometime soon.",
+      "ipa": "/wiː ʃʊd ˈriːəli kætʃ ʌp ˈprɒpərli ˈsʌmtaɪm suːn/",
+      "meaning": "Bọn mình nên hẹn nhau nói chuyện đàng hoàng lúc nào đó."
+    },
+    {
+      "id": "smalltalk-10",
+      "topic": "Everyday Small Talk",
+      "level": "B2",
+      "sentence": "It's been ages — you haven't changed a bit!",
+      "ipa": "/ɪts bɪn ˈeɪdʒɪz juː ˈhævənt tʃeɪndʒd ə bɪt/",
+      "meaning": "Lâu ghê rồi — bạn chẳng thay đổi gì cả!"
+    },
+    {
+      "id": "family-1",
+      "topic": "Family",
+      "level": "A1",
+      "sentence": "How many people are there in your family?",
+      "ipa": "/haʊ ˈmeni ˈpiːpəl ɑːr ðer ɪn jɔːr ˈfæməli/",
+      "meaning": "Gia đình bạn có mấy người?"
+    },
+    {
+      "id": "family-2",
+      "topic": "Family",
+      "level": "A1",
+      "sentence": "My parents live in the countryside.",
+      "ipa": "/maɪ ˈperənts lɪv ɪn ðə ˈkʌntrisaɪd/",
+      "meaning": "Bố mẹ tôi sống ở quê."
+    },
+    {
+      "id": "family-3",
+      "topic": "Family",
+      "level": "A2",
+      "sentence": "I take after my mother in many ways.",
+      "ipa": "/aɪ teɪk ˈæftər maɪ ˈmʌðər ɪn ˈmeni weɪz/",
+      "meaning": "Tôi giống mẹ ở nhiều điểm."
+    },
+    {
+      "id": "family-4",
+      "topic": "Family",
+      "level": "A2",
+      "sentence": "We usually visit my grandparents every Sunday.",
+      "ipa": "/wiː ˈjuːʒuəli ˈvɪzɪt maɪ ˈɡrænperənts ˈevri ˈsʌndeɪ/",
+      "meaning": "Chúng tôi thường thăm ông bà vào mỗi Chủ nhật."
+    },
+    {
+      "id": "family-5",
+      "topic": "Family",
+      "level": "B1",
+      "sentence": "My siblings and I are very close to each other.",
+      "ipa": "/maɪ ˈsɪblɪŋz ənd aɪ ɑːr ˈveri kloʊs tuː iːtʃ ˈʌðər/",
+      "meaning": "Anh chị em tôi rất thân thiết với nhau."
+    },
+    {
+      "id": "family-6",
+      "topic": "Family",
+      "level": "B1",
+      "sentence": "I was raised by my grandmother most of my childhood.",
+      "ipa": "/aɪ wɒz reɪzd baɪ maɪ ˈɡrænˌmʌðər moʊst əv maɪ ˈtʃaɪldhʊd/",
+      "meaning": "Tôi được bà nuôi dạy phần lớn thời thơ ấu."
+    },
+    {
+      "id": "family-7",
+      "topic": "Family",
+      "level": "B1",
+      "sentence": "We're planning a big family reunion this Tet.",
+      "ipa": "/wɪr ˈplænɪŋ ə bɪɡ ˈfæməli riˈjuːnjən ðɪs tet/",
+      "meaning": "Chúng tôi đang lên kế hoạch họp mặt gia đình lớn dịp Tết này."
+    },
+    {
+      "id": "family-8",
+      "topic": "Family",
+      "level": "B2",
+      "sentence": "Balancing family responsibilities with work isn't always easy.",
+      "ipa": "/ˈbælənsɪŋ ˈfæməli rɪˌspɒnsəˈbɪlətiz wɪð wɜːrk ˈɪzənt ˈɔːlweɪz ˈiːzi/",
+      "meaning": "Cân bằng giữa trách nhiệm gia đình và công việc không phải lúc nào cũng dễ."
+    },
+    {
+      "id": "family-9",
+      "topic": "Family",
+      "level": "B2",
+      "sentence": "My parents have always encouraged me to be independent.",
+      "ipa": "/maɪ ˈperənts hæv ˈɔːlweɪz ɪnˈkɜːrɪdʒd miː tuː biː ˌɪndɪˈpendənt/",
+      "meaning": "Bố mẹ tôi luôn khuyến khích tôi sống tự lập."
+    },
+    {
+      "id": "family-10",
+      "topic": "Family",
+      "level": "B2",
+      "sentence": "We don't always agree, but we respect each other's choices.",
+      "ipa": "/wiː doʊnt ˈɔːlweɪz əˈɡriː bʌt wiː rɪˈspekt iːtʃ ˈʌðərz tʃɔɪsɪz/",
+      "meaning": "Chúng tôi không phải lúc nào cũng đồng ý, nhưng tôn trọng lựa chọn của nhau."
+    },
+    {
+      "id": "school-1",
+      "topic": "School",
+      "level": "A1",
+      "sentence": "What subject do you like the most?",
+      "ipa": "/wɒt ˈsʌbdʒɪkt duː juː laɪk ðə moʊst/",
+      "meaning": "Bạn thích môn học nào nhất?"
+    },
+    {
+      "id": "school-2",
+      "topic": "School",
+      "level": "A1",
+      "sentence": "I have five classes today.",
+      "ipa": "/aɪ hæv faɪv ˈklæsɪz təˈdeɪ/",
+      "meaning": "Hôm nay tôi có năm tiết học."
+    },
+    {
+      "id": "school-3",
+      "topic": "School",
+      "level": "A2",
+      "sentence": "Our exam results come out next Friday.",
+      "ipa": "/ˈaʊər ɪɡˈzæm rɪˈzʌlts kʌm aʊt nekst ˈfraɪdeɪ/",
+      "meaning": "Kết quả thi của chúng tôi sẽ có vào thứ Sáu tới."
+    },
+    {
+      "id": "school-4",
+      "topic": "School",
+      "level": "A2",
+      "sentence": "Can you explain this question again, please?",
+      "ipa": "/kæn juː ɪkˈspleɪn ðɪs ˈkwestʃən əˈɡen pliːz/",
+      "meaning": "Bạn có thể giải thích lại câu hỏi này không?"
+    },
+    {
+      "id": "school-5",
+      "topic": "School",
+      "level": "B1",
+      "sentence": "I'm struggling to keep up with the homework lately.",
+      "ipa": "/aɪm ˈstrʌɡlɪŋ tuː kiːp ʌp wɪð ðə ˈhoʊmwɜːrk ˈleɪtli/",
+      "meaning": "Dạo này tôi thấy khó theo kịp bài tập về nhà."
+    },
+    {
+      "id": "school-6",
+      "topic": "School",
+      "level": "B1",
+      "sentence": "She got a scholarship to study abroad next year.",
+      "ipa": "/ʃiː ɡɒt ə ˈskɒlərʃɪp tuː ˈstʌdi əˈbrɔːd nekst jɪr/",
+      "meaning": "Cô ấy nhận được học bổng để du học năm sau."
+    },
+    {
+      "id": "school-7",
+      "topic": "School",
+      "level": "B1",
+      "sentence": "I need to submit my assignment before midnight.",
+      "ipa": "/aɪ niːd tuː səbˈmɪt maɪ əˈsaɪnmənt bɪˈfɔːr ˈmɪdnaɪt/",
+      "meaning": "Tôi cần nộp bài tập trước nửa đêm."
+    },
+    {
+      "id": "school-8",
+      "topic": "School",
+      "level": "B2",
+      "sentence": "The curriculum here focuses more on critical thinking than memorization.",
+      "ipa": "/ðə kəˈrɪkjələm hɪr ˈfoʊkəsɪz mɔːr ɒn ˈkrɪtɪkəl ˈθɪŋkɪŋ ðæn ˌmeməraɪˈzeɪʃən/",
+      "meaning": "Chương trình học ở đây chú trọng tư duy phản biện hơn là học thuộc lòng."
+    },
+    {
+      "id": "school-9",
+      "topic": "School",
+      "level": "B2",
+      "sentence": "I ended up switching majors halfway through university.",
+      "ipa": "/aɪ ˈendɪd ʌp ˈswɪtʃɪŋ ˈmeɪdʒərz ˈhæfweɪ θruː ˌjuːnɪˈvɜːrsəti/",
+      "meaning": "Cuối cùng tôi đổi ngành học giữa chừng đại học."
+    },
+    {
+      "id": "school-10",
+      "topic": "School",
+      "level": "B2",
+      "sentence": "Group projects taught me a lot about teamwork, for better or worse.",
+      "ipa": "/ɡruːp ˈprɒdʒekts tɔːt miː ə lɒt əˈbaʊt ˈtiːmwɜːrk fɔːr ˈbetər ɔːr wɜːrs/",
+      "meaning": "Các dự án nhóm dạy tôi nhiều về làm việc nhóm, dù tốt hay xấu."
+    },
+    {
+      "id": "work-1",
+      "topic": "Work & Office",
+      "level": "A1",
+      "sentence": "I start work at eight every morning.",
+      "ipa": "/aɪ stɑːrt wɜːrk æt eɪt ˈevri ˈmɔːrnɪŋ/",
+      "meaning": "Tôi bắt đầu làm việc lúc tám giờ mỗi sáng."
+    },
+    {
+      "id": "work-2",
+      "topic": "Work & Office",
+      "level": "A1",
+      "sentence": "Where is the printer? I need to print this file.",
+      "ipa": "/wer ɪz ðə ˈprɪntər aɪ niːd tuː prɪnt ðɪs faɪl/",
+      "meaning": "Máy in ở đâu vậy? Tôi cần in file này."
+    },
+    {
+      "id": "work-3",
+      "topic": "Work & Office",
+      "level": "A2",
+      "sentence": "Could you send me that file by email?",
+      "ipa": "/kʊd juː send miː ðæt faɪl baɪ ˈiːmeɪl/",
+      "meaning": "Bạn gửi file đó cho tôi qua email được không?"
+    },
+    {
+      "id": "work-4",
+      "topic": "Work & Office",
+      "level": "A2",
+      "sentence": "I'm on lunch break, I'll call you back in an hour.",
+      "ipa": "/aɪm ɒn lʌntʃ breɪk aɪl kɔːl juː bæk ɪn ən ˈaʊər/",
+      "meaning": "Tôi đang nghỉ trưa, một tiếng nữa tôi gọi lại nhé."
+    },
+    {
+      "id": "work-5",
+      "topic": "Work & Office",
+      "level": "B1",
+      "sentence": "I'm swamped with work this week, can we push the call?",
+      "ipa": "/aɪm swɒmpt wɪð wɜːrk ðɪs wiːk kæn wiː pʊʃ ðə kɔːl/",
+      "meaning": "Tuần này tôi ngập trong công việc, mình dời cuộc gọi được không?"
+    },
+    {
+      "id": "work-6",
+      "topic": "Work & Office",
+      "level": "B1",
+      "sentence": "Let's touch base again once the client responds.",
+      "ipa": "/lets tʌtʃ beɪs əˈɡen wʌns ðə ˈklaɪənt rɪˈspɒndz/",
+      "meaning": "Khi nào khách hàng phản hồi thì mình trao đổi lại nhé."
+    },
+    {
+      "id": "work-7",
+      "topic": "Work & Office",
+      "level": "B1",
+      "sentence": "I'm handing this task over to Minh from next week.",
+      "ipa": "/aɪm ˈhændɪŋ ðɪs tæsk ˈoʊvər tuː mɪn frɒm nekst wiːk/",
+      "meaning": "Từ tuần sau tôi sẽ bàn giao việc này lại cho Minh."
+    },
+    {
+      "id": "work-8",
+      "topic": "Work & Office",
+      "level": "B2",
+      "sentence": "We need to streamline this process before it scales.",
+      "ipa": "/wiː niːd tuː ˈstriːmlaɪn ðɪs ˈprɒses bɪˈfɔːr ɪt skeɪlz/",
+      "meaning": "Chúng ta cần tinh gọn quy trình này trước khi mở rộng quy mô."
+    },
+    {
+      "id": "work-9",
+      "topic": "Work & Office",
+      "level": "B2",
+      "sentence": "I'd appreciate it if we could keep this between us for now.",
+      "ipa": "/aɪd əˈpriːʃieɪt ɪt ɪf wiː kʊd kiːp ðɪs bɪˈtwiːn ʌs fɔːr naʊ/",
+      "meaning": "Mong mọi người giữ kín chuyện này giữa chúng ta trước đã."
+    },
+    {
+      "id": "work-10",
+      "topic": "Work & Office",
+      "level": "B2",
+      "sentence": "Let's circle back to this once we have more data.",
+      "ipa": "/lets ˈsɜːrkəl bæk tuː ðɪs wʌns wiː hæv mɔːr ˈdeɪtə/",
+      "meaning": "Khi có thêm dữ liệu chúng ta sẽ quay lại vấn đề này."
+    },
+    {
+      "id": "interview-1",
+      "topic": "Job Interviews",
+      "level": "A2",
+      "sentence": "Could you tell me a little about yourself?",
+      "ipa": "/kʊd juː tel miː ə ˈlɪtəl əˈbaʊt jɔːrˈself/",
+      "meaning": "Bạn có thể giới thiệu một chút về bản thân không?"
+    },
+    {
+      "id": "interview-2",
+      "topic": "Job Interviews",
+      "level": "A2",
+      "sentence": "I have two years of experience in this field.",
+      "ipa": "/aɪ hæv tuː jɪrz əv ɪkˈspɪriəns ɪn ðɪs fiːld/",
+      "meaning": "Tôi có hai năm kinh nghiệm trong lĩnh vực này."
+    },
+    {
+      "id": "interview-3",
+      "topic": "Job Interviews",
+      "level": "B1",
+      "sentence": "What would you say is your biggest weakness?",
+      "ipa": "/wɒt wʊd juː seɪ ɪz jɔːr ˈbɪɡɪst ˈwiːknəs/",
+      "meaning": "Bạn nghĩ điểm yếu lớn nhất của mình là gì?"
+    },
+    {
+      "id": "interview-4",
+      "topic": "Job Interviews",
+      "level": "B1",
+      "sentence": "I'm a fast learner and I work well under pressure.",
+      "ipa": "/aɪm ə fæst ˈlɜːrnər ənd aɪ wɜːrk wel ˈʌndər ˈpreʃər/",
+      "meaning": "Tôi học nhanh và làm việc tốt dưới áp lực."
+    },
+    {
+      "id": "interview-5",
+      "topic": "Job Interviews",
+      "level": "B1",
+      "sentence": "Why did you decide to leave your previous job?",
+      "ipa": "/waɪ dɪd juː dɪˈsaɪd tuː liːv jɔːr ˈpriːviəs dʒɒb/",
+      "meaning": "Vì sao bạn quyết định rời công việc trước đây?"
+    },
+    {
+      "id": "interview-6",
+      "topic": "Job Interviews",
+      "level": "B1",
+      "sentence": "Where do you see yourself in five years?",
+      "ipa": "/wer duː juː siː jɔːrˈself ɪn faɪv jɪrz/",
+      "meaning": "Bạn hình dung mình ở đâu trong năm năm tới?"
+    },
+    {
+      "id": "interview-7",
+      "topic": "Job Interviews",
+      "level": "B2",
+      "sentence": "I led a project that increased revenue by 20 percent.",
+      "ipa": "/aɪ led ə ˈprɒdʒekt ðæt ɪnˈkriːst ˈrevənuː baɪ ˈtwenti pərˈsent/",
+      "meaning": "Tôi đã dẫn dắt một dự án giúp tăng doanh thu 20%."
+    },
+    {
+      "id": "interview-8",
+      "topic": "Job Interviews",
+      "level": "B2",
+      "sentence": "I'm confident I can bring real value to this team.",
+      "ipa": "/aɪm ˈkɒnfɪdənt aɪ kæn brɪŋ rɪəl ˈvæljuː tuː ðɪs tiːm/",
+      "meaning": "Tôi tự tin mình có thể mang lại giá trị thực sự cho đội ngũ này."
+    },
+    {
+      "id": "interview-9",
+      "topic": "Job Interviews",
+      "level": "B2",
+      "sentence": "Do you have any questions for me before we wrap up?",
+      "ipa": "/duː juː hæv ˈeni ˈkwestʃənz fɔːr miː bɪˈfɔːr wiː ræp ʌp/",
+      "meaning": "Bạn có câu hỏi nào cho tôi trước khi kết thúc không?"
+    },
+    {
+      "id": "interview-10",
+      "topic": "Job Interviews",
+      "level": "B2",
+      "sentence": "Thank you for your time, I look forward to hearing from you.",
+      "ipa": "/θæŋk juː fɔːr jɔːr taɪm aɪ lʊk ˈfɔːrwərd tuː ˈhɪrɪŋ frɒm juː/",
+      "meaning": "Cảm ơn vì đã dành thời gian, tôi mong sớm nhận được phản hồi."
+    },
+    {
+      "id": "meetings-1",
+      "topic": "Meetings",
+      "level": "A2",
+      "sentence": "Let's start the meeting, everyone is here now.",
+      "ipa": "/lets stɑːrt ðə ˈmiːtɪŋ ˈevriwʌn ɪz hɪr naʊ/",
+      "meaning": "Bắt đầu cuộc họp thôi, mọi người có mặt đủ rồi."
+    },
+    {
+      "id": "meetings-2",
+      "topic": "Meetings",
+      "level": "A2",
+      "sentence": "Can everyone see my screen okay?",
+      "ipa": "/kæn ˈevriwʌn siː maɪ skriːn ˈoʊkeɪ/",
+      "meaning": "Mọi người có nhìn thấy màn hình của tôi không?"
+    },
+    {
+      "id": "meetings-3",
+      "topic": "Meetings",
+      "level": "B1",
+      "sentence": "Let's go around the room and share updates.",
+      "ipa": "/lets ɡoʊ əˈraʊnd ðə ruːm ənd ʃer ˈʌpdeɪts/",
+      "meaning": "Mọi người lần lượt chia sẻ cập nhật công việc nhé."
+    },
+    {
+      "id": "meetings-4",
+      "topic": "Meetings",
+      "level": "B1",
+      "sentence": "Sorry to interrupt, but can I add something here?",
+      "ipa": "/ˈsɒri tuː ˌɪntəˈrʌpt bʌt kæn aɪ æd ˈsʌmθɪŋ hɪr/",
+      "meaning": "Xin lỗi ngắt lời, nhưng tôi có thể bổ sung điều này được không?"
+    },
+    {
+      "id": "meetings-5",
+      "topic": "Meetings",
+      "level": "B1",
+      "sentence": "Let's park this discussion and move on to the next item.",
+      "ipa": "/lets pɑːrk ðɪs dɪsˈkʌʃən ənd muːv ɒn tuː ðə nekst ˈaɪtəm/",
+      "meaning": "Tạm gác vấn đề này lại, chuyển sang mục tiếp theo nhé."
+    },
+    {
+      "id": "meetings-6",
+      "topic": "Meetings",
+      "level": "B2",
+      "sentence": "Let's align on the next steps before we wrap up.",
+      "ipa": "/lets əˈlaɪn ɒn ðə nekst steps bɪˈfɔːr wiː ræp ʌp/",
+      "meaning": "Hãy thống nhất các bước tiếp theo trước khi kết thúc."
+    },
+    {
+      "id": "meetings-7",
+      "topic": "Meetings",
+      "level": "B2",
+      "sentence": "I'll follow up with the minutes after this call.",
+      "ipa": "/aɪl ˈfɒloʊ ʌp wɪð ðə ˈmɪnɪts ˈæftər ðɪs kɔːl/",
+      "meaning": "Tôi sẽ gửi biên bản họp sau cuộc gọi này."
+    },
+    {
+      "id": "meetings-8",
+      "topic": "Meetings",
+      "level": "B2",
+      "sentence": "Let's table this for now and revisit it next quarter.",
+      "ipa": "/lets ˈteɪbəl ðɪs fɔːr naʊ ənd riˈvɪzɪt ɪt nekst ˈkwɔːrtər/",
+      "meaning": "Tạm gác việc này lại và xem xét vào quý sau."
+    },
+    {
+      "id": "meetings-9",
+      "topic": "Meetings",
+      "level": "B2",
+      "sentence": "Can we get everyone's buy-in before moving forward?",
+      "ipa": "/kæn wiː ɡet ˈevriwʌnz ˈbaɪɪn bɪˈfɔːr ˈmuːvɪŋ ˈfɔːrwərd/",
+      "meaning": "Chúng ta có thể xin sự đồng thuận của mọi người trước khi tiến hành không?"
+    },
+    {
+      "id": "meetings-10",
+      "topic": "Meetings",
+      "level": "B2",
+      "sentence": "To summarize, we've agreed on three main action points.",
+      "ipa": "/tuː ˈsʌməraɪz wiːv əˈɡriːd ɒn θriː meɪn ˈækʃən pɔɪnts/",
+      "meaning": "Tóm lại, chúng ta đã thống nhất ba đầu việc chính."
+    },
+    {
+      "id": "restaurant-1",
+      "topic": "Restaurant",
+      "level": "A1",
+      "sentence": "A table for two, please.",
+      "ipa": "/ə ˈteɪbəl fɔːr tuː pliːz/",
+      "meaning": "Cho tôi một bàn hai người."
+    },
+    {
+      "id": "restaurant-2",
+      "topic": "Restaurant",
+      "level": "A1",
+      "sentence": "Could I see the menu, please?",
+      "ipa": "/kʊd aɪ siː ðə ˈmenjuː pliːz/",
+      "meaning": "Cho tôi xem thực đơn được không?"
+    },
+    {
+      "id": "restaurant-3",
+      "topic": "Restaurant",
+      "level": "A2",
+      "sentence": "I'd like the grilled chicken, please.",
+      "ipa": "/aɪd laɪk ðə ɡrɪld ˈtʃɪkɪn pliːz/",
+      "meaning": "Tôi muốn gọi món gà nướng."
+    },
+    {
+      "id": "restaurant-4",
+      "topic": "Restaurant",
+      "level": "A2",
+      "sentence": "Could we get some more water, please?",
+      "ipa": "/kʊd wiː ɡet sʌm mɔːr ˈwɔːtər pliːz/",
+      "meaning": "Cho chúng tôi thêm nước được không?"
+    },
+    {
+      "id": "restaurant-5",
+      "topic": "Restaurant",
+      "level": "B1",
+      "sentence": "Do you have any vegetarian options on the menu?",
+      "ipa": "/duː juː hæv ˈeni ˌvedʒəˈteriən ˈɒpʃənz ɒn ðə ˈmenjuː/",
+      "meaning": "Nhà hàng có món chay không?"
+    },
+    {
+      "id": "restaurant-6",
+      "topic": "Restaurant",
+      "level": "B1",
+      "sentence": "Could we get the bill, please?",
+      "ipa": "/kʊd wiː ɡet ðə bɪl pliːz/",
+      "meaning": "Cho chúng tôi xin hóa đơn."
+    },
+    {
+      "id": "restaurant-7",
+      "topic": "Restaurant",
+      "level": "B1",
+      "sentence": "Excuse me, I think there's a mistake in the bill.",
+      "ipa": "/ɪkˈskjuːz miː aɪ θɪŋk ðerz ə mɪˈsteɪk ɪn ðə bɪl/",
+      "meaning": "Xin lỗi, tôi nghĩ hóa đơn này bị sai."
+    },
+    {
+      "id": "restaurant-8",
+      "topic": "Restaurant",
+      "level": "B2",
+      "sentence": "Could you recommend something that's not too spicy?",
+      "ipa": "/kʊd juː ˌrekəˈmend ˈsʌmθɪŋ ðæts nɒt tuː ˈspaɪsi/",
+      "meaning": "Bạn có thể gợi ý món nào không quá cay không?"
+    },
+    {
+      "id": "restaurant-9",
+      "topic": "Restaurant",
+      "level": "B2",
+      "sentence": "Everything was delicious, please pass our compliments to the chef.",
+      "ipa": "/ˈevriθɪŋ wɒz dɪˈlɪʃəs pliːz pæs ˈaʊər ˈkɒmplɪments tuː ðə ʃef/",
+      "meaning": "Mọi thứ đều ngon tuyệt, cho chúng tôi gửi lời khen đến đầu bếp."
+    },
+    {
+      "id": "restaurant-10",
+      "topic": "Restaurant",
+      "level": "B2",
+      "sentence": "Could we split the bill between the two cards?",
+      "ipa": "/kʊd wiː splɪt ðə bɪl bɪˈtwiːn ðə tuː kɑːrdz/",
+      "meaning": "Chúng tôi có thể chia hóa đơn ra hai thẻ được không?"
+    },
+    {
+      "id": "cafe-1",
+      "topic": "Coffee Shop",
+      "level": "A1",
+      "sentence": "A small coffee, please.",
+      "ipa": "/ə smɔːl ˈkɒfi pliːz/",
+      "meaning": "Cho tôi một ly cà phê nhỏ."
+    },
+    {
+      "id": "cafe-2",
+      "topic": "Coffee Shop",
+      "level": "A1",
+      "sentence": "Is this seat taken?",
+      "ipa": "/ɪz ðɪs siːt ˈteɪkən/",
+      "meaning": "Chỗ này có ai ngồi chưa?"
+    },
+    {
+      "id": "cafe-3",
+      "topic": "Coffee Shop",
+      "level": "A2",
+      "sentence": "Can I get that to go, please?",
+      "ipa": "/kæn aɪ ɡet ðæt tuː ɡoʊ pliːz/",
+      "meaning": "Cho tôi mang đi được không?"
+    },
+    {
+      "id": "cafe-4",
+      "topic": "Coffee Shop",
+      "level": "A2",
+      "sentence": "Do you have oat milk instead of regular milk?",
+      "ipa": "/duː juː hæv oʊt mɪlk ɪnˈsted əv ˈreɡjələr mɪlk/",
+      "meaning": "Quán có sữa yến mạch thay cho sữa thường không?"
+    },
+    {
+      "id": "cafe-5",
+      "topic": "Coffee Shop",
+      "level": "B1",
+      "sentence": "Is there free wifi here? What's the password?",
+      "ipa": "/ɪz ðer friː ˈwaɪfaɪ hɪr wɒts ðə ˈpæswɜːrd/",
+      "meaning": "Ở đây có wifi miễn phí không? Mật khẩu là gì?"
+    },
+    {
+      "id": "cafe-6",
+      "topic": "Coffee Shop",
+      "level": "B1",
+      "sentence": "Could you make it less sweet than usual?",
+      "ipa": "/kʊd juː meɪk ɪt les swiːt ðæn ˈjuːʒuəl/",
+      "meaning": "Bạn làm ít ngọt hơn bình thường được không?"
+    },
+    {
+      "id": "cafe-7",
+      "topic": "Coffee Shop",
+      "level": "B1",
+      "sentence": "I'll just have whatever you recommend.",
+      "ipa": "/aɪl dʒʌst hæv wɒtˈevər juː ˌrekəˈmend/",
+      "meaning": "Bạn gợi ý gì thì tôi dùng món đó."
+    },
+    {
+      "id": "cafe-8",
+      "topic": "Coffee Shop",
+      "level": "B2",
+      "sentence": "This place has such a cozy atmosphere, I love studying here.",
+      "ipa": "/ðɪs pleɪs hæz sʌtʃ ə ˈkoʊzi ˈætməsfɪr aɪ lʌv ˈstʌdiɪŋ hɪr/",
+      "meaning": "Quán này không khí ấm cúng thật, mình thích học ở đây."
+    },
+    {
+      "id": "cafe-9",
+      "topic": "Coffee Shop",
+      "level": "B2",
+      "sentence": "Mind if I sit here? All the other tables are full.",
+      "ipa": "/maɪnd ɪf aɪ sɪt hɪr ɔːl ði ˈʌðər ˈteɪbəlz ɑːr fʊl/",
+      "meaning": "Mình ngồi đây được không? Các bàn khác đầy hết rồi."
+    },
+    {
+      "id": "cafe-10",
+      "topic": "Coffee Shop",
+      "level": "B2",
+      "sentence": "They ran out of oat milk, so I went with almond instead.",
+      "ipa": "/ðeɪ ræn aʊt əv oʊt mɪlk soʊ aɪ went wɪð ˈɑːmənd ɪnˈsted/",
+      "meaning": "Quán hết sữa yến mạch nên tôi đổi sang sữa hạnh nhân."
+    },
+    {
+      "id": "shopping-1",
+      "topic": "Shopping",
+      "level": "A1",
+      "sentence": "How much is this?",
+      "ipa": "/haʊ mʌtʃ ɪz ðɪs/",
+      "meaning": "Cái này giá bao nhiêu?"
+    },
+    {
+      "id": "shopping-2",
+      "topic": "Shopping",
+      "level": "A1",
+      "sentence": "Do you have this in a smaller size?",
+      "ipa": "/duː juː hæv ðɪs ɪn ə ˈsmɔːlər saɪz/",
+      "meaning": "Có size nhỏ hơn không?"
+    },
+    {
+      "id": "shopping-3",
+      "topic": "Shopping",
+      "level": "A2",
+      "sentence": "I'm just browsing, thank you.",
+      "ipa": "/aɪm dʒʌst ˈbraʊzɪŋ ˈθæŋk juː/",
+      "meaning": "Tôi chỉ xem thôi, cảm ơn."
+    },
+    {
+      "id": "shopping-4",
+      "topic": "Shopping",
+      "level": "A2",
+      "sentence": "Can I try this on?",
+      "ipa": "/kæn aɪ traɪ ðɪs ɒn/",
+      "meaning": "Tôi thử món này được không?"
+    },
+    {
+      "id": "shopping-5",
+      "topic": "Shopping",
+      "level": "B1",
+      "sentence": "Is this the final price, or can we negotiate?",
+      "ipa": "/ɪz ðɪs ðə ˈfaɪnəl praɪs ɔːr kæn wiː nɪˈɡoʊʃieɪt/",
+      "meaning": "Đây là giá cuối cùng hay còn thương lượng được?"
+    },
+    {
+      "id": "shopping-6",
+      "topic": "Shopping",
+      "level": "B1",
+      "sentence": "Do you offer a discount if I buy two?",
+      "ipa": "/duː juː ˈɒfər ə ˈdɪskaʊnt ɪf aɪ baɪ tuː/",
+      "meaning": "Mua hai cái có được giảm giá không?"
+    },
+    {
+      "id": "shopping-7",
+      "topic": "Shopping",
+      "level": "B1",
+      "sentence": "I'd like to return this, it doesn't fit.",
+      "ipa": "/aɪd laɪk tuː rɪˈtɜːrn ðɪs ɪt ˈdʌzənt fɪt/",
+      "meaning": "Tôi muốn trả lại món này, nó không vừa."
+    },
+    {
+      "id": "shopping-8",
+      "topic": "Shopping",
+      "level": "B2",
+      "sentence": "I'll think about it and come back if I change my mind.",
+      "ipa": "/aɪl θɪŋk əˈbaʊt ɪt ənd kʌm bæk ɪf aɪ tʃeɪndʒ maɪ maɪnd/",
+      "meaning": "Tôi sẽ suy nghĩ thêm, đổi ý thì quay lại sau."
+    },
+    {
+      "id": "shopping-9",
+      "topic": "Shopping",
+      "level": "B2",
+      "sentence": "Could you give me a bit of a discount for cash?",
+      "ipa": "/kʊd juː ɡɪv miː ə bɪt əv ə ˈdɪskaʊnt fɔːr kæʃ/",
+      "meaning": "Trả tiền mặt thì có bớt chút được không?"
+    },
+    {
+      "id": "shopping-10",
+      "topic": "Shopping",
+      "level": "B2",
+      "sentence": "This is way out of my budget, do you have anything cheaper?",
+      "ipa": "/ðɪs ɪz weɪ aʊt əv maɪ ˈbʌdʒɪt duː juː hæv ˈeniθɪŋ ˈtʃiːpər/",
+      "meaning": "Cái này vượt ngân sách của tôi rồi, có gì rẻ hơn không?"
+    },
+    {
+      "id": "airport-1",
+      "topic": "Airport",
+      "level": "A1",
+      "sentence": "Where is the check-in counter?",
+      "ipa": "/wer ɪz ðə tʃek ɪn ˈkaʊntər/",
+      "meaning": "Quầy làm thủ tục ở đâu?"
+    },
+    {
+      "id": "airport-2",
+      "topic": "Airport",
+      "level": "A1",
+      "sentence": "I have one bag to check in.",
+      "ipa": "/aɪ hæv wʌn bæɡ tuː tʃek ɪn/",
+      "meaning": "Tôi có một hành lý cần ký gửi."
+    },
+    {
+      "id": "airport-3",
+      "topic": "Airport",
+      "level": "A2",
+      "sentence": "Which gate does this flight leave from?",
+      "ipa": "/wɪtʃ ɡeɪt dʌz ðɪs flaɪt liːv frɒm/",
+      "meaning": "Chuyến bay này cất cánh ở cổng nào?"
+    },
+    {
+      "id": "airport-4",
+      "topic": "Airport",
+      "level": "A2",
+      "sentence": "I'd like a window seat, please.",
+      "ipa": "/aɪd laɪk ə ˈwɪndoʊ siːt pliːz/",
+      "meaning": "Tôi muốn ngồi ghế cạnh cửa sổ."
+    },
+    {
+      "id": "airport-5",
+      "topic": "Airport",
+      "level": "B1",
+      "sentence": "How long is the layover in Bangkok?",
+      "ipa": "/haʊ lɒŋ ɪz ðə ˈleɪoʊvər ɪn ˈbæŋkɒk/",
+      "meaning": "Thời gian quá cảnh ở Bangkok là bao lâu?"
+    },
+    {
+      "id": "airport-6",
+      "topic": "Airport",
+      "level": "B1",
+      "sentence": "My flight has been delayed by two hours.",
+      "ipa": "/maɪ flaɪt hæz bɪn dɪˈleɪd baɪ tuː ˈaʊərz/",
+      "meaning": "Chuyến bay của tôi bị trễ hai tiếng."
+    },
+    {
+      "id": "airport-7",
+      "topic": "Airport",
+      "level": "B1",
+      "sentence": "I need to declare this item at customs.",
+      "ipa": "/aɪ niːd tuː dɪˈkler ðɪs ˈaɪtəm æt ˈkʌstəmz/",
+      "meaning": "Tôi cần khai báo món này ở hải quan."
+    },
+    {
+      "id": "airport-8",
+      "topic": "Airport",
+      "level": "B2",
+      "sentence": "I seem to have missed my connecting flight.",
+      "ipa": "/aɪ siːm tuː hæv mɪst maɪ kəˈnektɪŋ flaɪt/",
+      "meaning": "Hình như tôi đã lỡ chuyến bay nối chuyến."
+    },
+    {
+      "id": "airport-9",
+      "topic": "Airport",
+      "level": "B2",
+      "sentence": "Is there any chance of an upgrade to business class?",
+      "ipa": "/ɪz ðer ˈeni tʃæns əv ən ˈʌpɡreɪd tuː ˈbɪznəs klæs/",
+      "meaning": "Có khả năng nào được nâng hạng lên thương gia không?"
+    },
+    {
+      "id": "airport-10",
+      "topic": "Airport",
+      "level": "B2",
+      "sentence": "My luggage didn't arrive, who do I report this to?",
+      "ipa": "/maɪ ˈlʌɡɪdʒ ˈdɪdənt əˈraɪv huː duː aɪ rɪˈpɔːrt ðɪs tuː/",
+      "meaning": "Hành lý của tôi chưa tới, tôi báo với ai đây?"
+    },
+    {
+      "id": "hotel-1",
+      "topic": "Hotel",
+      "level": "A1",
+      "sentence": "I have a reservation under Tran.",
+      "ipa": "/aɪ hæv ə ˌrezərˈveɪʃən ˈʌndər trɑːn/",
+      "meaning": "Tôi có đặt phòng dưới tên Trần."
+    },
+    {
+      "id": "hotel-2",
+      "topic": "Hotel",
+      "level": "A1",
+      "sentence": "What time is check-out?",
+      "ipa": "/wɒt taɪm ɪz tʃek aʊt/",
+      "meaning": "Mấy giờ phải trả phòng?"
+    },
+    {
+      "id": "hotel-3",
+      "topic": "Hotel",
+      "level": "A2",
+      "sentence": "Is breakfast included in the price?",
+      "ipa": "/ɪz ˈbrekfəst ɪnˈkluːdɪd ɪn ðə praɪs/",
+      "meaning": "Giá phòng có bao gồm bữa sáng không?"
+    },
+    {
+      "id": "hotel-4",
+      "topic": "Hotel",
+      "level": "A2",
+      "sentence": "Could I get a wake-up call at 6 am?",
+      "ipa": "/kʊd aɪ ɡet ə weɪk ʌp kɔːl æt sɪks eɪ em/",
+      "meaning": "Tôi có thể được gọi báo thức lúc 6 giờ sáng không?"
+    },
+    {
+      "id": "hotel-5",
+      "topic": "Hotel",
+      "level": "B1",
+      "sentence": "The air conditioner in my room isn't working.",
+      "ipa": "/ði er kənˈdɪʃənər ɪn maɪ ruːm ˈɪzənt ˈwɜːrkɪŋ/",
+      "meaning": "Máy lạnh trong phòng tôi không hoạt động."
+    },
+    {
+      "id": "hotel-6",
+      "topic": "Hotel",
+      "level": "B1",
+      "sentence": "Could you recommend a good place to eat nearby?",
+      "ipa": "/kʊd juː ˌrekəˈmend ə ɡʊd pleɪs tuː iːt ˈnɪrbaɪ/",
+      "meaning": "Bạn có thể gợi ý quán ăn ngon gần đây không?"
+    },
+    {
+      "id": "hotel-7",
+      "topic": "Hotel",
+      "level": "B1",
+      "sentence": "Is it possible to extend my stay by one more night?",
+      "ipa": "/ɪz ɪt ˈpɒsəbəl tuː ɪkˈstend maɪ steɪ baɪ wʌn mɔːr naɪt/",
+      "meaning": "Tôi có thể ở thêm một đêm nữa được không?"
+    },
+    {
+      "id": "hotel-8",
+      "topic": "Hotel",
+      "level": "B2",
+      "sentence": "Could I request a room with a better view?",
+      "ipa": "/kʊd aɪ rɪˈkwest ə ruːm wɪð ə ˈbetər vjuː/",
+      "meaning": "Tôi có thể xin đổi sang phòng view đẹp hơn không?"
+    },
+    {
+      "id": "hotel-9",
+      "topic": "Hotel",
+      "level": "B2",
+      "sentence": "I'd like to file a complaint about the noise last night.",
+      "ipa": "/aɪd laɪk tuː faɪl ə kəmˈpleɪnt əˈbaʊt ðə nɔɪz læst naɪt/",
+      "meaning": "Tôi muốn khiếu nại về tiếng ồn tối qua."
+    },
+    {
+      "id": "hotel-10",
+      "topic": "Hotel",
+      "level": "B2",
+      "sentence": "Could you arrange a taxi to the airport tomorrow morning?",
+      "ipa": "/kʊd juː əˈreɪndʒ ə ˈtæksi tuː ði ˈerpɔːrt təˈmɒroʊ ˈmɔːrnɪŋ/",
+      "meaning": "Bạn sắp xếp giúp một chuyến taxi ra sân bay sáng mai được không?"
+    },
+    {
+      "id": "directions-1",
+      "topic": "Asking for Directions",
+      "level": "A1",
+      "sentence": "Excuse me, where is the nearest bus stop?",
+      "ipa": "/ɪkˈskjuːz miː wer ɪz ðə ˈnɪrɪst bʌs stɒp/",
+      "meaning": "Xin lỗi, trạm xe buýt gần nhất ở đâu?"
+    },
+    {
+      "id": "directions-2",
+      "topic": "Asking for Directions",
+      "level": "A1",
+      "sentence": "Is it far from here?",
+      "ipa": "/ɪz ɪt fɑːr frɒm hɪr/",
+      "meaning": "Có xa đây không?"
+    },
+    {
+      "id": "directions-3",
+      "topic": "Asking for Directions",
+      "level": "A2",
+      "sentence": "Go straight, then turn left at the corner.",
+      "ipa": "/ɡoʊ streɪt ðen tɜːrn left æt ðə ˈkɔːrnər/",
+      "meaning": "Đi thẳng rồi rẽ trái ở góc đường."
+    },
+    {
+      "id": "directions-4",
+      "topic": "Asking for Directions",
+      "level": "A2",
+      "sentence": "Can you show me on the map?",
+      "ipa": "/kæn juː ʃoʊ miː ɒn ðə mæp/",
+      "meaning": "Bạn chỉ giúp trên bản đồ được không?"
+    },
+    {
+      "id": "directions-5",
+      "topic": "Asking for Directions",
+      "level": "B1",
+      "sentence": "How long does it take to walk there?",
+      "ipa": "/haʊ lɒŋ dʌz ɪt teɪk tuː wɔːk ðer/",
+      "meaning": "Đi bộ tới đó mất bao lâu?"
+    },
+    {
+      "id": "directions-6",
+      "topic": "Asking for Directions",
+      "level": "B1",
+      "sentence": "I think we took a wrong turn somewhere.",
+      "ipa": "/aɪ θɪŋk wiː tʊk ə rɒŋ tɜːrn ˈsʌmwer/",
+      "meaning": "Hình như chúng ta rẽ nhầm chỗ nào rồi."
+    },
+    {
+      "id": "directions-7",
+      "topic": "Asking for Directions",
+      "level": "B1",
+      "sentence": "Is there a shortcut through this alley?",
+      "ipa": "/ɪz ðer ə ˈʃɔːrtkʌt θruː ðɪs ˈæli/",
+      "meaning": "Có đường tắt qua con hẻm này không?"
+    },
+    {
+      "id": "directions-8",
+      "topic": "Asking for Directions",
+      "level": "B2",
+      "sentence": "Just follow the signs and you can't miss it.",
+      "ipa": "/dʒʌst ˈfɒloʊ ðə saɪnz ənd juː kænt mɪs ɪt/",
+      "meaning": "Cứ đi theo biển chỉ dẫn là không lạc được đâu."
+    },
+    {
+      "id": "directions-9",
+      "topic": "Asking for Directions",
+      "level": "B2",
+      "sentence": "We ended up going in circles for twenty minutes.",
+      "ipa": "/wiː ˈendɪd ʌp ˈɡoʊɪŋ ɪn ˈsɜːrkəlz fɔːr ˈtwenti ˈmɪnɪts/",
+      "meaning": "Chúng tôi đi vòng vòng mất hai mươi phút."
+    },
+    {
+      "id": "directions-10",
+      "topic": "Asking for Directions",
+      "level": "B2",
+      "sentence": "It's a bit tricky to find, so I'll send you the location pin.",
+      "ipa": "/ɪts ə bɪt ˈtrɪki tuː faɪnd soʊ aɪl send juː ðə loʊˈkeɪʃən pɪn/",
+      "meaning": "Chỗ đó hơi khó tìm, để tôi gửi vị trí trên bản đồ cho bạn."
+    },
+    {
+      "id": "taxi-1",
+      "topic": "Taxi & Transport",
+      "level": "A1",
+      "sentence": "Can you take me to this address, please?",
+      "ipa": "/kæn juː teɪk miː tuː ðɪs əˈdres pliːz/",
+      "meaning": "Bạn chở tôi đến địa chỉ này được không?"
+    },
+    {
+      "id": "taxi-2",
+      "topic": "Taxi & Transport",
+      "level": "A1",
+      "sentence": "How much will it cost to the airport?",
+      "ipa": "/haʊ mʌtʃ wɪl ɪt kɒst tuː ði ˈerpɔːrt/",
+      "meaning": "Đi ra sân bay hết bao nhiêu tiền?"
+    },
+    {
+      "id": "taxi-3",
+      "topic": "Taxi & Transport",
+      "level": "A2",
+      "sentence": "Could you drop me off here, please?",
+      "ipa": "/kʊd juː drɒp miː ɒf hɪr pliːz/",
+      "meaning": "Cho tôi xuống đây được không?"
+    },
+    {
+      "id": "taxi-4",
+      "topic": "Taxi & Transport",
+      "level": "A2",
+      "sentence": "Please turn on the meter.",
+      "ipa": "/pliːz tɜːrn ɒn ðə ˈmiːtər/",
+      "meaning": "Làm ơn bật đồng hồ tính tiền."
+    },
+    {
+      "id": "taxi-5",
+      "topic": "Taxi & Transport",
+      "level": "B1",
+      "sentence": "Could you take a different route? There's traffic ahead.",
+      "ipa": "/kʊd juː teɪk ə ˈdɪfərənt ruːt ðerz ˈtræfɪk əˈhed/",
+      "meaning": "Bạn đi đường khác được không? Phía trước kẹt xe."
+    },
+    {
+      "id": "taxi-6",
+      "topic": "Taxi & Transport",
+      "level": "B1",
+      "sentence": "I'm in a hurry, is there a faster way?",
+      "ipa": "/aɪm ɪn ə ˈhɜːri ɪz ðer ə ˈfæstər weɪ/",
+      "meaning": "Tôi đang vội, có đường nào nhanh hơn không?"
+    },
+    {
+      "id": "taxi-7",
+      "topic": "Taxi & Transport",
+      "level": "B1",
+      "sentence": "Could you wait here for a few minutes?",
+      "ipa": "/kʊd juː weɪt hɪr fɔːr ə fjuː ˈmɪnɪts/",
+      "meaning": "Bạn đợi ở đây vài phút được không?"
+    },
+    {
+      "id": "taxi-8",
+      "topic": "Taxi & Transport",
+      "level": "B2",
+      "sentence": "I think the fare on the meter is higher than usual.",
+      "ipa": "/aɪ θɪŋk ðə fer ɒn ðə ˈmiːtər ɪz ˈhaɪər ðæn ˈjuːʒuəl/",
+      "meaning": "Tôi thấy giá trên đồng hồ cao hơn bình thường."
+    },
+    {
+      "id": "taxi-9",
+      "topic": "Taxi & Transport",
+      "level": "B2",
+      "sentence": "I left my bag in the car, can you help me track it down?",
+      "ipa": "/aɪ left maɪ bæɡ ɪn ðə kɑːr kæn juː help miː træk ɪt daʊn/",
+      "meaning": "Tôi để quên túi trong xe, bạn giúp tôi tìm lại được không?"
+    },
+    {
+      "id": "taxi-10",
+      "topic": "Taxi & Transport",
+      "level": "B2",
+      "sentence": "Traffic is bumper to bumper, we might be late.",
+      "ipa": "/ˈtræfɪk ɪz ˈbʌmpər tuː ˈbʌmpər wiː maɪt biː leɪt/",
+      "meaning": "Xe cộ kẹt cứng, chắc chúng ta sẽ trễ mất."
+    },
+    {
+      "id": "doctor-1",
+      "topic": "Seeing a Doctor",
+      "level": "A1",
+      "sentence": "I don't feel well today.",
+      "ipa": "/aɪ doʊnt fiːl wel təˈdeɪ/",
+      "meaning": "Hôm nay tôi thấy không khỏe."
+    },
+    {
+      "id": "doctor-2",
+      "topic": "Seeing a Doctor",
+      "level": "A1",
+      "sentence": "I have a headache and a fever.",
+      "ipa": "/aɪ hæv ə ˈhedeɪk ənd ə ˈfiːvər/",
+      "meaning": "Tôi bị đau đầu và sốt."
+    },
+    {
+      "id": "doctor-3",
+      "topic": "Seeing a Doctor",
+      "level": "A2",
+      "sentence": "I'd like to make an appointment with a doctor.",
+      "ipa": "/aɪd laɪk tuː meɪk ən əˈpɔɪntmənt wɪð ə ˈdɒktər/",
+      "meaning": "Tôi muốn đặt lịch khám với bác sĩ."
+    },
+    {
+      "id": "doctor-4",
+      "topic": "Seeing a Doctor",
+      "level": "A2",
+      "sentence": "How long have you had these symptoms?",
+      "ipa": "/haʊ lɒŋ hæv juː hæd ðiːz ˈsɪmptəmz/",
+      "meaning": "Bạn bị các triệu chứng này bao lâu rồi?"
+    },
+    {
+      "id": "doctor-5",
+      "topic": "Seeing a Doctor",
+      "level": "B1",
+      "sentence": "Are you allergic to any medication?",
+      "ipa": "/ɑːr juː əˈlɜːrdʒɪk tuː ˈeni ˌmedɪˈkeɪʃən/",
+      "meaning": "Bạn có bị dị ứng với thuốc nào không?"
+    },
+    {
+      "id": "doctor-6",
+      "topic": "Seeing a Doctor",
+      "level": "B1",
+      "sentence": "The doctor prescribed some antibiotics for the infection.",
+      "ipa": "/ðə ˈdɒktər prɪˈskraɪbd sʌm ˌæntibaɪˈɒtɪks fɔːr ði ɪnˈfekʃən/",
+      "meaning": "Bác sĩ kê thuốc kháng sinh để trị nhiễm trùng."
+    },
+    {
+      "id": "doctor-7",
+      "topic": "Seeing a Doctor",
+      "level": "B1",
+      "sentence": "You should rest and drink plenty of fluids.",
+      "ipa": "/juː ʃʊd rest ənd drɪŋk ˈplenti əv ˈfluːɪdz/",
+      "meaning": "Bạn nên nghỉ ngơi và uống nhiều nước."
+    },
+    {
+      "id": "doctor-8",
+      "topic": "Seeing a Doctor",
+      "level": "B2",
+      "sentence": "The pain comes and goes, but it gets worse at night.",
+      "ipa": "/ðə peɪn kʌmz ənd ɡoʊz bʌt ɪt ɡets wɜːrs æt naɪt/",
+      "meaning": "Cơn đau lúc có lúc không, nhưng nặng hơn vào ban đêm."
+    },
+    {
+      "id": "doctor-9",
+      "topic": "Seeing a Doctor",
+      "level": "B2",
+      "sentence": "I'd like a second opinion before deciding on surgery.",
+      "ipa": "/aɪd laɪk ə ˈsekənd əˈpɪnjən bɪˈfɔːr dɪˈsaɪdɪŋ ɒn ˈsɜːrdʒəri/",
+      "meaning": "Tôi muốn hỏi ý kiến bác sĩ khác trước khi quyết định phẫu thuật."
+    },
+    {
+      "id": "doctor-10",
+      "topic": "Seeing a Doctor",
+      "level": "B2",
+      "sentence": "Please let me know if the symptoms persist after a few days.",
+      "ipa": "/pliːz let miː noʊ ɪf ðə ˈsɪmptəmz pərˈsɪst ˈæftər ə fjuː deɪz/",
+      "meaning": "Nếu triệu chứng vẫn còn sau vài ngày thì báo lại cho tôi."
+    },
+    {
+      "id": "pharmacy-1",
+      "topic": "Pharmacy",
+      "level": "A1",
+      "sentence": "Do you have anything for a headache?",
+      "ipa": "/duː juː hæv ˈeniθɪŋ fɔːr ə ˈhedeɪk/",
+      "meaning": "Ở đây có thuốc trị đau đầu không?"
+    },
+    {
+      "id": "pharmacy-2",
+      "topic": "Pharmacy",
+      "level": "A2",
+      "sentence": "How many times a day should I take this?",
+      "ipa": "/haʊ ˈmeni taɪmz ə deɪ ʃʊd aɪ teɪk ðɪs/",
+      "meaning": "Thuốc này uống mấy lần một ngày?"
+    },
+    {
+      "id": "pharmacy-3",
+      "topic": "Pharmacy",
+      "level": "A2",
+      "sentence": "I need something for a sore throat.",
+      "ipa": "/aɪ niːd ˈsʌmθɪŋ fɔːr ə sɔːr θroʊt/",
+      "meaning": "Tôi cần thuốc trị đau họng."
+    },
+    {
+      "id": "pharmacy-4",
+      "topic": "Pharmacy",
+      "level": "B1",
+      "sentence": "Should I take this before or after meals?",
+      "ipa": "/ʃʊd aɪ teɪk ðɪs bɪˈfɔːr ɔːr ˈæftər miːlz/",
+      "meaning": "Nên uống thuốc này trước hay sau bữa ăn?"
+    },
+    {
+      "id": "pharmacy-5",
+      "topic": "Pharmacy",
+      "level": "B1",
+      "sentence": "Does this medicine have any side effects?",
+      "ipa": "/dʌz ðɪs ˈmedsən hæv ˈeni saɪd ɪˈfekts/",
+      "meaning": "Thuốc này có tác dụng phụ không?"
+    },
+    {
+      "id": "pharmacy-6",
+      "topic": "Pharmacy",
+      "level": "B1",
+      "sentence": "Can I get this without a prescription?",
+      "ipa": "/kæn aɪ ɡet ðɪs wɪðˈaʊt ə prɪˈskrɪpʃən/",
+      "meaning": "Tôi mua thuốc này mà không cần đơn được không?"
+    },
+    {
+      "id": "pharmacy-7",
+      "topic": "Pharmacy",
+      "level": "B2",
+      "sentence": "Is this safe to take alongside my current medication?",
+      "ipa": "/ɪz ðɪs seɪf tuː teɪk əˈlɒŋsaɪd maɪ ˈkʌrənt ˌmedɪˈkeɪʃən/",
+      "meaning": "Thuốc này dùng chung với thuốc tôi đang uống có an toàn không?"
+    },
+    {
+      "id": "pharmacy-8",
+      "topic": "Pharmacy",
+      "level": "B2",
+      "sentence": "I'd rather try something natural before taking antibiotics.",
+      "ipa": "/aɪd ˈræðər traɪ ˈsʌmθɪŋ ˈnætʃrəl bɪˈfɔːr ˈteɪkɪŋ ˌæntibaɪˈɒtɪks/",
+      "meaning": "Tôi muốn thử cách tự nhiên trước khi dùng kháng sinh."
+    },
+    {
+      "id": "pharmacy-9",
+      "topic": "Pharmacy",
+      "level": "B2",
+      "sentence": "Could you recommend a good vitamin supplement?",
+      "ipa": "/kʊd juː ˌrekəˈmend ə ɡʊd ˈvaɪtəmɪn ˈsʌplɪmənt/",
+      "meaning": "Bạn có thể gợi ý loại vitamin bổ sung tốt không?"
+    },
+    {
+      "id": "pharmacy-10",
+      "topic": "Pharmacy",
+      "level": "B2",
+      "sentence": "This prescription needs to be refilled every month.",
+      "ipa": "/ðɪs prɪˈskrɪpʃən niːdz tuː biː riːˈfɪld ˈevri mʌnθ/",
+      "meaning": "Đơn thuốc này cần được mua lại mỗi tháng."
+    },
+    {
+      "id": "bank-1",
+      "topic": "Bank",
+      "level": "A2",
+      "sentence": "I'd like to open a bank account.",
+      "ipa": "/aɪd laɪk tuː ˈoʊpən ə bæŋk əˈkaʊnt/",
+      "meaning": "Tôi muốn mở tài khoản ngân hàng."
+    },
+    {
+      "id": "bank-2",
+      "topic": "Bank",
+      "level": "A2",
+      "sentence": "How do I check my account balance?",
+      "ipa": "/haʊ duː aɪ tʃek maɪ əˈkaʊnt ˈbæləns/",
+      "meaning": "Làm sao để kiểm tra số dư tài khoản?"
+    },
+    {
+      "id": "bank-3",
+      "topic": "Bank",
+      "level": "B1",
+      "sentence": "I'd like to withdraw some cash, please.",
+      "ipa": "/aɪd laɪk tuː wɪðˈdrɔː sʌm kæʃ pliːz/",
+      "meaning": "Tôi muốn rút tiền mặt."
+    },
+    {
+      "id": "bank-4",
+      "topic": "Bank",
+      "level": "B1",
+      "sentence": "Can I transfer money to another account?",
+      "ipa": "/kæn aɪ ˈtrænsfɜːr ˈmʌni tuː əˈnʌðər əˈkaʊnt/",
+      "meaning": "Tôi chuyển tiền sang tài khoản khác được không?"
+    },
+    {
+      "id": "bank-5",
+      "topic": "Bank",
+      "level": "B1",
+      "sentence": "My card was declined, could you check what's wrong?",
+      "ipa": "/maɪ kɑːrd wɒz dɪˈklaɪnd kʊd juː tʃek wɒts rɒŋ/",
+      "meaning": "Thẻ tôi bị từ chối, bạn kiểm tra xem có vấn đề gì không?"
+    },
+    {
+      "id": "bank-6",
+      "topic": "Bank",
+      "level": "B2",
+      "sentence": "Could you explain the interest rate on this savings account?",
+      "ipa": "/kʊd juː ɪkˈspleɪn ði ˈɪntrəst reɪt ɒn ðɪs ˈseɪvɪŋz əˈkaʊnt/",
+      "meaning": "Bạn có thể giải thích lãi suất của tài khoản tiết kiệm này không?"
+    },
+    {
+      "id": "bank-7",
+      "topic": "Bank",
+      "level": "B2",
+      "sentence": "I'd like to apply for a loan to buy a house.",
+      "ipa": "/aɪd laɪk tuː əˈplaɪ fɔːr ə loʊn tuː baɪ ə haʊs/",
+      "meaning": "Tôi muốn xin vay để mua nhà."
+    },
+    {
+      "id": "bank-8",
+      "topic": "Bank",
+      "level": "B2",
+      "sentence": "There seems to be an unauthorized charge on my statement.",
+      "ipa": "/ðer siːmz tuː biː ən ʌnˈɔːθəraɪzd tʃɑːrdʒ ɒn maɪ ˈsteɪtmənt/",
+      "meaning": "Hình như có một khoản trừ tiền không rõ nguồn gốc trong sao kê."
+    },
+    {
+      "id": "bank-9",
+      "topic": "Bank",
+      "level": "B2",
+      "sentence": "What documents do I need to close this account?",
+      "ipa": "/wɒt ˈdɒkjəmənts duː aɪ niːd tuː kloʊz ðɪs əˈkaʊnt/",
+      "meaning": "Tôi cần giấy tờ gì để đóng tài khoản này?"
+    },
+    {
+      "id": "bank-10",
+      "topic": "Bank",
+      "level": "B2",
+      "sentence": "Is there a fee for international transfers?",
+      "ipa": "/ɪz ðer ə fiː fɔːr ˌɪntərˈnæʃənəl ˈtrænsfɜːrz/",
+      "meaning": "Chuyển tiền quốc tế có mất phí không?"
+    },
+    {
+      "id": "postoffice-1",
+      "topic": "Post Office & Shipping",
+      "level": "A1",
+      "sentence": "I'd like to send this parcel, please.",
+      "ipa": "/aɪd laɪk tuː send ðɪs ˈpɑːrsəl pliːz/",
+      "meaning": "Tôi muốn gửi bưu kiện này."
+    },
+    {
+      "id": "postoffice-2",
+      "topic": "Post Office & Shipping",
+      "level": "A2",
+      "sentence": "How much does it cost to send this to Japan?",
+      "ipa": "/haʊ mʌtʃ dʌz ɪt kɒst tuː send ðɪs tuː dʒəˈpæn/",
+      "meaning": "Gửi cái này sang Nhật hết bao nhiêu?"
+    },
+    {
+      "id": "postoffice-3",
+      "topic": "Post Office & Shipping",
+      "level": "A2",
+      "sentence": "How long will delivery take?",
+      "ipa": "/haʊ lɒŋ wɪl dɪˈlɪvəri teɪk/",
+      "meaning": "Giao hàng mất bao lâu?"
+    },
+    {
+      "id": "postoffice-4",
+      "topic": "Post Office & Shipping",
+      "level": "B1",
+      "sentence": "Can I track this package online?",
+      "ipa": "/kæn aɪ træk ðɪs ˈpækɪdʒ ˈɒnlaɪn/",
+      "meaning": "Tôi có thể theo dõi gói hàng này online không?"
+    },
+    {
+      "id": "postoffice-5",
+      "topic": "Post Office & Shipping",
+      "level": "B1",
+      "sentence": "I'd like to insure this package, it's fragile.",
+      "ipa": "/aɪd laɪk tuː ɪnˈʃʊr ðɪs ˈpækɪdʒ ɪts ˈfrædʒaɪl/",
+      "meaning": "Tôi muốn mua bảo hiểm cho gói hàng này, nó dễ vỡ."
+    },
+    {
+      "id": "postoffice-6",
+      "topic": "Post Office & Shipping",
+      "level": "B1",
+      "sentence": "My package hasn't arrived yet, can you look into it?",
+      "ipa": "/maɪ ˈpækɪdʒ ˈhæzənt əˈraɪvd jet kæn juː lʊk ˈɪntuː ɪt/",
+      "meaning": "Gói hàng của tôi chưa đến, bạn kiểm tra giúp được không?"
+    },
+    {
+      "id": "postoffice-7",
+      "topic": "Post Office & Shipping",
+      "level": "B2",
+      "sentence": "What's the difference between standard and express shipping?",
+      "ipa": "/wɒts ðə ˈdɪfrəns bɪˈtwiːn ˈstændərd ənd ɪkˈspres ˈʃɪpɪŋ/",
+      "meaning": "Sự khác biệt giữa giao hàng thường và hỏa tốc là gì?"
+    },
+    {
+      "id": "postoffice-8",
+      "topic": "Post Office & Shipping",
+      "level": "B2",
+      "sentence": "The parcel got stuck at customs for two weeks.",
+      "ipa": "/ðə ˈpɑːrsəl ɡɒt stʌk æt ˈkʌstəmz fɔːr tuː wiːks/",
+      "meaning": "Gói hàng bị kẹt ở hải quan mất hai tuần."
+    },
+    {
+      "id": "postoffice-9",
+      "topic": "Post Office & Shipping",
+      "level": "B2",
+      "sentence": "I need a signature confirmation for this delivery.",
+      "ipa": "/aɪ niːd ə ˈsɪɡnətʃər ˌkɒnfərˈmeɪʃən fɔːr ðɪs dɪˈlɪvəri/",
+      "meaning": "Tôi cần xác nhận có chữ ký khi giao hàng."
+    },
+    {
+      "id": "postoffice-10",
+      "topic": "Post Office & Shipping",
+      "level": "B2",
+      "sentence": "Could you refund the shipping fee since it arrived damaged?",
+      "ipa": "/kʊd juː ˈriːfʌnd ðə ˈʃɪpɪŋ fiː sɪns ɪt əˈraɪvd ˈdæmɪdʒd/",
+      "meaning": "Hàng bị hư khi tới, bạn hoàn phí ship được không?"
+    },
+    {
+      "id": "phonecall-1",
+      "topic": "Phone Calls",
+      "level": "A1",
+      "sentence": "Hello, may I speak to Anna, please?",
+      "ipa": "/həˈloʊ meɪ aɪ spiːk tuː ˈænə pliːz/",
+      "meaning": "Alo, cho tôi gặp Anna được không?"
+    },
+    {
+      "id": "phonecall-2",
+      "topic": "Phone Calls",
+      "level": "A2",
+      "sentence": "Sorry, I have the wrong number.",
+      "ipa": "/ˈsɒri aɪ hæv ðə rɒŋ ˈnʌmbər/",
+      "meaning": "Xin lỗi, tôi gọi nhầm số."
+    },
+    {
+      "id": "phonecall-3",
+      "topic": "Phone Calls",
+      "level": "A2",
+      "sentence": "Can you hear me okay?",
+      "ipa": "/kæn juː hɪr miː ˈoʊkeɪ/",
+      "meaning": "Bạn nghe rõ tôi không?"
+    },
+    {
+      "id": "phonecall-4",
+      "topic": "Phone Calls",
+      "level": "B1",
+      "sentence": "Can I leave a message for her?",
+      "ipa": "/kæn aɪ liːv ə ˈmesɪdʒ fɔːr hɜːr/",
+      "meaning": "Tôi có thể để lại lời nhắn cho cô ấy không?"
+    },
+    {
+      "id": "phonecall-5",
+      "topic": "Phone Calls",
+      "level": "B1",
+      "sentence": "The line keeps cutting out, can you call me back?",
+      "ipa": "/ðə laɪn kiːps ˈkʌtɪŋ aʊt kæn juː kɔːl miː bæk/",
+      "meaning": "Đường truyền cứ bị ngắt quãng, bạn gọi lại cho tôi được không?"
+    },
+    {
+      "id": "phonecall-6",
+      "topic": "Phone Calls",
+      "level": "B1",
+      "sentence": "I'll call you back as soon as I'm free.",
+      "ipa": "/aɪl kɔːl juː bæk əz suːn əz aɪm friː/",
+      "meaning": "Rảnh là tôi gọi lại cho bạn ngay."
+    },
+    {
+      "id": "phonecall-7",
+      "topic": "Phone Calls",
+      "level": "B2",
+      "sentence": "Could you speak up a little? It's a bit noisy here.",
+      "ipa": "/kʊd juː spiːk ʌp ə ˈlɪtəl ɪts ə bɪt ˈnɔɪzi hɪr/",
+      "meaning": "Bạn nói to hơn chút được không? Ở đây hơi ồn."
+    },
+    {
+      "id": "phonecall-8",
+      "topic": "Phone Calls",
+      "level": "B2",
+      "sentence": "I'm sorry, we got cut off earlier — where were we?",
+      "ipa": "/aɪm ˈsɒri wiː ɡɒt kʌt ɒf ˈɜːrliər wer wɜːr wiː/",
+      "meaning": "Xin lỗi, nãy bị rớt cuộc gọi — mình đang nói đến đâu rồi?"
+    },
+    {
+      "id": "phonecall-9",
+      "topic": "Phone Calls",
+      "level": "B2",
+      "sentence": "I'll put you on speaker so the team can hear too.",
+      "ipa": "/aɪl pʊt juː ɒn ˈspiːkər soʊ ðə tiːm kæn hɪr tuː/",
+      "meaning": "Tôi để chế độ loa ngoài để cả nhóm cùng nghe."
+    },
+    {
+      "id": "phonecall-10",
+      "topic": "Phone Calls",
+      "level": "B2",
+      "sentence": "Let's schedule a call for tomorrow instead, if that works for you.",
+      "ipa": "/lets ˈskedʒuːl ə kɔːl fɔːr təˈmɒroʊ ɪnˈsted ɪf ðæt wɜːrks fɔːr juː/",
+      "meaning": "Hay để mai mình gọi lại, nếu bạn thấy ổn."
+    },
+    {
+      "id": "techsupport-1",
+      "topic": "Tech Support",
+      "level": "A2",
+      "sentence": "My computer isn't working properly.",
+      "ipa": "/maɪ kəmˈpjuːtər ˈɪzənt ˈwɜːrkɪŋ ˈprɒpərli/",
+      "meaning": "Máy tính của tôi không hoạt động bình thường."
+    },
+    {
+      "id": "techsupport-2",
+      "topic": "Tech Support",
+      "level": "B1",
+      "sentence": "I forgot my password, can you help me reset it?",
+      "ipa": "/aɪ fərˈɡɒt maɪ ˈpæswɜːrd kæn juː help miː riːˈset ɪt/",
+      "meaning": "Tôi quên mật khẩu rồi, bạn giúp đặt lại được không?"
+    },
+    {
+      "id": "techsupport-3",
+      "topic": "Tech Support",
+      "level": "B1",
+      "sentence": "The app keeps crashing every time I open it.",
+      "ipa": "/ði æp kiːps ˈkræʃɪŋ ˈevri taɪm aɪ ˈoʊpən ɪt/",
+      "meaning": "Ứng dụng bị crash mỗi lần tôi mở lên."
+    },
+    {
+      "id": "techsupport-4",
+      "topic": "Tech Support",
+      "level": "B1",
+      "sentence": "Have you tried restarting your device?",
+      "ipa": "/hæv juː traɪd riːˈstɑːrtɪŋ jɔːr dɪˈvaɪs/",
+      "meaning": "Bạn đã thử khởi động lại thiết bị chưa?"
+    },
+    {
+      "id": "techsupport-5",
+      "topic": "Tech Support",
+      "level": "B2",
+      "sentence": "I'm getting an error message when I try to log in.",
+      "ipa": "/aɪm ˈɡetɪŋ ən ˈerər ˈmesɪdʒ wen aɪ traɪ tuː lɒɡ ɪn/",
+      "meaning": "Tôi bị báo lỗi mỗi khi cố đăng nhập."
+    },
+    {
+      "id": "techsupport-6",
+      "topic": "Tech Support",
+      "level": "B2",
+      "sentence": "Could you walk me through the setup process?",
+      "ipa": "/kʊd juː wɔːk miː θruː ðə ˈsetʌp ˈprɒses/",
+      "meaning": "Bạn hướng dẫn tôi từng bước cài đặt được không?"
+    },
+    {
+      "id": "techsupport-7",
+      "topic": "Tech Support",
+      "level": "B2",
+      "sentence": "The internet connection keeps dropping every few minutes.",
+      "ipa": "/ði ˈɪntərnet kəˈnekʃən kiːps ˈdrɒpɪŋ ˈevri fjuː ˈmɪnɪts/",
+      "meaning": "Kết nối internet cứ bị rớt mỗi vài phút."
+    },
+    {
+      "id": "techsupport-8",
+      "topic": "Tech Support",
+      "level": "B2",
+      "sentence": "Is there a way to recover my deleted files?",
+      "ipa": "/ɪz ðer ə weɪ tuː rɪˈkʌvər maɪ dɪˈliːtɪd faɪlz/",
+      "meaning": "Có cách nào khôi phục lại các file tôi đã xóa không?"
+    },
+    {
+      "id": "techsupport-9",
+      "topic": "Tech Support",
+      "level": "B2",
+      "sentence": "I think my account might have been hacked.",
+      "ipa": "/aɪ θɪŋk maɪ əˈkaʊnt maɪt hæv bɪn hækt/",
+      "meaning": "Tôi nghĩ tài khoản của mình có thể đã bị hack."
+    },
+    {
+      "id": "techsupport-10",
+      "topic": "Tech Support",
+      "level": "B2",
+      "sentence": "Could you escalate this ticket? It's been three days.",
+      "ipa": "/kʊd juː ˈeskəleɪt ðɪs ˈtɪkɪt ɪts bɪn θriː deɪz/",
+      "meaning": "Bạn chuyển yêu cầu này lên cấp cao hơn được không? Đã ba ngày rồi."
+    },
+    {
+      "id": "weather-1",
+      "topic": "Weather",
+      "level": "A1",
+      "sentence": "It's raining outside, take an umbrella.",
+      "ipa": "/ɪts ˈreɪnɪŋ ˈaʊtsaɪd teɪk ən ʌmˈbrelə/",
+      "meaning": "Trời đang mưa, mang theo ô nhé."
+    },
+    {
+      "id": "weather-2",
+      "topic": "Weather",
+      "level": "A1",
+      "sentence": "It's really hot today, isn't it?",
+      "ipa": "/ɪts ˈriːəli hɒt təˈdeɪ ˈɪzənt ɪt/",
+      "meaning": "Hôm nay trời nóng thật nhỉ?"
+    },
+    {
+      "id": "weather-3",
+      "topic": "Weather",
+      "level": "A2",
+      "sentence": "What's the weather forecast for tomorrow?",
+      "ipa": "/wɒts ðə ˈweðər ˈfɔːrkæst fɔːr təˈmɒroʊ/",
+      "meaning": "Dự báo thời tiết ngày mai thế nào?"
+    },
+    {
+      "id": "weather-4",
+      "topic": "Weather",
+      "level": "A2",
+      "sentence": "It looks like it's about to storm.",
+      "ipa": "/ɪt lʊks laɪk ɪts əˈbaʊt tuː stɔːrm/",
+      "meaning": "Có vẻ như sắp có bão rồi."
+    },
+    {
+      "id": "weather-5",
+      "topic": "Weather",
+      "level": "B1",
+      "sentence": "The weather has been quite unpredictable this month.",
+      "ipa": "/ðə ˈweðər hæz bɪn kwaɪt ˌʌnprɪˈdɪktəbəl ðɪs mʌnθ/",
+      "meaning": "Thời tiết tháng này khá thất thường."
+    },
+    {
+      "id": "weather-6",
+      "topic": "Weather",
+      "level": "B1",
+      "sentence": "I love this cool breeze in the evening.",
+      "ipa": "/aɪ lʌv ðɪs kuːl briːz ɪn ði ˈiːvnɪŋ/",
+      "meaning": "Tôi thích làn gió mát này vào buổi tối."
+    },
+    {
+      "id": "weather-7",
+      "topic": "Weather",
+      "level": "B1",
+      "sentence": "Let's reschedule the picnic, heavy rain is expected.",
+      "ipa": "/lets riːˈskedʒuːl ðə ˈpɪknɪk ˈhevi reɪn ɪz ɪkˈspektɪd/",
+      "meaning": "Dời buổi dã ngoại thôi, dự báo mưa to."
+    },
+    {
+      "id": "weather-8",
+      "topic": "Weather",
+      "level": "B2",
+      "sentence": "This humidity is unbearable, I can't stop sweating.",
+      "ipa": "/ðɪs hjuːˈmɪdəti ɪz ʌnˈberəbəl aɪ kænt stɒp ˈswetɪŋ/",
+      "meaning": "Độ ẩm này thật khó chịu, tôi ra mồ hôi liên tục."
+    },
+    {
+      "id": "weather-9",
+      "topic": "Weather",
+      "level": "B2",
+      "sentence": "The typhoon is expected to hit the coast by tonight.",
+      "ipa": "/ðə taɪˈfuːn ɪz ɪkˈspektɪd tuː hɪt ðə koʊst baɪ təˈnaɪt/",
+      "meaning": "Cơn bão dự kiến sẽ đổ bộ vào bờ biển tối nay."
+    },
+    {
+      "id": "weather-10",
+      "topic": "Weather",
+      "level": "B2",
+      "sentence": "We got caught in a sudden downpour on the way home.",
+      "ipa": "/wiː ɡɒt kɔːt ɪn ə ˈsʌdən ˈdaʊnpɔːr ɒn ðə weɪ hoʊm/",
+      "meaning": "Chúng tôi bị mắc mưa lớn bất chợt trên đường về nhà."
+    },
+    {
+      "id": "hobbies-1",
+      "topic": "Hobbies & Sports",
+      "level": "A1",
+      "sentence": "What do you like to do in your free time?",
+      "ipa": "/wɒt duː juː laɪk tuː duː ɪn jɔːr friː taɪm/",
+      "meaning": "Bạn thích làm gì lúc rảnh?"
+    },
+    {
+      "id": "hobbies-2",
+      "topic": "Hobbies & Sports",
+      "level": "A1",
+      "sentence": "I like playing football with my friends.",
+      "ipa": "/aɪ laɪk ˈpleɪɪŋ ˈfʊtbɔːl wɪð maɪ frendz/",
+      "meaning": "Tôi thích chơi bóng đá với bạn bè."
+    },
+    {
+      "id": "hobbies-3",
+      "topic": "Hobbies & Sports",
+      "level": "A2",
+      "sentence": "I've just started learning how to swim.",
+      "ipa": "/aɪv dʒʌst ˈstɑːrtɪd ˈlɜːrnɪŋ haʊ tuː swɪm/",
+      "meaning": "Tôi vừa mới bắt đầu học bơi."
+    },
+    {
+      "id": "hobbies-4",
+      "topic": "Hobbies & Sports",
+      "level": "A2",
+      "sentence": "Do you want to go hiking this weekend?",
+      "ipa": "/duː juː wɒnt tuː ɡoʊ ˈhaɪkɪŋ ðɪs ˈwiːkend/",
+      "meaning": "Cuối tuần này bạn có muốn đi leo núi không?"
+    },
+    {
+      "id": "hobbies-5",
+      "topic": "Hobbies & Sports",
+      "level": "B1",
+      "sentence": "I've been really into photography lately.",
+      "ipa": "/aɪv bɪn ˈriːəli ˈɪntuː fəˈtɒɡrəfi ˈleɪtli/",
+      "meaning": "Dạo gần đây tôi khá đam mê nhiếp ảnh."
+    },
+    {
+      "id": "hobbies-6",
+      "topic": "Hobbies & Sports",
+      "level": "B1",
+      "sentence": "I try to work out at least three times a week.",
+      "ipa": "/aɪ traɪ tuː wɜːrk aʊt æt liːst θriː taɪmz ə wiːk/",
+      "meaning": "Tôi cố gắng tập gym ít nhất ba lần một tuần."
+    },
+    {
+      "id": "hobbies-7",
+      "topic": "Hobbies & Sports",
+      "level": "B1",
+      "sentence": "We're training for a marathon next month.",
+      "ipa": "/wɪr ˈtreɪnɪŋ fɔːr ə ˈmærəθɒn nekst mʌnθ/",
+      "meaning": "Chúng tôi đang tập luyện cho giải marathon tháng sau."
+    },
+    {
+      "id": "hobbies-8",
+      "topic": "Hobbies & Sports",
+      "level": "B2",
+      "sentence": "Painting helps me unwind after a stressful day.",
+      "ipa": "/ˈpeɪntɪŋ helps miː ʌnˈwaɪnd ˈæftər ə ˈstresfəl deɪ/",
+      "meaning": "Vẽ tranh giúp tôi thư giãn sau một ngày căng thẳng."
+    },
+    {
+      "id": "hobbies-9",
+      "topic": "Hobbies & Sports",
+      "level": "B2",
+      "sentence": "I picked up rock climbing during the pandemic and got hooked.",
+      "ipa": "/aɪ pɪkt ʌp rɒk ˈklaɪmɪŋ ˈdjʊrɪŋ ðə pænˈdemɪk ənd ɡɒt hʊkt/",
+      "meaning": "Tôi bắt đầu leo núi đá trong đại dịch và mê luôn từ đó."
+    },
+    {
+      "id": "hobbies-10",
+      "topic": "Hobbies & Sports",
+      "level": "B2",
+      "sentence": "Our team made it to the finals for the first time.",
+      "ipa": "/ˈaʊər tiːm meɪd ɪt tuː ðə ˈfaɪnəlz fɔːr ðə fɜːrst taɪm/",
+      "meaning": "Đội của chúng tôi lần đầu tiên vào được chung kết."
+    },
+    {
+      "id": "movies-1",
+      "topic": "Movies & Entertainment",
+      "level": "A1",
+      "sentence": "Have you watched this movie?",
+      "ipa": "/hæv juː wɒtʃt ðɪs ˈmuːvi/",
+      "meaning": "Bạn xem phim này chưa?"
+    },
+    {
+      "id": "movies-2",
+      "topic": "Movies & Entertainment",
+      "level": "A2",
+      "sentence": "What kind of movies do you like?",
+      "ipa": "/wɒt kaɪnd əv ˈmuːviz duː juː laɪk/",
+      "meaning": "Bạn thích thể loại phim nào?"
+    },
+    {
+      "id": "movies-3",
+      "topic": "Movies & Entertainment",
+      "level": "A2",
+      "sentence": "Let's watch something on Netflix tonight.",
+      "ipa": "/lets wɒtʃ ˈsʌmθɪŋ ɒn ˈnetflɪks təˈnaɪt/",
+      "meaning": "Tối nay xem gì đó trên Netflix đi."
+    },
+    {
+      "id": "movies-4",
+      "topic": "Movies & Entertainment",
+      "level": "B1",
+      "sentence": "The ending was so unexpected, I didn't see it coming.",
+      "ipa": "/ði ˈendɪŋ wɒz soʊ ˌʌnɪkˈspektɪd aɪ ˈdɪdənt siː ɪt ˈkʌmɪŋ/",
+      "meaning": "Cái kết bất ngờ quá, tôi không đoán được."
+    },
+    {
+      "id": "movies-5",
+      "topic": "Movies & Entertainment",
+      "level": "B1",
+      "sentence": "I don't want any spoilers, I haven't finished it yet.",
+      "ipa": "/aɪ doʊnt wɒnt ˈeni ˈspɔɪlərz aɪ ˈhævənt ˈfɪnɪʃt ɪt jet/",
+      "meaning": "Đừng spoil, tôi chưa xem xong đâu."
+    },
+    {
+      "id": "movies-6",
+      "topic": "Movies & Entertainment",
+      "level": "B1",
+      "sentence": "This series got renewed for another season.",
+      "ipa": "/ðɪs ˈsɪriːz ɡɒt rɪˈnjuːd fɔːr əˈnʌðər ˈsiːzən/",
+      "meaning": "Bộ phim này được gia hạn thêm một mùa nữa."
+    },
+    {
+      "id": "movies-7",
+      "topic": "Movies & Entertainment",
+      "level": "B2",
+      "sentence": "The plot twist completely changed how I saw the main character.",
+      "ipa": "/ðə plɒt twɪst kəmˈpliːtli tʃeɪndʒd haʊ aɪ sɔː ðə meɪn ˈkærɪktər/",
+      "meaning": "Cú twist thay đổi hoàn toàn cách tôi nhìn nhận nhân vật chính."
+    },
+    {
+      "id": "movies-8",
+      "topic": "Movies & Entertainment",
+      "level": "B2",
+      "sentence": "Critics are divided over whether the sequel lived up to the original.",
+      "ipa": "/ˈkrɪtɪks ɑːr dɪˈvaɪdɪd ˈoʊvər ˈweðər ðə ˈsiːkwəl lɪvd ʌp tuː ði əˈrɪdʒənəl/",
+      "meaning": "Giới phê bình chia rẽ về việc phần tiếp theo có xứng với bản gốc không."
+    },
+    {
+      "id": "movies-9",
+      "topic": "Movies & Entertainment",
+      "level": "B2",
+      "sentence": "I binge-watched the entire season in one weekend.",
+      "ipa": "/aɪ bɪndʒ wɒtʃt ði ɪnˈtaɪər ˈsiːzən ɪn wʌn ˈwiːkend/",
+      "meaning": "Tôi cày hết cả mùa phim chỉ trong một cuối tuần."
+    },
+    {
+      "id": "movies-10",
+      "topic": "Movies & Entertainment",
+      "level": "B2",
+      "sentence": "The soundtrack really elevated the emotional scenes.",
+      "ipa": "/ðə ˈsaʊndtræk ˈriːəli ˈeləveɪtɪd ði ɪˈmoʊʃənəl siːnz/",
+      "meaning": "Nhạc phim thực sự làm những cảnh xúc động thêm sâu sắc."
+    },
+    {
+      "id": "party-1",
+      "topic": "Parties & Celebrations",
+      "level": "A1",
+      "sentence": "Happy birthday! I hope you have a great day.",
+      "ipa": "/ˈhæpi ˈbɜːrθdeɪ aɪ hoʊp juː hæv ə ɡreɪt deɪ/",
+      "meaning": "Chúc mừng sinh nhật! Chúc bạn một ngày thật vui."
+    },
+    {
+      "id": "party-2",
+      "topic": "Parties & Celebrations",
+      "level": "A2",
+      "sentence": "Thanks for inviting me to the party.",
+      "ipa": "/θæŋks fɔːr ɪnˈvaɪtɪŋ miː tuː ðə ˈpɑːrti/",
+      "meaning": "Cảm ơn đã mời tôi đến bữa tiệc."
+    },
+    {
+      "id": "party-3",
+      "topic": "Parties & Celebrations",
+      "level": "A2",
+      "sentence": "What time does the party start?",
+      "ipa": "/wɒt taɪm dʌz ðə ˈpɑːrti stɑːrt/",
+      "meaning": "Mấy giờ bữa tiệc bắt đầu?"
+    },
+    {
+      "id": "party-4",
+      "topic": "Parties & Celebrations",
+      "level": "B1",
+      "sentence": "Should I bring anything to the party?",
+      "ipa": "/ʃʊd aɪ brɪŋ ˈeniθɪŋ tuː ðə ˈpɑːrti/",
+      "meaning": "Tôi có nên mang gì đến bữa tiệc không?"
+    },
+    {
+      "id": "party-5",
+      "topic": "Parties & Celebrations",
+      "level": "B1",
+      "sentence": "Let's raise a toast to the happy couple.",
+      "ipa": "/lets reɪz ə toʊst tuː ðə ˈhæpi ˈkʌpəl/",
+      "meaning": "Nào, hãy nâng ly chúc mừng đôi uyên ương."
+    },
+    {
+      "id": "party-6",
+      "topic": "Parties & Celebrations",
+      "level": "B1",
+      "sentence": "The whole neighborhood gets together for Tet.",
+      "ipa": "/ðə hoʊl ˈneɪbərhʊd ɡets təˈɡeðər fɔːr tet/",
+      "meaning": "Cả khu phố tụ họp lại vào dịp Tết."
+    },
+    {
+      "id": "party-7",
+      "topic": "Parties & Celebrations",
+      "level": "B2",
+      "sentence": "It was such a memorable celebration, everyone had a blast.",
+      "ipa": "/ɪt wɒz sʌtʃ ə ˈmemərəbəl ˌseləˈbreɪʃən ˈevriwʌn hæd ə blæst/",
+      "meaning": "Đó là một buổi lễ đáng nhớ, ai cũng chơi hết mình."
+    },
+    {
+      "id": "party-8",
+      "topic": "Parties & Celebrations",
+      "level": "B2",
+      "sentence": "We decorated the whole place ourselves, it took all weekend.",
+      "ipa": "/wiː ˈdekəreɪtɪd ðə hoʊl pleɪs aʊərˈselvz ɪt tʊk ɔːl ˈwiːkend/",
+      "meaning": "Chúng tôi tự trang trí cả không gian, mất nguyên cuối tuần."
+    },
+    {
+      "id": "party-9",
+      "topic": "Parties & Celebrations",
+      "level": "B2",
+      "sentence": "I'm hosting a small get-together this Saturday, feel free to drop by.",
+      "ipa": "/aɪm ˈhoʊstɪŋ ə smɔːl ɡet təˈɡeðər ðɪs ˈsætərdeɪ fiːl friː tuː drɒp baɪ/",
+      "meaning": "Thứ Bảy này tôi tổ chức tụ họp nhỏ, ghé chơi nhé."
+    },
+    {
+      "id": "party-10",
+      "topic": "Parties & Celebrations",
+      "level": "B2",
+      "sentence": "The fireworks at midnight were absolutely stunning.",
+      "ipa": "/ðə ˈfaɪərwɜːrks æt ˈmɪdnaɪt wɜːr ˈæbsəluːtli ˈstʌnɪŋ/",
+      "meaning": "Pháo hoa lúc nửa đêm đẹp tuyệt vời."
+    },
+    {
+      "id": "complaints-1",
+      "topic": "Complaints",
+      "level": "A2",
+      "sentence": "Excuse me, this isn't what I ordered.",
+      "ipa": "/ɪkˈskjuːz miː ðɪs ˈɪzənt wɒt aɪ ˈɔːrdərd/",
+      "meaning": "Xin lỗi, đây không phải món tôi gọi."
+    },
+    {
+      "id": "complaints-2",
+      "topic": "Complaints",
+      "level": "B1",
+      "sentence": "I'm not happy with the service I received.",
+      "ipa": "/aɪm nɒt ˈhæpi wɪð ðə ˈsɜːrvɪs aɪ rɪˈsiːvd/",
+      "meaning": "Tôi không hài lòng với dịch vụ vừa nhận được."
+    },
+    {
+      "id": "complaints-3",
+      "topic": "Complaints",
+      "level": "B1",
+      "sentence": "This product broke after just two days of use.",
+      "ipa": "/ðɪs ˈprɒdʌkt broʊk ˈæftər dʒʌst tuː deɪz əv juːs/",
+      "meaning": "Sản phẩm này hỏng chỉ sau hai ngày sử dụng."
+    },
+    {
+      "id": "complaints-4",
+      "topic": "Complaints",
+      "level": "B1",
+      "sentence": "I'd like to speak to the manager, please.",
+      "ipa": "/aɪd laɪk tuː spiːk tuː ðə ˈmænɪdʒər pliːz/",
+      "meaning": "Tôi muốn gặp quản lý."
+    },
+    {
+      "id": "complaints-5",
+      "topic": "Complaints",
+      "level": "B2",
+      "sentence": "This is the second time this has happened, I'm quite frustrated.",
+      "ipa": "/ðɪs ɪz ðə ˈsekənd taɪm ðɪs hæz ˈhæpənd aɪm kwaɪt frʌˈstreɪtɪd/",
+      "meaning": "Đây là lần thứ hai chuyện này xảy ra, tôi khá bực mình."
+    },
+    {
+      "id": "complaints-6",
+      "topic": "Complaints",
+      "level": "B2",
+      "sentence": "I expect a full refund given the circumstances.",
+      "ipa": "/aɪ ɪkˈspekt ə fʊl ˈriːfʌnd ˈɡɪvən ðə ˈsɜːrkəmstænsɪz/",
+      "meaning": "Trong hoàn cảnh này tôi mong được hoàn tiền đầy đủ."
+    },
+    {
+      "id": "complaints-7",
+      "topic": "Complaints",
+      "level": "B2",
+      "sentence": "Could you look into this and get back to me by tomorrow?",
+      "ipa": "/kʊd juː lʊk ˈɪntuː ðɪs ənd ɡet bæk tuː miː baɪ təˈmɒroʊ/",
+      "meaning": "Bạn kiểm tra việc này và phản hồi lại tôi trước mai được không?"
+    },
+    {
+      "id": "complaints-8",
+      "topic": "Complaints",
+      "level": "B2",
+      "sentence": "I understand mistakes happen, but this needs to be fixed properly.",
+      "ipa": "/aɪ ˌʌndərˈstænd mɪˈsteɪks ˈhæpən bʌt ðɪs niːdz tuː biː fɪkst ˈprɒpərli/",
+      "meaning": "Tôi hiểu sai sót có thể xảy ra, nhưng việc này cần được xử lý đúng cách."
+    },
+    {
+      "id": "complaints-9",
+      "topic": "Complaints",
+      "level": "B2",
+      "sentence": "I've been on hold for over twenty minutes now.",
+      "ipa": "/aɪv bɪn ɒn hoʊld fɔːr ˈoʊvər ˈtwenti ˈmɪnɪts naʊ/",
+      "meaning": "Tôi đã chờ trên đường dây hơn hai mươi phút rồi."
+    },
+    {
+      "id": "complaints-10",
+      "topic": "Complaints",
+      "level": "B2",
+      "sentence": "If this isn't resolved, I'll have to escalate the matter.",
+      "ipa": "/ɪf ðɪs ˈɪzənt rɪˈzɒlvd aɪl hæv tuː ˈeskəleɪt ðə ˈmætər/",
+      "meaning": "Nếu việc này không được giải quyết, tôi sẽ phải báo cáo lên cấp cao hơn."
+    },
+    {
+      "id": "apologies-1",
+      "topic": "Apologies & Thanks",
+      "level": "A1",
+      "sentence": "I'm sorry I'm late.",
+      "ipa": "/aɪm ˈsɒri aɪm leɪt/",
+      "meaning": "Xin lỗi tôi đến trễ."
+    },
+    {
+      "id": "apologies-2",
+      "topic": "Apologies & Thanks",
+      "level": "A1",
+      "sentence": "Thank you so much for your help.",
+      "ipa": "/θæŋk juː soʊ mʌtʃ fɔːr jɔːr help/",
+      "meaning": "Cảm ơn bạn rất nhiều vì đã giúp đỡ."
+    },
+    {
+      "id": "apologies-3",
+      "topic": "Apologies & Thanks",
+      "level": "A2",
+      "sentence": "I didn't mean to upset you, I'm really sorry.",
+      "ipa": "/aɪ ˈdɪdənt miːn tuː ʌpˈset juː aɪm ˈriːəli ˈsɒri/",
+      "meaning": "Tôi không cố ý làm bạn buồn, tôi thực sự xin lỗi."
+    },
+    {
+      "id": "apologies-4",
+      "topic": "Apologies & Thanks",
+      "level": "A2",
+      "sentence": "It was my fault, I should have been more careful.",
+      "ipa": "/ɪt wɒz maɪ fɔːlt aɪ ʃʊd hæv bɪn mɔːr ˈkerfəl/",
+      "meaning": "Đó là lỗi của tôi, lẽ ra tôi nên cẩn thận hơn."
+    },
+    {
+      "id": "apologies-5",
+      "topic": "Apologies & Thanks",
+      "level": "B1",
+      "sentence": "I really appreciate everything you've done for me.",
+      "ipa": "/aɪ ˈriːəli əˈpriːʃieɪt ˈevriθɪŋ juːv dʌn fɔːr miː/",
+      "meaning": "Tôi thực sự trân trọng mọi điều bạn đã làm cho tôi."
+    },
+    {
+      "id": "apologies-6",
+      "topic": "Apologies & Thanks",
+      "level": "B1",
+      "sentence": "Please accept my apologies for the confusion earlier.",
+      "ipa": "/pliːz əkˈsept maɪ əˈpɒlədʒiz fɔːr ðə kənˈfjuːʒən ˈɜːrliər/",
+      "meaning": "Xin nhận lời xin lỗi của tôi vì sự nhầm lẫn trước đó."
+    },
+    {
+      "id": "apologies-7",
+      "topic": "Apologies & Thanks",
+      "level": "B1",
+      "sentence": "I owe you one, thanks for covering my shift.",
+      "ipa": "/aɪ oʊ juː wʌn θæŋks fɔːr ˈkʌvərɪŋ maɪ ʃɪft/",
+      "meaning": "Tôi nợ bạn một lần, cảm ơn vì đã làm ca giúp tôi."
+    },
+    {
+      "id": "apologies-8",
+      "topic": "Apologies & Thanks",
+      "level": "B2",
+      "sentence": "I sincerely apologize for any inconvenience this may have caused.",
+      "ipa": "/aɪ sɪnˈsɪrli əˈpɒlədʒaɪz fɔːr ˈeni ˌɪnkənˈviːniəns ðɪs meɪ hæv kɔːzd/",
+      "meaning": "Tôi thành thật xin lỗi vì bất kỳ bất tiện nào việc này có thể gây ra."
+    },
+    {
+      "id": "apologies-9",
+      "topic": "Apologies & Thanks",
+      "level": "B2",
+      "sentence": "I can't thank you enough for standing by me.",
+      "ipa": "/aɪ kænt θæŋk juː ɪˈnʌf fɔːr ˈstændɪŋ baɪ miː/",
+      "meaning": "Tôi không biết cảm ơn bạn thế nào vì đã luôn ở bên tôi."
+    },
+    {
+      "id": "apologies-10",
+      "topic": "Apologies & Thanks",
+      "level": "B2",
+      "sentence": "Let me make it up to you, dinner's on me next time.",
+      "ipa": "/let miː meɪk ɪt ʌp tuː juː ˈdɪnərz ɒn miː nekst taɪm/",
+      "meaning": "Để tôi bù đắp cho bạn, lần sau tôi mời ăn tối."
+    },
+    {
+      "id": "opinions-1",
+      "topic": "Opinions & Debates",
+      "level": "A2",
+      "sentence": "I think this is a great idea.",
+      "ipa": "/aɪ θɪŋk ðɪs ɪz ə ɡreɪt aɪˈdɪə/",
+      "meaning": "Tôi nghĩ đây là một ý tưởng hay."
+    },
+    {
+      "id": "opinions-2",
+      "topic": "Opinions & Debates",
+      "level": "A2",
+      "sentence": "In my opinion, we should wait a bit longer.",
+      "ipa": "/ɪn maɪ əˈpɪnjən wiː ʃʊd weɪt ə bɪt ˈlɒŋɡər/",
+      "meaning": "Theo tôi, chúng ta nên đợi thêm một chút."
+    },
+    {
+      "id": "opinions-3",
+      "topic": "Opinions & Debates",
+      "level": "B1",
+      "sentence": "I see your point, but I look at it differently.",
+      "ipa": "/aɪ siː jɔːr pɔɪnt bʌt aɪ lʊk æt ɪt ˈdɪfrəntli/",
+      "meaning": "Tôi hiểu ý bạn, nhưng tôi nhìn nhận nó khác đi."
+    },
+    {
+      "id": "opinions-4",
+      "topic": "Opinions & Debates",
+      "level": "B1",
+      "sentence": "That's a fair point, I hadn't thought of it that way.",
+      "ipa": "/ðæts ə fer pɔɪnt aɪ ˈhædənt θɔːt əv ɪt ðæt weɪ/",
+      "meaning": "Đó là một điểm hợp lý, tôi chưa nghĩ theo hướng đó."
+    },
+    {
+      "id": "opinions-5",
+      "topic": "Opinions & Debates",
+      "level": "B1",
+      "sentence": "I'm not entirely convinced, to be honest.",
+      "ipa": "/aɪm nɒt ɪnˈtaɪərli kənˈvɪnst tuː biː ˈɒnɪst/",
+      "meaning": "Thành thật mà nói, tôi không hoàn toàn bị thuyết phục."
+    },
+    {
+      "id": "opinions-6",
+      "topic": "Opinions & Debates",
+      "level": "B2",
+      "sentence": "I see where you're coming from, but I have to disagree.",
+      "ipa": "/aɪ siː wer jʊr ˈkʌmɪŋ frɒm bʌt aɪ hæv tuː ˌdɪsəˈɡriː/",
+      "meaning": "Tôi hiểu quan điểm của bạn, nhưng tôi phải không đồng ý."
+    },
+    {
+      "id": "opinions-7",
+      "topic": "Opinions & Debates",
+      "level": "B2",
+      "sentence": "Let's agree to disagree on this one.",
+      "ipa": "/lets əˈɡriː tuː ˌdɪsəˈɡriː ɒn ðɪs wʌn/",
+      "meaning": "Vấn đề này chúng ta cứ giữ quan điểm riêng của mình vậy."
+    },
+    {
+      "id": "opinions-8",
+      "topic": "Opinions & Debates",
+      "level": "B2",
+      "sentence": "On the one hand it saves money, but on the other hand it takes more time.",
+      "ipa": "/ɒn ði wʌn hænd ɪt seɪvz ˈmʌni bʌt ɒn ði ˈʌðər hænd ɪt teɪks mɔːr taɪm/",
+      "meaning": "Một mặt thì tiết kiệm tiền, nhưng mặt khác lại tốn nhiều thời gian hơn."
+    },
+    {
+      "id": "opinions-9",
+      "topic": "Opinions & Debates",
+      "level": "B2",
+      "sentence": "There's more nuance to this than people realize.",
+      "ipa": "/ðerz mɔːr ˈnuːɑːns tuː ðɪs ðæn ˈpiːpəl ˈriːəlaɪz/",
+      "meaning": "Vấn đề này phức tạp hơn mọi người nghĩ."
+    },
+    {
+      "id": "opinions-10",
+      "topic": "Opinions & Debates",
+      "level": "B2",
+      "sentence": "At the end of the day, it's a matter of personal preference.",
+      "ipa": "/æt ði end əv ðə deɪ ɪts ə ˈmætər əv ˈpɜːrsənəl ˈprefərəns/",
+      "meaning": "Suy cho cùng, đó là vấn đề sở thích cá nhân."
+    },
+    {
+      "id": "emotions-1",
+      "topic": "Emotions",
+      "level": "A1",
+      "sentence": "I'm so happy today!",
+      "ipa": "/aɪm soʊ ˈhæpi təˈdeɪ/",
+      "meaning": "Hôm nay tôi rất vui!"
+    },
+    {
+      "id": "emotions-2",
+      "topic": "Emotions",
+      "level": "A2",
+      "sentence": "I'm feeling a bit tired today.",
+      "ipa": "/aɪm ˈfiːlɪŋ ə bɪt ˈtaɪərd təˈdeɪ/",
+      "meaning": "Hôm nay tôi thấy hơi mệt."
+    },
+    {
+      "id": "emotions-3",
+      "topic": "Emotions",
+      "level": "A2",
+      "sentence": "I'm really excited about the trip next week.",
+      "ipa": "/aɪm ˈriːəli ɪkˈsaɪtɪd əˈbaʊt ðə trɪp nekst wiːk/",
+      "meaning": "Tôi rất háo hức về chuyến đi tuần sau."
+    },
+    {
+      "id": "emotions-4",
+      "topic": "Emotions",
+      "level": "B1",
+      "sentence": "I was a bit disappointed with how things turned out.",
+      "ipa": "/aɪ wɒz ə bɪt ˌdɪsəˈpɔɪntɪd wɪð haʊ θɪŋz tɜːrnd aʊt/",
+      "meaning": "Tôi hơi thất vọng về cách mọi thứ diễn ra."
+    },
+    {
+      "id": "emotions-5",
+      "topic": "Emotions",
+      "level": "B1",
+      "sentence": "I've been feeling a bit overwhelmed lately.",
+      "ipa": "/aɪv bɪn ˈfiːlɪŋ ə bɪt ˌoʊvərˈwelmd ˈleɪtli/",
+      "meaning": "Dạo này tôi cảm thấy hơi choáng ngợp."
+    },
+    {
+      "id": "emotions-6",
+      "topic": "Emotions",
+      "level": "B1",
+      "sentence": "That really made my day, thank you.",
+      "ipa": "/ðæt ˈriːəli meɪd maɪ deɪ ˈθæŋk juː/",
+      "meaning": "Điều đó thực sự làm ngày của tôi trở nên tuyệt vời, cảm ơn bạn."
+    },
+    {
+      "id": "emotions-7",
+      "topic": "Emotions",
+      "level": "B2",
+      "sentence": "I'm trying to stay positive despite everything going on.",
+      "ipa": "/aɪm ˈtraɪɪŋ tuː steɪ ˈpɒzətɪv dɪˈspaɪt ˈevriθɪŋ ˈɡoʊɪŋ ɒn/",
+      "meaning": "Tôi đang cố giữ tinh thần lạc quan dù mọi thứ đang diễn ra."
+    },
+    {
+      "id": "emotions-8",
+      "topic": "Emotions",
+      "level": "B2",
+      "sentence": "I felt a huge sense of relief once it was over.",
+      "ipa": "/aɪ felt ə hjuːdʒ sens əv rɪˈliːf wʌns ɪt wɒz ˈoʊvər/",
+      "meaning": "Tôi cảm thấy vô cùng nhẹ nhõm khi mọi chuyện kết thúc."
+    },
+    {
+      "id": "emotions-9",
+      "topic": "Emotions",
+      "level": "B2",
+      "sentence": "It's normal to feel nervous before a big change.",
+      "ipa": "/ɪts ˈnɔːrməl tuː fiːl ˈnɜːrvəs bɪˈfɔːr ə bɪɡ tʃeɪndʒ/",
+      "meaning": "Cảm thấy lo lắng trước một thay đổi lớn là điều bình thường."
+    },
+    {
+      "id": "emotions-10",
+      "topic": "Emotions",
+      "level": "B2",
+      "sentence": "I'm genuinely proud of how far you've come.",
+      "ipa": "/aɪm ˈdʒenjuɪnli praʊd əv haʊ fɑːr juːv kʌm/",
+      "meaning": "Tôi thực sự tự hào về chặng đường bạn đã đi qua."
+    },
+    {
+      "id": "farewell-1",
+      "topic": "Farewells",
+      "level": "A1",
+      "sentence": "Goodbye, see you tomorrow!",
+      "ipa": "/ˌɡʊdˈbaɪ siː juː təˈmɒroʊ/",
+      "meaning": "Tạm biệt, hẹn gặp lại ngày mai!"
+    },
+    {
+      "id": "farewell-2",
+      "topic": "Farewells",
+      "level": "A1",
+      "sentence": "Take care and have a safe trip.",
+      "ipa": "/teɪk ker ənd hæv ə seɪf trɪp/",
+      "meaning": "Bảo trọng và đi đường bình an nhé."
+    },
+    {
+      "id": "farewell-3",
+      "topic": "Farewells",
+      "level": "A2",
+      "sentence": "It was great seeing you again.",
+      "ipa": "/ɪt wɒz ɡreɪt ˈsiːɪŋ juː əˈɡen/",
+      "meaning": "Thật vui khi được gặp lại bạn."
+    },
+    {
+      "id": "farewell-4",
+      "topic": "Farewells",
+      "level": "A2",
+      "sentence": "Let's keep in touch, okay?",
+      "ipa": "/lets kiːp ɪn tʌtʃ ˈoʊkeɪ/",
+      "meaning": "Giữ liên lạc nhé?"
+    },
+    {
+      "id": "farewell-5",
+      "topic": "Farewells",
+      "level": "B1",
+      "sentence": "I'm really going to miss working with you all.",
+      "ipa": "/aɪm ˈriːəli ˈɡoʊɪŋ tuː mɪs ˈwɜːrkɪŋ wɪð juː ɔːl/",
+      "meaning": "Tôi thực sự sẽ nhớ khoảng thời gian làm việc cùng mọi người."
+    },
+    {
+      "id": "farewell-6",
+      "topic": "Farewells",
+      "level": "B1",
+      "sentence": "Don't be a stranger, come visit anytime.",
+      "ipa": "/doʊnt biː ə ˈstreɪndʒər kʌm ˈvɪzɪt ˈeniˌtaɪm/",
+      "meaning": "Đừng xa lạ nhé, ghé thăm bất cứ lúc nào."
+    },
+    {
+      "id": "farewell-7",
+      "topic": "Farewells",
+      "level": "B1",
+      "sentence": "Wishing you all the best in your new job.",
+      "ipa": "/ˈwɪʃɪŋ juː ɔːl ðə best ɪn jɔːr njuː dʒɒb/",
+      "meaning": "Chúc bạn mọi điều tốt đẹp nhất trong công việc mới."
+    },
+    {
+      "id": "farewell-8",
+      "topic": "Farewells",
+      "level": "B2",
+      "sentence": "It's bittersweet saying goodbye, but I'm excited for what's next.",
+      "ipa": "/ɪts ˈbɪtərswiːt ˈseɪɪŋ ˌɡʊdˈbaɪ bʌt aɪm ɪkˈsaɪtɪd fɔːr wɒts nekst/",
+      "meaning": "Chia tay thật vừa buồn vừa vui, nhưng tôi háo hức cho những gì sắp tới."
+    },
+    {
+      "id": "farewell-9",
+      "topic": "Farewells",
+      "level": "B2",
+      "sentence": "Let's not lose touch — I'll message you once I've settled in.",
+      "ipa": "/lets nɒt luːz tʌtʃ aɪl ˈmesɪdʒ juː wʌns aɪv ˈsetəld ɪn/",
+      "meaning": "Đừng để mất liên lạc nhé — ổn định chỗ mới xong tôi sẽ nhắn bạn."
+    },
+    {
+      "id": "farewell-10",
+      "topic": "Farewells",
+      "level": "B2",
+      "sentence": "I'll never forget everything you've done for me here.",
+      "ipa": "/aɪl ˈnevər fərˈɡet ˈevriθɪŋ juːv dʌn fɔːr miː hɪr/",
+      "meaning": "Tôi sẽ không bao giờ quên những gì bạn đã làm cho tôi ở đây."
+    }
+  ],
+  "dialogues": [
+    {
+      "id": "dlg-restaurant",
+      "topic": "Restaurant",
+      "level": "B1",
+      "title": "Ordering Dinner",
+      "lines": [
+        {"speaker":"A","text":"Good evening! Do you have a reservation?"},
+        {"speaker":"B","text":"Yes, under the name Nguyen, for two people."},
+        {"speaker":"A","text":"Great, right this way. Here are your menus."},
+        {"speaker":"B","text":"Thank you. Could we start with some water, please?"},
+        {"speaker":"A","text":"Of course. Are you ready to order, or do you need more time?"},
+        {"speaker":"B","text":"I think we're ready. I'll have the grilled salmon, please."},
+        {"speaker":"A","text":"Excellent choice. Anything to drink with that?"},
+        {"speaker":"B","text":"Just an iced tea, thank you."},
+        {"speaker":"A","text":"Perfect, I'll bring your food shortly."}
+      ]
+    },
+    {
+      "id": "dlg-cafe",
+      "topic": "Coffee Shop",
+      "level": "A2",
+      "title": "Ordering Coffee",
+      "lines": [
+        {"speaker":"A","text":"Hi, what can I get started for you today?"},
+        {"speaker":"B","text":"Hi, can I get a medium iced latte, please?"},
+        {"speaker":"A","text":"Sure. Would you like that with regular or oat milk?"},
+        {"speaker":"B","text":"Oat milk, please."},
+        {"speaker":"A","text":"No problem. Is that for here or to go?"},
+        {"speaker":"B","text":"To go, please."},
+        {"speaker":"A","text":"That'll be 45,000 dong. Can I get a name for the order?"},
+        {"speaker":"B","text":"It's Anna."},
+        {"speaker":"A","text":"Great, Anna. It'll be ready in a few minutes."}
+      ]
+    },
+    {
+      "id": "dlg-shopping",
+      "topic": "Shopping",
+      "level": "A2",
+      "title": "Buying a Jacket",
+      "lines": [
+        {"speaker":"A","text":"Hi, let me know if you need any help."},
+        {"speaker":"B","text":"Thanks. I'm looking for a jacket in a medium size."},
+        {"speaker":"A","text":"We have a few options over here. What color are you thinking?"},
+        {"speaker":"B","text":"Maybe black or dark blue."},
+        {"speaker":"A","text":"This one is popular. Would you like to try it on?"},
+        {"speaker":"B","text":"Yes, please. Where's the fitting room?"},
+        {"speaker":"A","text":"Right over there, on your left."},
+        {"speaker":"B","text":"Thanks, I'll go try it on now."}
+      ]
+    },
+    {
+      "id": "dlg-airport",
+      "topic": "Airport",
+      "level": "A2",
+      "title": "Checking In",
+      "lines": [
+        {"speaker":"A","text":"Good morning, may I see your passport and ticket, please?"},
+        {"speaker":"B","text":"Sure, here you go."},
+        {"speaker":"A","text":"Thank you. Do you have any bags to check in?"},
+        {"speaker":"B","text":"Yes, just one suitcase."},
+        {"speaker":"A","text":"Please put it on the scale... Okay, that's all set. Here's your boarding pass."},
+        {"speaker":"B","text":"Thank you. Which gate is it?"},
+        {"speaker":"A","text":"Gate 14. Boarding starts at 9:30."},
+        {"speaker":"B","text":"Great, thank you for your help."}
+      ]
+    },
+    {
+      "id": "dlg-hotel",
+      "topic": "Hotel",
+      "level": "A2",
+      "title": "Checking In",
+      "lines": [
+        {"speaker":"A","text":"Good afternoon, welcome to Lotus Hotel. Do you have a reservation?"},
+        {"speaker":"B","text":"Yes, under the name Tran, for two nights."},
+        {"speaker":"A","text":"Let me check... Yes, I found it. May I see your ID, please?"},
+        {"speaker":"B","text":"Here you are."},
+        {"speaker":"A","text":"Thank you. Your room is on the fifth floor, room 502."},
+        {"speaker":"B","text":"Is breakfast included?"},
+        {"speaker":"A","text":"Yes, breakfast is served from 6:30 to 10 in the restaurant downstairs."},
+        {"speaker":"B","text":"Perfect, thank you."}
+      ]
+    },
+    {
+      "id": "dlg-directions",
+      "topic": "Asking for Directions",
+      "level": "A1",
+      "title": "Finding the Museum",
+      "lines": [
+        {"speaker":"A","text":"Excuse me, could you tell me how to get to the museum?"},
+        {"speaker":"B","text":"Sure. Go straight for two blocks, then turn left."},
+        {"speaker":"A","text":"Turn left after two blocks, got it."},
+        {"speaker":"B","text":"Yes, then you'll see it on your right, next to the park."},
+        {"speaker":"A","text":"Is it far from here?"},
+        {"speaker":"B","text":"Not really, about a ten-minute walk."},
+        {"speaker":"A","text":"Thank you so much for your help."},
+        {"speaker":"B","text":"You're welcome, have a nice day!"}
+      ]
+    },
+    {
+      "id": "dlg-taxi",
+      "topic": "Taxi & Transport",
+      "level": "A2",
+      "title": "Getting to the Airport",
+      "lines": [
+        {"speaker":"A","text":"Where would you like to go?"},
+        {"speaker":"B","text":"To the airport, please. I have a flight at 3 pm."},
+        {"speaker":"A","text":"No problem, it should take about 30 minutes."},
+        {"speaker":"B","text":"Could you turn on the meter, please?"},
+        {"speaker":"A","text":"Sure, no problem."},
+        {"speaker":"B","text":"Is there a lot of traffic today?"},
+        {"speaker":"A","text":"A little, but we still have plenty of time."},
+        {"speaker":"B","text":"Great, thank you."}
+      ]
+    },
+    {
+      "id": "dlg-doctor",
+      "topic": "Seeing a Doctor",
+      "level": "B1",
+      "title": "Describing Symptoms",
+      "lines": [
+        {"speaker":"A","text":"Good morning, what seems to be the problem today?"},
+        {"speaker":"B","text":"I've had a headache and a sore throat for two days."},
+        {"speaker":"A","text":"I see. Do you have a fever as well?"},
+        {"speaker":"B","text":"A little, I think."},
+        {"speaker":"A","text":"Let me check your temperature... Yes, it's slightly high."},
+        {"speaker":"B","text":"Is it serious?"},
+        {"speaker":"A","text":"It looks like a common cold. I'll prescribe some medicine and you should rest."},
+        {"speaker":"B","text":"Thank you, doctor."}
+      ]
+    },
+    {
+      "id": "dlg-bank",
+      "topic": "Bank",
+      "level": "B1",
+      "title": "Opening an Account",
+      "lines": [
+        {"speaker":"A","text":"Good morning, how can I help you today?"},
+        {"speaker":"B","text":"I'd like to open a savings account, please."},
+        {"speaker":"A","text":"Sure. Do you have your ID and proof of address?"},
+        {"speaker":"B","text":"Yes, here they are."},
+        {"speaker":"A","text":"Thank you. Would you like a debit card with the account?"},
+        {"speaker":"B","text":"Yes, please."},
+        {"speaker":"A","text":"Great, please fill out this form, and we'll set everything up."},
+        {"speaker":"B","text":"Okay, thank you."}
+      ]
+    },
+    {
+      "id": "dlg-phonecall",
+      "topic": "Phone Calls",
+      "level": "B1",
+      "title": "Rescheduling a Meeting",
+      "lines": [
+        {"speaker":"A","text":"Hi, this is Minh from the design team."},
+        {"speaker":"B","text":"Hi Minh, how can I help you?"},
+        {"speaker":"A","text":"I wanted to ask if we could reschedule tomorrow's meeting."},
+        {"speaker":"B","text":"Sure, is something wrong?"},
+        {"speaker":"A","text":"I have a conflict in the morning. Could we move it to the afternoon?"},
+        {"speaker":"B","text":"That should work. How about 2 pm?"},
+        {"speaker":"A","text":"Perfect, 2 pm works for me. Thanks for understanding."},
+        {"speaker":"B","text":"No problem, see you then."}
+      ]
+    },
+    {
+      "id": "dlg-interview",
+      "topic": "Job Interviews",
+      "level": "B1",
+      "title": "Introducing Yourself",
+      "lines": [
+        {"speaker":"A","text":"Thanks for coming in today. Could you start by telling me a bit about yourself?"},
+        {"speaker":"B","text":"Of course. I recently graduated with a degree in marketing and have interned at two companies."},
+        {"speaker":"A","text":"That's great. What made you apply for this position?"},
+        {"speaker":"B","text":"I've always admired your company's creative campaigns, and I want to grow in this field."},
+        {"speaker":"A","text":"What would you say is your biggest strength?"},
+        {"speaker":"B","text":"I'm very organized and good at managing multiple projects at once."},
+        {"speaker":"A","text":"That's good to hear. Do you have any questions for me?"},
+        {"speaker":"B","text":"Yes, what does a typical day look like in this role?"}
+      ]
+    },
+    {
+      "id": "dlg-meetings",
+      "topic": "Meetings",
+      "level": "B1",
+      "title": "Starting a Team Meeting",
+      "lines": [
+        {"speaker":"A","text":"Let's get started. Is everyone here?"},
+        {"speaker":"B","text":"Yes, I think we're all set."},
+        {"speaker":"A","text":"Great. Let's go around and share quick updates."},
+        {"speaker":"B","text":"Sure, I can start. My part of the project is on track."},
+        {"speaker":"A","text":"Good to hear. Any blockers I should know about?"},
+        {"speaker":"B","text":"Just one — we're waiting on approval from the design team."},
+        {"speaker":"A","text":"Okay, I'll follow up on that today."},
+        {"speaker":"B","text":"Sounds good, thanks."}
+      ]
+    },
+    {
+      "id": "dlg-smalltalk",
+      "topic": "Everyday Small Talk",
+      "level": "A2",
+      "title": "Catching Up",
+      "lines": [
+        {"speaker":"A","text":"Hey, long time no see! How have you been?"},
+        {"speaker":"B","text":"I've been good, just really busy with work. How about you?"},
+        {"speaker":"A","text":"Same here, it's been a hectic month."},
+        {"speaker":"B","text":"What have you been working on?"},
+        {"speaker":"A","text":"Mostly a new project at the office. It's been challenging but interesting."},
+        {"speaker":"B","text":"That sounds exciting. We should catch up properly sometime."},
+        {"speaker":"A","text":"Definitely, let's grab coffee this weekend."},
+        {"speaker":"B","text":"Sounds great, I'll text you."}
+      ]
+    },
+    {
+      "id": "dlg-complaints",
+      "topic": "Complaints",
+      "level": "B1",
+      "title": "A Problem with an Order",
+      "lines": [
+        {"speaker":"A","text":"Hi, I'm calling about an order that hasn't arrived yet."},
+        {"speaker":"B","text":"I'm sorry to hear that. Could I get your order number?"},
+        {"speaker":"A","text":"Yes, it's 48213."},
+        {"speaker":"B","text":"Let me check... I see the delay was caused by a shipping issue."},
+        {"speaker":"A","text":"This is the second time this has happened."},
+        {"speaker":"B","text":"I completely understand your frustration. I'll refund the shipping fee right away."},
+        {"speaker":"A","text":"Thank you, I appreciate that."},
+        {"speaker":"B","text":"Of course, and I'm sorry again for the inconvenience."}
+      ]
+    },
+    {
+      "id": "dlg-farewell",
+      "topic": "Farewells",
+      "level": "A2",
+      "title": "Saying Goodbye to a Colleague",
+      "lines": [
+        {"speaker":"A","text":"I heard it's your last day tomorrow!"},
+        {"speaker":"B","text":"Yes, it's a bit bittersweet, but I'm excited for the new job."},
+        {"speaker":"A","text":"We're really going to miss you around here."},
+        {"speaker":"B","text":"I'll miss you all too. It's been a great few years."},
+        {"speaker":"A","text":"Let's keep in touch, okay?"},
+        {"speaker":"B","text":"Of course, I'll message you once I've settled in."},
+        {"speaker":"A","text":"Good luck with everything!"},
+        {"speaker":"B","text":"Thank you, take care!"}
+      ]
+    }
+  ]
+}

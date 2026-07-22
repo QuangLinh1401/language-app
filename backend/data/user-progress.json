@@ -1,0 +1,61 @@
+{
+  "streak": {
+    "current": 2,
+    "lastActiveDate": "2026-07-22"
+  },
+  "xp": 735,
+  "wordProgress": {
+    "greetings-1": {
+      "interval": 3,
+      "ease": 2.5,
+      "reps": 1,
+      "due": 1784891367667,
+      "lastGrade": "good"
+    },
+    "greetings-2": {
+      "interval": 9,
+      "ease": 2.4499999999999997,
+      "reps": 1,
+      "due": 1785411020075,
+      "lastGrade": "easy"
+    },
+    "greetings-3": {
+      "interval": 3,
+      "ease": 2.5,
+      "reps": 1,
+      "due": 1784891516661,
+      "lastGrade": "good"
+    }
+  },
+  "grammarProgress": {},
+  "listeningProgress": {},
+  "readingProgress": {},
+  "dailyNewWords": {
+    "date": "2026-07-22",
+    "wordIds": [
+      "jobs-basic-1",
+      "communication-social-a1-pad-1",
+      "places-basic-1",
+      "money-basic-1",
+      "body-parts-1",
+      "technology-a1-pad-1",
+      "entertainment-hobbies-a1-pad-1",
+      "school-basic-1",
+      "society-world-a1-pad-1",
+      "jobs-basic-2",
+      "communication-social-a1-pad-2",
+      "places-basic-2",
+      "money-basic-2",
+      "body-parts-2",
+      "technology-a1-pad-2",
+      "entertainment-hobbies-a1-pad-2",
+      "school-basic-2",
+      "society-world-a1-pad-2",
+      "jobs-basic-3",
+      "communication-social-a1-pad-3"
+    ]
+  },
+  "settings": {
+    "dailyNewLimit": 20
+  }
+}

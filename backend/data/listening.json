@@ -1,0 +1,784 @@
+{
+  "lessons": [
+    {
+      "id": "l01",
+      "level": "A1",
+      "topic": "Introducing Yourself",
+      "title": "Meeting a New Friend",
+      "script": "Hi, my name is Anna. I'm from Canada. Nice to meet you. — Hi Anna, I'm Minh. Nice to meet you too. Where do you live now? — I live in District 1, near the river.",
+      "questions": [
+        {
+          "id": "l01-q1",
+          "type": "blank",
+          "prompt": "Hi, my ___ is Anna.",
+          "answer": "name"
+        },
+        {
+          "id": "l01-q2",
+          "type": "mc",
+          "prompt": "Where does Anna live now?",
+          "options": [
+            "Near the river",
+            "Near the airport",
+            "Near the school"
+          ],
+          "answer": "Near the river"
+        }
+      ]
+    },
+    {
+      "id": "l02",
+      "level": "A1",
+      "topic": "Asking for Directions",
+      "title": "Finding the Post Office",
+      "script": "Excuse me, where is the post office? — It's on Le Loi Street, next to the bank. Go straight, then turn left. — Thank you so much. — You're welcome.",
+      "questions": [
+        {
+          "id": "l02-q1",
+          "type": "blank",
+          "prompt": "Go straight, then turn ___.",
+          "answer": "left"
+        },
+        {
+          "id": "l02-q2",
+          "type": "mc",
+          "prompt": "Where is the post office?",
+          "options": [
+            "Next to the bank",
+            "Next to the school",
+            "Next to the market"
+          ],
+          "answer": "Next to the bank"
+        }
+      ]
+    },
+    {
+      "id": "l03",
+      "level": "A2",
+      "topic": "Airport",
+      "title": "Asking for the Departure Gate",
+      "script": "Excuse me, could you tell me which gate the flight to Tokyo is departing from? — It's gate 12, just down this hallway. — Thank you very much. — You're welcome, have a nice flight.",
+      "questions": [
+        {
+          "id": "l03-q1",
+          "type": "blank",
+          "prompt": "Could you tell me which ___ the flight is departing from?",
+          "answer": "gate"
+        },
+        {
+          "id": "l03-q2",
+          "type": "mc",
+          "prompt": "Which gate is the flight to Tokyo departing from?",
+          "options": [
+            "Gate 10",
+            "Gate 12",
+            "Gate 20"
+          ],
+          "answer": "Gate 12"
+        }
+      ]
+    },
+    {
+      "id": "l04",
+      "level": "A2",
+      "topic": "Restaurant",
+      "title": "Ordering at a Restaurant",
+      "script": "Good evening, are you ready to order? — Yes, I'd like the grilled chicken and a glass of orange juice, please. — Would you like any dessert? — Not right now, thank you.",
+      "questions": [
+        {
+          "id": "l04-q1",
+          "type": "blank",
+          "prompt": "I'd like the grilled chicken and a glass of ___ juice.",
+          "answer": "orange"
+        },
+        {
+          "id": "l04-q2",
+          "type": "mc",
+          "prompt": "Does the customer order dessert?",
+          "options": [
+            "Yes",
+            "No, not right now",
+            "They didn't answer"
+          ],
+          "answer": "No, not right now"
+        }
+      ]
+    },
+    {
+      "id": "l05",
+      "level": "A2",
+      "topic": "Shopping",
+      "title": "Exchanging an Item at a Store",
+      "script": "Hi, I bought this shirt yesterday but it's too small. Can I exchange it for a bigger size? — Sure, do you have the receipt? — Yes, here it is. — Great, let me get you a size Medium.",
+      "questions": [
+        {
+          "id": "l05-q1",
+          "type": "blank",
+          "prompt": "Can I exchange it for a bigger ___?",
+          "answer": "size"
+        },
+        {
+          "id": "l05-q2",
+          "type": "mc",
+          "prompt": "What does the staff ask for?",
+          "options": [
+            "The receipt",
+            "The credit card",
+            "The shirt tag"
+          ],
+          "answer": "The receipt"
+        }
+      ]
+    },
+    {
+      "id": "l06",
+      "level": "B1",
+      "topic": "Job Interviews",
+      "title": "Introducing Yourself in an Interview",
+      "script": "Could you tell me a bit about yourself? — Sure. I have three years of experience in marketing, and I recently led a project that increased our website traffic by 30 percent. I'm looking for a role where I can grow into a management position.",
+      "questions": [
+        {
+          "id": "l06-q1",
+          "type": "blank",
+          "prompt": "I recently led a project that increased our website ___ by 30 percent.",
+          "answer": "traffic"
+        },
+        {
+          "id": "l06-q2",
+          "type": "mc",
+          "prompt": "What is the speaker looking for?",
+          "options": [
+            "A higher salary",
+            "A role with growth into management",
+            "A remote job"
+          ],
+          "answer": "A role with growth into management"
+        }
+      ]
+    },
+    {
+      "id": "l07",
+      "level": "B1",
+      "topic": "Hotel",
+      "title": "Booking a Hotel Room by Phone",
+      "script": "Good morning, I'd like to book a double room for three nights starting this Friday. — Certainly, may I have your name and a contact number? — It's Tran Van An, and my number is 090 123 4567. — Thank you, your reservation is confirmed.",
+      "questions": [
+        {
+          "id": "l07-q1",
+          "type": "blank",
+          "prompt": "I'd like to book a double room for three ___.",
+          "answer": "nights"
+        },
+        {
+          "id": "l07-q2",
+          "type": "mc",
+          "prompt": "What does the receptionist ask for?",
+          "options": [
+            "Name and contact number",
+            "Passport number",
+            "Credit card details"
+          ],
+          "answer": "Name and contact number"
+        }
+      ]
+    },
+    {
+      "id": "l08",
+      "level": "B1",
+      "topic": "Work",
+      "title": "A Work Phone Call",
+      "script": "Hi, this is An calling from the design team. I wanted to check if the report is ready for tomorrow's meeting. — Almost, I just need to finish the last section. I'll send it to you by end of day. — Perfect, thanks for the update.",
+      "questions": [
+        {
+          "id": "l08-q1",
+          "type": "blank",
+          "prompt": "I'll send it to you by ___ of day.",
+          "answer": "end"
+        },
+        {
+          "id": "l08-q2",
+          "type": "mc",
+          "prompt": "When will the report be sent?",
+          "options": [
+            "Right now",
+            "By end of day",
+            "Next week"
+          ],
+          "answer": "By end of day"
+        }
+      ]
+    },
+    {
+      "id": "l09",
+      "level": "B2",
+      "topic": "Environment",
+      "title": "A Short News Report on Plastic Pollution",
+      "script": "Scientists warn that plastic pollution in the ocean could triple by 2040 if no action is taken. Governments and companies are being urged to invest in recycling infrastructure and reduce single-use plastic production.",
+      "questions": [
+        {
+          "id": "l09-q1",
+          "type": "blank",
+          "prompt": "Plastic pollution in the ocean could ___ by 2040.",
+          "answer": "triple"
+        },
+        {
+          "id": "l09-q2",
+          "type": "mc",
+          "prompt": "What are governments and companies urged to do?",
+          "options": [
+            "Ban all plastic immediately",
+            "Invest in recycling and reduce single-use plastic",
+            "Move factories to other countries"
+          ],
+          "answer": "Invest in recycling and reduce single-use plastic"
+        }
+      ]
+    },
+    {
+      "id": "l10",
+      "level": "B2",
+      "topic": "Technology",
+      "title": "A Conversation about Artificial Intelligence",
+      "script": "Do you think AI will replace most office jobs? — I don't think it will replace them completely, but it will definitely change how we work. Many repetitive tasks will be automated, so people will need to focus more on creative and strategic thinking.",
+      "questions": [
+        {
+          "id": "l10-q1",
+          "type": "blank",
+          "prompt": "Many repetitive tasks will be ___.",
+          "answer": "automated"
+        },
+        {
+          "id": "l10-q2",
+          "type": "mc",
+          "prompt": "What does the speaker think people should focus on?",
+          "options": [
+            "Repetitive tasks",
+            "Creative and strategic thinking",
+            "Learning to code"
+          ],
+          "answer": "Creative and strategic thinking"
+        }
+      ]
+    },
+    {
+      "id": "l11",
+      "level": "A1",
+      "topic": "Family",
+      "title": "Talking about Family",
+      "script": "Tell me about your family. — I have a small family. There are four of us: my parents, my sister, and me. My father is a doctor, and my mother is a teacher. My sister is younger than me.",
+      "questions": [
+        {
+          "id": "l11-q1",
+          "type": "blank",
+          "prompt": "There are ___ of us in my family.",
+          "answer": "four"
+        },
+        {
+          "id": "l11-q2",
+          "type": "mc",
+          "prompt": "What does the speaker's mother do?",
+          "options": [
+            "Doctor",
+            "Teacher",
+            "Nurse"
+          ],
+          "answer": "Teacher"
+        }
+      ]
+    },
+    {
+      "id": "l12",
+      "level": "A1",
+      "topic": "Weather",
+      "title": "Talking about the Weather",
+      "script": "What's the weather like today? — It's sunny but a little windy. Yesterday it was raining all day. — I hope it stays sunny this weekend, we're going to the park.",
+      "questions": [
+        {
+          "id": "l12-q1",
+          "type": "blank",
+          "prompt": "Yesterday it was ___ all day.",
+          "answer": "raining"
+        },
+        {
+          "id": "l12-q2",
+          "type": "mc",
+          "prompt": "What is the weather like today?",
+          "options": [
+            "Rainy",
+            "Sunny and windy",
+            "Cold and snowy"
+          ],
+          "answer": "Sunny and windy"
+        }
+      ]
+    },
+    {
+      "id": "l13",
+      "level": "A1",
+      "topic": "Shopping",
+      "title": "At the Supermarket",
+      "script": "Excuse me, where can I find the milk? — It's in aisle three, next to the eggs. — Thank you. Oh, do you also sell bread here? — Yes, the bakery section is at the front of the store.",
+      "questions": [
+        {
+          "id": "l13-q1",
+          "type": "blank",
+          "prompt": "The milk is in aisle three, next to the ___.",
+          "answer": "eggs"
+        },
+        {
+          "id": "l13-q2",
+          "type": "mc",
+          "prompt": "Where is the bakery section?",
+          "options": [
+            "Aisle three",
+            "At the front of the store",
+            "Next to the milk"
+          ],
+          "answer": "At the front of the store"
+        }
+      ]
+    },
+    {
+      "id": "l14",
+      "level": "A1",
+      "topic": "Making Plans",
+      "title": "Meeting Up with a Friend",
+      "script": "Are you free this evening? — Yes, what time do you want to meet? — How about 7 o'clock at the coffee shop near the school? — Sounds good, see you then.",
+      "questions": [
+        {
+          "id": "l14-q1",
+          "type": "blank",
+          "prompt": "How about ___ o'clock at the coffee shop?",
+          "answer": "7"
+        },
+        {
+          "id": "l14-q2",
+          "type": "mc",
+          "prompt": "Where will they meet?",
+          "options": [
+            "At the school",
+            "At the coffee shop",
+            "At the park"
+          ],
+          "answer": "At the coffee shop"
+        }
+      ]
+    },
+    {
+      "id": "l15",
+      "level": "A1",
+      "topic": "Hobbies",
+      "title": "Talking about Personal Hobbies",
+      "script": "What do you like to do in your free time? — I like reading books and listening to music. What about you? — I enjoy playing football with my friends every weekend.",
+      "questions": [
+        {
+          "id": "l15-q1",
+          "type": "blank",
+          "prompt": "I like reading books and listening to ___.",
+          "answer": "music"
+        },
+        {
+          "id": "l15-q2",
+          "type": "mc",
+          "prompt": "What does the second speaker enjoy doing?",
+          "options": [
+            "Reading books",
+            "Playing football",
+            "Listening to music"
+          ],
+          "answer": "Playing football"
+        }
+      ]
+    },
+    {
+      "id": "l16",
+      "level": "A2",
+      "topic": "Booking a Taxi",
+      "title": "Calling a Taxi by Phone",
+      "script": "Hello, I'd like to book a taxi to the airport, please. — Sure, what's your pickup address? — 25 Nguyen Trai Street. — Okay, a car will arrive in about ten minutes.",
+      "questions": [
+        {
+          "id": "l16-q1",
+          "type": "blank",
+          "prompt": "A car will arrive in about ___ minutes.",
+          "answer": "ten"
+        },
+        {
+          "id": "l16-q2",
+          "type": "mc",
+          "prompt": "Where does the customer want to go?",
+          "options": [
+            "To the station",
+            "To the airport",
+            "To the hospital"
+          ],
+          "answer": "To the airport"
+        }
+      ]
+    },
+    {
+      "id": "l17",
+      "level": "A2",
+      "topic": "Doctor's Office",
+      "title": "A Visit to the Doctor",
+      "script": "What seems to be the problem? — I've had a headache and a sore throat for two days. — Let me check your temperature. It looks like you have a mild fever. I'll prescribe some medicine.",
+      "questions": [
+        {
+          "id": "l17-q1",
+          "type": "blank",
+          "prompt": "I've had a headache and a sore ___ for two days.",
+          "answer": "throat"
+        },
+        {
+          "id": "l17-q2",
+          "type": "mc",
+          "prompt": "What does the doctor find?",
+          "options": [
+            "A broken arm",
+            "A mild fever",
+            "Nothing wrong"
+          ],
+          "answer": "A mild fever"
+        }
+      ]
+    },
+    {
+      "id": "l18",
+      "level": "A2",
+      "topic": "Weekend",
+      "title": "Planning the Weekend",
+      "script": "What are you doing this weekend? — I'm planning to go hiking with some friends on Saturday. On Sunday I'll probably just relax at home. — That sounds nice, I might join you for the hike.",
+      "questions": [
+        {
+          "id": "l18-q1",
+          "type": "blank",
+          "prompt": "I'm planning to go ___ with some friends.",
+          "answer": "hiking"
+        },
+        {
+          "id": "l18-q2",
+          "type": "mc",
+          "prompt": "What will the speaker do on Sunday?",
+          "options": [
+            "Go hiking",
+            "Relax at home",
+            "Go to work"
+          ],
+          "answer": "Relax at home"
+        }
+      ]
+    },
+    {
+      "id": "l19",
+      "level": "A2",
+      "topic": "Cinema",
+      "title": "Buying Movie Tickets",
+      "script": "Two tickets for the 8 pm showing, please. — Sure, would you like any popcorn or drinks with that? — Yes, one large popcorn and two sodas, please. — That will be 350,000 dong in total.",
+      "questions": [
+        {
+          "id": "l19-q1",
+          "type": "blank",
+          "prompt": "Two tickets for the ___ pm showing, please.",
+          "answer": "8"
+        },
+        {
+          "id": "l19-q2",
+          "type": "mc",
+          "prompt": "What does the customer order besides tickets?",
+          "options": [
+            "Nachos and juice",
+            "Popcorn and sodas",
+            "Candy and water"
+          ],
+          "answer": "Popcorn and sodas"
+        }
+      ]
+    },
+    {
+      "id": "l20",
+      "level": "A2",
+      "topic": "Health",
+      "title": "Checking In on Someone's Health",
+      "script": "You don't look well today, are you okay? — Not really, I think I'm catching a cold. I have a runny nose and I feel a bit tired. — You should rest and drink plenty of water. Maybe see a doctor if it gets worse.",
+      "questions": [
+        {
+          "id": "l20-q1",
+          "type": "blank",
+          "prompt": "I have a runny nose and I feel a bit ___.",
+          "answer": "tired"
+        },
+        {
+          "id": "l20-q2",
+          "type": "mc",
+          "prompt": "What advice is given?",
+          "options": [
+            "Go to work as usual",
+            "Rest and drink water",
+            "Take strong medicine immediately"
+          ],
+          "answer": "Rest and drink water"
+        }
+      ]
+    },
+    {
+      "id": "l21",
+      "level": "B1",
+      "topic": "Vacation",
+      "title": "Discussing an Upcoming Vacation",
+      "script": "Have you decided where to go for your vacation? — Not yet, I'm torn between the mountains and the beach. I want somewhere peaceful, but my kids prefer swimming. — Why not choose a place with both, like Da Lat is nearby a lake?",
+      "questions": [
+        {
+          "id": "l21-q1",
+          "type": "blank",
+          "prompt": "I'm torn between the mountains and the ___.",
+          "answer": "beach"
+        },
+        {
+          "id": "l21-q2",
+          "type": "mc",
+          "prompt": "What do the kids prefer?",
+          "options": [
+            "Hiking",
+            "Swimming",
+            "Camping"
+          ],
+          "answer": "Swimming"
+        }
+      ]
+    },
+    {
+      "id": "l22",
+      "level": "B1",
+      "topic": "Complaints",
+      "title": "Complaining about a Delivery",
+      "script": "I'm calling because my order was supposed to arrive three days ago and it still hasn't come. — I'm very sorry for the delay, let me check the tracking information. It looks like it's stuck at the local depot. I'll escalate this for you right away.",
+      "questions": [
+        {
+          "id": "l22-q1",
+          "type": "blank",
+          "prompt": "It looks like it's stuck at the local ___.",
+          "answer": "depot"
+        },
+        {
+          "id": "l22-q2",
+          "type": "mc",
+          "prompt": "What will the staff do?",
+          "options": [
+            "Cancel the order",
+            "Escalate the issue",
+            "Ignore the complaint"
+          ],
+          "answer": "Escalate the issue"
+        }
+      ]
+    },
+    {
+      "id": "l23",
+      "level": "B1",
+      "topic": "Team Meeting",
+      "title": "A Meeting to Assign Tasks",
+      "script": "Let's go over the tasks for this week. Minh, can you handle the client presentation? — Sure, I'll have the slides ready by Wednesday. — Great, and Lan, could you follow up with the design team about the logo?",
+      "questions": [
+        {
+          "id": "l23-q1",
+          "type": "blank",
+          "prompt": "I'll have the slides ready by ___.",
+          "answer": "Wednesday"
+        },
+        {
+          "id": "l23-q2",
+          "type": "mc",
+          "prompt": "What does Lan need to do?",
+          "options": [
+            "Prepare the presentation",
+            "Follow up with the design team",
+            "Book the meeting room"
+          ],
+          "answer": "Follow up with the design team"
+        }
+      ]
+    },
+    {
+      "id": "l24",
+      "level": "B1",
+      "topic": "Storytelling",
+      "title": "Retelling a Traffic Incident",
+      "script": "You look shaken, what happened? — I was driving to work when a motorbike suddenly cut in front of me. I had to brake hard to avoid hitting it. Luckily, nobody was hurt, but it really scared me.",
+      "questions": [
+        {
+          "id": "l24-q1",
+          "type": "blank",
+          "prompt": "I had to ___ hard to avoid hitting it.",
+          "answer": "brake"
+        },
+        {
+          "id": "l24-q2",
+          "type": "mc",
+          "prompt": "What was the result of the incident?",
+          "options": [
+            "Someone was injured",
+            "Nobody was hurt",
+            "The car was damaged"
+          ],
+          "answer": "Nobody was hurt"
+        }
+      ]
+    },
+    {
+      "id": "l25",
+      "level": "B1",
+      "topic": "Personal Finance",
+      "title": "Advice on Saving Money",
+      "script": "I want to start saving more, but I don't know where to begin. — A good first step is tracking your monthly expenses. Once you see where your money goes, you can cut unnecessary spending and set a savings goal.",
+      "questions": [
+        {
+          "id": "l25-q1",
+          "type": "blank",
+          "prompt": "A good first step is tracking your monthly ___.",
+          "answer": "expenses"
+        },
+        {
+          "id": "l25-q2",
+          "type": "mc",
+          "prompt": "What should you do after tracking expenses?",
+          "options": [
+            "Borrow more money",
+            "Cut unnecessary spending",
+            "Stop working"
+          ],
+          "answer": "Cut unnecessary spending"
+        }
+      ]
+    },
+    {
+      "id": "l26",
+      "level": "B2",
+      "topic": "Education",
+      "title": "A News Report on Online Learning",
+      "script": "A new report shows that online learning platforms have grown by over 40 percent since 2020. Experts say this shift offers more flexibility for students, but they also warn about the lack of face-to-face interaction and its effect on motivation.",
+      "questions": [
+        {
+          "id": "l26-q1",
+          "type": "blank",
+          "prompt": "Online learning platforms have grown by over ___ percent since 2020.",
+          "answer": "40"
+        },
+        {
+          "id": "l26-q2",
+          "type": "mc",
+          "prompt": "What concern do experts raise?",
+          "options": [
+            "High cost of platforms",
+            "Lack of face-to-face interaction",
+            "Too much homework"
+          ],
+          "answer": "Lack of face-to-face interaction"
+        }
+      ]
+    },
+    {
+      "id": "l27",
+      "level": "B2",
+      "topic": "Psychology",
+      "title": "An Interview with a Psychologist",
+      "script": "How can people manage stress better in daily life? — I always recommend starting small — a short walk, a few minutes of deep breathing, or simply talking to someone you trust. Building these habits gradually makes a bigger difference than trying to change everything at once.",
+      "questions": [
+        {
+          "id": "l27-q1",
+          "type": "blank",
+          "prompt": "Building these habits gradually makes a bigger ___ than changing everything at once.",
+          "answer": "difference"
+        },
+        {
+          "id": "l27-q2",
+          "type": "mc",
+          "prompt": "What does the expert recommend?",
+          "options": [
+            "Changing everything at once",
+            "Starting with small habits",
+            "Avoiding stressful situations completely"
+          ],
+          "answer": "Starting with small habits"
+        }
+      ]
+    },
+    {
+      "id": "l28",
+      "level": "B2",
+      "topic": "Work",
+      "title": "A Debate about Remote Work",
+      "script": "Some argue remote work boosts productivity, while others believe it weakens team collaboration. I think the answer depends on the type of job — creative teams may need more in-person interaction, whereas independent tasks can thrive remotely.",
+      "questions": [
+        {
+          "id": "l28-q1",
+          "type": "blank",
+          "prompt": "Independent tasks can thrive ___.",
+          "answer": "remotely"
+        },
+        {
+          "id": "l28-q2",
+          "type": "mc",
+          "prompt": "According to the speaker, what may need more in-person interaction?",
+          "options": [
+            "Independent tasks",
+            "Creative teams",
+            "Data entry work"
+          ],
+          "answer": "Creative teams"
+        }
+      ]
+    },
+    {
+      "id": "l29",
+      "level": "B2",
+      "topic": "Economy",
+      "title": "A Short Economic News Report",
+      "script": "The central bank announced yesterday that interest rates will remain unchanged for the third consecutive month, citing stable inflation figures. Analysts expect this policy to continue supporting small businesses through affordable borrowing costs.",
+      "questions": [
+        {
+          "id": "l29-q1",
+          "type": "blank",
+          "prompt": "Interest rates will remain ___ for the third consecutive month.",
+          "answer": "unchanged"
+        },
+        {
+          "id": "l29-q2",
+          "type": "mc",
+          "prompt": "Who does this policy support, according to analysts?",
+          "options": [
+            "Large corporations",
+            "Small businesses",
+            "Foreign investors"
+          ],
+          "answer": "Small businesses"
+        }
+      ]
+    },
+    {
+      "id": "l30",
+      "level": "B2",
+      "topic": "Climate Change",
+      "title": "A Podcast about Climate Change",
+      "script": "Today we're discussing how coastal cities are adapting to rising sea levels. Some are building seawalls, while others are redesigning drainage systems entirely. The challenge is that these projects require huge investment, and many governments are still debating how to fund them.",
+      "questions": [
+        {
+          "id": "l30-q1",
+          "type": "blank",
+          "prompt": "The challenge is that these projects require huge ___.",
+          "answer": "investment"
+        },
+        {
+          "id": "l30-q2",
+          "type": "mc",
+          "prompt": "What are some coastal cities building?",
+          "options": [
+            "New airports",
+            "Seawalls",
+            "Shopping malls"
+          ],
+          "answer": "Seawalls"
+        }
+      ]
+    }
+  ]
+}

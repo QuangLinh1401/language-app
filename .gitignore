@@ -1,0 +1,14 @@
+# Secrets — never commit. Contains the Neon DB password + API keys.
+**/.env
+.env
+
+# Dependencies
+**/node_modules/
+
+# Build output
+**/dist/
+
+# Logs / OS
+*.log
+.DS_Store
+Thumbs.db
