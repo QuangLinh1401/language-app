@@ -529,8 +529,8 @@ h1.page-title {
 }
 @keyframes overlayIn { from { opacity: 0; } to { opacity: 1; } }
 .modal-sheet {
-  background: var(--card); width: 100%; max-width: 600px;
-  border-radius: 26px; max-height: 86vh; position: relative;
+  background: var(--card); width: 100%; max-width: 640px;
+  border-radius: 26px; max-height: 90vh; position: relative;
   overflow: hidden; display: flex; flex-direction: column;
   animation: sheetIn 0.2s cubic-bezier(0.22, 1, 0.36, 1);
 }
@@ -559,7 +559,7 @@ h1.page-title {
   .modal-close:hover { transform: scale(1.1); color: var(--bad); }
 }
 @media (min-width: 768px) {
-  .modal-sheet { max-width: 680px; }
+  .modal-sheet { max-width: 760px; }
   .modal-head { padding: 30px 26px 16px; }
   .modal-scroll { padding: 0 26px 30px; }
 }

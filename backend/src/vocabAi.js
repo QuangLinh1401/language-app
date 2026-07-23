@@ -77,13 +77,16 @@ function buildFallbackWordDetail(word) {
     ipa: word.ipa,
     meaning: word.meaning,
     level: word.level,
+    image: "",
     partOfSpeech: null,
     usage: null,
     examples: [word.example, word.phrase].filter(Boolean),
     grammarNote: null,
+    grammarExample: "",
     synonyms: [],
     antonyms: [],
     distinguish: null,
+    distinguishExample: "",
     compounds: [],
     senses: [],
     characters: [],
@@ -125,36 +128,43 @@ function buildChineseInstruction(word) {
   return `You are helping a Vietnamese learner of Mandarin Chinese understand the word "${word.word}" (pinyin: ${word.ipa}, HSK level ${word.level}, meaning in Vietnamese: "${word.meaning}").
 
 Write a detailed but compact explanation IN VIETNAMESE (except the Chinese characters and pinyin themselves) covering:
+- "image": ONE emoji that visually represents this word if it denotes something concrete/picturable (an object, animal, action, place...). Empty string for abstract words, particles, function words, grammar words etc. where no picture would make sense — do not force a bad fit.
 - "partOfSpeech": a short summary label listing every part of speech this word can act as, separated by " · " (e.g. "động từ · danh từ · liên từ"). If it's a noun that takes a specific measure word (量词), append it, e.g. "danh từ · lượng từ: 个/张/本".
 - "senses": group the word's distinct meanings BY PART OF SPEECH — one entry per part of speech the word actually functions as (most words only have 1, but polyfunctional words need several). Each entry has:
   - "partOfSpeech": Vietnamese label for this specific role (e.g. "Động từ", "Danh từ", "Liên từ", "Tính từ", "Phó từ").
   - "meanings": array of distinct senses under that part of speech, each with "meaning" (short Vietnamese gloss) and "example" formatted as exactly "<Chinese sentence> (<pinyin>) – <Vietnamese translation>". Be THOROUGH and EXHAUSTIVE here — for simple, single-sense words that's just 1 entry, but for highly polysemous function words (modal verbs, common multi-purpose characters, etc.) list every genuinely distinct common sense you know, even if that's 6-9 of them. Do not artificially cap the count or pad with near-duplicates — completeness matters more than brevity for this field.
 - "usage": a short, practical usage note: register (formal/informal/written/spoken), common sentence patterns, and mistakes Vietnamese learners often make with it.
 - "grammarNote": a short grammar note if relevant (e.g. sentence pattern like "把...了", verb-object separability, whether it needs 了/过/着, word order quirks). Empty string if nothing notable.
-- "synonyms": up to 4 common near-synonyms (Chinese characters only, empty array if none fit).
-- "antonyms": up to 4 common antonyms (Chinese characters only, empty array if none fit — many words genuinely have none).
+- "grammarExample": one example sentence illustrating the grammarNote (same "<Chinese> (<pinyin>) – <Vietnamese>" format). Empty string if grammarNote is empty.
+- "synonyms": up to 4 common near-synonyms, each as { "word": "<Chinese>", "example": "<Chinese sentence> (<pinyin>) – <Vietnamese translation>" }. Empty array if none fit.
+- "antonyms": up to 4 common antonyms, same { "word", "example" } shape. Empty array if none fit — many words genuinely have none.
 - "distinguish": if this word is commonly confused with ONE specific near-synonym, a short Vietnamese note contrasting them (e.g. how "要" differs from "想"). Empty string if there's no notable confusion pair.
-- "compounds": up to 6 common multi-character words that contain "${word.word}" as one of their characters (e.g. for 要: 需要, 重要, 主要), each formatted as "<compound word> (<pinyin>) – <Vietnamese meaning>". Empty array only if truly none exist.
-- "collocations": up to 4 common fixed phrases or sentence patterns using this word (not full compound words, but usage patterns like "要么...要么..."), each formatted as "<Chinese phrase> (<pinyin>) – <Vietnamese meaning>" (empty array if none).
+- "distinguishExample": one example sentence (or contrastive pair) illustrating the distinction. Empty string if distinguish is empty.
+- "compounds": up to 6 common multi-character words that contain "${word.word}" as one of their characters (e.g. for 要: 需要, 重要, 主要), each as { "word": "<compound>", "pinyin": "<pinyin>", "meaning": "<Vietnamese meaning>", "example": "<Chinese sentence> (<pinyin>) – <Vietnamese translation>" }. Empty array only if truly none exist.
+- "collocations": up to 4 common fixed phrases or sentence patterns using this word (not full compound words, but usage patterns like "要么...要么..."), each as { "phrase": "<Chinese phrase>", "pinyin": "<pinyin>", "meaning": "<Vietnamese meaning>", "example": "<Chinese sentence> (<pinyin>) – <Vietnamese translation>" }. Empty array if none.
 - "characters": one entry per DISTINCT character in "${word.word}" (skip repeats), each with:
   - "char": the character itself.
   - "hanViet": its Sino-Vietnamese reading (âm Hán Việt), in Vietnamese, e.g. "YẾU" for 要. Uppercase, single word/syllable.
   - "radical": the character's radical/bộ thủ, formatted as "<radical character> (bộ <Vietnamese radical name>)", e.g. "襾 (bộ á)". If you're not confident, give your best standard answer rather than leaving it blank.
   - "strokeCount": total stroke count as an integer.
   - "componentMeaning": for compound words only (2+ distinct characters), a one-line Vietnamese note on how the character contributes to the word's overall meaning. Empty string for single-character words.
+  - "pictographicOrigin": a short Vietnamese note on the character's ancient pictographic/oracle-bone-script root, if one genuinely exists (e.g. "vốn vẽ hình một người đứng nghiêng"). If the character is a phonetic-loan or phono-semantic compound with no real picture origin, say so honestly (e.g. "chữ hình thanh, không có nguồn gốc tượng hình rõ ràng") rather than inventing one.
 
 Reply with ONLY valid JSON, no other text, in this exact structure:
 {
+  "image": "",
   "partOfSpeech": "...",
   "senses": [{ "partOfSpeech": "...", "meanings": [{ "meaning": "...", "example": "..." }] }],
   "usage": "...",
   "grammarNote": "...",
-  "synonyms": ["..."],
-  "antonyms": ["..."],
+  "grammarExample": "...",
+  "synonyms": [{ "word": "...", "example": "..." }],
+  "antonyms": [{ "word": "...", "example": "..." }],
   "distinguish": "...",
-  "compounds": ["..."],
-  "collocations": ["..."],
-  "characters": [{ "char": "...", "hanViet": "...", "radical": "...", "strokeCount": 0, "componentMeaning": "..." }]
+  "distinguishExample": "...",
+  "compounds": [{ "word": "...", "pinyin": "...", "meaning": "...", "example": "..." }],
+  "collocations": [{ "phrase": "...", "pinyin": "...", "meaning": "...", "example": "..." }],
+  "characters": [{ "char": "...", "hanViet": "...", "radical": "...", "strokeCount": 0, "componentMeaning": "...", "pictographicOrigin": "..." }]
 }`;
 }
 
@@ -193,24 +203,35 @@ export async function generateWordDetail(word) {
             hanViet: c.hanViet || "",
             radical: c.radical || "",
             strokeCount: Number.isFinite(c.strokeCount) ? c.strokeCount : null,
-            componentMeaning: c.componentMeaning || ""
+            componentMeaning: c.componentMeaning || "",
+            pictographicOrigin: c.pictographicOrigin || ""
           }))
       : [];
+    // { word, example } for synonyms/antonyms; { word|phrase, pinyin, meaning, example } for compounds/collocations.
+    const withExample = (arr, key) =>
+      Array.isArray(arr) ? arr.filter((x) => x && x[key]).map((x) => ({ [key]: x[key], example: x.example || "" })) : [];
+    const withGloss = (arr, key) =>
+      Array.isArray(arr)
+        ? arr.filter((x) => x && x[key]).map((x) => ({ [key]: x[key], pinyin: x.pinyin || "", meaning: x.meaning || "", example: x.example || "" }))
+        : [];
     const detail = {
       word: word.word,
       ipa: word.ipa,
       meaning: word.meaning,
       level: word.level,
+      image: parsed.image || "",
       partOfSpeech: parsed.partOfSpeech || null,
       senses,
       usage: parsed.usage || null,
       examples: flatExamples,
       grammarNote: parsed.grammarNote || null,
-      synonyms: Array.isArray(parsed.synonyms) ? parsed.synonyms : [],
-      antonyms: Array.isArray(parsed.antonyms) ? parsed.antonyms : [],
+      grammarExample: parsed.grammarExample || "",
+      synonyms: withExample(parsed.synonyms, "word"),
+      antonyms: withExample(parsed.antonyms, "word"),
       distinguish: parsed.distinguish || null,
-      compounds: Array.isArray(parsed.compounds) ? parsed.compounds : [],
-      collocations: Array.isArray(parsed.collocations) ? parsed.collocations : [],
+      distinguishExample: parsed.distinguishExample || "",
+      compounds: withGloss(parsed.compounds, "word"),
+      collocations: withGloss(parsed.collocations, "phrase"),
       characters,
       isFallback: false
     };

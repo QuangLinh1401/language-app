@@ -1,24 +1,41 @@
 {
  "zh-basics-1": {
   "antonyms": [
-   "我"
+   {
+    "example": "你去，我不去。 (Nǐ qù, wǒ bú qù.) – Bạn đi, tôi không đi.",
+    "word": "我"
+   }
   ],
   "characters": [
    {
     "char": "你",
     "componentMeaning": "",
     "hanViet": "NHĨ",
+    "pictographicOrigin": "Ghép bộ 亻(người) với 尔 lấy âm — chữ hình thanh, không phải tượng hình.",
     "radical": "亻(bộ nhân)",
     "strokeCount": 7
    }
   ],
   "collocations": [],
   "compounds": [
-   "你们 (nǐmen) – các bạn",
-   "你好 (nǐ hǎo) – xin chào"
+   {
+    "example": "你们好！ (Nǐmen hǎo!) – Chào các bạn!",
+    "meaning": "các bạn",
+    "pinyin": "nǐmen",
+    "word": "你们"
+   },
+   {
+    "example": "你好，很高兴认识你。 (Nǐ hǎo, hěn gāoxìng rènshi nǐ.) – Xin chào, rất vui được quen bạn.",
+    "meaning": "xin chào",
+    "pinyin": "nǐ hǎo",
+    "word": "你好"
+   }
   ],
   "distinguish": "\"你\" suồng sã, dùng hằng ngày; \"您\" trang trọng hơn, dùng khi cần thể hiện sự tôn kính.",
+  "distinguishExample": "对朋友说\"你好\"，对长辈说\"您好\"。 (Duì péngyou shuō \"nǐ hǎo\", duì zhǎngbèi shuō \"nín hǎo\".) – Nói \"你好\" với bạn bè, nói \"您好\" với người lớn tuổi.",
+  "grammarExample": "",
   "grammarNote": "",
+  "image": "",
   "partOfSpeech": "Đại từ",
   "senses": [
    {
@@ -40,13 +57,17 @@
  },
  "zh-basics-10": {
   "antonyms": [
-   "再见"
+   {
+    "example": "你好！...再见！ (Nǐ hǎo!...Zàijiàn!) – Xin chào!...Tạm biệt!",
+    "word": "再见"
+   }
   ],
   "characters": [
    {
     "char": "你",
     "componentMeaning": "bạn",
     "hanViet": "NHĨ",
+    "pictographicOrigin": "Ghép bộ 亻(người) với 尔 lấy âm — chữ hình thanh, không phải tượng hình.",
     "radical": "亻(bộ nhân)",
     "strokeCount": 7
    },
@@ -54,16 +75,25 @@
     "char": "好",
     "componentMeaning": "tốt, ghép thành lời chào",
     "hanViet": "HẢO",
+    "pictographicOrigin": "Hình một người phụ nữ (女) bên cạnh đứa trẻ (子) — hình ảnh mẹ con, biểu thị điều tốt đẹp.",
     "radical": "女(bộ nữ)",
     "strokeCount": 6
    }
   ],
   "collocations": [
-   "大家好 (dàjiā hǎo) – chào mọi người"
+   {
+    "example": "大家好，我叫阮文。 (Dàjiā hǎo, wǒ jiào Ruǎn Wén.) – Chào mọi người, tôi tên là Nguyễn Văn.",
+    "meaning": "chào mọi người",
+    "phrase": "大家好",
+    "pinyin": "dàjiā hǎo"
+   }
   ],
   "compounds": [],
   "distinguish": "",
+  "distinguishExample": "",
+  "grammarExample": "",
   "grammarNote": "",
+  "image": "👋",
   "partOfSpeech": "Cụm chào hỏi",
   "senses": [
    {
@@ -77,7 +107,10 @@
    }
   ],
   "synonyms": [
-   "您好"
+   {
+    "example": "您好，请坐。 (Nín hǎo, qǐng zuò.) – Xin chào (kính trọng), mời ngồi.",
+    "word": "您好"
+   }
   ],
   "usage": "Lời chào trung tính dùng được mọi lúc trong ngày. Với người lớn tuổi/cấp trên nên dùng 您好."
  },
@@ -88,17 +121,31 @@
     "char": "谢",
     "componentMeaning": "",
     "hanViet": "TẠ",
+    "pictographicOrigin": "Ghép bộ 讠(lời nói) với 射 lấy âm — chữ hình thanh, nghĩa \"cảm tạ bằng lời\".",
     "radical": "讠(bộ ngôn)",
     "strokeCount": 12
    }
   ],
   "collocations": [
-   "谢谢你 (xièxie nǐ) – cảm ơn bạn",
-   "多谢 (duōxiè) – cảm ơn nhiều"
+   {
+    "example": "谢谢你来看我。 (Xièxie nǐ lái kàn wǒ.) – Cảm ơn bạn đã đến thăm tôi.",
+    "meaning": "cảm ơn bạn",
+    "phrase": "谢谢你",
+    "pinyin": "xièxie nǐ"
+   },
+   {
+    "example": "多谢你的礼物。 (Duōxiè nǐ de lǐwù.) – Cảm ơn nhiều vì món quà của bạn.",
+    "meaning": "cảm ơn nhiều",
+    "phrase": "多谢",
+    "pinyin": "duōxiè"
+   }
   ],
   "compounds": [],
   "distinguish": "",
+  "distinguishExample": "",
+  "grammarExample": "",
   "grammarNote": "",
+  "image": "🙏",
   "partOfSpeech": "Động từ",
   "senses": [
    {
@@ -112,7 +159,10 @@
    }
   ],
   "synonyms": [
-   "感谢"
+   {
+    "example": "非常感谢你的帮助。 (Fēicháng gǎnxiè nǐ de bāngzhù.) – Vô cùng cảm tạ sự giúp đỡ của bạn.",
+    "word": "感谢"
+   }
   ],
   "usage": "Có thể lặp lại một lần cho tự nhiên, thân mật hơn: 谢谢谢谢. Đáp lại bằng 不客气 hoặc 不用谢."
  },
@@ -123,6 +173,7 @@
     "char": "不",
     "componentMeaning": "không",
     "hanViet": "BẤT",
+    "pictographicOrigin": "Chữ giáp cốt vốn vẽ hình một bông hoa/quả đang khép cánh — mượn âm làm từ phủ định.",
     "radical": "一(bộ nhất)",
     "strokeCount": 4
    },
@@ -130,6 +181,7 @@
     "char": "客",
     "componentMeaning": "khách",
     "hanViet": "KHÁCH",
+    "pictographicOrigin": "Bộ 宀(mái nhà) trên 各 — hình ảnh người từ nơi khác đến nhà, tức \"khách\".",
     "radical": "宀(bộ miên)",
     "strokeCount": 9
    },
@@ -137,16 +189,25 @@
     "char": "气",
     "componentMeaning": "khí, thái độ",
     "hanViet": "KHÍ",
+    "pictographicOrigin": "Chữ giáp cốt vẽ ba làn hơi/mây bốc lên — hình ảnh khí, hơi thở.",
     "radical": "气(bộ khí)",
     "strokeCount": 4
    }
   ],
   "collocations": [],
   "compounds": [
-   "客气 (kèqi) – khách sáo, lịch sự"
+   {
+    "example": "你太客气了。 (Nǐ tài kèqi le.) – Bạn khách sáo quá.",
+    "meaning": "khách sáo, lịch sự",
+    "pinyin": "kèqi",
+    "word": "客气"
+   }
   ],
   "distinguish": "",
+  "distinguishExample": "",
+  "grammarExample": "",
   "grammarNote": "",
+  "image": "",
   "partOfSpeech": "Cụm đáp lời",
   "senses": [
    {
@@ -160,7 +221,10 @@
    }
   ],
   "synonyms": [
-   "不用谢"
+   {
+    "example": "不用谢，这是我应该做的。 (Búyòng xiè, zhè shì wǒ yīnggāi zuò de.) – Không cần cảm ơn, đây là điều tôi nên làm.",
+    "word": "不用谢"
+   }
   ],
   "usage": "Câu đáp chuẩn khi ai đó cảm ơn mình. 客气 nghĩa gốc là \"khách sáo\", nên câu này nghĩa đen là \"đừng khách sáo\"."
  },
@@ -171,6 +235,7 @@
     "char": "对",
     "componentMeaning": "đối, xứng",
     "hanViet": "ĐỐI",
+    "pictographicOrigin": "Vốn vẽ tay (又) cầm một vật đối diện — hàm ý đối đáp, đối diện.",
     "radical": "又(bộ hựu)",
     "strokeCount": 5
    },
@@ -178,6 +243,7 @@
     "char": "不",
     "componentMeaning": "không",
     "hanViet": "BẤT",
+    "pictographicOrigin": "Chữ giáp cốt vốn vẽ hình một bông hoa/quả đang khép cánh — mượn âm làm từ phủ định.",
     "radical": "一(bộ nhất)",
     "strokeCount": 4
    },
@@ -185,6 +251,7 @@
     "char": "起",
     "componentMeaning": "nổi, được",
     "hanViet": "KHỞI",
+    "pictographicOrigin": "Ghép bộ 走(đi, chạy) với 己 lấy âm — chữ hình thanh, nghĩa \"đứng dậy, khởi đầu\".",
     "radical": "走(bộ tẩu)",
     "strokeCount": 10
    }
@@ -192,7 +259,10 @@
   "collocations": [],
   "compounds": [],
   "distinguish": "",
+  "distinguishExample": "",
+  "grammarExample": "我对得起你，但对不起他。 (Wǒ duìdeqǐ nǐ, dàn duìbuqǐ tā.) – Tôi xứng đáng với bạn, nhưng có lỗi với anh ấy.",
   "grammarNote": "对不起 vốn là dạng phủ định của cấu trúc \"đối được với\" (对得起) — nghĩa đen là \"không xứng với bạn\".",
+  "image": "",
   "partOfSpeech": "Cụm xin lỗi",
   "senses": [
    {
@@ -206,7 +276,10 @@
    }
   ],
   "synonyms": [
-   "抱歉"
+   {
+    "example": "很抱歉给你带来麻烦。 (Hěn bàoqiàn gěi nǐ dàilái máfan.) – Rất xin lỗi vì đã gây phiền phức cho bạn.",
+    "word": "抱歉"
+   }
   ],
   "usage": "Dùng cho lỗi nhẹ đến vừa. Với lỗi rất nghiêm trọng, người bản ngữ thường dùng 抱歉 (bàoqiàn) trang trọng hơn."
  },
@@ -217,6 +290,7 @@
     "char": "没",
     "componentMeaning": "không có",
     "hanViet": "MỘT/MÔ",
+    "pictographicOrigin": "Bộ 氵(nước) — hình ảnh người chìm xuống nước (nghĩa gốc \"chìm, mất\"), sau mượn làm từ phủ định.",
     "radical": "氵(bộ thủy)",
     "strokeCount": 7
    },
@@ -224,6 +298,7 @@
     "char": "关",
     "componentMeaning": "liên quan",
     "hanViet": "QUAN",
+    "pictographicOrigin": "Chữ giản thể từ 關 — hình ảnh then cài cửa, nghĩa gốc \"đóng, cửa ải\".",
     "radical": "八(bộ bát)",
     "strokeCount": 6
    },
@@ -231,6 +306,7 @@
     "char": "系",
     "componentMeaning": "quan hệ",
     "hanViet": "HỆ",
+    "pictographicOrigin": "Bộ 糸(sợi tơ) — hình ảnh các sợi dây buộc/nối với nhau, nghĩa \"liên hệ, ràng buộc\".",
     "radical": "糸(bộ mịch)",
     "strokeCount": 7
    }
@@ -238,7 +314,10 @@
   "collocations": [],
   "compounds": [],
   "distinguish": "",
+  "distinguishExample": "",
+  "grammarExample": "",
   "grammarNote": "",
+  "image": "",
   "partOfSpeech": "Cụm đáp lời",
   "senses": [
    {
@@ -252,19 +331,26 @@
    }
   ],
   "synonyms": [
-   "没事儿"
+   {
+    "example": "没事儿，别担心。 (Méishìr, bié dānxīn.) – Không sao đâu, đừng lo.",
+    "word": "没事儿"
+   }
   ],
   "usage": "Câu đáp chuẩn khi ai đó xin lỗi mình, nghĩa đen là \"không liên quan/không quan trọng\"."
  },
  "zh-basics-15": {
   "antonyms": [
-   "你好"
+   {
+    "example": "见面说你好，分手说再见。 (Jiànmiàn shuō nǐ hǎo, fēnshǒu shuō zàijiàn.) – Gặp mặt nói \"xin chào\", chia tay nói \"tạm biệt\".",
+    "word": "你好"
+   }
   ],
   "characters": [
    {
     "char": "再",
     "componentMeaning": "lại, lần nữa",
     "hanViet": "TÁI",
+    "pictographicOrigin": "Chữ giáp cốt vẽ hình một vật chồng thêm một lớp nữa lên trên — nghĩa \"lại, thêm lần nữa\".",
     "radical": "冂(bộ quynh)",
     "strokeCount": 6
    },
@@ -272,16 +358,25 @@
     "char": "见",
     "componentMeaning": "gặp, thấy",
     "hanViet": "KIẾN",
+    "pictographicOrigin": "Hình một con mắt (目) đặt trên đôi chân người (儿) — người đang nhìn, nghĩa \"thấy, gặp\".",
     "radical": "见(bộ kiến)",
     "strokeCount": 4
    }
   ],
   "collocations": [
-   "明天见 (míngtiān jiàn) – hẹn mai gặp lại"
+   {
+    "example": "好，明天见！ (Hǎo, míngtiān jiàn!) – Được, hẹn mai gặp!",
+    "meaning": "hẹn mai gặp lại",
+    "phrase": "明天见",
+    "pinyin": "míngtiān jiàn"
+   }
   ],
   "compounds": [],
   "distinguish": "",
+  "distinguishExample": "",
+  "grammarExample": "",
   "grammarNote": "",
+  "image": "👋",
   "partOfSpeech": "Cụm chào tạm biệt",
   "senses": [
    {
@@ -304,20 +399,38 @@
     "char": "请",
     "componentMeaning": "",
     "hanViet": "THỈNH",
+    "pictographicOrigin": "Ghép bộ 讠(lời nói) với 青 lấy âm — chữ hình thanh, nghĩa \"thỉnh cầu, mời\".",
     "radical": "讠(bộ ngôn)",
     "strokeCount": 10
    }
   ],
   "collocations": [
-   "请坐 (qǐng zuò) – mời ngồi",
-   "请进 (qǐng jìn) – mời vào"
+   {
+    "example": "请坐，喝杯茶。 (Qǐng zuò, hē bēi chá.) – Mời ngồi, uống chén trà.",
+    "meaning": "mời ngồi",
+    "phrase": "请坐",
+    "pinyin": "qǐng zuò"
+   }
   ],
   "compounds": [
-   "请问 (qǐngwèn) – xin hỏi",
-   "邀请 (yāoqǐng) – mời (trang trọng)"
+   {
+    "example": "请问洗手间在哪儿？ (Qǐngwèn xǐshǒujiān zài nǎr?) – Xin hỏi nhà vệ sinh ở đâu?",
+    "meaning": "xin hỏi",
+    "pinyin": "qǐngwèn",
+    "word": "请问"
+   },
+   {
+    "example": "我邀请你参加婚礼。 (Wǒ yāoqǐng nǐ cānjiā hūnlǐ.) – Tôi mời bạn tham dự đám cưới.",
+    "meaning": "mời (trang trọng)",
+    "pinyin": "yāoqǐng",
+    "word": "邀请"
+   }
   ],
   "distinguish": "",
+  "distinguishExample": "",
+  "grammarExample": "",
   "grammarNote": "",
+  "image": "",
   "partOfSpeech": "Động từ · Phó từ",
   "senses": [
    {
@@ -344,24 +457,41 @@
  },
  "zh-basics-17": {
   "antonyms": [
-   "不是"
+   {
+    "example": "这是我的，那不是我的。 (Zhè shì wǒ de, nà bú shì wǒ de.) – Cái này là của tôi, cái kia không phải của tôi.",
+    "word": "不是"
+   }
   ],
   "characters": [
    {
     "char": "是",
     "componentMeaning": "",
     "hanViet": "THỊ",
+    "pictographicOrigin": "Gồm 日(mặt trời) trên 正(ngay thẳng) — nghĩa gốc \"đúng, ngay chính\", sau dùng làm động từ \"là\".",
     "radical": "日(bộ nhật)",
     "strokeCount": 9
    }
   ],
   "collocations": [],
   "compounds": [
-   "是不是 (shì bu shì) – có phải... không",
-   "还是 (háishi) – hay là"
+   {
+    "example": "你是不是学生？ (Nǐ shì bu shì xuésheng?) – Bạn có phải là học sinh không?",
+    "meaning": "có phải... không",
+    "pinyin": "shì bu shì",
+    "word": "是不是"
+   },
+   {
+    "example": "你喝茶还是喝咖啡？ (Nǐ hē chá háishi hē kāfēi?) – Bạn uống trà hay uống cà phê?",
+    "meaning": "hay là",
+    "pinyin": "háishi",
+    "word": "还是"
+   }
   ],
   "distinguish": "",
+  "distinguishExample": "",
+  "grammarExample": "他不是老师，他是学生。 (Tā bú shì lǎoshī, tā shì xuésheng.) – Anh ấy không phải giáo viên, anh ấy là học sinh.",
   "grammarNote": "Phủ định của 是 luôn là 不是 (không dùng 没是).",
+  "image": "",
   "partOfSpeech": "Động từ",
   "senses": [
    {
@@ -388,17 +518,31 @@
     "char": "不",
     "componentMeaning": "",
     "hanViet": "BẤT",
+    "pictographicOrigin": "Chữ giáp cốt vốn vẽ hình một bông hoa/quả đang khép cánh — mượn âm làm từ phủ định.",
     "radical": "一(bộ nhất)",
     "strokeCount": 4
    }
   ],
   "collocations": [],
   "compounds": [
-   "不是 (bú shì) – không phải",
-   "不客气 (bú kèqi) – đừng khách sáo"
+   {
+    "example": "这不是我的书。 (Zhè bú shì wǒ de shū.) – Đây không phải sách của tôi.",
+    "meaning": "không phải",
+    "pinyin": "bú shì",
+    "word": "不是"
+   },
+   {
+    "example": "不客气，请随便吃。 (Bú kèqi, qǐng suíbiàn chī.) – Đừng khách sáo, cứ ăn tự nhiên.",
+    "meaning": "đừng khách sáo",
+    "pinyin": "bú kèqi",
+    "word": "不客气"
+   }
   ],
   "distinguish": "\"不\" phủ định ý muốn/tính chất/thói quen; \"没\" phủ định sự việc đã xảy ra hay chưa.",
+  "distinguishExample": "我不喝酒（习惯）。我没喝酒（事实）。 (Wǒ bù hē jiǔ. Wǒ méi hē jiǔ.) – Tôi không uống rượu (thói quen). Tôi chưa uống rượu (sự thật, hôm nay chưa uống).",
+  "grammarExample": "不是 đọc \"bú shì\" chứ không phải \"bù shì\". (Bú shì, không phải \"bù shì\".)",
   "grammarNote": "不 đổi thanh điệu thành thanh 2 (bú) khi đứng trước một âm tiết mang thanh 4, ví dụ 不是 (bú shì), 不客气 (bú kèqi).",
+  "image": "",
   "partOfSpeech": "Phó từ",
   "senses": [
    {
@@ -421,17 +565,31 @@
     "char": "没",
     "componentMeaning": "",
     "hanViet": "MỘT/MÔ",
+    "pictographicOrigin": "Bộ 氵(nước) — hình ảnh người chìm xuống nước (nghĩa gốc \"chìm, mất\"), sau mượn làm từ phủ định.",
     "radical": "氵(bộ thủy)",
     "strokeCount": 7
    }
   ],
   "collocations": [],
   "compounds": [
-   "没有 (méiyǒu) – không có",
-   "没关系 (méi guānxi) – không sao"
+   {
+    "example": "房间里没有人。 (Fángjiān lǐ méiyǒu rén.) – Trong phòng không có ai.",
+    "meaning": "không có",
+    "pinyin": "méiyǒu",
+    "word": "没有"
+   },
+   {
+    "example": "没关系，慢慢来。 (Méi guānxi, mànman lái.) – Không sao, từ từ thôi.",
+    "meaning": "không sao",
+    "pinyin": "méi guānxi",
+    "word": "没关系"
+   }
   ],
   "distinguish": "Xem phân biệt tại mục \"不\".",
+  "distinguishExample": "",
+  "grammarExample": "正确: 我没吃饭。 错误: 我没吃了饭。 (Wǒ méi chīfàn.) – Đúng: \"Tôi chưa ăn cơm\". Sai: có thêm 了 sau khi đã có 没.",
   "grammarNote": "没 không kết hợp với 了 ở cuối câu — không nói 我没吃了饭.",
+  "image": "",
   "partOfSpeech": "Phó từ",
   "senses": [
    {
@@ -449,30 +607,50 @@
    }
   ],
   "synonyms": [
-   "没有"
+   {
+    "example": "我没有时间。 (Wǒ méiyǒu shíjiān.) – Tôi không có thời gian.",
+    "word": "没有"
+   }
   ],
   "usage": "Dùng để phủ định hành động trong quá khứ hoặc phủ định 有 (có). Không dùng 没 để phủ định tính chất/thói quen chung (khi đó dùng 不)."
  },
  "zh-basics-2": {
   "antonyms": [
-   "你"
+   {
+    "example": "我说，你听。 (Wǒ shuō, nǐ tīng.) – Tôi nói, bạn nghe.",
+    "word": "你"
+   }
   ],
   "characters": [
    {
     "char": "我",
     "componentMeaning": "",
     "hanViet": "NGÃ",
+    "pictographicOrigin": "Chữ giáp cốt vốn vẽ hình một loại binh khí có răng cưa (giáo ba mũi); mượn âm để chỉ ngôi thứ nhất \"tôi\".",
     "radical": "戈(bộ qua)",
     "strokeCount": 7
    }
   ],
   "collocations": [],
   "compounds": [
-   "我们 (wǒmen) – chúng tôi",
-   "自我 (zìwǒ) – tự bản thân"
+   {
+    "example": "我们是同学。 (Wǒmen shì tóngxué.) – Chúng tôi là bạn học.",
+    "meaning": "chúng tôi, chúng ta",
+    "pinyin": "wǒmen",
+    "word": "我们"
+   },
+   {
+    "example": "他很自我。 (Tā hěn zìwǒ.) – Anh ấy khá cái tôi.",
+    "meaning": "tự bản thân",
+    "pinyin": "zìwǒ",
+    "word": "自我"
+   }
   ],
   "distinguish": "",
+  "distinguishExample": "",
+  "grammarExample": "",
   "grammarNote": "",
+  "image": "",
   "partOfSpeech": "Đại từ",
   "senses": [
    {
@@ -495,6 +673,7 @@
     "char": "很",
     "componentMeaning": "",
     "hanViet": "NGẤN/NGẬN",
+    "pictographicOrigin": "Ghép bộ 彳(bước chân nhỏ) với 艮 lấy âm — chữ hình thanh, nghĩa \"rất\".",
     "radical": "彳(bộ xích)",
     "strokeCount": 9
    }
@@ -502,7 +681,10 @@
   "collocations": [],
   "compounds": [],
   "distinguish": "\"很\" trung tính, dùng phổ biến nhất; \"非常\" nhấn mạnh mức độ mạnh hơn rõ rệt.",
+  "distinguishExample": "他很高（bình thường） vs 他非常高（rất cao, nhấn mạnh）。 – Anh ấy cao (bình thường) so với Anh ấy rất cao (nhấn mạnh).",
+  "grammarExample": "我很忙 (bình thường) khác với 我忙 (ngụ ý so sánh, ví dụ \"tôi [thì] bận [còn người khác thì rảnh]\").",
   "grammarNote": "Câu tính từ vị ngữ tiếng Trung bắt buộc phải có phó từ mức độ (như 很) đứng trước tính từ, nếu không câu sẽ mang nghĩa so sánh/đối lập ngầm.",
+  "image": "",
   "partOfSpeech": "Phó từ",
   "senses": [
    {
@@ -520,8 +702,14 @@
    }
   ],
   "synonyms": [
-   "非常",
-   "十分"
+   {
+    "example": "我非常喜欢这本书。 (Wǒ fēicháng xǐhuan zhè běn shū.) – Tôi vô cùng thích cuốn sách này.",
+    "word": "非常"
+   },
+   {
+    "example": "他十分努力。 (Tā shífēn nǔlì.) – Anh ấy rất nỗ lực.",
+    "word": "十分"
+   }
   ],
   "usage": "Trong câu \"Chủ ngữ + 很 + Tính từ\", 很 thường chỉ đóng vai trò ngữ pháp (liên kết câu) hơn là nhấn mạnh \"rất\" — nếu muốn nhấn thật mạnh, cần lên giọng khi nói."
  },
@@ -532,17 +720,31 @@
     "char": "太",
     "componentMeaning": "",
     "hanViet": "THÁI",
+    "pictographicOrigin": "Thêm một nét vào chữ 大(to lớn) để nhấn mạnh \"lớn hơn cả to\" — nghĩa \"quá, rất\".",
     "radical": "大(bộ đại)",
     "strokeCount": 4
    }
   ],
   "collocations": [
-   "太好了 (tài hǎo le) – tốt quá",
-   "太贵了 (tài guì le) – đắt quá"
+   {
+    "example": "你来了？太好了！ (Nǐ lái le? Tài hǎo le!) – Bạn đến rồi à? Tốt quá!",
+    "meaning": "tốt quá",
+    "phrase": "太好了",
+    "pinyin": "tài hǎo le"
+   },
+   {
+    "example": "这个太贵了，能便宜点儿吗？ (Zhège tài guì le, néng piányi diǎnr ma?) – Cái này đắt quá, rẻ hơn được không?",
+    "meaning": "đắt quá",
+    "phrase": "太贵了",
+    "pinyin": "tài guì le"
+   }
   ],
   "compounds": [],
   "distinguish": "",
+  "distinguishExample": "",
+  "grammarExample": "",
   "grammarNote": "",
+  "image": "",
   "partOfSpeech": "Phó từ",
   "senses": [
    {
@@ -560,7 +762,10 @@
    }
   ],
   "synonyms": [
-   "非常"
+   {
+    "example": "太好了 và 非常好 đều nhấn mạnh mức độ, nhưng 太...了 thiên về cảm thán hơn.",
+    "word": "非常"
+   }
   ],
   "usage": "Thường đi kèm 了 ở cuối câu để tạo sắc thái cảm thán: 太 + Tính từ + 了."
  },
@@ -571,6 +776,7 @@
     "char": "都",
     "componentMeaning": "",
     "hanViet": "ĐÔ/ĐÔ",
+    "pictographicOrigin": "Bộ 阝(thành ấp) ghép với 者 lấy âm — nghĩa gốc \"kinh đô\", sau mượn làm phó từ \"đều\".",
     "radical": "阝(bộ ấp)",
     "strokeCount": 10
    }
@@ -578,7 +784,10 @@
   "collocations": [],
   "compounds": [],
   "distinguish": "",
+  "distinguishExample": "",
+  "grammarExample": "他也都喜欢吃。 (Tā yě dōu xǐhuan chī.) – Anh ấy cũng đều thích ăn (cả hai thứ).",
   "grammarNote": "Khi câu có 也 và 都 cùng lúc, thứ tự chuẩn là 也都 (ví dụ: 我也都喜欢).",
+  "image": "",
   "partOfSpeech": "Phó từ",
   "senses": [
    {
@@ -601,16 +810,25 @@
     "char": "也",
     "componentMeaning": "",
     "hanViet": "DÃ",
+    "pictographicOrigin": "Chữ giáp cốt vốn vẽ hình một loại bình/vò — mượn âm để làm phó từ \"cũng\".",
     "radical": "乙(bộ ất)",
     "strokeCount": 3
    }
   ],
-  "collocations": [
-   "也许 (yěxǔ) – có lẽ"
+  "collocations": [],
+  "compounds": [
+   {
+    "example": "他也许不知道。 (Tā yěxǔ bù zhīdào.) – Có lẽ anh ấy không biết.",
+    "meaning": "có lẽ",
+    "pinyin": "yěxǔ",
+    "word": "也许"
+   }
   ],
-  "compounds": [],
   "distinguish": "",
+  "distinguishExample": "",
+  "grammarExample": "",
   "grammarNote": "",
+  "image": "",
   "partOfSpeech": "Phó từ",
   "senses": [
    {
@@ -633,6 +851,7 @@
     "char": "和",
     "componentMeaning": "",
     "hanViet": "HÒA",
+    "pictographicOrigin": "Ghép 禾(lúa) với 口(miệng) — hình ảnh có lúa để ăn thì hòa thuận; nghĩa \"hòa, và\".",
     "radical": "禾(bộ hòa)",
     "strokeCount": 8
    }
@@ -640,7 +859,10 @@
   "collocations": [],
   "compounds": [],
   "distinguish": "\"和\" trung tính, dùng cả nói lẫn viết; \"与\" trang trọng hơn, thiên về văn viết.",
+  "distinguishExample": "口语说\"我和你\"，书面语可以说\"我与你\"。 – Khẩu ngữ nói \"我和你\", văn viết có thể nói \"我与你\".",
+  "grammarExample": "",
   "grammarNote": "",
+  "image": "",
   "partOfSpeech": "Liên từ · Giới từ",
   "senses": [
    {
@@ -663,8 +885,14 @@
    }
   ],
   "synonyms": [
-   "跟",
-   "与"
+   {
+    "example": "我跟你一起走。 (Wǒ gēn nǐ yìqǐ zǒu.) – Tôi cùng bạn đi.",
+    "word": "跟"
+   },
+   {
+    "example": "理论与实践 (lǐlùn yǔ shíjiàn) – lý luận và thực tiễn.",
+    "word": "与"
+   }
   ],
   "usage": "和 chủ yếu nối danh từ/đại từ, KHÔNG dùng để nối hai mệnh đề/câu như \"and\" trong tiếng Anh."
  },
@@ -675,6 +903,7 @@
     "char": "的",
     "componentMeaning": "",
     "hanViet": "ĐÍCH",
+    "pictographicOrigin": "Ghép 白 với 勺 lấy âm — chữ hình thanh, dùng làm trợ từ sở hữu phổ biến nhất.",
     "radical": "白(bộ bạch)",
     "strokeCount": 8
    }
@@ -682,7 +911,10 @@
   "collocations": [],
   "compounds": [],
   "distinguish": "",
+  "distinguishExample": "",
+  "grammarExample": "",
   "grammarNote": "",
+  "image": "",
   "partOfSpeech": "Trợ từ",
   "senses": [
    {
@@ -709,6 +941,7 @@
     "char": "了",
     "componentMeaning": "",
     "hanViet": "LIỄU",
+    "pictographicOrigin": "Chữ giáp cốt vẽ hình đứa trẻ quấn trong tã không có tay — nghĩa gốc liên quan đến \"kết thúc, xong\", nay dùng làm trợ từ hoàn thành.",
     "radical": "乙(bộ ất)",
     "strokeCount": 2
    }
@@ -716,7 +949,10 @@
   "collocations": [],
   "compounds": [],
   "distinguish": "",
+  "distinguishExample": "",
+  "grammarExample": "了 trong 吃了 đọc \"le\"; 了 trong 了解 đọc \"liǎo\".",
   "grammarNote": "Không nhầm với 了 (liǎo) trong 了解 (liǎojiě) — cùng chữ nhưng đọc khác, nghĩa khác.",
+  "image": "",
   "partOfSpeech": "Trợ từ",
   "senses": [
    {
@@ -743,6 +979,7 @@
     "char": "吗",
     "componentMeaning": "",
     "hanViet": "MA",
+    "pictographicOrigin": "Ghép bộ 口(miệng, chỉ âm thanh/lời nói) với 马 lấy âm — chữ hình thanh, dùng làm trợ từ nghi vấn.",
     "radical": "口(bộ khẩu)",
     "strokeCount": 6
    }
@@ -750,7 +987,10 @@
   "collocations": [],
   "compounds": [],
   "distinguish": "\"吗\" dùng cho câu hỏi có/không; \"呢\" dùng để hỏi tiếp/hỏi ngược lại.",
+  "distinguishExample": "你好吗？（吗-câu hỏi có/không） vs 我很好，你呢？（呢-hỏi ngược）。",
+  "grammarExample": "正确: 你是学生吗？ 或 你是不是学生？ 错误: 你是不是学生吗？",
   "grammarNote": "Câu đã có 吗 thì không dùng thêm cấu trúc nghi vấn khác (như 是不是) trong cùng câu.",
+  "image": "",
   "partOfSpeech": "Trợ từ",
   "senses": [
    {
@@ -773,6 +1013,7 @@
     "char": "呢",
     "componentMeaning": "",
     "hanViet": "NI",
+    "pictographicOrigin": "Ghép bộ 口(miệng) với 尼 lấy âm — chữ hình thanh, dùng làm trợ từ nghi vấn/nhấn mạnh.",
     "radical": "口(bộ khẩu)",
     "strokeCount": 8
    }
@@ -780,7 +1021,10 @@
   "collocations": [],
   "compounds": [],
   "distinguish": "Xem phân biệt tại mục \"吗\".",
+  "distinguishExample": "",
+  "grammarExample": "",
   "grammarNote": "",
+  "image": "",
   "partOfSpeech": "Trợ từ",
   "senses": [
    {
@@ -807,6 +1051,7 @@
     "char": "什",
     "componentMeaning": "",
     "hanViet": "THẬP",
+    "pictographicOrigin": "Ghép bộ 亻(người) với 十(mười) — nghĩa gốc liên quan đến đơn vị/tập hợp, nay dùng trong 什么 (cái gì).",
     "radical": "亻(bộ nhân)",
     "strokeCount": 4
    },
@@ -814,17 +1059,31 @@
     "char": "么",
     "componentMeaning": "",
     "hanViet": "MA",
+    "pictographicOrigin": "Chữ giản hóa từ 麼, vốn không mang nghĩa tượng hình rõ, dùng làm hậu tố nghi vấn.",
     "radical": "丿(bộ phiệt)",
     "strokeCount": 3
    }
   ],
   "collocations": [],
   "compounds": [
-   "什么时候 (shénme shíhou) – khi nào",
-   "为什么 (wèishénme) – tại sao"
+   {
+    "example": "你什么时候来？ (Nǐ shénme shíhou lái?) – Khi nào bạn đến?",
+    "meaning": "khi nào",
+    "pinyin": "shénme shíhou",
+    "word": "什么时候"
+   },
+   {
+    "example": "你为什么迟到？ (Nǐ wèishénme chídào?) – Sao bạn đến muộn?",
+    "meaning": "tại sao",
+    "pinyin": "wèishénme",
+    "word": "为什么"
+   }
   ],
   "distinguish": "",
+  "distinguishExample": "",
+  "grammarExample": "",
   "grammarNote": "",
+  "image": "",
   "partOfSpeech": "Đại từ nghi vấn",
   "senses": [
    {
@@ -845,22 +1104,36 @@
   "usage": "什么 đặt tại đúng vị trí của thành phần cần hỏi trong câu (không đảo lên đầu câu như tiếng Anh \"what\")."
  },
  "zh-basics-3": {
-  "antonyms": [],
+  "antonyms": [
+   {
+    "example": "他是男的，她是女的。 (Tā shì nán de, tā shì nǚ de.) – Anh ấy là con trai, cô ấy là con gái.",
+    "word": "她"
+   }
+  ],
   "characters": [
    {
     "char": "他",
     "componentMeaning": "",
     "hanViet": "THA",
+    "pictographicOrigin": "Ghép bộ 亻(người) với 也 lấy âm — chữ hình thanh.",
     "radical": "亻(bộ nhân)",
     "strokeCount": 5
    }
   ],
   "collocations": [],
   "compounds": [
-   "他们 (tāmen) – họ (nam hoặc hỗn hợp)"
+   {
+    "example": "他们都是老师。 (Tāmen dōu shì lǎoshī.) – Họ đều là giáo viên.",
+    "meaning": "họ (nam hoặc hỗn hợp)",
+    "pinyin": "tāmen",
+    "word": "他们"
+   }
   ],
   "distinguish": "\"他\" (nam), \"她\" (nữ), \"它\" (vật/con vật) — phát âm giống nhau, chỉ khác khi viết.",
+  "distinguishExample": "他是我朋友，她是我姐姐。 (Tā shì wǒ péngyou, tā shì wǒ jiějie.) – Anh ấy là bạn tôi, cô ấy là chị tôi.",
+  "grammarExample": "",
   "grammarNote": "",
+  "image": "",
   "partOfSpeech": "Đại từ",
   "senses": [
    {
@@ -883,6 +1156,7 @@
     "char": "谁",
     "componentMeaning": "",
     "hanViet": "THÙY",
+    "pictographicOrigin": "Ghép bộ 讠(lời nói) với 隹(chim đuôi ngắn) lấy âm — chữ hình thanh, nghĩa \"ai\".",
     "radical": "讠(bộ ngôn)",
     "strokeCount": 10
    }
@@ -890,7 +1164,10 @@
   "collocations": [],
   "compounds": [],
   "distinguish": "",
+  "distinguishExample": "",
+  "grammarExample": "",
   "grammarNote": "",
+  "image": "",
   "partOfSpeech": "Đại từ nghi vấn",
   "senses": [
    {
@@ -913,17 +1190,31 @@
     "char": "哪",
     "componentMeaning": "",
     "hanViet": "NA",
+    "pictographicOrigin": "Ghép bộ 口(miệng) với 那 lấy âm — chữ hình thanh, dùng hỏi \"nào, đâu\".",
     "radical": "口(bộ khẩu)",
     "strokeCount": 9
    }
   ],
   "collocations": [],
   "compounds": [
-   "哪儿 (nǎr) – ở đâu",
-   "哪里 (nǎlǐ) – ở đâu"
+   {
+    "example": "你去哪儿？ (Nǐ qù nǎr?) – Bạn đi đâu?",
+    "meaning": "ở đâu",
+    "pinyin": "nǎr",
+    "word": "哪儿"
+   },
+   {
+    "example": "你家在哪里？ (Nǐ jiā zài nǎlǐ?) – Nhà bạn ở đâu?",
+    "meaning": "ở đâu",
+    "pinyin": "nǎlǐ",
+    "word": "哪里"
+   }
   ],
   "distinguish": "",
+  "distinguishExample": "",
+  "grammarExample": "",
   "grammarNote": "",
+  "image": "",
   "partOfSpeech": "Đại từ nghi vấn",
   "senses": [
    {
@@ -946,6 +1237,7 @@
     "char": "哪",
     "componentMeaning": "nào",
     "hanViet": "NA",
+    "pictographicOrigin": "Ghép bộ 口(miệng) với 那 lấy âm — chữ hình thanh, dùng hỏi \"nào, đâu\".",
     "radical": "口(bộ khẩu)",
     "strokeCount": 9
    },
@@ -953,6 +1245,7 @@
     "char": "儿",
     "componentMeaning": "hậu tố tạo âm cong lưỡi kiểu Bắc Kinh",
     "hanViet": "NHI",
+    "pictographicOrigin": "Chữ giáp cốt vẽ hình một đứa trẻ với thóp đầu chưa liền — nghĩa gốc \"trẻ con\".",
     "radical": "儿(bộ nhân)",
     "strokeCount": 2
    }
@@ -960,7 +1253,10 @@
   "collocations": [],
   "compounds": [],
   "distinguish": "",
+  "distinguishExample": "",
+  "grammarExample": "",
   "grammarNote": "",
+  "image": "",
   "partOfSpeech": "Đại từ nghi vấn",
   "senses": [
    {
@@ -974,7 +1270,10 @@
    }
   ],
   "synonyms": [
-   "哪里"
+   {
+    "example": "你住在哪里？ (Nǐ zhù zài nǎlǐ?) – Bạn sống ở đâu?",
+    "word": "哪里"
+   }
   ],
   "usage": "哪儿 mang âm hưởng phương ngữ miền Bắc Trung Quốc (giọng Bắc Kinh); 哪里 trung tính hơn, dùng được ở mọi vùng."
  },
@@ -985,6 +1284,7 @@
     "char": "怎",
     "componentMeaning": "",
     "hanViet": "ZẨM",
+    "pictographicOrigin": "Ghép 乍(bỗng, mới) trên 心(tâm) — không phải tượng hình rõ ràng, dùng hỏi cách thức.",
     "radical": "心(bộ tâm)",
     "strokeCount": 9
    },
@@ -992,17 +1292,31 @@
     "char": "么",
     "componentMeaning": "",
     "hanViet": "MA",
+    "pictographicOrigin": "Chữ giản hóa từ 麼, vốn không mang nghĩa tượng hình rõ, dùng làm hậu tố nghi vấn.",
     "radical": "丿(bộ phiệt)",
     "strokeCount": 3
    }
   ],
   "collocations": [],
   "compounds": [
-   "怎么样 (zěnmeyàng) – như thế nào",
-   "怎么办 (zěnme bàn) – phải làm sao"
+   {
+    "example": "今天怎么样？ (Jīntiān zěnmeyàng?) – Hôm nay thế nào?",
+    "meaning": "như thế nào",
+    "pinyin": "zěnmeyàng",
+    "word": "怎么样"
+   },
+   {
+    "example": "丢钱包了，怎么办？ (Diū qiánbāo le, zěnme bàn?) – Mất ví rồi, phải làm sao?",
+    "meaning": "phải làm sao",
+    "pinyin": "zěnme bàn",
+    "word": "怎么办"
+   }
   ],
   "distinguish": "\"怎么\" hỏi cách thức/lý do trước động từ; \"怎么样\" hỏi đánh giá, thường đứng cuối câu.",
+  "distinguishExample": "这个怎么做？（cách làm） vs 这个怎么样？（đánh giá, tốt hay không）。",
+  "grammarExample": "",
   "grammarNote": "",
+  "image": "",
   "partOfSpeech": "Đại từ nghi vấn",
   "senses": [
    {
@@ -1029,6 +1343,7 @@
     "char": "怎",
     "componentMeaning": "thế nào",
     "hanViet": "ZẨM",
+    "pictographicOrigin": "Ghép 乍(bỗng, mới) trên 心(tâm) — không phải tượng hình rõ ràng, dùng hỏi cách thức.",
     "radical": "心(bộ tâm)",
     "strokeCount": 9
    },
@@ -1036,6 +1351,7 @@
     "char": "么",
     "componentMeaning": "",
     "hanViet": "MA",
+    "pictographicOrigin": "Chữ giản hóa từ 麼, vốn không mang nghĩa tượng hình rõ, dùng làm hậu tố nghi vấn.",
     "radical": "丿(bộ phiệt)",
     "strokeCount": 3
    },
@@ -1043,6 +1359,7 @@
     "char": "样",
     "componentMeaning": "dạng, kiểu",
     "hanViet": "DẠNG",
+    "pictographicOrigin": "Bộ 木(cây gỗ) ghép 羊 lấy âm — nghĩa gốc liên quan đến khuôn mẫu bằng gỗ, nay nghĩa \"dạng, kiểu\".",
     "radical": "木(bộ mộc)",
     "strokeCount": 10
    }
@@ -1050,7 +1367,10 @@
   "collocations": [],
   "compounds": [],
   "distinguish": "",
+  "distinguishExample": "",
+  "grammarExample": "",
   "grammarNote": "",
+  "image": "",
   "partOfSpeech": "Đại từ nghi vấn",
   "senses": [
    {
@@ -1073,6 +1393,7 @@
     "char": "为",
     "componentMeaning": "vì",
     "hanViet": "VI/VỊ",
+    "pictographicOrigin": "Chữ giáp cốt vẽ hình bàn tay dắt một con voi — nghĩa gốc \"làm việc\", sau mở rộng nghĩa \"vì, cho\".",
     "radical": "丶(bộ chủ)",
     "strokeCount": 4
    },
@@ -1080,6 +1401,7 @@
     "char": "什",
     "componentMeaning": "",
     "hanViet": "THẬP",
+    "pictographicOrigin": "Ghép bộ 亻(người) với 十(mười) — nghĩa gốc liên quan đến đơn vị/tập hợp, nay dùng trong 什么 (cái gì).",
     "radical": "亻(bộ nhân)",
     "strokeCount": 4
    },
@@ -1087,16 +1409,25 @@
     "char": "么",
     "componentMeaning": "",
     "hanViet": "MA",
+    "pictographicOrigin": "Chữ giản hóa từ 麼, vốn không mang nghĩa tượng hình rõ, dùng làm hậu tố nghi vấn.",
     "radical": "丿(bộ phiệt)",
     "strokeCount": 3
    }
   ],
   "collocations": [
-   "因为...所以... (yīnwèi...suǒyǐ...) – vì... nên..."
+   {
+    "example": "因为下雨，所以我们不去了。 (Yīnwèi xiàyǔ, suǒyǐ wǒmen bú qù le.) – Vì trời mưa nên chúng tôi không đi nữa.",
+    "meaning": "vì... nên...",
+    "phrase": "因为...所以...",
+    "pinyin": "yīnwèi...suǒyǐ..."
+   }
   ],
   "compounds": [],
   "distinguish": "",
+  "distinguishExample": "",
+  "grammarExample": "",
   "grammarNote": "",
+  "image": "",
   "partOfSpeech": "Đại từ nghi vấn",
   "senses": [
    {
@@ -1119,6 +1450,7 @@
     "char": "多",
     "componentMeaning": "nhiều",
     "hanViet": "ĐA",
+    "pictographicOrigin": "Hình hai chữ 夕(thịt/mặt trăng) chồng lên nhau — biểu thị số lượng nhiều.",
     "radical": "夕(bộ tịch)",
     "strokeCount": 6
    },
@@ -1126,6 +1458,7 @@
     "char": "少",
     "componentMeaning": "ít",
     "hanViet": "THIỂU/THIẾU",
+    "pictographicOrigin": "Thêm một nét chấm nhỏ vào chữ 小(nhỏ) — nhấn mạnh ý \"ít hơn cả nhỏ\".",
     "radical": "小(bộ tiểu)",
     "strokeCount": 4
    }
@@ -1133,7 +1466,10 @@
   "collocations": [],
   "compounds": [],
   "distinguish": "\"多少\" hỏi số lượng bất kỳ, không cần lượng từ; \"几\" hỏi số nhỏ (thường dưới 10), bắt buộc có lượng từ đi kèm.",
+  "distinguishExample": "你家有多少人？（số lượng bất kỳ） vs 你家有几口人？（dưới 10, có lượng từ 口）。",
+  "grammarExample": "",
   "grammarNote": "",
+  "image": "",
   "partOfSpeech": "Đại từ nghi vấn",
   "senses": [
    {
@@ -1156,6 +1492,7 @@
     "char": "几",
     "componentMeaning": "",
     "hanViet": "KỶ",
+    "pictographicOrigin": "Chữ giáp cốt vẽ hình một cái bàn/kỷ thấp — sau mượn âm làm đại từ hỏi số lượng nhỏ \"mấy\".",
     "radical": "几(bộ kỷ)",
     "strokeCount": 2
    }
@@ -1163,7 +1500,10 @@
   "collocations": [],
   "compounds": [],
   "distinguish": "Xem phân biệt tại mục \"多少\".",
+  "distinguishExample": "",
+  "grammarExample": "",
   "grammarNote": "",
+  "image": "",
   "partOfSpeech": "Đại từ nghi vấn · Số từ",
   "senses": [
    {
@@ -1190,24 +1530,41 @@
  },
  "zh-basics-38": {
   "antonyms": [
-   "那"
+   {
+    "example": "这是我的，那是你的。 (Zhè shì wǒ de, nà shì nǐ de.) – Đây là của tôi, kia là của bạn.",
+    "word": "那"
+   }
   ],
   "characters": [
    {
     "char": "这",
     "componentMeaning": "",
     "hanViet": "GIÁ",
+    "pictographicOrigin": "Bộ 辶(đi) ghép 文 lấy âm (giản thể) — chữ hình thanh, nghĩa \"này, đây\".",
     "radical": "辶(bộ sước)",
     "strokeCount": 7
    }
   ],
   "collocations": [],
   "compounds": [
-   "这儿 (zhèr) – ở đây",
-   "这些 (zhèxiē) – những cái này"
+   {
+    "example": "坐这儿吧。 (Zuò zhèr ba.) – Ngồi đây đi.",
+    "meaning": "ở đây",
+    "pinyin": "zhèr",
+    "word": "这儿"
+   },
+   {
+    "example": "这些都是我的。 (Zhèxiē dōu shì wǒ de.) – Những cái này đều là của tôi.",
+    "meaning": "những cái này",
+    "pinyin": "zhèxiē",
+    "word": "这些"
+   }
   ],
   "distinguish": "",
+  "distinguishExample": "",
+  "grammarExample": "",
   "grammarNote": "",
+  "image": "",
   "partOfSpeech": "Đại từ chỉ định",
   "senses": [
    {
@@ -1225,24 +1582,41 @@
  },
  "zh-basics-39": {
   "antonyms": [
-   "这"
+   {
+    "example": "那是过去，这是现在。 (Nà shì guòqù, zhè shì xiànzài.) – Đó là quá khứ, đây là hiện tại.",
+    "word": "这"
+   }
   ],
   "characters": [
    {
     "char": "那",
     "componentMeaning": "",
     "hanViet": "NA",
+    "pictographicOrigin": "Bộ 阝(vùng đất) ghép với thành phần lấy âm — chữ hình thanh, nghĩa \"kia, đó\".",
     "radical": "阝(bộ ấp)",
     "strokeCount": 6
    }
   ],
   "collocations": [],
   "compounds": [
-   "那儿 (nàr) – ở đó",
-   "那么 (nàme) – như vậy, vậy thì"
+   {
+    "example": "他在那儿。 (Tā zài nàr.) – Anh ấy ở đó.",
+    "meaning": "ở đó",
+    "pinyin": "nàr",
+    "word": "那儿"
+   },
+   {
+    "example": "那么我们走吧。 (Nàme wǒmen zǒu ba.) – Vậy thì chúng ta đi thôi.",
+    "meaning": "như vậy, vậy thì",
+    "pinyin": "nàme",
+    "word": "那么"
+   }
   ],
   "distinguish": "",
+  "distinguishExample": "",
+  "grammarExample": "",
   "grammarNote": "",
+  "image": "",
   "partOfSpeech": "Đại từ chỉ định",
   "senses": [
    {
@@ -1259,22 +1633,36 @@
   "usage": ""
  },
  "zh-basics-4": {
-  "antonyms": [],
+  "antonyms": [
+   {
+    "example": "她喜欢猫，他喜欢狗。 (Tā xǐhuan māo, tā xǐhuan gǒu.) – Cô ấy thích mèo, anh ấy thích chó.",
+    "word": "他"
+   }
+  ],
   "characters": [
    {
     "char": "她",
     "componentMeaning": "",
     "hanViet": "THA",
+    "pictographicOrigin": "Chữ mới (đầu thế kỷ 20), ghép bộ 女(nữ) với 也 lấy âm, tạo riêng để chỉ \"cô ấy\".",
     "radical": "女(bộ nữ)",
     "strokeCount": 6
    }
   ],
   "collocations": [],
   "compounds": [
-   "她们 (tāmen) – họ (toàn nữ)"
+   {
+    "example": "她们是姐妹。 (Tāmen shì jiěmèi.) – Họ là chị em.",
+    "meaning": "họ (toàn nữ)",
+    "pinyin": "tāmen",
+    "word": "她们"
+   }
   ],
   "distinguish": "",
+  "distinguishExample": "",
+  "grammarExample": "",
   "grammarNote": "",
+  "image": "",
   "partOfSpeech": "Đại từ",
   "senses": [
    {
@@ -1292,13 +1680,17 @@
  },
  "zh-basics-40": {
   "antonyms": [
-   "那儿"
+   {
+    "example": "这儿冷，那儿暖和。 (Zhèr lěng, nàr nuǎnhuo.) – Ở đây lạnh, ở đó ấm áp.",
+    "word": "那儿"
+   }
   ],
   "characters": [
    {
     "char": "这",
     "componentMeaning": "này",
     "hanViet": "GIÁ",
+    "pictographicOrigin": "Bộ 辶(đi) ghép 文 lấy âm (giản thể) — chữ hình thanh, nghĩa \"này, đây\".",
     "radical": "辶(bộ sước)",
     "strokeCount": 7
    },
@@ -1306,6 +1698,7 @@
     "char": "儿",
     "componentMeaning": "hậu tố chỉ nơi chốn",
     "hanViet": "NHI",
+    "pictographicOrigin": "Chữ giáp cốt vẽ hình một đứa trẻ với thóp đầu chưa liền — nghĩa gốc \"trẻ con\".",
     "radical": "儿(bộ nhân)",
     "strokeCount": 2
    }
@@ -1313,7 +1706,10 @@
   "collocations": [],
   "compounds": [],
   "distinguish": "",
+  "distinguishExample": "",
+  "grammarExample": "",
   "grammarNote": "",
+  "image": "",
   "partOfSpeech": "Đại từ chỉ định",
   "senses": [
    {
@@ -1327,19 +1723,26 @@
    }
   ],
   "synonyms": [
-   "这里"
+   {
+    "example": "这里很安静。 (Zhèlǐ hěn ānjìng.) – Ở đây rất yên tĩnh.",
+    "word": "这里"
+   }
   ],
   "usage": ""
  },
  "zh-basics-41": {
   "antonyms": [
-   "这儿"
+   {
+    "example": "别去那儿，来这儿吧。 (Bié qù nàr, lái zhèr ba.) – Đừng đi đó, đến đây đi.",
+    "word": "这儿"
+   }
   ],
   "characters": [
    {
     "char": "那",
     "componentMeaning": "kia",
     "hanViet": "NA",
+    "pictographicOrigin": "Bộ 阝(vùng đất) ghép với thành phần lấy âm — chữ hình thanh, nghĩa \"kia, đó\".",
     "radical": "阝(bộ ấp)",
     "strokeCount": 6
    },
@@ -1347,6 +1750,7 @@
     "char": "儿",
     "componentMeaning": "hậu tố chỉ nơi chốn",
     "hanViet": "NHI",
+    "pictographicOrigin": "Chữ giáp cốt vẽ hình một đứa trẻ với thóp đầu chưa liền — nghĩa gốc \"trẻ con\".",
     "radical": "儿(bộ nhân)",
     "strokeCount": 2
    }
@@ -1354,7 +1758,10 @@
   "collocations": [],
   "compounds": [],
   "distinguish": "",
+  "distinguishExample": "",
+  "grammarExample": "",
   "grammarNote": "",
+  "image": "",
   "partOfSpeech": "Đại từ chỉ định",
   "senses": [
    {
@@ -1368,7 +1775,10 @@
    }
   ],
   "synonyms": [
-   "那里"
+   {
+    "example": "他在那里等你。 (Tā zài nàlǐ děng nǐ.) – Anh ấy đợi bạn ở đó.",
+    "word": "那里"
+   }
   ],
   "usage": ""
  },
@@ -1379,16 +1789,25 @@
     "char": "叫",
     "componentMeaning": "",
     "hanViet": "KHIẾU",
+    "pictographicOrigin": "Bộ 口(miệng) ghép 叫 lấy âm — hình ảnh miệng phát ra tiếng kêu, gọi.",
     "radical": "口(bộ khẩu)",
     "strokeCount": 5
    }
   ],
   "collocations": [
-   "叫做 (jiàozuò) – được gọi là"
+   {
+    "example": "这种花叫做玫瑰。 (Zhè zhǒng huā jiàozuò méigui.) – Loài hoa này được gọi là hoa hồng.",
+    "meaning": "được gọi là",
+    "phrase": "叫做",
+    "pinyin": "jiàozuò"
+   }
   ],
   "compounds": [],
   "distinguish": "\"叫\" dùng cho tên đầy đủ/biệt danh; \"姓\" chỉ dùng cho họ.",
+  "distinguishExample": "我姓阮，叫阮文。 (Wǒ xìng Ruǎn, jiào Ruǎn Wén.) – Tôi họ Nguyễn, tên là Nguyễn Văn.",
+  "grammarExample": "",
   "grammarNote": "",
+  "image": "",
   "partOfSpeech": "Động từ",
   "senses": [
    {
@@ -1419,18 +1838,32 @@
     "char": "姓",
     "componentMeaning": "",
     "hanViet": "TÍNH",
+    "pictographicOrigin": "Ghép 女(nữ) với 生(sinh) — thời cổ họ được tính theo dòng mẹ, nên chữ \"họ\" có bộ nữ.",
     "radical": "女(bộ nữ)",
     "strokeCount": 8
    }
   ],
   "collocations": [
-   "您贵姓 (nín guìxìng) – xin hỏi quý danh"
+   {
+    "example": "您贵姓？我姓陈。 (Nín guìxìng? Wǒ xìng Chén.) – Xin hỏi quý danh? Tôi họ Trần.",
+    "meaning": "xin hỏi quý danh",
+    "phrase": "您贵姓",
+    "pinyin": "nín guìxìng"
+   }
   ],
   "compounds": [
-   "姓名 (xìngmíng) – họ tên"
+   {
+    "example": "请填写您的姓名。 (Qǐng tiánxiě nín de xìngmíng.) – Xin điền họ tên của ngài.",
+    "meaning": "họ tên",
+    "pinyin": "xìngmíng",
+    "word": "姓名"
+   }
   ],
   "distinguish": "Xem phân biệt tại mục \"叫\".",
+  "distinguishExample": "",
+  "grammarExample": "",
   "grammarNote": "",
+  "image": "",
   "partOfSpeech": "Động từ · Danh từ",
   "senses": [
    {
@@ -1462,6 +1895,7 @@
     "char": "名",
     "componentMeaning": "tên",
     "hanViet": "DANH",
+    "pictographicOrigin": "Ghép 夕(tối, đêm) với 口(miệng) — đêm tối không nhìn rõ mặt nên phải xưng tên bằng miệng.",
     "radical": "口(bộ khẩu)",
     "strokeCount": 6
    },
@@ -1469,17 +1903,25 @@
     "char": "字",
     "componentMeaning": "chữ",
     "hanViet": "TỰ",
+    "pictographicOrigin": "Bộ 宀(mái nhà) trên 子(con) — hình ảnh đứa trẻ sinh ra trong nhà rồi được đặt tên/chữ.",
     "radical": "宀(bộ miên)",
     "strokeCount": 6
    }
   ],
   "collocations": [],
   "compounds": [
-   "姓名 (xìngmíng) – họ tên (trang trọng)",
-   "名字 chỉ tên riêng, còn 姓名 là cả họ và tên"
+   {
+    "example": "请写下您的姓名和电话。 (Qǐng xiěxià nín de xìngmíng hé diànhuà.) – Xin viết họ tên và số điện thoại của ngài.",
+    "meaning": "họ tên (trang trọng)",
+    "pinyin": "xìngmíng",
+    "word": "姓名"
+   }
   ],
-  "distinguish": "",
+  "distinguish": "\"名字\" chỉ tên riêng; \"姓名\" là cả họ và tên, trang trọng hơn.",
+  "distinguishExample": "口语问\"你叫什么名字\"，表格上写\"姓名\"。 – Khẩu ngữ hỏi \"tên bạn là gì\", trên biểu mẫu viết \"họ tên\".",
+  "grammarExample": "",
   "grammarNote": "",
+  "image": "",
   "partOfSpeech": "Danh từ",
   "senses": [
    {
@@ -1497,26 +1939,48 @@
  },
  "zh-basics-45": {
   "antonyms": [
-   "错"
+   {
+    "example": "你做对了，我做错了。 (Nǐ zuò duì le, wǒ zuò cuò le.) – Bạn làm đúng rồi, tôi làm sai rồi.",
+    "word": "错"
+   }
   ],
   "characters": [
    {
     "char": "对",
     "componentMeaning": "",
     "hanViet": "ĐỐI",
+    "pictographicOrigin": "Vốn vẽ tay (又) cầm một vật đối diện — hàm ý đối đáp, đối diện.",
     "radical": "又(bộ hựu)",
     "strokeCount": 5
    }
   ],
   "collocations": [
-   "对了 (duì le) – à đúng rồi (chợt nhớ ra)"
+   {
+    "example": "对了，明天有个会议。 (Duì le, míngtiān yǒu ge huìyì.) – À đúng rồi, mai có một cuộc họp.",
+    "meaning": "à đúng rồi (chợt nhớ ra)",
+    "phrase": "对了",
+    "pinyin": "duì le"
+   }
   ],
   "compounds": [
-   "对不起 (duìbuqǐ) – xin lỗi",
-   "对话 (duìhuà) – đối thoại"
+   {
+    "example": "对不起，我错了。 (Duìbuqǐ, wǒ cuò le.) – Xin lỗi, tôi sai rồi.",
+    "meaning": "xin lỗi",
+    "pinyin": "duìbuqǐ",
+    "word": "对不起"
+   },
+   {
+    "example": "他们在对话。 (Tāmen zài duìhuà.) – Họ đang đối thoại.",
+    "meaning": "đối thoại",
+    "pinyin": "duìhuà",
+    "word": "对话"
+   }
   ],
   "distinguish": "",
+  "distinguishExample": "",
+  "grammarExample": "",
   "grammarNote": "",
+  "image": "",
   "partOfSpeech": "Tính từ · Giới từ",
   "senses": [
    {
@@ -1543,25 +2007,47 @@
  },
  "zh-basics-46": {
   "antonyms": [
-   "坏"
+   {
+    "example": "这是好消息，那是坏消息。 (Zhè shì hǎo xiāoxi, nà shì huài xiāoxi.) – Đây là tin tốt, kia là tin xấu.",
+    "word": "坏"
+   }
   ],
   "characters": [
    {
     "char": "好",
     "componentMeaning": "",
     "hanViet": "HẢO",
+    "pictographicOrigin": "Hình một người phụ nữ (女) bên cạnh đứa trẻ (子) — hình ảnh mẹ con, biểu thị điều tốt đẹp.",
     "radical": "女(bộ nữ)",
     "strokeCount": 6
    }
   ],
   "collocations": [],
   "compounds": [
-   "好吃 (hǎochī) – ngon",
-   "好看 (hǎokàn) – đẹp, dễ nhìn",
-   "好听 (hǎotīng) – hay (nghe)"
+   {
+    "example": "这道菜很好吃。 (Zhè dào cài hěn hǎochī.) – Món này rất ngon.",
+    "meaning": "ngon",
+    "pinyin": "hǎochī",
+    "word": "好吃"
+   },
+   {
+    "example": "这件衣服很好看。 (Zhè jiàn yīfu hěn hǎokàn.) – Chiếc áo này rất đẹp.",
+    "meaning": "đẹp, dễ nhìn",
+    "pinyin": "hǎokàn",
+    "word": "好看"
+   },
+   {
+    "example": "这首歌很好听。 (Zhè shǒu gē hěn hǎotīng.) – Bài hát này rất hay.",
+    "meaning": "hay (nghe)",
+    "pinyin": "hǎotīng",
+    "word": "好听"
+   }
   ],
   "distinguish": "",
+  "distinguishExample": "",
+  "grammarExample": "",
   "grammarNote": "",
+  "image": "👍",
   "partOfSpeech": "Tính từ",
   "senses": [
    {
@@ -1592,6 +2078,7 @@
     "char": "喂",
     "componentMeaning": "",
     "hanViet": "ÚY",
+    "pictographicOrigin": "Bộ 口(miệng) ghép 畏 lấy âm — dùng làm thán từ gọi/a lô, không mang nghĩa tượng hình rõ.",
     "radical": "口(bộ khẩu)",
     "strokeCount": 12
    }
@@ -1599,7 +2086,10 @@
   "collocations": [],
   "compounds": [],
   "distinguish": "",
+  "distinguishExample": "",
+  "grammarExample": "",
   "grammarNote": "",
+  "image": "📞",
   "partOfSpeech": "Thán từ",
   "senses": [
    {
@@ -1626,6 +2116,7 @@
     "char": "欢",
     "componentMeaning": "vui",
     "hanViet": "HOAN",
+    "pictographicOrigin": "Chữ giản thể từ 歡, ghép bộ 欠(hả miệng) — hình ảnh vui vẻ, cười nói.",
     "radical": "又(bộ hựu)",
     "strokeCount": 6
    },
@@ -1633,16 +2124,25 @@
     "char": "迎",
     "componentMeaning": "đón",
     "hanViet": "NGHÊNH",
+    "pictographicOrigin": "Bộ 辶(đi) ghép 卬 lấy âm — nghĩa \"đi ra đón\".",
     "radical": "辶(bộ sước)",
     "strokeCount": 7
    }
   ],
   "collocations": [
-   "欢迎光临 (huānyíng guānglín) – kính chào quý khách (dùng ở cửa hàng, nhà hàng)"
+   {
+    "example": "欢迎光临，请问几位？ (Huānyíng guānglín, qǐngwèn jǐ wèi?) – Kính chào quý khách, xin hỏi mấy người ạ?",
+    "meaning": "kính chào quý khách (dùng ở cửa hàng, nhà hàng)",
+    "phrase": "欢迎光临",
+    "pinyin": "huānyíng guānglín"
+   }
   ],
   "compounds": [],
   "distinguish": "",
+  "distinguishExample": "",
+  "grammarExample": "",
   "grammarNote": "",
+  "image": "🎉",
   "partOfSpeech": "Động từ",
   "senses": [
    {
@@ -1665,6 +2165,7 @@
     "char": "认",
     "componentMeaning": "nhận",
     "hanViet": "NHẬN",
+    "pictographicOrigin": "Ghép bộ 讠(lời nói) với 人 lấy âm (giản thể) — chữ hình thanh, nghĩa \"nhận biết\".",
     "radical": "讠(bộ ngôn)",
     "strokeCount": 4
    },
@@ -1672,6 +2173,7 @@
     "char": "识",
     "componentMeaning": "biết",
     "hanViet": "THỨC",
+    "pictographicOrigin": "Ghép bộ 讠(lời nói) với thành phần lấy âm — chữ hình thanh, nghĩa \"biết, hiểu\".",
     "radical": "讠(bộ ngôn)",
     "strokeCount": 7
    }
@@ -1679,7 +2181,10 @@
   "collocations": [],
   "compounds": [],
   "distinguish": "\"认识\" thiên về quen biết người/nhận biết chữ; \"知道\" (zhīdào) thiên về biết thông tin/sự việc.",
+  "distinguishExample": "我认识他（quen anh ấy） vs 我知道这件事（biết chuyện này）。",
+  "grammarExample": "",
   "grammarNote": "",
+  "image": "",
   "partOfSpeech": "Động từ",
   "senses": [
    {
@@ -1697,7 +2202,10 @@
    }
   ],
   "synonyms": [
-   "认得"
+   {
+    "example": "我认得他，但不太熟。 (Wǒ rènde tā, dàn bú tài shú.) – Tôi biết mặt anh ấy nhưng không thân lắm.",
+    "word": "认得"
+   }
   ],
   "usage": ""
  },
@@ -1708,16 +2216,25 @@
     "char": "它",
     "componentMeaning": "",
     "hanViet": "THA",
+    "pictographicOrigin": "Chữ giáp cốt vốn vẽ hình con rắn dưới mái nhà (nghĩa gốc \"rắn\"), sau mượn âm để chỉ \"nó\".",
     "radical": "宀(bộ miên)",
     "strokeCount": 5
    }
   ],
   "collocations": [],
   "compounds": [
-   "它们 (tāmen) – chúng nó (vật/con vật, số nhiều)"
+   {
+    "example": "这些书，它们都是我的。 (Zhèxiē shū, tāmen dōu shì wǒ de.) – Những quyển sách này, chúng đều là của tôi.",
+    "meaning": "chúng nó (vật/con vật, số nhiều)",
+    "pinyin": "tāmen",
+    "word": "它们"
+   }
   ],
   "distinguish": "",
+  "distinguishExample": "",
+  "grammarExample": "",
   "grammarNote": "",
+  "image": "📦",
   "partOfSpeech": "Đại từ",
   "senses": [
    {
@@ -1735,13 +2252,17 @@
  },
  "zh-basics-50": {
   "antonyms": [
-   "难过"
+   {
+    "example": "他很高兴，我很难过。 (Tā hěn gāoxìng, wǒ hěn nánguò.) – Anh ấy rất vui, tôi rất buồn.",
+    "word": "难过"
+   }
   ],
   "characters": [
    {
     "char": "高",
     "componentMeaning": "cao",
     "hanViet": "CAO",
+    "pictographicOrigin": "Chữ giáp cốt vẽ hình một tòa lầu cao nhiều tầng — nghĩa \"cao\".",
     "radical": "高(bộ cao)",
     "strokeCount": 10
    },
@@ -1749,6 +2270,7 @@
     "char": "兴",
     "componentMeaning": "hứng",
     "hanViet": "HƯNG/HỨNG",
+    "pictographicOrigin": "Chữ giáp cốt vẽ hình nhiều bàn tay cùng nâng một vật lên — nghĩa gốc \"dấy lên, nổi lên\", nay có nghĩa \"vui, hứng thú\".",
     "radical": "八(bộ bát)",
     "strokeCount": 6
    }
@@ -1756,7 +2278,10 @@
   "collocations": [],
   "compounds": [],
   "distinguish": "\"高兴\" là cảm xúc nhất thời trước một sự việc cụ thể; \"快乐\" thiên về trạng thái hạnh phúc nói chung, thường dùng trong lời chúc (生日快乐).",
+  "distinguishExample": "认识你很高兴（cảm xúc nhất thời） vs 祝你每天快乐（lời chúc chung）。",
+  "grammarExample": "",
   "grammarNote": "",
+  "image": "😊",
   "partOfSpeech": "Tính từ",
   "senses": [
    {
@@ -1770,8 +2295,14 @@
    }
   ],
   "synonyms": [
-   "开心",
-   "快乐"
+   {
+    "example": "今天玩得很开心。 (Jīntiān wán de hěn kāixīn.) – Hôm nay chơi rất vui.",
+    "word": "开心"
+   },
+   {
+    "example": "生日快乐！ (Shēngrì kuàilè!) – Chúc mừng sinh nhật!",
+    "word": "快乐"
+   }
   ],
   "usage": "Thường dùng trong câu chào xã giao: 认识你很高兴 / 很高兴认识你."
  },
@@ -1782,6 +2313,7 @@
     "char": "我",
     "componentMeaning": "tôi",
     "hanViet": "NGÃ",
+    "pictographicOrigin": "Chữ giáp cốt vốn vẽ hình một loại binh khí có răng cưa (giáo ba mũi); mượn âm để chỉ ngôi thứ nhất \"tôi\".",
     "radical": "戈(bộ qua)",
     "strokeCount": 7
    },
@@ -1789,6 +2321,7 @@
     "char": "们",
     "componentMeaning": "hậu tố tạo số nhiều cho đại từ chỉ người",
     "hanViet": "MÔN",
+    "pictographicOrigin": "Ghép bộ 亻(người) với 门 lấy âm — chữ hình thanh, dùng làm hậu tố số nhiều.",
     "radical": "亻(bộ nhân)",
     "strokeCount": 5
    }
@@ -1796,7 +2329,10 @@
   "collocations": [],
   "compounds": [],
   "distinguish": "\"我们\" có thể không bao gồm người nghe; \"咱们\" luôn bao gồm cả người nghe.",
+  "distinguishExample": "（对第三者）我们要走了。 vs （对听话人）咱们走吧。 – \"Chúng tôi phải đi rồi\" (không gồm người nghe) và \"Chúng ta đi thôi\" (gồm cả người nghe).",
+  "grammarExample": "不能说\"猫们\"，只能说\"猫\"（复数用语境表示）。 (Bùnéng shuō \"māo men\", zhǐ néng shuō \"māo\".) – Không thể nói \"猫们\", chỉ nói \"猫\" (số nhiều thể hiện qua ngữ cảnh).",
   "grammarNote": "们 chỉ gắn sau đại từ chỉ người (我/你/他...), không dùng với danh từ chỉ vật.",
+  "image": "",
   "partOfSpeech": "Đại từ",
   "senses": [
    {
@@ -1810,7 +2346,10 @@
    }
   ],
   "synonyms": [
-   "咱们"
+   {
+    "example": "咱们一起去吧。 (Zánmen yìqǐ qù ba.) – Chúng ta cùng đi nhé.",
+    "word": "咱们"
+   }
   ],
   "usage": ""
  },
@@ -1821,6 +2360,7 @@
     "char": "你",
     "componentMeaning": "bạn",
     "hanViet": "NHĨ",
+    "pictographicOrigin": "Ghép bộ 亻(người) với 尔 lấy âm — chữ hình thanh, không phải tượng hình.",
     "radical": "亻(bộ nhân)",
     "strokeCount": 7
    },
@@ -1828,6 +2368,7 @@
     "char": "们",
     "componentMeaning": "hậu tố số nhiều",
     "hanViet": "MÔN",
+    "pictographicOrigin": "Ghép bộ 亻(người) với 门 lấy âm — chữ hình thanh, dùng làm hậu tố số nhiều.",
     "radical": "亻(bộ nhân)",
     "strokeCount": 5
    }
@@ -1835,7 +2376,10 @@
   "collocations": [],
   "compounds": [],
   "distinguish": "",
+  "distinguishExample": "",
+  "grammarExample": "",
   "grammarNote": "",
+  "image": "",
   "partOfSpeech": "Đại từ",
   "senses": [
    {
@@ -1858,6 +2402,7 @@
     "char": "他",
     "componentMeaning": "anh ấy",
     "hanViet": "THA",
+    "pictographicOrigin": "Ghép bộ 亻(người) với 也 lấy âm — chữ hình thanh.",
     "radical": "亻(bộ nhân)",
     "strokeCount": 5
    },
@@ -1865,6 +2410,7 @@
     "char": "们",
     "componentMeaning": "hậu tố số nhiều",
     "hanViet": "MÔN",
+    "pictographicOrigin": "Ghép bộ 亻(người) với 门 lấy âm — chữ hình thanh, dùng làm hậu tố số nhiều.",
     "radical": "亻(bộ nhân)",
     "strokeCount": 5
    }
@@ -1872,7 +2418,10 @@
   "collocations": [],
   "compounds": [],
   "distinguish": "",
+  "distinguishExample": "",
+  "grammarExample": "",
   "grammarNote": "",
+  "image": "",
   "partOfSpeech": "Đại từ",
   "senses": [
    {
@@ -1895,16 +2444,25 @@
     "char": "您",
     "componentMeaning": "",
     "hanViet": "NÂM",
+    "pictographicOrigin": "Ghép 你(bạn) trên 心(tâm/lòng) — hàm ý \"bạn\" nói với tấm lòng kính trọng.",
     "radical": "心(bộ tâm)",
     "strokeCount": 11
    }
   ],
   "collocations": [
-   "您贵姓 (nín guìxìng) – xin hỏi quý danh"
+   {
+    "example": "您贵姓？我姓王。 (Nín guìxìng? Wǒ xìng Wáng.) – Xin hỏi quý danh? Tôi họ Vương.",
+    "meaning": "xin hỏi quý danh",
+    "phrase": "您贵姓",
+    "pinyin": "nín guìxìng"
+   }
   ],
   "compounds": [],
   "distinguish": "So với \"你\": \"您\" trang trọng, lịch sự hơn hẳn, gần như bắt buộc khi nói với người lớn tuổi/cấp trên.",
+  "distinguishExample": "小孩对小孩说\"你\"，服务员对客人说\"您\"。 – Trẻ con nói \"你\" với nhau, nhân viên nói \"您\" với khách.",
+  "grammarExample": "",
   "grammarNote": "",
+  "image": "",
   "partOfSpeech": "Đại từ",
   "senses": [
    {

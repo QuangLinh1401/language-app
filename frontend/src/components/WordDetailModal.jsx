@@ -130,6 +130,7 @@ export default function WordDetailModal({ wordId, onClose }) {
           <>
             <div className="modal-head">
               <div style={{ display: "flex", alignItems: "center", gap: 10, paddingRight: 36, flexWrap: "wrap" }}>
+                {detail.image && <span style={{ fontSize: 26 }}>{detail.image}</span>}
                 <div style={{ fontFamily: "'Nunito',sans-serif", fontWeight: 900, fontSize: detail.word.length > 18 ? 19 : 24, color: "var(--teal-deep)", flex: 1, minWidth: 0, overflowWrap: "break-word" }}>
                   {detail.word}
                 </div>
@@ -208,6 +209,11 @@ export default function WordDetailModal({ wordId, onClose }) {
                             {c.componentMeaning && (
                               <div style={{ fontSize: 11.5, color: "var(--ink-soft)", marginTop: 4 }}>{c.componentMeaning}</div>
                             )}
+                            {c.pictographicOrigin && (
+                              <div style={{ fontSize: 11, color: "var(--ink-soft)", marginTop: 4, fontStyle: "italic" }}>
+                                📜 {c.pictographicOrigin}
+                              </div>
+                            )}
                           </div>
                         ))}
                       </div>
@@ -233,7 +239,7 @@ export default function WordDetailModal({ wordId, onClose }) {
                                 <li key={j} style={{ fontSize: 12.5, lineHeight: 1.6 }}>
                                   {m.meaning}
                                   {m.example && (
-                                    <div style={{ color: "var(--ink-soft)", fontStyle: "italic", marginTop: 2 }}>
+                                    <div style={{ color: "var(--ink-soft)", marginTop: 2 }}>
                                       “<Highlighted text={m.example} word={detail.word} />”
                                     </div>
                                   )}
@@ -251,7 +257,7 @@ export default function WordDetailModal({ wordId, onClose }) {
                       <div className="card" style={{ padding: "12px 14px" }}>
                         <div style={{ fontSize: 13.5, fontWeight: 800, color: "var(--teal)" }}>{detail.meaning}</div>
                         {detail.example && (
-                          <div style={{ fontSize: 12.5, color: "var(--ink-soft)", fontStyle: "italic", marginTop: 6 }}>
+                          <div style={{ fontSize: 12.5, color: "var(--ink-soft)", marginTop: 6 }}>
                             “<Highlighted text={detail.example} word={detail.word} />”
                           </div>
                         )}
@@ -290,7 +296,7 @@ export default function WordDetailModal({ wordId, onClose }) {
                               <li key={j} style={{ fontSize: 12.5, lineHeight: 1.6 }}>
                                 <Highlighted text={d.definition} word={detail.word} />
                                 {d.example && (
-                                  <div style={{ color: "var(--ink-soft)", fontStyle: "italic", marginTop: 2 }}>
+                                  <div style={{ color: "var(--ink-soft)", marginTop: 2 }}>
                                     “<Highlighted text={d.example} word={detail.word} />”
                                   </div>
                                 )}
@@ -320,29 +326,56 @@ export default function WordDetailModal({ wordId, onClose }) {
                   )}
 
                   {detail.grammarNote && (
-                    <Section title="Grammar note">
+                    <Section title="Ngữ pháp">
                       <div style={{ fontSize: 12.5, lineHeight: 1.6 }}>
                         <Highlighted text={detail.grammarNote} word={detail.word} />
                       </div>
+                      {detail.grammarExample && (
+                        <div style={{ color: "var(--ink-soft)", fontSize: 12, marginTop: 6 }}>
+                          “<Highlighted text={detail.grammarExample} word={detail.word} />”
+                        </div>
+                      )}
                     </Section>
                   )}
 
                   {detail.synonyms?.length > 0 && (
-                    <Section title="Synonyms">
-                      <div style={{ display: "flex", gap: 6, flexWrap: "wrap" }}>
-                        {detail.synonyms.map((s) => (
-                          <span key={s} className="pill" style={{ cursor: "pointer" }} onClick={() => speak(s)}>{s}</span>
-                        ))}
+                    <Section title="Từ cận nghĩa">
+                      <div style={{ display: "flex", flexDirection: "column", gap: 8 }}>
+                        {detail.synonyms.map((s, i) => {
+                          const word = typeof s === "string" ? s : s.word;
+                          const example = typeof s === "string" ? null : s.example;
+                          return (
+                            <div key={i}>
+                              <span className="pill" style={{ cursor: "pointer" }} onClick={() => speak(word)}>{word}</span>
+                              {example && (
+                                <div style={{ color: "var(--ink-soft)", fontSize: 12, marginTop: 4 }}>
+                                  “<Highlighted text={example} word={word} />”
+                                </div>
+                              )}
+                            </div>
+                          );
+                        })}
                       </div>
                     </Section>
                   )}
 
                   {detail.antonyms?.length > 0 && (
                     <Section title="Từ trái nghĩa">
-                      <div style={{ display: "flex", gap: 6, flexWrap: "wrap" }}>
-                        {detail.antonyms.map((s) => (
-                          <span key={s} className="pill" style={{ cursor: "pointer" }} onClick={() => speak(s)}>{s}</span>
-                        ))}
+                      <div style={{ display: "flex", flexDirection: "column", gap: 8 }}>
+                        {detail.antonyms.map((s, i) => {
+                          const word = typeof s === "string" ? s : s.word;
+                          const example = typeof s === "string" ? null : s.example;
+                          return (
+                            <div key={i}>
+                              <span className="pill" style={{ cursor: "pointer" }} onClick={() => speak(word)}>{word}</span>
+                              {example && (
+                                <div style={{ color: "var(--ink-soft)", fontSize: 12, marginTop: 4 }}>
+                                  “<Highlighted text={example} word={word} />”
+                                </div>
+                              )}
+                            </div>
+                          );
+                        })}
                       </div>
                     </Section>
                   )}
@@ -352,25 +385,56 @@ export default function WordDetailModal({ wordId, onClose }) {
                       <div style={{ fontSize: 12.5, lineHeight: 1.6 }}>
                         <Highlighted text={detail.distinguish} word={detail.word} />
                       </div>
+                      {detail.distinguishExample && (
+                        <div style={{ color: "var(--ink-soft)", fontSize: 12, marginTop: 6 }}>
+                          “<Highlighted text={detail.distinguishExample} word={detail.word} />”
+                        </div>
+                      )}
                     </Section>
                   )}
 
                   {detail.compounds?.length > 0 && (
                     <Section title="Từ ghép thường gặp">
-                      <div style={{ display: "flex", flexDirection: "column", gap: 6 }}>
-                        {detail.compounds.map((c) => (
-                          <div key={c} style={{ fontSize: 12.5, color: "var(--ink-soft)" }}>🔤 {c}</div>
-                        ))}
+                      <div style={{ display: "flex", flexDirection: "column", gap: 10 }}>
+                        {detail.compounds.map((c, i) => {
+                          if (typeof c === "string") return <div key={i} style={{ fontSize: 12.5, color: "var(--ink-soft)" }}>🔤 {c}</div>;
+                          return (
+                            <div key={i} className="card" style={{ padding: "8px 10px" }}>
+                              <div style={{ fontSize: 13, fontWeight: 800, color: "var(--teal-deep)" }}>
+                                {c.word} <span className="ipa-text" style={{ fontWeight: 600, fontSize: 11 }}>{c.pinyin}</span>
+                              </div>
+                              <div style={{ fontSize: 12, color: "var(--ink-soft)" }}>{c.meaning}</div>
+                              {c.example && (
+                                <div style={{ color: "var(--ink-soft)", fontSize: 11.5, marginTop: 4 }}>
+                                  “<Highlighted text={c.example} word={c.word} />”
+                                </div>
+                              )}
+                            </div>
+                          );
+                        })}
                       </div>
                     </Section>
                   )}
 
                   {detail.collocations?.length > 0 && (
-                    <Section title="Common phrases">
-                      <div style={{ display: "flex", flexDirection: "column", gap: 6 }}>
-                        {detail.collocations.map((c) => (
-                          <div key={c} style={{ fontSize: 12.5, color: "var(--ink-soft)" }}>💬 {c}</div>
-                        ))}
+                    <Section title="Kết hợp từ">
+                      <div style={{ display: "flex", flexDirection: "column", gap: 10 }}>
+                        {detail.collocations.map((c, i) => {
+                          if (typeof c === "string") return <div key={i} style={{ fontSize: 12.5, color: "var(--ink-soft)" }}>💬 {c}</div>;
+                          return (
+                            <div key={i} className="card" style={{ padding: "8px 10px" }}>
+                              <div style={{ fontSize: 13, fontWeight: 800, color: "var(--teal-deep)" }}>
+                                {c.phrase} <span className="ipa-text" style={{ fontWeight: 600, fontSize: 11 }}>{c.pinyin}</span>
+                              </div>
+                              <div style={{ fontSize: 12, color: "var(--ink-soft)" }}>{c.meaning}</div>
+                              {c.example && (
+                                <div style={{ color: "var(--ink-soft)", fontSize: 11.5, marginTop: 4 }}>
+                                  “<Highlighted text={c.example} word={c.phrase} />”
+                                </div>
+                              )}
+                            </div>
+                          );
+                        })}
                       </div>
                     </Section>
                   )}
@@ -381,7 +445,7 @@ export default function WordDetailModal({ wordId, onClose }) {
                 <div style={{ display: "flex", flexDirection: "column", gap: 8 }}>
                   {examples.map((ex, i) => (
                     <div key={i} className="card" style={{ padding: "10px 12px", display: "flex", alignItems: "center", gap: 8 }}>
-                      <span style={{ flex: 1, fontSize: 12.5, fontStyle: "italic" }}>
+                      <span style={{ flex: 1, fontSize: 12.5 }}>
                         <Highlighted text={ex} word={detail.word} />
                       </span>
                       <SoundBtn text={ex} size={26} />
