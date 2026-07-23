@@ -605,3 +605,18 @@ h1.page-title {
   cursor: pointer;
   text-decoration: underline;
 }
+
+/* Colorful module icons (Fluent Emoji, MIT) with a playful hover bounce */
+.mod-icon { width: 24px; height: 24px; display: block; transition: transform 0.15s ease; }
+@media (hover: hover) and (pointer: fine) {
+  .mod-card:hover .mod-icon, .topic-card:hover .mod-icon { transform: scale(1.18) rotate(-5deg); }
+}
+
+.flame-anim { animation: flamePulse 1.5s ease-in-out infinite; transform-origin: 50% 85%; }
+@keyframes flamePulse {
+  0%, 100% { transform: scale(1); }
+  50% { transform: scale(1.15); }
+}
+@media (prefers-reduced-motion: reduce) {
+  .flame-anim { animation: none; }
+}

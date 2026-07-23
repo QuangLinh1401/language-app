@@ -1,7 +1,6 @@
 import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import { api, auth } from "../api.js";
-import Icon from "../components/Icon.jsx";
 
 export default function Home() {
   const [progress, setProgress] = useState(null);
@@ -13,13 +12,13 @@ export default function Home() {
   }, []);
 
   const modules = [
-    { to: "/vocabulary", iconName: "book", bg: "#EAF3F1", name: "Vocabulary", desc: "5000 words, A1 to B2" },
-    { to: "/grammar", iconName: "pencil-ruler", bg: "#F1EAF7", name: "Grammar", desc: "86 lessons, A1 to B2" },
-    { to: "/listening", iconName: "headphones", bg: "#EAF0F7", name: "Listening", desc: "30 listening lessons" },
-    { to: "/reading", iconName: "newspaper", bg: "#FCEFE6", name: "Reading", desc: "20 passages + quizzes" },
-    { to: "/speaking", iconName: "mic", bg: "#FDEBEA", name: "Speaking", desc: "Shadowing & dialogues" },
-    { to: "/vocabulary/browse", iconName: "flashcard", bg: "#E9F5EF", name: "Browse Words", desc: "Search & filter by status" },
-    { to: "/progress", iconName: "chart", bg: "#FFF3E4", name: "Progress", desc: "See your learning stats" }
+    { to: "/vocabulary", icon: "/icons/vocabulary.svg", bg: "#EAF3F1", name: "Vocabulary", desc: "5000 words, A1 to B2" },
+    { to: "/grammar", icon: "/icons/grammar.svg", bg: "#F1EAF7", name: "Grammar", desc: "86 lessons, A1 to B2" },
+    { to: "/listening", icon: "/icons/listening.svg", bg: "#EAF0F7", name: "Listening", desc: "30 listening lessons" },
+    { to: "/reading", icon: "/icons/reading.svg", bg: "#FCEFE6", name: "Reading", desc: "20 passages + quizzes" },
+    { to: "/speaking", icon: "/icons/speaking.svg", bg: "#FDEBEA", name: "Speaking", desc: "Shadowing & dialogues" },
+    { to: "/vocabulary/browse", icon: "/icons/browse.svg", bg: "#E9F5EF", name: "Browse Words", desc: "Search & filter by status" },
+    { to: "/progress", icon: "/icons/progress.svg", bg: "#FFF3E4", name: "Progress", desc: "See your learning stats" }
   ];
 
   return (
@@ -31,7 +30,7 @@ export default function Home() {
           <div style={{ fontSize: 11, color: "var(--ink-soft)" }}>Let's learn some English today</div>
         </div>
         <div className="pill" style={{ background: "#FFF3E4", borderColor: "#F3DCAE", color: "#B5720F" }}>
-          <Icon name="flame" size={16} />
+          <img src="/icons/fire.svg" alt="" width={16} height={16} className="flame-anim" />
           {progress ? progress.streak.current : "…"} days
         </div>
       </div>
@@ -46,7 +45,7 @@ export default function Home() {
 
       {session && session.due.length > 0 && (
         <Link to="/vocabulary/review" className="review-banner">
-          <Icon name="repeat" size={20} />
+          <img src="/icons/repeat.svg" alt="" width={22} height={22} />
           <div style={{ flex: 1 }}>
             <b style={{ fontSize: 12.5, display: "block" }}>{session.due.length} words to review</b>
             <span style={{ fontSize: 11, color: "var(--ink-soft)" }}>Studied before, due again today</span>
@@ -57,7 +56,7 @@ export default function Home() {
 
       {session && session.newWords.length > 0 && (
         <Link to="/vocabulary/review" className="review-banner" style={{ background: "#EAF0F7", borderColor: "#CBDCF2" }}>
-          <Icon name="sparkle" size={20} />
+          <img src="/icons/sparkle.svg" alt="" width={22} height={22} />
           <div style={{ flex: 1 }}>
             <b style={{ fontSize: 12.5, display: "block" }}>{session.newWords.length} new words to learn</b>
             <span style={{ fontSize: 11, color: "var(--ink-soft)" }}>{session.newIntroducedToday}/{session.dailyNewLimit} introduced today</span>
@@ -70,7 +69,7 @@ export default function Home() {
         {modules.map((m) => (
           <Link key={m.to} to={m.to} className="mod-card">
             <div className="ic" style={{ background: m.bg }}>
-              <Icon name={m.iconName} size={20} />
+              <img src={m.icon} alt="" className="mod-icon" />
             </div>
             <div className="name">{m.name}</div>
             <div className="desc">{m.desc}</div>

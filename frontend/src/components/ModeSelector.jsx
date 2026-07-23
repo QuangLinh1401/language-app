@@ -1,10 +1,8 @@
-import Icon from "./Icon.jsx";
-
 const modes = [
-  { id: "flashcard", icon: "flashcard", name: "Flashcards", desc: "Flip the card, rate how well you knew it" },
-  { id: "quiz", icon: "fill-blank", name: "Fill in the Blank", desc: "Pick the right word to complete a sentence" },
-  { id: "match", icon: "match", name: "Match Game", desc: "Match each word to its meaning" },
-  { id: "reading", icon: "reading", name: "Reading Passage", desc: "Learn the words in context, then answer questions" }
+  { id: "flashcard", icon: "/icons/mode-flashcard.svg", name: "Flashcards", desc: "Flip the card, rate how well you knew it" },
+  { id: "quiz", icon: "/icons/mode-quiz.svg", name: "Fill in the Blank", desc: "Pick the right word to complete a sentence" },
+  { id: "match", icon: "/icons/mode-match.svg", name: "Match Game", desc: "Match each word to its meaning" },
+  { id: "reading", icon: "/icons/mode-reading.svg", name: "Reading Passage", desc: "Learn the words in context, then answer questions" }
 ];
 
 export default function ModeSelector({ onSelect }) {
@@ -18,7 +16,7 @@ export default function ModeSelector({ onSelect }) {
           className="topic-card"
           style={{ width: "100%", border: "1px solid var(--line)", cursor: "pointer", textAlign: "left", fontFamily: "inherit" }}
         >
-          <div className="topic-emoji"><Icon name={m.icon} size={20} /></div>
+          <div className="topic-emoji"><img src={m.icon} alt="" className="mod-icon" /></div>
           <div style={{ flex: 1 }}>
             <b style={{ fontSize: 13 }}>{m.name}</b>
             <div style={{ fontSize: 10.5, color: "var(--ink-soft)", marginTop: 4 }}>{m.desc}</div>
