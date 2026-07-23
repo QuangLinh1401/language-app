@@ -303,7 +303,7 @@
     "char": "关",
     "componentMeaning": "liên quan",
     "hanViet": "QUAN",
-    "pictographicOrigin": "Chữ giản thể từ 關 — hình ảnh then cài cửa, nghĩa gốc \"đóng, cửa ải\".",
+    "pictographicOrigin": "Chữ giản thể từ 關, hình then cài cửa — nghĩa \"đóng, cửa ải\".",
     "radical": "八(bộ bát)",
     "strokeCount": 6
    },
@@ -2158,7 +2158,7 @@
     "char": "欢",
     "componentMeaning": "vui",
     "hanViet": "HOAN",
-    "pictographicOrigin": "Chữ giản thể từ 歡, ghép bộ 欠(hả miệng) — hình ảnh vui vẻ, cười nói.",
+    "pictographicOrigin": "Chữ giản thể từ 歡 — nghĩa \"vui vẻ\" (ghép với 喜 thành \"thích\").",
     "radical": "又(bộ hựu)",
     "strokeCount": 6
    },
@@ -5025,7 +5025,7 @@
     "char": "面",
     "componentMeaning": "bột mì",
     "hanViet": "DIỆN",
-    "pictographicOrigin": "Chữ giáp cốt vẽ hình khuôn mặt người — nghĩa gốc \"mặt\", mở rộng nghĩa \"mặt, phía\".",
+    "pictographicOrigin": "Chữ giáp cốt vẽ hình khuôn mặt người — nghĩa \"mặt\".",
     "radical": "面(bộ diện)",
     "strokeCount": 9
    },
@@ -5398,7 +5398,7 @@
     "char": "饭",
     "componentMeaning": "cơm",
     "hanViet": "PHẠN",
-    "pictographicOrigin": "Bộ 饣(ăn uống) ghép 反 lấy âm — nghĩa \"cơm\" (饭店 nghĩa đen \"cửa hàng cơm\").",
+    "pictographicOrigin": "Bộ 饣(ăn uống) ghép 反 lấy âm — nghĩa \"cơm\".",
     "radical": "饣(bộ thực)",
     "strokeCount": 7
    }
@@ -5441,7 +5441,7 @@
     "char": "饭",
     "componentMeaning": "cơm",
     "hanViet": "PHẠN",
-    "pictographicOrigin": "Bộ 饣(ăn uống) ghép 反 lấy âm — nghĩa \"cơm\" (饭店 nghĩa đen \"cửa hàng cơm\").",
+    "pictographicOrigin": "Bộ 饣(ăn uống) ghép 反 lấy âm — nghĩa \"cơm\".",
     "radical": "饣(bộ thực)",
     "strokeCount": 7
    }
@@ -5484,7 +5484,7 @@
     "char": "饭",
     "componentMeaning": "cơm",
     "hanViet": "PHẠN",
-    "pictographicOrigin": "Bộ 饣(ăn uống) ghép 反 lấy âm — nghĩa \"cơm\" (饭店 nghĩa đen \"cửa hàng cơm\").",
+    "pictographicOrigin": "Bộ 饣(ăn uống) ghép 反 lấy âm — nghĩa \"cơm\".",
     "radical": "饣(bộ thực)",
     "strokeCount": 7
    }
@@ -5519,7 +5519,7 @@
     "char": "饭",
     "componentMeaning": "",
     "hanViet": "PHẠN",
-    "pictographicOrigin": "Bộ 饣(ăn uống) ghép 反 lấy âm — nghĩa \"cơm\" (饭店 nghĩa đen \"cửa hàng cơm\").",
+    "pictographicOrigin": "Bộ 饣(ăn uống) ghép 反 lấy âm — nghĩa \"cơm\".",
     "radical": "饣(bộ thực)",
     "strokeCount": 7
    }
@@ -5909,7 +5909,7 @@
     "char": "饭",
     "componentMeaning": "cơm",
     "hanViet": "PHẠN",
-    "pictographicOrigin": "Bộ 饣(ăn uống) ghép 反 lấy âm — nghĩa \"cơm\" (饭店 nghĩa đen \"cửa hàng cơm\").",
+    "pictographicOrigin": "Bộ 饣(ăn uống) ghép 反 lấy âm — nghĩa \"cơm\".",
     "radical": "饣(bộ thực)",
     "strokeCount": 7
    },
@@ -6013,7 +6013,7 @@
     "char": "饭",
     "componentMeaning": "cơm",
     "hanViet": "PHẠN",
-    "pictographicOrigin": "Bộ 饣(ăn uống) ghép 反 lấy âm — nghĩa \"cơm\" (饭店 nghĩa đen \"cửa hàng cơm\").",
+    "pictographicOrigin": "Bộ 饣(ăn uống) ghép 反 lấy âm — nghĩa \"cơm\".",
     "radical": "饣(bộ thực)",
     "strokeCount": 7
    }
@@ -6295,7 +6295,7 @@
     "char": "面",
     "componentMeaning": "bột mì",
     "hanViet": "DIỆN",
-    "pictographicOrigin": "Chữ giáp cốt vẽ hình khuôn mặt người — nghĩa gốc \"mặt\", mở rộng nghĩa \"mặt, phía\".",
+    "pictographicOrigin": "Chữ giáp cốt vẽ hình khuôn mặt người — nghĩa \"mặt\".",
     "radical": "面(bộ diện)",
     "strokeCount": 9
    },
@@ -7507,7 +7507,7 @@
     "char": "在",
     "componentMeaning": "tại, đang",
     "hanViet": "TẠI",
-    "pictographicOrigin": "Bộ 土(đất) ghép 才 lấy âm — vật đang có mặt TRÊN mặt đất, nghĩa \"đang ở, tại\".",
+    "pictographicOrigin": "Bộ 土(đất) ghép 才 lấy âm — đang có mặt trên mặt đất, \"tại, đang\".",
     "radical": "土(bộ thổ)",
     "strokeCount": 6
    }
@@ -8144,7 +8144,7 @@
     "char": "以",
     "componentMeaning": "lấy",
     "hanViet": "DĨ",
-    "pictographicOrigin": "Chữ giáp cốt vẽ hình một cái cày — nghĩa gốc \"dùng\", nay dùng làm giới từ \"lấy, để\".",
+    "pictographicOrigin": "Chữ giáp cốt vẽ hình một cái cày — nghĩa gốc \"dùng\", mở rộng \"để, lấy\".",
     "radical": "人(bộ nhân)",
     "strokeCount": 4
    },
@@ -8192,7 +8192,7 @@
     "char": "以",
     "componentMeaning": "lấy",
     "hanViet": "DĨ",
-    "pictographicOrigin": "Chữ giáp cốt vẽ hình một cái cày — nghĩa gốc \"dùng\", nay dùng làm giới từ \"lấy, để\".",
+    "pictographicOrigin": "Chữ giáp cốt vẽ hình một cái cày — nghĩa gốc \"dùng\", mở rộng \"để, lấy\".",
     "radical": "人(bộ nhân)",
     "strokeCount": 4
    },
@@ -8935,7 +8935,7 @@
     "char": "饭",
     "componentMeaning": "cơm",
     "hanViet": "PHẠN",
-    "pictographicOrigin": "Bộ 饣(ăn uống) ghép 反 lấy âm — nghĩa \"cơm\" (饭店 nghĩa đen \"cửa hàng cơm\").",
+    "pictographicOrigin": "Bộ 饣(ăn uống) ghép 反 lấy âm — nghĩa \"cơm\".",
     "radical": "饣(bộ thực)",
     "strokeCount": 7
    },
@@ -9447,7 +9447,7 @@
     "char": "面",
     "componentMeaning": "mặt, phía",
     "hanViet": "DIỆN",
-    "pictographicOrigin": "Chữ giáp cốt vẽ hình khuôn mặt người — nghĩa gốc \"mặt\", mở rộng nghĩa \"mặt, phía\".",
+    "pictographicOrigin": "Chữ giáp cốt vẽ hình khuôn mặt người — nghĩa \"mặt\".",
     "radical": "面(bộ diện)",
     "strokeCount": 9
    }
@@ -9495,7 +9495,7 @@
     "char": "面",
     "componentMeaning": "mặt, phía",
     "hanViet": "DIỆN",
-    "pictographicOrigin": "Chữ giáp cốt vẽ hình khuôn mặt người — nghĩa gốc \"mặt\", mở rộng nghĩa \"mặt, phía\".",
+    "pictographicOrigin": "Chữ giáp cốt vẽ hình khuôn mặt người — nghĩa \"mặt\".",
     "radical": "面(bộ diện)",
     "strokeCount": 9
    }
@@ -10348,7 +10348,7 @@
     "char": "开",
     "componentMeaning": "mở, điều khiển",
     "hanViet": "KHAI",
-    "pictographicOrigin": "Chữ giản thể, vốn vẽ hình hai tay mở cánh cửa/then cài — nghĩa \"mở\".",
+    "pictographicOrigin": "Hai tay mở cánh cửa/then cài — nghĩa \"mở\".",
     "radical": "廾(bộ củng)",
     "strokeCount": 4
    },
@@ -10587,7 +10587,7 @@
     "char": "回",
     "componentMeaning": "",
     "hanViet": "HỒI",
-    "pictographicOrigin": "Chữ giáp cốt vẽ hình hai vòng tròn lồng nhau — hình ảnh xoay vòng trở lại, \"về, quay lại\".",
+    "pictographicOrigin": "Hai vòng tròn lồng nhau — hình ảnh xoay vòng trở lại, \"về, trả lời\".",
     "radical": "囗(bộ vi)",
     "strokeCount": 6
    }
@@ -10875,6 +10875,2326 @@
    }
   ],
   "synonyms": [],
+  "usage": ""
+ },
+ "zh-verbs-1-1": {
+  "antonyms": [
+   {
+    "example": "我有时间，他没有时间。 (Wǒ yǒu shíjiān, tā méiyǒu shíjiān.) – Tôi có thời gian, anh ấy không có.",
+    "word": "没有"
+   }
+  ],
+  "characters": [
+   {
+    "char": "有",
+    "componentMeaning": "",
+    "hanViet": "HỮU",
+    "pictographicOrigin": "Chữ giáp cốt vẽ hình một bàn tay cầm miếng thịt — có thức ăn trong tay, nghĩa \"có\".",
+    "radical": "月(bộ nhục)",
+    "strokeCount": 6
+   }
+  ],
+  "collocations": [],
+  "compounds": [],
+  "distinguish": "",
+  "distinguishExample": "",
+  "grammarExample": "我没有钱。 (Wǒ méiyǒu qián.) – Tôi không có tiền.",
+  "grammarNote": "",
+  "image": "",
+  "mnemonic": "有 trông như một bàn tay cầm miếng THỊT (月) — trong tay CÓ đồ ăn.",
+  "partOfSpeech": "Động từ",
+  "senses": [
+   {
+    "meanings": [
+     {
+      "example": "我有一个哥哥。 (Wǒ yǒu yí ge gēge.) – Tôi có một anh trai.",
+      "meaning": "có"
+     },
+     {
+      "example": "桌子上有一本书。 (Zhuōzi shàng yǒu yì běn shū.) – Trên bàn có một quyển sách.",
+      "meaning": "có (tồn tại)"
+     }
+    ],
+    "partOfSpeech": "Động từ"
+   }
+  ],
+  "synonyms": [],
+  "usage": "Phủ định của 有 luôn dùng 没 (没有), không dùng 不有."
+ },
+ "zh-verbs-1-10": {
+  "antonyms": [],
+  "characters": [
+   {
+    "char": "做",
+    "componentMeaning": "",
+    "hanViet": "TÁC",
+    "pictographicOrigin": "Bộ 亻(người) ghép 故 lấy âm — người thực hiện hành động, \"làm\".",
+    "radical": "亻(bộ nhân)",
+    "strokeCount": 11
+   }
+  ],
+  "collocations": [],
+  "compounds": [],
+  "distinguish": "\"做\" dùng phổ biến trong khẩu ngữ, kết hợp linh hoạt; \"作\" trang trọng hơn, thường xuất hiện trong từ ghép cố định (作文, 工作).",
+  "distinguishExample": "做饭（nấu cơm） vs 写作文（làm văn）。",
+  "grammarExample": "",
+  "grammarNote": "",
+  "image": "🔨",
+  "mnemonic": "做 = 亻(người) + 故(cớ, lý do) — người có LÝ DO để hành động, LÀM.",
+  "partOfSpeech": "Động từ",
+  "senses": [
+   {
+    "meanings": [
+     {
+      "example": "你在做什么？ (Nǐ zài zuò shénme?) – Bạn đang làm gì?",
+      "meaning": "làm"
+     }
+    ],
+    "partOfSpeech": "Động từ"
+   }
+  ],
+  "synonyms": [
+   {
+    "example": "作文 (zuòwén) – làm văn, viết bài.",
+    "word": "作"
+   }
+  ],
+  "usage": "做 là động từ \"làm\" tổng quát nhất, kết hợp được với rất nhiều tân ngữ (做饭, 做作业, 做工作...)."
+ },
+ "zh-verbs-1-11": {
+  "antonyms": [
+   {
+    "example": "工作和休息要平衡。 (Gōngzuò hé xiūxi yào pínghéng.) – Làm việc và nghỉ ngơi cần cân bằng.",
+    "word": "休息"
+   }
+  ],
+  "characters": [
+   {
+    "char": "工",
+    "componentMeaning": "công việc",
+    "hanViet": "CÔNG",
+    "pictographicOrigin": "Chữ giáp cốt vẽ hình một cái thước thợ/công cụ lao động — nghĩa \"công việc\".",
+    "radical": "工(bộ công)",
+    "strokeCount": 3
+   },
+   {
+    "char": "作",
+    "componentMeaning": "làm",
+    "hanViet": "TÁC",
+    "pictographicOrigin": "Bộ 亻(người) ghép 乍 — người bắt đầu hành động, \"làm, sáng tác\".",
+    "radical": "亻(bộ nhân)",
+    "strokeCount": 7
+   }
+  ],
+  "collocations": [],
+  "compounds": [],
+  "distinguish": "",
+  "distinguishExample": "",
+  "grammarExample": "",
+  "grammarNote": "",
+  "image": "💼",
+  "mnemonic": "工作 = 工(cái thước thợ) + 作(người hành động) — người dùng công cụ để LÀM VIỆC.",
+  "partOfSpeech": "Động từ · Danh từ",
+  "senses": [
+   {
+    "meanings": [
+     {
+      "example": "他在银行工作。 (Tā zài yínháng gōngzuò.) – Anh ấy làm việc ở ngân hàng.",
+      "meaning": "làm việc"
+     }
+    ],
+    "partOfSpeech": "Động từ"
+   },
+   {
+    "meanings": [
+     {
+      "example": "这份工作很好。 (Zhè fèn gōngzuò hěn hǎo.) – Công việc này rất tốt.",
+      "meaning": "công việc"
+     }
+    ],
+    "partOfSpeech": "Danh từ"
+   }
+  ],
+  "synonyms": [],
+  "usage": ""
+ },
+ "zh-verbs-1-12": {
+  "antonyms": [
+   {
+    "example": "他买，我卖。 (Tā mǎi, wǒ mài.) – Anh ấy mua, tôi bán.",
+    "word": "卖"
+   }
+  ],
+  "characters": [
+   {
+    "char": "买",
+    "componentMeaning": "",
+    "hanViet": "MÃI",
+    "pictographicOrigin": "Chữ giản thể từ 買, có bộ 贝(tiền cổ) — nghĩa \"mua\".",
+    "radical": "买(bộ mãi)",
+    "strokeCount": 6
+   }
+  ],
+  "collocations": [],
+  "compounds": [],
+  "distinguish": "\"买\" (mua, mất tiền) và \"卖\" (bán, được tiền) — chữ gần giống nhau, chỉ khác một nét trên đầu, dễ nhầm khi viết.",
+  "distinguishExample": "买 không có nét trên cùng; 卖 có thêm chữ 十 trên đầu 买.",
+  "grammarExample": "",
+  "grammarNote": "",
+  "image": "🛒",
+  "mnemonic": "买 = 网(lưới, phần trên) + 贝(tiền cổ) — dùng TIỀN đổi lấy hàng qua \"lưới\" giao dịch, MUA.",
+  "partOfSpeech": "Động từ",
+  "senses": [
+   {
+    "meanings": [
+     {
+      "example": "我要买一件衣服。 (Wǒ yào mǎi yí jiàn yīfu.) – Tôi muốn mua một cái áo.",
+      "meaning": "mua"
+     }
+    ],
+    "partOfSpeech": "Động từ"
+   }
+  ],
+  "synonyms": [],
+  "usage": ""
+ },
+ "zh-verbs-1-13": {
+  "antonyms": [
+   {
+    "example": "见分辨\"买\"。",
+    "word": "买"
+   }
+  ],
+  "characters": [
+   {
+    "char": "卖",
+    "componentMeaning": "",
+    "hanViet": "MẠI",
+    "pictographicOrigin": "Chữ giản thể từ 賣, gồm 十(mười) trên 买(mua) — bán ra nhiều lần mua vào, \"bán\".",
+    "radical": "十(bộ thập)",
+    "strokeCount": 8
+   }
+  ],
+  "collocations": [],
+  "compounds": [],
+  "distinguish": "",
+  "distinguishExample": "",
+  "grammarExample": "",
+  "grammarNote": "",
+  "image": "🏪",
+  "mnemonic": "卖 = 十(mười) trên 买(mua) — bán ra MƯỜI LẦN so với MUA vào, BÁN. Nhớ: 卖 có thêm nét 十 trên đầu chữ 买.",
+  "partOfSpeech": "Động từ",
+  "senses": [
+   {
+    "meanings": [
+     {
+      "example": "这家店卖水果。 (Zhè jiā diàn mài shuǐguǒ.) – Cửa hàng này bán trái cây.",
+      "meaning": "bán"
+     }
+    ],
+    "partOfSpeech": "Động từ"
+   }
+  ],
+  "synonyms": [],
+  "usage": "Xem phân biệt tại mục \"买\"."
+ },
+ "zh-verbs-1-14": {
+  "antonyms": [],
+  "characters": [
+   {
+    "char": "要",
+    "componentMeaning": "",
+    "hanViet": "YẾU",
+    "pictographicOrigin": "Bộ 西 trên 女 — nghĩa gốc liên quan tới eo lưng, mở rộng nghĩa \"muốn, cần, quan trọng\".",
+    "radical": "西(bộ tây)",
+    "strokeCount": 9
+   }
+  ],
+  "collocations": [],
+  "compounds": [],
+  "distinguish": "\"要\" nhấn mạnh ý chí/quyết định mạnh hơn; \"想\" nhẹ nhàng hơn, thiên về mong muốn/suy nghĩ.",
+  "distinguishExample": "我要走了（quyết định dứt khoát） vs 我想家了（cảm xúc nhớ nhung）。",
+  "grammarExample": "",
+  "grammarNote": "",
+  "image": "",
+  "mnemonic": "要 = 西(cái túi/khăn) trên 女 — hình dung MUỐN có thứ gì đó quan trọng như cái túi báu.",
+  "partOfSpeech": "Động từ",
+  "senses": [
+   {
+    "meanings": [
+     {
+      "example": "我要喝水。 (Wǒ yào hē shuǐ.) – Tôi muốn uống nước.",
+      "meaning": "muốn"
+     },
+     {
+      "example": "我要走了。 (Wǒ yào zǒu le.) – Tôi sắp đi rồi.",
+      "meaning": "cần, sắp"
+     }
+    ],
+    "partOfSpeech": "Động từ"
+   }
+  ],
+  "synonyms": [
+   {
+    "example": "见分辨\"想\"。",
+    "word": "想"
+   }
+  ],
+  "usage": "要 là động từ năng nguyện đa nghĩa, có thể biểu thị mong muốn, nhu cầu, hoặc tương lai gần."
+ },
+ "zh-verbs-1-15": {
+  "antonyms": [],
+  "characters": [
+   {
+    "char": "想",
+    "componentMeaning": "",
+    "hanViet": "TƯỞNG",
+    "pictographicOrigin": "Bộ 心(tim) dưới 相(nhìn, xem xét) — TRONG LÒNG đang suy xét, \"nghĩ, muốn\".",
+    "radical": "心(bộ tâm)",
+    "strokeCount": 13
+   }
+  ],
+  "collocations": [],
+  "compounds": [],
+  "distinguish": "Xem phân biệt tại mục \"要\".",
+  "distinguishExample": "",
+  "grammarExample": "",
+  "grammarNote": "",
+  "image": "💭",
+  "mnemonic": "想 = 相(nhìn, xem xét) trên 心(tim) — TRONG LÒNG đang xem xét, suy NGHĨ, MUỐN.",
+  "partOfSpeech": "Động từ",
+  "senses": [
+   {
+    "meanings": [
+     {
+      "example": "我想去中国。 (Wǒ xiǎng qù Zhōngguó.) – Tôi muốn đi Trung Quốc.",
+      "meaning": "muốn"
+     },
+     {
+      "example": "你在想什么？ (Nǐ zài xiǎng shénme?) – Bạn đang nghĩ gì?",
+      "meaning": "nghĩ"
+     },
+     {
+      "example": "我很想你。 (Wǒ hěn xiǎng nǐ.) – Tôi rất nhớ bạn.",
+      "meaning": "nhớ (ai đó)"
+     }
+    ],
+    "partOfSpeech": "Động từ"
+   }
+  ],
+  "synonyms": [],
+  "usage": ""
+ },
+ "zh-verbs-1-16": {
+  "antonyms": [
+   {
+    "example": "我喜欢猫，讨厌蟑螂。 (Wǒ xǐhuan māo, tǎoyàn zhāngláng.) – Tôi thích mèo, ghét gián.",
+    "word": "讨厌"
+   }
+  ],
+  "characters": [
+   {
+    "char": "喜",
+    "componentMeaning": "vui",
+    "hanViet": "HỶ",
+    "pictographicOrigin": "Chữ giáp cốt vẽ hình một cái trống (壴) và cái miệng (口) đang cười — nghĩa \"vui mừng\".",
+    "radical": "口(bộ khẩu)",
+    "strokeCount": 12
+   },
+   {
+    "char": "欢",
+    "componentMeaning": "vui vẻ",
+    "hanViet": "HOAN",
+    "pictographicOrigin": "Chữ giản thể từ 歡 — nghĩa \"vui vẻ\" (ghép với 喜 thành \"thích\").",
+    "radical": "又(bộ hựu)",
+    "strokeCount": 6
+   }
+  ],
+  "collocations": [],
+  "compounds": [],
+  "distinguish": "\"喜欢\" (thích, mức độ nhẹ, dùng phổ biến) khác \"爱\" (yêu, mức độ mạnh, tình cảm sâu sắc hơn).",
+  "distinguishExample": "我喜欢这本书（thích nhẹ nhàng） vs 我爱我的家人（yêu sâu sắc）。",
+  "grammarExample": "",
+  "grammarNote": "",
+  "image": "❤️",
+  "mnemonic": "喜欢 = 喜(trống + miệng cười) + 欢(vui) — tiếng trống và nụ cười vui vẻ, THÍCH.",
+  "partOfSpeech": "Động từ",
+  "senses": [
+   {
+    "meanings": [
+     {
+      "example": "我喜欢喝咖啡。 (Wǒ xǐhuan hē kāfēi.) – Tôi thích uống cà phê.",
+      "meaning": "thích"
+     }
+    ],
+    "partOfSpeech": "Động từ"
+   }
+  ],
+  "synonyms": [],
+  "usage": ""
+ },
+ "zh-verbs-1-17": {
+  "antonyms": [
+   {
+    "example": "他不恨你，他爱你。 (Tā bú hèn nǐ, tā ài nǐ.) – Anh ấy không ghét bạn, anh ấy yêu bạn.",
+    "word": "恨"
+   }
+  ],
+  "characters": [
+   {
+    "char": "爱",
+    "componentMeaning": "",
+    "hanViet": "ÁI",
+    "pictographicOrigin": "Chữ giản thể từ 愛, vốn có bộ 心(tim) ở giữa — trái tim dành cho ai đó, \"yêu\".",
+    "radical": "爫(bộ trảo)",
+    "strokeCount": 10
+   }
+  ],
+  "collocations": [],
+  "compounds": [],
+  "distinguish": "",
+  "distinguishExample": "",
+  "grammarExample": "",
+  "grammarNote": "",
+  "image": "💕",
+  "mnemonic": "爱 (giản thể) vốn có chữ 心(tim) ở giữa — trái TIM dành cho ai đó, YÊU.",
+  "partOfSpeech": "Động từ",
+  "senses": [
+   {
+    "meanings": [
+     {
+      "example": "我爱我的家人。 (Wǒ ài wǒ de jiārén.) – Tôi yêu gia đình tôi.",
+      "meaning": "yêu"
+     }
+    ],
+    "partOfSpeech": "Động từ"
+   }
+  ],
+  "synonyms": [],
+  "usage": "Xem phân biệt tại mục \"喜欢\"."
+ },
+ "zh-verbs-1-18": {
+  "antonyms": [],
+  "characters": [
+   {
+    "char": "会",
+    "componentMeaning": "",
+    "hanViet": "HỘI",
+    "pictographicOrigin": "Chữ giản thể từ 會, vốn vẽ hình một cái nắp đậy khít với nồi — \"hội tụ\", mở rộng nghĩa \"biết, có thể\".",
+    "radical": "人(bộ nhân)",
+    "strokeCount": 6
+   }
+  ],
+  "collocations": [],
+  "compounds": [],
+  "distinguish": "\"会\" = biết làm (qua học); \"能\" = có khả năng làm (do điều kiện thể chất/hoàn cảnh); \"可以\" = được phép làm.",
+  "distinguishExample": "我会游泳（đã học được） vs 我能游一百米（đủ sức làm） vs 这里可以游泳（được phép）。",
+  "grammarExample": "",
+  "grammarNote": "",
+  "image": "🎯",
+  "mnemonic": "会 trông như một cái nắp đậy khít với nồi — hai thứ \"gặp\" khớp nhau, BIẾT/CÓ THỂ.",
+  "partOfSpeech": "Động từ",
+  "senses": [
+   {
+    "meanings": [
+     {
+      "example": "我会说汉语。 (Wǒ huì shuō Hànyǔ.) – Tôi biết nói tiếng Trung.",
+      "meaning": "biết, có thể (kỹ năng qua học tập)"
+     }
+    ],
+    "partOfSpeech": "Động từ"
+   }
+  ],
+  "synonyms": [
+   {
+    "example": "见分辨\"能\"。",
+    "word": "能"
+   }
+  ],
+  "usage": "会 dùng cho khả năng có được qua HỌC TẬP/rèn luyện."
+ },
+ "zh-verbs-1-19": {
+  "antonyms": [],
+  "characters": [
+   {
+    "char": "能",
+    "componentMeaning": "",
+    "hanViet": "NĂNG",
+    "pictographicOrigin": "Chữ giáp cốt vẽ hình một con gấu (có sức mạnh) — mở rộng nghĩa \"có khả năng\".",
+    "radical": "月(bộ nhục)",
+    "strokeCount": 10
+   }
+  ],
+  "collocations": [],
+  "compounds": [],
+  "distinguish": "",
+  "distinguishExample": "",
+  "grammarExample": "",
+  "grammarNote": "",
+  "image": "💪",
+  "mnemonic": "能 trông như hình một con GẤU (có sức mạnh) — có KHẢ NĂNG làm việc nặng.",
+  "partOfSpeech": "Động từ",
+  "senses": [
+   {
+    "meanings": [
+     {
+      "example": "我今天不能去。 (Wǒ jīntiān bù néng qù.) – Hôm nay tôi không thể đi.",
+      "meaning": "có thể (do điều kiện/khả năng)"
+     }
+    ],
+    "partOfSpeech": "Động từ"
+   }
+  ],
+  "synonyms": [],
+  "usage": "Xem phân biệt tại mục \"会\"."
+ },
+ "zh-verbs-1-2": {
+  "antonyms": [],
+  "characters": [
+   {
+    "char": "在",
+    "componentMeaning": "",
+    "hanViet": "TẠI",
+    "pictographicOrigin": "Bộ 土(đất) ghép 才 lấy âm — đang có mặt trên mặt đất, \"tại, đang\".",
+    "radical": "土(bộ thổ)",
+    "strokeCount": 6
+   }
+  ],
+  "collocations": [],
+  "compounds": [],
+  "distinguish": "",
+  "distinguishExample": "",
+  "grammarExample": "",
+  "grammarNote": "",
+  "image": "",
+  "mnemonic": "在 = 土(đất) + 才 — đang có mặt trên mặt ĐẤT, tức ĐANG/Ở.",
+  "partOfSpeech": "Động từ · Phó từ",
+  "senses": [
+   {
+    "meanings": [
+     {
+      "example": "他在家。 (Tā zài jiā.) – Anh ấy ở nhà.",
+      "meaning": "ở, tại"
+     }
+    ],
+    "partOfSpeech": "Động từ"
+   },
+   {
+    "meanings": [
+     {
+      "example": "我在吃饭。 (Wǒ zài chīfàn.) – Tôi đang ăn cơm.",
+      "meaning": "đang (chỉ hành động tiếp diễn)"
+     }
+    ],
+    "partOfSpeech": "Phó từ"
+   }
+  ],
+  "synonyms": [],
+  "usage": "在 làm phó từ đặt trước động từ để diễn tả hành động đang diễn ra, tương đương \"-ing\"."
+ },
+ "zh-verbs-1-20": {
+  "antonyms": [],
+  "characters": [
+   {
+    "char": "可",
+    "componentMeaning": "có thể",
+    "hanViet": "KHẢ",
+    "pictographicOrigin": "Chữ giáp cốt vẽ hình một cái cày và miệng — nghĩa \"có thể, được\".",
+    "radical": "口(bộ khẩu)",
+    "strokeCount": 5
+   },
+   {
+    "char": "以",
+    "componentMeaning": "để, lấy",
+    "hanViet": "DĨ",
+    "pictographicOrigin": "Chữ giáp cốt vẽ hình một cái cày — nghĩa gốc \"dùng\", mở rộng \"để, lấy\".",
+    "radical": "人(bộ nhân)",
+    "strokeCount": 4
+   }
+  ],
+  "collocations": [],
+  "compounds": [],
+  "distinguish": "",
+  "distinguishExample": "",
+  "grammarExample": "",
+  "grammarNote": "",
+  "image": "✅",
+  "mnemonic": "可以 = 可(cái cày, có thể làm được) + 以(dùng, để) — CÓ THỂ dùng để làm.",
+  "partOfSpeech": "Động từ",
+  "senses": [
+   {
+    "meanings": [
+     {
+      "example": "这里可以拍照吗？ (Zhèlǐ kěyǐ pāizhào ma?) – Ở đây có thể chụp ảnh không?",
+      "meaning": "có thể, được phép"
+     }
+    ],
+    "partOfSpeech": "Động từ"
+   }
+  ],
+  "synonyms": [],
+  "usage": "Xem phân biệt tại mục \"会\"."
+ },
+ "zh-verbs-1-21": {
+  "antonyms": [],
+  "characters": [
+   {
+    "char": "知",
+    "componentMeaning": "",
+    "hanViet": "TRI",
+    "pictographicOrigin": "Bộ 矢(mũi tên) ghép 口(miệng) — nói trúng như tên bắn, nghĩa \"biết\".",
+    "radical": "矢(bộ thỉ)",
+    "strokeCount": 8
+   },
+   {
+    "char": "道",
+    "componentMeaning": "",
+    "hanViet": "ĐẠO",
+    "pictographicOrigin": "Bộ 辶(đi) ghép 首(đầu) — con đường dẫn đầu, mở rộng nghĩa \"đạo lý, biết\".",
+    "radical": "辶(bộ sước)",
+    "strokeCount": 12
+   }
+  ],
+  "collocations": [],
+  "compounds": [],
+  "distinguish": "\"知道\" biết THÔNG TIN/sự việc; \"认识\" biết/quen NGƯỜI hoặc nhận biết CHỮ.",
+  "distinguishExample": "我知道这件事（biết sự việc） vs 我认识他（quen người）。",
+  "grammarExample": "",
+  "grammarNote": "",
+  "image": "💡",
+  "mnemonic": "知道 = 知(mũi tên trúng đích + miệng nói đúng) + 道(con đường) — nói ĐÚNG như tên bắn trúng ĐƯỜNG đi, BIẾT.",
+  "partOfSpeech": "Động từ",
+  "senses": [
+   {
+    "meanings": [
+     {
+      "example": "我知道这件事。 (Wǒ zhīdào zhè jiàn shì.) – Tôi biết chuyện này.",
+      "meaning": "biết (thông tin, sự việc)"
+     }
+    ],
+    "partOfSpeech": "Động từ"
+   }
+  ],
+  "synonyms": [],
+  "usage": ""
+ },
+ "zh-verbs-1-22": {
+  "antonyms": [],
+  "characters": [
+   {
+    "char": "觉",
+    "componentMeaning": "cảm giác",
+    "hanViet": "GIÁC",
+    "pictographicOrigin": "Chữ giản thể, có bộ 见(thấy) — nhận ra, cảm nhận được, \"cảm thấy\".",
+    "radical": "见(bộ kiến)",
+    "strokeCount": 9
+   },
+   {
+    "char": "得",
+    "componentMeaning": "đạt được",
+    "hanViet": "ĐẮC",
+    "pictographicOrigin": "Bộ 彳(bước đi) ghép 贝(tiền) — trên đường đi nhặt được của cải, \"đạt được\".",
+    "radical": "彳(bộ xích)",
+    "strokeCount": 11
+   }
+  ],
+  "collocations": [],
+  "compounds": [],
+  "distinguish": "",
+  "distinguishExample": "",
+  "grammarExample": "",
+  "grammarNote": "",
+  "image": "🤔",
+  "mnemonic": "觉得 = 觉(thấy, cảm nhận) + 得(đạt được) — cảm nhận ĐƯỢC điều gì đó, CẢM THẤY.",
+  "partOfSpeech": "Động từ",
+  "senses": [
+   {
+    "meanings": [
+     {
+      "example": "我觉得这个电影很好看。 (Wǒ juéde zhège diànyǐng hěn hǎokàn.) – Tôi thấy bộ phim này rất hay.",
+      "meaning": "cảm thấy"
+     }
+    ],
+    "partOfSpeech": "Động từ"
+   }
+  ],
+  "synonyms": [],
+  "usage": ""
+ },
+ "zh-verbs-1-23": {
+  "antonyms": [
+   {
+    "example": "睡觉和起床。 (Shuìjiào hé qǐchuáng.) – Đi ngủ và thức dậy.",
+    "word": "起床"
+   }
+  ],
+  "characters": [
+   {
+    "char": "睡",
+    "componentMeaning": "ngủ",
+    "hanViet": "THỤY",
+    "pictographicOrigin": "Bộ 目(mắt) ghép 垂(rủ xuống) — mắt RỦ XUỐNG nhắm lại, \"ngủ\".",
+    "radical": "目(bộ mục)",
+    "strokeCount": 13
+   },
+   {
+    "char": "觉",
+    "componentMeaning": "giấc",
+    "hanViet": "GIÁC",
+    "pictographicOrigin": "Chữ giản thể, có bộ 见(thấy) — nhận ra, cảm nhận được, \"cảm thấy\".",
+    "radical": "见(bộ kiến)",
+    "strokeCount": 9
+   }
+  ],
+  "collocations": [],
+  "compounds": [],
+  "distinguish": "",
+  "distinguishExample": "",
+  "grammarExample": "",
+  "grammarNote": "",
+  "image": "😴",
+  "mnemonic": "睡觉 = 睡(mắt rủ xuống) + 觉(giác quan) — mắt RỦ XUỐNG, mất cảm giác tỉnh táo, NGỦ.",
+  "partOfSpeech": "Động từ",
+  "senses": [
+   {
+    "meanings": [
+     {
+      "example": "我十点睡觉。 (Wǒ shí diǎn shuìjiào.) – Tôi ngủ lúc mười giờ.",
+      "meaning": "ngủ"
+     }
+    ],
+    "partOfSpeech": "Động từ"
+   }
+  ],
+  "synonyms": [],
+  "usage": ""
+ },
+ "zh-verbs-1-24": {
+  "antonyms": [
+   {
+    "example": "见分辨\"睡觉\"。",
+    "word": "睡觉"
+   }
+  ],
+  "characters": [
+   {
+    "char": "起",
+    "componentMeaning": "dậy",
+    "hanViet": "KHỞI",
+    "pictographicOrigin": "Ghép bộ 走(đi, chạy) với 己 lấy âm — chữ hình thanh, nghĩa \"đứng dậy, khởi đầu\".",
+    "radical": "走(bộ tẩu)",
+    "strokeCount": 10
+   },
+   {
+    "char": "床",
+    "componentMeaning": "giường",
+    "hanViet": "SÀNG",
+    "pictographicOrigin": "Bộ 广(mái nhà) ghép 木(gỗ) — vật bằng gỗ dưới mái nhà để nằm, \"giường\".",
+    "radical": "广(bộ nghiễm)",
+    "strokeCount": 7
+   }
+  ],
+  "collocations": [],
+  "compounds": [],
+  "distinguish": "",
+  "distinguishExample": "",
+  "grammarExample": "",
+  "grammarNote": "",
+  "image": "⏰",
+  "mnemonic": "起床 = 起(đứng dậy) + 床(giường, gỗ dưới mái nhà) — đứng dậy rời khỏi GIƯỜNG, THỨC DẬY.",
+  "partOfSpeech": "Động từ",
+  "senses": [
+   {
+    "meanings": [
+     {
+      "example": "我七点起床。 (Wǒ qī diǎn qǐchuáng.) – Tôi dậy lúc bảy giờ.",
+      "meaning": "thức dậy"
+     }
+    ],
+    "partOfSpeech": "Động từ"
+   }
+  ],
+  "synonyms": [],
+  "usage": ""
+ },
+ "zh-verbs-1-25": {
+  "antonyms": [],
+  "characters": [
+   {
+    "char": "打",
+    "componentMeaning": "thực hiện",
+    "hanViet": "ĐẢ",
+    "pictographicOrigin": "Bộ 扌(tay) ghép 丁 lấy âm — dùng TAY để đánh/thực hiện, \"đánh, gọi (điện thoại)\".",
+    "radical": "扌(bộ thủ)",
+    "strokeCount": 5
+   },
+   {
+    "char": "电",
+    "componentMeaning": "điện",
+    "hanViet": "ĐIỆN",
+    "pictographicOrigin": "Chữ giản thể, vốn vẽ hình tia sét giữa trời — nghĩa \"điện, sấm sét\".",
+    "radical": "田(bộ điền)",
+    "strokeCount": 5
+   },
+   {
+    "char": "话",
+    "componentMeaning": "lời nói",
+    "hanViet": "THOẠI",
+    "pictographicOrigin": "Bộ 讠(lời nói) ghép 舌(lưỡi) — lời nói phát ra từ lưỡi, \"câu chuyện, lời nói\".",
+    "radical": "讠(bộ ngôn)",
+    "strokeCount": 8
+   }
+  ],
+  "collocations": [],
+  "compounds": [],
+  "distinguish": "",
+  "distinguishExample": "",
+  "grammarExample": "",
+  "grammarNote": "",
+  "image": "📞",
+  "mnemonic": "打电话 = 打(dùng tay thực hiện) + 电话(lời nói qua điện) — dùng tay bấm máy để nói chuyện qua ĐIỆN, GỌI ĐIỆN.",
+  "partOfSpeech": "Động từ",
+  "senses": [
+   {
+    "meanings": [
+     {
+      "example": "我给你打电话。 (Wǒ gěi nǐ dǎ diànhuà.) – Tôi sẽ gọi điện cho bạn.",
+      "meaning": "gọi điện thoại"
+     }
+    ],
+    "partOfSpeech": "Động từ"
+   }
+  ],
+  "synonyms": [],
+  "usage": "打 ở đây không phải nghĩa \"đánh\" mà là động từ chung chỉ hành động thực hiện qua tay (đánh máy, gọi điện, chơi bóng...)."
+ },
+ "zh-verbs-1-26": {
+  "antonyms": [],
+  "characters": [
+   {
+    "char": "给",
+    "componentMeaning": "",
+    "hanViet": "CẤP",
+    "pictographicOrigin": "Bộ 纟(sợi tơ) ghép 合(hợp) — cung cấp đủ, \"cho, đưa\".",
+    "radical": "纟(bộ mịch)",
+    "strokeCount": 9
+   }
+  ],
+  "collocations": [],
+  "compounds": [],
+  "distinguish": "",
+  "distinguishExample": "",
+  "grammarExample": "",
+  "grammarNote": "",
+  "image": "🎁",
+  "mnemonic": "给 = 纟(sợi tơ) + 合(hợp, khớp đủ) — CUNG CẤP đủ sợi tơ cho ai đó, CHO.",
+  "partOfSpeech": "Động từ · Giới từ",
+  "senses": [
+   {
+    "meanings": [
+     {
+      "example": "他给我一本书。 (Tā gěi wǒ yì běn shū.) – Anh ấy đưa tôi một quyển sách.",
+      "meaning": "cho, đưa"
+     }
+    ],
+    "partOfSpeech": "Động từ"
+   },
+   {
+    "meanings": [
+     {
+      "example": "我给你做饭。 (Wǒ gěi nǐ zuòfàn.) – Tôi nấu cơm cho bạn.",
+      "meaning": "cho, vì (ai đó)"
+     }
+    ],
+    "partOfSpeech": "Giới từ"
+   }
+  ],
+  "synonyms": [],
+  "usage": ""
+ },
+ "zh-verbs-1-27": {
+  "antonyms": [],
+  "characters": [
+   {
+    "char": "住",
+    "componentMeaning": "",
+    "hanViet": "TRÚ",
+    "pictographicOrigin": "Bộ 亻(người) ghép 主(chủ) — người làm CHỦ một nơi để ở, \"sống, ở\".",
+    "radical": "亻(bộ nhân)",
+    "strokeCount": 7
+   }
+  ],
+  "collocations": [],
+  "compounds": [],
+  "distinguish": "",
+  "distinguishExample": "",
+  "grammarExample": "",
+  "grammarNote": "",
+  "image": "🏠",
+  "mnemonic": "住 = 亻(người) + 主(chủ) — người làm CHỦ một nơi để Ở.",
+  "partOfSpeech": "Động từ",
+  "senses": [
+   {
+    "meanings": [
+     {
+      "example": "我住在河内。 (Wǒ zhù zài Hénèi.) – Tôi sống ở Hà Nội.",
+      "meaning": "ở, sống"
+     }
+    ],
+    "partOfSpeech": "Động từ"
+   }
+  ],
+  "synonyms": [],
+  "usage": ""
+ },
+ "zh-verbs-1-28": {
+  "antonyms": [],
+  "characters": [
+   {
+    "char": "等",
+    "componentMeaning": "",
+    "hanViet": "ĐẲNG",
+    "pictographicOrigin": "Bộ 竹(tre, dùng làm thẻ xếp hàng) — xếp hàng theo thứ tự để chờ, \"đợi, đẳng cấp\".",
+    "radical": "竹(bộ trúc)",
+    "strokeCount": 12
+   }
+  ],
+  "collocations": [],
+  "compounds": [],
+  "distinguish": "",
+  "distinguishExample": "",
+  "grammarExample": "",
+  "grammarNote": "",
+  "image": "⏳",
+  "mnemonic": "等 = 竹(thẻ tre) + 寺(cơ quan, quy tắc) — xếp hàng theo THẺ TRE để ĐỢI đến lượt.",
+  "partOfSpeech": "Động từ",
+  "senses": [
+   {
+    "meanings": [
+     {
+      "example": "请等一下。 (Qǐng děng yíxià.) – Xin đợi một chút.",
+      "meaning": "đợi, chờ"
+     }
+    ],
+    "partOfSpeech": "Động từ"
+   }
+  ],
+  "synonyms": [],
+  "usage": ""
+ },
+ "zh-verbs-1-29": {
+  "antonyms": [],
+  "characters": [
+   {
+    "char": "找",
+    "componentMeaning": "",
+    "hanViet": "TRẢO",
+    "pictographicOrigin": "Bộ 扌(tay) ghép 戈(vũ khí) — dùng tay lục lọi, \"tìm kiếm\".",
+    "radical": "扌(bộ thủ)",
+    "strokeCount": 7
+   }
+  ],
+  "collocations": [],
+  "compounds": [],
+  "distinguish": "",
+  "distinguishExample": "",
+  "grammarExample": "",
+  "grammarNote": "",
+  "image": "🔍",
+  "mnemonic": "找 = 扌(tay) + 戈(vũ khí) — dùng tay cầm vũ khí lục lọi TÌM kiếm.",
+  "partOfSpeech": "Động từ",
+  "senses": [
+   {
+    "meanings": [
+     {
+      "example": "我在找我的手机。 (Wǒ zài zhǎo wǒ de shǒujī.) – Tôi đang tìm điện thoại của tôi.",
+      "meaning": "tìm"
+     }
+    ],
+    "partOfSpeech": "Động từ"
+   }
+  ],
+  "synonyms": [],
+  "usage": ""
+ },
+ "zh-verbs-1-3": {
+  "antonyms": [],
+  "characters": [
+   {
+    "char": "看",
+    "componentMeaning": "",
+    "hanViet": "KHÁN",
+    "pictographicOrigin": "Chữ giáp cốt vẽ hình bàn tay (手) che trên mắt (目) — dáng nhìn xa, \"xem, nhìn\".",
+    "radical": "目(bộ mục)",
+    "strokeCount": 9
+   }
+  ],
+  "collocations": [],
+  "compounds": [],
+  "distinguish": "\"看\" (xem bằng mắt, có thể đọc lướt) khác \"读\" (đọc thành tiếng/học tập nghiêm túc).",
+  "distinguishExample": "看书（đọc lướt qua） vs 读课文（đọc bài khóa để học）。",
+  "grammarExample": "",
+  "grammarNote": "",
+  "image": "👀",
+  "mnemonic": "看 = 手(tay) che trên 目(mắt) — dùng tay che mắt để NHÌN xa hơn.",
+  "partOfSpeech": "Động từ",
+  "senses": [
+   {
+    "meanings": [
+     {
+      "example": "我在看电视。 (Wǒ zài kàn diànshì.) – Tôi đang xem TV.",
+      "meaning": "nhìn, xem"
+     },
+     {
+      "example": "我喜欢看书。 (Wǒ xǐhuan kàn shū.) – Tôi thích đọc sách.",
+      "meaning": "đọc"
+     }
+    ],
+    "partOfSpeech": "Động từ"
+   }
+  ],
+  "synonyms": [],
+  "usage": ""
+ },
+ "zh-verbs-1-30": {
+  "antonyms": [],
+  "characters": [
+   {
+    "char": "帮",
+    "componentMeaning": "giúp",
+    "hanViet": "BANG",
+    "pictographicOrigin": "Chữ giản thể liên quan tới nhóm người hỗ trợ nhau — nghĩa \"giúp đỡ\".",
+    "radical": "巾(bộ cân)",
+    "strokeCount": 9
+   },
+   {
+    "char": "助",
+    "componentMeaning": "trợ",
+    "hanViet": "TRỢ",
+    "pictographicOrigin": "Bộ 力(sức lực) ghép 且 lấy âm — góp SỨC giúp đỡ.",
+    "radical": "力(bộ lực)",
+    "strokeCount": 7
+   }
+  ],
+  "collocations": [],
+  "compounds": [],
+  "distinguish": "\"帮助\" trang trọng hơn, có thể làm danh từ; \"帮\" ngắn gọn, khẩu ngữ hơn.",
+  "distinguishExample": "谢谢你的帮助（danh từ） vs 帮我一下（khẩu ngữ, động từ）。",
+  "grammarExample": "",
+  "grammarNote": "",
+  "image": "🤝",
+  "mnemonic": "帮助 = 帮(nhóm người hỗ trợ) + 助(góp sức 力) — góp SỨC hỗ trợ, GIÚP ĐỠ.",
+  "partOfSpeech": "Động từ",
+  "senses": [
+   {
+    "meanings": [
+     {
+      "example": "谢谢你的帮助。 (Xièxie nǐ de bāngzhù.) – Cảm ơn sự giúp đỡ của bạn.",
+      "meaning": "giúp đỡ"
+     }
+    ],
+    "partOfSpeech": "Động từ"
+   }
+  ],
+  "synonyms": [
+   {
+    "example": "见分辨\"帮\"。",
+    "word": "帮"
+   }
+  ],
+  "usage": ""
+ },
+ "zh-verbs-1-31": {
+  "antonyms": [],
+  "characters": [
+   {
+    "char": "帮",
+    "componentMeaning": "",
+    "hanViet": "BANG",
+    "pictographicOrigin": "Chữ giản thể liên quan tới nhóm người hỗ trợ nhau — nghĩa \"giúp đỡ\".",
+    "radical": "巾(bộ cân)",
+    "strokeCount": 9
+   }
+  ],
+  "collocations": [],
+  "compounds": [],
+  "distinguish": "",
+  "distinguishExample": "",
+  "grammarExample": "",
+  "grammarNote": "",
+  "image": "🤲",
+  "mnemonic": "帮 trông như một nhóm người đứng cùng nhau — cùng nhau GIÚP.",
+  "partOfSpeech": "Động từ",
+  "senses": [
+   {
+    "meanings": [
+     {
+      "example": "帮我一下。 (Bāng wǒ yíxià.) – Giúp tôi một chút.",
+      "meaning": "giúp"
+     }
+    ],
+    "partOfSpeech": "Động từ"
+   }
+  ],
+  "synonyms": [],
+  "usage": "Xem phân biệt tại mục \"帮助\"."
+ },
+ "zh-verbs-1-32": {
+  "antonyms": [
+   {
+    "example": "老师问，学生回答。 (Lǎoshī wèn, xuésheng huídá.) – Thầy hỏi, học sinh trả lời.",
+    "word": "回答"
+   }
+  ],
+  "characters": [
+   {
+    "char": "问",
+    "componentMeaning": "",
+    "hanViet": "VẤN",
+    "pictographicOrigin": "Bộ 门(cửa) ghép 口(miệng) — đứng ở CỬA cất tiếng HỎI.",
+    "radical": "门(bộ môn)",
+    "strokeCount": 6
+   }
+  ],
+  "collocations": [],
+  "compounds": [],
+  "distinguish": "",
+  "distinguishExample": "",
+  "grammarExample": "",
+  "grammarNote": "",
+  "image": "❓",
+  "mnemonic": "问 = 门(cửa) + 口(miệng) — đứng ở CỬA cất tiếng HỎI vào trong.",
+  "partOfSpeech": "Động từ",
+  "senses": [
+   {
+    "meanings": [
+     {
+      "example": "我可以问你一个问题吗？ (Wǒ kěyǐ wèn nǐ yí ge wèntí ma?) – Tôi có thể hỏi bạn một câu hỏi không?",
+      "meaning": "hỏi"
+     }
+    ],
+    "partOfSpeech": "Động từ"
+   }
+  ],
+  "synonyms": [],
+  "usage": ""
+ },
+ "zh-verbs-1-33": {
+  "antonyms": [
+   {
+    "example": "见分辨\"问\"。",
+    "word": "问"
+   }
+  ],
+  "characters": [
+   {
+    "char": "回",
+    "componentMeaning": "",
+    "hanViet": "HỒI",
+    "pictographicOrigin": "Hai vòng tròn lồng nhau — hình ảnh xoay vòng trở lại, \"về, trả lời\".",
+    "radical": "囗(bộ vi)",
+    "strokeCount": 6
+   },
+   {
+    "char": "答",
+    "componentMeaning": "",
+    "hanViet": "ĐÁP",
+    "pictographicOrigin": "Bộ 竹(tre) ghép 合(khớp) — thẻ tre khớp đúng câu hỏi, \"trả lời\".",
+    "radical": "竹(bộ trúc)",
+    "strokeCount": 12
+   }
+  ],
+  "collocations": [],
+  "compounds": [],
+  "distinguish": "",
+  "distinguishExample": "",
+  "grammarExample": "",
+  "grammarNote": "",
+  "image": "💬",
+  "mnemonic": "回答 = 回(quay vòng lại) + 答(thẻ tre khớp đúng) — \"quay lại\" với câu TRẢ LỜI khớp đúng.",
+  "partOfSpeech": "Động từ",
+  "senses": [
+   {
+    "meanings": [
+     {
+      "example": "请回答这个问题。 (Qǐng huídá zhège wèntí.) – Xin trả lời câu hỏi này.",
+      "meaning": "trả lời"
+     }
+    ],
+    "partOfSpeech": "Động từ"
+   }
+  ],
+  "synonyms": [],
+  "usage": "Xem phân biệt tại mục \"问\"."
+ },
+ "zh-verbs-1-34": {
+  "antonyms": [],
+  "characters": [
+   {
+    "char": "告",
+    "componentMeaning": "báo",
+    "hanViet": "CÁO",
+    "pictographicOrigin": "Chữ giáp cốt vẽ hình con bò và miệng — dùng lời BÁO CÁO.",
+    "radical": "口(bộ khẩu)",
+    "strokeCount": 7
+   },
+   {
+    "char": "诉",
+    "componentMeaning": "kể",
+    "hanViet": "TỐ",
+    "pictographicOrigin": "Bộ 讠(lời nói) ghép 斥 — trình bày, kể lại bằng LỜI.",
+    "radical": "讠(bộ ngôn)",
+    "strokeCount": 7
+   }
+  ],
+  "collocations": [],
+  "compounds": [],
+  "distinguish": "",
+  "distinguishExample": "",
+  "grammarExample": "",
+  "grammarNote": "",
+  "image": "📢",
+  "mnemonic": "告诉 = 告(báo cáo bằng miệng) + 诉(kể lại bằng lời) — BÁO cho biết, kể LẠI, NÓI CHO BIẾT.",
+  "partOfSpeech": "Động từ",
+  "senses": [
+   {
+    "meanings": [
+     {
+      "example": "请告诉我你的电话号码。 (Qǐng gàosu wǒ nǐ de diànhuà hàomǎ.) – Xin cho tôi biết số điện thoại của bạn.",
+      "meaning": "nói cho biết"
+     }
+    ],
+    "partOfSpeech": "Động từ"
+   }
+  ],
+  "synonyms": [],
+  "usage": ""
+ },
+ "zh-verbs-1-35": {
+  "antonyms": [
+   {
+    "example": "开灯和关灯。 (Kāidēng hé guāndēng.) – Bật đèn và tắt đèn.",
+    "word": "关"
+   }
+  ],
+  "characters": [
+   {
+    "char": "开",
+    "componentMeaning": "",
+    "hanViet": "KHAI",
+    "pictographicOrigin": "Hai tay mở cánh cửa/then cài — nghĩa \"mở\".",
+    "radical": "廾(bộ củng)",
+    "strokeCount": 4
+   }
+  ],
+  "collocations": [],
+  "compounds": [],
+  "distinguish": "",
+  "distinguishExample": "",
+  "grammarExample": "",
+  "grammarNote": "",
+  "image": "🔓",
+  "mnemonic": "开 trông như hai tay đang MỞ một cánh cửa/then cài.",
+  "partOfSpeech": "Động từ",
+  "senses": [
+   {
+    "meanings": [
+     {
+      "example": "请开门。 (Qǐng kāimén.) – Xin mở cửa.",
+      "meaning": "mở"
+     },
+     {
+      "example": "他开车去上班。 (Tā kāichē qù shàngbān.) – Anh ấy lái xe đi làm.",
+      "meaning": "lái (xe)"
+     }
+    ],
+    "partOfSpeech": "Động từ"
+   }
+  ],
+  "synonyms": [],
+  "usage": ""
+ },
+ "zh-verbs-1-36": {
+  "antonyms": [
+   {
+    "example": "见分辨\"开\"。",
+    "word": "开"
+   }
+  ],
+  "characters": [
+   {
+    "char": "关",
+    "componentMeaning": "",
+    "hanViet": "QUAN",
+    "pictographicOrigin": "Chữ giản thể từ 關, hình then cài cửa — nghĩa \"đóng, cửa ải\".",
+    "radical": "八(bộ bát)",
+    "strokeCount": 6
+   }
+  ],
+  "collocations": [],
+  "compounds": [],
+  "distinguish": "",
+  "distinguishExample": "",
+  "grammarExample": "",
+  "grammarNote": "",
+  "image": "🔒",
+  "mnemonic": "关 (giản thể) trông như hình một cây THEN cài ngang cửa — ĐÓNG lại.",
+  "partOfSpeech": "Động từ",
+  "senses": [
+   {
+    "meanings": [
+     {
+      "example": "请关窗户。 (Qǐng guān chuānghu.) – Xin đóng cửa sổ.",
+      "meaning": "đóng, tắt"
+     }
+    ],
+    "partOfSpeech": "Động từ"
+   }
+  ],
+  "synonyms": [],
+  "usage": "Xem phân biệt tại mục \"开\"."
+ },
+ "zh-verbs-1-37": {
+  "antonyms": [],
+  "characters": [
+   {
+    "char": "玩",
+    "componentMeaning": "",
+    "hanViet": "NGOẠN",
+    "pictographicOrigin": "Bộ 王(ngọc) ghép 元 lấy âm — nghịch, mân mê viên NGỌC, \"chơi đùa\".",
+    "radical": "王(bộ ngọc)",
+    "strokeCount": 8
+   }
+  ],
+  "collocations": [],
+  "compounds": [],
+  "distinguish": "",
+  "distinguishExample": "",
+  "grammarExample": "",
+  "grammarNote": "",
+  "image": "🎮",
+  "mnemonic": "玩 = 王(ngọc) + 元 — mân mê viên NGỌC quý, CHƠI ĐÙA.",
+  "partOfSpeech": "Động từ",
+  "senses": [
+   {
+    "meanings": [
+     {
+      "example": "孩子们在外面玩。 (Háizimen zài wàimiàn wán.) – Bọn trẻ đang chơi ở ngoài.",
+      "meaning": "chơi"
+     }
+    ],
+    "partOfSpeech": "Động từ"
+   }
+  ],
+  "synonyms": [],
+  "usage": ""
+ },
+ "zh-verbs-1-38": {
+  "antonyms": [],
+  "characters": [
+   {
+    "char": "用",
+    "componentMeaning": "",
+    "hanViet": "DỤNG",
+    "pictographicOrigin": "Chữ giáp cốt vẽ hình một cái thùng gỗ — vật để SỬ DỤNG.",
+    "radical": "用(bộ dụng)",
+    "strokeCount": 5
+   }
+  ],
+  "collocations": [],
+  "compounds": [],
+  "distinguish": "",
+  "distinguishExample": "",
+  "grammarExample": "",
+  "grammarNote": "",
+  "image": "🔧",
+  "mnemonic": "用 trông như một cái THÙNG gỗ — vật để SỬ DỤNG hằng ngày.",
+  "partOfSpeech": "Động từ",
+  "senses": [
+   {
+    "meanings": [
+     {
+      "example": "你会用筷子吗？ (Nǐ huì yòng kuàizi ma?) – Bạn biết dùng đũa không?",
+      "meaning": "dùng, sử dụng"
+     }
+    ],
+    "partOfSpeech": "Động từ"
+   }
+  ],
+  "synonyms": [],
+  "usage": ""
+ },
+ "zh-verbs-1-39": {
+  "antonyms": [
+   {
+    "example": "上班和下班。 (Shàngbān hé xiàbān.) – Đi làm và tan làm.",
+    "word": "下班"
+   }
+  ],
+  "characters": [
+   {
+    "char": "上",
+    "componentMeaning": "lên",
+    "hanViet": "THƯỢNG",
+    "pictographicOrigin": "Một nét ngang (mặt đất) với một nét ngắn phía trên — vị trí \"trên\".",
+    "radical": "一(bộ nhất)",
+    "strokeCount": 3
+   },
+   {
+    "char": "班",
+    "componentMeaning": "ca làm",
+    "hanViet": "BAN",
+    "pictographicOrigin": "Hai chữ 王(ngọc) kẹp một chữ 刂(dao) — chia đôi khối ngọc, mở rộng nghĩa \"nhóm, ca làm việc\".",
+    "radical": "王(bộ ngọc)",
+    "strokeCount": 10
+   }
+  ],
+  "collocations": [],
+  "compounds": [],
+  "distinguish": "",
+  "distinguishExample": "",
+  "grammarExample": "",
+  "grammarNote": "",
+  "image": "💼",
+  "mnemonic": "上班 = 上(lên) + 班(ca làm việc) — LÊN CA làm việc, ĐI LÀM.",
+  "partOfSpeech": "Động từ",
+  "senses": [
+   {
+    "meanings": [
+     {
+      "example": "我八点上班。 (Wǒ bā diǎn shàngbān.) – Tôi đi làm lúc tám giờ.",
+      "meaning": "đi làm"
+     }
+    ],
+    "partOfSpeech": "Động từ"
+   }
+  ],
+  "synonyms": [],
+  "usage": ""
+ },
+ "zh-verbs-1-4": {
+  "antonyms": [],
+  "characters": [
+   {
+    "char": "听",
+    "componentMeaning": "",
+    "hanViet": "THÍNH",
+    "pictographicOrigin": "Bộ 口(miệng, âm thanh) ghép 斤 lấy âm (giản thể) — nghĩa \"nghe\".",
+    "radical": "口(bộ khẩu)",
+    "strokeCount": 7
+   }
+  ],
+  "collocations": [],
+  "compounds": [],
+  "distinguish": "",
+  "distinguishExample": "",
+  "grammarExample": "",
+  "grammarNote": "",
+  "image": "👂",
+  "mnemonic": "听 = 口(âm thanh) + 斤(cái rìu, lấy âm) — dùng tai lắng NGHE âm thanh.",
+  "partOfSpeech": "Động từ",
+  "senses": [
+   {
+    "meanings": [
+     {
+      "example": "我喜欢听音乐。 (Wǒ xǐhuan tīng yīnyuè.) – Tôi thích nghe nhạc.",
+      "meaning": "nghe"
+     }
+    ],
+    "partOfSpeech": "Động từ"
+   }
+  ],
+  "synonyms": [],
+  "usage": ""
+ },
+ "zh-verbs-1-40": {
+  "antonyms": [
+   {
+    "example": "见分辨\"上班\"。",
+    "word": "上班"
+   }
+  ],
+  "characters": [
+   {
+    "char": "下",
+    "componentMeaning": "xuống",
+    "hanViet": "HẠ",
+    "pictographicOrigin": "Một nét ngang dài (mặt đất) với một nét ngắn phía dưới — biểu thị vị trí \"DƯỚI\".",
+    "radical": "一(bộ nhất)",
+    "strokeCount": 3
+   },
+   {
+    "char": "班",
+    "componentMeaning": "ca làm",
+    "hanViet": "BAN",
+    "pictographicOrigin": "Hai chữ 王(ngọc) kẹp một chữ 刂(dao) — chia đôi khối ngọc, mở rộng nghĩa \"nhóm, ca làm việc\".",
+    "radical": "王(bộ ngọc)",
+    "strokeCount": 10
+   }
+  ],
+  "collocations": [],
+  "compounds": [],
+  "distinguish": "",
+  "distinguishExample": "",
+  "grammarExample": "",
+  "grammarNote": "",
+  "image": "🏃",
+  "mnemonic": "下班 = 下(xuống) + 班(ca làm việc) — XUỐNG CA, kết thúc ca làm, TAN LÀM.",
+  "partOfSpeech": "Động từ",
+  "senses": [
+   {
+    "meanings": [
+     {
+      "example": "我六点下班。 (Wǒ liù diǎn xiàbān.) – Tôi tan làm lúc sáu giờ.",
+      "meaning": "tan làm"
+     }
+    ],
+    "partOfSpeech": "Động từ"
+   }
+  ],
+  "synonyms": [],
+  "usage": ""
+ },
+ "zh-verbs-1-41": {
+  "antonyms": [
+   {
+    "example": "上课和下课。 (Shàngkè hé xiàkè.) – Vào học và tan học.",
+    "word": "下课"
+   }
+  ],
+  "characters": [
+   {
+    "char": "上",
+    "componentMeaning": "lên",
+    "hanViet": "THƯỢNG",
+    "pictographicOrigin": "Một nét ngang (mặt đất) với một nét ngắn phía trên — vị trí \"trên\".",
+    "radical": "一(bộ nhất)",
+    "strokeCount": 3
+   },
+   {
+    "char": "课",
+    "componentMeaning": "tiết học",
+    "hanViet": "KHÓA",
+    "pictographicOrigin": "Bộ 讠(lời nói) ghép 果(kết quả) — buổi giảng dạy có kết quả, \"bài học, tiết học\".",
+    "radical": "讠(bộ ngôn)",
+    "strokeCount": 10
+   }
+  ],
+  "collocations": [],
+  "compounds": [],
+  "distinguish": "",
+  "distinguishExample": "",
+  "grammarExample": "",
+  "grammarNote": "",
+  "image": "📖",
+  "mnemonic": "上课 = 上(lên) + 课(tiết học) — LÊN lớp bắt đầu TIẾT HỌC.",
+  "partOfSpeech": "Động từ",
+  "senses": [
+   {
+    "meanings": [
+     {
+      "example": "我们八点上课。 (Wǒmen bā diǎn shàngkè.) – Chúng tôi vào học lúc tám giờ.",
+      "meaning": "vào học, lên lớp"
+     }
+    ],
+    "partOfSpeech": "Động từ"
+   }
+  ],
+  "synonyms": [],
+  "usage": ""
+ },
+ "zh-verbs-1-42": {
+  "antonyms": [
+   {
+    "example": "见分辨\"上课\"。",
+    "word": "上课"
+   }
+  ],
+  "characters": [
+   {
+    "char": "下",
+    "componentMeaning": "xuống",
+    "hanViet": "HẠ",
+    "pictographicOrigin": "Một nét ngang dài (mặt đất) với một nét ngắn phía dưới — biểu thị vị trí \"DƯỚI\".",
+    "radical": "一(bộ nhất)",
+    "strokeCount": 3
+   },
+   {
+    "char": "课",
+    "componentMeaning": "tiết học",
+    "hanViet": "KHÓA",
+    "pictographicOrigin": "Bộ 讠(lời nói) ghép 果(kết quả) — buổi giảng dạy có kết quả, \"bài học, tiết học\".",
+    "radical": "讠(bộ ngôn)",
+    "strokeCount": 10
+   }
+  ],
+  "collocations": [],
+  "compounds": [],
+  "distinguish": "",
+  "distinguishExample": "",
+  "grammarExample": "",
+  "grammarNote": "",
+  "image": "🔔",
+  "mnemonic": "下课 = 下(xuống) + 课(tiết học) — kết thúc TIẾT HỌC, TAN HỌC.",
+  "partOfSpeech": "Động từ",
+  "senses": [
+   {
+    "meanings": [
+     {
+      "example": "十二点下课。 (Shí'èr diǎn xiàkè.) – Mười hai giờ tan học.",
+      "meaning": "tan học"
+     }
+    ],
+    "partOfSpeech": "Động từ"
+   }
+  ],
+  "synonyms": [],
+  "usage": ""
+ },
+ "zh-verbs-1-43": {
+  "antonyms": [],
+  "characters": [
+   {
+    "char": "吃",
+    "componentMeaning": "ăn",
+    "hanViet": "NGẬT",
+    "pictographicOrigin": "Bộ 口(miệng) ghép 乞 lấy âm — chữ hình thanh chỉ hành động \"ăn\".",
+    "radical": "口(bộ khẩu)",
+    "strokeCount": 6
+   },
+   {
+    "char": "饭",
+    "componentMeaning": "cơm",
+    "hanViet": "PHẠN",
+    "pictographicOrigin": "Bộ 饣(ăn uống) ghép 反 lấy âm — nghĩa \"cơm\".",
+    "radical": "饣(bộ thực)",
+    "strokeCount": 7
+   }
+  ],
+  "collocations": [],
+  "compounds": [],
+  "distinguish": "",
+  "distinguishExample": "",
+  "grammarExample": "",
+  "grammarNote": "",
+  "image": "🍽️",
+  "mnemonic": "吃饭 = 吃(ăn) + 饭(cơm) — ghép đôi đơn giản, ĂN CƠM.",
+  "partOfSpeech": "Động từ",
+  "senses": [
+   {
+    "meanings": [
+     {
+      "example": "我们一起吃饭吧。 (Wǒmen yìqǐ chīfàn ba.) – Chúng ta cùng ăn cơm đi.",
+      "meaning": "ăn cơm"
+     }
+    ],
+    "partOfSpeech": "Động từ"
+   }
+  ],
+  "synonyms": [],
+  "usage": ""
+ },
+ "zh-verbs-1-44": {
+  "antonyms": [],
+  "characters": [
+   {
+    "char": "见",
+    "componentMeaning": "thấy",
+    "hanViet": "KIẾN",
+    "pictographicOrigin": "Hình một con mắt (目) đặt trên đôi chân người (儿) — người đang nhìn, nghĩa \"thấy, gặp\".",
+    "radical": "见(bộ kiến)",
+    "strokeCount": 4
+   },
+   {
+    "char": "面",
+    "componentMeaning": "mặt",
+    "hanViet": "DIỆN",
+    "pictographicOrigin": "Chữ giáp cốt vẽ hình khuôn mặt người — nghĩa \"mặt\".",
+    "radical": "面(bộ diện)",
+    "strokeCount": 9
+   }
+  ],
+  "collocations": [],
+  "compounds": [],
+  "distinguish": "",
+  "distinguishExample": "",
+  "grammarExample": "",
+  "grammarNote": "",
+  "image": "🤝",
+  "mnemonic": "见面 = 见(thấy) + 面(mặt) — nhìn THẤY MẶT nhau, GẶP MẶT.",
+  "partOfSpeech": "Động từ",
+  "senses": [
+   {
+    "meanings": [
+     {
+      "example": "我们明天见面吧。 (Wǒmen míngtiān jiànmiàn ba.) – Ngày mai chúng ta gặp mặt nhé.",
+      "meaning": "gặp mặt"
+     }
+    ],
+    "partOfSpeech": "Động từ"
+   }
+  ],
+  "synonyms": [],
+  "usage": ""
+ },
+ "zh-verbs-1-45": {
+  "antonyms": [],
+  "characters": [
+   {
+    "char": "介",
+    "componentMeaning": "ở giữa",
+    "hanViet": "GIỚI",
+    "pictographicOrigin": "Chữ giáp cốt vẽ hình một người đứng giữa ranh giới — nghĩa \"ở giữa, giới thiệu\".",
+    "radical": "人(bộ nhân)",
+    "strokeCount": 4
+   },
+   {
+    "char": "绍",
+    "componentMeaning": "nối tiếp",
+    "hanViet": "THIỆU",
+    "pictographicOrigin": "Bộ 纟(sợi tơ) ghép 召(gọi) — kết nối, tiếp nối, \"giới thiệu\".",
+    "radical": "纟(bộ mịch)",
+    "strokeCount": 8
+   }
+  ],
+  "collocations": [],
+  "compounds": [],
+  "distinguish": "",
+  "distinguishExample": "",
+  "grammarExample": "",
+  "grammarNote": "",
+  "image": "👋",
+  "mnemonic": "介绍 = 介(đứng giữa ranh giới) + 绍(nối tiếp bằng sợi tơ) — người đứng GIỮA NỐI hai bên lại, GIỚI THIỆU.",
+  "partOfSpeech": "Động từ",
+  "senses": [
+   {
+    "meanings": [
+     {
+      "example": "让我介绍一下。 (Ràng wǒ jièshào yíxià.) – Để tôi giới thiệu một chút.",
+      "meaning": "giới thiệu"
+     }
+    ],
+    "partOfSpeech": "Động từ"
+   }
+  ],
+  "synonyms": [],
+  "usage": ""
+ },
+ "zh-verbs-1-46": {
+  "antonyms": [],
+  "characters": [
+   {
+    "char": "洗",
+    "componentMeaning": "",
+    "hanViet": "TẨY",
+    "pictographicOrigin": "Bộ 氵(nước) ghép 先 lấy âm — dùng nước để RỬA.",
+    "radical": "氵(bộ thủy)",
+    "strokeCount": 9
+   }
+  ],
+  "collocations": [],
+  "compounds": [],
+  "distinguish": "",
+  "distinguishExample": "",
+  "grammarExample": "",
+  "grammarNote": "",
+  "image": "🧼",
+  "mnemonic": "洗 = 氵(nước) + 先(trước) — dùng NƯỚC làm sạch TRƯỚC khi dùng, RỬA.",
+  "partOfSpeech": "Động từ",
+  "senses": [
+   {
+    "meanings": [
+     {
+      "example": "我洗衣服。 (Wǒ xǐ yīfu.) – Tôi giặt quần áo.",
+      "meaning": "rửa, giặt"
+     }
+    ],
+    "partOfSpeech": "Động từ"
+   }
+  ],
+  "synonyms": [],
+  "usage": ""
+ },
+ "zh-verbs-1-47": {
+  "antonyms": [],
+  "characters": [
+   {
+    "char": "穿",
+    "componentMeaning": "",
+    "hanViet": "XUYÊN",
+    "pictographicOrigin": "Bộ 穴(hang) ghép 牙(răng) — dùng răng khoét xuyên qua hang, nghĩa \"xuyên qua, mặc (đồ)\".",
+    "radical": "穴(bộ huyệt)",
+    "strokeCount": 9
+   }
+  ],
+  "collocations": [],
+  "compounds": [],
+  "distinguish": "\"穿\" cho quần áo/giày; \"戴\" cho mũ/kính/đồng hồ/trang sức.",
+  "distinguishExample": "穿衣服（mặc áo） vs 戴帽子（đội mũ）。",
+  "grammarExample": "",
+  "grammarNote": "",
+  "image": "👕",
+  "mnemonic": "穿 = 穴(hang) + 牙(răng) — dùng RĂNG khoét XUYÊN QUA hang, mở rộng nghĩa MẶC (xỏ qua người).",
+  "partOfSpeech": "Động từ",
+  "senses": [
+   {
+    "meanings": [
+     {
+      "example": "她穿了一件红色的衣服。 (Tā chuānle yí jiàn hóngsè de yīfu.) – Cô ấy mặc một chiếc áo màu đỏ.",
+      "meaning": "mặc, đi (giày)"
+     }
+    ],
+    "partOfSpeech": "Động từ"
+   }
+  ],
+  "synonyms": [],
+  "usage": "穿 dùng cho đồ mặc vào người xuyên qua (áo, quần, giày); đồ đeo/đội (đồng hồ, mũ, kính) dùng 戴 (dài)."
+ },
+ "zh-verbs-1-48": {
+  "antonyms": [
+   {
+    "example": "见分辨\"工作\"。",
+    "word": "工作"
+   }
+  ],
+  "characters": [
+   {
+    "char": "休",
+    "componentMeaning": "nghỉ",
+    "hanViet": "HƯU",
+    "pictographicOrigin": "Bộ 亻(người) dựa vào 木(cây) — hình ảnh người tựa vào cây NGHỈ NGƠI.",
+    "radical": "亻(bộ nhân)",
+    "strokeCount": 6
+   },
+   {
+    "char": "息",
+    "componentMeaning": "hơi thở",
+    "hanViet": "TỨC",
+    "pictographicOrigin": "Bộ 自(mũi) trên 心(tim) — hơi thở ra vào từ mũi và tim, \"hơi thở, nghỉ\".",
+    "radical": "心(bộ tâm)",
+    "strokeCount": 10
+   }
+  ],
+  "collocations": [],
+  "compounds": [],
+  "distinguish": "",
+  "distinguishExample": "",
+  "grammarExample": "",
+  "grammarNote": "",
+  "image": "😌",
+  "mnemonic": "休息 = 休(người tựa vào cây 木) + 息(hơi thở từ tim) — tựa cây thở đều, NGHỈ NGƠI.",
+  "partOfSpeech": "Động từ",
+  "senses": [
+   {
+    "meanings": [
+     {
+      "example": "你应该多休息。 (Nǐ yīnggāi duō xiūxi.) – Bạn nên nghỉ ngơi nhiều hơn.",
+      "meaning": "nghỉ ngơi"
+     }
+    ],
+    "partOfSpeech": "Động từ"
+   }
+  ],
+  "synonyms": [],
+  "usage": ""
+ },
+ "zh-verbs-1-49": {
+  "antonyms": [],
+  "characters": [
+   {
+    "char": "运",
+    "componentMeaning": "vận",
+    "hanViet": "VẬN",
+    "pictographicOrigin": "Bộ 辶(đi) ghép 云(mây) — mây trôi vận động, \"vận động, vận chuyển\".",
+    "radical": "辶(bộ sước)",
+    "strokeCount": 7
+   },
+   {
+    "char": "动",
+    "componentMeaning": "động",
+    "hanViet": "ĐỘNG",
+    "pictographicOrigin": "Bộ 力(sức lực) — dùng SỨC làm vật chuyển động.",
+    "radical": "力(bộ lực)",
+    "strokeCount": 6
+   }
+  ],
+  "collocations": [],
+  "compounds": [],
+  "distinguish": "",
+  "distinguishExample": "",
+  "grammarExample": "",
+  "grammarNote": "",
+  "image": "⚽",
+  "mnemonic": "运动 = 运(mây trôi, vận chuyển) + 动(dùng sức chuyển động) — chuyển động dùng SỨC, VẬN ĐỘNG.",
+  "partOfSpeech": "Động từ · Danh từ",
+  "senses": [
+   {
+    "meanings": [
+     {
+      "example": "我每天运动一个小时。 (Wǒ měitiān yùndòng yí ge xiǎoshí.) – Tôi vận động một tiếng mỗi ngày.",
+      "meaning": "vận động, thể thao"
+     }
+    ],
+    "partOfSpeech": "Động từ · Danh từ"
+   }
+  ],
+  "synonyms": [],
+  "usage": ""
+ },
+ "zh-verbs-1-5": {
+  "antonyms": [],
+  "characters": [
+   {
+    "char": "说",
+    "componentMeaning": "",
+    "hanViet": "THUYẾT",
+    "pictographicOrigin": "Bộ 讠(lời nói) ghép 兑 — dùng LỜI để giải thích, \"nói\".",
+    "radical": "讠(bộ ngôn)",
+    "strokeCount": 9
+   }
+  ],
+  "collocations": [],
+  "compounds": [],
+  "distinguish": "\"说\" (nói ra bằng lời) khác \"讲\" (giảng giải, kể chuyện) — 说 dùng phổ biến hơn trong khẩu ngữ hằng ngày.",
+  "distinguishExample": "说汉语（nói tiếng Trung） vs 讲故事（kể chuyện）。",
+  "grammarExample": "",
+  "grammarNote": "",
+  "image": "🗣️",
+  "mnemonic": "说 = 讠(lời nói) + 兑(trao đổi) — TRAO ĐỔI bằng LỜI, tức NÓI.",
+  "partOfSpeech": "Động từ",
+  "senses": [
+   {
+    "meanings": [
+     {
+      "example": "你会说汉语吗？ (Nǐ huì shuō Hànyǔ ma?) – Bạn biết nói tiếng Trung không?",
+      "meaning": "nói"
+     }
+    ],
+    "partOfSpeech": "Động từ"
+   }
+  ],
+  "synonyms": [],
+  "usage": ""
+ },
+ "zh-verbs-1-50": {
+  "antonyms": [],
+  "characters": [
+   {
+    "char": "跑",
+    "componentMeaning": "chạy",
+    "hanViet": "BÀO",
+    "pictographicOrigin": "Bộ 足(chân) ghép 包 lấy âm — dùng CHÂN để CHẠY.",
+    "radical": "足(bộ túc)",
+    "strokeCount": 12
+   },
+   {
+    "char": "步",
+    "componentMeaning": "bước",
+    "hanViet": "BỘ",
+    "pictographicOrigin": "Chữ giáp cốt vẽ hình hai bàn chân nối tiếp nhau — nghĩa \"bước đi\".",
+    "radical": "止(bộ chỉ)",
+    "strokeCount": 7
+   }
+  ],
+  "collocations": [],
+  "compounds": [],
+  "distinguish": "",
+  "distinguishExample": "",
+  "grammarExample": "",
+  "grammarNote": "",
+  "image": "🏃",
+  "mnemonic": "跑步 = 跑(chân + 包 lấy âm) + 步(hai bàn chân nối tiếp) — CHÂN bước liên tục nhanh, CHẠY BỘ.",
+  "partOfSpeech": "Động từ",
+  "senses": [
+   {
+    "meanings": [
+     {
+      "example": "我喜欢早上跑步。 (Wǒ xǐhuan zǎoshang pǎobù.) – Tôi thích chạy bộ buổi sáng.",
+      "meaning": "chạy bộ"
+     }
+    ],
+    "partOfSpeech": "Động từ"
+   }
+  ],
+  "synonyms": [],
+  "usage": ""
+ },
+ "zh-verbs-1-51": {
+  "antonyms": [],
+  "characters": [
+   {
+    "char": "游",
+    "componentMeaning": "bơi",
+    "hanViet": "DU",
+    "pictographicOrigin": "Bộ 氵(nước) ghép 斿(cờ phất phới) — trôi nổi tự do trên nước, \"bơi, du ngoạn\".",
+    "radical": "氵(bộ thủy)",
+    "strokeCount": 12
+   },
+   {
+    "char": "泳",
+    "componentMeaning": "bơi lội",
+    "hanViet": "VỊNH",
+    "pictographicOrigin": "Bộ 氵(nước) ghép 永(vĩnh viễn, hình dòng chảy dài) — di chuyển liên tục trong NƯỚC, \"bơi\".",
+    "radical": "氵(bộ thủy)",
+    "strokeCount": 8
+   }
+  ],
+  "collocations": [],
+  "compounds": [],
+  "distinguish": "",
+  "distinguishExample": "",
+  "grammarExample": "",
+  "grammarNote": "",
+  "image": "🏊",
+  "mnemonic": "游泳 = 游(nước + cờ phất phới) + 泳(nước + vĩnh viễn) — trôi nổi liên tục trong NƯỚC, BƠI.",
+  "partOfSpeech": "Động từ",
+  "senses": [
+   {
+    "meanings": [
+     {
+      "example": "夏天我常常去游泳。 (Xiàtiān wǒ chángcháng qù yóuyǒng.) – Mùa hè tôi thường đi bơi.",
+      "meaning": "bơi"
+     }
+    ],
+    "partOfSpeech": "Động từ"
+   }
+  ],
+  "synonyms": [],
+  "usage": ""
+ },
+ "zh-verbs-1-52": {
+  "antonyms": [],
+  "characters": [
+   {
+    "char": "唱",
+    "componentMeaning": "hát",
+    "hanViet": "XƯỚNG",
+    "pictographicOrigin": "Bộ 口(miệng) ghép 昌(sáng, thịnh) — MIỆNG cất lên tiếng HÁT.",
+    "radical": "口(bộ khẩu)",
+    "strokeCount": 11
+   },
+   {
+    "char": "歌",
+    "componentMeaning": "bài hát",
+    "hanViet": "CA",
+    "pictographicOrigin": "Bộ 欠(hả miệng) ghép 哥(anh) lấy âm — hả miệng cất tiếng HÁT.",
+    "radical": "欠(bộ khiếm)",
+    "strokeCount": 14
+   }
+  ],
+  "collocations": [],
+  "compounds": [],
+  "distinguish": "",
+  "distinguishExample": "",
+  "grammarExample": "",
+  "grammarNote": "",
+  "image": "🎤",
+  "mnemonic": "唱歌 = 唱(miệng + sáng 昌) + 歌(hả miệng + anh 哥) — MIỆNG cất tiếng HÁT vang.",
+  "partOfSpeech": "Động từ",
+  "senses": [
+   {
+    "meanings": [
+     {
+      "example": "她唱歌唱得很好。 (Tā chànggē chàng de hěn hǎo.) – Cô ấy hát rất hay.",
+      "meaning": "hát"
+     }
+    ],
+    "partOfSpeech": "Động từ"
+   }
+  ],
+  "synonyms": [],
+  "usage": ""
+ },
+ "zh-verbs-1-53": {
+  "antonyms": [],
+  "characters": [
+   {
+    "char": "跳",
+    "componentMeaning": "nhảy",
+    "hanViet": "KHIÊU",
+    "pictographicOrigin": "Bộ 足(chân) ghép 兆 lấy âm — dùng CHÂN để NHẢY.",
+    "radical": "足(bộ túc)",
+    "strokeCount": 13
+   },
+   {
+    "char": "舞",
+    "componentMeaning": "múa",
+    "hanViet": "VŨ",
+    "pictographicOrigin": "Chữ giáp cốt vẽ hình một người cầm dải lụa múa — nghĩa \"nhảy múa\".",
+    "radical": "舛(bộ suyễn)",
+    "strokeCount": 14
+   }
+  ],
+  "collocations": [],
+  "compounds": [],
+  "distinguish": "",
+  "distinguishExample": "",
+  "grammarExample": "",
+  "grammarNote": "",
+  "image": "💃",
+  "mnemonic": "跳舞 = 跳(chân + 兆 lấy âm) + 舞(người cầm dải lụa múa) — CHÂN nhảy theo điệu MÚA.",
+  "partOfSpeech": "Động từ",
+  "senses": [
+   {
+    "meanings": [
+     {
+      "example": "他们在跳舞。 (Tāmen zài tiàowǔ.) – Họ đang nhảy múa.",
+      "meaning": "nhảy múa"
+     }
+    ],
+    "partOfSpeech": "Động từ"
+   }
+  ],
+  "synonyms": [],
+  "usage": ""
+ },
+ "zh-verbs-1-54": {
+  "antonyms": [],
+  "characters": [
+   {
+    "char": "旅",
+    "componentMeaning": "đi xa",
+    "hanViet": "LỮ",
+    "pictographicOrigin": "Chữ giáp cốt vẽ hình nhiều người đi theo một lá cờ — nhóm người cùng ĐI XA, \"du hành\".",
+    "radical": "方(bộ phương)",
+    "strokeCount": 10
+   },
+   {
+    "char": "游",
+    "componentMeaning": "chơi, du",
+    "hanViet": "DU",
+    "pictographicOrigin": "Bộ 氵(nước) ghép 斿(cờ phất phới) — trôi nổi tự do trên nước, \"bơi, du ngoạn\".",
+    "radical": "氵(bộ thủy)",
+    "strokeCount": 12
+   }
+  ],
+  "collocations": [],
+  "compounds": [],
+  "distinguish": "",
+  "distinguishExample": "",
+  "grammarExample": "",
+  "grammarNote": "",
+  "image": "🧳",
+  "mnemonic": "旅游 = 旅(nhiều người theo một lá cờ) + 游(trôi nổi tự do) — đoàn người ĐI THEO CỜ ngao du, DU LỊCH.",
+  "partOfSpeech": "Động từ",
+  "senses": [
+   {
+    "meanings": [
+     {
+      "example": "我们暑假去旅游。 (Wǒmen shǔjià qù lǚyóu.) – Nghỉ hè chúng tôi đi du lịch.",
+      "meaning": "du lịch"
+     }
+    ],
+    "partOfSpeech": "Động từ"
+   }
+  ],
+  "synonyms": [],
+  "usage": ""
+ },
+ "zh-verbs-1-55": {
+  "antonyms": [],
+  "characters": [
+   {
+    "char": "照",
+    "componentMeaning": "chiếu",
+    "hanViet": "CHIẾU",
+    "pictographicOrigin": "Bộ 灬(lửa, ánh sáng) ghép 昭(sáng rõ) — ánh sáng CHIẾU rọi, chụp ảnh.",
+    "radical": "灬(bộ hỏa)",
+    "strokeCount": 13
+   },
+   {
+    "char": "相",
+    "componentMeaning": "hình ảnh",
+    "hanViet": "TƯỚNG/TƯƠNG",
+    "pictographicOrigin": "Bộ 木(cây) ghép 目(mắt) — mắt quan sát cây, nghĩa \"nhìn, lẫn nhau, hình dáng\".",
+    "radical": "目(bộ mục)",
+    "strokeCount": 9
+   }
+  ],
+  "collocations": [],
+  "compounds": [],
+  "distinguish": "",
+  "distinguishExample": "",
+  "grammarExample": "",
+  "grammarNote": "",
+  "image": "📸",
+  "mnemonic": "照相 = 照(ánh sáng chiếu rọi) + 相(mắt nhìn cây, hình dáng) — ÁNH SÁNG chiếu lưu lại HÌNH DÁNG, CHỤP ẢNH.",
+  "partOfSpeech": "Động từ",
+  "senses": [
+   {
+    "meanings": [
+     {
+      "example": "我们照相吧。 (Wǒmen zhàoxiàng ba.) – Chúng ta chụp ảnh đi.",
+      "meaning": "chụp ảnh"
+     }
+    ],
+    "partOfSpeech": "Động từ"
+   }
+  ],
+  "synonyms": [
+   {
+    "example": "这里可以拍照。 (Zhèlǐ kěyǐ pāizhào.) – Ở đây có thể chụp ảnh.",
+    "word": "拍照"
+   }
+  ],
+  "usage": ""
+ },
+ "zh-verbs-1-6": {
+  "antonyms": [],
+  "characters": [
+   {
+    "char": "读",
+    "componentMeaning": "",
+    "hanViet": "ĐỘC",
+    "pictographicOrigin": "Bộ 讠(lời nói) ghép 卖 lấy âm (giản thể) — đọc thành LỜI, \"đọc\".",
+    "radical": "讠(bộ ngôn)",
+    "strokeCount": 10
+   }
+  ],
+  "collocations": [],
+  "compounds": [],
+  "distinguish": "",
+  "distinguishExample": "",
+  "grammarExample": "",
+  "grammarNote": "",
+  "image": "📖",
+  "mnemonic": "读 = 讠(lời nói) + 卖(bán, lấy âm) — đọc thành LỜI để \"bán\" thông tin, ĐỌC.",
+  "partOfSpeech": "Động từ",
+  "senses": [
+   {
+    "meanings": [
+     {
+      "example": "请大声读课文。 (Qǐng dàshēng dú kèwén.) – Xin đọc to bài khóa.",
+      "meaning": "đọc"
+     }
+    ],
+    "partOfSpeech": "Động từ"
+   }
+  ],
+  "synonyms": [],
+  "usage": "Xem phân biệt tại mục \"看\"."
+ },
+ "zh-verbs-1-7": {
+  "antonyms": [],
+  "characters": [
+   {
+    "char": "写",
+    "componentMeaning": "",
+    "hanViet": "TẢ",
+    "pictographicOrigin": "Chữ giản thể từ 寫, có bộ 冖(mái che) — nghĩa \"viết\".",
+    "radical": "冖(bộ mịch)",
+    "strokeCount": 5
+   }
+  ],
+  "collocations": [],
+  "compounds": [],
+  "distinguish": "",
+  "distinguishExample": "",
+  "grammarExample": "",
+  "grammarNote": "",
+  "image": "✍️",
+  "mnemonic": "写 trông như một cái mái che (冖) trên một khoảng trống — hình dung đang VIẾT dưới mái che.",
+  "partOfSpeech": "Động từ",
+  "senses": [
+   {
+    "meanings": [
+     {
+      "example": "请写你的名字。 (Qǐng xiě nǐ de míngzi.) – Xin viết tên của bạn.",
+      "meaning": "viết"
+     }
+    ],
+    "partOfSpeech": "Động từ"
+   }
+  ],
+  "synonyms": [],
+  "usage": ""
+ },
+ "zh-verbs-1-8": {
+  "antonyms": [],
+  "characters": [
+   {
+    "char": "学",
+    "componentMeaning": "học",
+    "hanViet": "HỌC",
+    "pictographicOrigin": "Hình đứa trẻ (子) dưới mái nhà có bàn tay chỉ dạy — nghĩa \"học\".",
+    "radical": "子(bộ tử)",
+    "strokeCount": 8
+   },
+   {
+    "char": "习",
+    "componentMeaning": "luyện tập",
+    "hanViet": "TẬP",
+    "pictographicOrigin": "Chữ giản thể từ 習, vốn vẽ hình đôi cánh chim non tập bay — nghĩa \"luyện tập, học\".",
+    "radical": "乙(bộ ất)",
+    "strokeCount": 3
+   }
+  ],
+  "collocations": [],
+  "compounds": [],
+  "distinguish": "",
+  "distinguishExample": "",
+  "grammarExample": "",
+  "grammarNote": "",
+  "image": "📚",
+  "mnemonic": "学习 = 学(học) + 习(đôi cánh chim non tập bay) — như chim non TẬP BAY, HỌC TẬP.",
+  "partOfSpeech": "Động từ",
+  "senses": [
+   {
+    "meanings": [
+     {
+      "example": "我在学习汉语。 (Wǒ zài xuéxí Hànyǔ.) – Tôi đang học tiếng Trung.",
+      "meaning": "học, học tập"
+     }
+    ],
+    "partOfSpeech": "Động từ"
+   }
+  ],
+  "synonyms": [
+   {
+    "example": "见分辨\"学\"。",
+    "word": "学"
+   }
+  ],
+  "usage": "学习 trang trọng/rộng nghĩa hơn 学 một chút — 学习 có thể dùng làm danh từ (việc học tập) trong khi 学 chủ yếu là động từ."
+ },
+ "zh-verbs-1-9": {
+  "antonyms": [],
+  "characters": [
+   {
+    "char": "学",
+    "componentMeaning": "",
+    "hanViet": "HỌC",
+    "pictographicOrigin": "Hình đứa trẻ (子) dưới mái nhà có bàn tay chỉ dạy — nghĩa \"học\".",
+    "radical": "子(bộ tử)",
+    "strokeCount": 8
+   }
+  ],
+  "collocations": [],
+  "compounds": [],
+  "distinguish": "",
+  "distinguishExample": "",
+  "grammarExample": "",
+  "grammarNote": "",
+  "image": "🎓",
+  "mnemonic": "学 trông như một đứa trẻ (子) dưới mái nhà có bàn tay chỉ dạy — HỌC.",
+  "partOfSpeech": "Động từ",
+  "senses": [
+   {
+    "meanings": [
+     {
+      "example": "他学中文。 (Tā xué Zhōngwén.) – Anh ấy học tiếng Trung.",
+      "meaning": "học"
+     }
+    ],
+    "partOfSpeech": "Động từ"
+   }
+  ],
+  "synonyms": [
+   {
+    "example": "见分辨\"学习\"。",
+    "word": "学习"
+   }
+  ],
   "usage": ""
  }
 }
