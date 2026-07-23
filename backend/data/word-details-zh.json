@@ -2527,5 +2527,2151 @@
   ],
   "synonyms": [],
   "usage": "Dùng khi nói chuyện với người lớn tuổi, cấp trên, khách hàng — thể hiện sự tôn trọng. Không có dạng số nhiều 您们 phổ biến, thường nói 您几位 thay thế."
+ },
+ "zh-numbers-time-1": {
+  "antonyms": [],
+  "characters": [
+   {
+    "char": "一",
+    "componentMeaning": "",
+    "hanViet": "NHẤT",
+    "pictographicOrigin": "Một nét ngang đơn giản — biểu thị số 1, số ít nhất có thể vẽ.",
+    "radical": "一(bộ nhất)",
+    "strokeCount": 1
+   }
+  ],
+  "collocations": [],
+  "compounds": [
+   {
+    "example": "他是第一名。 (Tā shì dì-yī míng.) – Anh ấy đứng thứ nhất.",
+    "meaning": "thứ nhất",
+    "pinyin": "dì-yī",
+    "word": "第一"
+   }
+  ],
+  "distinguish": "",
+  "distinguishExample": "",
+  "grammarExample": "一个人 (yí ge rén) – một người.",
+  "grammarNote": "一 + lượng từ + danh từ là cấu trúc đếm cơ bản nhất.",
+  "image": "1️⃣",
+  "mnemonic": "一 chỉ là MỘT nét ngang duy nhất — số ít nhất, nét ít nhất.",
+  "partOfSpeech": "Số từ",
+  "senses": [
+   {
+    "meanings": [
+     {
+      "example": "我有一个苹果。 (Wǒ yǒu yí ge píngguǒ.) – Tôi có một quả táo.",
+      "meaning": "một, số 1"
+     }
+    ],
+    "partOfSpeech": "Số từ"
+   }
+  ],
+  "synonyms": [],
+  "usage": "一 đổi thanh điệu tùy từ đứng sau: yī (đứng riêng/cuối câu), yì (trước thanh 4), yí (trước thanh 1,2,3)."
+ },
+ "zh-numbers-time-10": {
+  "antonyms": [],
+  "characters": [
+   {
+    "char": "十",
+    "componentMeaning": "",
+    "hanViet": "THẬP",
+    "pictographicOrigin": "Một nét dọc cắt ngang một nét ngang — hình chữ thập, biểu thị số 10 (đếm đủ 2 tay).",
+    "radical": "十(bộ thập)",
+    "strokeCount": 2
+   }
+  ],
+  "collocations": [],
+  "compounds": [],
+  "distinguish": "",
+  "distinguishExample": "",
+  "grammarExample": "十五 (shíwǔ, 15) khác 五十 (wǔshí, 50) — thứ tự ghép chữ quyết định giá trị.",
+  "grammarNote": "",
+  "image": "🔟",
+  "mnemonic": "十 là hình chữ THẬP — hai bàn tay giơ lên đếm đủ 10 ngón.",
+  "partOfSpeech": "Số từ",
+  "senses": [
+   {
+    "meanings": [
+     {
+      "example": "十分钟以后见。 (Shí fēnzhōng yǐhòu jiàn.) – Mười phút nữa gặp.",
+      "meaning": "mười, số 10"
+     }
+    ],
+    "partOfSpeech": "Số từ"
+   }
+  ],
+  "synonyms": [],
+  "usage": "Từ 11-19, cấu trúc là 十 + số (十一, 十二...); từ 20 trở đi là số + 十 (二十, 三十...)."
+ },
+ "zh-numbers-time-11": {
+  "antonyms": [],
+  "characters": [
+   {
+    "char": "百",
+    "componentMeaning": "",
+    "hanViet": "BÁCH",
+    "pictographicOrigin": "Ghép 一(một) trên 白(trắng, cũng là âm) — biểu thị số 100.",
+    "radical": "白(bộ bạch)",
+    "strokeCount": 6
+   }
+  ],
+  "collocations": [],
+  "compounds": [],
+  "distinguish": "",
+  "distinguishExample": "",
+  "grammarExample": "",
+  "grammarNote": "",
+  "image": "",
+  "mnemonic": "百 = 一(một) trên 白(trắng) — MỘT tờ giấy TRẮNG có in số 100.",
+  "partOfSpeech": "Số từ",
+  "senses": [
+   {
+    "meanings": [
+     {
+      "example": "这本书一百页。 (Zhè běn shū yìbǎi yè.) – Cuốn sách này một trăm trang.",
+      "meaning": "trăm"
+     }
+    ],
+    "partOfSpeech": "Số từ"
+   }
+  ],
+  "synonyms": [],
+  "usage": ""
+ },
+ "zh-numbers-time-12": {
+  "antonyms": [],
+  "characters": [
+   {
+    "char": "千",
+    "componentMeaning": "",
+    "hanViet": "THIÊN",
+    "pictographicOrigin": "Chữ giáp cốt vẽ hình một người (人) với một nét thêm vào — mượn làm số 1.000.",
+    "radical": "十(bộ thập)",
+    "strokeCount": 3
+   }
+  ],
+  "collocations": [],
+  "compounds": [],
+  "distinguish": "",
+  "distinguishExample": "",
+  "grammarExample": "",
+  "grammarNote": "",
+  "image": "",
+  "mnemonic": "千 trông như một người (人) đang đứng thẳng với một nét cắm cờ — cắm cờ đếm tới NGHÌN.",
+  "partOfSpeech": "Số từ",
+  "senses": [
+   {
+    "meanings": [
+     {
+      "example": "一千块钱。 (Yìqiān kuài qián.) – Một nghìn đồng.",
+      "meaning": "nghìn"
+     }
+    ],
+    "partOfSpeech": "Số từ"
+   }
+  ],
+  "synonyms": [],
+  "usage": ""
+ },
+ "zh-numbers-time-13": {
+  "antonyms": [],
+  "characters": [
+   {
+    "char": "万",
+    "componentMeaning": "",
+    "hanViet": "VẠN",
+    "pictographicOrigin": "Chữ giản thể từ 萬, vốn vẽ hình con bọ cạp — mượn âm làm số 10.000.",
+    "radical": "一(bộ nhất)",
+    "strokeCount": 3
+   }
+  ],
+  "collocations": [],
+  "compounds": [],
+  "distinguish": "",
+  "distinguishExample": "",
+  "grammarExample": "",
+  "grammarNote": "",
+  "image": "",
+  "mnemonic": "万 trông như một con bọ cạp có càng — tưởng tượng cả VẠN con bọ cạp bò ra.",
+  "partOfSpeech": "Số từ",
+  "senses": [
+   {
+    "meanings": [
+     {
+      "example": "这个城市有一百万人。 (Zhège chéngshì yǒu yìbǎiwàn rén.) – Thành phố này có một triệu người.",
+      "meaning": "vạn (mười nghìn)"
+     }
+    ],
+    "partOfSpeech": "Số từ"
+   }
+  ],
+  "synonyms": [],
+  "usage": "Tiếng Trung đếm theo đơn vị 万 (vạn = 10.000) chứ không phải \"triệu\" như tiếng Việt — 一百万 nghĩa đen là \"một trăm vạn\" (1.000.000)."
+ },
+ "zh-numbers-time-14": {
+  "antonyms": [],
+  "characters": [
+   {
+    "char": "零",
+    "componentMeaning": "",
+    "hanViet": "LINH",
+    "pictographicOrigin": "Bộ 雨(mưa) trên 令 lấy âm — nghĩa gốc \"mưa lất phất, lẻ tẻ\", mượn làm số 0.",
+    "radical": "雨(bộ vũ)",
+    "strokeCount": 13
+   }
+  ],
+  "collocations": [],
+  "compounds": [],
+  "distinguish": "",
+  "distinguishExample": "",
+  "grammarExample": "",
+  "grammarNote": "",
+  "image": "0️⃣",
+  "mnemonic": "零 = 雨(mưa) trên 令 — mưa lất phất từng giọt lẻ tẻ, ít gần như KHÔNG có gì.",
+  "partOfSpeech": "Số từ",
+  "senses": [
+   {
+    "meanings": [
+     {
+      "example": "现在是十点零五分。 (Xiànzài shì shí diǎn líng wǔ fēn.) – Bây giờ là mười giờ không năm phút.",
+      "meaning": "số không"
+     }
+    ],
+    "partOfSpeech": "Số từ"
+   }
+  ],
+  "synonyms": [],
+  "usage": "Dùng để đọc số 0 ở giữa một dãy số (ví dụ giờ:phút, số điện thoại)."
+ },
+ "zh-numbers-time-15": {
+  "antonyms": [],
+  "characters": [
+   {
+    "char": "两",
+    "componentMeaning": "",
+    "hanViet": "LƯỠNG",
+    "pictographicOrigin": "Chữ giáp cốt vẽ hình hai vật cân bằng trên một cái cân — biểu thị \"hai, cặp\".",
+    "radical": "一(bộ nhất)",
+    "strokeCount": 7
+   }
+  ],
+  "collocations": [],
+  "compounds": [],
+  "distinguish": "\"两\" dùng trước lượng từ (两个, 两杯...); \"二\" dùng khi đếm số thuần túy hoặc số thứ tự.",
+  "distinguishExample": "两个人 (liǎng ge rén, hai người) chứ không nói 二个人.",
+  "grammarExample": "",
+  "grammarNote": "",
+  "image": "",
+  "mnemonic": "两 trông như một cái cân có hai đĩa cân bằng nhau — luôn đi thành CẶP HAI.",
+  "partOfSpeech": "Số từ",
+  "senses": [
+   {
+    "meanings": [
+     {
+      "example": "我要两杯咖啡。 (Wǒ yào liǎng bēi kāfēi.) – Tôi muốn hai ly cà phê.",
+      "meaning": "hai (đi với lượng từ, thay cho 二)"
+     }
+    ],
+    "partOfSpeech": "Số từ"
+   }
+  ],
+  "synonyms": [],
+  "usage": "Xem phân biệt tại mục \"二\"."
+ },
+ "zh-numbers-time-16": {
+  "antonyms": [],
+  "characters": [
+   {
+    "char": "号",
+    "componentMeaning": "",
+    "hanViet": "HIỆU",
+    "pictographicOrigin": "Bộ 口(miệng) — hình ảnh miệng hô to số HIỆU, dùng chỉ ngày/số thứ tự.",
+    "radical": "口(bộ khẩu)",
+    "strokeCount": 5
+   }
+  ],
+  "collocations": [],
+  "compounds": [],
+  "distinguish": "",
+  "distinguishExample": "",
+  "grammarExample": "",
+  "grammarNote": "",
+  "image": "",
+  "mnemonic": "号 = 口(miệng) hô to một con SỐ — như tiếng loa phát số thứ tự.",
+  "partOfSpeech": "Danh từ",
+  "senses": [
+   {
+    "meanings": [
+     {
+      "example": "今天几号？ (Jīntiān jǐ hào?) – Hôm nay ngày mấy?",
+      "meaning": "ngày (trong tháng, khẩu ngữ)"
+     },
+     {
+      "example": "我穿中号。 (Wǒ chuān zhōnghào.) – Tôi mặc cỡ trung.",
+      "meaning": "số (hiệu, cỡ)"
+     }
+    ],
+    "partOfSpeech": "Danh từ"
+   }
+  ],
+  "synonyms": [
+   {
+    "example": "五月一日是劳动节。 (Wǔyuè yī rì shì Láodòngjié.) – Ngày mùng 1 tháng 5 là Quốc tế Lao động.",
+    "word": "日"
+   }
+  ],
+  "usage": "号 là cách nói ngày trong khẩu ngữ; văn viết trang trọng dùng 日 (rì) thay thế: 三月五号 (khẩu ngữ) = 三月五日 (văn viết)."
+ },
+ "zh-numbers-time-17": {
+  "antonyms": [],
+  "characters": [
+   {
+    "char": "点",
+    "componentMeaning": "",
+    "hanViet": "ĐIỂM",
+    "pictographicOrigin": "Bộ 灬(lửa) dưới 占(chiếm) — hình ảnh một ĐỐM lửa nhỏ, mượn nghĩa chỉ \"điểm, giờ\".",
+    "radical": "灬(bộ hỏa)",
+    "strokeCount": 9
+   }
+  ],
+  "collocations": [],
+  "compounds": [],
+  "distinguish": "\"点\" chỉ THỜI ĐIỂM (mấy giờ); \"小时\" chỉ KHOẢNG THỜI GIAN (bao nhiêu tiếng).",
+  "distinguishExample": "现在三点（thời điểm） vs 我等了三个小时（khoảng thời gian）。",
+  "grammarExample": "",
+  "grammarNote": "",
+  "image": "🕐",
+  "mnemonic": "点 = 灬(lửa) dưới 占 — một ĐỐM lửa nhỏ trên đồng hồ chỉ giờ.",
+  "partOfSpeech": "Danh từ",
+  "senses": [
+   {
+    "meanings": [
+     {
+      "example": "现在几点？ (Xiànzài jǐ diǎn?) – Bây giờ mấy giờ?",
+      "meaning": "giờ (đơn vị chỉ thời điểm)"
+     }
+    ],
+    "partOfSpeech": "Danh từ"
+   }
+  ],
+  "synonyms": [],
+  "usage": "Cấu trúc giờ: số + 点 (+ 分). Ví dụ 三点半 (3 giờ rưỡi), 五点十分 (5 giờ 10 phút)."
+ },
+ "zh-numbers-time-18": {
+  "antonyms": [],
+  "characters": [
+   {
+    "char": "分",
+    "componentMeaning": "",
+    "hanViet": "PHÂN",
+    "pictographicOrigin": "Bộ 刀(dao) dưới 八(chia đôi) — hình ảnh dùng dao CHIA vật ra làm nhiều phần, nghĩa \"phân, phút\".",
+    "radical": "刀(bộ đao)",
+    "strokeCount": 4
+   }
+  ],
+  "collocations": [],
+  "compounds": [
+   {
+    "example": "等五分钟。 (Děng wǔ fēnzhōng.) – Đợi năm phút.",
+    "meaning": "phút (khoảng thời gian)",
+    "pinyin": "fēnzhōng",
+    "word": "分钟"
+   }
+  ],
+  "distinguish": "Xem phân biệt tại mục \"分钟\".",
+  "distinguishExample": "",
+  "grammarExample": "",
+  "grammarNote": "",
+  "image": "",
+  "mnemonic": "分 = 八(chia đôi) trên 刀(dao) — dùng DAO chia nhỏ thời gian thành từng PHÚT.",
+  "partOfSpeech": "Danh từ",
+  "senses": [
+   {
+    "meanings": [
+     {
+      "example": "还有五分就到了。 (Hái yǒu wǔ fēn jiù dào le.) – Còn năm phút nữa là đến.",
+      "meaning": "phút"
+     }
+    ],
+    "partOfSpeech": "Danh từ"
+   }
+  ],
+  "synonyms": [],
+  "usage": "Trong ngữ cảnh giờ, 分 và 分钟 đều dịch là \"phút\" nhưng khác vai trò: 分 gắn liền sau con số giờ (十点五分), còn 分钟 đứng độc lập chỉ khoảng thời gian (五分钟)."
+ },
+ "zh-numbers-time-19": {
+  "antonyms": [],
+  "characters": [
+   {
+    "char": "半",
+    "componentMeaning": "",
+    "hanViet": "BÁN",
+    "pictographicOrigin": "Chữ giáp cốt vẽ hình một con vật (牛) bị chia đôi (八) — nghĩa \"một nửa\".",
+    "radical": "十(bộ thập)",
+    "strokeCount": 5
+   }
+  ],
+  "collocations": [],
+  "compounds": [],
+  "distinguish": "",
+  "distinguishExample": "",
+  "grammarExample": "",
+  "grammarNote": "",
+  "image": "",
+  "mnemonic": "半 trông như một con vật (牛) bị chia làm đôi — chia đúng một NỬA.",
+  "partOfSpeech": "Số từ",
+  "senses": [
+   {
+    "meanings": [
+     {
+      "example": "现在八点半。 (Xiànzài bā diǎn bàn.) – Bây giờ tám giờ rưỡi.",
+      "meaning": "rưỡi, một nửa"
+     }
+    ],
+    "partOfSpeech": "Số từ"
+   }
+  ],
+  "synonyms": [],
+  "usage": "半 đặt sau số giờ để chỉ \"rưỡi\" (30 phút), tương đương 三十分."
+ },
+ "zh-numbers-time-2": {
+  "antonyms": [],
+  "characters": [
+   {
+    "char": "二",
+    "componentMeaning": "",
+    "hanViet": "NHỊ",
+    "pictographicOrigin": "Hai nét ngang chồng lên nhau — biểu thị số 2.",
+    "radical": "二(bộ nhị)",
+    "strokeCount": 2
+   }
+  ],
+  "collocations": [],
+  "compounds": [],
+  "distinguish": "\"二\" dùng đếm số thứ tự/số thuần túy; \"两\" dùng khi đi với lượng từ chỉ số lượng.",
+  "distinguishExample": "十二 (shí'èr, mười hai) nhưng 两本书 (liǎng běn shū, hai quyển sách), không nói 二本书.",
+  "grammarExample": "",
+  "grammarNote": "",
+  "image": "2️⃣",
+  "mnemonic": "二 là HAI nét ngang chồng lên nhau — đếm nét là ra số.",
+  "partOfSpeech": "Số từ",
+  "senses": [
+   {
+    "meanings": [
+     {
+      "example": "这是我第二次来。 (Zhè shì wǒ dì-èr cì lái.) – Đây là lần thứ hai tôi đến.",
+      "meaning": "hai, số 2"
+     }
+    ],
+    "partOfSpeech": "Số từ"
+   }
+  ],
+  "synonyms": [],
+  "usage": "二 dùng khi đếm số thuần túy (一二三...) hoặc số thứ tự; khi đếm SỐ LƯỢNG với lượng từ thường dùng 两 thay vì 二 (hai cái = 两个, không nói 二个)."
+ },
+ "zh-numbers-time-20": {
+  "antonyms": [],
+  "characters": [
+   {
+    "char": "年",
+    "componentMeaning": "",
+    "hanViet": "NIÊN",
+    "pictographicOrigin": "Chữ giáp cốt vẽ hình người vác bó lúa — mỗi vụ mùa gặt là một NĂM.",
+    "radical": "干(bộ can)",
+    "strokeCount": 6
+   }
+  ],
+  "collocations": [],
+  "compounds": [
+   {
+    "example": "去年我在河内。 (Qùnián wǒ zài Hénèi.) – Năm ngoái tôi ở Hà Nội.",
+    "meaning": "năm ngoái",
+    "pinyin": "qùnián",
+    "word": "去年"
+   },
+   {
+    "example": "明年我毕业。 (Míngnián wǒ bìyè.) – Năm sau tôi tốt nghiệp.",
+    "meaning": "năm sau",
+    "pinyin": "míngnián",
+    "word": "明年"
+   }
+  ],
+  "distinguish": "",
+  "distinguishExample": "",
+  "grammarExample": "",
+  "grammarNote": "",
+  "image": "📅",
+  "mnemonic": "年 trông như một người vác một bó lúa nặng trên vai — mỗi vụ gặt là một NĂM trôi qua.",
+  "partOfSpeech": "Danh từ",
+  "senses": [
+   {
+    "meanings": [
+     {
+      "example": "今年是2024年。 (Jīnnián shì èr líng èr sì nián.) – Năm nay là năm 2024.",
+      "meaning": "năm"
+     }
+    ],
+    "partOfSpeech": "Danh từ"
+   }
+  ],
+  "synonyms": [],
+  "usage": "Đọc số năm từng chữ số một, không đọc như số đếm thông thường: 2024 đọc là \"二零二四\" chứ không phải \"hai nghìn không trăm hai mươi bốn\"."
+ },
+ "zh-numbers-time-21": {
+  "antonyms": [],
+  "characters": [
+   {
+    "char": "月",
+    "componentMeaning": "",
+    "hanViet": "NGUYỆT",
+    "pictographicOrigin": "Chữ giáp cốt vẽ hình lưỡi liềm mặt trăng khuyết — nghĩa \"trăng, tháng\".",
+    "radical": "月(bộ nguyệt)",
+    "strokeCount": 4
+   }
+  ],
+  "collocations": [],
+  "compounds": [],
+  "distinguish": "",
+  "distinguishExample": "",
+  "grammarExample": "",
+  "grammarNote": "",
+  "image": "🌙",
+  "mnemonic": "月 trông giống hình lưỡi liềm của mặt TRĂNG khuyết trên trời.",
+  "partOfSpeech": "Danh từ",
+  "senses": [
+   {
+    "meanings": [
+     {
+      "example": "现在是几月？ (Xiànzài shì jǐ yuè?) – Bây giờ là tháng mấy?",
+      "meaning": "tháng"
+     }
+    ],
+    "partOfSpeech": "Danh từ"
+   }
+  ],
+  "synonyms": [],
+  "usage": "Số + 月 = tên tháng (一月 = tháng 1). Không cần thêm từ nào khác."
+ },
+ "zh-numbers-time-22": {
+  "antonyms": [],
+  "characters": [
+   {
+    "char": "日",
+    "componentMeaning": "",
+    "hanViet": "NHẬT",
+    "pictographicOrigin": "Chữ giáp cốt vẽ hình vòng tròn mặt trời có một chấm ở giữa — nghĩa \"mặt trời, ngày\".",
+    "radical": "日(bộ nhật)",
+    "strokeCount": 4
+   }
+  ],
+  "collocations": [],
+  "compounds": [],
+  "distinguish": "",
+  "distinguishExample": "",
+  "grammarExample": "",
+  "grammarNote": "",
+  "image": "☀️",
+  "mnemonic": "日 là một hình vuông có chấm ở giữa — như mặt trời (NHẬT) tròn có tâm sáng.",
+  "partOfSpeech": "Danh từ",
+  "senses": [
+   {
+    "meanings": [
+     {
+      "example": "生日是几月几日？ (Shēngrì shì jǐ yuè jǐ rì?) – Sinh nhật là ngày mấy tháng mấy?",
+      "meaning": "ngày (văn viết, trang trọng)"
+     }
+    ],
+    "partOfSpeech": "Danh từ"
+   }
+  ],
+  "synonyms": [
+   {
+    "example": "今天几号？ (Jīntiān jǐ hào?) – Hôm nay ngày mấy? (khẩu ngữ)",
+    "word": "号"
+   }
+  ],
+  "usage": "Dùng trong văn viết, giấy tờ, lịch chính thức. Trong khẩu ngữ hằng ngày thường thay bằng 号."
+ },
+ "zh-numbers-time-23": {
+  "antonyms": [],
+  "characters": [
+   {
+    "char": "天",
+    "componentMeaning": "",
+    "hanViet": "THIÊN",
+    "pictographicOrigin": "Hình người (大) với một nét ngang phía trên đầu — biểu thị bầu TRỜI trên đầu người.",
+    "radical": "大(bộ đại)",
+    "strokeCount": 4
+   }
+  ],
+  "collocations": [],
+  "compounds": [
+   {
+    "example": "今天很热。 (Jīntiān hěn rè.) – Hôm nay rất nóng.",
+    "meaning": "hôm nay",
+    "pinyin": "jīntiān",
+    "word": "今天"
+   },
+   {
+    "example": "明天见。 (Míngtiān jiàn.) – Hẹn mai gặp.",
+    "meaning": "ngày mai",
+    "pinyin": "míngtiān",
+    "word": "明天"
+   },
+   {
+    "example": "昨天我很忙。 (Zuótiān wǒ hěn máng.) – Hôm qua tôi rất bận.",
+    "meaning": "hôm qua",
+    "pinyin": "zuótiān",
+    "word": "昨天"
+   }
+  ],
+  "distinguish": "\"天\" (khẩu ngữ, đếm ngày cụ thể như 三天) khác \"日\" (văn viết, chỉ ngày trong tháng như 五日).",
+  "distinguishExample": "我在这儿三天了（đếm số ngày） vs 五月五日（ngày cụ thể）。",
+  "grammarExample": "",
+  "grammarNote": "",
+  "image": "☁️",
+  "mnemonic": "天 = 大(người dang tay) với một nét ngang trên đầu — bầu TRỜI ở trên đầu người.",
+  "partOfSpeech": "Danh từ",
+  "senses": [
+   {
+    "meanings": [
+     {
+      "example": "一天有二十四个小时。 (Yì tiān yǒu èrshísì ge xiǎoshí.) – Một ngày có 24 tiếng.",
+      "meaning": "ngày (24 giờ)"
+     },
+     {
+      "example": "今天天很蓝。 (Jīntiān tiān hěn lán.) – Hôm nay trời rất xanh.",
+      "meaning": "trời (bầu trời, thời tiết)"
+     }
+    ],
+    "partOfSpeech": "Danh từ"
+   }
+  ],
+  "synonyms": [],
+  "usage": ""
+ },
+ "zh-numbers-time-24": {
+  "antonyms": [],
+  "characters": [
+   {
+    "char": "星",
+    "componentMeaning": "sao",
+    "hanViet": "TINH",
+    "pictographicOrigin": "Bộ 日(giống chấm sáng) trên 生(sinh) — hình ảnh nhiều đốm sáng \"sinh\" ra trên trời đêm, tức các vì SAO.",
+    "radical": "日(bộ nhật)",
+    "strokeCount": 9
+   },
+   {
+    "char": "期",
+    "componentMeaning": "kỳ hạn",
+    "hanViet": "KỲ",
+    "pictographicOrigin": "Bộ 月(trăng) ghép 其 lấy âm — chu kỳ trăng tròn khuyết tạo thành \"kỳ hạn, thời kỳ\".",
+    "radical": "月(bộ nguyệt)",
+    "strokeCount": 12
+   }
+  ],
+  "collocations": [],
+  "compounds": [
+   {
+    "example": "星期一开会。 (Xīngqīyī kāihuì.) – Thứ hai họp.",
+    "meaning": "thứ hai",
+    "pinyin": "xīngqīyī",
+    "word": "星期一"
+   },
+   {
+    "example": "星期天不上班。 (Xīngqītiān bú shàngbān.) – Chủ nhật không đi làm.",
+    "meaning": "chủ nhật",
+    "pinyin": "xīngqītiān",
+    "word": "星期天"
+   }
+  ],
+  "distinguish": "",
+  "distinguishExample": "",
+  "grammarExample": "",
+  "grammarNote": "",
+  "image": "",
+  "mnemonic": "星期 = 星(sao) + 期(kỳ hạn) — các vì SAO xoay theo chu KỲ, đếm thành tuần.",
+  "partOfSpeech": "Danh từ",
+  "senses": [
+   {
+    "meanings": [
+     {
+      "example": "这个星期我很忙。 (Zhège xīngqī wǒ hěn máng.) – Tuần này tôi rất bận.",
+      "meaning": "tuần"
+     }
+    ],
+    "partOfSpeech": "Danh từ"
+   }
+  ],
+  "synonyms": [
+   {
+    "example": "这周末我要休息。 (Zhè zhōumò wǒ yào xiūxi.) – Cuối tuần này tôi muốn nghỉ ngơi.",
+    "word": "周"
+   }
+  ],
+  "usage": ""
+ },
+ "zh-numbers-time-25": {
+  "antonyms": [],
+  "characters": [
+   {
+    "char": "星",
+    "componentMeaning": "sao",
+    "hanViet": "TINH",
+    "pictographicOrigin": "Bộ 日(giống chấm sáng) trên 生(sinh) — hình ảnh nhiều đốm sáng \"sinh\" ra trên trời đêm, tức các vì SAO.",
+    "radical": "日(bộ nhật)",
+    "strokeCount": 9
+   },
+   {
+    "char": "期",
+    "componentMeaning": "kỳ",
+    "hanViet": "KỲ",
+    "pictographicOrigin": "Bộ 月(trăng) ghép 其 lấy âm — chu kỳ trăng tròn khuyết tạo thành \"kỳ hạn, thời kỳ\".",
+    "radical": "月(bộ nguyệt)",
+    "strokeCount": 12
+   },
+   {
+    "char": "一",
+    "componentMeaning": "một",
+    "hanViet": "NHẤT",
+    "pictographicOrigin": "Một nét ngang đơn giản — biểu thị số 1, số ít nhất có thể vẽ.",
+    "radical": "一(bộ nhất)",
+    "strokeCount": 1
+   }
+  ],
+  "collocations": [],
+  "compounds": [],
+  "distinguish": "",
+  "distinguishExample": "",
+  "grammarExample": "",
+  "grammarNote": "",
+  "image": "",
+  "mnemonic": "星期一 = 星期(tuần) + 一(một) — ngày đầu tiên trong tuần, THỨ HAI.",
+  "partOfSpeech": "Danh từ",
+  "senses": [
+   {
+    "meanings": [
+     {
+      "example": "星期一是第一天上班。 (Xīngqīyī shì dì-yī tiān shàngbān.) – Thứ hai là ngày đầu tiên đi làm.",
+      "meaning": "thứ hai"
+     }
+    ],
+    "partOfSpeech": "Danh từ"
+   }
+  ],
+  "synonyms": [],
+  "usage": "Các ngày trong tuần: 星期 + 一/二/三/四/五/六/天(日). Thứ hai đến thứ bảy dùng số, chủ nhật dùng 天 hoặc 日."
+ },
+ "zh-numbers-time-26": {
+  "antonyms": [],
+  "characters": [
+   {
+    "char": "星",
+    "componentMeaning": "sao",
+    "hanViet": "TINH",
+    "pictographicOrigin": "Bộ 日(giống chấm sáng) trên 生(sinh) — hình ảnh nhiều đốm sáng \"sinh\" ra trên trời đêm, tức các vì SAO.",
+    "radical": "日(bộ nhật)",
+    "strokeCount": 9
+   },
+   {
+    "char": "期",
+    "componentMeaning": "kỳ",
+    "hanViet": "KỲ",
+    "pictographicOrigin": "Bộ 月(trăng) ghép 其 lấy âm — chu kỳ trăng tròn khuyết tạo thành \"kỳ hạn, thời kỳ\".",
+    "radical": "月(bộ nguyệt)",
+    "strokeCount": 12
+   },
+   {
+    "char": "天",
+    "componentMeaning": "ngày, trời",
+    "hanViet": "THIÊN",
+    "pictographicOrigin": "Hình người (大) với một nét ngang phía trên đầu — biểu thị bầu TRỜI trên đầu người.",
+    "radical": "大(bộ đại)",
+    "strokeCount": 4
+   }
+  ],
+  "collocations": [],
+  "compounds": [],
+  "distinguish": "",
+  "distinguishExample": "",
+  "grammarExample": "",
+  "grammarNote": "",
+  "image": "",
+  "mnemonic": "星期天 = 星期(tuần) + 天(trời/ngày) — ngày cuối cùng, ngày của \"ông trời\", CHỦ NHẬT.",
+  "partOfSpeech": "Danh từ",
+  "senses": [
+   {
+    "meanings": [
+     {
+      "example": "星期天我们去公园。 (Xīngqītiān wǒmen qù gōngyuán.) – Chủ nhật chúng ta đi công viên.",
+      "meaning": "chủ nhật"
+     }
+    ],
+    "partOfSpeech": "Danh từ"
+   }
+  ],
+  "synonyms": [
+   {
+    "example": "星期日商店都开门。 (Xīngqīrì shāngdiàn dōu kāimén.) – Chủ nhật các cửa hàng đều mở cửa.",
+    "word": "星期日"
+   }
+  ],
+  "usage": ""
+ },
+ "zh-numbers-time-27": {
+  "antonyms": [
+   {
+    "example": "今天比昨天冷。 (Jīntiān bǐ zuótiān lěng.) – Hôm nay lạnh hơn hôm qua.",
+    "word": "昨天"
+   }
+  ],
+  "characters": [
+   {
+    "char": "今",
+    "componentMeaning": "nay",
+    "hanViet": "KIM",
+    "pictographicOrigin": "Chữ giáp cốt vẽ hình một cái nắp đậy trên miệng bình — mượn nghĩa \"hiện tại, nay\".",
+    "radical": "人(bộ nhân)",
+    "strokeCount": 4
+   },
+   {
+    "char": "天",
+    "componentMeaning": "ngày",
+    "hanViet": "THIÊN",
+    "pictographicOrigin": "Hình người (大) với một nét ngang phía trên đầu — biểu thị bầu TRỜI trên đầu người.",
+    "radical": "大(bộ đại)",
+    "strokeCount": 4
+   }
+  ],
+  "collocations": [],
+  "compounds": [],
+  "distinguish": "",
+  "distinguishExample": "",
+  "grammarExample": "",
+  "grammarNote": "",
+  "image": "",
+  "mnemonic": "今天 = 今(nay) + 天(ngày) — ghép \"nay\" với \"ngày\" ra HÔM NAY, dễ nhớ nhất.",
+  "partOfSpeech": "Danh từ",
+  "senses": [
+   {
+    "meanings": [
+     {
+      "example": "今天天气很好。 (Jīntiān tiānqì hěn hǎo.) – Hôm nay thời tiết rất đẹp.",
+      "meaning": "hôm nay"
+     }
+    ],
+    "partOfSpeech": "Danh từ"
+   }
+  ],
+  "synonyms": [],
+  "usage": ""
+ },
+ "zh-numbers-time-28": {
+  "antonyms": [
+   {
+    "example": "明天见，不是昨天。 (Míngtiān jiàn, bú shì zuótiān.) – Hẹn ngày mai gặp, không phải hôm qua.",
+    "word": "昨天"
+   }
+  ],
+  "characters": [
+   {
+    "char": "明",
+    "componentMeaning": "sáng, rõ",
+    "hanViet": "MINH",
+    "pictographicOrigin": "Ghép 日(mặt trời) và 月(mặt trăng) — cả hai cùng chiếu sáng thì trời rất SÁNG, rõ ràng.",
+    "radical": "日(bộ nhật)",
+    "strokeCount": 8
+   },
+   {
+    "char": "天",
+    "componentMeaning": "ngày",
+    "hanViet": "THIÊN",
+    "pictographicOrigin": "Hình người (大) với một nét ngang phía trên đầu — biểu thị bầu TRỜI trên đầu người.",
+    "radical": "大(bộ đại)",
+    "strokeCount": 4
+   }
+  ],
+  "collocations": [],
+  "compounds": [],
+  "distinguish": "",
+  "distinguishExample": "",
+  "grammarExample": "",
+  "grammarNote": "",
+  "image": "",
+  "mnemonic": "明天 = 明(sáng rõ, sắp tới) + 天(ngày) — ngày sắp SÁNG lên là NGÀY MAI.",
+  "partOfSpeech": "Danh từ",
+  "senses": [
+   {
+    "meanings": [
+     {
+      "example": "明天是星期几？ (Míngtiān shì xīngqī jǐ?) – Ngày mai là thứ mấy?",
+      "meaning": "ngày mai"
+     }
+    ],
+    "partOfSpeech": "Danh từ"
+   }
+  ],
+  "synonyms": [],
+  "usage": ""
+ },
+ "zh-numbers-time-29": {
+  "antonyms": [
+   {
+    "example": "昨天下雨，明天晴天。 (Zuótiān xiàyǔ, míngtiān qíngtiān.) – Hôm qua mưa, mai trời nắng.",
+    "word": "明天"
+   }
+  ],
+  "characters": [
+   {
+    "char": "昨",
+    "componentMeaning": "hôm qua",
+    "hanViet": "TẠC",
+    "pictographicOrigin": "Bộ 日(ngày) ghép 乍(bỗng, mới) — ngày vừa mới trôi qua, tức \"hôm qua\".",
+    "radical": "日(bộ nhật)",
+    "strokeCount": 9
+   },
+   {
+    "char": "天",
+    "componentMeaning": "ngày",
+    "hanViet": "THIÊN",
+    "pictographicOrigin": "Hình người (大) với một nét ngang phía trên đầu — biểu thị bầu TRỜI trên đầu người.",
+    "radical": "大(bộ đại)",
+    "strokeCount": 4
+   }
+  ],
+  "collocations": [],
+  "compounds": [],
+  "distinguish": "",
+  "distinguishExample": "",
+  "grammarExample": "",
+  "grammarNote": "",
+  "image": "",
+  "mnemonic": "昨天 = 昨(vừa mới) + 天(ngày) — ngày vừa mới trôi qua là HÔM QUA.",
+  "partOfSpeech": "Danh từ",
+  "senses": [
+   {
+    "meanings": [
+     {
+      "example": "昨天我没有上班。 (Zuótiān wǒ méiyǒu shàngbān.) – Hôm qua tôi không đi làm.",
+      "meaning": "hôm qua"
+     }
+    ],
+    "partOfSpeech": "Danh từ"
+   }
+  ],
+  "synonyms": [],
+  "usage": ""
+ },
+ "zh-numbers-time-3": {
+  "antonyms": [],
+  "characters": [
+   {
+    "char": "三",
+    "componentMeaning": "",
+    "hanViet": "TAM",
+    "pictographicOrigin": "Ba nét ngang chồng lên nhau — biểu thị số 3.",
+    "radical": "一(bộ nhất)",
+    "strokeCount": 3
+   }
+  ],
+  "collocations": [],
+  "compounds": [],
+  "distinguish": "",
+  "distinguishExample": "",
+  "grammarExample": "",
+  "grammarNote": "",
+  "image": "3️⃣",
+  "mnemonic": "三 là BA nét ngang — cứ thêm 1 nét lên 二 là ra 三.",
+  "partOfSpeech": "Số từ",
+  "senses": [
+   {
+    "meanings": [
+     {
+      "example": "我家有三口人。 (Wǒ jiā yǒu sān kǒu rén.) – Nhà tôi có ba người.",
+      "meaning": "ba, số 3"
+     }
+    ],
+    "partOfSpeech": "Số từ"
+   }
+  ],
+  "synonyms": [],
+  "usage": ""
+ },
+ "zh-numbers-time-30": {
+  "antonyms": [
+   {
+    "example": "现在和以前不一样。 (Xiànzài hé yǐqián bù yíyàng.) – Bây giờ và trước đây không giống nhau.",
+    "word": "以前"
+   }
+  ],
+  "characters": [
+   {
+    "char": "现",
+    "componentMeaning": "hiện",
+    "hanViet": "HIỆN",
+    "pictographicOrigin": "Bộ 王(ngọc) ghép 见(thấy) — viên ngọc lộ ra trước mắt, nghĩa \"hiện ra, bây giờ\".",
+    "radical": "王(bộ ngọc)",
+    "strokeCount": 8
+   },
+   {
+    "char": "在",
+    "componentMeaning": "tại, đang",
+    "hanViet": "TẠI",
+    "pictographicOrigin": "Bộ 土(đất) ghép 才 lấy âm — vật đang có mặt TRÊN mặt đất, nghĩa \"đang ở, tại\".",
+    "radical": "土(bộ thổ)",
+    "strokeCount": 6
+   }
+  ],
+  "collocations": [],
+  "compounds": [],
+  "distinguish": "",
+  "distinguishExample": "",
+  "grammarExample": "",
+  "grammarNote": "",
+  "image": "⏰",
+  "mnemonic": "现在 = 现(hiện ra) + 在(đang) — cái gì đang HIỆN ra trước mắt chính là BÂY GIỜ.",
+  "partOfSpeech": "Danh từ",
+  "senses": [
+   {
+    "meanings": [
+     {
+      "example": "现在几点了？ (Xiànzài jǐ diǎn le?) – Bây giờ mấy giờ rồi?",
+      "meaning": "bây giờ"
+     }
+    ],
+    "partOfSpeech": "Danh từ"
+   }
+  ],
+  "synonyms": [],
+  "usage": ""
+ },
+ "zh-numbers-time-31": {
+  "antonyms": [],
+  "characters": [
+   {
+    "char": "时",
+    "componentMeaning": "thời",
+    "hanViet": "THỜI",
+    "pictographicOrigin": "Bộ 日(mặt trời) ghép 寸(đo lường) — đo thời gian bằng vị trí mặt trời, nghĩa \"thời gian, giờ\".",
+    "radical": "日(bộ nhật)",
+    "strokeCount": 7
+   },
+   {
+    "char": "候",
+    "componentMeaning": "chờ, lúc",
+    "hanViet": "HẬU",
+    "pictographicOrigin": "Bộ 亻(người) — hình ảnh người đứng ĐỢI một thời điểm, nghĩa \"lúc, chờ\".",
+    "radical": "亻(bộ nhân)",
+    "strokeCount": 10
+   }
+  ],
+  "collocations": [],
+  "compounds": [
+   {
+    "example": "你什么时候回来？ (Nǐ shénme shíhou huílai?) – Khi nào bạn về?",
+    "meaning": "khi nào",
+    "pinyin": "shénme shíhou",
+    "word": "什么时候"
+   }
+  ],
+  "distinguish": "",
+  "distinguishExample": "",
+  "grammarExample": "吃饭的时候不要说话。 (Chīfàn de shíhou bú yào shuōhuà.) – Lúc ăn cơm đừng nói chuyện.",
+  "grammarNote": "",
+  "image": "",
+  "mnemonic": "时候 = 时(thời gian) + 候(chờ đợi) — đang CHỜ một mốc THỜI GIAN cụ thể.",
+  "partOfSpeech": "Danh từ",
+  "senses": [
+   {
+    "meanings": [
+     {
+      "example": "你什么时候来？ (Nǐ shénme shíhou lái?) – Khi nào bạn đến?",
+      "meaning": "lúc, khi"
+     }
+    ],
+    "partOfSpeech": "Danh từ"
+   }
+  ],
+  "synonyms": [],
+  "usage": "Thường dùng trong cụm \"...的时候\" (lúc...) để chỉ thời điểm xảy ra hành động."
+ },
+ "zh-numbers-time-32": {
+  "antonyms": [
+   {
+    "example": "上午上班，下午休息。 (Shàngwǔ shàngbān, xiàwǔ xiūxi.) – Sáng đi làm, chiều nghỉ ngơi.",
+    "word": "下午"
+   }
+  ],
+  "characters": [
+   {
+    "char": "上",
+    "componentMeaning": "trên",
+    "hanViet": "THƯỢNG",
+    "pictographicOrigin": "Một nét ngang dài (mặt đất) với một nét ngắn phía trên — biểu thị vị trí \"TRÊN\".",
+    "radical": "一(bộ nhất)",
+    "strokeCount": 3
+   },
+   {
+    "char": "午",
+    "componentMeaning": "buổi trưa",
+    "hanViet": "NGỌ",
+    "pictographicOrigin": "Chữ giáp cốt vẽ hình một cái chày giã gạo — mượn âm chỉ giờ NGỌ (giữa trưa).",
+    "radical": "十(bộ thập)",
+    "strokeCount": 4
+   }
+  ],
+  "collocations": [],
+  "compounds": [],
+  "distinguish": "",
+  "distinguishExample": "",
+  "grammarExample": "",
+  "grammarNote": "",
+  "image": "🌅",
+  "mnemonic": "上午 = 上(trên) + 午(trưa) — khoảng thời gian ở PHÍA TRƯỚC buổi trưa, tức BUỔI SÁNG.",
+  "partOfSpeech": "Danh từ",
+  "senses": [
+   {
+    "meanings": [
+     {
+      "example": "我上午上课。 (Wǒ shàngwǔ shàngkè.) – Buổi sáng tôi có tiết học.",
+      "meaning": "buổi sáng"
+     }
+    ],
+    "partOfSpeech": "Danh từ"
+   }
+  ],
+  "synonyms": [
+   {
+    "example": "早上好！ (Zǎoshang hǎo!) – Chào buổi sáng!",
+    "word": "早上"
+   }
+  ],
+  "usage": "上午 chỉ khoảng thời gian từ sau nửa đêm đến giữa trưa (đối lập với 下午)."
+ },
+ "zh-numbers-time-33": {
+  "antonyms": [],
+  "characters": [
+   {
+    "char": "中",
+    "componentMeaning": "giữa",
+    "hanViet": "TRUNG",
+    "pictographicOrigin": "Hình một mũi tên xuyên qua chính GIỮA một cái khiên/vòng tròn — nghĩa \"giữa, trung\".",
+    "radical": "丨(bộ cổn)",
+    "strokeCount": 4
+   },
+   {
+    "char": "午",
+    "componentMeaning": "buổi trưa",
+    "hanViet": "NGỌ",
+    "pictographicOrigin": "Chữ giáp cốt vẽ hình một cái chày giã gạo — mượn âm chỉ giờ NGỌ (giữa trưa).",
+    "radical": "十(bộ thập)",
+    "strokeCount": 4
+   }
+  ],
+  "collocations": [],
+  "compounds": [],
+  "distinguish": "",
+  "distinguishExample": "",
+  "grammarExample": "",
+  "grammarNote": "",
+  "image": "🌞",
+  "mnemonic": "中午 = 中(giữa) + 午(trưa) — đúng chính GIỮA của buổi trưa.",
+  "partOfSpeech": "Danh từ",
+  "senses": [
+   {
+    "meanings": [
+     {
+      "example": "中午我们一起吃饭吧。 (Zhōngwǔ wǒmen yìqǐ chīfàn ba.) – Trưa chúng ta cùng ăn cơm nhé.",
+      "meaning": "buổi trưa"
+     }
+    ],
+    "partOfSpeech": "Danh từ"
+   }
+  ],
+  "synonyms": [],
+  "usage": ""
+ },
+ "zh-numbers-time-34": {
+  "antonyms": [
+   {
+    "example": "他上午在家，下午出门。 (Tā shàngwǔ zài jiā, xiàwǔ chūmén.) – Sáng anh ấy ở nhà, chiều ra ngoài.",
+    "word": "上午"
+   }
+  ],
+  "characters": [
+   {
+    "char": "下",
+    "componentMeaning": "dưới",
+    "hanViet": "HẠ",
+    "pictographicOrigin": "Một nét ngang dài (mặt đất) với một nét ngắn phía dưới — biểu thị vị trí \"DƯỚI\".",
+    "radical": "一(bộ nhất)",
+    "strokeCount": 3
+   },
+   {
+    "char": "午",
+    "componentMeaning": "buổi trưa",
+    "hanViet": "NGỌ",
+    "pictographicOrigin": "Chữ giáp cốt vẽ hình một cái chày giã gạo — mượn âm chỉ giờ NGỌ (giữa trưa).",
+    "radical": "十(bộ thập)",
+    "strokeCount": 4
+   }
+  ],
+  "collocations": [],
+  "compounds": [],
+  "distinguish": "",
+  "distinguishExample": "",
+  "grammarExample": "",
+  "grammarNote": "",
+  "image": "🌇",
+  "mnemonic": "下午 = 下(dưới) + 午(trưa) — khoảng thời gian ở PHÍA SAU buổi trưa, tức BUỔI CHIỀU.",
+  "partOfSpeech": "Danh từ",
+  "senses": [
+   {
+    "meanings": [
+     {
+      "example": "下午三点有个会议。 (Xiàwǔ sān diǎn yǒu ge huìyì.) – Ba giờ chiều có một cuộc họp.",
+      "meaning": "buổi chiều"
+     }
+    ],
+    "partOfSpeech": "Danh từ"
+   }
+  ],
+  "synonyms": [],
+  "usage": ""
+ },
+ "zh-numbers-time-35": {
+  "antonyms": [
+   {
+    "example": "晚上早点睡，早上早点起。 (Wǎnshang zǎodiǎn shuì, zǎoshang zǎodiǎn qǐ.) – Tối ngủ sớm, sáng dậy sớm.",
+    "word": "早上"
+   }
+  ],
+  "characters": [
+   {
+    "char": "晚",
+    "componentMeaning": "tối, muộn",
+    "hanViet": "VÃN",
+    "pictographicOrigin": "Bộ 日(mặt trời) ghép 免 lấy âm — mặt trời sắp lặn, nghĩa \"buổi tối, muộn\".",
+    "radical": "日(bộ nhật)",
+    "strokeCount": 11
+   },
+   {
+    "char": "上",
+    "componentMeaning": "hậu tố thời gian",
+    "hanViet": "THƯỢNG",
+    "pictographicOrigin": "Một nét ngang dài (mặt đất) với một nét ngắn phía trên — biểu thị vị trí \"TRÊN\".",
+    "radical": "一(bộ nhất)",
+    "strokeCount": 3
+   }
+  ],
+  "collocations": [],
+  "compounds": [],
+  "distinguish": "",
+  "distinguishExample": "",
+  "grammarExample": "",
+  "grammarNote": "",
+  "image": "🌃",
+  "mnemonic": "晚上 = 晚(muộn) + 上(hậu tố thời gian) — khi trời đã MUỘN, tức BUỔI TỐI.",
+  "partOfSpeech": "Danh từ",
+  "senses": [
+   {
+    "meanings": [
+     {
+      "example": "晚上我看电视。 (Wǎnshang wǒ kàn diànshì.) – Buổi tối tôi xem TV.",
+      "meaning": "buổi tối"
+     }
+    ],
+    "partOfSpeech": "Danh từ"
+   }
+  ],
+  "synonyms": [],
+  "usage": ""
+ },
+ "zh-numbers-time-36": {
+  "antonyms": [
+   {
+    "example": "早上好，晚上也好。 (Zǎoshang hǎo, wǎnshang yě hǎo.) – Chào buổi sáng, chào buổi tối cũng vậy.",
+    "word": "晚上"
+   }
+  ],
+  "characters": [
+   {
+    "char": "早",
+    "componentMeaning": "sớm",
+    "hanViet": "TẢO",
+    "pictographicOrigin": "Bộ 日(mặt trời) trên 十 — mặt trời vừa nhô lên, nghĩa \"sớm\".",
+    "radical": "日(bộ nhật)",
+    "strokeCount": 6
+   },
+   {
+    "char": "上",
+    "componentMeaning": "hậu tố thời gian",
+    "hanViet": "THƯỢNG",
+    "pictographicOrigin": "Một nét ngang dài (mặt đất) với một nét ngắn phía trên — biểu thị vị trí \"TRÊN\".",
+    "radical": "一(bộ nhất)",
+    "strokeCount": 3
+   }
+  ],
+  "collocations": [],
+  "compounds": [],
+  "distinguish": "",
+  "distinguishExample": "",
+  "grammarExample": "",
+  "grammarNote": "",
+  "image": "🌄",
+  "mnemonic": "早上 = 早(sớm) + 上(hậu tố thời gian) — khi trời còn SỚM, tức BUỔI SÁNG SỚM.",
+  "partOfSpeech": "Danh từ",
+  "senses": [
+   {
+    "meanings": [
+     {
+      "example": "早上七点我出门。 (Zǎoshang qī diǎn wǒ chūmén.) – Bảy giờ sáng tôi ra khỏi nhà.",
+      "meaning": "buổi sáng sớm"
+     }
+    ],
+    "partOfSpeech": "Danh từ"
+   }
+  ],
+  "synonyms": [
+   {
+    "example": "上午我有课。 (Shàngwǔ wǒ yǒu kè.) – Buổi sáng tôi có tiết học.",
+    "word": "上午"
+   }
+  ],
+  "usage": "早上 nhấn mạnh vào khoảng thời gian sớm (bình minh đến khoảng 9-10h); 上午 rộng hơn, kéo dài đến 12h."
+ },
+ "zh-numbers-time-37": {
+  "antonyms": [],
+  "characters": [
+   {
+    "char": "小",
+    "componentMeaning": "nhỏ",
+    "hanViet": "TIỂU",
+    "pictographicOrigin": "Chữ giáp cốt vẽ ba hạt cát nhỏ li ti — nghĩa \"nhỏ, bé\".",
+    "radical": "小(bộ tiểu)",
+    "strokeCount": 3
+   },
+   {
+    "char": "时",
+    "componentMeaning": "thời gian",
+    "hanViet": "THỜI",
+    "pictographicOrigin": "Bộ 日(mặt trời) ghép 寸(đo lường) — đo thời gian bằng vị trí mặt trời, nghĩa \"thời gian, giờ\".",
+    "radical": "日(bộ nhật)",
+    "strokeCount": 7
+   }
+  ],
+  "collocations": [],
+  "compounds": [],
+  "distinguish": "\"小时\" đếm KHOẢNG THỜI GIAN (bao nhiêu tiếng); \"点\" chỉ THỜI ĐIỂM (mấy giờ).",
+  "distinguishExample": "我等了两个小时（khoảng thời gian） vs 现在两点（thời điểm）。",
+  "grammarExample": "",
+  "grammarNote": "",
+  "image": "",
+  "mnemonic": "小时 = 小(nhỏ) + 时(thời gian) — một đơn vị thời gian NHỎ để đo, tức TIẾNG ĐỒNG HỒ.",
+  "partOfSpeech": "Danh từ",
+  "senses": [
+   {
+    "meanings": [
+     {
+      "example": "我睡了八个小时。 (Wǒ shuìle bā ge xiǎoshí.) – Tôi ngủ tám tiếng.",
+      "meaning": "tiếng đồng hồ (khoảng thời gian 60 phút)"
+     }
+    ],
+    "partOfSpeech": "Danh từ"
+   }
+  ],
+  "synonyms": [],
+  "usage": "Xem phân biệt tại mục \"点\"."
+ },
+ "zh-numbers-time-38": {
+  "antonyms": [],
+  "characters": [
+   {
+    "char": "分",
+    "componentMeaning": "phút",
+    "hanViet": "PHÂN",
+    "pictographicOrigin": "Bộ 刀(dao) dưới 八(chia đôi) — hình ảnh dùng dao CHIA vật ra làm nhiều phần, nghĩa \"phân, phút\".",
+    "radical": "刀(bộ đao)",
+    "strokeCount": 4
+   },
+   {
+    "char": "钟",
+    "componentMeaning": "đồng hồ",
+    "hanViet": "CHUNG",
+    "pictographicOrigin": "Bộ 钅(kim loại) — hình ảnh cái chuông kim loại đánh báo giờ, nghĩa \"đồng hồ, phút\".",
+    "radical": "钅(bộ kim)",
+    "strokeCount": 9
+   }
+  ],
+  "collocations": [],
+  "compounds": [],
+  "distinguish": "\"分钟\" đếm KHOẢNG THỜI GIAN (mấy phút); \"分\" gắn liền sau giờ để chỉ THỜI ĐIỂM.",
+  "distinguishExample": "等五分钟（khoảng thời gian） vs 五点五分（thời điểm）。",
+  "grammarExample": "",
+  "grammarNote": "",
+  "image": "",
+  "mnemonic": "分钟 = 分(chia) + 钟(chuông đồng hồ) — CHIA nhỏ CHUÔNG đồng hồ ra thành từng PHÚT.",
+  "partOfSpeech": "Danh từ",
+  "senses": [
+   {
+    "meanings": [
+     {
+      "example": "休息十分钟。 (Xiūxi shí fēnzhōng.) – Nghỉ mười phút.",
+      "meaning": "phút (khoảng thời gian)"
+     }
+    ],
+    "partOfSpeech": "Danh từ"
+   }
+  ],
+  "synonyms": [],
+  "usage": ""
+ },
+ "zh-numbers-time-39": {
+  "antonyms": [
+   {
+    "example": "去年很难，明年会更好。 (Qùnián hěn nán, míngnián huì gèng hǎo.) – Năm ngoái khó khăn, năm sau sẽ tốt hơn.",
+    "word": "明年"
+   }
+  ],
+  "characters": [
+   {
+    "char": "去",
+    "componentMeaning": "đi qua",
+    "hanViet": "KHỨ",
+    "pictographicOrigin": "Chữ giáp cốt vẽ hình một người bước ra khỏi cửa hang — nghĩa \"đi, rời khỏi\".",
+    "radical": "厶(bộ khư)",
+    "strokeCount": 5
+   },
+   {
+    "char": "年",
+    "componentMeaning": "năm",
+    "hanViet": "NIÊN",
+    "pictographicOrigin": "Chữ giáp cốt vẽ hình người vác bó lúa — mỗi vụ mùa gặt là một NĂM.",
+    "radical": "干(bộ can)",
+    "strokeCount": 6
+   }
+  ],
+  "collocations": [],
+  "compounds": [],
+  "distinguish": "",
+  "distinguishExample": "",
+  "grammarExample": "",
+  "grammarNote": "",
+  "image": "",
+  "mnemonic": "去年 = 去(đã qua, rời đi) + 年(năm) — năm đã ĐI QUA, tức NĂM NGOÁI.",
+  "partOfSpeech": "Danh từ",
+  "senses": [
+   {
+    "meanings": [
+     {
+      "example": "去年我学习汉语。 (Qùnián wǒ xuéxí Hànyǔ.) – Năm ngoái tôi học tiếng Trung.",
+      "meaning": "năm ngoái"
+     }
+    ],
+    "partOfSpeech": "Danh từ"
+   }
+  ],
+  "synonyms": [],
+  "usage": ""
+ },
+ "zh-numbers-time-4": {
+  "antonyms": [],
+  "characters": [
+   {
+    "char": "四",
+    "componentMeaning": "",
+    "hanViet": "TỨ",
+    "pictographicOrigin": "Chữ giáp cốt vốn vẽ hình mũi và luồng hơi thở ra (tứ) — mượn âm làm số 4.",
+    "radical": "囗(bộ vi)",
+    "strokeCount": 5
+   }
+  ],
+  "collocations": [],
+  "compounds": [],
+  "distinguish": "",
+  "distinguishExample": "",
+  "grammarExample": "",
+  "grammarNote": "",
+  "image": "4️⃣",
+  "mnemonic": "四 trông như một khung cửa sổ hình VUÔNG có 4 cạnh.",
+  "partOfSpeech": "Số từ",
+  "senses": [
+   {
+    "meanings": [
+     {
+      "example": "现在四点了。 (Xiànzài sì diǎn le.) – Bây giờ là bốn giờ rồi.",
+      "meaning": "bốn, số 4"
+     }
+    ],
+    "partOfSpeech": "Số từ"
+   }
+  ],
+  "synonyms": [],
+  "usage": "Số 4 (四, sì) phát âm gần giống \"chết\" (死, sǐ) nên nhiều người Trung Quốc kiêng kỵ số này, tương tự số 13 ở phương Tây."
+ },
+ "zh-numbers-time-40": {
+  "antonyms": [
+   {
+    "example": "见分辨\"去年\"。",
+    "word": "去年"
+   }
+  ],
+  "characters": [
+   {
+    "char": "明",
+    "componentMeaning": "sắp tới",
+    "hanViet": "MINH",
+    "pictographicOrigin": "Ghép 日(mặt trời) và 月(mặt trăng) — cả hai cùng chiếu sáng thì trời rất SÁNG, rõ ràng.",
+    "radical": "日(bộ nhật)",
+    "strokeCount": 8
+   },
+   {
+    "char": "年",
+    "componentMeaning": "năm",
+    "hanViet": "NIÊN",
+    "pictographicOrigin": "Chữ giáp cốt vẽ hình người vác bó lúa — mỗi vụ mùa gặt là một NĂM.",
+    "radical": "干(bộ can)",
+    "strokeCount": 6
+   }
+  ],
+  "collocations": [],
+  "compounds": [],
+  "distinguish": "",
+  "distinguishExample": "",
+  "grammarExample": "",
+  "grammarNote": "",
+  "image": "",
+  "mnemonic": "明年 = 明(sắp tới) + 年(năm) — năm SẮP đến, tức NĂM SAU.",
+  "partOfSpeech": "Danh từ",
+  "senses": [
+   {
+    "meanings": [
+     {
+      "example": "明年我想去中国。 (Míngnián wǒ xiǎng qù Zhōngguó.) – Năm sau tôi muốn đi Trung Quốc.",
+      "meaning": "năm sau"
+     }
+    ],
+    "partOfSpeech": "Danh từ"
+   }
+  ],
+  "synonyms": [],
+  "usage": ""
+ },
+ "zh-numbers-time-41": {
+  "antonyms": [],
+  "characters": [
+   {
+    "char": "生",
+    "componentMeaning": "sinh",
+    "hanViet": "SINH",
+    "pictographicOrigin": "Chữ giáp cốt vẽ hình một mầm cây nhú lên khỏi mặt đất — nghĩa \"sinh ra, sống\".",
+    "radical": "生(bộ sinh)",
+    "strokeCount": 5
+   },
+   {
+    "char": "日",
+    "componentMeaning": "ngày",
+    "hanViet": "NHẬT",
+    "pictographicOrigin": "Chữ giáp cốt vẽ hình vòng tròn mặt trời có một chấm ở giữa — nghĩa \"mặt trời, ngày\".",
+    "radical": "日(bộ nhật)",
+    "strokeCount": 4
+   }
+  ],
+  "collocations": [
+   {
+    "example": "生日快乐，祝你健康幸福！ (Shēngrì kuàilè, zhù nǐ jiànkāng xìngfú!) – Chúc mừng sinh nhật, chúc bạn khỏe mạnh hạnh phúc!",
+    "meaning": "chúc mừng sinh nhật",
+    "phrase": "生日快乐",
+    "pinyin": "shēngrì kuàilè"
+   }
+  ],
+  "compounds": [],
+  "distinguish": "",
+  "distinguishExample": "",
+  "grammarExample": "",
+  "grammarNote": "",
+  "image": "🎂",
+  "mnemonic": "生日 = 生(sinh ra) + 日(ngày) — ngày mình được SINH ra, tức SINH NHẬT.",
+  "partOfSpeech": "Danh từ",
+  "senses": [
+   {
+    "meanings": [
+     {
+      "example": "祝你生日快乐！ (Zhù nǐ shēngrì kuàilè!) – Chúc mừng sinh nhật bạn!",
+      "meaning": "sinh nhật"
+     }
+    ],
+    "partOfSpeech": "Danh từ"
+   }
+  ],
+  "synonyms": [],
+  "usage": ""
+ },
+ "zh-numbers-time-42": {
+  "antonyms": [],
+  "characters": [
+   {
+    "char": "岁",
+    "componentMeaning": "",
+    "hanViet": "TUẾ",
+    "pictographicOrigin": "Chữ giản thể, nghĩa gốc liên quan đến chu kỳ sao Mộc quay quanh — dùng đếm \"tuổi\".",
+    "radical": "山(bộ sơn)",
+    "strokeCount": 6
+   }
+  ],
+  "collocations": [],
+  "compounds": [],
+  "distinguish": "",
+  "distinguishExample": "",
+  "grammarExample": "我五岁。 (Wǒ wǔ suì.) – Tôi năm tuổi.",
+  "grammarNote": "",
+  "image": "",
+  "mnemonic": "岁 trông như chữ 山(núi) trên đầu — mỗi năm leo thêm một \"ngọn núi TUỔI\" mới.",
+  "partOfSpeech": "Lượng từ",
+  "senses": [
+   {
+    "meanings": [
+     {
+      "example": "你今年多大岁数？ (Nǐ jīnnián duōdà suìshù?) – Năm nay bạn bao nhiêu tuổi?",
+      "meaning": "tuổi"
+     }
+    ],
+    "partOfSpeech": "Lượng từ"
+   }
+  ],
+  "synonyms": [],
+  "usage": "Cấu trúc hỏi tuổi: 你几岁？(hỏi trẻ em) hoặc 你多大？(hỏi người lớn) — số + 岁 để trả lời."
+ },
+ "zh-numbers-time-43": {
+  "antonyms": [
+   {
+    "example": "以前很难，以后会容易。 (Yǐqián hěn nán, yǐhòu huì róngyì.) – Trước đây khó, sau này sẽ dễ.",
+    "word": "以后"
+   }
+  ],
+  "characters": [
+   {
+    "char": "以",
+    "componentMeaning": "lấy",
+    "hanViet": "DĨ",
+    "pictographicOrigin": "Chữ giáp cốt vẽ hình một cái cày — nghĩa gốc \"dùng\", nay dùng làm giới từ \"lấy, để\".",
+    "radical": "人(bộ nhân)",
+    "strokeCount": 4
+   },
+   {
+    "char": "前",
+    "componentMeaning": "trước",
+    "hanViet": "TIỀN",
+    "pictographicOrigin": "Chữ giáp cốt vẽ hình một chiếc thuyền (舟) với bàn chân (止) — người bước lên thuyền tiến về PHÍA TRƯỚC.",
+    "radical": "刀(bộ đao)",
+    "strokeCount": 9
+   }
+  ],
+  "collocations": [],
+  "compounds": [],
+  "distinguish": "",
+  "distinguishExample": "",
+  "grammarExample": "",
+  "grammarNote": "",
+  "image": "",
+  "mnemonic": "以前 = 以(lấy, dùng) + 前(trước) — lấy mốc thời gian TRƯỚC làm chuẩn, tức TRƯỚC ĐÂY.",
+  "partOfSpeech": "Danh từ",
+  "senses": [
+   {
+    "meanings": [
+     {
+      "example": "我以前不会说汉语。 (Wǒ yǐqián bú huì shuō Hànyǔ.) – Trước đây tôi không biết nói tiếng Trung.",
+      "meaning": "trước đây"
+     }
+    ],
+    "partOfSpeech": "Danh từ"
+   }
+  ],
+  "synonyms": [],
+  "usage": ""
+ },
+ "zh-numbers-time-44": {
+  "antonyms": [
+   {
+    "example": "见分辨\"以前\"。",
+    "word": "以前"
+   }
+  ],
+  "characters": [
+   {
+    "char": "以",
+    "componentMeaning": "lấy",
+    "hanViet": "DĨ",
+    "pictographicOrigin": "Chữ giáp cốt vẽ hình một cái cày — nghĩa gốc \"dùng\", nay dùng làm giới từ \"lấy, để\".",
+    "radical": "人(bộ nhân)",
+    "strokeCount": 4
+   },
+   {
+    "char": "后",
+    "componentMeaning": "sau",
+    "hanViet": "HẬU",
+    "pictographicOrigin": "Chữ giản thể (mượn từ 後), nghĩa \"phía sau, sau này\".",
+    "radical": "口(bộ khẩu)",
+    "strokeCount": 6
+   }
+  ],
+  "collocations": [],
+  "compounds": [],
+  "distinguish": "",
+  "distinguishExample": "",
+  "grammarExample": "",
+  "grammarNote": "",
+  "image": "",
+  "mnemonic": "以后 = 以(lấy) + 后(sau) — lấy mốc thời gian SAU làm chuẩn, tức SAU NÀY.",
+  "partOfSpeech": "Danh từ",
+  "senses": [
+   {
+    "meanings": [
+     {
+      "example": "以后我会更努力。 (Yǐhòu wǒ huì gèng nǔlì.) – Sau này tôi sẽ nỗ lực hơn.",
+      "meaning": "sau này"
+     }
+    ],
+    "partOfSpeech": "Danh từ"
+   }
+  ],
+  "synonyms": [],
+  "usage": ""
+ },
+ "zh-numbers-time-45": {
+  "antonyms": [
+   {
+    "example": "早睡早起，别太晚。 (Zǎo shuì zǎo qǐ, bié tài wǎn.) – Ngủ sớm dậy sớm, đừng quá muộn.",
+    "word": "晚"
+   }
+  ],
+  "characters": [
+   {
+    "char": "早",
+    "componentMeaning": "",
+    "hanViet": "TẢO",
+    "pictographicOrigin": "Bộ 日(mặt trời) trên 十 — mặt trời vừa nhô lên, nghĩa \"sớm\".",
+    "radical": "日(bộ nhật)",
+    "strokeCount": 6
+   }
+  ],
+  "collocations": [],
+  "compounds": [],
+  "distinguish": "",
+  "distinguishExample": "",
+  "grammarExample": "",
+  "grammarNote": "",
+  "image": "",
+  "mnemonic": "早 = 日(mặt trời) trên 十 — mặt trời vừa nhô lên khỏi đường chân trời, tức SỚM.",
+  "partOfSpeech": "Tính từ",
+  "senses": [
+   {
+    "meanings": [
+     {
+      "example": "你来得很早。 (Nǐ lái de hěn zǎo.) – Bạn đến rất sớm.",
+      "meaning": "sớm"
+     }
+    ],
+    "partOfSpeech": "Tính từ"
+   }
+  ],
+  "synonyms": [],
+  "usage": ""
+ },
+ "zh-numbers-time-46": {
+  "antonyms": [
+   {
+    "example": "见分辨\"早\"。",
+    "word": "早"
+   }
+  ],
+  "characters": [
+   {
+    "char": "晚",
+    "componentMeaning": "",
+    "hanViet": "VÃN",
+    "pictographicOrigin": "Bộ 日(mặt trời) ghép 免 lấy âm — mặt trời sắp lặn, nghĩa \"buổi tối, muộn\".",
+    "radical": "日(bộ nhật)",
+    "strokeCount": 11
+   }
+  ],
+  "collocations": [],
+  "compounds": [
+   {
+    "example": "晚上见。 (Wǎnshang jiàn.) – Tối gặp.",
+    "meaning": "buổi tối",
+    "pinyin": "wǎnshang",
+    "word": "晚上"
+   }
+  ],
+  "distinguish": "",
+  "distinguishExample": "",
+  "grammarExample": "",
+  "grammarNote": "",
+  "image": "",
+  "mnemonic": "晚 = 日(mặt trời) + 免(thoát ra) — mặt trời sắp \"thoát\" khỏi bầu trời, lặn xuống, tức MUỘN.",
+  "partOfSpeech": "Tính từ",
+  "senses": [
+   {
+    "meanings": [
+     {
+      "example": "对不起，我来晚了。 (Duìbuqǐ, wǒ lái wǎn le.) – Xin lỗi, tôi đến muộn.",
+      "meaning": "muộn, trễ"
+     }
+    ],
+    "partOfSpeech": "Tính từ"
+   }
+  ],
+  "synonyms": [],
+  "usage": ""
+ },
+ "zh-numbers-time-47": {
+  "antonyms": [],
+  "characters": [
+   {
+    "char": "周",
+    "componentMeaning": "tuần",
+    "hanViet": "CHU",
+    "pictographicOrigin": "Chữ giáp cốt vẽ hình ruộng có lúa trồng đều khắp — nghĩa \"khắp, chu kỳ\", nay chỉ \"tuần\".",
+    "radical": "口(bộ khẩu)",
+    "strokeCount": 8
+   },
+   {
+    "char": "末",
+    "componentMeaning": "cuối",
+    "hanViet": "MẠT",
+    "pictographicOrigin": "Chữ 木(cây) thêm một nét ngang ở NGỌN cây — chỉ phần cuối cùng, \"cuối, mạt\".",
+    "radical": "木(bộ mộc)",
+    "strokeCount": 5
+   }
+  ],
+  "collocations": [],
+  "compounds": [],
+  "distinguish": "",
+  "distinguishExample": "",
+  "grammarExample": "",
+  "grammarNote": "",
+  "image": "🎉",
+  "mnemonic": "周末 = 周(tuần) + 末(ngọn cây, cuối) — phần NGỌN, phần CUỐI của tuần, tức CUỐI TUẦN.",
+  "partOfSpeech": "Danh từ",
+  "senses": [
+   {
+    "meanings": [
+     {
+      "example": "周末你有什么计划？ (Zhōumò nǐ yǒu shénme jìhuà?) – Cuối tuần bạn có kế hoạch gì?",
+      "meaning": "cuối tuần"
+     }
+    ],
+    "partOfSpeech": "Danh từ"
+   }
+  ],
+  "synonyms": [],
+  "usage": ""
+ },
+ "zh-numbers-time-48": {
+  "antonyms": [],
+  "characters": [
+   {
+    "char": "块",
+    "componentMeaning": "",
+    "hanViet": "KHOÁI",
+    "pictographicOrigin": "Bộ 土(đất) ghép 夬 lấy âm — hình ảnh một MIẾNG/CỤC đất, dùng đếm tiền/vật thể.",
+    "radical": "土(bộ thổ)",
+    "strokeCount": 7
+   }
+  ],
+  "collocations": [],
+  "compounds": [],
+  "distinguish": "",
+  "distinguishExample": "",
+  "grammarExample": "",
+  "grammarNote": "",
+  "image": "💵",
+  "mnemonic": "块 = 土(đất) + 夬 — một CỤC đất hay một MIẾNG tiền kim loại.",
+  "partOfSpeech": "Lượng từ",
+  "senses": [
+   {
+    "meanings": [
+     {
+      "example": "这个五十块钱。 (Zhège wǔshí kuài qián.) – Cái này năm mươi đồng.",
+      "meaning": "đồng (đơn vị tiền, khẩu ngữ)"
+     },
+     {
+      "example": "一块蛋糕。 (Yí kuài dàngāo.) – Một miếng bánh.",
+      "meaning": "miếng, cục (đơn vị chỉ vật thể)"
+     }
+    ],
+    "partOfSpeech": "Lượng từ"
+   }
+  ],
+  "synonyms": [
+   {
+    "example": "一百元 (yìbǎi yuán) – một trăm đồng (văn viết).",
+    "word": "元"
+   }
+  ],
+  "usage": "块 là cách nói khẩu ngữ của đơn vị tiền tệ 元 (yuán) — giống như \"đồng\" so với \"VNĐ\" trong tiếng Việt."
+ },
+ "zh-numbers-time-49": {
+  "antonyms": [],
+  "characters": [
+   {
+    "char": "钱",
+    "componentMeaning": "",
+    "hanViet": "TIỀN",
+    "pictographicOrigin": "Bộ 钅(kim loại) — tiền cổ đúc bằng kim loại, nghĩa \"tiền\".",
+    "radical": "钅(bộ kim)",
+    "strokeCount": 10
+   }
+  ],
+  "collocations": [
+   {
+    "example": "这个多少钱？ (Zhège duōshao qián?) – Cái này bao nhiêu tiền?",
+    "meaning": "bao nhiêu tiền",
+    "phrase": "多少钱",
+    "pinyin": "duōshao qián"
+   }
+  ],
+  "compounds": [],
+  "distinguish": "",
+  "distinguishExample": "",
+  "grammarExample": "",
+  "grammarNote": "",
+  "image": "💰",
+  "mnemonic": "钱 = 钅(kim loại) — hình dung đồng TIỀN xu bằng kim loại xưa.",
+  "partOfSpeech": "Danh từ",
+  "senses": [
+   {
+    "meanings": [
+     {
+      "example": "你有钱吗？ (Nǐ yǒu qián ma?) – Bạn có tiền không?",
+      "meaning": "tiền"
+     }
+    ],
+    "partOfSpeech": "Danh từ"
+   }
+  ],
+  "synonyms": [],
+  "usage": ""
+ },
+ "zh-numbers-time-5": {
+  "antonyms": [],
+  "characters": [
+   {
+    "char": "五",
+    "componentMeaning": "",
+    "hanViet": "NGŨ",
+    "pictographicOrigin": "Chữ giáp cốt vẽ hình hai nét gạch chéo giao nhau — biểu thị số 5.",
+    "radical": "二(bộ nhị)",
+    "strokeCount": 4
+   }
+  ],
+  "collocations": [],
+  "compounds": [],
+  "distinguish": "",
+  "distinguishExample": "",
+  "grammarExample": "",
+  "grammarNote": "",
+  "image": "5️⃣",
+  "mnemonic": "五 trông như hai nét gạch chéo bắt X — hình dung bàn tay có 5 ngón xòe chéo nhau.",
+  "partOfSpeech": "Số từ",
+  "senses": [
+   {
+    "meanings": [
+     {
+      "example": "五月是春天。 (Wǔyuè shì chūntiān.) – Tháng năm là mùa xuân.",
+      "meaning": "năm, số 5"
+     }
+    ],
+    "partOfSpeech": "Số từ"
+   }
+  ],
+  "synonyms": [],
+  "usage": ""
+ },
+ "zh-numbers-time-50": {
+  "antonyms": [],
+  "characters": [
+   {
+    "char": "第",
+    "componentMeaning": "thứ",
+    "hanViet": "ĐỆ",
+    "pictographicOrigin": "Bộ 竹(tre) — thẻ tre được đánh số THỨ TỰ thời cổ, nghĩa \"thứ, hạng\".",
+    "radical": "竹(bộ trúc)",
+    "strokeCount": 11
+   },
+   {
+    "char": "一",
+    "componentMeaning": "một",
+    "hanViet": "NHẤT",
+    "pictographicOrigin": "Một nét ngang đơn giản — biểu thị số 1, số ít nhất có thể vẽ.",
+    "radical": "一(bộ nhất)",
+    "strokeCount": 1
+   }
+  ],
+  "collocations": [],
+  "compounds": [],
+  "distinguish": "",
+  "distinguishExample": "",
+  "grammarExample": "第三课 (dì-sān kè) – bài học thứ ba.",
+  "grammarNote": "",
+  "image": "🥇",
+  "mnemonic": "第一 = 第(thứ tự, làm từ thẻ tre 竹) + 一(một) — tấm thẻ tre đánh số THỨ NHẤT.",
+  "partOfSpeech": "Số từ",
+  "senses": [
+   {
+    "meanings": [
+     {
+      "example": "他考了第一名。 (Tā kǎole dì-yī míng.) – Anh ấy thi được hạng nhất.",
+      "meaning": "thứ nhất"
+     }
+    ],
+    "partOfSpeech": "Số từ"
+   }
+  ],
+  "synonyms": [],
+  "usage": "第 + số = số thứ tự (第一, 第二, 第三...), tương đương \"thứ nhất, thứ hai\" trong tiếng Việt."
+ },
+ "zh-numbers-time-6": {
+  "antonyms": [],
+  "characters": [
+   {
+    "char": "六",
+    "componentMeaning": "",
+    "hanViet": "LỤC",
+    "pictographicOrigin": "Chữ giáp cốt vốn vẽ hình một túp lều — mượn âm làm số 6.",
+    "radical": "八(bộ bát)",
+    "strokeCount": 4
+   }
+  ],
+  "collocations": [],
+  "compounds": [],
+  "distinguish": "",
+  "distinguishExample": "",
+  "grammarExample": "",
+  "grammarNote": "",
+  "image": "6️⃣",
+  "mnemonic": "六 trông như một mái LỀU có 2 cột chống — số 6 may mắn, mái lều che chở.",
+  "partOfSpeech": "Số từ",
+  "senses": [
+   {
+    "meanings": [
+     {
+      "example": "我六点起床。 (Wǒ liù diǎn qǐchuáng.) – Tôi dậy lúc sáu giờ.",
+      "meaning": "sáu, số 6"
+     }
+    ],
+    "partOfSpeech": "Số từ"
+   }
+  ],
+  "synonyms": [],
+  "usage": "Số 6 (六, liù) được coi là số may mắn, tượng trưng cho sự thuận lợi (liu = trôi chảy)."
+ },
+ "zh-numbers-time-7": {
+  "antonyms": [],
+  "characters": [
+   {
+    "char": "七",
+    "componentMeaning": "",
+    "hanViet": "THẤT",
+    "pictographicOrigin": "Chữ giáp cốt vẽ hình một nét cắt ngang qua — mượn âm làm số 7.",
+    "radical": "一(bộ nhất)",
+    "strokeCount": 2
+   }
+  ],
+  "collocations": [],
+  "compounds": [],
+  "distinguish": "",
+  "distinguishExample": "",
+  "grammarExample": "",
+  "grammarNote": "",
+  "image": "7️⃣",
+  "mnemonic": "七 trông như một cây thập tự bị cắt ngang — nhớ hình chữ thập gãy.",
+  "partOfSpeech": "Số từ",
+  "senses": [
+   {
+    "meanings": [
+     {
+      "example": "一星期有七天。 (Yì xīngqī yǒu qī tiān.) – Một tuần có bảy ngày.",
+      "meaning": "bảy, số 7"
+     }
+    ],
+    "partOfSpeech": "Số từ"
+   }
+  ],
+  "synonyms": [],
+  "usage": ""
+ },
+ "zh-numbers-time-8": {
+  "antonyms": [],
+  "characters": [
+   {
+    "char": "八",
+    "componentMeaning": "",
+    "hanViet": "BÁT",
+    "pictographicOrigin": "Hai nét chéo tách ra hai bên — hình ảnh vật bị CHIA làm đôi, mượn làm số 8.",
+    "radical": "八(bộ bát)",
+    "strokeCount": 2
+   }
+  ],
+  "collocations": [],
+  "compounds": [],
+  "distinguish": "",
+  "distinguishExample": "",
+  "grammarExample": "",
+  "grammarNote": "",
+  "image": "8️⃣",
+  "mnemonic": "八 là hai nét tách ra như đang chia đôi cái bánh — số 8 phát tài, chia lộc.",
+  "partOfSpeech": "Số từ",
+  "senses": [
+   {
+    "meanings": [
+     {
+      "example": "我们八点见。 (Wǒmen bā diǎn jiàn.) – Chúng ta gặp lúc tám giờ.",
+      "meaning": "tám, số 8"
+     }
+    ],
+    "partOfSpeech": "Số từ"
+   }
+  ],
+  "synonyms": [],
+  "usage": "Số 8 (八, bā) phát âm gần giống \"phát\" (发, fā) trong \"phát tài\", nên được coi là số may mắn nhất, rất được ưa chuộng ở Trung Quốc."
+ },
+ "zh-numbers-time-9": {
+  "antonyms": [],
+  "characters": [
+   {
+    "char": "九",
+    "componentMeaning": "",
+    "hanViet": "CỬU",
+    "pictographicOrigin": "Chữ giáp cốt vẽ hình một cánh tay cong lại — mượn âm làm số 9.",
+    "radical": "乙(bộ ất)",
+    "strokeCount": 2
+   }
+  ],
+  "collocations": [],
+  "compounds": [],
+  "distinguish": "",
+  "distinguishExample": "",
+  "grammarExample": "",
+  "grammarNote": "",
+  "image": "9️⃣",
+  "mnemonic": "九 trông như một móc câu cong — hình dung cần câu cá số 9.",
+  "partOfSpeech": "Số từ",
+  "senses": [
+   {
+    "meanings": [
+     {
+      "example": "他九岁了。 (Tā jiǔ suì le.) – Cậu ấy chín tuổi rồi.",
+      "meaning": "chín, số 9"
+     }
+    ],
+    "partOfSpeech": "Số từ"
+   }
+  ],
+  "synonyms": [],
+  "usage": ""
  }
 }
