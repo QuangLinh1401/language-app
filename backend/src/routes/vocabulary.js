@@ -176,11 +176,18 @@ router.get("/daily-session", asyncHandler(async (req, res) => {
 
   const newWords = [...alreadyPicked, ...freshPicked];
 
+  // "Introduced" only counts as progress once the word has actually been
+  // studied (graded at least once) — merely queuing it up by opening the
+  // app shouldn't fill the daily goal bar.
+  const studiedToday = getDailyNewWordIds(req.state, date)
+    .filter((id) => (lang === "zh") === id.startsWith("zh-"))
+    .filter((id) => req.state.wordProgress[id]).length;
+
   res.json({
     due,
     newWords,
     dailyNewLimit,
-    newIntroducedToday: getDailyNewWordIds(req.state, date).filter((id) => (lang === "zh") === id.startsWith("zh-")).length
+    newIntroducedToday: studiedToday
   });
 }));
 

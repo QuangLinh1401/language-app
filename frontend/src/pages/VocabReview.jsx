@@ -111,7 +111,7 @@ export default function VocabReview() {
           <div style={{ flex: 1 }}>
             <b style={{ fontSize: 13 }}>New words to learn</b>
             <div style={{ fontSize: 10.5, color: "var(--ink-soft)", marginTop: 2 }}>
-              Words you've never studied · {session.newIntroducedToday}/{session.dailyNewLimit} introduced today
+              Words you've never studied · {session.newIntroducedToday}/{session.dailyNewLimit} learned today
             </div>
           </div>
         </div>
