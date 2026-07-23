@@ -10,7 +10,7 @@ import Pager from "../components/Pager.jsx";
 import { speak } from "../speech.js";
 
 
-const levels = appLang() === "zh" ? ["all", "HSK1", "HSK2"] : ["all", "A1", "A2", "B1", "B2"];
+const levels = appLang() === "zh" ? ["all", "HSK1", "HSK2", "HSK3", "HSK4", "HSK5", "HSK6"] : ["all", "A1", "A2", "B1", "B2"];
 const statusTabs = [
   { id: "new", label: "New", anim: "/icons/sparkle.lottie.json", svg: "/icons/sparkle.svg" },
   { id: "learning", label: "Learning", anim: "/icons/vocabulary.lottie.json", svg: "/icons/vocabulary.svg" },

@@ -91,7 +91,7 @@ const PLAN_DURATIONS = [
 const SKILL_ICONS = { grammar: "/icons/grammar.svg", listening: "/icons/listening.svg", reading: "/icons/reading.svg" };
 
 const MODULES = [
-  { to: "/vocabulary", icon: "/icons/vocabulary.svg", anim: "/icons/vocabulary.lottie.json", bg: "var(--teal-soft)", name: "Vocabulary", desc: "5000 words, A1 to B2", zhDesc: "1080 từ HSK1–HSK2 · 汉语" },
+  { to: "/vocabulary", icon: "/icons/vocabulary.svg", anim: "/icons/vocabulary.lottie.json", bg: "var(--teal-soft)", name: "Vocabulary", desc: "5000 words, A1 to B2", zhDesc: "2100 từ HSK1–HSK6 · 汉语" },
   { to: "/grammar", icon: "/icons/grammar.svg", anim: "/icons/grammar.lottie.json", bg: "var(--violet-soft)", name: "Grammar", desc: "86 lessons, A1 to B2", zhDesc: "20 bài ngữ pháp HSK1" },
   { to: "/listening", icon: "/icons/listening.svg", anim: "/icons/listening.lottie.json", bg: "var(--blue-soft)", name: "Listening", desc: "30 listening lessons", zhDesc: "12 bài nghe hội thoại" },
   { to: "/reading", icon: "/icons/reading.svg", bg: "var(--orange-soft)", name: "Reading", desc: "20 passages + quizzes", zhDesc: "10 bài đọc + quiz" },
@@ -371,7 +371,7 @@ export default function Home() {
               <p className="sub" style={{ marginTop: 2 }}>Mỗi ngôn ngữ có lộ trình và tiến độ riêng.</p>
               {[
                 { code: "en", flag: "🇬🇧", name: "English", desc: "5000 từ A1–B2 · grammar · listening · reading · speaking" },
-                { code: "zh", flag: "🇨🇳", name: "中文 (Tiếng Trung)", desc: "HSK1–HSK2 · 1080 từ · ngữ pháp · nghe · đọc · nói" }
+                { code: "zh", flag: "🇨🇳", name: "中文 (Tiếng Trung)", desc: "HSK1–HSK6 · 2100 từ · ngữ pháp · nghe · đọc · nói" }
               ].map((opt) => (
                 <button
                   key={opt.code}
