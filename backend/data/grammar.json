@@ -1,2402 +1,3697 @@
 {
-  "lessons": [
+ "lessons": [
+  {
+   "id": "g01",
+   "level": "A1",
+   "title": "The verb \"to be\" (am/is/are)",
+   "theory": "Dùng am với I, is với he/she/it, are với you/we/they. Đây là động từ quan trọng nhất để giới thiệu bản thân, mô tả người/vật.",
+   "examples": [
+    "I am a student.",
+    "She is happy.",
+    "They are from Vietnam."
+   ],
+   "exercises": [
     {
-      "id": "g01",
-      "level": "A1",
-      "title": "The verb \"to be\" (am/is/are)",
-      "theory": "Dùng am với I, is với he/she/it, are với you/we/they. Đây là động từ quan trọng nhất để giới thiệu bản thân, mô tả người/vật.",
-      "examples": [
-        "I am a student.",
-        "She is happy.",
-        "They are from Vietnam."
-      ],
-      "exercises": [
-        {
-          "id": "g01-e1",
-          "sentence": "She ___ a teacher.",
-          "answer": "is"
-        },
-        {
-          "id": "g01-e2",
-          "sentence": "We ___ friends.",
-          "answer": "are"
-        },
-        {
-          "id": "g01-e3",
-          "sentence": "I ___ tired today.",
-          "answer": "am"
-        }
-      ]
+     "id": "g01-e1",
+     "sentence": "She ___ a teacher.",
+     "answer": "is"
     },
     {
-      "id": "g02",
-      "level": "A1",
-      "title": "Plural nouns",
-      "theory": "Thêm -s vào hầu hết danh từ (book → books). Danh từ tận cùng bằng s/x/ch/sh thêm -es (box → boxes). Một số danh từ bất quy tắc: child → children, man → men.",
-      "examples": [
-        "I have two books.",
-        "There are three boxes.",
-        "The children are playing."
-      ],
-      "exercises": [
-        {
-          "id": "g02-e1",
-          "sentence": "She has two ___ (dog).",
-          "answer": "dogs"
-        },
-        {
-          "id": "g02-e2",
-          "sentence": "There are five ___ (box) here.",
-          "answer": "boxes"
-        },
-        {
-          "id": "g02-e3",
-          "sentence": "Those ___ (child) are noisy.",
-          "answer": "children"
-        }
-      ]
+     "id": "g01-e2",
+     "sentence": "We ___ friends.",
+     "answer": "are"
     },
     {
-      "id": "g03",
-      "level": "A1",
-      "title": "Articles a / an / the",
-      "theory": "Dùng \"a\" trước danh từ số ít bắt đầu bằng phụ âm, \"an\" trước nguyên âm (a/e/i/o/u). Dùng \"the\" khi nói về vật cụ thể mà người nghe đã biết.",
-      "examples": [
-        "I have a cat.",
-        "She bought an apple.",
-        "The sun is bright today."
-      ],
-      "exercises": [
-        {
-          "id": "g03-e1",
-          "sentence": "I saw ___ elephant at the zoo.",
-          "answer": "an"
-        },
-        {
-          "id": "g03-e2",
-          "sentence": "He is ___ doctor.",
-          "answer": "a"
-        },
-        {
-          "id": "g03-e3",
-          "sentence": "Close ___ door, please.",
-          "answer": "the"
-        }
-      ]
+     "id": "g01-e3",
+     "sentence": "I ___ tired today.",
+     "answer": "am"
     },
     {
-      "id": "g04",
-      "level": "A1",
-      "title": "Possessive adjectives (my, your, his, her...)",
-      "theory": "Tính từ sở hữu đứng trước danh từ để chỉ vật thuộc về ai: my, your, his, her, its, our, their.",
-      "examples": [
-        "This is my bag.",
-        "Her name is Lan.",
-        "Their house is big."
-      ],
-      "exercises": [
-        {
-          "id": "g04-e1",
-          "sentence": "This is ___ (I) book.",
-          "answer": "my"
-        },
-        {
-          "id": "g04-e2",
-          "sentence": "Is this ___ (she) phone?",
-          "answer": "her"
-        },
-        {
-          "id": "g04-e3",
-          "sentence": "___ (they) car is new.",
-          "answer": "Their"
-        }
-      ]
+     "id": "g01-e4",
+     "sentence": "My parents ___ doctors.",
+     "answer": "are"
     },
     {
-      "id": "g05",
-      "level": "A1",
-      "title": "There is / There are",
-      "theory": "Dùng \"There is\" với danh từ số ít/không đếm được, \"There are\" với danh từ số nhiều, để nói về sự tồn tại của vật/người.",
-      "examples": [
-        "There is a cat on the table.",
-        "There are ten students in the room."
-      ],
-      "exercises": [
-        {
-          "id": "g05-e1",
-          "sentence": "___ a book on the desk.",
-          "answer": "There is"
-        },
-        {
-          "id": "g05-e2",
-          "sentence": "___ many people at the park.",
-          "answer": "There are"
-        },
-        {
-          "id": "g05-e3",
-          "sentence": "___ some milk in the fridge.",
-          "answer": "There is"
-        }
-      ]
+     "id": "g01-e5",
+     "sentence": "It ___ very cold outside.",
+     "answer": "is"
     },
     {
-      "id": "g06",
-      "level": "A1",
-      "title": "Simple Present",
-      "theory": "Dùng để nói về thói quen, sự thật hiển nhiên. Công thức: S + V(s/es) với he/she/it, S + V với I/you/we/they.",
-      "examples": [
-        "She works in a bank.",
-        "I go to school every day.",
-        "Water boils at 100 degrees."
-      ],
-      "exercises": [
-        {
-          "id": "g06-e1",
-          "sentence": "He ___ (work) every day.",
-          "answer": "works"
-        },
-        {
-          "id": "g06-e2",
-          "sentence": "They ___ (live) in Hanoi.",
-          "answer": "live"
-        },
-        {
-          "id": "g06-e3",
-          "sentence": "She ___ (not, like) coffee.",
-          "answer": "does not like"
-        }
-      ]
-    },
-    {
-      "id": "g07",
-      "level": "A1",
-      "title": "Prepositions of place (in / on / at)",
-      "theory": "\"in\" cho không gian lớn (in a city, in a room), \"on\" cho bề mặt (on the table), \"at\" cho địa điểm cụ thể (at the door, at school).",
-      "examples": [
-        "She lives in Hanoi.",
-        "The book is on the table.",
-        "I'll meet you at the station."
-      ],
-      "exercises": [
-        {
-          "id": "g07-e1",
-          "sentence": "The keys are ___ the table.",
-          "answer": "on"
-        },
-        {
-          "id": "g07-e2",
-          "sentence": "I live ___ Vietnam.",
-          "answer": "in"
-        },
-        {
-          "id": "g07-e3",
-          "sentence": "Wait for me ___ the bus stop.",
-          "answer": "at"
-        }
-      ]
-    },
-    {
-      "id": "g08",
-      "level": "A1",
-      "title": "Question words",
-      "theory": "What (cái gì), Where (ở đâu), Who (ai), When (khi nào), Why (tại sao), How (như thế nào) dùng để bắt đầu câu hỏi Wh-question.",
-      "examples": [
-        "What is your name?",
-        "Where do you live?",
-        "Why are you late?"
-      ],
-      "exercises": [
-        {
-          "id": "g08-e1",
-          "sentence": "___ is your favorite color?",
-          "answer": "What"
-        },
-        {
-          "id": "g08-e2",
-          "sentence": "___ do you live?",
-          "answer": "Where"
-        },
-        {
-          "id": "g08-e3",
-          "sentence": "___ are you crying?",
-          "answer": "Why"
-        }
-      ]
-    },
-    {
-      "id": "g31",
-      "level": "A1",
-      "title": "Subject & object pronouns (I/me, he/him...)",
-      "theory": "Đại từ chủ ngữ (I, you, he, she, it, we, they) đứng trước động từ làm chủ ngữ. Đại từ tân ngữ (me, you, him, her, it, us, them) đứng sau động từ hoặc giới từ làm tân ngữ.",
-      "examples": [
-        "I love her.",
-        "She gave it to me.",
-        "We saw them at the park."
-      ],
-      "exercises": [
-        {
-          "id": "g31-e1",
-          "sentence": "Can you help ___ (I)?",
-          "answer": "me"
-        },
-        {
-          "id": "g31-e2",
-          "sentence": "___ (she) is my sister.",
-          "answer": "She"
-        },
-        {
-          "id": "g31-e3",
-          "sentence": "I met ___ (they) yesterday.",
-          "answer": "them"
-        }
-      ]
-    },
-    {
-      "id": "g32",
-      "level": "A1",
-      "title": "The verb \"have/has\" (possession)",
-      "theory": "Dùng \"have\" với I/you/we/they, \"has\" với he/she/it để diễn tả sự sở hữu hoặc đặc điểm.",
-      "examples": [
-        "I have a new bike.",
-        "She has two brothers.",
-        "They have a big house."
-      ],
-      "exercises": [
-        {
-          "id": "g32-e1",
-          "sentence": "He ___ (have) a dog.",
-          "answer": "has"
-        },
-        {
-          "id": "g32-e2",
-          "sentence": "I ___ (have) three books.",
-          "answer": "have"
-        },
-        {
-          "id": "g32-e3",
-          "sentence": "They ___ (not, have) a car.",
-          "answer": "do not have"
-        }
-      ]
-    },
-    {
-      "id": "g33",
-      "level": "A1",
-      "title": "Cardinal & ordinal numbers",
-      "theory": "Số đếm (one, two, three...) dùng để đếm số lượng. Số thứ tự (first, second, third...) dùng để chỉ vị trí, thứ tự.",
-      "examples": [
-        "I have two sisters.",
-        "She finished first in the race.",
-        "This is my third time here."
-      ],
-      "exercises": [
-        {
-          "id": "g33-e1",
-          "sentence": "Today is my ___ (one) day at work.",
-          "answer": "first"
-        },
-        {
-          "id": "g33-e2",
-          "sentence": "I live on the ___ (two) floor.",
-          "answer": "second"
-        },
-        {
-          "id": "g33-e3",
-          "sentence": "She has ___ (5) children.",
-          "answer": "five"
-        }
-      ]
-    },
-    {
-      "id": "g34",
-      "level": "A1",
-      "title": "Imperatives",
-      "theory": "Câu mệnh lệnh dùng động từ nguyên mẫu không chia ở đầu câu để ra lệnh, yêu cầu, hoặc hướng dẫn. Thêm \"Don't\" trước động từ để phủ định.",
-      "examples": [
-        "Close the door.",
-        "Don't be late.",
-        "Please sit down."
-      ],
-      "exercises": [
-        {
-          "id": "g34-e1",
-          "sentence": "___ (open) the window, please.",
-          "answer": "Open"
-        },
-        {
-          "id": "g34-e2",
-          "sentence": "___ (not, touch) that, it's hot!",
-          "answer": "Don't touch"
-        },
-        {
-          "id": "g34-e3",
-          "sentence": "___ (be) quiet in the library.",
-          "answer": "Be"
-        }
-      ]
-    },
-    {
-      "id": "g35",
-      "level": "A1",
-      "title": "\"Let's\" and basic suggestions",
-      "theory": "\"Let's\" (= Let us) + động từ nguyên mẫu dùng để rủ rê, đề nghị cùng làm việc gì đó.",
-      "examples": [
-        "Let's go to the beach.",
-        "Let's have lunch together.",
-        "Let's not argue about this."
-      ],
-      "exercises": [
-        {
-          "id": "g35-e1",
-          "sentence": "___'s (go) to the cinema tonight.",
-          "answer": "Let's go"
-        },
-        {
-          "id": "g35-e2",
-          "sentence": "___'s (not, be) late.",
-          "answer": "Let's not be"
-        },
-        {
-          "id": "g35-e3",
-          "sentence": "___'s (try) this new restaurant.",
-          "answer": "Let's try"
-        }
-      ]
-    },
-    {
-      "id": "g36",
-      "level": "A1",
-      "title": "Prepositions of time (in / on / at)",
-      "theory": "\"in\" cho tháng/năm/mùa (in July, in 2020), \"on\" cho ngày cụ thể (on Monday), \"at\" cho giờ cụ thể (at 7 pm).",
-      "examples": [
-        "My birthday is in July.",
-        "I have class on Monday.",
-        "We meet at 8 am."
-      ],
-      "exercises": [
-        {
-          "id": "g36-e1",
-          "sentence": "She was born ___ 1998.",
-          "answer": "in"
-        },
-        {
-          "id": "g36-e2",
-          "sentence": "The party is ___ Saturday.",
-          "answer": "on"
-        },
-        {
-          "id": "g36-e3",
-          "sentence": "The train leaves ___ 9 o'clock.",
-          "answer": "at"
-        }
-      ]
-    },
-    {
-      "id": "g37",
-      "level": "A1",
-      "title": "This / that / these / those",
-      "theory": "\"This/these\" chỉ vật ở gần (this = số ít, these = số nhiều). \"That/those\" chỉ vật ở xa (that = số ít, those = số nhiều).",
-      "examples": [
-        "This is my pen.",
-        "These are my books.",
-        "That is her car.",
-        "Those are nice shoes."
-      ],
-      "exercises": [
-        {
-          "id": "g37-e1",
-          "sentence": "___ (this, near) is my phone.",
-          "answer": "This"
-        },
-        {
-          "id": "g37-e2",
-          "sentence": "___ (that, far) are my friends over there.",
-          "answer": "Those"
-        },
-        {
-          "id": "g37-e3",
-          "sentence": "___ (these, near) shoes are new.",
-          "answer": "These"
-        }
-      ]
-    },
-    {
-      "id": "g38",
-      "level": "A1",
-      "title": "Basic Yes/No questions (Do/Does/Is/Are)",
-      "theory": "Với động từ thường, dùng Do/Does đầu câu. Với động từ \"to be\", đảo is/are lên trước chủ ngữ.",
-      "examples": [
-        "Do you like coffee?",
-        "Does she work here?",
-        "Is he your brother?",
-        "Are they at home?"
-      ],
-      "exercises": [
-        {
-          "id": "g38-e1",
-          "sentence": "___ you speak English?",
-          "answer": "Do"
-        },
-        {
-          "id": "g38-e2",
-          "sentence": "___ she like pizza?",
-          "answer": "Does"
-        },
-        {
-          "id": "g38-e3",
-          "sentence": "___ they at school now?",
-          "answer": "Are"
-        }
-      ]
-    },
-    {
-      "id": "g09",
-      "level": "A2",
-      "title": "Present Continuous",
-      "theory": "Dùng cho hành động đang xảy ra ngay lúc nói. Công thức: S + am/is/are + V-ing.",
-      "examples": [
-        "I am reading a book now.",
-        "She is cooking dinner.",
-        "They are playing football."
-      ],
-      "exercises": [
-        {
-          "id": "g09-e1",
-          "sentence": "She ___ (cook) dinner right now.",
-          "answer": "is cooking"
-        },
-        {
-          "id": "g09-e2",
-          "sentence": "We ___ (study) English at the moment.",
-          "answer": "are studying"
-        },
-        {
-          "id": "g09-e3",
-          "sentence": "He ___ (not, sleep) now.",
-          "answer": "is not sleeping"
-        }
-      ]
-    },
-    {
-      "id": "g10",
-      "level": "A2",
-      "title": "Simple Past",
-      "theory": "Diễn tả hành động đã kết thúc trong quá khứ. Động từ có quy tắc thêm -ed; nhiều động từ bất quy tắc phải học thuộc (go → went, eat → ate).",
-      "examples": [
-        "I visited my grandmother last week.",
-        "She went to Paris in 2019.",
-        "They didn't watch the movie."
-      ],
-      "exercises": [
-        {
-          "id": "g10-e1",
-          "sentence": "She ___ (go) to school yesterday.",
-          "answer": "went"
-        },
-        {
-          "id": "g10-e2",
-          "sentence": "They ___ (watch) a movie last night.",
-          "answer": "watched"
-        },
-        {
-          "id": "g10-e3",
-          "sentence": "I ___ (not, see) him yesterday.",
-          "answer": "did not see"
-        }
-      ]
-    },
-    {
-      "id": "g11",
-      "level": "A2",
-      "title": "Past Continuous",
-      "theory": "Diễn tả hành động đang xảy ra tại một thời điểm trong quá khứ, thường bị hành động khác xen vào. Công thức: S + was/were + V-ing.",
-      "examples": [
-        "I was watching TV when she called.",
-        "They were sleeping at midnight."
-      ],
-      "exercises": [
-        {
-          "id": "g11-e1",
-          "sentence": "I ___ (study) when the phone rang.",
-          "answer": "was studying"
-        },
-        {
-          "id": "g11-e2",
-          "sentence": "They ___ (play) football at 5 pm yesterday.",
-          "answer": "were playing"
-        },
-        {
-          "id": "g11-e3",
-          "sentence": "She ___ (not, listen) when I spoke.",
-          "answer": "was not listening"
-        }
-      ]
-    },
-    {
-      "id": "g12",
-      "level": "A2",
-      "title": "Comparatives and superlatives",
-      "theory": "Tính từ ngắn: thêm -er/-est (tall → taller → tallest). Tính từ dài: more/most + tính từ (expensive → more expensive → most expensive).",
-      "examples": [
-        "She is taller than her brother.",
-        "This is the most expensive restaurant in town."
-      ],
-      "exercises": [
-        {
-          "id": "g12-e1",
-          "sentence": "This book is ___ (interesting) than that one.",
-          "answer": "more interesting"
-        },
-        {
-          "id": "g12-e2",
-          "sentence": "He is the ___ (tall) student in class.",
-          "answer": "tallest"
-        },
-        {
-          "id": "g12-e3",
-          "sentence": "Today is ___ (hot) than yesterday.",
-          "answer": "hotter"
-        }
-      ]
-    },
-    {
-      "id": "g13",
-      "level": "A2",
-      "title": "Future with \"will\" and \"be going to\"",
-      "theory": "\"Will\" dùng cho quyết định tức thời hoặc dự đoán chung. \"Be going to\" dùng cho kế hoạch đã định trước hoặc dự đoán có dấu hiệu rõ ràng.",
-      "examples": [
-        "I will call you later.",
-        "We are going to visit Da Lat next month.",
-        "Look at those clouds — it's going to rain."
-      ],
-      "exercises": [
-        {
-          "id": "g13-e1",
-          "sentence": "I think it ___ (rain) tomorrow.",
-          "answer": "will rain"
-        },
-        {
-          "id": "g13-e2",
-          "sentence": "We ___ (go) to the beach next weekend. (planned)",
-          "answer": "are going to go"
-        },
-        {
-          "id": "g13-e3",
-          "sentence": "She ___ (help) you — don't worry.",
-          "answer": "will help"
-        }
-      ]
-    },
-    {
-      "id": "g14",
-      "level": "A2",
-      "title": "Modal verbs: can, must, should",
-      "theory": "\"Can\" diễn tả khả năng/sự cho phép, \"must\" diễn tả sự bắt buộc, \"should\" diễn tả lời khuyên.",
-      "examples": [
-        "She can swim very well.",
-        "You must wear a seatbelt.",
-        "You should see a doctor."
-      ],
-      "exercises": [
-        {
-          "id": "g14-e1",
-          "sentence": "You ___ smoke here. It's not allowed.",
-          "answer": "must not"
-        },
-        {
-          "id": "g14-e2",
-          "sentence": "He ___ speak three languages.",
-          "answer": "can"
-        },
-        {
-          "id": "g14-e3",
-          "sentence": "You look tired, you ___ rest.",
-          "answer": "should"
-        }
-      ]
-    },
-    {
-      "id": "g15",
-      "level": "A2",
-      "title": "Countable/uncountable nouns + some/any",
-      "theory": "Danh từ đếm được có số nhiều (apple/apples); danh từ không đếm được không có số nhiều (water, rice). Dùng \"some\" trong câu khẳng định, \"any\" trong câu phủ định/nghi vấn.",
-      "examples": [
-        "I have some water.",
-        "Do you have any rice?",
-        "There isn't any milk left."
-      ],
-      "exercises": [
-        {
-          "id": "g15-e1",
-          "sentence": "Is there ___ sugar in the jar?",
-          "answer": "any"
-        },
-        {
-          "id": "g15-e2",
-          "sentence": "I bought ___ apples yesterday.",
-          "answer": "some"
-        },
-        {
-          "id": "g15-e3",
-          "sentence": "There isn't ___ bread at home.",
-          "answer": "any"
-        }
-      ]
-    },
-    {
-      "id": "g16",
-      "level": "A2",
-      "title": "Adverbs of frequency",
-      "theory": "Always, usually, often, sometimes, rarely, never — đứng trước động từ thường và sau động từ \"to be\".",
-      "examples": [
-        "She always arrives on time.",
-        "I am never late.",
-        "He usually drinks coffee in the morning."
-      ],
-      "exercises": [
-        {
-          "id": "g16-e1",
-          "sentence": "He ___ (always) late for class.",
-          "answer": "is always"
-        },
-        {
-          "id": "g16-e2",
-          "sentence": "I ___ (never) eat meat.",
-          "answer": "never eat"
-        },
-        {
-          "id": "g16-e3",
-          "sentence": "They ___ (often) go to the cinema.",
-          "answer": "often go"
-        }
-      ]
-    },
-    {
-      "id": "g39",
-      "level": "A2",
-      "title": "Much / many / a lot of",
-      "theory": "\"Many\" dùng với danh từ đếm được số nhiều, \"much\" dùng với danh từ không đếm được (thường trong câu phủ định/nghi vấn), \"a lot of\" dùng được cho cả hai trong câu khẳng định.",
-      "examples": [
-        "How many books do you have?",
-        "There isn't much time left.",
-        "She has a lot of friends."
-      ],
-      "exercises": [
-        {
-          "id": "g39-e1",
-          "sentence": "How ___ water do you drink a day?",
-          "answer": "much"
-        },
-        {
-          "id": "g39-e2",
-          "sentence": "There are ___ people at the party.",
-          "answer": "a lot of"
-        },
-        {
-          "id": "g39-e3",
-          "sentence": "He doesn't have ___ money.",
-          "answer": "much"
-        }
-      ]
-    },
-    {
-      "id": "g40",
-      "level": "A2",
-      "title": "Equal comparisons (as...as)",
-      "theory": "Cấu trúc \"as + tính từ/trạng từ + as\" dùng để so sánh hai đối tượng ngang bằng nhau. Phủ định dùng \"not as...as\" hoặc \"not so...as\".",
-      "examples": [
-        "She is as tall as her mother.",
-        "This test is not as difficult as the last one."
-      ],
-      "exercises": [
-        {
-          "id": "g40-e1",
-          "sentence": "He is ___ (tall) as his father.",
-          "answer": "as tall"
-        },
-        {
-          "id": "g40-e2",
-          "sentence": "This bag is not ___ (expensive) as that one.",
-          "answer": "as expensive"
-        },
-        {
-          "id": "g40-e3",
-          "sentence": "She runs ___ (fast) as him.",
-          "answer": "as fast"
-        }
-      ]
-    },
-    {
-      "id": "g41",
-      "level": "A2",
-      "title": "Adverbs of manner",
-      "theory": "Trạng từ cách thức thường được thành lập bằng cách thêm -ly vào tính từ (quick → quickly), dùng để bổ nghĩa cho động từ, mô tả cách hành động xảy ra.",
-      "examples": [
-        "She sings beautifully.",
-        "He drives carefully.",
-        "They worked quickly to finish on time."
-      ],
-      "exercises": [
-        {
-          "id": "g41-e1",
-          "sentence": "She speaks English ___ (fluent).",
-          "answer": "fluently"
-        },
-        {
-          "id": "g41-e2",
-          "sentence": "He walked ___ (slow) because of his leg.",
-          "answer": "slowly"
-        },
-        {
-          "id": "g41-e3",
-          "sentence": "They finished the test ___ (easy).",
-          "answer": "easily"
-        }
-      ]
-    },
-    {
-      "id": "g42",
-      "level": "A2",
-      "title": "Would like to / want to",
-      "theory": "\"Would like to\" lịch sự hơn \"want to\" khi diễn tả mong muốn. Cả hai đều theo sau bởi động từ nguyên mẫu có \"to\".",
-      "examples": [
-        "I would like to order a coffee.",
-        "She wants to learn French.",
-        "Would you like to join us?"
-      ],
-      "exercises": [
-        {
-          "id": "g42-e1",
-          "sentence": "I ___ (would like) to have some water, please.",
-          "answer": "would like"
-        },
-        {
-          "id": "g42-e2",
-          "sentence": "He wants ___ (become) a doctor.",
-          "answer": "to become"
-        },
-        {
-          "id": "g42-e3",
-          "sentence": "___ you like to come with us?",
-          "answer": "Would"
-        }
-      ]
-    },
-    {
-      "id": "g43",
-      "level": "A2",
-      "title": "Have to / don't have to",
-      "theory": "\"Have to\" diễn tả sự bắt buộc (tương tự must). \"Don't have to\" diễn tả sự không cần thiết (khác với \"must not\" là cấm đoán).",
-      "examples": [
-        "I have to finish this report today.",
-        "You don't have to come if you're busy.",
-        "She has to wake up early."
-      ],
-      "exercises": [
-        {
-          "id": "g43-e1",
-          "sentence": "He ___ (have to) wear a uniform at work.",
-          "answer": "has to"
-        },
-        {
-          "id": "g43-e2",
-          "sentence": "You ___ (not, have to) pay, it's free.",
-          "answer": "don't have to"
-        },
-        {
-          "id": "g43-e3",
-          "sentence": "We ___ (have to) leave now or we'll be late.",
-          "answer": "have to"
-        }
-      ]
-    },
-    {
-      "id": "g44",
-      "level": "A2",
-      "title": "\"Will\" for predictions, promises, and instant decisions",
-      "theory": "\"Will\" dùng khi đưa ra quyết định ngay lúc nói, hứa hẹn, hoặc dự đoán không có bằng chứng rõ ràng.",
-      "examples": [
-        "I'll answer the phone.",
-        "I promise I will help you.",
-        "I think she will win the match."
-      ],
-      "exercises": [
-        {
-          "id": "g44-e1",
-          "sentence": "The phone is ringing — I ___ (will) get it.",
-          "answer": "will"
-        },
-        {
-          "id": "g44-e2",
-          "sentence": "I promise I ___ (will, not, tell) anyone.",
-          "answer": "will not tell"
-        },
-        {
-          "id": "g44-e3",
-          "sentence": "I think it ___ (will) be sunny tomorrow.",
-          "answer": "will"
-        }
-      ]
-    },
-    {
-      "id": "g45",
-      "level": "A2",
-      "title": "Basic tag questions",
-      "theory": "Câu hỏi đuôi dùng để xác nhận thông tin. Nếu mệnh đề chính khẳng định, đuôi câu phủ định và ngược lại.",
-      "examples": [
-        "She is a teacher, isn't she?",
-        "You don't like coffee, do you?",
-        "They can swim, can't they?"
-      ],
-      "exercises": [
-        {
-          "id": "g45-e1",
-          "sentence": "You are tired, ___?",
-          "answer": "aren't you"
-        },
-        {
-          "id": "g45-e2",
-          "sentence": "He doesn't like fish, ___?",
-          "answer": "does he"
-        },
-        {
-          "id": "g45-e3",
-          "sentence": "They went home, ___?",
-          "answer": "didn't they"
-        }
-      ]
-    },
-    {
-      "id": "g46",
-      "level": "A2",
-      "title": "Both / either / neither",
-      "theory": "\"Both\" (cả hai) dùng cho câu khẳng định về 2 đối tượng. \"Either\" (một trong hai) và \"neither\" (không cái nào) thường đi với danh từ số ít.",
-      "examples": [
-        "Both of my parents are teachers.",
-        "You can take either bus.",
-        "Neither answer is correct."
-      ],
-      "exercises": [
-        {
-          "id": "g46-e1",
-          "sentence": "___ of us like spicy food.",
-          "answer": "Both"
-        },
-        {
-          "id": "g46-e2",
-          "sentence": "You can choose ___ option, it doesn't matter.",
-          "answer": "either"
-        },
-        {
-          "id": "g46-e3",
-          "sentence": "___ of the two shirts fits me well.",
-          "answer": "Neither"
-        }
-      ]
-    },
-    {
-      "id": "g17",
-      "level": "B1",
-      "title": "Present Perfect",
-      "theory": "Dùng cho hành động bắt đầu trong quá khứ và còn liên quan/tiếp diễn đến hiện tại, hoặc kinh nghiệm chưa xác định thời gian. Công thức: have/has + V3.",
-      "examples": [
-        "She has lived in Hanoi since 2019.",
-        "I have never been to Japan.",
-        "Have you finished your homework yet?"
-      ],
-      "exercises": [
-        {
-          "id": "g17-e1",
-          "sentence": "She ___ (live) in Hanoi since 2019.",
-          "answer": "has lived"
-        },
-        {
-          "id": "g17-e2",
-          "sentence": "I ___ (never, try) durian.",
-          "answer": "have never tried"
-        },
-        {
-          "id": "g17-e3",
-          "sentence": "___ you ___ (finish) the report yet?",
-          "answer": "Have you finished"
-        }
-      ]
-    },
-    {
-      "id": "g18",
-      "level": "B1",
-      "title": "Present Perfect Continuous",
-      "theory": "Nhấn mạnh tính liên tục của một hành động bắt đầu trong quá khứ và kéo dài đến hiện tại. Công thức: have/has been + V-ing.",
-      "examples": [
-        "I have been studying English for three years.",
-        "She has been working here since June."
-      ],
-      "exercises": [
-        {
-          "id": "g18-e1",
-          "sentence": "I ___ (study) English for three years.",
-          "answer": "have been studying"
-        },
-        {
-          "id": "g18-e2",
-          "sentence": "He ___ (wait) for an hour.",
-          "answer": "has been waiting"
-        },
-        {
-          "id": "g18-e3",
-          "sentence": "They ___ (work) on this project since March.",
-          "answer": "have been working"
-        }
-      ]
-    },
-    {
-      "id": "g19",
-      "level": "B1",
-      "title": "Past Perfect",
-      "theory": "Diễn tả hành động xảy ra trước một hành động khác trong quá khứ. Công thức: had + V3.",
-      "examples": [
-        "She had already left when I arrived.",
-        "By the time we got there, the movie had started."
-      ],
-      "exercises": [
-        {
-          "id": "g19-e1",
-          "sentence": "She ___ (leave) before I arrived.",
-          "answer": "had left"
-        },
-        {
-          "id": "g19-e2",
-          "sentence": "By 8 pm, they ___ (finish) dinner.",
-          "answer": "had finished"
-        },
-        {
-          "id": "g19-e3",
-          "sentence": "I ___ (not, see) that movie before.",
-          "answer": "had not seen"
-        }
-      ]
-    },
-    {
-      "id": "g20",
-      "level": "B1",
-      "title": "First and second conditionals",
-      "theory": "Loại 1 (khả năng có thật ở hiện tại/tương lai): If + hiện tại đơn, will + V. Loại 2 (giả định không có thật ở hiện tại): If + quá khứ đơn, would + V.",
-      "examples": [
-        "If it rains, I will stay home.",
-        "If I were rich, I would travel the world."
-      ],
-      "exercises": [
-        {
-          "id": "g20-e1",
-          "sentence": "If it ___ (rain), we will cancel the trip.",
-          "answer": "rains"
-        },
-        {
-          "id": "g20-e2",
-          "sentence": "If I ___ (be) you, I would apologize.",
-          "answer": "were"
-        },
-        {
-          "id": "g20-e3",
-          "sentence": "She will pass if she ___ (study) hard.",
-          "answer": "studies"
-        }
-      ]
-    },
-    {
-      "id": "g21",
-      "level": "B1",
-      "title": "Basic Passive Voice",
-      "theory": "Dùng khi muốn nhấn mạnh vào đối tượng chịu tác động thay vì người thực hiện. Công thức: be + V3.",
-      "examples": [
-        "The letter was sent yesterday.",
-        "This house was built in 1990.",
-        "English is spoken in many countries."
-      ],
-      "exercises": [
-        {
-          "id": "g21-e1",
-          "sentence": "The house ___ (build) in 1990.",
-          "answer": "was built"
-        },
-        {
-          "id": "g21-e2",
-          "sentence": "English ___ (speak) in many countries.",
-          "answer": "is spoken"
-        },
-        {
-          "id": "g21-e3",
-          "sentence": "The report ___ (send) tomorrow.",
-          "answer": "will be sent"
-        }
-      ]
-    },
-    {
-      "id": "g22",
-      "level": "B1",
-      "title": "Basic Reported Speech",
-      "theory": "Khi tường thuật lại lời nói, lùi thì một bậc: present simple → past simple, present perfect → past perfect... và đổi đại từ/trạng từ chỉ thời gian phù hợp.",
-      "examples": [
-        "She said, \"I am tired.\" → She said (that) she was tired.",
-        "He said, \"I will call you.\" → He said he would call me."
-      ],
-      "exercises": [
-        {
-          "id": "g22-e1",
-          "sentence": "\"I am busy,\" she said. → She said she ___ busy.",
-          "answer": "was"
-        },
-        {
-          "id": "g22-e2",
-          "sentence": "\"I will help you,\" he said. → He said he ___ help me.",
-          "answer": "would"
-        },
-        {
-          "id": "g22-e3",
-          "sentence": "\"I have finished,\" she said. → She said she ___ finished.",
-          "answer": "had"
-        }
-      ]
-    },
-    {
-      "id": "g23",
-      "level": "B1",
-      "title": "Gerund vs Infinitive",
-      "theory": "Một số động từ theo sau bởi V-ing (enjoy, avoid, finish), một số động từ theo sau bởi to V (want, decide, hope). Cần học thuộc theo từng động từ cụ thể.",
-      "examples": [
-        "I enjoy reading books.",
-        "She wants to travel abroad.",
-        "They finished cleaning the house."
-      ],
-      "exercises": [
-        {
-          "id": "g23-e1",
-          "sentence": "I enjoy ___ (read) novels.",
-          "answer": "reading"
-        },
-        {
-          "id": "g23-e2",
-          "sentence": "She wants ___ (study) abroad.",
-          "answer": "to study"
-        },
-        {
-          "id": "g23-e3",
-          "sentence": "He avoids ___ (eat) junk food.",
-          "answer": "eating"
-        }
-      ]
-    },
-    {
-      "id": "g24",
-      "level": "B1",
-      "title": "Relative Clauses",
-      "theory": "Dùng who/that cho người, which/that cho vật, whose để chỉ sự sở hữu, để bổ nghĩa cho danh từ đứng trước.",
-      "examples": [
-        "The man who lives next door is a doctor.",
-        "This is the book which I told you about.",
-        "That's the girl whose bag was stolen."
-      ],
-      "exercises": [
-        {
-          "id": "g24-e1",
-          "sentence": "The woman ___ called you is my aunt.",
-          "answer": "who"
-        },
-        {
-          "id": "g24-e2",
-          "sentence": "This is the car ___ I bought last year.",
-          "answer": "which"
-        },
-        {
-          "id": "g24-e3",
-          "sentence": "That's the boy ___ dog won the competition.",
-          "answer": "whose"
-        }
-      ]
-    },
-    {
-      "id": "g47",
-      "level": "B1",
-      "title": "Used to",
-      "theory": "\"Used to + V\" diễn tả thói quen hoặc trạng thái trong quá khứ nhưng không còn đúng ở hiện tại. Phân biệt với \"be used to + V-ing\" (đã quen với việc gì).",
-      "examples": [
-        "I used to live in Da Nang.",
-        "She used to smoke, but she quit.",
-        "They didn't use to like coffee."
-      ],
-      "exercises": [
-        {
-          "id": "g47-e1",
-          "sentence": "He ___ (used to) play football every weekend when he was young.",
-          "answer": "used to"
-        },
-        {
-          "id": "g47-e2",
-          "sentence": "I ___ (not, used to) like vegetables as a kid.",
-          "answer": "didn't use to"
-        },
-        {
-          "id": "g47-e3",
-          "sentence": "___ you ___ (used to) live here?",
-          "answer": "Did you use to"
-        }
-      ]
-    },
-    {
-      "id": "g48",
-      "level": "B1",
-      "title": "Zero Conditional",
-      "theory": "Diễn tả sự thật hiển nhiên, quy luật tự nhiên hoặc thói quen. Công thức: If + hiện tại đơn, hiện tại đơn.",
-      "examples": [
-        "If you heat water to 100°C, it boils.",
-        "If I eat too much, I feel sick.",
-        "Plants die if they don't get water."
-      ],
-      "exercises": [
-        {
-          "id": "g48-e1",
-          "sentence": "If you ___ (heat) ice, it melts.",
-          "answer": "heat"
-        },
-        {
-          "id": "g48-e2",
-          "sentence": "If it ___ (rain), the ground gets wet.",
-          "answer": "rains"
-        },
-        {
-          "id": "g48-e3",
-          "sentence": "Plants ___ (die) if they don't get sunlight.",
-          "answer": "die"
-        }
-      ]
-    },
-    {
-      "id": "g49",
-      "level": "B1",
-      "title": "Double comparatives (the more... the more)",
-      "theory": "Cấu trúc \"The + so sánh hơn..., the + so sánh hơn...\" diễn tả hai sự việc thay đổi song song với nhau.",
-      "examples": [
-        "The more you practice, the better you get.",
-        "The harder she works, the more successful she becomes."
-      ],
-      "exercises": [
-        {
-          "id": "g49-e1",
-          "sentence": "The more you read, the ___ (much) you know.",
-          "answer": "more"
-        },
-        {
-          "id": "g49-e2",
-          "sentence": "The ___ (early) you leave, the earlier you arrive.",
-          "answer": "earlier"
-        },
-        {
-          "id": "g49-e3",
-          "sentence": "The more money he earns, the ___ (happy) he feels.",
-          "answer": "happier"
-        }
-      ]
-    },
-    {
-      "id": "g50",
-      "level": "B1",
-      "title": "Wishes about the present (Wish + past simple)",
-      "theory": "Dùng \"wish + S + quá khứ đơn\" để diễn tả ước muốn về một điều không có thật ở hiện tại. Với động từ \"to be\" thường dùng \"were\" cho mọi ngôi.",
-      "examples": [
-        "I wish I had more free time.",
-        "She wishes she were taller.",
-        "I wish I knew the answer."
-      ],
-      "exercises": [
-        {
-          "id": "g50-e1",
-          "sentence": "I wish I ___ (have) a bigger house.",
-          "answer": "had"
-        },
-        {
-          "id": "g50-e2",
-          "sentence": "He wishes he ___ (be) more confident.",
-          "answer": "were"
-        },
-        {
-          "id": "g50-e3",
-          "sentence": "I wish I ___ (know) how to swim.",
-          "answer": "knew"
-        }
-      ]
-    },
-    {
-      "id": "g51",
-      "level": "B1",
-      "title": "Enough / too + adjective",
-      "theory": "\"Too + adj\" diễn tả mức độ quá mức, mang nghĩa tiêu cực. \"Adj + enough\" diễn tả mức độ đủ. Enough đứng sau tính từ, nhưng đứng trước danh từ.",
-      "examples": [
-        "This coffee is too hot to drink.",
-        "She isn't old enough to drive.",
-        "We don't have enough money."
-      ],
-      "exercises": [
-        {
-          "id": "g51-e1",
-          "sentence": "This box is ___ (too, heavy) for me to carry.",
-          "answer": "too heavy"
-        },
-        {
-          "id": "g51-e2",
-          "sentence": "He isn't tall ___ to reach the shelf.",
-          "answer": "enough"
-        },
-        {
-          "id": "g51-e3",
-          "sentence": "We don't have ___ time to finish this.",
-          "answer": "enough"
-        }
-      ]
-    },
-    {
-      "id": "g52",
-      "level": "B1",
-      "title": "Time clauses (when/while/before/after)",
-      "theory": "When/while/before/after dùng để nối hai mệnh đề, diễn tả mối quan hệ về thời gian giữa hai hành động.",
-      "examples": [
-        "I was cooking while she was cleaning.",
-        "Call me before you leave.",
-        "After she finished work, she went home."
-      ],
-      "exercises": [
-        {
-          "id": "g52-e1",
-          "sentence": "___ (while) I was reading, the phone rang.",
-          "answer": "While"
-        },
-        {
-          "id": "g52-e2",
-          "sentence": "Wash your hands ___ you eat.",
-          "answer": "before"
-        },
-        {
-          "id": "g52-e3",
-          "sentence": "She called me ___ she arrived home.",
-          "answer": "after"
-        }
-      ]
-    },
-    {
-      "id": "g53",
-      "level": "B1",
-      "title": "Cause and result clauses (because/so)",
-      "theory": "\"Because\" giới thiệu nguyên nhân, \"so\" giới thiệu kết quả. \"Because of\" theo sau bởi danh từ/cụm danh từ, khác với \"because\" theo sau bởi mệnh đề.",
-      "examples": [
-        "I was late because the traffic was heavy.",
-        "It was raining, so we stayed home.",
-        "The match was cancelled because of the storm."
-      ],
-      "exercises": [
-        {
-          "id": "g53-e1",
-          "sentence": "She was tired ___ she had worked all day.",
-          "answer": "because"
-        },
-        {
-          "id": "g53-e2",
-          "sentence": "It was cold, ___ I wore a coat.",
-          "answer": "so"
-        },
-        {
-          "id": "g53-e3",
-          "sentence": "The flight was delayed ___ the weather.",
-          "answer": "because of"
-        }
-      ]
-    },
-    {
-      "id": "g54",
-      "level": "B1",
-      "title": "Contrast clauses (although/despite)",
-      "theory": "\"Although/though\" theo sau bởi mệnh đề đầy đủ. \"Despite/in spite of\" theo sau bởi danh từ hoặc V-ing.",
-      "examples": [
-        "Although it was raining, we went out.",
-        "Despite the rain, we went out.",
-        "She passed the exam despite not studying much."
-      ],
-      "exercises": [
-        {
-          "id": "g54-e1",
-          "sentence": "___ he was tired, he kept working.",
-          "answer": "Although"
-        },
-        {
-          "id": "g54-e2",
-          "sentence": "Despite ___ (be) busy, she helped me.",
-          "answer": "being"
-        },
-        {
-          "id": "g54-e3",
-          "sentence": "In spite of the traffic, we ___ (arrive) on time.",
-          "answer": "arrived"
-        }
-      ]
-    },
-    {
-      "id": "g55",
-      "level": "B1",
-      "title": "Indirect questions",
-      "theory": "Câu hỏi gián tiếp lịch sự hơn, giữ trật tự từ như câu khẳng định (không đảo ngữ) và thường bắt đầu bằng cụm như \"Could you tell me...\", \"Do you know...\".",
-      "examples": [
-        "Could you tell me where the station is?",
-        "Do you know what time it is?",
-        "I wonder if she is coming."
-      ],
-      "exercises": [
-        {
-          "id": "g55-e1",
-          "sentence": "Could you tell me where the bathroom ___?",
-          "answer": "is"
-        },
-        {
-          "id": "g55-e2",
-          "sentence": "Do you know what time the shop ___ (close)?",
-          "answer": "closes"
-        },
-        {
-          "id": "g55-e3",
-          "sentence": "I wonder ___ she is coming to the party.",
-          "answer": "if"
-        }
-      ]
-    },
-    {
-      "id": "g25",
-      "level": "B2",
-      "title": "Third and mixed conditionals",
-      "theory": "Loại 3 (giả định trái với quá khứ): If + had + V3, would have + V3. Điều kiện hỗn hợp kết hợp giả định quá khứ với kết quả ở hiện tại: If + had + V3, would + V.",
-      "examples": [
-        "If I had studied harder, I would have passed the exam.",
-        "If she had taken that job, she would be living in Tokyo now."
-      ],
-      "exercises": [
-        {
-          "id": "g25-e1",
-          "sentence": "If I ___ (know), I would have told you.",
-          "answer": "had known"
-        },
-        {
-          "id": "g25-e2",
-          "sentence": "If he had left earlier, he ___ (not, miss) the train.",
-          "answer": "would not have missed"
-        },
-        {
-          "id": "g25-e3",
-          "sentence": "If she had studied medicine, she ___ (be) a doctor now.",
-          "answer": "would be"
-        }
-      ]
-    },
-    {
-      "id": "g26",
-      "level": "B2",
-      "title": "Advanced Passive Voice",
-      "theory": "Bị động có thể kết hợp với động từ khiếm khuyết (must be done) hoặc thì hoàn thành (has been done, had been done).",
-      "examples": [
-        "The work must be finished by Friday.",
-        "The bridge has been repaired.",
-        "The email had already been sent before I called."
-      ],
-      "exercises": [
-        {
-          "id": "g26-e1",
-          "sentence": "This task must ___ (complete) today.",
-          "answer": "be completed"
-        },
-        {
-          "id": "g26-e2",
-          "sentence": "The car ___ (repair) already.",
-          "answer": "has been repaired"
-        },
-        {
-          "id": "g26-e3",
-          "sentence": "The documents ___ (sign) before the meeting started.",
-          "answer": "had been signed"
-        }
-      ]
-    },
-    {
-      "id": "g27",
-      "level": "B2",
-      "title": "Advanced Reported Speech (questions & commands)",
-      "theory": "Tường thuật câu hỏi Yes/No dùng if/whether; câu hỏi Wh giữ nguyên từ để hỏi. Tường thuật câu mệnh lệnh dùng told/asked + to V.",
-      "examples": [
-        "\"Are you coming?\" → She asked if I was coming.",
-        "\"Close the door,\" he said. → He told me to close the door."
-      ],
-      "exercises": [
-        {
-          "id": "g27-e1",
-          "sentence": "\"Do you like coffee?\" → She asked ___ I liked coffee.",
-          "answer": "if"
-        },
-        {
-          "id": "g27-e2",
-          "sentence": "\"Sit down,\" the teacher said. → The teacher told us ___ down.",
-          "answer": "to sit"
-        },
-        {
-          "id": "g27-e3",
-          "sentence": "\"Where do you live?\" → He asked me where I ___.",
-          "answer": "lived"
-        }
-      ]
-    },
-    {
-      "id": "g28",
-      "level": "B2",
-      "title": "Modals of deduction",
-      "theory": "Must have + V3 (chắc chắn đã xảy ra), might/could have + V3 (có thể đã xảy ra), can't have + V3 (chắc chắn không thể xảy ra) — dùng để suy đoán về quá khứ.",
-      "examples": [
-        "He must have forgotten the meeting.",
-        "She might have missed the bus.",
-        "They can't have arrived yet — it's too early."
-      ],
-      "exercises": [
-        {
-          "id": "g28-e1",
-          "sentence": "She looks tired, she ___ (must, not sleep) well.",
-          "answer": "must not have slept"
-        },
-        {
-          "id": "g28-e2",
-          "sentence": "He ___ (might, lose) his phone somewhere.",
-          "answer": "might have lost"
-        },
-        {
-          "id": "g28-e3",
-          "sentence": "They ___ (can't, finish) already — it's only been 5 minutes.",
-          "answer": "can't have finished"
-        }
-      ]
-    },
-    {
-      "id": "g29",
-      "level": "B2",
-      "title": "Common phrasal verbs",
-      "theory": "Cụm động từ gồm động từ + giới từ/trạng từ, thường mang nghĩa khác với nghĩa gốc của từng từ. Ví dụ: give up (từ bỏ), look after (chăm sóc), put off (trì hoãn).",
-      "examples": [
-        "She gave up smoking last year.",
-        "Can you look after my cat this weekend?",
-        "They put off the meeting until next week."
-      ],
-      "exercises": [
-        {
-          "id": "g29-e1",
-          "sentence": "He decided to ___ smoking. (từ bỏ)",
-          "answer": "give up"
-        },
-        {
-          "id": "g29-e2",
-          "sentence": "Can you ___ my dog while I'm away? (chăm sóc)",
-          "answer": "look after"
-        },
-        {
-          "id": "g29-e3",
-          "sentence": "We had to ___ the trip due to bad weather. (trì hoãn)",
-          "answer": "put off"
-        }
-      ]
-    },
-    {
-      "id": "g30",
-      "level": "B2",
-      "title": "Basic inversion",
-      "theory": "Đảo ngữ dùng để nhấn mạnh, thường bắt đầu câu bằng trạng từ phủ định (Never, Rarely, No sooner) rồi đảo trợ động từ lên trước chủ ngữ.",
-      "examples": [
-        "Never have I seen such a beautiful sunset.",
-        "Rarely does she complain about work.",
-        "No sooner had I arrived than it started to rain."
-      ],
-      "exercises": [
-        {
-          "id": "g30-e1",
-          "sentence": "Never ___ (I, see) such a talented singer.",
-          "answer": "have I seen"
-        },
-        {
-          "id": "g30-e2",
-          "sentence": "Rarely ___ (he, be) late for work.",
-          "answer": "is he"
-        },
-        {
-          "id": "g30-e3",
-          "sentence": "No sooner ___ (we, sit) down than the phone rang.",
-          "answer": "had we sat"
-        }
-      ]
-    },
-    {
-      "id": "g56",
-      "level": "B2",
-      "title": "Wishes about the past (Wish + had + V3)",
-      "theory": "Dùng \"wish + S + had + V3\" để diễn tả sự nuối tiếc về một điều đã/không xảy ra trong quá khứ.",
-      "examples": [
-        "I wish I had studied harder for the exam.",
-        "She wishes she hadn't said that.",
-        "I wish I had known about the meeting."
-      ],
-      "exercises": [
-        {
-          "id": "g56-e1",
-          "sentence": "I wish I ___ (study) harder in school.",
-          "answer": "had studied"
-        },
-        {
-          "id": "g56-e2",
-          "sentence": "He wishes he ___ (not, lose) his job.",
-          "answer": "hadn't lost"
-        },
-        {
-          "id": "g56-e3",
-          "sentence": "She wishes she ___ (visit) Japan when she had the chance.",
-          "answer": "had visited"
-        }
-      ]
-    },
-    {
-      "id": "g57",
-      "level": "B2",
-      "title": "The structure \"It's (high) time\"",
-      "theory": "\"It's time + S + quá khứ đơn\" diễn tả điều nên làm ngay bây giờ nhưng chưa được làm, mang sắc thái hơi trách móc/thúc giục.",
-      "examples": [
-        "It's time you went to bed.",
-        "It's high time we made a decision.",
-        "It's about time you apologized."
-      ],
-      "exercises": [
-        {
-          "id": "g57-e1",
-          "sentence": "It's time you ___ (finish) this project.",
-          "answer": "finished"
-        },
-        {
-          "id": "g57-e2",
-          "sentence": "It's high time we ___ (leave).",
-          "answer": "left"
-        },
-        {
-          "id": "g57-e3",
-          "sentence": "It's about time he ___ (get) a real job.",
-          "answer": "got"
-        }
-      ]
-    },
-    {
-      "id": "g58",
-      "level": "B2",
-      "title": "Reduced relative clauses",
-      "theory": "Mệnh đề quan hệ chủ động có thể rút gọn thành cụm V-ing; mệnh đề quan hệ bị động rút gọn thành cụm V3/V-ed.",
-      "examples": [
-        "The man standing over there is my uncle. (= who is standing)",
-        "The letter written by her was very kind. (= that was written)"
-      ],
-      "exercises": [
-        {
-          "id": "g58-e1",
-          "sentence": "The girl ___ (sit) next to me is my classmate.",
-          "answer": "sitting"
-        },
-        {
-          "id": "g58-e2",
-          "sentence": "The book ___ (write) by that author is a bestseller.",
-          "answer": "written"
-        },
-        {
-          "id": "g58-e3",
-          "sentence": "People ___ (live) near the airport complain about noise.",
-          "answer": "living"
-        }
-      ]
-    },
-    {
-      "id": "g59",
-      "level": "B2",
-      "title": "Gerund after prepositions",
-      "theory": "Sau giới từ (in, on, at, about, for, without, by...), động từ luôn ở dạng V-ing (gerund), không dùng động từ nguyên mẫu.",
-      "examples": [
-        "She is good at cooking.",
-        "He left without saying goodbye.",
-        "I'm interested in learning Japanese."
-      ],
-      "exercises": [
-        {
-          "id": "g59-e1",
-          "sentence": "He is worried about ___ (fail) the test.",
-          "answer": "failing"
-        },
-        {
-          "id": "g59-e2",
-          "sentence": "She succeeded by ___ (work) hard every day.",
-          "answer": "working"
-        },
-        {
-          "id": "g59-e3",
-          "sentence": "Thank you for ___ (help) me yesterday.",
-          "answer": "helping"
-        }
-      ]
-    },
-    {
-      "id": "g60",
-      "level": "B2",
-      "title": "Inversion in conditionals",
-      "theory": "Trong văn phong trang trọng, có thể đảo ngữ trong câu điều kiện bằng cách bỏ \"if\" và đảo trợ động từ lên trước chủ ngữ: Should/Were/Had + S...",
-      "examples": [
-        "Should you need help, call me.",
-        "Were I you, I would accept the offer.",
-        "Had she known, she would have come."
-      ],
-      "exercises": [
-        {
-          "id": "g60-e1",
-          "sentence": "___ you have any questions, please ask. (= If you have)",
-          "answer": "Should"
-        },
-        {
-          "id": "g60-e2",
-          "sentence": "___ I in your position, I would resign. (= If I were)",
-          "answer": "Were"
-        },
-        {
-          "id": "g60-e3",
-          "sentence": "___ he studied harder, he would have passed. (= If he had studied)",
-          "answer": "Had"
-        }
-      ]
-    },
-    {
-      "id": "g61",
-      "level": "B2",
-      "title": "Cleft sentences",
-      "theory": "Cấu trúc \"It is/was...that\" và \"What...is\" dùng để nhấn mạnh một thành phần cụ thể trong câu.",
-      "examples": [
-        "It was John who broke the window.",
-        "It is her attitude that annoys me.",
-        "What I need is more time."
-      ],
-      "exercises": [
-        {
-          "id": "g61-e1",
-          "sentence": "It was Anna ___ called you last night.",
-          "answer": "who"
-        },
-        {
-          "id": "g61-e2",
-          "sentence": "What she really wants ___ a bit of respect.",
-          "answer": "is"
-        },
-        {
-          "id": "g61-e3",
-          "sentence": "It ___ the manager who made that decision.",
-          "answer": "was"
-        }
-      ]
-    },
-    {
-      "id": "g62",
-      "level": "B2",
-      "title": "Passive reporting verbs (It is said that...)",
-      "theory": "Dùng để tường thuật thông tin chung chung mà không rõ nguồn: \"It is said/believed/reported that + S + V\" hoặc \"S + is said/believed + to V\".",
-      "examples": [
-        "It is said that he is very rich.",
-        "He is said to be very rich.",
-        "The bridge is believed to be over 100 years old."
-      ],
-      "exercises": [
-        {
-          "id": "g62-e1",
-          "sentence": "It is reported ___ the company is closing down.",
-          "answer": "that"
-        },
-        {
-          "id": "g62-e2",
-          "sentence": "She is believed ___ (be) abroad now.",
-          "answer": "to be"
-        },
-        {
-          "id": "g62-e3",
-          "sentence": "The building is said ___ (build) in 1900.",
-          "answer": "to have been built"
-        }
-      ]
-    },
-    {
-      "id": "g63",
-      "level": "B2",
-      "title": "Advanced modal perfect (should have, needn't have)",
-      "theory": "\"Should have + V3\" diễn tả sự tiếc nuối vì không làm điều nên làm. \"Needn't have + V3\" diễn tả việc đã làm nhưng hóa ra không cần thiết.",
-      "examples": [
-        "You should have told me earlier.",
-        "I needn't have brought an umbrella — it didn't rain.",
-        "She shouldn't have said that."
-      ],
-      "exercises": [
-        {
-          "id": "g63-e1",
-          "sentence": "You ___ (should, study) harder for the test.",
-          "answer": "should have studied"
-        },
-        {
-          "id": "g63-e2",
-          "sentence": "I ___ (needn't, buy) so much food — nobody was hungry.",
-          "answer": "needn't have bought"
-        },
-        {
-          "id": "g63-e3",
-          "sentence": "He ___ (shouldn't, spend) all his money.",
-          "answer": "shouldn't have spent"
-        }
-      ]
-    },
-    {
-      "id": "g64",
-      "level": "B2",
-      "title": "Compound nouns & complex noun phrases",
-      "theory": "Danh từ ghép gồm hai danh từ kết hợp lại (bus stop, coffee cup), danh từ đứng trước đóng vai trò như tính từ bổ nghĩa và luôn ở dạng số ít.",
-      "examples": [
-        "a two-hour meeting",
-        "a bus stop",
-        "a five-year-old child"
-      ],
-      "exercises": [
-        {
-          "id": "g64-e1",
-          "sentence": "It was a ___ (two hour) flight.",
-          "answer": "two-hour"
-        },
-        {
-          "id": "g64-e2",
-          "sentence": "She bought a new ___ (coffee) machine.",
-          "answer": "coffee machine"
-        },
-        {
-          "id": "g64-e3",
-          "sentence": "He has a ___ (ten year) old car.",
-          "answer": "ten-year-old"
-        }
-      ]
-    },
-    {
-      "id": "g65",
-      "level": "B2",
-      "title": "Correlative conjunctions",
-      "theory": "Các cặp liên từ tương quan: not only...but also, either...or, neither...nor, both...and — dùng để nối hai thành phần song song trong câu.",
-      "examples": [
-        "She is not only smart but also hardworking.",
-        "You can either call or email me.",
-        "Neither the manager nor the staff knew about it."
-      ],
-      "exercises": [
-        {
-          "id": "g65-e1",
-          "sentence": "He is not only talented ___ also very humble.",
-          "answer": "but"
-        },
-        {
-          "id": "g65-e2",
-          "sentence": "You can ___ stay here or come with us.",
-          "answer": "either"
-        },
-        {
-          "id": "g65-e3",
-          "sentence": "Neither Tom ___ Lisa came to the party.",
-          "answer": "nor"
-        }
-      ]
-    },
-    {
-      "id": "g66",
-      "level": "A1",
-      "title": "\"Have got\" (British possession)",
-      "theory": "\"Have got / has got\" dùng tương đương \"have/has\" để nói về sự sở hữu, phổ biến trong tiếng Anh-Anh nói. Phủ định: haven't/hasn't got.",
-      "examples": [
-        "I've got a new laptop.",
-        "She's got two children.",
-        "We haven't got any milk."
-      ],
-      "exercises": [
-        {
-          "id": "g66-e1",
-          "sentence": "He ___ (have got) a big house.",
-          "answer": "has got"
-        },
-        {
-          "id": "g66-e2",
-          "sentence": "I ___ (not, have got) a car.",
-          "answer": "haven't got"
-        },
-        {
-          "id": "g66-e3",
-          "sentence": "___ you got a pen?",
-          "answer": "Have"
-        }
-      ]
-    },
-    {
-      "id": "g67",
-      "level": "A1",
-      "title": "Possessive pronouns (mine, yours, his, hers...)",
-      "theory": "Đại từ sở hữu (mine, yours, his, hers, ours, theirs) thay thế cho \"tính từ sở hữu + danh từ\" đã nhắc ở trên, đứng độc lập không cần danh từ theo sau.",
-      "examples": [
-        "This book is mine.",
-        "Is that bag yours?",
-        "Their house is bigger than ours."
-      ],
-      "exercises": [
-        {
-          "id": "g67-e1",
-          "sentence": "This pen isn't mine, it's ___ (she).",
-          "answer": "hers"
-        },
-        {
-          "id": "g67-e2",
-          "sentence": "That car is ___ (we).",
-          "answer": "ours"
-        },
-        {
-          "id": "g67-e3",
-          "sentence": "Is this umbrella ___ (you)?",
-          "answer": "yours"
-        }
-      ]
-    },
-    {
-      "id": "g68",
-      "level": "A1",
-      "title": "Reflexive pronouns (myself, yourself...)",
-      "theory": "Đại từ phản thân (myself, yourself, himself, herself, itself, ourselves, yourselves, themselves) dùng khi chủ ngữ và tân ngữ là cùng một người/vật.",
-      "examples": [
-        "I hurt myself yesterday.",
-        "She made this cake herself.",
-        "They enjoyed themselves at the party."
-      ],
-      "exercises": [
-        {
-          "id": "g68-e1",
-          "sentence": "He cut ___ (he) while cooking.",
-          "answer": "himself"
-        },
-        {
-          "id": "g68-e2",
-          "sentence": "We did it all by ___ (we).",
-          "answer": "ourselves"
-        },
-        {
-          "id": "g68-e3",
-          "sentence": "Did you enjoy ___ (you) at the concert?",
-          "answer": "yourself"
-        }
-      ]
-    },
-    {
-      "id": "g69",
-      "level": "A1",
-      "title": "Prepositions of movement (into, out of, onto, through)",
-      "theory": "Into (đi vào trong), out of (đi ra khỏi), onto (lên trên bề mặt), through (xuyên qua) dùng để mô tả hướng di chuyển.",
-      "examples": [
-        "She walked into the room.",
-        "He got out of the car.",
-        "The cat jumped onto the table."
-      ],
-      "exercises": [
-        {
-          "id": "g69-e1",
-          "sentence": "The dog ran ___ the garden.",
-          "answer": "into"
-        },
-        {
-          "id": "g69-e2",
-          "sentence": "She got ___ the taxi and left.",
-          "answer": "out of"
-        },
-        {
-          "id": "g69-e3",
-          "sentence": "We walked ___ the tunnel.",
-          "answer": "through"
-        }
-      ]
-    },
-    {
-      "id": "g70",
-      "level": "A1",
-      "title": "Each / every",
-      "theory": "\"Each\" và \"every\" đều đi với danh từ số ít, mang nghĩa \"mỗi\". \"Each\" nhấn mạnh từng cá thể riêng lẻ, \"every\" nhấn mạnh tổng thể chung.",
-      "examples": [
-        "Each student has a book.",
-        "Every day I wake up at 6.",
-        "Each of them got a prize."
-      ],
-      "exercises": [
-        {
-          "id": "g70-e1",
-          "sentence": "___ (every) morning, she drinks coffee.",
-          "answer": "Every"
-        },
-        {
-          "id": "g70-e2",
-          "sentence": "___ student must bring their own laptop.",
-          "answer": "Each"
-        },
-        {
-          "id": "g70-e3",
-          "sentence": "There is a chair for ___ (every) guest.",
-          "answer": "every"
-        }
-      ]
-    },
-    {
-      "id": "g71",
-      "level": "A2",
-      "title": "Verb + V-ing after like/love/hate/enjoy",
-      "theory": "Các động từ chỉ sở thích (like, love, hate, enjoy, dislike) thường theo sau bởi V-ing khi nói về sở thích chung.",
-      "examples": [
-        "I love swimming.",
-        "She hates waiting in line.",
-        "We enjoy traveling together."
-      ],
-      "exercises": [
-        {
-          "id": "g71-e1",
-          "sentence": "He likes ___ (play) video games.",
-          "answer": "playing"
-        },
-        {
-          "id": "g71-e2",
-          "sentence": "I hate ___ (wait) for the bus.",
-          "answer": "waiting"
-        },
-        {
-          "id": "g71-e3",
-          "sentence": "They enjoy ___ (cook) together.",
-          "answer": "cooking"
-        }
-      ]
-    },
-    {
-      "id": "g72",
-      "level": "A2",
-      "title": "Other / another / others",
-      "theory": "\"Another\" (một cái khác) dùng với danh từ số ít. \"Other + danh từ số nhiều\" hoặc \"the other\" (cái còn lại). \"Others\" đứng độc lập, không theo sau danh từ.",
-      "examples": [
-        "Can I have another cup of tea?",
-        "Some people like tea, others prefer coffee.",
-        "Where are the other students?"
-      ],
-      "exercises": [
-        {
-          "id": "g72-e1",
-          "sentence": "I don't like this one, show me ___ (a different one).",
-          "answer": "another"
-        },
-        {
-          "id": "g72-e2",
-          "sentence": "Some students passed, ___ failed.",
-          "answer": "others"
-        },
-        {
-          "id": "g72-e3",
-          "sentence": "Where are the ___ (other) books?",
-          "answer": "other"
-        }
-      ]
-    },
-    {
-      "id": "g73",
-      "level": "A2",
-      "title": "So / such",
-      "theory": "\"So + tính từ/trạng từ\" và \"such + (a/an) + tính từ + danh từ\" đều dùng để nhấn mạnh mức độ.",
-      "examples": [
-        "The movie was so boring.",
-        "It was such a boring movie.",
-        "She is so kind."
-      ],
-      "exercises": [
-        {
-          "id": "g73-e1",
-          "sentence": "It was ___ (so) hot yesterday.",
-          "answer": "so"
-        },
-        {
-          "id": "g73-e2",
-          "sentence": "She is ___ a kind person.",
-          "answer": "such"
-        },
-        {
-          "id": "g73-e3",
-          "sentence": "He speaks ___ (so) fast that I can't understand.",
-          "answer": "so"
-        }
-      ]
-    },
-    {
-      "id": "g74",
-      "level": "A2",
-      "title": "A few / a little vs few / little",
-      "theory": "\"A few\" (với danh từ đếm được) và \"a little\" (với danh từ không đếm được) mang nghĩa tích cực \"có một ít\". \"Few/little\" (không có \"a\") mang nghĩa tiêu cực \"rất ít, hầu như không có\".",
-      "examples": [
-        "I have a few friends here. (đủ để vui)",
-        "I have few friends here. (rất ít, cô đơn)",
-        "There's a little milk left."
-      ],
-      "exercises": [
-        {
-          "id": "g74-e1",
-          "sentence": "We have ___ (a little) time, let's hurry.",
-          "answer": "a little"
-        },
-        {
-          "id": "g74-e2",
-          "sentence": "She has ___ (very few) friends and feels lonely.",
-          "answer": "few"
-        },
-        {
-          "id": "g74-e3",
-          "sentence": "I have ___ (a few) questions for you.",
-          "answer": "a few"
-        }
-      ]
-    },
-    {
-      "id": "g75",
-      "level": "A2",
-      "title": "Order of adjectives",
-      "theory": "Khi dùng nhiều tính từ, thứ tự thường là: ý kiến → kích thước → tuổi → hình dạng → màu sắc → xuất xứ → chất liệu → danh từ. Ví dụ: a beautiful small old round black Vietnamese wooden table.",
-      "examples": [
-        "She has a beautiful big garden.",
-        "He bought a small red car.",
-        "It's an old wooden table."
-      ],
-      "exercises": [
-        {
-          "id": "g75-e1",
-          "sentence": "She wore a ___ dress. (blue, beautiful → đúng thứ tự)",
-          "answer": "beautiful blue"
-        },
-        {
-          "id": "g75-e2",
-          "sentence": "They live in a ___ house. (big, old → đúng thứ tự)",
-          "answer": "big old"
-        },
-        {
-          "id": "g75-e3",
-          "sentence": "I bought a ___ bag. (leather, small → đúng thứ tự)",
-          "answer": "small leather"
-        }
-      ]
-    },
-    {
-      "id": "g76",
-      "level": "B1",
-      "title": "Would rather / had better",
-      "theory": "\"Would rather + V nguyên mẫu\" diễn tả sự ưa thích hơn. \"Had better + V nguyên mẫu\" diễn tả lời khuyên mạnh, có sắc thái cảnh báo hậu quả nếu không làm.",
-      "examples": [
-        "I'd rather stay home tonight.",
-        "You'd better see a doctor.",
-        "She would rather walk than take the bus."
-      ],
-      "exercises": [
-        {
-          "id": "g76-e1",
-          "sentence": "I'd rather ___ (stay) home tonight.",
-          "answer": "stay"
-        },
-        {
-          "id": "g76-e2",
-          "sentence": "You'd better ___ (finish) your homework now.",
-          "answer": "finish"
-        },
-        {
-          "id": "g76-e3",
-          "sentence": "She would rather ___ (not, go) to the party.",
-          "answer": "not go"
-        }
-      ]
-    },
-    {
-      "id": "g77",
-      "level": "B1",
-      "title": "The causative \"have something done\"",
-      "theory": "\"Have/get + tân ngữ + V3\" diễn tả việc nhờ hoặc thuê người khác làm gì đó cho mình.",
-      "examples": [
-        "I had my hair cut yesterday.",
-        "We're going to have the house painted.",
-        "She got her car repaired."
-      ],
-      "exercises": [
-        {
-          "id": "g77-e1",
-          "sentence": "I ___ (have, my phone, fix) last week.",
-          "answer": "had my phone fixed"
-        },
-        {
-          "id": "g77-e2",
-          "sentence": "She wants to ___ (have, her photo, take).",
-          "answer": "have her photo taken"
-        },
-        {
-          "id": "g77-e3",
-          "sentence": "We ___ (get, the car, wash) every week.",
-          "answer": "get the car washed"
-        }
-      ]
-    },
-    {
-      "id": "g78",
-      "level": "B1",
-      "title": "Verb + object + to V patterns",
-      "theory": "Một số động từ (want, ask, tell, expect, advise, allow) theo sau bởi \"tân ngữ + to V\" để diễn tả yêu cầu/mong muốn ai đó làm gì.",
-      "examples": [
-        "I want you to help me.",
-        "She told him to wait outside.",
-        "They advised us to leave early."
-      ],
-      "exercises": [
-        {
-          "id": "g78-e1",
-          "sentence": "He wants me ___ (call) him tonight.",
-          "answer": "to call"
-        },
-        {
-          "id": "g78-e2",
-          "sentence": "The teacher told the students ___ (be) quiet.",
-          "answer": "to be"
-        },
-        {
-          "id": "g78-e3",
-          "sentence": "My parents allow me ___ (go) out on weekends.",
-          "answer": "to go"
-        }
-      ]
-    },
-    {
-      "id": "g79",
-      "level": "B1",
-      "title": "Conditional linkers: unless, as long as, provided that",
-      "theory": "\"Unless\" = \"if...not\" (trừ khi). \"As long as\" và \"provided that\" mang nghĩa \"miễn là, với điều kiện là\".",
-      "examples": [
-        "Unless you study, you won't pass.",
-        "You can borrow my car as long as you drive carefully.",
-        "We'll go, provided that it doesn't rain."
-      ],
-      "exercises": [
-        {
-          "id": "g79-e1",
-          "sentence": "___ you hurry, you'll miss the train.",
-          "answer": "Unless"
-        },
-        {
-          "id": "g79-e2",
-          "sentence": "You can stay here as long as you ___ (be) quiet.",
-          "answer": "are"
-        },
-        {
-          "id": "g79-e3",
-          "sentence": "I'll help you provided that you ___ (ask) nicely.",
-          "answer": "ask"
-        }
-      ]
-    },
-    {
-      "id": "g80",
-      "level": "B1",
-      "title": "Linking words in writing (However, Moreover, Therefore...)",
-      "theory": "Các từ nối giúp bài viết mạch lạc: However/Nevertheless (tuy nhiên), Moreover/Furthermore/In addition (hơn nữa), Therefore/As a result (do đó), On the other hand (mặt khác).",
-      "examples": [
-        "The plan is risky. However, it could be very profitable.",
-        "She is talented. Moreover, she works very hard.",
-        "It rained heavily; therefore, the match was cancelled."
-      ],
-      "exercises": [
-        {
-          "id": "g80-e1",
-          "sentence": "He is young. ___, he has a lot of experience.",
-          "answer": "However"
-        },
-        {
-          "id": "g80-e2",
-          "sentence": "The product is cheap. ___, it is very durable.",
-          "answer": "Moreover"
-        },
-        {
-          "id": "g80-e3",
-          "sentence": "Traffic was terrible; ___, we arrived late.",
-          "answer": "therefore"
-        }
-      ]
-    },
-    {
-      "id": "g81",
-      "level": "B2",
-      "title": "Future Perfect",
-      "theory": "Diễn tả một hành động sẽ hoàn thành trước một thời điểm/hành động khác trong tương lai. Công thức: will have + V3.",
-      "examples": [
-        "By next year, I will have graduated.",
-        "She will have finished the report by Friday.",
-        "They will have moved out by the end of the month."
-      ],
-      "exercises": [
-        {
-          "id": "g81-e1",
-          "sentence": "By 2030, they ___ (will, finish) the new bridge.",
-          "answer": "will have finished"
-        },
-        {
-          "id": "g81-e2",
-          "sentence": "She ___ (will, live) here for ten years by next June.",
-          "answer": "will have lived"
-        },
-        {
-          "id": "g81-e3",
-          "sentence": "We ___ (will, leave) before you arrive.",
-          "answer": "will have left"
-        }
-      ]
-    },
-    {
-      "id": "g82",
-      "level": "B2",
-      "title": "Future Continuous",
-      "theory": "Diễn tả một hành động đang diễn ra tại một thời điểm cụ thể trong tương lai. Công thức: will be + V-ing.",
-      "examples": [
-        "This time tomorrow, I will be flying to Paris.",
-        "She will be working when you call.",
-        "We will be waiting for you at the gate."
-      ],
-      "exercises": [
-        {
-          "id": "g82-e1",
-          "sentence": "At 8 pm tonight, I ___ (will, watch) the match.",
-          "answer": "will be watching"
-        },
-        {
-          "id": "g82-e2",
-          "sentence": "This time next week, we ___ (will, travel) around Japan.",
-          "answer": "will be traveling"
-        },
-        {
-          "id": "g82-e3",
-          "sentence": "She ___ (will, sleep) when we arrive.",
-          "answer": "will be sleeping"
-        }
-      ]
-    },
-    {
-      "id": "g83",
-      "level": "B2",
-      "title": "\"Was/were going to\" — unfulfilled past plans",
-      "theory": "\"Was/were going to + V\" diễn tả một kế hoạch hoặc dự định trong quá khứ nhưng cuối cùng không xảy ra hoặc bị thay đổi.",
-      "examples": [
-        "I was going to call you, but I forgot.",
-        "We were going to go camping, but it rained.",
-        "She was going to quit her job."
-      ],
-      "exercises": [
-        {
-          "id": "g83-e1",
-          "sentence": "I ___ (was going to) study abroad, but I changed my mind.",
-          "answer": "was going to"
-        },
-        {
-          "id": "g83-e2",
-          "sentence": "They ___ (were going to) get married last year.",
-          "answer": "were going to"
-        },
-        {
-          "id": "g83-e3",
-          "sentence": "He was going to ___ (tell) her, but he lost his nerve.",
-          "answer": "tell"
-        }
-      ]
-    },
-    {
-      "id": "g84",
-      "level": "B2",
-      "title": "Participle clauses",
-      "theory": "Mệnh đề phân từ (dùng V-ing hoặc V3) giúp câu văn ngắn gọn hơn, thường thay cho mệnh đề trạng ngữ chỉ thời gian, nguyên nhân, hoặc hành động liên tiếp.",
-      "examples": [
-        "Feeling tired, she went to bed early.",
-        "Having finished his homework, he watched TV.",
-        "Written in 1990, the book is still popular today."
-      ],
-      "exercises": [
-        {
-          "id": "g84-e1",
-          "sentence": "___ (feel) hungry, he ordered a pizza.",
-          "answer": "Feeling"
-        },
-        {
-          "id": "g84-e2",
-          "sentence": "___ (finish) the exam, she left the room.",
-          "answer": "Having finished"
-        },
-        {
-          "id": "g84-e3",
-          "sentence": "___ (write) in simple English, the book is easy to read.",
-          "answer": "Written"
-        }
-      ]
-    },
-    {
-      "id": "g85",
-      "level": "B2",
-      "title": "Ellipsis & substitution (so do I, neither does she)",
-      "theory": "\"So + trợ động từ + S\" dùng để đồng ý với câu khẳng định. \"Neither/Nor + trợ động từ + S\" dùng để đồng ý với câu phủ định.",
-      "examples": [
-        "I love coffee. — So do I.",
-        "She can't swim. — Neither can I.",
-        "He has finished. — So has she."
-      ],
-      "exercises": [
-        {
-          "id": "g85-e1",
-          "sentence": "I like jazz music. — So ___ I.",
-          "answer": "do"
-        },
-        {
-          "id": "g85-e2",
-          "sentence": "She doesn't eat meat. — Neither ___ I.",
-          "answer": "do"
-        },
-        {
-          "id": "g85-e3",
-          "sentence": "He has been to Japan. — So ___ I.",
-          "answer": "have"
-        }
-      ]
-    },
-    {
-      "id": "g86",
-      "level": "B2",
-      "title": "Advanced quantifiers: all / most / none / each of",
-      "theory": "\"All of / most of / none of / each of + danh từ xác định (the/my/these...)\" dùng để nói về một phần hoặc toàn bộ trong một nhóm cụ thể.",
-      "examples": [
-        "All of my friends came to the party.",
-        "Most of the students passed the exam.",
-        "None of us knew the answer."
-      ],
-      "exercises": [
-        {
-          "id": "g86-e1",
-          "sentence": "___ of the students passed the test. (tất cả)",
-          "answer": "All"
-        },
-        {
-          "id": "g86-e2",
-          "sentence": "___ of them wanted to leave early. (không ai)",
-          "answer": "None"
-        },
-        {
-          "id": "g86-e3",
-          "sentence": "___ of my colleagues agree with the plan. (hầu hết)",
-          "answer": "Most"
-        }
-      ]
+     "id": "g01-e6",
+     "sentence": "You ___ my best friend.",
+     "answer": "are"
     }
-  ]
+   ]
+  },
+  {
+   "id": "g02",
+   "level": "A1",
+   "title": "Plural nouns",
+   "theory": "Thêm -s vào hầu hết danh từ (book → books). Danh từ tận cùng bằng s/x/ch/sh thêm -es (box → boxes). Một số danh từ bất quy tắc: child → children, man → men.",
+   "examples": [
+    "I have two books.",
+    "There are three boxes.",
+    "The children are playing."
+   ],
+   "exercises": [
+    {
+     "id": "g02-e1",
+     "sentence": "She has two ___ (dog).",
+     "answer": "dogs"
+    },
+    {
+     "id": "g02-e2",
+     "sentence": "There are five ___ (box) here.",
+     "answer": "boxes"
+    },
+    {
+     "id": "g02-e3",
+     "sentence": "Those ___ (child) are noisy.",
+     "answer": "children"
+    },
+    {
+     "id": "g02-e4",
+     "sentence": "I need two ___ (tomato) for the salad.",
+     "answer": "tomatoes"
+    },
+    {
+     "id": "g02-e5",
+     "sentence": "There are many ___ (person) in the room.",
+     "answer": "people"
+    },
+    {
+     "id": "g02-e6",
+     "sentence": "The ___ (leaf) fall in autumn.",
+     "answer": "leaves"
+    }
+   ]
+  },
+  {
+   "id": "g03",
+   "level": "A1",
+   "title": "Articles a / an / the",
+   "theory": "Dùng \"a\" trước danh từ số ít bắt đầu bằng phụ âm, \"an\" trước nguyên âm (a/e/i/o/u). Dùng \"the\" khi nói về vật cụ thể mà người nghe đã biết.",
+   "examples": [
+    "I have a cat.",
+    "She bought an apple.",
+    "The sun is bright today."
+   ],
+   "exercises": [
+    {
+     "id": "g03-e1",
+     "sentence": "I saw ___ elephant at the zoo.",
+     "answer": "an"
+    },
+    {
+     "id": "g03-e2",
+     "sentence": "He is ___ doctor.",
+     "answer": "a"
+    },
+    {
+     "id": "g03-e3",
+     "sentence": "Close ___ door, please.",
+     "answer": "the"
+    },
+    {
+     "id": "g03-e4",
+     "sentence": "She wants to be ___ engineer.",
+     "answer": "an"
+    },
+    {
+     "id": "g03-e5",
+     "sentence": "We watched ___ movie last night. ___ movie was great.",
+     "answer": "a / The"
+    },
+    {
+     "id": "g03-e6",
+     "sentence": "___ sun rises in the east.",
+     "answer": "The"
+    }
+   ]
+  },
+  {
+   "id": "g04",
+   "level": "A1",
+   "title": "Possessive adjectives (my, your, his, her...)",
+   "theory": "Tính từ sở hữu đứng trước danh từ để chỉ vật thuộc về ai: my, your, his, her, its, our, their.",
+   "examples": [
+    "This is my bag.",
+    "Her name is Lan.",
+    "Their house is big."
+   ],
+   "exercises": [
+    {
+     "id": "g04-e1",
+     "sentence": "This is ___ (I) book.",
+     "answer": "my"
+    },
+    {
+     "id": "g04-e2",
+     "sentence": "Is this ___ (she) phone?",
+     "answer": "her"
+    },
+    {
+     "id": "g04-e3",
+     "sentence": "___ (they) car is new.",
+     "answer": "Their"
+    },
+    {
+     "id": "g04-e4",
+     "sentence": "We love ___ (we) new apartment.",
+     "answer": "our"
+    },
+    {
+     "id": "g04-e5",
+     "sentence": "The dog is licking ___ (it) paws.",
+     "answer": "its"
+    },
+    {
+     "id": "g04-e6",
+     "sentence": "___ (he) brother works in a bank.",
+     "answer": "His"
+    }
+   ]
+  },
+  {
+   "id": "g05",
+   "level": "A1",
+   "title": "There is / There are",
+   "theory": "Dùng \"There is\" với danh từ số ít/không đếm được, \"There are\" với danh từ số nhiều, để nói về sự tồn tại của vật/người.",
+   "examples": [
+    "There is a cat on the table.",
+    "There are ten students in the room."
+   ],
+   "exercises": [
+    {
+     "id": "g05-e1",
+     "sentence": "___ a book on the desk.",
+     "answer": "There is"
+    },
+    {
+     "id": "g05-e2",
+     "sentence": "___ many people at the park.",
+     "answer": "There are"
+    },
+    {
+     "id": "g05-e3",
+     "sentence": "___ some milk in the fridge.",
+     "answer": "There is"
+    },
+    {
+     "id": "g05-e4",
+     "sentence": "___ two cats in the garden.",
+     "answer": "There are"
+    },
+    {
+     "id": "g05-e5",
+     "sentence": "___ a problem with my computer.",
+     "answer": "There is"
+    },
+    {
+     "id": "g05-e6",
+     "sentence": "___ any questions about the lesson?",
+     "answer": "Are there"
+    }
+   ]
+  },
+  {
+   "id": "g06",
+   "level": "A1",
+   "title": "Simple Present",
+   "theory": "Dùng để nói về thói quen, sự thật hiển nhiên. Công thức: S + V(s/es) với he/she/it, S + V với I/you/we/they.",
+   "examples": [
+    "She works in a bank.",
+    "I go to school every day.",
+    "Water boils at 100 degrees."
+   ],
+   "exercises": [
+    {
+     "id": "g06-e1",
+     "sentence": "He ___ (work) every day.",
+     "answer": "works"
+    },
+    {
+     "id": "g06-e2",
+     "sentence": "They ___ (live) in Hanoi.",
+     "answer": "live"
+    },
+    {
+     "id": "g06-e3",
+     "sentence": "She ___ (not, like) coffee.",
+     "answer": "does not like"
+    },
+    {
+     "id": "g06-e4",
+     "sentence": "The store ___ (open) at 8 a.m.",
+     "answer": "opens"
+    },
+    {
+     "id": "g06-e5",
+     "sentence": "My sister ___ (study) at university.",
+     "answer": "studies"
+    },
+    {
+     "id": "g06-e6",
+     "sentence": "We ___ (not, watch) TV in the morning.",
+     "answer": "do not watch"
+    }
+   ]
+  },
+  {
+   "id": "g07",
+   "level": "A1",
+   "title": "Prepositions of place (in / on / at)",
+   "theory": "\"in\" cho không gian lớn (in a city, in a room), \"on\" cho bề mặt (on the table), \"at\" cho địa điểm cụ thể (at the door, at school).",
+   "examples": [
+    "She lives in Hanoi.",
+    "The book is on the table.",
+    "I'll meet you at the station."
+   ],
+   "exercises": [
+    {
+     "id": "g07-e1",
+     "sentence": "The keys are ___ the table.",
+     "answer": "on"
+    },
+    {
+     "id": "g07-e2",
+     "sentence": "I live ___ Vietnam.",
+     "answer": "in"
+    },
+    {
+     "id": "g07-e3",
+     "sentence": "Wait for me ___ the bus stop.",
+     "answer": "at"
+    },
+    {
+     "id": "g07-e4",
+     "sentence": "The picture is ___ the wall.",
+     "answer": "on"
+    },
+    {
+     "id": "g07-e5",
+     "sentence": "She is waiting ___ the airport.",
+     "answer": "at"
+    },
+    {
+     "id": "g07-e6",
+     "sentence": "The milk is ___ the fridge.",
+     "answer": "in"
+    }
+   ]
+  },
+  {
+   "id": "g08",
+   "level": "A1",
+   "title": "Question words",
+   "theory": "What (cái gì), Where (ở đâu), Who (ai), When (khi nào), Why (tại sao), How (như thế nào) dùng để bắt đầu câu hỏi Wh-question.",
+   "examples": [
+    "What is your name?",
+    "Where do you live?",
+    "Why are you late?"
+   ],
+   "exercises": [
+    {
+     "id": "g08-e1",
+     "sentence": "___ is your favorite color?",
+     "answer": "What"
+    },
+    {
+     "id": "g08-e2",
+     "sentence": "___ do you live?",
+     "answer": "Where"
+    },
+    {
+     "id": "g08-e3",
+     "sentence": "___ are you crying?",
+     "answer": "Why"
+    },
+    {
+     "id": "g08-e4",
+     "sentence": "___ is your birthday? — In June.",
+     "answer": "When"
+    },
+    {
+     "id": "g08-e5",
+     "sentence": "___ bag is this? — It's mine.",
+     "answer": "Whose"
+    },
+    {
+     "id": "g08-e6",
+     "sentence": "___ do you go to work? — By bus.",
+     "answer": "How"
+    }
+   ]
+  },
+  {
+   "id": "g31",
+   "level": "A1",
+   "title": "Subject & object pronouns (I/me, he/him...)",
+   "theory": "Đại từ chủ ngữ (I, you, he, she, it, we, they) đứng trước động từ làm chủ ngữ. Đại từ tân ngữ (me, you, him, her, it, us, them) đứng sau động từ hoặc giới từ làm tân ngữ.",
+   "examples": [
+    "I love her.",
+    "She gave it to me.",
+    "We saw them at the park."
+   ],
+   "exercises": [
+    {
+     "id": "g31-e1",
+     "sentence": "Can you help ___ (I)?",
+     "answer": "me"
+    },
+    {
+     "id": "g31-e2",
+     "sentence": "___ (she) is my sister.",
+     "answer": "She"
+    },
+    {
+     "id": "g31-e3",
+     "sentence": "I met ___ (they) yesterday.",
+     "answer": "them"
+    },
+    {
+     "id": "g31-e4",
+     "sentence": "Please give ___ (we) more time.",
+     "answer": "us"
+    },
+    {
+     "id": "g31-e5",
+     "sentence": "___ (I) called you, but you didn't answer.",
+     "answer": "I"
+    },
+    {
+     "id": "g31-e6",
+     "sentence": "Do you know ___ (he)? He's new here.",
+     "answer": "him"
+    }
+   ]
+  },
+  {
+   "id": "g32",
+   "level": "A1",
+   "title": "The verb \"have/has\" (possession)",
+   "theory": "Dùng \"have\" với I/you/we/they, \"has\" với he/she/it để diễn tả sự sở hữu hoặc đặc điểm.",
+   "examples": [
+    "I have a new bike.",
+    "She has two brothers.",
+    "They have a big house."
+   ],
+   "exercises": [
+    {
+     "id": "g32-e1",
+     "sentence": "He ___ (have) a dog.",
+     "answer": "has"
+    },
+    {
+     "id": "g32-e2",
+     "sentence": "I ___ (have) three books.",
+     "answer": "have"
+    },
+    {
+     "id": "g32-e3",
+     "sentence": "They ___ (not, have) a car.",
+     "answer": "do not have"
+    },
+    {
+     "id": "g32-e4",
+     "sentence": "She ___ (have) two brothers.",
+     "answer": "has"
+    },
+    {
+     "id": "g32-e5",
+     "sentence": "___ they ___ (have) any pets?",
+     "answer": "Do they have"
+    },
+    {
+     "id": "g32-e6",
+     "sentence": "My phone ___ (not, have) much battery left.",
+     "answer": "does not have"
+    }
+   ]
+  },
+  {
+   "id": "g33",
+   "level": "A1",
+   "title": "Cardinal & ordinal numbers",
+   "theory": "Số đếm (one, two, three...) dùng để đếm số lượng. Số thứ tự (first, second, third...) dùng để chỉ vị trí, thứ tự.",
+   "examples": [
+    "I have two sisters.",
+    "She finished first in the race.",
+    "This is my third time here."
+   ],
+   "exercises": [
+    {
+     "id": "g33-e1",
+     "sentence": "Today is my ___ (one) day at work.",
+     "answer": "first"
+    },
+    {
+     "id": "g33-e2",
+     "sentence": "I live on the ___ (two) floor.",
+     "answer": "second"
+    },
+    {
+     "id": "g33-e3",
+     "sentence": "She has ___ (5) children.",
+     "answer": "five"
+    },
+    {
+     "id": "g33-e4",
+     "sentence": "December is the ___ (twelve) month of the year.",
+     "answer": "twelfth"
+    },
+    {
+     "id": "g33-e5",
+     "sentence": "He finished in ___ (three) place in the race.",
+     "answer": "third"
+    },
+    {
+     "id": "g33-e6",
+     "sentence": "There are ___ (20) students in my class.",
+     "answer": "twenty"
+    }
+   ]
+  },
+  {
+   "id": "g34",
+   "level": "A1",
+   "title": "Imperatives",
+   "theory": "Câu mệnh lệnh dùng động từ nguyên mẫu không chia ở đầu câu để ra lệnh, yêu cầu, hoặc hướng dẫn. Thêm \"Don't\" trước động từ để phủ định.",
+   "examples": [
+    "Close the door.",
+    "Don't be late.",
+    "Please sit down."
+   ],
+   "exercises": [
+    {
+     "id": "g34-e1",
+     "sentence": "___ (open) the window, please.",
+     "answer": "Open"
+    },
+    {
+     "id": "g34-e2",
+     "sentence": "___ (not, touch) that, it's hot!",
+     "answer": "Don't touch"
+    },
+    {
+     "id": "g34-e3",
+     "sentence": "___ (be) quiet in the library.",
+     "answer": "Be"
+    },
+    {
+     "id": "g34-e4",
+     "sentence": "___ (close) your books and listen.",
+     "answer": "Close"
+    },
+    {
+     "id": "g34-e5",
+     "sentence": "___ (not, run) in the hallway!",
+     "answer": "Don't run"
+    },
+    {
+     "id": "g34-e6",
+     "sentence": "___ (turn) left at the traffic light.",
+     "answer": "Turn"
+    }
+   ]
+  },
+  {
+   "id": "g35",
+   "level": "A1",
+   "title": "\"Let's\" and basic suggestions",
+   "theory": "\"Let's\" (= Let us) + động từ nguyên mẫu dùng để rủ rê, đề nghị cùng làm việc gì đó.",
+   "examples": [
+    "Let's go to the beach.",
+    "Let's have lunch together.",
+    "Let's not argue about this."
+   ],
+   "exercises": [
+    {
+     "id": "g35-e1",
+     "sentence": "___'s (go) to the cinema tonight.",
+     "answer": "Let's go"
+    },
+    {
+     "id": "g35-e2",
+     "sentence": "___'s (not, be) late.",
+     "answer": "Let's not be"
+    },
+    {
+     "id": "g35-e3",
+     "sentence": "___'s (try) this new restaurant.",
+     "answer": "Let's try"
+    },
+    {
+     "id": "g35-e4",
+     "sentence": "___'s (have) lunch together tomorrow.",
+     "answer": "Let's have"
+    },
+    {
+     "id": "g35-e5",
+     "sentence": "___'s (watch) a movie tonight.",
+     "answer": "Let's watch"
+    },
+    {
+     "id": "g35-e6",
+     "sentence": "___'s (not, tell) anyone about this.",
+     "answer": "Let's not tell"
+    }
+   ]
+  },
+  {
+   "id": "g36",
+   "level": "A1",
+   "title": "Prepositions of time (in / on / at)",
+   "theory": "\"in\" cho tháng/năm/mùa (in July, in 2020), \"on\" cho ngày cụ thể (on Monday), \"at\" cho giờ cụ thể (at 7 pm).",
+   "examples": [
+    "My birthday is in July.",
+    "I have class on Monday.",
+    "We meet at 8 am."
+   ],
+   "exercises": [
+    {
+     "id": "g36-e1",
+     "sentence": "She was born ___ 1998.",
+     "answer": "in"
+    },
+    {
+     "id": "g36-e2",
+     "sentence": "The party is ___ Saturday.",
+     "answer": "on"
+    },
+    {
+     "id": "g36-e3",
+     "sentence": "The train leaves ___ 9 o'clock.",
+     "answer": "at"
+    },
+    {
+     "id": "g36-e4",
+     "sentence": "I always drink coffee ___ the morning.",
+     "answer": "in"
+    },
+    {
+     "id": "g36-e5",
+     "sentence": "The meeting starts ___ noon.",
+     "answer": "at"
+    },
+    {
+     "id": "g36-e6",
+     "sentence": "We have a test ___ Monday morning.",
+     "answer": "on"
+    }
+   ]
+  },
+  {
+   "id": "g37",
+   "level": "A1",
+   "title": "This / that / these / those",
+   "theory": "\"This/these\" chỉ vật ở gần (this = số ít, these = số nhiều). \"That/those\" chỉ vật ở xa (that = số ít, those = số nhiều).",
+   "examples": [
+    "This is my pen.",
+    "These are my books.",
+    "That is her car.",
+    "Those are nice shoes."
+   ],
+   "exercises": [
+    {
+     "id": "g37-e1",
+     "sentence": "___ (this, near) is my phone.",
+     "answer": "This"
+    },
+    {
+     "id": "g37-e2",
+     "sentence": "___ (that, far) are my friends over there.",
+     "answer": "Those"
+    },
+    {
+     "id": "g37-e3",
+     "sentence": "___ (these, near) shoes are new.",
+     "answer": "These"
+    },
+    {
+     "id": "g37-e4",
+     "sentence": "___ (that, far) building over there is a museum.",
+     "answer": "That"
+    },
+    {
+     "id": "g37-e5",
+     "sentence": "___ (this, near) cookies smell delicious.",
+     "answer": "These"
+    },
+    {
+     "id": "g37-e6",
+     "sentence": "Can you see ___ (that, far) birds in the sky?",
+     "answer": "those"
+    }
+   ]
+  },
+  {
+   "id": "g38",
+   "level": "A1",
+   "title": "Basic Yes/No questions (Do/Does/Is/Are)",
+   "theory": "Với động từ thường, dùng Do/Does đầu câu. Với động từ \"to be\", đảo is/are lên trước chủ ngữ.",
+   "examples": [
+    "Do you like coffee?",
+    "Does she work here?",
+    "Is he your brother?",
+    "Are they at home?"
+   ],
+   "exercises": [
+    {
+     "id": "g38-e1",
+     "sentence": "___ you speak English?",
+     "answer": "Do"
+    },
+    {
+     "id": "g38-e2",
+     "sentence": "___ she like pizza?",
+     "answer": "Does"
+    },
+    {
+     "id": "g38-e3",
+     "sentence": "___ they at school now?",
+     "answer": "Are"
+    },
+    {
+     "id": "g38-e4",
+     "sentence": "___ your father work in a hospital?",
+     "answer": "Does"
+    },
+    {
+     "id": "g38-e5",
+     "sentence": "___ I late for the meeting?",
+     "answer": "Am"
+    },
+    {
+     "id": "g38-e6",
+     "sentence": "___ we need to bring anything?",
+     "answer": "Do"
+    }
+   ]
+  },
+  {
+   "id": "g09",
+   "level": "A2",
+   "title": "Present Continuous",
+   "theory": "Dùng cho hành động đang xảy ra ngay lúc nói. Công thức: S + am/is/are + V-ing.",
+   "examples": [
+    "I am reading a book now.",
+    "She is cooking dinner.",
+    "They are playing football."
+   ],
+   "exercises": [
+    {
+     "id": "g09-e1",
+     "sentence": "She ___ (cook) dinner right now.",
+     "answer": "is cooking"
+    },
+    {
+     "id": "g09-e2",
+     "sentence": "We ___ (study) English at the moment.",
+     "answer": "are studying"
+    },
+    {
+     "id": "g09-e3",
+     "sentence": "He ___ (not, sleep) now.",
+     "answer": "is not sleeping"
+    },
+    {
+     "id": "g09-e4",
+     "sentence": "Look! It ___ (rain) outside.",
+     "answer": "is raining"
+    },
+    {
+     "id": "g09-e5",
+     "sentence": "The children ___ (play) in the yard right now.",
+     "answer": "are playing"
+    },
+    {
+     "id": "g09-e6",
+     "sentence": "Why ___ you ___ (wear) a coat? It's hot!",
+     "answer": "are you wearing"
+    },
+    {
+     "id": "g09-e7",
+     "sentence": "I ___ (not, joke) — this is serious.",
+     "answer": "am not joking"
+    }
+   ]
+  },
+  {
+   "id": "g10",
+   "level": "A2",
+   "title": "Simple Past",
+   "theory": "Diễn tả hành động đã kết thúc trong quá khứ. Động từ có quy tắc thêm -ed; nhiều động từ bất quy tắc phải học thuộc (go → went, eat → ate).",
+   "examples": [
+    "I visited my grandmother last week.",
+    "She went to Paris in 2019.",
+    "They didn't watch the movie."
+   ],
+   "exercises": [
+    {
+     "id": "g10-e1",
+     "sentence": "She ___ (go) to school yesterday.",
+     "answer": "went"
+    },
+    {
+     "id": "g10-e2",
+     "sentence": "They ___ (watch) a movie last night.",
+     "answer": "watched"
+    },
+    {
+     "id": "g10-e3",
+     "sentence": "I ___ (not, see) him yesterday.",
+     "answer": "did not see"
+    },
+    {
+     "id": "g10-e4",
+     "sentence": "We ___ (visit) our grandparents last summer.",
+     "answer": "visited"
+    },
+    {
+     "id": "g10-e5",
+     "sentence": "He ___ (buy) a new phone two days ago.",
+     "answer": "bought"
+    },
+    {
+     "id": "g10-e6",
+     "sentence": "___ you ___ (enjoy) the concert?",
+     "answer": "Did you enjoy"
+    }
+   ]
+  },
+  {
+   "id": "g11",
+   "level": "A2",
+   "title": "Past Continuous",
+   "theory": "Diễn tả hành động đang xảy ra tại một thời điểm trong quá khứ, thường bị hành động khác xen vào. Công thức: S + was/were + V-ing.",
+   "examples": [
+    "I was watching TV when she called.",
+    "They were sleeping at midnight."
+   ],
+   "exercises": [
+    {
+     "id": "g11-e1",
+     "sentence": "I ___ (study) when the phone rang.",
+     "answer": "was studying"
+    },
+    {
+     "id": "g11-e2",
+     "sentence": "They ___ (play) football at 5 pm yesterday.",
+     "answer": "were playing"
+    },
+    {
+     "id": "g11-e3",
+     "sentence": "She ___ (not, listen) when I spoke.",
+     "answer": "was not listening"
+    },
+    {
+     "id": "g11-e4",
+     "sentence": "What ___ you ___ (do) at 9 pm last night?",
+     "answer": "were you doing"
+    },
+    {
+     "id": "g11-e5",
+     "sentence": "It ___ (snow) when we left the house.",
+     "answer": "was snowing"
+    },
+    {
+     "id": "g11-e6",
+     "sentence": "While she ___ (cook), he was setting the table.",
+     "answer": "was cooking"
+    }
+   ]
+  },
+  {
+   "id": "g12",
+   "level": "A2",
+   "title": "Comparatives and superlatives",
+   "theory": "Tính từ ngắn: thêm -er/-est (tall → taller → tallest). Tính từ dài: more/most + tính từ (expensive → more expensive → most expensive).",
+   "examples": [
+    "She is taller than her brother.",
+    "This is the most expensive restaurant in town."
+   ],
+   "exercises": [
+    {
+     "id": "g12-e1",
+     "sentence": "This book is ___ (interesting) than that one.",
+     "answer": "more interesting"
+    },
+    {
+     "id": "g12-e2",
+     "sentence": "He is the ___ (tall) student in class.",
+     "answer": "tallest"
+    },
+    {
+     "id": "g12-e3",
+     "sentence": "Today is ___ (hot) than yesterday.",
+     "answer": "hotter"
+    },
+    {
+     "id": "g12-e4",
+     "sentence": "My house is ___ (big) than yours.",
+     "answer": "bigger"
+    },
+    {
+     "id": "g12-e5",
+     "sentence": "This is the ___ (good) meal I've ever had.",
+     "answer": "best"
+    },
+    {
+     "id": "g12-e6",
+     "sentence": "The exam was ___ (difficult) than I expected.",
+     "answer": "more difficult"
+    }
+   ]
+  },
+  {
+   "id": "g13",
+   "level": "A2",
+   "title": "Future with \"will\" and \"be going to\"",
+   "theory": "\"Will\" dùng cho quyết định tức thời hoặc dự đoán chung. \"Be going to\" dùng cho kế hoạch đã định trước hoặc dự đoán có dấu hiệu rõ ràng.",
+   "examples": [
+    "I will call you later.",
+    "We are going to visit Da Lat next month.",
+    "Look at those clouds — it's going to rain."
+   ],
+   "exercises": [
+    {
+     "id": "g13-e1",
+     "sentence": "I think it ___ (rain) tomorrow.",
+     "answer": "will rain"
+    },
+    {
+     "id": "g13-e2",
+     "sentence": "We ___ (go) to the beach next weekend. (planned)",
+     "answer": "are going to go"
+    },
+    {
+     "id": "g13-e3",
+     "sentence": "She ___ (help) you — don't worry.",
+     "answer": "will help"
+    },
+    {
+     "id": "g13-e4",
+     "sentence": "Look at those clouds! It ___ (rain).",
+     "answer": "is going to rain"
+    },
+    {
+     "id": "g13-e5",
+     "sentence": "I'm tired. I think I ___ (go) to bed early.",
+     "answer": "will go"
+    },
+    {
+     "id": "g13-e6",
+     "sentence": "They ___ (get) married in June. (already planned)",
+     "answer": "are going to get"
+    }
+   ]
+  },
+  {
+   "id": "g14",
+   "level": "A2",
+   "title": "Modal verbs: can, must, should",
+   "theory": "\"Can\" diễn tả khả năng/sự cho phép, \"must\" diễn tả sự bắt buộc, \"should\" diễn tả lời khuyên.",
+   "examples": [
+    "She can swim very well.",
+    "You must wear a seatbelt.",
+    "You should see a doctor."
+   ],
+   "exercises": [
+    {
+     "id": "g14-e1",
+     "sentence": "You ___ smoke here. It's not allowed.",
+     "answer": "must not"
+    },
+    {
+     "id": "g14-e2",
+     "sentence": "He ___ speak three languages.",
+     "answer": "can"
+    },
+    {
+     "id": "g14-e3",
+     "sentence": "You look tired, you ___ rest.",
+     "answer": "should"
+    },
+    {
+     "id": "g14-e4",
+     "sentence": "You ___ be quiet in the library.",
+     "answer": "must"
+    },
+    {
+     "id": "g14-e5",
+     "sentence": "___ you help me with this box?",
+     "answer": "Can"
+    },
+    {
+     "id": "g14-e6",
+     "sentence": "You ___ eat so much fast food. It's unhealthy.",
+     "answer": "should not"
+    }
+   ]
+  },
+  {
+   "id": "g15",
+   "level": "A2",
+   "title": "Countable/uncountable nouns + some/any",
+   "theory": "Danh từ đếm được có số nhiều (apple/apples); danh từ không đếm được không có số nhiều (water, rice). Dùng \"some\" trong câu khẳng định, \"any\" trong câu phủ định/nghi vấn.",
+   "examples": [
+    "I have some water.",
+    "Do you have any rice?",
+    "There isn't any milk left."
+   ],
+   "exercises": [
+    {
+     "id": "g15-e1",
+     "sentence": "Is there ___ sugar in the jar?",
+     "answer": "any"
+    },
+    {
+     "id": "g15-e2",
+     "sentence": "I bought ___ apples yesterday.",
+     "answer": "some"
+    },
+    {
+     "id": "g15-e3",
+     "sentence": "There isn't ___ bread at home.",
+     "answer": "any"
+    },
+    {
+     "id": "g15-e4",
+     "sentence": "Would you like ___ tea?",
+     "answer": "some"
+    },
+    {
+     "id": "g15-e5",
+     "sentence": "Are there ___ eggs left in the fridge?",
+     "answer": "any"
+    },
+    {
+     "id": "g15-e6",
+     "sentence": "I need ___ information about the course.",
+     "answer": "some"
+    }
+   ]
+  },
+  {
+   "id": "g16",
+   "level": "A2",
+   "title": "Adverbs of frequency",
+   "theory": "Always, usually, often, sometimes, rarely, never — đứng trước động từ thường và sau động từ \"to be\".",
+   "examples": [
+    "She always arrives on time.",
+    "I am never late.",
+    "He usually drinks coffee in the morning."
+   ],
+   "exercises": [
+    {
+     "id": "g16-e1",
+     "sentence": "He ___ (always) late for class.",
+     "answer": "is always"
+    },
+    {
+     "id": "g16-e2",
+     "sentence": "I ___ (never) eat meat.",
+     "answer": "never eat"
+    },
+    {
+     "id": "g16-e3",
+     "sentence": "They ___ (often) go to the cinema.",
+     "answer": "often go"
+    },
+    {
+     "id": "g16-e4",
+     "sentence": "She ___ (usually) gets up at six.",
+     "answer": "usually gets up"
+    },
+    {
+     "id": "g16-e5",
+     "sentence": "We ___ (sometimes) eat out on Fridays.",
+     "answer": "sometimes eat"
+    },
+    {
+     "id": "g16-e6",
+     "sentence": "He ___ (rarely) is sick.",
+     "answer": "is rarely"
+    }
+   ]
+  },
+  {
+   "id": "g39",
+   "level": "A2",
+   "title": "Much / many / a lot of",
+   "theory": "\"Many\" dùng với danh từ đếm được số nhiều, \"much\" dùng với danh từ không đếm được (thường trong câu phủ định/nghi vấn), \"a lot of\" dùng được cho cả hai trong câu khẳng định.",
+   "examples": [
+    "How many books do you have?",
+    "There isn't much time left.",
+    "She has a lot of friends."
+   ],
+   "exercises": [
+    {
+     "id": "g39-e1",
+     "sentence": "How ___ water do you drink a day?",
+     "answer": "much"
+    },
+    {
+     "id": "g39-e2",
+     "sentence": "There are ___ people at the party.",
+     "answer": "a lot of"
+    },
+    {
+     "id": "g39-e3",
+     "sentence": "He doesn't have ___ money.",
+     "answer": "much"
+    },
+    {
+     "id": "g39-e4",
+     "sentence": "How ___ brothers do you have?",
+     "answer": "many"
+    },
+    {
+     "id": "g39-e5",
+     "sentence": "She puts too ___ sugar in her coffee.",
+     "answer": "much"
+    },
+    {
+     "id": "g39-e6",
+     "sentence": "We saw ___ interesting things at the museum.",
+     "answer": "a lot of"
+    }
+   ]
+  },
+  {
+   "id": "g40",
+   "level": "A2",
+   "title": "Equal comparisons (as...as)",
+   "theory": "Cấu trúc \"as + tính từ/trạng từ + as\" dùng để so sánh hai đối tượng ngang bằng nhau. Phủ định dùng \"not as...as\" hoặc \"not so...as\".",
+   "examples": [
+    "She is as tall as her mother.",
+    "This test is not as difficult as the last one."
+   ],
+   "exercises": [
+    {
+     "id": "g40-e1",
+     "sentence": "He is ___ (tall) as his father.",
+     "answer": "as tall"
+    },
+    {
+     "id": "g40-e2",
+     "sentence": "This bag is not ___ (expensive) as that one.",
+     "answer": "as expensive"
+    },
+    {
+     "id": "g40-e3",
+     "sentence": "She runs ___ (fast) as him.",
+     "answer": "as fast"
+    },
+    {
+     "id": "g40-e4",
+     "sentence": "My car is ___ (fast) as yours.",
+     "answer": "as fast"
+    },
+    {
+     "id": "g40-e5",
+     "sentence": "This exam was not ___ (hard) as the last one.",
+     "answer": "as hard"
+    },
+    {
+     "id": "g40-e6",
+     "sentence": "He plays the guitar ___ (well) as a professional.",
+     "answer": "as well"
+    }
+   ]
+  },
+  {
+   "id": "g41",
+   "level": "A2",
+   "title": "Adverbs of manner",
+   "theory": "Trạng từ cách thức thường được thành lập bằng cách thêm -ly vào tính từ (quick → quickly), dùng để bổ nghĩa cho động từ, mô tả cách hành động xảy ra.",
+   "examples": [
+    "She sings beautifully.",
+    "He drives carefully.",
+    "They worked quickly to finish on time."
+   ],
+   "exercises": [
+    {
+     "id": "g41-e1",
+     "sentence": "She speaks English ___ (fluent).",
+     "answer": "fluently"
+    },
+    {
+     "id": "g41-e2",
+     "sentence": "He walked ___ (slow) because of his leg.",
+     "answer": "slowly"
+    },
+    {
+     "id": "g41-e3",
+     "sentence": "They finished the test ___ (easy).",
+     "answer": "easily"
+    },
+    {
+     "id": "g41-e4",
+     "sentence": "Please drive ___ (careful) in the rain.",
+     "answer": "carefully"
+    },
+    {
+     "id": "g41-e5",
+     "sentence": "The children sang ___ (beautiful) at the show.",
+     "answer": "beautifully"
+    },
+    {
+     "id": "g41-e6",
+     "sentence": "He answered all the questions ___ (correct).",
+     "answer": "correctly"
+    }
+   ]
+  },
+  {
+   "id": "g42",
+   "level": "A2",
+   "title": "Would like to / want to",
+   "theory": "\"Would like to\" lịch sự hơn \"want to\" khi diễn tả mong muốn. Cả hai đều theo sau bởi động từ nguyên mẫu có \"to\".",
+   "examples": [
+    "I would like to order a coffee.",
+    "She wants to learn French.",
+    "Would you like to join us?"
+   ],
+   "exercises": [
+    {
+     "id": "g42-e1",
+     "sentence": "I ___ (would like) to have some water, please.",
+     "answer": "would like"
+    },
+    {
+     "id": "g42-e2",
+     "sentence": "He wants ___ (become) a doctor.",
+     "answer": "to become"
+    },
+    {
+     "id": "g42-e3",
+     "sentence": "___ you like to come with us?",
+     "answer": "Would"
+    },
+    {
+     "id": "g42-e4",
+     "sentence": "___ you like some more rice?",
+     "answer": "Would"
+    },
+    {
+     "id": "g42-e5",
+     "sentence": "She ___ (want) to visit Paris someday.",
+     "answer": "wants"
+    },
+    {
+     "id": "g42-e6",
+     "sentence": "I would like ___ (book) a table for two.",
+     "answer": "to book"
+    }
+   ]
+  },
+  {
+   "id": "g43",
+   "level": "A2",
+   "title": "Have to / don't have to",
+   "theory": "\"Have to\" diễn tả sự bắt buộc (tương tự must). \"Don't have to\" diễn tả sự không cần thiết (khác với \"must not\" là cấm đoán).",
+   "examples": [
+    "I have to finish this report today.",
+    "You don't have to come if you're busy.",
+    "She has to wake up early."
+   ],
+   "exercises": [
+    {
+     "id": "g43-e1",
+     "sentence": "He ___ (have to) wear a uniform at work.",
+     "answer": "has to"
+    },
+    {
+     "id": "g43-e2",
+     "sentence": "You ___ (not, have to) pay, it's free.",
+     "answer": "don't have to"
+    },
+    {
+     "id": "g43-e3",
+     "sentence": "We ___ (have to) leave now or we'll be late.",
+     "answer": "have to"
+    },
+    {
+     "id": "g43-e4",
+     "sentence": "Students ___ (have to) wear uniforms at this school.",
+     "answer": "have to"
+    },
+    {
+     "id": "g43-e5",
+     "sentence": "She ___ (not, have to) work on Sundays.",
+     "answer": "doesn't have to"
+    },
+    {
+     "id": "g43-e6",
+     "sentence": "___ we ___ (have to) finish this today?",
+     "answer": "Do we have to"
+    }
+   ]
+  },
+  {
+   "id": "g44",
+   "level": "A2",
+   "title": "\"Will\" for predictions, promises, and instant decisions",
+   "theory": "\"Will\" dùng khi đưa ra quyết định ngay lúc nói, hứa hẹn, hoặc dự đoán không có bằng chứng rõ ràng.",
+   "examples": [
+    "I'll answer the phone.",
+    "I promise I will help you.",
+    "I think she will win the match."
+   ],
+   "exercises": [
+    {
+     "id": "g44-e1",
+     "sentence": "The phone is ringing — I ___ (will) get it.",
+     "answer": "will"
+    },
+    {
+     "id": "g44-e2",
+     "sentence": "I promise I ___ (will, not, tell) anyone.",
+     "answer": "will not tell"
+    },
+    {
+     "id": "g44-e3",
+     "sentence": "I think it ___ (will) be sunny tomorrow.",
+     "answer": "will"
+    },
+    {
+     "id": "g44-e4",
+     "sentence": "Don't worry, I ___ (will) help you move the sofa.",
+     "answer": "will"
+    },
+    {
+     "id": "g44-e5",
+     "sentence": "I believe she ___ (will) win the competition.",
+     "answer": "will"
+    },
+    {
+     "id": "g44-e6",
+     "sentence": "It's cold in here — I ___ (will) close the window.",
+     "answer": "will"
+    }
+   ]
+  },
+  {
+   "id": "g45",
+   "level": "A2",
+   "title": "Basic tag questions",
+   "theory": "Câu hỏi đuôi dùng để xác nhận thông tin. Nếu mệnh đề chính khẳng định, đuôi câu phủ định và ngược lại.",
+   "examples": [
+    "She is a teacher, isn't she?",
+    "You don't like coffee, do you?",
+    "They can swim, can't they?"
+   ],
+   "exercises": [
+    {
+     "id": "g45-e1",
+     "sentence": "You are tired, ___?",
+     "answer": "aren't you"
+    },
+    {
+     "id": "g45-e2",
+     "sentence": "He doesn't like fish, ___?",
+     "answer": "does he"
+    },
+    {
+     "id": "g45-e3",
+     "sentence": "They went home, ___?",
+     "answer": "didn't they"
+    },
+    {
+     "id": "g45-e4",
+     "sentence": "She can swim, ___?",
+     "answer": "can't she"
+    },
+    {
+     "id": "g45-e5",
+     "sentence": "You haven't seen my keys, ___?",
+     "answer": "have you"
+    },
+    {
+     "id": "g45-e6",
+     "sentence": "It's a beautiful day, ___?",
+     "answer": "isn't it"
+    }
+   ]
+  },
+  {
+   "id": "g46",
+   "level": "A2",
+   "title": "Both / either / neither",
+   "theory": "\"Both\" (cả hai) dùng cho câu khẳng định về 2 đối tượng. \"Either\" (một trong hai) và \"neither\" (không cái nào) thường đi với danh từ số ít.",
+   "examples": [
+    "Both of my parents are teachers.",
+    "You can take either bus.",
+    "Neither answer is correct."
+   ],
+   "exercises": [
+    {
+     "id": "g46-e1",
+     "sentence": "___ of us like spicy food.",
+     "answer": "Both"
+    },
+    {
+     "id": "g46-e2",
+     "sentence": "You can choose ___ option, it doesn't matter.",
+     "answer": "either"
+    },
+    {
+     "id": "g46-e3",
+     "sentence": "___ of the two shirts fits me well.",
+     "answer": "Neither"
+    },
+    {
+     "id": "g46-e4",
+     "sentence": "___ my parents were born in Da Nang.",
+     "answer": "Both"
+    },
+    {
+     "id": "g46-e5",
+     "sentence": "I don't like ___ of these two options.",
+     "answer": "either"
+    },
+    {
+     "id": "g46-e6",
+     "sentence": "___ answer is correct — try again.",
+     "answer": "Neither"
+    }
+   ]
+  },
+  {
+   "id": "g17",
+   "level": "B1",
+   "title": "Present Perfect",
+   "theory": "Dùng cho hành động bắt đầu trong quá khứ và còn liên quan/tiếp diễn đến hiện tại, hoặc kinh nghiệm chưa xác định thời gian. Công thức: have/has + V3.",
+   "examples": [
+    "She has lived in Hanoi since 2019.",
+    "I have never been to Japan.",
+    "Have you finished your homework yet?"
+   ],
+   "exercises": [
+    {
+     "id": "g17-e1",
+     "sentence": "She ___ (live) in Hanoi since 2019.",
+     "answer": "has lived"
+    },
+    {
+     "id": "g17-e2",
+     "sentence": "I ___ (never, try) durian.",
+     "answer": "have never tried"
+    },
+    {
+     "id": "g17-e3",
+     "sentence": "___ you ___ (finish) the report yet?",
+     "answer": "Have you finished"
+    },
+    {
+     "id": "g17-e4",
+     "sentence": "I ___ (know) her since we were children.",
+     "answer": "have known"
+    },
+    {
+     "id": "g17-e5",
+     "sentence": "They ___ (just, arrive) at the hotel.",
+     "answer": "have just arrived"
+    },
+    {
+     "id": "g17-e6",
+     "sentence": "He ___ (not, call) me yet.",
+     "answer": "has not called"
+    }
+   ]
+  },
+  {
+   "id": "g18",
+   "level": "B1",
+   "title": "Present Perfect Continuous",
+   "theory": "Nhấn mạnh tính liên tục của một hành động bắt đầu trong quá khứ và kéo dài đến hiện tại. Công thức: have/has been + V-ing.",
+   "examples": [
+    "I have been studying English for three years.",
+    "She has been working here since June."
+   ],
+   "exercises": [
+    {
+     "id": "g18-e1",
+     "sentence": "I ___ (study) English for three years.",
+     "answer": "have been studying"
+    },
+    {
+     "id": "g18-e2",
+     "sentence": "He ___ (wait) for an hour.",
+     "answer": "has been waiting"
+    },
+    {
+     "id": "g18-e3",
+     "sentence": "They ___ (work) on this project since March.",
+     "answer": "have been working"
+    },
+    {
+     "id": "g18-e4",
+     "sentence": "She ___ (learn) Japanese for six months.",
+     "answer": "has been learning"
+    },
+    {
+     "id": "g18-e5",
+     "sentence": "How long ___ you ___ (live) in this city?",
+     "answer": "have you been living"
+    },
+    {
+     "id": "g18-e6",
+     "sentence": "My eyes hurt because I ___ (look) at a screen all day.",
+     "answer": "have been looking"
+    }
+   ]
+  },
+  {
+   "id": "g19",
+   "level": "B1",
+   "title": "Past Perfect",
+   "theory": "Diễn tả hành động xảy ra trước một hành động khác trong quá khứ. Công thức: had + V3.",
+   "examples": [
+    "She had already left when I arrived.",
+    "By the time we got there, the movie had started."
+   ],
+   "exercises": [
+    {
+     "id": "g19-e1",
+     "sentence": "She ___ (leave) before I arrived.",
+     "answer": "had left"
+    },
+    {
+     "id": "g19-e2",
+     "sentence": "By 8 pm, they ___ (finish) dinner.",
+     "answer": "had finished"
+    },
+    {
+     "id": "g19-e3",
+     "sentence": "I ___ (not, see) that movie before.",
+     "answer": "had not seen"
+    },
+    {
+     "id": "g19-e4",
+     "sentence": "The train ___ (already, leave) when we got to the station.",
+     "answer": "had already left"
+    },
+    {
+     "id": "g19-e5",
+     "sentence": "He was tired because he ___ (not, sleep) the night before.",
+     "answer": "had not slept"
+    },
+    {
+     "id": "g19-e6",
+     "sentence": "After she ___ (finish) her homework, she went out.",
+     "answer": "had finished"
+    }
+   ]
+  },
+  {
+   "id": "g20",
+   "level": "B1",
+   "title": "First and second conditionals",
+   "theory": "Loại 1 (khả năng có thật ở hiện tại/tương lai): If + hiện tại đơn, will + V. Loại 2 (giả định không có thật ở hiện tại): If + quá khứ đơn, would + V.",
+   "examples": [
+    "If it rains, I will stay home.",
+    "If I were rich, I would travel the world."
+   ],
+   "exercises": [
+    {
+     "id": "g20-e1",
+     "sentence": "If it ___ (rain), we will cancel the trip.",
+     "answer": "rains"
+    },
+    {
+     "id": "g20-e2",
+     "sentence": "If I ___ (be) you, I would apologize.",
+     "answer": "were"
+    },
+    {
+     "id": "g20-e3",
+     "sentence": "She will pass if she ___ (study) hard.",
+     "answer": "studies"
+    },
+    {
+     "id": "g20-e4",
+     "sentence": "If you ___ (eat) too much, you will feel sick.",
+     "answer": "eat"
+    },
+    {
+     "id": "g20-e5",
+     "sentence": "If I ___ (have) more time, I would learn the piano.",
+     "answer": "had"
+    },
+    {
+     "id": "g20-e6",
+     "sentence": "We would travel more if flights ___ (be) cheaper.",
+     "answer": "were"
+    }
+   ]
+  },
+  {
+   "id": "g21",
+   "level": "B1",
+   "title": "Basic Passive Voice",
+   "theory": "Dùng khi muốn nhấn mạnh vào đối tượng chịu tác động thay vì người thực hiện. Công thức: be + V3.",
+   "examples": [
+    "The letter was sent yesterday.",
+    "This house was built in 1990.",
+    "English is spoken in many countries."
+   ],
+   "exercises": [
+    {
+     "id": "g21-e1",
+     "sentence": "The house ___ (build) in 1990.",
+     "answer": "was built"
+    },
+    {
+     "id": "g21-e2",
+     "sentence": "English ___ (speak) in many countries.",
+     "answer": "is spoken"
+    },
+    {
+     "id": "g21-e3",
+     "sentence": "The report ___ (send) tomorrow.",
+     "answer": "will be sent"
+    },
+    {
+     "id": "g21-e4",
+     "sentence": "This bridge ___ (complete) two years ago.",
+     "answer": "was completed"
+    },
+    {
+     "id": "g21-e5",
+     "sentence": "Rice ___ (grow) in many parts of Vietnam.",
+     "answer": "is grown"
+    },
+    {
+     "id": "g21-e6",
+     "sentence": "The winners ___ (announce) next week.",
+     "answer": "will be announced"
+    }
+   ]
+  },
+  {
+   "id": "g22",
+   "level": "B1",
+   "title": "Basic Reported Speech",
+   "theory": "Khi tường thuật lại lời nói, lùi thì một bậc: present simple → past simple, present perfect → past perfect... và đổi đại từ/trạng từ chỉ thời gian phù hợp.",
+   "examples": [
+    "She said, \"I am tired.\" → She said (that) she was tired.",
+    "He said, \"I will call you.\" → He said he would call me."
+   ],
+   "exercises": [
+    {
+     "id": "g22-e1",
+     "sentence": "\"I am busy,\" she said. → She said she ___ busy.",
+     "answer": "was"
+    },
+    {
+     "id": "g22-e2",
+     "sentence": "\"I will help you,\" he said. → He said he ___ help me.",
+     "answer": "would"
+    },
+    {
+     "id": "g22-e3",
+     "sentence": "\"I have finished,\" she said. → She said she ___ finished.",
+     "answer": "had"
+    },
+    {
+     "id": "g22-e4",
+     "sentence": "\"I live in Hue,\" he said. → He said he ___ in Hue.",
+     "answer": "lived"
+    },
+    {
+     "id": "g22-e5",
+     "sentence": "\"I can swim,\" she said. → She said she ___ swim.",
+     "answer": "could"
+    },
+    {
+     "id": "g22-e6",
+     "sentence": "\"We are waiting,\" they said. → They said they ___ waiting.",
+     "answer": "were"
+    }
+   ]
+  },
+  {
+   "id": "g23",
+   "level": "B1",
+   "title": "Gerund vs Infinitive",
+   "theory": "Một số động từ theo sau bởi V-ing (enjoy, avoid, finish), một số động từ theo sau bởi to V (want, decide, hope). Cần học thuộc theo từng động từ cụ thể.",
+   "examples": [
+    "I enjoy reading books.",
+    "She wants to travel abroad.",
+    "They finished cleaning the house."
+   ],
+   "exercises": [
+    {
+     "id": "g23-e1",
+     "sentence": "I enjoy ___ (read) novels.",
+     "answer": "reading"
+    },
+    {
+     "id": "g23-e2",
+     "sentence": "She wants ___ (study) abroad.",
+     "answer": "to study"
+    },
+    {
+     "id": "g23-e3",
+     "sentence": "He avoids ___ (eat) junk food.",
+     "answer": "eating"
+    },
+    {
+     "id": "g23-e4",
+     "sentence": "She decided ___ (change) jobs.",
+     "answer": "to change"
+    },
+    {
+     "id": "g23-e5",
+     "sentence": "Do you mind ___ (open) the window?",
+     "answer": "opening"
+    },
+    {
+     "id": "g23-e6",
+     "sentence": "They agreed ___ (meet) at noon.",
+     "answer": "to meet"
+    }
+   ]
+  },
+  {
+   "id": "g24",
+   "level": "B1",
+   "title": "Relative Clauses",
+   "theory": "Dùng who/that cho người, which/that cho vật, whose để chỉ sự sở hữu, để bổ nghĩa cho danh từ đứng trước.",
+   "examples": [
+    "The man who lives next door is a doctor.",
+    "This is the book which I told you about.",
+    "That's the girl whose bag was stolen."
+   ],
+   "exercises": [
+    {
+     "id": "g24-e1",
+     "sentence": "The woman ___ called you is my aunt.",
+     "answer": "who"
+    },
+    {
+     "id": "g24-e2",
+     "sentence": "This is the car ___ I bought last year.",
+     "answer": "which"
+    },
+    {
+     "id": "g24-e3",
+     "sentence": "That's the boy ___ dog won the competition.",
+     "answer": "whose"
+    },
+    {
+     "id": "g24-e4",
+     "sentence": "The restaurant ___ we ate at last night was excellent.",
+     "answer": "which"
+    },
+    {
+     "id": "g24-e5",
+     "sentence": "I have a friend ___ speaks five languages.",
+     "answer": "who"
+    },
+    {
+     "id": "g24-e6",
+     "sentence": "She's the artist ___ paintings sell for millions.",
+     "answer": "whose"
+    }
+   ]
+  },
+  {
+   "id": "g47",
+   "level": "B1",
+   "title": "Used to",
+   "theory": "\"Used to + V\" diễn tả thói quen hoặc trạng thái trong quá khứ nhưng không còn đúng ở hiện tại. Phân biệt với \"be used to + V-ing\" (đã quen với việc gì).",
+   "examples": [
+    "I used to live in Da Nang.",
+    "She used to smoke, but she quit.",
+    "They didn't use to like coffee."
+   ],
+   "exercises": [
+    {
+     "id": "g47-e1",
+     "sentence": "He ___ (used to) play football every weekend when he was young.",
+     "answer": "used to"
+    },
+    {
+     "id": "g47-e2",
+     "sentence": "I ___ (not, used to) like vegetables as a kid.",
+     "answer": "didn't use to"
+    },
+    {
+     "id": "g47-e3",
+     "sentence": "___ you ___ (used to) live here?",
+     "answer": "Did you use to"
+    },
+    {
+     "id": "g47-e4",
+     "sentence": "There ___ (used to) be a cinema on this street.",
+     "answer": "used to"
+    },
+    {
+     "id": "g47-e5",
+     "sentence": "She ___ (used to) have long hair when she was younger.",
+     "answer": "used to"
+    },
+    {
+     "id": "g47-e6",
+     "sentence": "___ he ___ (used to) smoke a lot?",
+     "answer": "Did he use to"
+    }
+   ]
+  },
+  {
+   "id": "g48",
+   "level": "B1",
+   "title": "Zero Conditional",
+   "theory": "Diễn tả sự thật hiển nhiên, quy luật tự nhiên hoặc thói quen. Công thức: If + hiện tại đơn, hiện tại đơn.",
+   "examples": [
+    "If you heat water to 100°C, it boils.",
+    "If I eat too much, I feel sick.",
+    "Plants die if they don't get water."
+   ],
+   "exercises": [
+    {
+     "id": "g48-e1",
+     "sentence": "If you ___ (heat) ice, it melts.",
+     "answer": "heat"
+    },
+    {
+     "id": "g48-e2",
+     "sentence": "If it ___ (rain), the ground gets wet.",
+     "answer": "rains"
+    },
+    {
+     "id": "g48-e3",
+     "sentence": "Plants ___ (die) if they don't get sunlight.",
+     "answer": "die"
+    },
+    {
+     "id": "g48-e4",
+     "sentence": "If you ___ (mix) blue and yellow, you get green.",
+     "answer": "mix"
+    },
+    {
+     "id": "g48-e5",
+     "sentence": "Water ___ (boil) if you heat it to 100°C.",
+     "answer": "boils"
+    },
+    {
+     "id": "g48-e6",
+     "sentence": "If I ___ (drink) coffee at night, I can't sleep.",
+     "answer": "drink"
+    }
+   ]
+  },
+  {
+   "id": "g49",
+   "level": "B1",
+   "title": "Double comparatives (the more... the more)",
+   "theory": "Cấu trúc \"The + so sánh hơn..., the + so sánh hơn...\" diễn tả hai sự việc thay đổi song song với nhau.",
+   "examples": [
+    "The more you practice, the better you get.",
+    "The harder she works, the more successful she becomes."
+   ],
+   "exercises": [
+    {
+     "id": "g49-e1",
+     "sentence": "The more you read, the ___ (much) you know.",
+     "answer": "more"
+    },
+    {
+     "id": "g49-e2",
+     "sentence": "The ___ (early) you leave, the earlier you arrive.",
+     "answer": "earlier"
+    },
+    {
+     "id": "g49-e3",
+     "sentence": "The more money he earns, the ___ (happy) he feels.",
+     "answer": "happier"
+    },
+    {
+     "id": "g49-e4",
+     "sentence": "The harder you work, the ___ (successful) you become.",
+     "answer": "more successful"
+    },
+    {
+     "id": "g49-e5",
+     "sentence": "The older he gets, the ___ (wise) he becomes.",
+     "answer": "wiser"
+    },
+    {
+     "id": "g49-e6",
+     "sentence": "The ___ (long) we waited, the more nervous we felt.",
+     "answer": "longer"
+    }
+   ]
+  },
+  {
+   "id": "g50",
+   "level": "B1",
+   "title": "Wishes about the present (Wish + past simple)",
+   "theory": "Dùng \"wish + S + quá khứ đơn\" để diễn tả ước muốn về một điều không có thật ở hiện tại. Với động từ \"to be\" thường dùng \"were\" cho mọi ngôi.",
+   "examples": [
+    "I wish I had more free time.",
+    "She wishes she were taller.",
+    "I wish I knew the answer."
+   ],
+   "exercises": [
+    {
+     "id": "g50-e1",
+     "sentence": "I wish I ___ (have) a bigger house.",
+     "answer": "had"
+    },
+    {
+     "id": "g50-e2",
+     "sentence": "He wishes he ___ (be) more confident.",
+     "answer": "were"
+    },
+    {
+     "id": "g50-e3",
+     "sentence": "I wish I ___ (know) how to swim.",
+     "answer": "knew"
+    },
+    {
+     "id": "g50-e4",
+     "sentence": "I wish I ___ (live) closer to my family.",
+     "answer": "lived"
+    },
+    {
+     "id": "g50-e5",
+     "sentence": "She wishes she ___ (not, work) on weekends.",
+     "answer": "didn't work"
+    },
+    {
+     "id": "g50-e6",
+     "sentence": "I wish today ___ (be) a holiday.",
+     "answer": "were"
+    }
+   ]
+  },
+  {
+   "id": "g51",
+   "level": "B1",
+   "title": "Enough / too + adjective",
+   "theory": "\"Too + adj\" diễn tả mức độ quá mức, mang nghĩa tiêu cực. \"Adj + enough\" diễn tả mức độ đủ. Enough đứng sau tính từ, nhưng đứng trước danh từ.",
+   "examples": [
+    "This coffee is too hot to drink.",
+    "She isn't old enough to drive.",
+    "We don't have enough money."
+   ],
+   "exercises": [
+    {
+     "id": "g51-e1",
+     "sentence": "This box is ___ (too, heavy) for me to carry.",
+     "answer": "too heavy"
+    },
+    {
+     "id": "g51-e2",
+     "sentence": "He isn't tall ___ to reach the shelf.",
+     "answer": "enough"
+    },
+    {
+     "id": "g51-e3",
+     "sentence": "We don't have ___ time to finish this.",
+     "answer": "enough"
+    },
+    {
+     "id": "g51-e4",
+     "sentence": "The coffee is ___ (too, hot) to drink right now.",
+     "answer": "too hot"
+    },
+    {
+     "id": "g51-e5",
+     "sentence": "This room isn't big ___ for all of us.",
+     "answer": "enough"
+    },
+    {
+     "id": "g51-e6",
+     "sentence": "He spoke ___ (too, fast) for me to understand.",
+     "answer": "too fast"
+    }
+   ]
+  },
+  {
+   "id": "g52",
+   "level": "B1",
+   "title": "Time clauses (when/while/before/after)",
+   "theory": "When/while/before/after dùng để nối hai mệnh đề, diễn tả mối quan hệ về thời gian giữa hai hành động.",
+   "examples": [
+    "I was cooking while she was cleaning.",
+    "Call me before you leave.",
+    "After she finished work, she went home."
+   ],
+   "exercises": [
+    {
+     "id": "g52-e1",
+     "sentence": "___ (while) I was reading, the phone rang.",
+     "answer": "While"
+    },
+    {
+     "id": "g52-e2",
+     "sentence": "Wash your hands ___ you eat.",
+     "answer": "before"
+    },
+    {
+     "id": "g52-e3",
+     "sentence": "She called me ___ she arrived home.",
+     "answer": "after"
+    },
+    {
+     "id": "g52-e4",
+     "sentence": "I'll call you ___ I get home.",
+     "answer": "when"
+    },
+    {
+     "id": "g52-e5",
+     "sentence": "___ (while) we were walking, it started to rain.",
+     "answer": "While"
+    },
+    {
+     "id": "g52-e6",
+     "sentence": "Brush your teeth ___ you go to bed.",
+     "answer": "before"
+    }
+   ]
+  },
+  {
+   "id": "g53",
+   "level": "B1",
+   "title": "Cause and result clauses (because/so)",
+   "theory": "\"Because\" giới thiệu nguyên nhân, \"so\" giới thiệu kết quả. \"Because of\" theo sau bởi danh từ/cụm danh từ, khác với \"because\" theo sau bởi mệnh đề.",
+   "examples": [
+    "I was late because the traffic was heavy.",
+    "It was raining, so we stayed home.",
+    "The match was cancelled because of the storm."
+   ],
+   "exercises": [
+    {
+     "id": "g53-e1",
+     "sentence": "She was tired ___ she had worked all day.",
+     "answer": "because"
+    },
+    {
+     "id": "g53-e2",
+     "sentence": "It was cold, ___ I wore a coat.",
+     "answer": "so"
+    },
+    {
+     "id": "g53-e3",
+     "sentence": "The flight was delayed ___ the weather.",
+     "answer": "because of"
+    },
+    {
+     "id": "g53-e4",
+     "sentence": "We stayed home ___ the storm.",
+     "answer": "because of"
+    },
+    {
+     "id": "g53-e5",
+     "sentence": "He forgot his wallet, ___ I paid for lunch.",
+     "answer": "so"
+    },
+    {
+     "id": "g53-e6",
+     "sentence": "She got the job ___ she was the best candidate.",
+     "answer": "because"
+    }
+   ]
+  },
+  {
+   "id": "g54",
+   "level": "B1",
+   "title": "Contrast clauses (although/despite)",
+   "theory": "\"Although/though\" theo sau bởi mệnh đề đầy đủ. \"Despite/in spite of\" theo sau bởi danh từ hoặc V-ing.",
+   "examples": [
+    "Although it was raining, we went out.",
+    "Despite the rain, we went out.",
+    "She passed the exam despite not studying much."
+   ],
+   "exercises": [
+    {
+     "id": "g54-e1",
+     "sentence": "___ he was tired, he kept working.",
+     "answer": "Although"
+    },
+    {
+     "id": "g54-e2",
+     "sentence": "Despite ___ (be) busy, she helped me.",
+     "answer": "being"
+    },
+    {
+     "id": "g54-e3",
+     "sentence": "In spite of the traffic, we ___ (arrive) on time.",
+     "answer": "arrived"
+    },
+    {
+     "id": "g54-e4",
+     "sentence": "___ the rain, the match continued.",
+     "answer": "Despite"
+    },
+    {
+     "id": "g54-e5",
+     "sentence": "___ she is young, she is very responsible.",
+     "answer": "Although"
+    },
+    {
+     "id": "g54-e6",
+     "sentence": "In spite of ___ (feel) sick, he went to work.",
+     "answer": "feeling"
+    }
+   ]
+  },
+  {
+   "id": "g55",
+   "level": "B1",
+   "title": "Indirect questions",
+   "theory": "Câu hỏi gián tiếp lịch sự hơn, giữ trật tự từ như câu khẳng định (không đảo ngữ) và thường bắt đầu bằng cụm như \"Could you tell me...\", \"Do you know...\".",
+   "examples": [
+    "Could you tell me where the station is?",
+    "Do you know what time it is?",
+    "I wonder if she is coming."
+   ],
+   "exercises": [
+    {
+     "id": "g55-e1",
+     "sentence": "Could you tell me where the bathroom ___?",
+     "answer": "is"
+    },
+    {
+     "id": "g55-e2",
+     "sentence": "Do you know what time the shop ___ (close)?",
+     "answer": "closes"
+    },
+    {
+     "id": "g55-e3",
+     "sentence": "I wonder ___ she is coming to the party.",
+     "answer": "if"
+    },
+    {
+     "id": "g55-e4",
+     "sentence": "Could you tell me how much this ___ (cost)?",
+     "answer": "costs"
+    },
+    {
+     "id": "g55-e5",
+     "sentence": "Do you know ___ he is from?",
+     "answer": "where"
+    },
+    {
+     "id": "g55-e6",
+     "sentence": "I'd like to know ___ the museum opens today.",
+     "answer": "if"
+    }
+   ]
+  },
+  {
+   "id": "g25",
+   "level": "B2",
+   "title": "Third and mixed conditionals",
+   "theory": "Loại 3 (giả định trái với quá khứ): If + had + V3, would have + V3. Điều kiện hỗn hợp kết hợp giả định quá khứ với kết quả ở hiện tại: If + had + V3, would + V.",
+   "examples": [
+    "If I had studied harder, I would have passed the exam.",
+    "If she had taken that job, she would be living in Tokyo now."
+   ],
+   "exercises": [
+    {
+     "id": "g25-e1",
+     "sentence": "If I ___ (know), I would have told you.",
+     "answer": "had known"
+    },
+    {
+     "id": "g25-e2",
+     "sentence": "If he had left earlier, he ___ (not, miss) the train.",
+     "answer": "would not have missed"
+    },
+    {
+     "id": "g25-e3",
+     "sentence": "If she had studied medicine, she ___ (be) a doctor now.",
+     "answer": "would be"
+    },
+    {
+     "id": "g25-e4",
+     "sentence": "If she ___ (take) the map, we wouldn't have got lost.",
+     "answer": "had taken"
+    },
+    {
+     "id": "g25-e5",
+     "sentence": "If they had trained harder, they ___ (win) the match.",
+     "answer": "would have won"
+    },
+    {
+     "id": "g25-e6",
+     "sentence": "If I had saved money, I ___ (be) rich now.",
+     "answer": "would be"
+    }
+   ]
+  },
+  {
+   "id": "g26",
+   "level": "B2",
+   "title": "Advanced Passive Voice",
+   "theory": "Bị động có thể kết hợp với động từ khiếm khuyết (must be done) hoặc thì hoàn thành (has been done, had been done).",
+   "examples": [
+    "The work must be finished by Friday.",
+    "The bridge has been repaired.",
+    "The email had already been sent before I called."
+   ],
+   "exercises": [
+    {
+     "id": "g26-e1",
+     "sentence": "This task must ___ (complete) today.",
+     "answer": "be completed"
+    },
+    {
+     "id": "g26-e2",
+     "sentence": "The car ___ (repair) already.",
+     "answer": "has been repaired"
+    },
+    {
+     "id": "g26-e3",
+     "sentence": "The documents ___ (sign) before the meeting started.",
+     "answer": "had been signed"
+    },
+    {
+     "id": "g26-e4",
+     "sentence": "The new policy will ___ (announce) next month.",
+     "answer": "be announced"
+    },
+    {
+     "id": "g26-e5",
+     "sentence": "All the tickets ___ (sell) by the time we arrived.",
+     "answer": "had been sold"
+    },
+    {
+     "id": "g26-e6",
+     "sentence": "The issue is ___ (discuss) at the meeting right now.",
+     "answer": "being discussed"
+    }
+   ]
+  },
+  {
+   "id": "g27",
+   "level": "B2",
+   "title": "Advanced Reported Speech (questions & commands)",
+   "theory": "Tường thuật câu hỏi Yes/No dùng if/whether; câu hỏi Wh giữ nguyên từ để hỏi. Tường thuật câu mệnh lệnh dùng told/asked + to V.",
+   "examples": [
+    "\"Are you coming?\" → She asked if I was coming.",
+    "\"Close the door,\" he said. → He told me to close the door."
+   ],
+   "exercises": [
+    {
+     "id": "g27-e1",
+     "sentence": "\"Do you like coffee?\" → She asked ___ I liked coffee.",
+     "answer": "if"
+    },
+    {
+     "id": "g27-e2",
+     "sentence": "\"Sit down,\" the teacher said. → The teacher told us ___ down.",
+     "answer": "to sit"
+    },
+    {
+     "id": "g27-e3",
+     "sentence": "\"Where do you live?\" → He asked me where I ___.",
+     "answer": "lived"
+    },
+    {
+     "id": "g27-e4",
+     "sentence": "\"Don't be late,\" she said. → She told me ___ late.",
+     "answer": "not to be"
+    },
+    {
+     "id": "g27-e5",
+     "sentence": "\"Can you swim?\" → He asked me ___ I could swim.",
+     "answer": "if"
+    },
+    {
+     "id": "g27-e6",
+     "sentence": "\"Why are you sad?\" → She asked why I ___ sad.",
+     "answer": "was"
+    }
+   ]
+  },
+  {
+   "id": "g28",
+   "level": "B2",
+   "title": "Modals of deduction",
+   "theory": "Must have + V3 (chắc chắn đã xảy ra), might/could have + V3 (có thể đã xảy ra), can't have + V3 (chắc chắn không thể xảy ra) — dùng để suy đoán về quá khứ.",
+   "examples": [
+    "He must have forgotten the meeting.",
+    "She might have missed the bus.",
+    "They can't have arrived yet — it's too early."
+   ],
+   "exercises": [
+    {
+     "id": "g28-e1",
+     "sentence": "She looks tired, she ___ (must, not sleep) well.",
+     "answer": "must not have slept"
+    },
+    {
+     "id": "g28-e2",
+     "sentence": "He ___ (might, lose) his phone somewhere.",
+     "answer": "might have lost"
+    },
+    {
+     "id": "g28-e3",
+     "sentence": "They ___ (can't, finish) already — it's only been 5 minutes.",
+     "answer": "can't have finished"
+    },
+    {
+     "id": "g28-e4",
+     "sentence": "The ground is wet. It ___ (must, rain) last night.",
+     "answer": "must have rained"
+    },
+    {
+     "id": "g28-e5",
+     "sentence": "She isn't answering — she ___ (may, leave) her phone at home.",
+     "answer": "may have left"
+    },
+    {
+     "id": "g28-e6",
+     "sentence": "He ___ (can't, forget) the meeting — I reminded him twice.",
+     "answer": "can't have forgotten"
+    }
+   ]
+  },
+  {
+   "id": "g29",
+   "level": "B2",
+   "title": "Common phrasal verbs",
+   "theory": "Cụm động từ gồm động từ + giới từ/trạng từ, thường mang nghĩa khác với nghĩa gốc của từng từ. Ví dụ: give up (từ bỏ), look after (chăm sóc), put off (trì hoãn).",
+   "examples": [
+    "She gave up smoking last year.",
+    "Can you look after my cat this weekend?",
+    "They put off the meeting until next week."
+   ],
+   "exercises": [
+    {
+     "id": "g29-e1",
+     "sentence": "He decided to ___ smoking. (từ bỏ)",
+     "answer": "give up"
+    },
+    {
+     "id": "g29-e2",
+     "sentence": "Can you ___ my dog while I'm away? (chăm sóc)",
+     "answer": "look after"
+    },
+    {
+     "id": "g29-e3",
+     "sentence": "We had to ___ the trip due to bad weather. (trì hoãn)",
+     "answer": "put off"
+    },
+    {
+     "id": "g29-e4",
+     "sentence": "I need to ___ this word in the dictionary. (tra cứu)",
+     "answer": "look up"
+    },
+    {
+     "id": "g29-e5",
+     "sentence": "She grew up in Hue but now lives in Saigon. Please ___ the form. (điền vào)",
+     "answer": "fill in"
+    },
+    {
+     "id": "g29-e6",
+     "sentence": "Don't worry, something will ___. (xuất hiện/xảy ra)",
+     "answer": "turn up"
+    }
+   ]
+  },
+  {
+   "id": "g30",
+   "level": "B2",
+   "title": "Basic inversion",
+   "theory": "Đảo ngữ dùng để nhấn mạnh, thường bắt đầu câu bằng trạng từ phủ định (Never, Rarely, No sooner) rồi đảo trợ động từ lên trước chủ ngữ.",
+   "examples": [
+    "Never have I seen such a beautiful sunset.",
+    "Rarely does she complain about work.",
+    "No sooner had I arrived than it started to rain."
+   ],
+   "exercises": [
+    {
+     "id": "g30-e1",
+     "sentence": "Never ___ (I, see) such a talented singer.",
+     "answer": "have I seen"
+    },
+    {
+     "id": "g30-e2",
+     "sentence": "Rarely ___ (he, be) late for work.",
+     "answer": "is he"
+    },
+    {
+     "id": "g30-e3",
+     "sentence": "No sooner ___ (we, sit) down than the phone rang.",
+     "answer": "had we sat"
+    },
+    {
+     "id": "g30-e4",
+     "sentence": "Seldom ___ (she, visit) us these days.",
+     "answer": "does she visit"
+    },
+    {
+     "id": "g30-e5",
+     "sentence": "Not only ___ (he, sing) well, but he also dances.",
+     "answer": "does he sing"
+    },
+    {
+     "id": "g30-e6",
+     "sentence": "Never again ___ (I, trust) that company.",
+     "answer": "will I trust"
+    }
+   ]
+  },
+  {
+   "id": "g56",
+   "level": "B2",
+   "title": "Wishes about the past (Wish + had + V3)",
+   "theory": "Dùng \"wish + S + had + V3\" để diễn tả sự nuối tiếc về một điều đã/không xảy ra trong quá khứ.",
+   "examples": [
+    "I wish I had studied harder for the exam.",
+    "She wishes she hadn't said that.",
+    "I wish I had known about the meeting."
+   ],
+   "exercises": [
+    {
+     "id": "g56-e1",
+     "sentence": "I wish I ___ (study) harder in school.",
+     "answer": "had studied"
+    },
+    {
+     "id": "g56-e2",
+     "sentence": "He wishes he ___ (not, lose) his job.",
+     "answer": "hadn't lost"
+    },
+    {
+     "id": "g56-e3",
+     "sentence": "She wishes she ___ (visit) Japan when she had the chance.",
+     "answer": "had visited"
+    },
+    {
+     "id": "g56-e4",
+     "sentence": "I wish I ___ (take) that job offer last year.",
+     "answer": "had taken"
+    },
+    {
+     "id": "g56-e5",
+     "sentence": "They wish they ___ (not, sell) their house.",
+     "answer": "hadn't sold"
+    },
+    {
+     "id": "g56-e6",
+     "sentence": "He wishes he ___ (learn) English earlier.",
+     "answer": "had learned"
+    }
+   ]
+  },
+  {
+   "id": "g57",
+   "level": "B2",
+   "title": "The structure \"It's (high) time\"",
+   "theory": "\"It's time + S + quá khứ đơn\" diễn tả điều nên làm ngay bây giờ nhưng chưa được làm, mang sắc thái hơi trách móc/thúc giục.",
+   "examples": [
+    "It's time you went to bed.",
+    "It's high time we made a decision.",
+    "It's about time you apologized."
+   ],
+   "exercises": [
+    {
+     "id": "g57-e1",
+     "sentence": "It's time you ___ (finish) this project.",
+     "answer": "finished"
+    },
+    {
+     "id": "g57-e2",
+     "sentence": "It's high time we ___ (leave).",
+     "answer": "left"
+    },
+    {
+     "id": "g57-e3",
+     "sentence": "It's about time he ___ (get) a real job.",
+     "answer": "got"
+    },
+    {
+     "id": "g57-e4",
+     "sentence": "It's time we ___ (go) home — it's midnight.",
+     "answer": "went"
+    },
+    {
+     "id": "g57-e5",
+     "sentence": "It's high time you ___ (start) taking this seriously.",
+     "answer": "started"
+    },
+    {
+     "id": "g57-e6",
+     "sentence": "It's about time they ___ (fix) this road.",
+     "answer": "fixed"
+    }
+   ]
+  },
+  {
+   "id": "g58",
+   "level": "B2",
+   "title": "Reduced relative clauses",
+   "theory": "Mệnh đề quan hệ chủ động có thể rút gọn thành cụm V-ing; mệnh đề quan hệ bị động rút gọn thành cụm V3/V-ed.",
+   "examples": [
+    "The man standing over there is my uncle. (= who is standing)",
+    "The letter written by her was very kind. (= that was written)"
+   ],
+   "exercises": [
+    {
+     "id": "g58-e1",
+     "sentence": "The girl ___ (sit) next to me is my classmate.",
+     "answer": "sitting"
+    },
+    {
+     "id": "g58-e2",
+     "sentence": "The book ___ (write) by that author is a bestseller.",
+     "answer": "written"
+    },
+    {
+     "id": "g58-e3",
+     "sentence": "People ___ (live) near the airport complain about noise.",
+     "answer": "living"
+    },
+    {
+     "id": "g58-e4",
+     "sentence": "The man ___ (talk) to the manager is my uncle.",
+     "answer": "talking"
+    },
+    {
+     "id": "g58-e5",
+     "sentence": "The cookies ___ (bake) this morning are already gone.",
+     "answer": "baked"
+    },
+    {
+     "id": "g58-e6",
+     "sentence": "Students ___ (want) to join the club should sign up here.",
+     "answer": "wanting"
+    }
+   ]
+  },
+  {
+   "id": "g59",
+   "level": "B2",
+   "title": "Gerund after prepositions",
+   "theory": "Sau giới từ (in, on, at, about, for, without, by...), động từ luôn ở dạng V-ing (gerund), không dùng động từ nguyên mẫu.",
+   "examples": [
+    "She is good at cooking.",
+    "He left without saying goodbye.",
+    "I'm interested in learning Japanese."
+   ],
+   "exercises": [
+    {
+     "id": "g59-e1",
+     "sentence": "He is worried about ___ (fail) the test.",
+     "answer": "failing"
+    },
+    {
+     "id": "g59-e2",
+     "sentence": "She succeeded by ___ (work) hard every day.",
+     "answer": "working"
+    },
+    {
+     "id": "g59-e3",
+     "sentence": "Thank you for ___ (help) me yesterday.",
+     "answer": "helping"
+    },
+    {
+     "id": "g59-e4",
+     "sentence": "She's good at ___ (solve) problems.",
+     "answer": "solving"
+    },
+    {
+     "id": "g59-e5",
+     "sentence": "He left without ___ (say) goodbye.",
+     "answer": "saying"
+    },
+    {
+     "id": "g59-e6",
+     "sentence": "I'm looking forward to ___ (see) you again.",
+     "answer": "seeing"
+    }
+   ]
+  },
+  {
+   "id": "g60",
+   "level": "B2",
+   "title": "Inversion in conditionals",
+   "theory": "Trong văn phong trang trọng, có thể đảo ngữ trong câu điều kiện bằng cách bỏ \"if\" và đảo trợ động từ lên trước chủ ngữ: Should/Were/Had + S...",
+   "examples": [
+    "Should you need help, call me.",
+    "Were I you, I would accept the offer.",
+    "Had she known, she would have come."
+   ],
+   "exercises": [
+    {
+     "id": "g60-e1",
+     "sentence": "___ you have any questions, please ask. (= If you have)",
+     "answer": "Should"
+    },
+    {
+     "id": "g60-e2",
+     "sentence": "___ I in your position, I would resign. (= If I were)",
+     "answer": "Were"
+    },
+    {
+     "id": "g60-e3",
+     "sentence": "___ he studied harder, he would have passed. (= If he had studied)",
+     "answer": "Had"
+    },
+    {
+     "id": "g60-e4",
+     "sentence": "___ it rain, the event will move indoors. (= If it should rain)",
+     "answer": "Should"
+    },
+    {
+     "id": "g60-e5",
+     "sentence": "___ we known earlier, we would have acted. (= If we had known)",
+     "answer": "Had"
+    },
+    {
+     "id": "g60-e6",
+     "sentence": "___ she here, she would know what to do. (= If she were)",
+     "answer": "Were"
+    }
+   ]
+  },
+  {
+   "id": "g61",
+   "level": "B2",
+   "title": "Cleft sentences",
+   "theory": "Cấu trúc \"It is/was...that\" và \"What...is\" dùng để nhấn mạnh một thành phần cụ thể trong câu.",
+   "examples": [
+    "It was John who broke the window.",
+    "It is her attitude that annoys me.",
+    "What I need is more time."
+   ],
+   "exercises": [
+    {
+     "id": "g61-e1",
+     "sentence": "It was Anna ___ called you last night.",
+     "answer": "who"
+    },
+    {
+     "id": "g61-e2",
+     "sentence": "What she really wants ___ a bit of respect.",
+     "answer": "is"
+    },
+    {
+     "id": "g61-e3",
+     "sentence": "It ___ the manager who made that decision.",
+     "answer": "was"
+    },
+    {
+     "id": "g61-e4",
+     "sentence": "It was in 2010 ___ they first met.",
+     "answer": "that"
+    },
+    {
+     "id": "g61-e5",
+     "sentence": "What I need right now ___ a long vacation.",
+     "answer": "is"
+    },
+    {
+     "id": "g61-e6",
+     "sentence": "It was my brother ___ broke the vase, not me.",
+     "answer": "who"
+    }
+   ]
+  },
+  {
+   "id": "g62",
+   "level": "B2",
+   "title": "Passive reporting verbs (It is said that...)",
+   "theory": "Dùng để tường thuật thông tin chung chung mà không rõ nguồn: \"It is said/believed/reported that + S + V\" hoặc \"S + is said/believed + to V\".",
+   "examples": [
+    "It is said that he is very rich.",
+    "He is said to be very rich.",
+    "The bridge is believed to be over 100 years old."
+   ],
+   "exercises": [
+    {
+     "id": "g62-e1",
+     "sentence": "It is reported ___ the company is closing down.",
+     "answer": "that"
+    },
+    {
+     "id": "g62-e2",
+     "sentence": "She is believed ___ (be) abroad now.",
+     "answer": "to be"
+    },
+    {
+     "id": "g62-e3",
+     "sentence": "The building is said ___ (build) in 1900.",
+     "answer": "to have been built"
+    },
+    {
+     "id": "g62-e4",
+     "sentence": "It is said ___ the castle is haunted.",
+     "answer": "that"
+    },
+    {
+     "id": "g62-e5",
+     "sentence": "He is thought ___ (live) somewhere in Europe.",
+     "answer": "to live"
+    },
+    {
+     "id": "g62-e6",
+     "sentence": "The painting is believed ___ (steal) decades ago.",
+     "answer": "to have been stolen"
+    }
+   ]
+  },
+  {
+   "id": "g63",
+   "level": "B2",
+   "title": "Advanced modal perfect (should have, needn't have)",
+   "theory": "\"Should have + V3\" diễn tả sự tiếc nuối vì không làm điều nên làm. \"Needn't have + V3\" diễn tả việc đã làm nhưng hóa ra không cần thiết.",
+   "examples": [
+    "You should have told me earlier.",
+    "I needn't have brought an umbrella — it didn't rain.",
+    "She shouldn't have said that."
+   ],
+   "exercises": [
+    {
+     "id": "g63-e1",
+     "sentence": "You ___ (should, study) harder for the test.",
+     "answer": "should have studied"
+    },
+    {
+     "id": "g63-e2",
+     "sentence": "I ___ (needn't, buy) so much food — nobody was hungry.",
+     "answer": "needn't have bought"
+    },
+    {
+     "id": "g63-e3",
+     "sentence": "He ___ (shouldn't, spend) all his money.",
+     "answer": "shouldn't have spent"
+    },
+    {
+     "id": "g63-e4",
+     "sentence": "You ___ (should, tell) me you were coming!",
+     "answer": "should have told"
+    },
+    {
+     "id": "g63-e5",
+     "sentence": "We ___ (needn't, hurry) — the train was delayed anyway.",
+     "answer": "needn't have hurried"
+    },
+    {
+     "id": "g63-e6",
+     "sentence": "She ___ (shouldn't, say) that to her boss.",
+     "answer": "shouldn't have said"
+    }
+   ]
+  },
+  {
+   "id": "g64",
+   "level": "B2",
+   "title": "Compound nouns & complex noun phrases",
+   "theory": "Danh từ ghép gồm hai danh từ kết hợp lại (bus stop, coffee cup), danh từ đứng trước đóng vai trò như tính từ bổ nghĩa và luôn ở dạng số ít.",
+   "examples": [
+    "a two-hour meeting",
+    "a bus stop",
+    "a five-year-old child"
+   ],
+   "exercises": [
+    {
+     "id": "g64-e1",
+     "sentence": "It was a ___ (two hour) flight.",
+     "answer": "two-hour"
+    },
+    {
+     "id": "g64-e2",
+     "sentence": "She bought a new ___ (coffee) machine.",
+     "answer": "coffee machine"
+    },
+    {
+     "id": "g64-e3",
+     "sentence": "He has a ___ (ten year) old car.",
+     "answer": "ten-year-old"
+    },
+    {
+     "id": "g64-e4",
+     "sentence": "They went on a ___ (three week) trip to Europe.",
+     "answer": "three-week"
+    },
+    {
+     "id": "g64-e5",
+     "sentence": "He works at a ___ (shoe) factory.",
+     "answer": "shoe factory"
+    },
+    {
+     "id": "g64-e6",
+     "sentence": "She is a ___ (well know) writer in Vietnam.",
+     "answer": "well-known"
+    }
+   ]
+  },
+  {
+   "id": "g65",
+   "level": "B2",
+   "title": "Correlative conjunctions",
+   "theory": "Các cặp liên từ tương quan: not only...but also, either...or, neither...nor, both...and — dùng để nối hai thành phần song song trong câu.",
+   "examples": [
+    "She is not only smart but also hardworking.",
+    "You can either call or email me.",
+    "Neither the manager nor the staff knew about it."
+   ],
+   "exercises": [
+    {
+     "id": "g65-e1",
+     "sentence": "He is not only talented ___ also very humble.",
+     "answer": "but"
+    },
+    {
+     "id": "g65-e2",
+     "sentence": "You can ___ stay here or come with us.",
+     "answer": "either"
+    },
+    {
+     "id": "g65-e3",
+     "sentence": "Neither Tom ___ Lisa came to the party.",
+     "answer": "nor"
+    },
+    {
+     "id": "g65-e4",
+     "sentence": "___ my mother and my father love gardening.",
+     "answer": "Both"
+    },
+    {
+     "id": "g65-e5",
+     "sentence": "He speaks not only English ___ also French.",
+     "answer": "but"
+    },
+    {
+     "id": "g65-e6",
+     "sentence": "You must decide: ___ come with us or stay here.",
+     "answer": "either"
+    }
+   ]
+  },
+  {
+   "id": "g66",
+   "level": "A1",
+   "title": "\"Have got\" (British possession)",
+   "theory": "\"Have got / has got\" dùng tương đương \"have/has\" để nói về sự sở hữu, phổ biến trong tiếng Anh-Anh nói. Phủ định: haven't/hasn't got.",
+   "examples": [
+    "I've got a new laptop.",
+    "She's got two children.",
+    "We haven't got any milk."
+   ],
+   "exercises": [
+    {
+     "id": "g66-e1",
+     "sentence": "He ___ (have got) a big house.",
+     "answer": "has got"
+    },
+    {
+     "id": "g66-e2",
+     "sentence": "I ___ (not, have got) a car.",
+     "answer": "haven't got"
+    },
+    {
+     "id": "g66-e3",
+     "sentence": "___ you got a pen?",
+     "answer": "Have"
+    },
+    {
+     "id": "g66-e4",
+     "sentence": "She ___ (have got) beautiful eyes.",
+     "answer": "has got"
+    },
+    {
+     "id": "g66-e5",
+     "sentence": "We ___ (not, have got) enough chairs for everyone.",
+     "answer": "haven't got"
+    },
+    {
+     "id": "g66-e6",
+     "sentence": "___ they got any children?",
+     "answer": "Have"
+    }
+   ]
+  },
+  {
+   "id": "g67",
+   "level": "A1",
+   "title": "Possessive pronouns (mine, yours, his, hers...)",
+   "theory": "Đại từ sở hữu (mine, yours, his, hers, ours, theirs) thay thế cho \"tính từ sở hữu + danh từ\" đã nhắc ở trên, đứng độc lập không cần danh từ theo sau.",
+   "examples": [
+    "This book is mine.",
+    "Is that bag yours?",
+    "Their house is bigger than ours."
+   ],
+   "exercises": [
+    {
+     "id": "g67-e1",
+     "sentence": "This pen isn't mine, it's ___ (she).",
+     "answer": "hers"
+    },
+    {
+     "id": "g67-e2",
+     "sentence": "That car is ___ (we).",
+     "answer": "ours"
+    },
+    {
+     "id": "g67-e3",
+     "sentence": "Is this umbrella ___ (you)?",
+     "answer": "yours"
+    },
+    {
+     "id": "g67-e4",
+     "sentence": "That idea was ___ (he), not mine.",
+     "answer": "his"
+    },
+    {
+     "id": "g67-e5",
+     "sentence": "These seats are ___ (they).",
+     "answer": "theirs"
+    },
+    {
+     "id": "g67-e6",
+     "sentence": "The blue towel is ___ (I).",
+     "answer": "mine"
+    }
+   ]
+  },
+  {
+   "id": "g68",
+   "level": "A1",
+   "title": "Reflexive pronouns (myself, yourself...)",
+   "theory": "Đại từ phản thân (myself, yourself, himself, herself, itself, ourselves, yourselves, themselves) dùng khi chủ ngữ và tân ngữ là cùng một người/vật.",
+   "examples": [
+    "I hurt myself yesterday.",
+    "She made this cake herself.",
+    "They enjoyed themselves at the party."
+   ],
+   "exercises": [
+    {
+     "id": "g68-e1",
+     "sentence": "He cut ___ (he) while cooking.",
+     "answer": "himself"
+    },
+    {
+     "id": "g68-e2",
+     "sentence": "We did it all by ___ (we).",
+     "answer": "ourselves"
+    },
+    {
+     "id": "g68-e3",
+     "sentence": "Did you enjoy ___ (you) at the concert?",
+     "answer": "yourself"
+    },
+    {
+     "id": "g68-e4",
+     "sentence": "She taught ___ (she) to play the piano.",
+     "answer": "herself"
+    },
+    {
+     "id": "g68-e5",
+     "sentence": "The cat cleaned ___ (it) after eating.",
+     "answer": "itself"
+    },
+    {
+     "id": "g68-e6",
+     "sentence": "They built the house ___ (they).",
+     "answer": "themselves"
+    }
+   ]
+  },
+  {
+   "id": "g69",
+   "level": "A1",
+   "title": "Prepositions of movement (into, out of, onto, through)",
+   "theory": "Into (đi vào trong), out of (đi ra khỏi), onto (lên trên bề mặt), through (xuyên qua) dùng để mô tả hướng di chuyển.",
+   "examples": [
+    "She walked into the room.",
+    "He got out of the car.",
+    "The cat jumped onto the table."
+   ],
+   "exercises": [
+    {
+     "id": "g69-e1",
+     "sentence": "The dog ran ___ the garden.",
+     "answer": "into"
+    },
+    {
+     "id": "g69-e2",
+     "sentence": "She got ___ the taxi and left.",
+     "answer": "out of"
+    },
+    {
+     "id": "g69-e3",
+     "sentence": "We walked ___ the tunnel.",
+     "answer": "through"
+    },
+    {
+     "id": "g69-e4",
+     "sentence": "The cat jumped ___ the table.",
+     "answer": "onto"
+    },
+    {
+     "id": "g69-e5",
+     "sentence": "He walked ___ the room and sat down.",
+     "answer": "into"
+    },
+    {
+     "id": "g69-e6",
+     "sentence": "The train went ___ a long tunnel.",
+     "answer": "through"
+    }
+   ]
+  },
+  {
+   "id": "g70",
+   "level": "A1",
+   "title": "Each / every",
+   "theory": "\"Each\" và \"every\" đều đi với danh từ số ít, mang nghĩa \"mỗi\". \"Each\" nhấn mạnh từng cá thể riêng lẻ, \"every\" nhấn mạnh tổng thể chung.",
+   "examples": [
+    "Each student has a book.",
+    "Every day I wake up at 6.",
+    "Each of them got a prize."
+   ],
+   "exercises": [
+    {
+     "id": "g70-e1",
+     "sentence": "___ (every) morning, she drinks coffee.",
+     "answer": "Every"
+    },
+    {
+     "id": "g70-e2",
+     "sentence": "___ student must bring their own laptop.",
+     "answer": "Each"
+    },
+    {
+     "id": "g70-e3",
+     "sentence": "There is a chair for ___ (every) guest.",
+     "answer": "every"
+    },
+    {
+     "id": "g70-e4",
+     "sentence": "___ (each) of the players received a medal.",
+     "answer": "Each"
+    },
+    {
+     "id": "g70-e5",
+     "sentence": "I exercise ___ (every) day after work.",
+     "answer": "every"
+    },
+    {
+     "id": "g70-e6",
+     "sentence": "___ (every) child in the class has a talent.",
+     "answer": "Every"
+    }
+   ]
+  },
+  {
+   "id": "g71",
+   "level": "A2",
+   "title": "Verb + V-ing after like/love/hate/enjoy",
+   "theory": "Các động từ chỉ sở thích (like, love, hate, enjoy, dislike) thường theo sau bởi V-ing khi nói về sở thích chung.",
+   "examples": [
+    "I love swimming.",
+    "She hates waiting in line.",
+    "We enjoy traveling together."
+   ],
+   "exercises": [
+    {
+     "id": "g71-e1",
+     "sentence": "He likes ___ (play) video games.",
+     "answer": "playing"
+    },
+    {
+     "id": "g71-e2",
+     "sentence": "I hate ___ (wait) for the bus.",
+     "answer": "waiting"
+    },
+    {
+     "id": "g71-e3",
+     "sentence": "They enjoy ___ (cook) together.",
+     "answer": "cooking"
+    },
+    {
+     "id": "g71-e4",
+     "sentence": "She loves ___ (dance) at parties.",
+     "answer": "dancing"
+    },
+    {
+     "id": "g71-e5",
+     "sentence": "I don't like ___ (get) up early.",
+     "answer": "getting"
+    },
+    {
+     "id": "g71-e6",
+     "sentence": "He enjoys ___ (listen) to podcasts on the bus.",
+     "answer": "listening"
+    }
+   ]
+  },
+  {
+   "id": "g72",
+   "level": "A2",
+   "title": "Other / another / others",
+   "theory": "\"Another\" (một cái khác) dùng với danh từ số ít. \"Other + danh từ số nhiều\" hoặc \"the other\" (cái còn lại). \"Others\" đứng độc lập, không theo sau danh từ.",
+   "examples": [
+    "Can I have another cup of tea?",
+    "Some people like tea, others prefer coffee.",
+    "Where are the other students?"
+   ],
+   "exercises": [
+    {
+     "id": "g72-e1",
+     "sentence": "I don't like this one, show me ___ (a different one).",
+     "answer": "another"
+    },
+    {
+     "id": "g72-e2",
+     "sentence": "Some students passed, ___ failed.",
+     "answer": "others"
+    },
+    {
+     "id": "g72-e3",
+     "sentence": "Where are the ___ (other) books?",
+     "answer": "other"
+    },
+    {
+     "id": "g72-e4",
+     "sentence": "This shirt is too small. Can I try ___ one?",
+     "answer": "another"
+    },
+    {
+     "id": "g72-e5",
+     "sentence": "Some people like coffee; ___ prefer tea.",
+     "answer": "others"
+    },
+    {
+     "id": "g72-e6",
+     "sentence": "I have two pens: one is red, the ___ is blue.",
+     "answer": "other"
+    }
+   ]
+  },
+  {
+   "id": "g73",
+   "level": "A2",
+   "title": "So / such",
+   "theory": "\"So + tính từ/trạng từ\" và \"such + (a/an) + tính từ + danh từ\" đều dùng để nhấn mạnh mức độ.",
+   "examples": [
+    "The movie was so boring.",
+    "It was such a boring movie.",
+    "She is so kind."
+   ],
+   "exercises": [
+    {
+     "id": "g73-e1",
+     "sentence": "It was ___ (so) hot yesterday.",
+     "answer": "so"
+    },
+    {
+     "id": "g73-e2",
+     "sentence": "She is ___ a kind person.",
+     "answer": "such"
+    },
+    {
+     "id": "g73-e3",
+     "sentence": "He speaks ___ (so) fast that I can't understand.",
+     "answer": "so"
+    },
+    {
+     "id": "g73-e4",
+     "sentence": "It was ___ a boring movie that I fell asleep.",
+     "answer": "such"
+    },
+    {
+     "id": "g73-e5",
+     "sentence": "The food was ___ good that we ordered more.",
+     "answer": "so"
+    },
+    {
+     "id": "g73-e6",
+     "sentence": "They are ___ nice people.",
+     "answer": "such"
+    }
+   ]
+  },
+  {
+   "id": "g74",
+   "level": "A2",
+   "title": "A few / a little vs few / little",
+   "theory": "\"A few\" (với danh từ đếm được) và \"a little\" (với danh từ không đếm được) mang nghĩa tích cực \"có một ít\". \"Few/little\" (không có \"a\") mang nghĩa tiêu cực \"rất ít, hầu như không có\".",
+   "examples": [
+    "I have a few friends here. (đủ để vui)",
+    "I have few friends here. (rất ít, cô đơn)",
+    "There's a little milk left."
+   ],
+   "exercises": [
+    {
+     "id": "g74-e1",
+     "sentence": "We have ___ (a little) time, let's hurry.",
+     "answer": "a little"
+    },
+    {
+     "id": "g74-e2",
+     "sentence": "She has ___ (very few) friends and feels lonely.",
+     "answer": "few"
+    },
+    {
+     "id": "g74-e3",
+     "sentence": "I have ___ (a few) questions for you.",
+     "answer": "a few"
+    },
+    {
+     "id": "g74-e4",
+     "sentence": "Hurry up! We have very ___ time left.",
+     "answer": "little"
+    },
+    {
+     "id": "g74-e5",
+     "sentence": "I know ___ (a few) good restaurants near here.",
+     "answer": "a few"
+    },
+    {
+     "id": "g74-e6",
+     "sentence": "He speaks ___ (a little) Japanese.",
+     "answer": "a little"
+    }
+   ]
+  },
+  {
+   "id": "g75",
+   "level": "A2",
+   "title": "Order of adjectives",
+   "theory": "Khi dùng nhiều tính từ, thứ tự thường là: ý kiến → kích thước → tuổi → hình dạng → màu sắc → xuất xứ → chất liệu → danh từ. Ví dụ: a beautiful small old round black Vietnamese wooden table.",
+   "examples": [
+    "She has a beautiful big garden.",
+    "He bought a small red car.",
+    "It's an old wooden table."
+   ],
+   "exercises": [
+    {
+     "id": "g75-e1",
+     "sentence": "She wore a ___ dress. (blue, beautiful → đúng thứ tự)",
+     "answer": "beautiful blue"
+    },
+    {
+     "id": "g75-e2",
+     "sentence": "They live in a ___ house. (big, old → đúng thứ tự)",
+     "answer": "big old"
+    },
+    {
+     "id": "g75-e3",
+     "sentence": "I bought a ___ bag. (leather, small → đúng thứ tự)",
+     "answer": "small leather"
+    },
+    {
+     "id": "g75-e4",
+     "sentence": "He bought an ___ car. (Italian, expensive → đúng thứ tự)",
+     "answer": "expensive Italian"
+    },
+    {
+     "id": "g75-e5",
+     "sentence": "She has ___ hair. (black, long → đúng thứ tự)",
+     "answer": "long black"
+    },
+    {
+     "id": "g75-e6",
+     "sentence": "We stayed in a ___ hotel. (modern, lovely → đúng thứ tự)",
+     "answer": "lovely modern"
+    }
+   ]
+  },
+  {
+   "id": "g76",
+   "level": "B1",
+   "title": "Would rather / had better",
+   "theory": "\"Would rather + V nguyên mẫu\" diễn tả sự ưa thích hơn. \"Had better + V nguyên mẫu\" diễn tả lời khuyên mạnh, có sắc thái cảnh báo hậu quả nếu không làm.",
+   "examples": [
+    "I'd rather stay home tonight.",
+    "You'd better see a doctor.",
+    "She would rather walk than take the bus."
+   ],
+   "exercises": [
+    {
+     "id": "g76-e1",
+     "sentence": "I'd rather ___ (stay) home tonight.",
+     "answer": "stay"
+    },
+    {
+     "id": "g76-e2",
+     "sentence": "You'd better ___ (finish) your homework now.",
+     "answer": "finish"
+    },
+    {
+     "id": "g76-e3",
+     "sentence": "She would rather ___ (not, go) to the party.",
+     "answer": "not go"
+    },
+    {
+     "id": "g76-e4",
+     "sentence": "I'd rather ___ (walk) than take the bus.",
+     "answer": "walk"
+    },
+    {
+     "id": "g76-e5",
+     "sentence": "You'd better ___ (not, be) late again.",
+     "answer": "not be"
+    },
+    {
+     "id": "g76-e6",
+     "sentence": "We'd better ___ (book) the tickets early.",
+     "answer": "book"
+    }
+   ]
+  },
+  {
+   "id": "g77",
+   "level": "B1",
+   "title": "The causative \"have something done\"",
+   "theory": "\"Have/get + tân ngữ + V3\" diễn tả việc nhờ hoặc thuê người khác làm gì đó cho mình.",
+   "examples": [
+    "I had my hair cut yesterday.",
+    "We're going to have the house painted.",
+    "She got her car repaired."
+   ],
+   "exercises": [
+    {
+     "id": "g77-e1",
+     "sentence": "I ___ (have, my phone, fix) last week.",
+     "answer": "had my phone fixed"
+    },
+    {
+     "id": "g77-e2",
+     "sentence": "She wants to ___ (have, her photo, take).",
+     "answer": "have her photo taken"
+    },
+    {
+     "id": "g77-e3",
+     "sentence": "We ___ (get, the car, wash) every week.",
+     "answer": "get the car washed"
+    },
+    {
+     "id": "g77-e4",
+     "sentence": "He ___ (have, his hair, cut) yesterday.",
+     "answer": "had his hair cut"
+    },
+    {
+     "id": "g77-e5",
+     "sentence": "We need to ___ (have, the roof, repair) before the rainy season.",
+     "answer": "have the roof repaired"
+    },
+    {
+     "id": "g77-e6",
+     "sentence": "She ___ (get, her nails, do) every month.",
+     "answer": "gets her nails done"
+    }
+   ]
+  },
+  {
+   "id": "g78",
+   "level": "B1",
+   "title": "Verb + object + to V patterns",
+   "theory": "Một số động từ (want, ask, tell, expect, advise, allow) theo sau bởi \"tân ngữ + to V\" để diễn tả yêu cầu/mong muốn ai đó làm gì.",
+   "examples": [
+    "I want you to help me.",
+    "She told him to wait outside.",
+    "They advised us to leave early."
+   ],
+   "exercises": [
+    {
+     "id": "g78-e1",
+     "sentence": "He wants me ___ (call) him tonight.",
+     "answer": "to call"
+    },
+    {
+     "id": "g78-e2",
+     "sentence": "The teacher told the students ___ (be) quiet.",
+     "answer": "to be"
+    },
+    {
+     "id": "g78-e3",
+     "sentence": "My parents allow me ___ (go) out on weekends.",
+     "answer": "to go"
+    },
+    {
+     "id": "g78-e4",
+     "sentence": "She asked me ___ (close) the door.",
+     "answer": "to close"
+    },
+    {
+     "id": "g78-e5",
+     "sentence": "The doctor advised him ___ (exercise) more.",
+     "answer": "to exercise"
+    },
+    {
+     "id": "g78-e6",
+     "sentence": "They invited us ___ (join) the party.",
+     "answer": "to join"
+    }
+   ]
+  },
+  {
+   "id": "g79",
+   "level": "B1",
+   "title": "Conditional linkers: unless, as long as, provided that",
+   "theory": "\"Unless\" = \"if...not\" (trừ khi). \"As long as\" và \"provided that\" mang nghĩa \"miễn là, với điều kiện là\".",
+   "examples": [
+    "Unless you study, you won't pass.",
+    "You can borrow my car as long as you drive carefully.",
+    "We'll go, provided that it doesn't rain."
+   ],
+   "exercises": [
+    {
+     "id": "g79-e1",
+     "sentence": "___ you hurry, you'll miss the train.",
+     "answer": "Unless"
+    },
+    {
+     "id": "g79-e2",
+     "sentence": "You can stay here as long as you ___ (be) quiet.",
+     "answer": "are"
+    },
+    {
+     "id": "g79-e3",
+     "sentence": "I'll help you provided that you ___ (ask) nicely.",
+     "answer": "ask"
+    },
+    {
+     "id": "g79-e4",
+     "sentence": "You'll pass the exam ___ you study hard. (miễn là)",
+     "answer": "as long as"
+    },
+    {
+     "id": "g79-e5",
+     "sentence": "___ it rains, we'll have the picnic tomorrow.",
+     "answer": "Unless"
+    },
+    {
+     "id": "g79-e6",
+     "sentence": "You can borrow my car provided that you ___ (drive) carefully.",
+     "answer": "drive"
+    }
+   ]
+  },
+  {
+   "id": "g80",
+   "level": "B1",
+   "title": "Linking words in writing (However, Moreover, Therefore...)",
+   "theory": "Các từ nối giúp bài viết mạch lạc: However/Nevertheless (tuy nhiên), Moreover/Furthermore/In addition (hơn nữa), Therefore/As a result (do đó), On the other hand (mặt khác).",
+   "examples": [
+    "The plan is risky. However, it could be very profitable.",
+    "She is talented. Moreover, she works very hard.",
+    "It rained heavily; therefore, the match was cancelled."
+   ],
+   "exercises": [
+    {
+     "id": "g80-e1",
+     "sentence": "He is young. ___, he has a lot of experience.",
+     "answer": "However"
+    },
+    {
+     "id": "g80-e2",
+     "sentence": "The product is cheap. ___, it is very durable.",
+     "answer": "Moreover"
+    },
+    {
+     "id": "g80-e3",
+     "sentence": "Traffic was terrible; ___, we arrived late.",
+     "answer": "therefore"
+    },
+    {
+     "id": "g80-e4",
+     "sentence": "The hotel was expensive. ___, the service was poor.",
+     "answer": "Moreover"
+    },
+    {
+     "id": "g80-e5",
+     "sentence": "He didn't study at all; ___, he failed the test.",
+     "answer": "therefore"
+    },
+    {
+     "id": "g80-e6",
+     "sentence": "The trip was tiring. ___, it was worth it.",
+     "answer": "However"
+    }
+   ]
+  },
+  {
+   "id": "g81",
+   "level": "B2",
+   "title": "Future Perfect",
+   "theory": "Diễn tả một hành động sẽ hoàn thành trước một thời điểm/hành động khác trong tương lai. Công thức: will have + V3.",
+   "examples": [
+    "By next year, I will have graduated.",
+    "She will have finished the report by Friday.",
+    "They will have moved out by the end of the month."
+   ],
+   "exercises": [
+    {
+     "id": "g81-e1",
+     "sentence": "By 2030, they ___ (will, finish) the new bridge.",
+     "answer": "will have finished"
+    },
+    {
+     "id": "g81-e2",
+     "sentence": "She ___ (will, live) here for ten years by next June.",
+     "answer": "will have lived"
+    },
+    {
+     "id": "g81-e3",
+     "sentence": "We ___ (will, leave) before you arrive.",
+     "answer": "will have left"
+    },
+    {
+     "id": "g81-e4",
+     "sentence": "By the end of this year, I ___ (will, save) enough for a motorbike.",
+     "answer": "will have saved"
+    },
+    {
+     "id": "g81-e5",
+     "sentence": "She ___ (will, graduate) by the time she turns 22.",
+     "answer": "will have graduated"
+    },
+    {
+     "id": "g81-e6",
+     "sentence": "By 10 pm, the kids ___ (will, fall) asleep.",
+     "answer": "will have fallen"
+    }
+   ]
+  },
+  {
+   "id": "g82",
+   "level": "B2",
+   "title": "Future Continuous",
+   "theory": "Diễn tả một hành động đang diễn ra tại một thời điểm cụ thể trong tương lai. Công thức: will be + V-ing.",
+   "examples": [
+    "This time tomorrow, I will be flying to Paris.",
+    "She will be working when you call.",
+    "We will be waiting for you at the gate."
+   ],
+   "exercises": [
+    {
+     "id": "g82-e1",
+     "sentence": "At 8 pm tonight, I ___ (will, watch) the match.",
+     "answer": "will be watching"
+    },
+    {
+     "id": "g82-e2",
+     "sentence": "This time next week, we ___ (will, travel) around Japan.",
+     "answer": "will be traveling"
+    },
+    {
+     "id": "g82-e3",
+     "sentence": "She ___ (will, sleep) when we arrive.",
+     "answer": "will be sleeping"
+    },
+    {
+     "id": "g82-e4",
+     "sentence": "Don't call at 7 — we ___ (will, have) dinner then.",
+     "answer": "will be having"
+    },
+    {
+     "id": "g82-e5",
+     "sentence": "Tomorrow morning, he ___ (will, fly) to Tokyo.",
+     "answer": "will be flying"
+    },
+    {
+     "id": "g82-e6",
+     "sentence": "At midnight, I ___ (will, still, work) on the report.",
+     "answer": "will still be working"
+    }
+   ]
+  },
+  {
+   "id": "g83",
+   "level": "B2",
+   "title": "\"Was/were going to\" — unfulfilled past plans",
+   "theory": "\"Was/were going to + V\" diễn tả một kế hoạch hoặc dự định trong quá khứ nhưng cuối cùng không xảy ra hoặc bị thay đổi.",
+   "examples": [
+    "I was going to call you, but I forgot.",
+    "We were going to go camping, but it rained.",
+    "She was going to quit her job."
+   ],
+   "exercises": [
+    {
+     "id": "g83-e1",
+     "sentence": "I ___ (was going to) study abroad, but I changed my mind.",
+     "answer": "was going to"
+    },
+    {
+     "id": "g83-e2",
+     "sentence": "They ___ (were going to) get married last year.",
+     "answer": "were going to"
+    },
+    {
+     "id": "g83-e3",
+     "sentence": "He was going to ___ (tell) her, but he lost his nerve.",
+     "answer": "tell"
+    },
+    {
+     "id": "g83-e4",
+     "sentence": "She ___ (was going to) call you, but her phone died.",
+     "answer": "was going to"
+    },
+    {
+     "id": "g83-e5",
+     "sentence": "We ___ (were going to) buy that house, but the price went up.",
+     "answer": "were going to"
+    },
+    {
+     "id": "g83-e6",
+     "sentence": "I was going to ___ (say) something, but I forgot.",
+     "answer": "say"
+    }
+   ]
+  },
+  {
+   "id": "g84",
+   "level": "B2",
+   "title": "Participle clauses",
+   "theory": "Mệnh đề phân từ (dùng V-ing hoặc V3) giúp câu văn ngắn gọn hơn, thường thay cho mệnh đề trạng ngữ chỉ thời gian, nguyên nhân, hoặc hành động liên tiếp.",
+   "examples": [
+    "Feeling tired, she went to bed early.",
+    "Having finished his homework, he watched TV.",
+    "Written in 1990, the book is still popular today."
+   ],
+   "exercises": [
+    {
+     "id": "g84-e1",
+     "sentence": "___ (feel) hungry, he ordered a pizza.",
+     "answer": "Feeling"
+    },
+    {
+     "id": "g84-e2",
+     "sentence": "___ (finish) the exam, she left the room.",
+     "answer": "Having finished"
+    },
+    {
+     "id": "g84-e3",
+     "sentence": "___ (write) in simple English, the book is easy to read.",
+     "answer": "Written"
+    },
+    {
+     "id": "g84-e4",
+     "sentence": "___ (see) the traffic jam, we took another road.",
+     "answer": "Seeing"
+    },
+    {
+     "id": "g84-e5",
+     "sentence": "___ (lose) his keys, he couldn't get into the house.",
+     "answer": "Having lost"
+    },
+    {
+     "id": "g84-e6",
+     "sentence": "___ (make) from fresh fruit, this juice is very healthy.",
+     "answer": "Made"
+    }
+   ]
+  },
+  {
+   "id": "g85",
+   "level": "B2",
+   "title": "Ellipsis & substitution (so do I, neither does she)",
+   "theory": "\"So + trợ động từ + S\" dùng để đồng ý với câu khẳng định. \"Neither/Nor + trợ động từ + S\" dùng để đồng ý với câu phủ định.",
+   "examples": [
+    "I love coffee. — So do I.",
+    "She can't swim. — Neither can I.",
+    "He has finished. — So has she."
+   ],
+   "exercises": [
+    {
+     "id": "g85-e1",
+     "sentence": "I like jazz music. — So ___ I.",
+     "answer": "do"
+    },
+    {
+     "id": "g85-e2",
+     "sentence": "She doesn't eat meat. — Neither ___ I.",
+     "answer": "do"
+    },
+    {
+     "id": "g85-e3",
+     "sentence": "He has been to Japan. — So ___ I.",
+     "answer": "have"
+    },
+    {
+     "id": "g85-e4",
+     "sentence": "I can drive. — So ___ I.",
+     "answer": "can"
+    },
+    {
+     "id": "g85-e5",
+     "sentence": "She won't come. — Neither ___ he.",
+     "answer": "will"
+    },
+    {
+     "id": "g85-e6",
+     "sentence": "We were tired. — So ___ they.",
+     "answer": "were"
+    }
+   ]
+  },
+  {
+   "id": "g86",
+   "level": "B2",
+   "title": "Advanced quantifiers: all / most / none / each of",
+   "theory": "\"All of / most of / none of / each of + danh từ xác định (the/my/these...)\" dùng để nói về một phần hoặc toàn bộ trong một nhóm cụ thể.",
+   "examples": [
+    "All of my friends came to the party.",
+    "Most of the students passed the exam.",
+    "None of us knew the answer."
+   ],
+   "exercises": [
+    {
+     "id": "g86-e1",
+     "sentence": "___ of the students passed the test. (tất cả)",
+     "answer": "All"
+    },
+    {
+     "id": "g86-e2",
+     "sentence": "___ of them wanted to leave early. (không ai)",
+     "answer": "None"
+    },
+    {
+     "id": "g86-e3",
+     "sentence": "___ of my colleagues agree with the plan. (hầu hết)",
+     "answer": "Most"
+    },
+    {
+     "id": "g86-e4",
+     "sentence": "___ of the cake was eaten. (tất cả)",
+     "answer": "All"
+    },
+    {
+     "id": "g86-e5",
+     "sentence": "___ of the answers was correct. (không cái nào)",
+     "answer": "None"
+    },
+    {
+     "id": "g86-e6",
+     "sentence": "___ of us enjoy long meetings. (hầu hết)",
+     "answer": "Most"
+    }
+   ]
+  }
+ ]
 }

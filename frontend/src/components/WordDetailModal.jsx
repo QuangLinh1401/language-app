@@ -79,13 +79,15 @@ export default function WordDetailModal({ wordId, onClose }) {
   const dict = detail?.dictionary?.found ? detail.dictionary : null;
 
   const dictExamples = dict
-    ? dict.meanings.flatMap((m) => m.definitions.map((d) => d.example)).filter(Boolean)
+    ? dict.meanings.flatMap((m) =>
+        m.definitions.flatMap((d) => [d.example, ...(d.extraExamples || [])])
+      ).filter(Boolean)
     : [];
   const examples = detail
     ? [...(detail.examples || []), detail.example, ...dictExamples]
         .filter(Boolean)
         .filter((ex, i, arr) => arr.findIndex((e) => e.toLowerCase() === ex.toLowerCase()) === i)
-        .slice(0, 10)
+        .slice(0, 20)
     : [];
 
   // Always available — words missing from the open dictionaries fall back to

@@ -238,14 +238,17 @@ h1.page-title {
 .g-good { background: var(--teal); box-shadow: 0 3px 0 var(--teal-deep); }
 .g-easy { background: var(--good); box-shadow: 0 3px 0 var(--good-deep); }
 
+/* Fill-in-the-blank: a clean underline, no filled box. */
 .fib-input {
-  border: none; border-bottom: 3px solid var(--teal);
-  background: var(--teal-soft); border-radius: 8px 8px 0 0;
-  padding: 4px 8px; font-size: 14px; font-weight: 800; color: var(--teal-deep);
-  width: 130px; text-align: center; font-family: inherit;
+  border: none; border-bottom: 2px solid var(--teal);
+  background: transparent; border-radius: 0;
+  padding: 5px 6px; font-size: 14px; font-weight: 800; color: var(--ink);
+  width: 130px; text-align: center; font-family: inherit; outline: none;
 }
-.fib-input.correct { background: #E1F6E2; border-color: var(--good); color: var(--good-deep); }
-.fib-input.wrong { background: #FFE6E4; border-color: var(--bad); color: var(--bad-deep); }
+.fib-input::placeholder { color: var(--ink-soft); opacity: 0.55; font-weight: 600; }
+.fib-input:focus { border-bottom-color: var(--teal-deep); }
+.fib-input.correct { border-bottom-color: var(--good); color: var(--good-deep); }
+.fib-input.wrong { border-bottom-color: var(--bad); color: var(--bad-deep); }
 
 .explain-box {
   background: var(--teal-soft); border-radius: 14px; padding: 12px 14px; margin-top: 12px;
@@ -666,6 +669,4 @@ h1.page-title {
 .modal-scroll .pill { white-space: normal; text-align: left; max-width: 100%; }
 .modal-scroll ol { min-width: 0; }
 
-[data-theme="dark"] .fib-input.correct { background: #1A3023; }
-[data-theme="dark"] .fib-input.wrong { background: #372022; }
 [data-theme="dark"] .settings-gear { background: var(--card); }

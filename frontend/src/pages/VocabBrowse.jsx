@@ -140,8 +140,8 @@ export default function VocabBrowse() {
       <p className="sub">See exactly which words you know, and pick any group to study</p>
 
       <input
-        className="fib-input"
-        style={{ width: "100%", marginBottom: 12, textAlign: "left" }}
+        className="text-input"
+        style={{ width: "100%", marginBottom: 12 }}
         placeholder="🔍 Search all 5000 words (English or Vietnamese)..."
         value={query}
         onChange={(e) => setQuery(e.target.value)}

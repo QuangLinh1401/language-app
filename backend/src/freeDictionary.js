@@ -40,7 +40,7 @@ function normalize(entries) {
       }));
       // Surface example-bearing senses first so more real usage examples make the cut.
       definitions.sort((a, b) => (b.example ? 1 : 0) - (a.example ? 1 : 0));
-      meanings.push({ partOfSpeech: m.partOfSpeech, definitions: definitions.slice(0, 6) });
+      meanings.push({ partOfSpeech: m.partOfSpeech, definitions: definitions.slice(0, 10) });
       for (const s of m.synonyms || []) synonyms.add(s);
       for (const a of m.antonyms || []) antonyms.add(a);
     }
@@ -50,9 +50,9 @@ function normalize(entries) {
   return {
     found: meanings.length > 0,
     phonetics: phonetics.slice(0, 3),
-    meanings: meanings.slice(0, 6),
-    synonyms: [...synonyms].slice(0, 6),
-    antonyms: [...antonyms].slice(0, 6),
+    meanings: meanings.slice(0, 8),
+    synonyms: [...synonyms].slice(0, 10),
+    antonyms: [...antonyms].slice(0, 10),
     sourceUrl
   };
 }
@@ -90,21 +90,19 @@ async function fetchFromWiktionary(term) {
     const meanings = [];
     for (const e of langEntries) {
       const definitions = (e.definitions || [])
-        .map((d) => ({
-          definition: stripHtml(d.definition),
-          example:
-            d.parsedExamples && d.parsedExamples.length
-              ? stripHtml(d.parsedExamples[0].example)
-              : d.examples && d.examples.length
-                ? stripHtml(d.examples[0])
-                : null
-        }))
+        .map((d) => {
+          const def = stripHtml(d.definition);
+          // Keep up to 3 usage examples per sense (they feed the Examples tab too).
+          const raw = (d.parsedExamples || []).map((p) => p.example).concat(d.examples || []);
+          const examples = [...new Set(raw.map(stripHtml).filter(Boolean))].slice(0, 3);
+          return { definition: def, example: examples[0] || null, extraExamples: examples.slice(1) };
+        })
         .filter((d) => d.definition);
       if (definitions.length > 0) {
         definitions.sort((a, b) => (b.example ? 1 : 0) - (a.example ? 1 : 0));
         meanings.push({
           partOfSpeech: (e.partOfSpeech || "").toLowerCase() || "phrase",
-          definitions: definitions.slice(0, 6)
+          definitions: definitions.slice(0, 10)
         });
       }
     }

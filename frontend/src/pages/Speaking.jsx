@@ -30,6 +30,7 @@ export default function Speaking() {
           data-anim-hover
           style={{
             flex: 1, justifyContent: "center", cursor: "pointer",
+            padding: "11px 13px", fontSize: 13,
             background: tab === "dialogues" ? "var(--teal)" : "var(--card)",
             color: tab === "dialogues" ? "#fff" : "var(--teal-deep)",
             border: "1px solid var(--line)"
@@ -42,6 +43,7 @@ export default function Speaking() {
           className="pill"
           style={{
             flex: 1, justifyContent: "center", cursor: "pointer",
+            padding: "11px 13px", fontSize: 13,
             background: tab === "shadowing" ? "var(--teal)" : "var(--card)",
             color: tab === "shadowing" ? "#fff" : "var(--teal-deep)",
             border: "1px solid var(--line)"
