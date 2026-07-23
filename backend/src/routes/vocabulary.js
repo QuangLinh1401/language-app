@@ -12,6 +12,11 @@ const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const load = (f) => JSON.parse(fs.readFileSync(path.join(__dirname, "..", "..", "data", f), "utf-8"));
 // Two languages, same schema: English (A1-B2) and Chinese (HSK 3.0 bands).
 const DATA = { en: load("vocabulary.json"), zh: load("vocabulary-zh.json") };
+// Pre-written zh word details (senses, grammar, characters, etc.) — static,
+// no AI call, no cost. Coverage grows over time; words not yet in here fall
+// back to generateWordDetail() (AI if a key is set, otherwise the bare
+// word/meaning/example fallback).
+const zhWordDetails = load("word-details-zh.json");
 // Chinese levels are derived from the data so adding HSK3+ words just works.
 const zhLevels = [...new Set(DATA.zh.topics.flatMap((t) => t.words.map((w) => w.level)))].sort();
 const LEVELS = { en: ["A1", "A2", "B1", "B2"], zh: zhLevels };
@@ -211,8 +216,14 @@ router.get("/words/:id/detail", asyncHandler(async (req, res) => {
   if (!word) return res.status(404).json({ error: "Word not found" });
   const progress = req.state.wordProgress[word.id] || null;
   const notFound = { found: false, phonetics: [], meanings: [], synonyms: [], antonyms: [], sourceUrl: null };
+  const staticDetail = zhWordDetails[word.id];
+  const staticExamples = staticDetail
+    ? (staticDetail.senses || []).flatMap((s) => s.meanings.map((m) => m.example)).filter(Boolean)
+    : [];
   const [detail, dictionary] = await Promise.all([
-    generateWordDetail(word),
+    staticDetail
+      ? Promise.resolve({ word: word.word, ipa: word.ipa, meaning: word.meaning, level: word.level, ...staticDetail, examples: staticExamples, isFallback: false })
+      : generateWordDetail(word),
     word.id.startsWith("zh-") ? Promise.resolve(notFound) : fetchDictionaryEntry(word.word)
   ]);
   res.json({ ...word, ...detail, dictionary, progress });
