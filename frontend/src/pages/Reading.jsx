@@ -15,7 +15,9 @@ export default function Reading() {
 
   if (!passages) return <Loading text="Loading passages..." />;
 
-  const levels = ["all", "A2", "B1", "B2"];
+  // Level pills come from the data itself (A2-B2 for English, HSK1 for Chinese).
+  const distinctLevels = [...new Set(passages.map((p) => p.level))];
+  const levels = distinctLevels.length > 1 ? ["all", ...distinctLevels] : [];
   const shown = filter === "all" ? passages : passages.filter((p) => p.level === filter);
 
   function setFilter(lv) {
@@ -29,6 +31,7 @@ export default function Reading() {
       <h1 className="page-title">Reading</h1>
       <p className="sub">{passages.length} passages · read carefully, then answer the quiz</p>
 
+      {levels.length > 0 && (
       <div style={{ display: "flex", gap: 6, marginBottom: 14, flexWrap: "wrap" }}>
         {levels.map((lv) => (
           <button
@@ -46,6 +49,7 @@ export default function Reading() {
           </button>
         ))}
       </div>
+      )}
 
       {shown.map((p) => (
         <Link key={p.id} to={`/reading/${p.id}`} className="topic-card" data-anim-hover>

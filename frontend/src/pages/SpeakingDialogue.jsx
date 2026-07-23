@@ -9,7 +9,7 @@ function speak(text, rate = 0.9) {
   if (!window.speechSynthesis) return;
   window.speechSynthesis.cancel();
   const utter = new SpeechSynthesisUtterance(text);
-  utter.lang = "en-US";
+  utter.lang = /[㐀-鿿]/.test(text) ? "zh-CN" : "en-US";
   utter.rate = rate;
   window.speechSynthesis.speak(utter);
 }
@@ -19,7 +19,7 @@ function speakAll(lines, index = 0) {
   window.speechSynthesis.cancel();
   lines.slice(index).forEach((line) => {
     const utter = new SpeechSynthesisUtterance(line.text);
-    utter.lang = "en-US";
+    utter.lang = /[㐀-鿿]/.test(line.text) ? "zh-CN" : "en-US";
     utter.rate = 0.9;
     window.speechSynthesis.speak(utter);
   });

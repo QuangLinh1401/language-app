@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import { useNavigate, useLocation } from "react-router-dom";
-import { api } from "../api.js";
+import { api, appLang } from "../api.js";
 import Loading from "../components/Loading.jsx";
 
 function renderBold(text) {
@@ -64,7 +64,7 @@ export default function VocabPractice() {
         {fixedWordIds ? "A short passage built from your selected words" : "A short passage built from words you're still learning"}
       </p>
 
-      {!fixedWordIds && (
+      {!fixedWordIds && appLang() !== "zh" && (
         <div style={{ display: "flex", gap: 6, marginBottom: 14, flexWrap: "wrap" }}>
           {["", "A1", "A2", "B1", "B2"].map((lv) => (
             <button

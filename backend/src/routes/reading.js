@@ -6,13 +6,16 @@ import { asyncHandler } from "../auth.js";
 import { scheduleNext } from "../srs.js";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
-const dataPath = path.join(__dirname, "..", "..", "data", "reading.json");
-const readingData = JSON.parse(fs.readFileSync(dataPath, "utf-8"));
+const load = (f) => JSON.parse(fs.readFileSync(path.join(__dirname, "..", "..", "data", f), "utf-8"));
+const DATA = { en: load("reading.json"), zh: load("reading-zh.json") };
+
+const ALL_PASSAGES = [...DATA.en.passages, ...DATA.zh.passages];
+const langOf = (req) => (req.query.lang === "zh" ? "zh" : "en");
 
 const router = express.Router();
 
 router.get("/", (req, res) => {
-  const list = readingData.passages.map((p) => {
+  const list = DATA[langOf(req)].passages.map((p) => {
     const progress = req.state.readingProgress[p.id];
     return {
       id: p.id,
@@ -31,14 +34,14 @@ router.get("/", (req, res) => {
 });
 
 router.get("/:id", (req, res) => {
-  const passage = readingData.passages.find((p) => p.id === req.params.id);
+  const passage = ALL_PASSAGES.find((p) => p.id === req.params.id);
   if (!passage) return res.status(404).json({ error: "Passage not found" });
   res.json({ ...passage, progress: req.state.readingProgress[passage.id] || null });
 });
 
 router.post("/:id/complete", asyncHandler(async (req, res) => {
   const { score, timeSeconds } = req.body;
-  const passage = readingData.passages.find((p) => p.id === req.params.id);
+  const passage = ALL_PASSAGES.find((p) => p.id === req.params.id);
   if (!passage) return res.status(404).json({ error: "Passage not found" });
   const validIds = new Set(passage.questions.map((q) => q.id));
   const wrongIds = Array.isArray(req.body?.wrongIds)

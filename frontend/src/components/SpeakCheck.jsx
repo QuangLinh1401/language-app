@@ -1,12 +1,21 @@
 import { useEffect, useRef, useState } from "react";
 
 // Records the learner's voice with the Web Speech API (SpeechRecognition) and
-// compares it word-by-word with the target sentence, so shadowing gets real
-// feedback instead of pure self-assessment. Free, on-device / browser-provided
-// — no AI costs. Not supported in Firefox; the component hides itself there.
+// compares it with the target sentence, so shadowing gets real feedback
+// instead of pure self-assessment. Free, on-device / browser-provided — no AI
+// costs. Not supported in Firefox; the component hides itself there.
+// English is compared word-by-word; Chinese is compared character-by-character
+// (no spaces between words in Chinese) with zh-CN recognition.
 const SR = typeof window !== "undefined" && (window.SpeechRecognition || window.webkitSpeechRecognition);
 
-function normalizeWords(text) {
+const CJK_RE = /[㐀-鿿]/;
+const isCjk = (text) => CJK_RE.test(text);
+
+// Tokenize for comparison: CJK → individual characters, otherwise lowercase words.
+function tokenize(text) {
+  if (isCjk(text)) {
+    return text.split("").filter((ch) => CJK_RE.test(ch));
+  }
   return text
     .toLowerCase()
     .replace(/[^a-z0-9'\s]/g, "")
@@ -14,10 +23,10 @@ function normalizeWords(text) {
     .filter(Boolean);
 }
 
-// Word-level alignment via LCS: returns per-target-word hit/miss.
-function matchWords(target, spoken) {
-  const t = normalizeWords(target);
-  const s = normalizeWords(spoken);
+// Token-level alignment via LCS: returns per-target-token hit/miss.
+function matchTokens(target, spoken) {
+  const t = tokenize(target);
+  const s = tokenize(spoken);
   const dp = Array.from({ length: t.length + 1 }, () => new Array(s.length + 1).fill(0));
   for (let i = t.length - 1; i >= 0; i--) {
     for (let j = s.length - 1; j >= 0; j--) {
@@ -41,6 +50,7 @@ export default function SpeakCheck({ sentence }) {
   const [result, setResult] = useState(null); // { hits, score }
   const [error, setError] = useState("");
   const recRef = useRef(null);
+  const cjk = isCjk(sentence);
 
   // Reset feedback when the sentence changes.
   useEffect(() => {
@@ -65,13 +75,13 @@ export default function SpeakCheck({ sentence }) {
     setResult(null);
     const rec = new SR();
     recRef.current = rec;
-    rec.lang = "en-US";
+    rec.lang = cjk ? "zh-CN" : "en-US";
     rec.interimResults = false;
     rec.maxAlternatives = 1;
     rec.onresult = (e) => {
       const text = e.results[0][0].transcript;
       setHeard(text);
-      setResult(matchWords(sentence, text));
+      setResult(matchTokens(sentence, text));
     };
     rec.onerror = (e) => {
       setError(
@@ -88,10 +98,12 @@ export default function SpeakCheck({ sentence }) {
     rec.start();
   }
 
-  const targetWords = sentence.split(/\s+/);
-  // Map display words onto normalized hits (same order, punctuation kept).
+  // Display units: Chinese renders every character (punctuation kept, uncolored),
+  // English renders whitespace-split words.
+  const displayUnits = cjk ? sentence.split("") : sentence.split(/\s+/);
   let hitIdx = 0;
-  const normTarget = normalizeWords(sentence);
+  const normTarget = tokenize(sentence);
+  const normalizeUnit = (u) => (cjk ? (CJK_RE.test(u) ? u : "") : u.toLowerCase().replace(/[^a-z0-9']/g, ""));
 
   return (
     <div style={{ marginTop: 12 }}>
@@ -112,9 +124,9 @@ export default function SpeakCheck({ sentence }) {
 
       {result && (
         <div className="card" style={{ marginTop: 10, padding: "12px 14px" }}>
-          <div style={{ fontSize: 15, lineHeight: 1.8, textAlign: "center" }}>
-            {targetWords.map((w, i) => {
-              const norm = w.toLowerCase().replace(/[^a-z0-9']/g, "");
+          <div style={{ fontSize: cjk ? 18 : 15, lineHeight: 1.8, textAlign: "center" }}>
+            {displayUnits.map((w, i) => {
+              const norm = normalizeUnit(w);
               let ok = null;
               if (norm && hitIdx < normTarget.length && norm === normTarget[hitIdx]) {
                 ok = result.hits[hitIdx];
@@ -127,7 +139,7 @@ export default function SpeakCheck({ sentence }) {
                     fontWeight: 800,
                     color: ok === null ? "var(--ink)" : ok ? "var(--good-deep)" : "var(--bad-deep)",
                     textDecoration: ok === false ? "underline wavy var(--bad)" : "none",
-                    marginRight: 4
+                    marginRight: cjk ? 0 : 4
                   }}
                 >
                   {w}

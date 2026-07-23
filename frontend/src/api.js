@@ -126,30 +126,30 @@ export const api = {
   },
 
   grammar: {
-    list: () => request("/grammar"),
+    list: () => request(`/grammar?lang=${appLang()}`),
     lesson: (id) => request(`/grammar/${id}`),
     complete: (id, wrongIds = []) =>
       request(`/grammar/${id}/complete`, { method: "POST", body: JSON.stringify({ wrongIds }) })
   },
 
   listening: {
-    list: () => request("/listening"),
+    list: () => request(`/listening?lang=${appLang()}`),
     lesson: (id) => request(`/listening/${id}`),
     complete: (id, score, wrongIds = []) =>
       request(`/listening/${id}/complete`, { method: "POST", body: JSON.stringify({ score, wrongIds }) })
   },
 
   reading: {
-    list: () => request("/reading"),
+    list: () => request(`/reading?lang=${appLang()}`),
     passage: (id) => request(`/reading/${id}`),
     complete: (id, score, timeSeconds, wrongIds = []) =>
       request(`/reading/${id}/complete`, { method: "POST", body: JSON.stringify({ score, timeSeconds, wrongIds }) })
   },
 
   speaking: {
-    shadowing: () => request("/speaking/shadowing"),
-    dialogues: () => request("/speaking/dialogues")
+    shadowing: () => request(`/speaking/shadowing?lang=${appLang()}`),
+    dialogues: () => request(`/speaking/dialogues?lang=${appLang()}`)
   },
 
-  reviewQueue: () => request("/review-queue")
+  reviewQueue: () => request(`/review-queue?lang=${appLang()}`)
 };

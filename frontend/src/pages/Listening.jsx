@@ -22,7 +22,9 @@ export default function Listening() {
 
   if (!lessons) return <Loading text="Loading lessons..." />;
 
-  const levels = ["all", "A1", "A2", "B1", "B2"];
+  // Level pills come from the data itself (A1-B2 for English, HSK1 for Chinese).
+  const distinctLevels = [...new Set(lessons.map((l) => l.level))];
+  const levels = distinctLevels.length > 1 ? ["all", ...distinctLevels] : [];
   const shown = filter === "all" ? lessons : lessons.filter((l) => l.level === filter);
   const pageCount = Math.max(1, Math.ceil(shown.length / PAGE_SIZE));
   const paged = shown.slice(page * PAGE_SIZE, page * PAGE_SIZE + PAGE_SIZE);
@@ -38,6 +40,7 @@ export default function Listening() {
       <h1 className="page-title">Listening</h1>
       <p className="sub">{lessons.length} listening lessons by topic and level</p>
 
+      {levels.length > 0 && (
       <div style={{ display: "flex", gap: 6, marginBottom: 14, flexWrap: "wrap" }}>
         {levels.map((lv) => (
           <button
@@ -55,6 +58,7 @@ export default function Listening() {
           </button>
         ))}
       </div>
+      )}
 
       {paged.map((l) => (
         <Link key={l.id} to={`/listening/${l.id}`} className="topic-card" data-anim-hover>

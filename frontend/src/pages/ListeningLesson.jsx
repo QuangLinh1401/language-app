@@ -37,7 +37,7 @@ export default function ListeningLesson() {
     }
     window.speechSynthesis.cancel();
     const utter = new SpeechSynthesisUtterance(lesson.script);
-    utter.lang = "en-US";
+    utter.lang = /[㐀-鿿]/.test(lesson.script) ? "zh-CN" : "en-US";
     utter.rate = rate;
     utter.onend = () => setPlaying(false);
     utterRef.current = utter;

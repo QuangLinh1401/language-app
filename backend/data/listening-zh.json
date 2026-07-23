@@ -1,0 +1,64 @@
+{
+"lessons": [
+{"id":"zh-l01","level":"HSK1","topic":"Chào hỏi","title":"Gặp bạn mới","script":"你好！我叫王明。你叫什么名字？— 你好，我叫阿玲，我是越南人。— 认识你很高兴！— 认识你我也很高兴。","questions":[
+{"id":"zh-l01-q1","type":"blank","prompt":"你好！我 ___ 王明。(Điền từ 'tên là')","answer":"叫"},
+{"id":"zh-l01-q2","type":"mc","prompt":"A Linh là người nước nào?","options":["Việt Nam","Trung Quốc","Nhật Bản"],"answer":"Việt Nam"},
+{"id":"zh-l01-q3","type":"blank","prompt":"认识你很 ___。(rất vui)","answer":"高兴"},
+{"id":"zh-l01-q4","type":"mc","prompt":"Người con trai tên là gì?","options":["王明","阿玲","小李"],"answer":"王明"}]},
+{"id":"zh-l02","level":"HSK1","topic":"Gia đình","title":"Nhà bạn có mấy người?","script":"你家有几口人？— 我家有四口人：爸爸、妈妈、妹妹和我。— 你妹妹几岁？— 她十岁，是小学生。","questions":[
+{"id":"zh-l02-q1","type":"blank","prompt":"你家有几 ___ 人？(lượng từ hỏi số người trong nhà)","answer":"口"},
+{"id":"zh-l02-q2","type":"mc","prompt":"Nhà người nói có mấy người?","options":["Bốn","Ba","Năm"],"answer":"Bốn"},
+{"id":"zh-l02-q3","type":"blank","prompt":"她十 ___。(10 tuổi)","answer":"岁"},
+{"id":"zh-l02-q4","type":"mc","prompt":"Em gái của người nói là ai?","options":["Học sinh tiểu học","Sinh viên","Giáo viên"],"answer":"Học sinh tiểu học"}]},
+{"id":"zh-l03","level":"HSK1","topic":"Ăn uống","title":"Gọi món ở quán ăn","script":"你好，你们想吃什么？— 我要一碗米饭和一个鸡肉。— 好的。你们喝什么？— 两杯茶，谢谢。","questions":[
+{"id":"zh-l03-q1","type":"blank","prompt":"我要一 ___ 米饭。(lượng từ: bát)","answer":"碗"},
+{"id":"zh-l03-q2","type":"mc","prompt":"Khách gọi món gì?","options":["Cơm và thịt gà","Mì và cá","Bánh mì và trứng"],"answer":"Cơm và thịt gà"},
+{"id":"zh-l03-q3","type":"blank","prompt":"两 ___ 茶。(lượng từ: cốc)","answer":"杯"},
+{"id":"zh-l03-q4","type":"mc","prompt":"Họ uống gì?","options":["Trà","Cà phê","Bia"],"answer":"Trà"}]},
+{"id":"zh-l04","level":"HSK1","topic":"Thời gian","title":"Mấy giờ rồi?","script":"现在几点？— 现在三点半。— 我们几点去看电影？— 七点。电影七点一刻开始。","questions":[
+{"id":"zh-l04-q1","type":"blank","prompt":"现在三点 ___。(rưỡi)","answer":"半"},
+{"id":"zh-l04-q2","type":"mc","prompt":"Bây giờ là mấy giờ?","options":["3 giờ rưỡi","7 giờ","3 giờ 15"],"answer":"3 giờ rưỡi"},
+{"id":"zh-l04-q3","type":"blank","prompt":"电影七点一刻 ___。(bắt đầu)","answer":"开始"},
+{"id":"zh-l04-q4","type":"mc","prompt":"Mấy giờ họ đi xem phim?","options":["7 giờ","3 giờ","8 giờ"],"answer":"7 giờ"}]},
+{"id":"zh-l05","level":"HSK1","topic":"Mua sắm","title":"Mua táo ở chợ","script":"你好，苹果多少钱？— 十块钱一斤。— 太贵了！便宜一点儿吧。— 好吧，八块钱。— 我买两斤，谢谢！","questions":[
+{"id":"zh-l05-q1","type":"blank","prompt":"苹果 ___ 钱？(bao nhiêu)","answer":"多少"},
+{"id":"zh-l05-q2","type":"mc","prompt":"Giá táo lúc đầu là bao nhiêu?","options":["10 tệ một cân","8 tệ một cân","2 tệ một cân"],"answer":"10 tệ một cân"},
+{"id":"zh-l05-q3","type":"blank","prompt":"太 ___ 了！(đắt)","answer":"贵"},
+{"id":"zh-l05-q4","type":"mc","prompt":"Cuối cùng người mua trả bao nhiêu một cân?","options":["8 tệ","10 tệ","5 tệ"],"answer":"8 tệ"}]},
+{"id":"zh-l06","level":"HSK1","topic":"Hỏi đường","title":"Nhà vệ sinh ở đâu?","script":"请问，洗手间在哪儿？— 在二楼，电梯的旁边。— 谢谢你！— 不客气。","questions":[
+{"id":"zh-l06-q1","type":"blank","prompt":"洗手间在 ___？(ở đâu)","answer":"哪儿"},
+{"id":"zh-l06-q2","type":"mc","prompt":"Nhà vệ sinh ở tầng mấy?","options":["Tầng 2","Tầng 1","Tầng 3"],"answer":"Tầng 2"},
+{"id":"zh-l06-q3","type":"blank","prompt":"在电梯的 ___。(bên cạnh)","answer":"旁边"},
+{"id":"zh-l06-q4","type":"mc","prompt":"Người kia đáp lại lời cảm ơn thế nào?","options":["不客气 (Không có gì)","对不起 (Xin lỗi)","再见 (Tạm biệt)"],"answer":"不客气 (Không có gì)"}]},
+{"id":"zh-l07","level":"HSK1","topic":"Thời tiết","title":"Hôm nay trời thế nào?","script":"今天天气怎么样？— 今天很热，三十五度。— 明天呢？— 明天下雨，不太热。","questions":[
+{"id":"zh-l07-q1","type":"blank","prompt":"今天天气 ___？(thế nào)","answer":"怎么样"},
+{"id":"zh-l07-q2","type":"mc","prompt":"Hôm nay bao nhiêu độ?","options":["35 độ","25 độ","30 độ"],"answer":"35 độ"},
+{"id":"zh-l07-q3","type":"blank","prompt":"明天 ___ 雨。(rơi/xuống — mưa)","answer":"下"},
+{"id":"zh-l07-q4","type":"mc","prompt":"Thời tiết ngày mai thế nào?","options":["Mưa, không nóng lắm","Nắng nóng","Có tuyết"],"answer":"Mưa, không nóng lắm"}]},
+{"id":"zh-l08","level":"HSK1","topic":"Sở thích","title":"Cuối tuần bạn làm gì?","script":"周末你做什么？— 我喜欢看书和听音乐。你呢？— 我喜欢踢足球。星期天我们一起去公园吧！— 好啊！","questions":[
+{"id":"zh-l08-q1","type":"blank","prompt":"___ 你做什么？(cuối tuần)","answer":"周末"},
+{"id":"zh-l08-q2","type":"mc","prompt":"Người thứ nhất thích làm gì?","options":["Đọc sách và nghe nhạc","Đá bóng","Bơi lội"],"answer":"Đọc sách và nghe nhạc"},
+{"id":"zh-l08-q3","type":"blank","prompt":"我们一起去 ___ 吧！(công viên)","answer":"公园"},
+{"id":"zh-l08-q4","type":"mc","prompt":"Họ hẹn nhau đi công viên vào ngày nào?","options":["Chủ nhật","Thứ bảy","Thứ hai"],"answer":"Chủ nhật"}]},
+{"id":"zh-l09","level":"HSK1","topic":"Điện thoại","title":"Gọi điện hẹn gặp","script":"喂，你好！— 你好，请问王老师在吗？— 他不在，他在开会。— 好的，我下午再打。谢谢！","questions":[
+{"id":"zh-l09-q1","type":"blank","prompt":"___，你好！(a lô)","answer":"喂"},
+{"id":"zh-l09-q2","type":"mc","prompt":"Người gọi muốn gặp ai?","options":["Thầy Vương","Thầy Lý","Cô Trương"],"answer":"Thầy Vương"},
+{"id":"zh-l09-q3","type":"blank","prompt":"他在 ___。(đang họp: khai hội)","answer":"开会"},
+{"id":"zh-l09-q4","type":"mc","prompt":"Người gọi sẽ làm gì?","options":["Chiều gọi lại","Đến văn phòng","Nhắn tin"],"answer":"Chiều gọi lại"}]},
+{"id":"zh-l10","level":"HSK1","topic":"Học tập","title":"Bạn học tiếng Trung bao lâu rồi?","script":"你学汉语多长时间了？— 我学了一年了。— 你的汉语很好！— 哪里哪里，我还要努力学习。","questions":[
+{"id":"zh-l10-q1","type":"blank","prompt":"你 ___ 汉语多长时间了？(học)","answer":"学"},
+{"id":"zh-l10-q2","type":"mc","prompt":"Người nói học tiếng Trung bao lâu rồi?","options":["Một năm","Hai năm","Ba tháng"],"answer":"Một năm"},
+{"id":"zh-l10-q3","type":"blank","prompt":"我还要 ___ 学习。(nỗ lực)","answer":"努力"},
+{"id":"zh-l10-q4","type":"mc","prompt":"哪里哪里 trong hội thoại nghĩa là gì?","options":["Khiêm tốn đáp lại lời khen","Hỏi địa điểm","Chào tạm biệt"],"answer":"Khiêm tốn đáp lại lời khen"}]},
+{"id":"zh-l11","level":"HSK1","topic":"Di chuyển","title":"Đi sân bay","script":"师傅，我去机场。— 好的。你几点的飞机？— 下午两点。— 没问题，四十分钟就到。","questions":[
+{"id":"zh-l11-q1","type":"blank","prompt":"我去 ___。(sân bay)","answer":"机场"},
+{"id":"zh-l11-q2","type":"mc","prompt":"Chuyến bay lúc mấy giờ?","options":["2 giờ chiều","4 giờ chiều","12 giờ trưa"],"answer":"2 giờ chiều"},
+{"id":"zh-l11-q3","type":"blank","prompt":"你几点的 ___？(máy bay)","answer":"飞机"},
+{"id":"zh-l11-q4","type":"mc","prompt":"Đi mất bao lâu thì tới?","options":["40 phút","20 phút","1 tiếng"],"answer":"40 phút"}]},
+{"id":"zh-l12","level":"HSK1","topic":"Sức khỏe","title":"Bạn bị ốm à?","script":"你怎么了？— 我头疼，可能感冒了。— 你去医院了吗？— 没有，我想在家休息一天。— 好，多喝水！","questions":[
+{"id":"zh-l12-q1","type":"blank","prompt":"我头 ___。(đau)","answer":"疼"},
+{"id":"zh-l12-q2","type":"mc","prompt":"Người nói bị làm sao?","options":["Đau đầu, có thể bị cảm","Đau bụng","Đau chân"],"answer":"Đau đầu, có thể bị cảm"},
+{"id":"zh-l12-q3","type":"blank","prompt":"我想在家 ___ 一天。(nghỉ ngơi)","answer":"休息"},
+{"id":"zh-l12-q4","type":"mc","prompt":"Người bạn khuyên gì?","options":["Uống nhiều nước","Đi bệnh viện ngay","Uống thuốc"],"answer":"Uống nhiều nước"}]}
+]
+}

@@ -66,7 +66,7 @@ export default function Vocabulary() {
                 <div className="progress-fill" style={{ width: `${pct}%` }} />
               </div>
               <div style={{ fontSize: 10.5, color: "var(--ink-soft)", marginTop: 4 }}>
-                {t.learned}/{t.total} words · A1 to B2
+                {t.learned}/{t.total} words{t.id.startsWith("zh-") ? " · HSK1" : " · A1 to B2"}
               </div>
             </div>
           </Link>

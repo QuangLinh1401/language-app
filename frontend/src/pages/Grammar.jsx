@@ -21,7 +21,9 @@ export default function Grammar() {
 
   if (!lessons) return <Loading text="Loading lessons..." />;
 
-  const levels = ["all", "A1", "A2", "B1", "B2"];
+  // Level pills come from the data itself (A1-B2 for English, HSK1 for Chinese).
+  const distinctLevels = [...new Set(lessons.map((l) => l.level))];
+  const levels = distinctLevels.length > 1 ? ["all", ...distinctLevels] : [];
   const shown = filter === "all" ? lessons : lessons.filter((l) => l.level === filter);
   const pageCount = Math.max(1, Math.ceil(shown.length / PAGE_SIZE));
   const paged = shown.slice(page * PAGE_SIZE, page * PAGE_SIZE + PAGE_SIZE);
@@ -35,8 +37,9 @@ export default function Grammar() {
     <div>
       <Link to="/" className="backbtn">‹ Home</Link>
       <h1 className="page-title">Grammar</h1>
-      <p className="sub">{lessons.length} lessons from A1 to B2</p>
+      <p className="sub">{lessons.length} lessons{distinctLevels.length > 1 ? " from A1 to B2" : ` · ${distinctLevels[0]}`}</p>
 
+      {levels.length > 0 && (
       <div style={{ display: "flex", gap: 6, marginBottom: 14, flexWrap: "wrap" }}>
         {levels.map((lv) => (
           <button
@@ -54,6 +57,7 @@ export default function Grammar() {
           </button>
         ))}
       </div>
+      )}
 
       <div className="card" style={{ padding: 0 }}>
         {paged.map((l, i) => (

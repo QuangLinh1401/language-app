@@ -6,13 +6,16 @@ import { asyncHandler } from "../auth.js";
 import { scheduleNext } from "../srs.js";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
-const dataPath = path.join(__dirname, "..", "..", "data", "listening.json");
-const listeningData = JSON.parse(fs.readFileSync(dataPath, "utf-8"));
+const load = (f) => JSON.parse(fs.readFileSync(path.join(__dirname, "..", "..", "data", f), "utf-8"));
+const DATA = { en: load("listening.json"), zh: load("listening-zh.json") };
+
+const ALL_LESSONS = [...DATA.en.lessons, ...DATA.zh.lessons];
+const langOf = (req) => (req.query.lang === "zh" ? "zh" : "en");
 
 const router = express.Router();
 
 router.get("/", (req, res) => {
-  const list = listeningData.lessons.map((l) => {
+  const list = DATA[langOf(req)].lessons.map((l) => {
     const p = req.state.listeningProgress[l.id];
     return {
       id: l.id,
@@ -27,14 +30,14 @@ router.get("/", (req, res) => {
 });
 
 router.get("/:id", (req, res) => {
-  const lesson = listeningData.lessons.find((l) => l.id === req.params.id);
+  const lesson = ALL_LESSONS.find((l) => l.id === req.params.id);
   if (!lesson) return res.status(404).json({ error: "Lesson not found" });
   res.json({ ...lesson, progress: req.state.listeningProgress[lesson.id] || null });
 });
 
 router.post("/:id/complete", asyncHandler(async (req, res) => {
   const { score } = req.body;
-  const lesson = listeningData.lessons.find((l) => l.id === req.params.id);
+  const lesson = ALL_LESSONS.find((l) => l.id === req.params.id);
   if (!lesson) return res.status(404).json({ error: "Lesson not found" });
   const validIds = new Set(lesson.questions.map((q) => q.id));
   const wrongIds = Array.isArray(req.body?.wrongIds)

@@ -9,7 +9,7 @@ function speak(text, rate = 0.9) {
   if (!window.speechSynthesis) return;
   window.speechSynthesis.cancel();
   const utter = new SpeechSynthesisUtterance(text);
-  utter.lang = "en-US";
+  utter.lang = /[㐀-鿿]/.test(text) ? "zh-CN" : "en-US";
   utter.rate = rate;
   window.speechSynthesis.speak(utter);
 }

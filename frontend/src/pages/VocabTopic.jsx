@@ -51,7 +51,7 @@ export default function VocabTopic() {
         )}
         {topic.name}
       </h1>
-      <p className="sub">{topic.words.length} words · A1 to B2</p>
+      <p className="sub">{topic.words.length} words · {distinctLevels.length > 1 ? `${distinctLevels[0]} to ${distinctLevels[distinctLevels.length - 1]}` : distinctLevels[0]}</p>
 
       {levels.length > 0 && (
       <div style={{ display: "flex", gap: 6, marginBottom: 14, flexWrap: "wrap" }}>

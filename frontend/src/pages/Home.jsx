@@ -86,13 +86,13 @@ const PLAN_DURATIONS = [
 const SKILL_ICONS = { grammar: "/icons/grammar.svg", listening: "/icons/listening.svg", reading: "/icons/reading.svg" };
 
 const MODULES = [
-  { to: "/vocabulary", icon: "/icons/vocabulary.svg", anim: "/icons/vocabulary.lottie.json", bg: "var(--teal-soft)", name: "Vocabulary", desc: "5000 words, A1 to B2" },
-  { to: "/grammar", icon: "/icons/grammar.svg", anim: "/icons/grammar.lottie.json", bg: "var(--violet-soft)", name: "Grammar", desc: "86 lessons, A1 to B2" },
-  { to: "/listening", icon: "/icons/listening.svg", anim: "/icons/listening.lottie.json", bg: "var(--blue-soft)", name: "Listening", desc: "30 listening lessons" },
-  { to: "/reading", icon: "/icons/reading.svg", bg: "var(--orange-soft)", name: "Reading", desc: "20 passages + quizzes" },
-  { to: "/speaking", icon: "/icons/speaking.svg", anim: "/icons/speaking.lottie.json", bg: "var(--coral-soft)", name: "Speaking", desc: "Shadowing & dialogues" },
-  { to: "/vocabulary/browse", icon: "/icons/browse.svg", anim: "/icons/browse.lottie.json", bg: "var(--mint-soft)", name: "Browse Words", desc: "Search & filter by status" },
-  { to: "/progress", icon: "/icons/progress.svg", anim: "/icons/progress.lottie.json", bg: "var(--amber-soft)", name: "Progress", desc: "See your learning stats" }
+  { to: "/vocabulary", icon: "/icons/vocabulary.svg", anim: "/icons/vocabulary.lottie.json", bg: "var(--teal-soft)", name: "Vocabulary", desc: "5000 words, A1 to B2", zhDesc: "475 từ HSK1 · 汉语" },
+  { to: "/grammar", icon: "/icons/grammar.svg", anim: "/icons/grammar.lottie.json", bg: "var(--violet-soft)", name: "Grammar", desc: "86 lessons, A1 to B2", zhDesc: "20 bài ngữ pháp HSK1" },
+  { to: "/listening", icon: "/icons/listening.svg", anim: "/icons/listening.lottie.json", bg: "var(--blue-soft)", name: "Listening", desc: "30 listening lessons", zhDesc: "12 bài nghe hội thoại" },
+  { to: "/reading", icon: "/icons/reading.svg", bg: "var(--orange-soft)", name: "Reading", desc: "20 passages + quizzes", zhDesc: "10 bài đọc + quiz" },
+  { to: "/speaking", icon: "/icons/speaking.svg", anim: "/icons/speaking.lottie.json", bg: "var(--coral-soft)", name: "Speaking", desc: "Shadowing & dialogues", zhDesc: "Shadowing & hội thoại" },
+  { to: "/vocabulary/browse", icon: "/icons/browse.svg", anim: "/icons/browse.lottie.json", bg: "var(--mint-soft)", name: "Browse Words", desc: "Search & filter by status", zhDesc: "Tra & lọc từ theo trạng thái" },
+  { to: "/progress", icon: "/icons/progress.svg", anim: "/icons/progress.lottie.json", bg: "var(--amber-soft)", name: "Progress", desc: "See your learning stats", zhDesc: "Thống kê học tập" }
 ];
 
 export default function Home() {
@@ -109,8 +109,9 @@ export default function Home() {
   const [openSearchWord, setOpenSearchWord] = useState(null);
   const searchTimer = useRef(null);
 
-  // Study plan modal
+  // Study plan modal + language picker modal
   const [showGoal, setShowGoal] = useState(false);
+  const [showLang, setShowLang] = useState(false);
   const [planTarget, setPlanTarget] = useState(500);
   const [planDays, setPlanDays] = useState(90);
   const [planSaving, setPlanSaving] = useState(false);
@@ -191,17 +192,11 @@ export default function Home() {
       key: "read", to: "/vocabulary/practice", state: { wordIds: session.due.slice(0, 8).map((w) => w.id) },
       label: <>Read those words <b>in a fresh passage</b></>
     });
-    if (lang === "en") {
-      planRows.push({ key: "speak", to: "/speaking", label: <>Then <b>say them out loud</b> in Speaking</> });
-    }
+    planRows.push({ key: "speak", to: "/speaking", label: <>Then <b>say them out loud</b> in Speaking</> });
   }
-  // Grammar/listening/reading lessons are English content only.
-  const queueItems = lang === "en" ? queue?.items || [] : [];
-  const modules = lang === "zh"
-    ? MODULES.filter((m) => ["/vocabulary", "/vocabulary/browse", "/progress"].includes(m.to)).map((m) =>
-        m.to === "/vocabulary" ? { ...m, desc: "475 HSK1 words · 汉语" } : m
-      )
-    : MODULES;
+  // Review queue is per-language (?lang) — safe to show in both modes.
+  const queueItems = queue?.items || [];
+  const modules = lang === "zh" ? MODULES.map((m) => ({ ...m, desc: m.zhDesc })) : MODULES;
 
   return (
     <div>
@@ -209,16 +204,18 @@ export default function Home() {
       <div style={{ display: "flex", alignItems: "center", justifyContent: "space-between", gap: 8, marginBottom: 10, paddingRight: 44 }}>
         <div style={{ minWidth: 0 }}>
           <div style={{ fontSize: 13, fontWeight: 700 }}>Hi {auth.username() || "there"} 👋</div>
-          <div style={{ fontSize: 11, color: "var(--ink-soft)" }}>Let's learn some English today</div>
+          <div style={{ fontSize: 11, color: "var(--ink-soft)" }}>
+            {lang === "zh" ? "Hôm nay học tiếng Trung nhé 加油!" : "Let's learn some English today"}
+          </div>
         </div>
         <div style={{ display: "flex", alignItems: "center", gap: 6, flexShrink: 0 }}>
           <button
             className="pill"
-            onClick={() => { setAppLang(lang === "zh" ? "en" : "zh"); window.location.reload(); }}
-            title={lang === "zh" ? "Đang học tiếng Trung — bấm để chuyển sang tiếng Anh" : "Đang học tiếng Anh — bấm để chuyển sang tiếng Trung"}
+            onClick={() => setShowLang(true)}
+            title="Chọn ngôn ngữ học"
             style={{ cursor: "pointer", padding: "6px 10px", fontWeight: 900 }}
           >
-            {lang === "zh" ? "中" : "EN"}
+            {lang === "zh" ? "🇨🇳 中" : "🇬🇧 EN"}
           </button>
           <div className="pill" style={{ background: "var(--amber-soft)", borderColor: "var(--amber-line)", color: "#B5720F" }}>
             <AnimatedIcon src="/icons/fire.lottie.json" fallback="/icons/fire.svg" size={18} />
@@ -264,7 +261,7 @@ export default function Home() {
       <div style={{ position: "relative", marginBottom: 12 }}>
         <input
           className="text-input"
-          placeholder="🔍 Quick dictionary — English or Vietnamese..."
+          placeholder={lang === "zh" ? "🔍 Tra từ — Hán tự, pinyin hoặc tiếng Việt..." : "🔍 Quick dictionary — English or Vietnamese..."}
           value={q}
           onChange={(e) => setQ(e.target.value)}
           autoCapitalize="off"
@@ -342,7 +339,7 @@ export default function Home() {
         <span style={{ fontSize: 15 }}>›</span>
       </Link>
 
-      {/* 6. Main navigation (Chinese mode is vocabulary-first for now) */}
+      {/* 6. Main navigation — all modules in both languages */}
       <div className="module-grid">
         {modules.map((m) => (
           <Link key={m.to} to={m.to} className="mod-card" data-anim-hover>
@@ -358,6 +355,46 @@ export default function Home() {
           </Link>
         ))}
       </div>
+
+      {/* Language picker modal — user chooses instead of instant toggle */}
+      {showLang && (
+        <div className="modal-overlay" onClick={() => setShowLang(false)}>
+          <div className="modal-sheet" onClick={(e) => e.stopPropagation()} style={{ maxWidth: 380 }}>
+            <button className="modal-close" onClick={() => setShowLang(false)} aria-label="Close">✕</button>
+            <div className="modal-scroll" style={{ paddingTop: 24 }}>
+              <h2 className="page-title" style={{ fontSize: 20 }}>🌏 Chọn ngôn ngữ học</h2>
+              <p className="sub" style={{ marginTop: 2 }}>Mỗi ngôn ngữ có lộ trình và tiến độ riêng.</p>
+              {[
+                { code: "en", flag: "🇬🇧", name: "English", desc: "5000 từ A1–B2 · grammar · listening · reading · speaking" },
+                { code: "zh", flag: "🇨🇳", name: "中文 (Tiếng Trung)", desc: "HSK1 · 475 từ · ngữ pháp · nghe · đọc · nói" }
+              ].map((opt) => (
+                <button
+                  key={opt.code}
+                  onClick={() => {
+                    if (opt.code === lang) { setShowLang(false); return; }
+                    setAppLang(opt.code);
+                    window.location.reload();
+                  }}
+                  className="card"
+                  style={{
+                    display: "flex", alignItems: "center", gap: 12, width: "100%", textAlign: "left",
+                    cursor: "pointer", marginBottom: 10, padding: "12px 14px",
+                    border: lang === opt.code ? "2px solid var(--teal)" : "1px solid var(--line)",
+                    background: lang === opt.code ? "var(--teal-soft)" : "var(--card)"
+                  }}
+                >
+                  <span style={{ fontSize: 26, flexShrink: 0 }}>{opt.flag}</span>
+                  <span style={{ flex: 1, minWidth: 0 }}>
+                    <b style={{ fontSize: 14, display: "block", fontFamily: "'Nunito',sans-serif" }}>{opt.name}</b>
+                    <span style={{ fontSize: 10.5, color: "var(--ink-soft)" }}>{opt.desc}</span>
+                  </span>
+                  {lang === opt.code && <span style={{ color: "var(--teal-deep)", fontWeight: 900, fontSize: 12 }}>✓ Đang học</span>}
+                </button>
+              ))}
+            </div>
+          </div>
+        </div>
+      )}
 
       {/* Study plan modal (🎯 button) */}
       {showGoal && (

@@ -1,0 +1,64 @@
+{
+"passages": [
+{"id":"zh-r01","level":"HSK1","topic":"Gia đình","title":"我的家","wordCount":60,"text":"我叫小明，今年二十岁，是大学生。我家有五口人：爸爸、妈妈、哥哥、妹妹和我。爸爸是医生，妈妈是老师。哥哥在北京工作，他是工程师。妹妹今年十岁，是小学生。我们家有一只猫，它叫花花，很可爱。我爱我的家。","questions":[
+{"id":"zh-r01-q1","prompt":"Nhà Tiểu Minh có mấy người?","options":["Năm người","Bốn người","Ba người","Sáu người"],"answer":"Năm người"},
+{"id":"zh-r01-q2","prompt":"Bố của Tiểu Minh làm nghề gì?","options":["Bác sĩ","Giáo viên","Kỹ sư","Tài xế"],"answer":"Bác sĩ"},
+{"id":"zh-r01-q3","prompt":"Anh trai làm việc ở đâu?","options":["Bắc Kinh","Thượng Hải","Hà Nội","Quảng Châu"],"answer":"Bắc Kinh"},
+{"id":"zh-r01-q4","type":"tf","prompt":"Đúng hay Sai: Nhà Tiểu Minh nuôi một con chó.","options":["True","False"],"answer":"False"},
+{"id":"zh-r01-q5","type":"blank","prompt":"Điền chữ Hán từ bài: 我们家有一只 ___，它叫花花。(con mèo)","answer":"猫"}]},
+{"id":"zh-r02","level":"HSK1","topic":"Cuộc sống","title":"我的一天","wordCount":65,"text":"我每天六点半起床。七点吃早饭，我喜欢喝牛奶，吃面包。八点我坐公共汽车去学校。上午我有四节课。中午我在学校吃午饭。下午三点下课，我和朋友去打篮球。晚上我在家做作业，看一点儿电视。十一点我睡觉。","questions":[
+{"id":"zh-r02-q1","prompt":"Người viết dậy lúc mấy giờ?","options":["6 giờ rưỡi","7 giờ","6 giờ","8 giờ"],"answer":"6 giờ rưỡi"},
+{"id":"zh-r02-q2","prompt":"Bữa sáng người viết ăn uống gì?","options":["Sữa và bánh mì","Cơm và trứng","Mì và trà","Cháo"],"answer":"Sữa và bánh mì"},
+{"id":"zh-r02-q3","prompt":"Người viết đến trường bằng gì?","options":["Xe buýt","Xe đạp","Đi bộ","Taxi"],"answer":"Xe buýt"},
+{"id":"zh-r02-q4","type":"tf","prompt":"Đúng hay Sai: Buổi chiều người viết chơi bóng rổ với bạn.","options":["True","False"],"answer":"True"},
+{"id":"zh-r02-q5","type":"blank","prompt":"Điền chữ Hán: 晚上我在家做 ___。(bài tập)","answer":"作业"}]},
+{"id":"zh-r03","level":"HSK1","topic":"Ăn uống","title":"去饭馆吃饭","wordCount":62,"text":"星期六，我和朋友去饭馆吃饭。这家饭馆的菜很好吃，也不贵。我们点了三个菜：一个鱼、一个鸡肉、一个蔬菜。我们还要了两碗米饭和一个汤。我朋友喝啤酒，我喝茶。我们吃得很高兴。一共一百二十块钱。","questions":[
+{"id":"zh-r03-q1","prompt":"Họ đi ăn vào ngày nào?","options":["Thứ bảy","Chủ nhật","Thứ sáu","Thứ hai"],"answer":"Thứ bảy"},
+{"id":"zh-r03-q2","prompt":"Họ gọi mấy món?","options":["Ba món","Hai món","Bốn món","Năm món"],"answer":"Ba món"},
+{"id":"zh-r03-q3","prompt":"Người viết uống gì?","options":["Trà","Bia","Nước ép","Cà phê"],"answer":"Trà"},
+{"id":"zh-r03-q4","type":"tf","prompt":"Đúng hay Sai: Bữa ăn hết 120 tệ.","options":["True","False"],"answer":"True"},
+{"id":"zh-r03-q5","type":"blank","prompt":"Điền chữ Hán: 这家饭馆的菜很 ___。(ngon)","answer":"好吃"}]},
+{"id":"zh-r04","level":"HSK1","topic":"Mua sắm","title":"买衣服","wordCount":58,"text":"昨天妈妈和我去商店买衣服。妈妈买了一件红色的衣服，三百块钱。我想买一条裤子，可是太贵了，五百块。妈妈说：\"我们去别的商店看看吧。\"后来我们在一家小商店买了一条一百五十块的裤子，很便宜，我很高兴。","questions":[
+{"id":"zh-r04-q1","prompt":"Mẹ mua chiếc áo màu gì?","options":["Màu đỏ","Màu trắng","Màu xanh","Màu đen"],"answer":"Màu đỏ"},
+{"id":"zh-r04-q2","prompt":"Chiếc quần đầu tiên giá bao nhiêu?","options":["500 tệ","300 tệ","150 tệ","100 tệ"],"answer":"500 tệ"},
+{"id":"zh-r04-q3","prompt":"Cuối cùng mua quần giá bao nhiêu?","options":["150 tệ","500 tệ","300 tệ","50 tệ"],"answer":"150 tệ"},
+{"id":"zh-r04-q4","type":"tf","prompt":"Đúng hay Sai: Họ mua tất cả ở cùng một cửa hàng.","options":["True","False"],"answer":"False"},
+{"id":"zh-r04-q5","type":"blank","prompt":"Điền chữ Hán: 很 ___，我很高兴。(rẻ)","answer":"便宜"}]},
+{"id":"zh-r05","level":"HSK1","topic":"Học tập","title":"我学汉语","wordCount":60,"text":"我是越南人，我在河内学汉语。我学了一年了。我觉得汉字很难，可是很有意思。我每天写十个汉字，听三十分钟汉语。我的老师是中国人，她说我的发音很好。明年我想去中国，看看北京和上海。","questions":[
+{"id":"zh-r05-q1","prompt":"Người viết học tiếng Trung ở đâu?","options":["Hà Nội","Bắc Kinh","Thượng Hải","TP.HCM"],"answer":"Hà Nội"},
+{"id":"zh-r05-q2","prompt":"Mỗi ngày người viết viết mấy chữ Hán?","options":["Mười chữ","Ba mươi chữ","Năm chữ","Hai mươi chữ"],"answer":"Mười chữ"},
+{"id":"zh-r05-q3","prompt":"Giáo viên nhận xét gì về người viết?","options":["Phát âm rất tốt","Viết chữ đẹp","Nghe rất giỏi","Nói nhanh"],"answer":"Phát âm rất tốt"},
+{"id":"zh-r05-q4","type":"tf","prompt":"Đúng hay Sai: Người viết thấy chữ Hán khó nhưng thú vị.","options":["True","False"],"answer":"True"},
+{"id":"zh-r05-q5","type":"blank","prompt":"Điền chữ Hán: 明年我想去 ___。(Trung Quốc)","answer":"中国"}]},
+{"id":"zh-r06","level":"HSK1","topic":"Thời tiết","title":"今天的天气","wordCount":55,"text":"今天是星期天，天气很好，不冷也不热。我和家人去公园玩。公园里人很多，有的人跑步，有的人照相。我们坐在树下喝茶、吃水果。妹妹很喜欢公园里的花，妈妈给她照了很多照片。我们玩得很开心。","questions":[
+{"id":"zh-r06-q1","prompt":"Hôm đó là thứ mấy?","options":["Chủ nhật","Thứ bảy","Thứ sáu","Thứ tư"],"answer":"Chủ nhật"},
+{"id":"zh-r06-q2","prompt":"Thời tiết hôm đó thế nào?","options":["Đẹp, không lạnh không nóng","Rất nóng","Mưa to","Có tuyết"],"answer":"Đẹp, không lạnh không nóng"},
+{"id":"zh-r06-q3","prompt":"Họ ngồi dưới cây làm gì?","options":["Uống trà, ăn trái cây","Đọc sách","Ngủ","Chơi cờ"],"answer":"Uống trà, ăn trái cây"},
+{"id":"zh-r06-q4","type":"tf","prompt":"Đúng hay Sai: Em gái rất thích hoa trong công viên.","options":["True","False"],"answer":"True"},
+{"id":"zh-r06-q5","type":"blank","prompt":"Điền chữ Hán: 我和家人去 ___ 玩。(công viên)","answer":"公园"}]},
+{"id":"zh-r07","level":"HSK1","topic":"Bạn bè","title":"我的朋友","wordCount":58,"text":"我有一个好朋友，他叫大伟，是中国人。他今年二十一岁，在大学学习越南语。大伟很高，也很帅。他喜欢踢足球和唱歌。周末我们常常一起学习：我教他越南语，他教我汉语。他说越南语很难，我说汉语也不容易。我们都要努力学习。","questions":[
+{"id":"zh-r07-q1","prompt":"Đại Vĩ học gì ở đại học?","options":["Tiếng Việt","Tiếng Anh","Tiếng Trung","Tiếng Nhật"],"answer":"Tiếng Việt"},
+{"id":"zh-r07-q2","prompt":"Đại Vĩ bao nhiêu tuổi?","options":["21","20","22","19"],"answer":"21"},
+{"id":"zh-r07-q3","prompt":"Cuối tuần hai người thường làm gì?","options":["Học cùng nhau","Đá bóng","Đi mua sắm","Xem phim"],"answer":"Học cùng nhau"},
+{"id":"zh-r07-q4","type":"tf","prompt":"Đúng hay Sai: Đại Vĩ thấy tiếng Việt rất dễ.","options":["True","False"],"answer":"False"},
+{"id":"zh-r07-q5","type":"blank","prompt":"Điền chữ Hán: 他喜欢 ___ 足球。(đá)","answer":"踢"}]},
+{"id":"zh-r08","level":"HSK1","topic":"Công việc","title":"爸爸的工作","wordCount":56,"text":"我爸爸是出租车司机。他每天早上六点上班，晚上七点下班，工作很累。爸爸认识很多路，客人都说他开车开得好。爸爸喜欢他的工作，因为他喜欢开车，也喜欢和人说话。星期天爸爸不工作，他在家休息，有时候带我们去饭馆吃饭。","questions":[
+{"id":"zh-r08-q1","prompt":"Bố làm nghề gì?","options":["Tài xế taxi","Bác sĩ","Giáo viên","Đầu bếp"],"answer":"Tài xế taxi"},
+{"id":"zh-r08-q2","prompt":"Bố đi làm lúc mấy giờ?","options":["6 giờ sáng","7 giờ sáng","5 giờ sáng","8 giờ sáng"],"answer":"6 giờ sáng"},
+{"id":"zh-r08-q3","prompt":"Vì sao bố thích công việc này?","options":["Thích lái xe và nói chuyện với người khác","Lương cao","Được đi du lịch","Gần nhà"],"answer":"Thích lái xe và nói chuyện với người khác"},
+{"id":"zh-r08-q4","type":"tf","prompt":"Đúng hay Sai: Chủ nhật bố vẫn đi làm.","options":["True","False"],"answer":"False"},
+{"id":"zh-r08-q5","type":"blank","prompt":"Điền chữ Hán: 他每天早上六点 ___。(đi làm)","answer":"上班"}]},
+{"id":"zh-r09","level":"HSK1","topic":"Du lịch","title":"去北京旅游","wordCount":62,"text":"去年十月，我和妈妈去北京旅游了。我们坐飞机去的。北京很大，人很多。我们去了很多地方，也吃了北京烤鸭，很好吃！北京的天气比河内冷，我们买了两件衣服。我们在北京玩了五天，照了很多照片。我很喜欢北京，明年我还想去。","questions":[
+{"id":"zh-r09-q1","prompt":"Họ đi Bắc Kinh vào tháng mấy?","options":["Tháng 10","Tháng 5","Tháng 1","Tháng 8"],"answer":"Tháng 10"},
+{"id":"zh-r09-q2","prompt":"Họ đi bằng phương tiện gì?","options":["Máy bay","Tàu hỏa","Ô tô","Tàu thủy"],"answer":"Máy bay"},
+{"id":"zh-r09-q3","prompt":"Họ chơi ở Bắc Kinh mấy ngày?","options":["Năm ngày","Ba ngày","Bảy ngày","Mười ngày"],"answer":"Năm ngày"},
+{"id":"zh-r09-q4","type":"tf","prompt":"Đúng hay Sai: Thời tiết Bắc Kinh lạnh hơn Hà Nội.","options":["True","False"],"answer":"True"},
+{"id":"zh-r09-q5","type":"blank","prompt":"Điền chữ Hán: 我们坐 ___ 去的。(máy bay)","answer":"飞机"}]},
+{"id":"zh-r10","level":"HSK1","topic":"Sức khỏe","title":"弟弟生病了","wordCount":60,"text":"昨天弟弟生病了，他头疼，不想吃饭。妈妈带他去医院看医生。医生说：\"他感冒了，不太重。多喝水，多休息，吃点儿药，三天就好了。\"今天弟弟好一点儿了，早上他喝了一碗汤，还吃了一个鸡蛋。妈妈说他明天可以去上学了。","questions":[
+{"id":"zh-r10-q1","prompt":"Em trai bị làm sao?","options":["Đau đầu, không muốn ăn","Đau chân","Đau bụng","Sốt cao"],"answer":"Đau đầu, không muốn ăn"},
+{"id":"zh-r10-q2","prompt":"Ai đưa em trai đi bệnh viện?","options":["Mẹ","Bố","Chị gái","Ông nội"],"answer":"Mẹ"},
+{"id":"zh-r10-q3","prompt":"Bác sĩ dặn gì?","options":["Uống nhiều nước, nghỉ ngơi, uống thuốc","Mổ ngay","Nằm viện một tuần","Không ăn cơm"],"answer":"Uống nhiều nước, nghỉ ngơi, uống thuốc"},
+{"id":"zh-r10-q4","type":"tf","prompt":"Đúng hay Sai: Sáng nay em trai ăn một bát canh và một quả trứng.","options":["True","False"],"answer":"True"},
+{"id":"zh-r10-q5","type":"blank","prompt":"Điền chữ Hán: 昨天弟弟 ___ 了。(bị ốm)","answer":"生病"}]}
+]
+}
