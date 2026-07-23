@@ -15,6 +15,18 @@ function speak(text, rate = 0.95) {
   window.speechSynthesis.speak(utter);
 }
 
+// Derived purely from the word's own HSK level (already in our data) — no
+// external source needed, since HSK bands are themselves ordered by usage
+// frequency.
+const POPULARITY_BY_LEVEL = {
+  HSK1: "Rất phổ biến · dùng hằng ngày",
+  HSK2: "Phổ biến · thường gặp",
+  HSK3: "Khá phổ biến",
+  HSK4: "Trung bình · hay gặp trong văn viết",
+  HSK5: "Ít phổ biến · học thuật, trang trọng",
+  HSK6: "Hiếm gặp · văn viết nâng cao"
+};
+
 function SoundBtn({ text, audioUrl, size = 30 }) {
   function play(e) {
     e.stopPropagation();
@@ -128,6 +140,11 @@ export default function WordDetailModal({ wordId, onClose }) {
                 <span className="ipa-text">{detail.ipa}</span>{detail.partOfSpeech ? ` · ${detail.partOfSpeech}` : ""}
               </div>
               <div style={{ fontSize: 17, fontWeight: 800, color: "var(--teal)", marginTop: 10 }}>{detail.meaning}</div>
+              {detail.id?.startsWith("zh-") && POPULARITY_BY_LEVEL[detail.level] && (
+                <div style={{ fontSize: 10.5, color: "var(--ink-soft)", marginTop: 4, fontWeight: 700 }}>
+                  📊 Độ phổ biến: {POPULARITY_BY_LEVEL[detail.level]}
+                </div>
+              )}
 
               {tabs.length > 1 && (
                 <div style={{ display: "flex", gap: 6, marginTop: 14 }}>
@@ -162,6 +179,26 @@ export default function WordDetailModal({ wordId, onClose }) {
                   {detail.id?.startsWith("zh-") && (
                     <Section title="Cách viết">
                       <HanziStroke word={detail.word} />
+                    </Section>
+                  )}
+
+                  {detail.characters?.length > 0 && (
+                    <Section title="Hán tự">
+                      <div style={{ display: "flex", flexDirection: "column", gap: 10 }}>
+                        {detail.characters.map((c, i) => (
+                          <div key={i} className="card" style={{ padding: "10px 12px" }}>
+                            <div style={{ display: "flex", alignItems: "baseline", gap: 8, flexWrap: "wrap" }}>
+                              <span style={{ fontSize: 20, fontWeight: 800, color: "var(--teal-deep)" }}>{c.char}</span>
+                              {c.hanViet && <span className="pill">{c.hanViet}</span>}
+                              {c.radical && <span style={{ fontSize: 11, color: "var(--ink-soft)" }}>{c.radical}</span>}
+                              {c.strokeCount != null && <span style={{ fontSize: 11, color: "var(--ink-soft)" }}>{c.strokeCount} nét</span>}
+                            </div>
+                            {c.componentMeaning && (
+                              <div style={{ fontSize: 11.5, color: "var(--ink-soft)", marginTop: 4 }}>{c.componentMeaning}</div>
+                            )}
+                          </div>
+                        ))}
+                      </div>
                     </Section>
                   )}
 

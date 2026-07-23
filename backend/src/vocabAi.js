@@ -86,6 +86,7 @@ function buildFallbackWordDetail(word) {
     distinguish: null,
     compounds: [],
     senses: [],
+    characters: [],
     collocations: [],
     isFallback: true
   };
@@ -135,6 +136,12 @@ Write a detailed but compact explanation IN VIETNAMESE (except the Chinese chara
 - "distinguish": if this word is commonly confused with ONE specific near-synonym, a short Vietnamese note contrasting them (e.g. how "要" differs from "想"). Empty string if there's no notable confusion pair.
 - "compounds": up to 6 common multi-character words that contain "${word.word}" as one of their characters (e.g. for 要: 需要, 重要, 主要), each formatted as "<compound word> (<pinyin>) – <Vietnamese meaning>". Empty array only if truly none exist.
 - "collocations": up to 4 common fixed phrases or sentence patterns using this word (not full compound words, but usage patterns like "要么...要么..."), each formatted as "<Chinese phrase> (<pinyin>) – <Vietnamese meaning>" (empty array if none).
+- "characters": one entry per DISTINCT character in "${word.word}" (skip repeats), each with:
+  - "char": the character itself.
+  - "hanViet": its Sino-Vietnamese reading (âm Hán Việt), in Vietnamese, e.g. "YẾU" for 要. Uppercase, single word/syllable.
+  - "radical": the character's radical/bộ thủ, formatted as "<radical character> (bộ <Vietnamese radical name>)", e.g. "襾 (bộ á)". If you're not confident, give your best standard answer rather than leaving it blank.
+  - "strokeCount": total stroke count as an integer.
+  - "componentMeaning": for compound words only (2+ distinct characters), a one-line Vietnamese note on how the character contributes to the word's overall meaning. Empty string for single-character words.
 
 Reply with ONLY valid JSON, no other text, in this exact structure:
 {
@@ -146,7 +153,8 @@ Reply with ONLY valid JSON, no other text, in this exact structure:
   "antonyms": ["..."],
   "distinguish": "...",
   "compounds": ["..."],
-  "collocations": ["..."]
+  "collocations": ["..."],
+  "characters": [{ "char": "...", "hanViet": "...", "radical": "...", "strokeCount": 0, "componentMeaning": "..." }]
 }`;
 }
 
@@ -158,7 +166,7 @@ export async function generateWordDetail(word) {
   const instruction = chinese ? buildChineseInstruction(word) : buildEnglishInstruction(word);
 
   try {
-    const raw = await callClaude([{ role: "user", content: instruction }], chinese ? 1500 : 700);
+    const raw = await callClaude([{ role: "user", content: instruction }], chinese ? 1800 : 700);
     const cleaned = raw.replace(/```json|```/g, "").trim();
     const parsed = JSON.parse(cleaned);
     const senses = Array.isArray(parsed.senses)
@@ -177,6 +185,17 @@ export async function generateWordDetail(word) {
     const flatExamples = Array.isArray(parsed.examples)
       ? parsed.examples
       : senses.flatMap((s) => s.meanings.map((m) => m.example).filter(Boolean));
+    const characters = Array.isArray(parsed.characters)
+      ? parsed.characters
+          .filter((c) => c && c.char)
+          .map((c) => ({
+            char: c.char,
+            hanViet: c.hanViet || "",
+            radical: c.radical || "",
+            strokeCount: Number.isFinite(c.strokeCount) ? c.strokeCount : null,
+            componentMeaning: c.componentMeaning || ""
+          }))
+      : [];
     const detail = {
       word: word.word,
       ipa: word.ipa,
@@ -192,6 +211,7 @@ export async function generateWordDetail(word) {
       distinguish: parsed.distinguish || null,
       compounds: Array.isArray(parsed.compounds) ? parsed.compounds : [],
       collocations: Array.isArray(parsed.collocations) ? parsed.collocations : [],
+      characters,
       isFallback: false
     };
     wordDetailCache.set(word.id, detail);
