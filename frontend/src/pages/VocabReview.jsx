@@ -22,6 +22,7 @@ export default function VocabReview() {
   const [level, setLevel] = useState(() => localStorage.getItem("language-app-level") || "all");
   const [stage, setStage] = useState("recognition");
   const [customWords, setCustomWords] = useState(null);
+  const [stageLoading, setStageLoading] = useState(false);
   const [words, setWords] = useState(null);
   const [done, setDone] = useState(false);
 
@@ -42,12 +43,19 @@ export default function VocabReview() {
     setLimitSaving(false);
   }
 
+  // Keep the previous list on screen while the new one loads — clearing it
+  // collapsed the page height and made the browser jump-scroll on every
+  // stage/level click.
   async function loadAdvanced(lv, st) {
-    setCustomWords(null);
-    const opts = { status: st, limit: 30 };
-    if (lv !== "all") opts.level = lv;
-    const r = await api.vocabulary.review(opts);
-    setCustomWords(r.words);
+    setStageLoading(true);
+    try {
+      const opts = { status: st, limit: 30 };
+      if (lv !== "all") opts.level = lv;
+      const r = await api.vocabulary.review(opts);
+      setCustomWords(r.words);
+    } finally {
+      setStageLoading(false);
+    }
   }
 
   useEffect(() => {
@@ -220,7 +228,7 @@ export default function VocabReview() {
           {!customWords ? (
             <div style={{ fontSize: 12, color: "var(--ink-soft)", textAlign: "center", padding: "8px 0" }}>Loading…</div>
           ) : (
-            <>
+            <div style={{ opacity: stageLoading ? 0.5 : 1, transition: "opacity 0.15s ease" }}>
               <div style={{ textAlign: "center", padding: "6px 0 10px" }}>
                 <span style={{ fontFamily: "'Nunito',sans-serif", fontWeight: 800, fontSize: 18, color: "var(--teal-deep)" }}>{customWords.length}</span>
                 <span style={{ fontSize: 11, color: "var(--ink-soft)", marginLeft: 6 }}>
@@ -229,12 +237,12 @@ export default function VocabReview() {
               </div>
               <button
                 className="btn-primary"
-                disabled={customWords.length === 0}
+                disabled={customWords.length === 0 || stageLoading}
                 onClick={() => setWords(customWords)}
               >
                 {customWords.length > 0 ? "Study these words" : "No words at this stage yet"}
               </button>
-            </>
+            </div>
           )}
         </div>
       </div>
