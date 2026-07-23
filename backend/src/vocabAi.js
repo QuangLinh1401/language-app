@@ -126,9 +126,9 @@ function buildChineseInstruction(word) {
 
 Write a detailed but compact explanation IN VIETNAMESE (except the Chinese characters and pinyin themselves) covering:
 - "partOfSpeech": a short summary label listing every part of speech this word can act as, separated by " · " (e.g. "động từ · danh từ · liên từ"). If it's a noun that takes a specific measure word (量词), append it, e.g. "danh từ · lượng từ: 个/张/本".
-- "senses": group the word's distinct meanings BY PART OF SPEECH — one entry per part of speech the word actually functions as (most words only have 1, but polyfunctional words like 要 need several). Each entry has:
+- "senses": group the word's distinct meanings BY PART OF SPEECH — one entry per part of speech the word actually functions as (most words only have 1, but polyfunctional words need several). Each entry has:
   - "partOfSpeech": Vietnamese label for this specific role (e.g. "Động từ", "Danh từ", "Liên từ", "Tính từ", "Phó từ").
-  - "meanings": array of distinct senses under that part of speech, each with "meaning" (short Vietnamese gloss) and "example" formatted as exactly "<Chinese sentence> (<pinyin>) – <Vietnamese translation>". Cover the genuinely common, distinct senses (usually 1-4 per part of speech) — don't pad with near-duplicates.
+  - "meanings": array of distinct senses under that part of speech, each with "meaning" (short Vietnamese gloss) and "example" formatted as exactly "<Chinese sentence> (<pinyin>) – <Vietnamese translation>". Be THOROUGH and EXHAUSTIVE here — for simple, single-sense words that's just 1 entry, but for highly polysemous function words (modal verbs, common multi-purpose characters, etc.) list every genuinely distinct common sense you know, even if that's 6-9 of them. Do not artificially cap the count or pad with near-duplicates — completeness matters more than brevity for this field.
 - "usage": a short, practical usage note: register (formal/informal/written/spoken), common sentence patterns, and mistakes Vietnamese learners often make with it.
 - "grammarNote": a short grammar note if relevant (e.g. sentence pattern like "把...了", verb-object separability, whether it needs 了/过/着, word order quirks). Empty string if nothing notable.
 - "synonyms": up to 4 common near-synonyms (Chinese characters only, empty array if none fit).
@@ -166,7 +166,7 @@ export async function generateWordDetail(word) {
   const instruction = chinese ? buildChineseInstruction(word) : buildEnglishInstruction(word);
 
   try {
-    const raw = await callClaude([{ role: "user", content: instruction }], chinese ? 1800 : 700);
+    const raw = await callClaude([{ role: "user", content: instruction }], chinese ? 2200 : 700);
     const cleaned = raw.replace(/```json|```/g, "").trim();
     const parsed = JSON.parse(cleaned);
     const senses = Array.isArray(parsed.senses)
