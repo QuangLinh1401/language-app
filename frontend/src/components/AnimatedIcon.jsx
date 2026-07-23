@@ -6,39 +6,50 @@ import Lottie from "lottie-react";
 //
 //   <AnimatedIcon src="/icons/fire.lottie.json" fallback="/icons/fire.svg" />
 //
-// Modes:
-// - default: fetch on mount, loop forever.
-// - hover:   show the static SVG; the animation is fetched and played only
-//            while the nearest [data-anim-hover] ancestor (or the icon itself)
-//            is hovered/touched. Saves bandwidth and battery.
+// Props:
+// - (default)      fetch on mount, loop forever.
+// - hover          static until the nearest [data-anim-hover] ancestor (or the
+//                  icon itself) is hovered/touched; fetches lazily on first
+//                  hover. Saves bandwidth and battery.
+// - active         with hover: force continuous looping anyway (e.g. the
+//                  currently-selected nav tab).
 // Users with prefers-reduced-motion always get the static SVG.
 const cache = {};
 const reduceMotion =
   typeof window !== "undefined" &&
   window.matchMedia?.("(prefers-reduced-motion: reduce)").matches;
 
-export default function AnimatedIcon({ src, size = 24, fallback, className, hover = false }) {
+export default function AnimatedIcon({ src, size = 24, fallback, className, hover = false, active = false }) {
+  const loopAlways = !hover || active;
   const [data, setData] = useState(cache[src] || null);
-  const [active, setActive] = useState(false); // hover mode: currently hovered
+  const [hovering, setHovering] = useState(false);
   const boxRef = useRef(null);
   const lottieRef = useRef(null);
   const wantedRef = useRef(false);
 
-  // Loop mode: fetch immediately.
-  useEffect(() => {
-    if (reduceMotion || hover || !src || cache[src]) return;
-    let dead = false;
+  function load() {
+    if (cache[src]) {
+      setData(cache[src]);
+      return;
+    }
     fetch(src)
       .then((r) => r.json())
       .then((json) => {
         cache[src] = json;
-        if (!dead) setData(json);
+        if (wantedRef.current || loopAlways) setData(json);
       })
       .catch(() => {});
-    return () => { dead = true; };
-  }, [src, hover]);
+  }
 
-  // Hover mode: listen on the nearest [data-anim-hover] ancestor and fetch lazily.
+  // Eager fetch whenever we should be looping.
+  useEffect(() => {
+    if (reduceMotion || !src || !loopAlways) return;
+    wantedRef.current = true;
+    load();
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [src, loopAlways]);
+
+  // Hover mode: listen on the nearest [data-anim-hover] ancestor, fetch lazily.
   useEffect(() => {
     if (reduceMotion || !hover || !src) return;
     const box = boxRef.current;
@@ -47,23 +58,10 @@ export default function AnimatedIcon({ src, size = 24, fallback, className, hove
 
     const enter = () => {
       wantedRef.current = true;
-      setActive(true);
-      if (cache[src]) {
-        setData(cache[src]);
-      } else {
-        fetch(src)
-          .then((r) => r.json())
-          .then((json) => {
-            cache[src] = json;
-            if (wantedRef.current) setData(json);
-          })
-          .catch(() => {});
-      }
+      setHovering(true);
+      load();
     };
-    const leave = () => {
-      wantedRef.current = false;
-      setActive(false);
-    };
+    const leave = () => setHovering(false);
 
     target.addEventListener("mouseenter", enter);
     target.addEventListener("mouseleave", leave);
@@ -73,14 +71,16 @@ export default function AnimatedIcon({ src, size = 24, fallback, className, hove
       target.removeEventListener("mouseleave", leave);
       target.removeEventListener("touchstart", enter);
     };
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [hover, src]);
 
-  // Hover mode: start/stop playback as hover state changes.
+  // Start/stop playback.
+  const playing = loopAlways || hovering;
   useEffect(() => {
-    if (!hover || !lottieRef.current) return;
-    if (active) lottieRef.current.play();
+    if (!lottieRef.current || !data) return;
+    if (playing) lottieRef.current.play();
     else lottieRef.current.goToAndStop(0, true);
-  }, [active, hover, data]);
+  }, [playing, data]);
 
   return (
     <div ref={boxRef} className={className} style={{ width: size, height: size, display: "block" }}>
@@ -89,7 +89,7 @@ export default function AnimatedIcon({ src, size = 24, fallback, className, hove
           lottieRef={lottieRef}
           animationData={data}
           loop
-          autoplay={!hover}
+          autoplay={playing}
           style={{ width: "100%", height: "100%" }}
         />
       ) : fallback ? (

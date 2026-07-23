@@ -1,6 +1,6 @@
 import express from "express";
 import bcrypt from "bcryptjs";
-import { sql, ensureTables, saveState, defaultState } from "../db.js";
+import { sql, withTableRetry, saveState, defaultState } from "../db.js";
 import { signToken, requireAuth, asyncHandler } from "../auth.js";
 
 const router = express.Router();
@@ -16,8 +16,7 @@ router.post("/register", asyncHandler(async (req, res) => {
     return res.status(400).json({ error: "Password must be at least 6 characters" });
   }
 
-  await ensureTables();
-  const existing = await sql`select id from users where username = ${username.toLowerCase()}`;
+  const existing = await withTableRetry(() => sql`select id from users where username = ${username.toLowerCase()}`);
   if (existing.length > 0) {
     return res.status(409).json({ error: "Username is already taken" });
   }
@@ -48,10 +47,9 @@ router.post("/login", asyncHandler(async (req, res) => {
     return res.status(400).json({ error: "Username and password are required" });
   }
 
-  await ensureTables();
-  const rows = await sql`
-    select id, username, password_hash from users where username = ${String(username).toLowerCase()}
-  `;
+  const rows = await withTableRetry(
+    () => sql`select id, username, password_hash from users where username = ${String(username).toLowerCase()}`
+  );
   if (rows.length === 0 || !(await bcrypt.compare(password, rows[0].password_hash))) {
     return res.status(401).json({ error: "Wrong username or password" });
   }

@@ -57,7 +57,7 @@ export default function SpeakingDialogue() {
               display: "flex", alignItems: "flex-start", gap: 10,
               padding: "12px 14px",
               borderBottom: i < dialogue.lines.length - 1 ? "1px solid var(--line)" : "none",
-              background: current === i ? "#EAF3F1" : "transparent",
+              background: current === i ? "var(--teal-soft)" : "transparent",
               cursor: "pointer"
             }}
           >

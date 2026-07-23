@@ -138,7 +138,7 @@ export default function MatchMode({ words, onGrade, onFinish }) {
             aria-label="Listen to the word"
             title="Listen again"
             onClick={() => speak(w.word)}
-            style={{ margin: "12px auto 0", width: 40, height: 40, borderRadius: "50%", background: "#EAF3F1", border: "none", cursor: "pointer", display: "flex", alignItems: "center", justifyContent: "center" }}
+            style={{ margin: "12px auto 0", width: 40, height: 40, borderRadius: "50%", background: "var(--teal-soft)", border: "none", cursor: "pointer", display: "flex", alignItems: "center", justifyContent: "center" }}
           ><Icon name="speaker-wave" size={20} /></button>
           <div style={{ fontSize: 11, color: "var(--ink-soft)", marginTop: 8 }}>
             Listen and type the English word
@@ -199,7 +199,7 @@ export default function MatchMode({ words, onGrade, onFinish }) {
                 style={{
                   padding: "10px 8px", borderRadius: 10, fontSize: 12.5, fontFamily: "inherit", cursor: isMatched ? "default" : "pointer",
                   border: "1px solid " + (isMatched ? "var(--good)" : isWrong ? "var(--bad)" : isSelected ? "var(--teal)" : "var(--line)"),
-                  background: isMatched ? "#E4F5EA" : isWrong ? "#FCE9EA" : isSelected ? "#EAF3F1" : "#fff",
+                  background: isMatched ? "var(--good-soft)" : isWrong ? "var(--bad-soft)" : isSelected ? "var(--teal-soft)" : "var(--card)",
                   opacity: isMatched ? 0.6 : 1
                 }}
               >
@@ -221,7 +221,7 @@ export default function MatchMode({ words, onGrade, onFinish }) {
                 style={{
                   padding: "10px 8px", borderRadius: 10, fontSize: 12, fontFamily: "inherit", cursor: isMatched ? "default" : "pointer",
                   border: "1px solid " + (isMatched ? "var(--good)" : isWrong ? "var(--bad)" : isSelected ? "var(--teal)" : "var(--line)"),
-                  background: isMatched ? "#E4F5EA" : isWrong ? "#FCE9EA" : isSelected ? "#EAF3F1" : "#fff",
+                  background: isMatched ? "var(--good-soft)" : isWrong ? "var(--bad-soft)" : isSelected ? "var(--teal-soft)" : "var(--card)",
                   opacity: isMatched ? 0.6 : 1
                 }}
               >

@@ -72,7 +72,7 @@ export default function QuizMode({ words, onGrade, onFinish }) {
               style={{
                 textAlign: "left", padding: "11px 14px", borderRadius: 12, fontSize: 13.5,
                 border: "1px solid " + (isCorrect ? "var(--good)" : isWrongSelected ? "var(--bad)" : "var(--line)"),
-                background: isCorrect ? "#E4F5EA" : isWrongSelected ? "#FCE9EA" : "#fff",
+                background: isCorrect ? "var(--good-soft)" : isWrongSelected ? "var(--bad-soft)" : "var(--card)",
                 cursor: selected ? "default" : "pointer", fontFamily: "inherit"
               }}
             >

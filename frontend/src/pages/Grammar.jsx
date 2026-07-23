@@ -44,7 +44,7 @@ export default function Grammar() {
             className="pill"
             style={{
               cursor: "pointer",
-              background: filter === lv ? "var(--teal)" : "#fff",
+              background: filter === lv ? "var(--teal)" : "var(--card)",
               color: filter === lv ? "#fff" : "var(--teal-deep)",
               border: "1px solid var(--line)"
             }}

@@ -183,7 +183,7 @@ export default function VocabReview() {
                 className="pill"
                 style={{
                   cursor: "pointer",
-                  background: stage === s.id ? "var(--teal)" : "#fff",
+                  background: stage === s.id ? "var(--teal)" : "var(--card)",
                   color: stage === s.id ? "#fff" : "var(--teal-deep)",
                   border: "1px solid var(--line)"
                 }}
@@ -202,7 +202,7 @@ export default function VocabReview() {
                 className="pill"
                 style={{
                   cursor: "pointer",
-                  background: level === lv ? "var(--teal)" : "#fff",
+                  background: level === lv ? "var(--teal)" : "var(--card)",
                   color: level === lv ? "#fff" : "var(--teal-deep)",
                   border: "1px solid var(--line)"
                 }}

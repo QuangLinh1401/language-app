@@ -17,6 +17,45 @@
   --bad: #FF4B4B;
   --bad-deep: #D63A3A;
   --radius: 20px;
+  /* pastel accents (dark theme overrides below) */
+  --teal-soft: #EAF3F1;
+  --good-soft: #E4F5EA;
+  --bad-soft: #FCE9EA;
+  --blue-soft: #EAF0F7;
+  --amber-soft: #FFF3E4;
+  --coral-soft: #FDEBEA;
+  --orange-soft: #FCEFE6;
+  --violet-soft: #F1EAF7;
+  --mint-soft: #E9F5EF;
+  --amber-line: #F3DCAE;
+  --blue-line: #CBDCF2;
+  --coral-line: #FBD4CE;
+}
+
+[data-theme="dark"] {
+  --paper: #10171A;
+  --card: #1A2327;
+  --ink: #E6EFED;
+  --ink-soft: #8FA5A3;
+  --teal: #17BFB3;
+  --teal-deep: #5FD6CC;
+  --line: #2B383C;
+  --teal-soft: #1B3230;
+  --good-soft: #1A3023;
+  --bad-soft: #372022;
+  --blue-soft: #1C2938;
+  --amber-soft: #362B12;
+  --coral-soft: #38221E;
+  --orange-soft: #342617;
+  --violet-soft: #292036;
+  --mint-soft: #172A20;
+  --amber-line: #57451B;
+  --blue-line: #2E415A;
+  --coral-line: #542E27;
+  --violet-deep: #B79CF8;
+  --good-deep: #7ACC7E;
+  --bad-deep: #FF8585;
+  --amber-deep: #FFC968;
 }
 
 * { box-sizing: border-box; }
@@ -85,7 +124,7 @@ h1.page-title {
   width: 100%;
   border: 2px solid var(--line);
   border-bottom: 4px solid var(--line);
-  background: #fff;
+  background: var(--card);
   color: var(--teal-deep);
   padding: 11px;
   border-radius: 16px;
@@ -122,7 +161,7 @@ h1.page-title {
   display: inline-flex;
   align-items: center;
   gap: 5px;
-  background: #fff;
+  background: var(--card);
   border: 2px solid var(--line);
   padding: 6px 13px;
   border-radius: 999px;
@@ -169,7 +208,7 @@ h1.page-title {
 }
 .topic-emoji {
   width: 44px; height: 44px; border-radius: 14px;
-  background: #E4F7F5; display: flex; align-items: center; justify-content: center;
+  background: var(--teal-soft); display: flex; align-items: center; justify-content: center;
   font-size: 20px; flex-shrink: 0;
 }
 .progress-track { height: 8px; background: var(--line); border-radius: 999px; margin-top: 6px; overflow: hidden; }
@@ -201,7 +240,7 @@ h1.page-title {
 
 .fib-input {
   border: none; border-bottom: 3px solid var(--teal);
-  background: #E4F7F5; border-radius: 8px 8px 0 0;
+  background: var(--teal-soft); border-radius: 8px 8px 0 0;
   padding: 4px 8px; font-size: 14px; font-weight: 800; color: var(--teal-deep);
   width: 130px; text-align: center; font-family: inherit;
 }
@@ -209,7 +248,7 @@ h1.page-title {
 .fib-input.wrong { background: #FFE6E4; border-color: var(--bad); color: var(--bad-deep); }
 
 .explain-box {
-  background: #E4F7F5; border-radius: 14px; padding: 12px 14px; margin-top: 12px;
+  background: var(--teal-soft); border-radius: 14px; padding: 12px 14px; margin-top: 12px;
   font-size: 12.5px; color: var(--teal-deep); line-height: 1.6; font-weight: 600;
 }
 
@@ -281,7 +320,7 @@ h1.page-title {
   transition: background 0.1s ease, color 0.1s ease;
 }
 .nav-tab .icon { font-size: 19px; line-height: 1; }
-.nav-tab.active { color: var(--teal-deep); background: #E4F7F5; }
+.nav-tab.active { color: var(--teal-deep); background: var(--teal-soft); }
 
 .goal-ticket {
   background: linear-gradient(120deg, var(--teal) 0%, var(--teal-deep) 100%);
@@ -301,7 +340,7 @@ h1.page-title {
 
 .icon-step {
   width: 28px; height: 28px; border-radius: 50%;
-  border: 2px solid var(--line); background: #fff; color: var(--teal-deep);
+  border: 2px solid var(--line); background: var(--card); color: var(--teal-deep);
   font-size: 15px; font-weight: 800; cursor: pointer; font-family: inherit;
   display: flex; align-items: center; justify-content: center; line-height: 1;
   transition: transform 0.12s ease, background 0.12s ease, color 0.12s ease;
@@ -326,7 +365,7 @@ h1.page-title {
   .play-btn:hover { transform: scale(1.08); }
   .mic-btn:hover { transform: scale(1.06); }
 
-  .icon-step:hover:not(:disabled) { transform: scale(1.15); background: #E4F7F5; }
+  .icon-step:hover:not(:disabled) { transform: scale(1.15); background: var(--teal-soft); }
 
   .grade-btn:hover { filter: brightness(1.08); }
   .btn-primary:hover:not(:disabled) { filter: brightness(1.05); }
@@ -626,3 +665,7 @@ h1.page-title {
 .modal-scroll { overflow-wrap: break-word; word-break: break-word; min-width: 0; }
 .modal-scroll .pill { white-space: normal; text-align: left; max-width: 100%; }
 .modal-scroll ol { min-width: 0; }
+
+[data-theme="dark"] .fib-input.correct { background: #1A3023; }
+[data-theme="dark"] .fib-input.wrong { background: #372022; }
+[data-theme="dark"] .settings-gear { background: var(--card); }

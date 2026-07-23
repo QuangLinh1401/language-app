@@ -72,7 +72,7 @@ export default function SpeakingShadowing() {
               display: "flex", alignItems: "baseline", gap: 8,
               padding: "10px 14px", fontSize: 12.5, cursor: "pointer",
               borderBottom: i < sentences.length - 1 ? "1px solid var(--line)" : "none",
-              background: i === index ? "#EAF3F1" : "transparent",
+              background: i === index ? "var(--teal-soft)" : "transparent",
               color: i === index ? "var(--teal-deep)" : "var(--ink-soft)",
               fontWeight: i === index ? 700 : 400
             }}

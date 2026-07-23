@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import { Link, useSearchParams } from "react-router-dom";
 import { api } from "../api.js";
-import Icon from "../components/Icon.jsx";
+import AnimatedIcon from "../components/AnimatedIcon.jsx";
 import Loading from "../components/Loading.jsx";
 
 export default function Reading() {
@@ -36,7 +36,7 @@ export default function Reading() {
             className="pill"
             style={{
               cursor: "pointer",
-              background: filter === lv ? "var(--teal)" : "#fff",
+              background: filter === lv ? "var(--teal)" : "var(--card)",
               color: filter === lv ? "#fff" : "var(--teal-deep)",
               border: "1px solid var(--line)"
             }}
@@ -47,9 +47,13 @@ export default function Reading() {
       </div>
 
       {shown.map((p) => (
-        <Link key={p.id} to={`/reading/${p.id}`} className="topic-card">
+        <Link key={p.id} to={`/reading/${p.id}`} className="topic-card" data-anim-hover>
           <div className="topic-emoji">
-            <Icon name={p.read ? "check" : "newspaper"} size={20} />
+            {p.read ? (
+              <AnimatedIcon src="/icons/check.lottie.json" fallback="/icons/check.svg" size={22} hover />
+            ) : (
+              <img src="/icons/reading.svg" alt="" width={22} height={22} style={{ display: "block" }} />
+            )}
           </div>
           <div style={{ flex: 1 }}>
             <b style={{ fontSize: 13 }}>{p.title}</b>

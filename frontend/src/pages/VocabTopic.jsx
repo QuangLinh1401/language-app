@@ -64,7 +64,7 @@ export default function VocabTopic() {
             className="pill"
             style={{
               cursor: "pointer",
-              background: levelFilter === lv ? "var(--teal)" : "#fff",
+              background: levelFilter === lv ? "var(--teal)" : "var(--card)",
               color: levelFilter === lv ? "#fff" : "var(--teal-deep)",
               border: "1px solid var(--line)"
             }}
@@ -94,7 +94,7 @@ export default function VocabTopic() {
               <button
                 aria-label="Pronounce"
                 onClick={(e) => { e.stopPropagation(); speak(w.word); }}
-                style={{ background: "#EAF3F1", border: "none", borderRadius: "50%", width: 30, height: 30, cursor: "pointer", display: "flex", alignItems: "center", justifyContent: "center" }}
+                style={{ background: "var(--teal-soft)", border: "none", borderRadius: "50%", width: 30, height: 30, cursor: "pointer", display: "flex", alignItems: "center", justifyContent: "center" }}
               ><Icon name="speaker-wave" size={16} /></button>
             </div>
           </div>

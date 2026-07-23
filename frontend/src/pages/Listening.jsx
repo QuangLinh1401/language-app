@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import { Link, useSearchParams } from "react-router-dom";
 import { api } from "../api.js";
 import Icon from "../components/Icon.jsx";
+import AnimatedIcon from "../components/AnimatedIcon.jsx";
 import Loading from "../components/Loading.jsx";
 import Pager from "../components/Pager.jsx";
 
@@ -44,7 +45,7 @@ export default function Listening() {
             className="pill"
             style={{
               cursor: "pointer",
-              background: filter === lv ? "var(--teal)" : "#fff",
+              background: filter === lv ? "var(--teal)" : "var(--card)",
               color: filter === lv ? "#fff" : "var(--teal-deep)",
               border: "1px solid var(--line)"
             }}
@@ -55,9 +56,9 @@ export default function Listening() {
       </div>
 
       {paged.map((l) => (
-        <Link key={l.id} to={`/listening/${l.id}`} className="topic-card">
+        <Link key={l.id} to={`/listening/${l.id}`} className="topic-card" data-anim-hover>
           <div className="topic-emoji">
-            <Icon name="headphones" size={20} />
+            <AnimatedIcon src="/icons/listening.lottie.json" fallback="/icons/listening.svg" size={22} hover />
           </div>
           <div style={{ flex: 1 }}>
             <b style={{ fontSize: 13 }}>{l.title}</b>

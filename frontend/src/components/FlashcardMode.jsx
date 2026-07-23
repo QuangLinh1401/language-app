@@ -73,7 +73,7 @@ export default function FlashcardMode({ words, onGrade, onFinish }) {
               aria-label="Nghe phát âm từ"
               title="Nghe phát âm"
               onClick={(e) => { e.stopPropagation(); speak(w.word); }}
-              style={{ marginTop: 12, width: 36, height: 36, borderRadius: "50%", background: "#EAF3F1", border: "none", cursor: "pointer", display: "flex", alignItems: "center", justifyContent: "center" }}
+              style={{ marginTop: 12, width: 36, height: 36, borderRadius: "50%", background: "var(--teal-soft)", border: "none", cursor: "pointer", display: "flex", alignItems: "center", justifyContent: "center" }}
             ><Icon name="speaker-wave" size={18} /></button>
             <div className="tapmsg">Tap to see the meaning</div>
           </>
@@ -85,7 +85,7 @@ export default function FlashcardMode({ words, onGrade, onFinish }) {
               aria-label="Nghe câu ví dụ"
               title="Nghe câu ví dụ"
               onClick={(e) => { e.stopPropagation(); speak(w.example); }}
-              style={{ marginTop: 8, width: 32, height: 32, borderRadius: "50%", background: "#EAF3F1", border: "none", cursor: "pointer", display: "flex", alignItems: "center", justifyContent: "center" }}
+              style={{ marginTop: 8, width: 32, height: 32, borderRadius: "50%", background: "var(--teal-soft)", border: "none", cursor: "pointer", display: "flex", alignItems: "center", justifyContent: "center" }}
             ><Icon name="speaker-wave" size={15} /></button>
             {w.phrase && <div className="example" style={{ marginTop: 6 }}>💬 {w.phrase}</div>}
             {w.family && <div className="example" style={{ marginTop: 6 }}>🌱 {w.family}</div>}

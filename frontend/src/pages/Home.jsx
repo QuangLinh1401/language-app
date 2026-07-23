@@ -8,18 +8,19 @@ export default function Home() {
   const [session, setSession] = useState(null);
 
   useEffect(() => {
-    api.progress.touch(5).then(() => api.progress.get()).then(setProgress);
+    // touch returns the full summary — one round trip instead of two.
+    api.progress.touch(5).then(setProgress);
     api.vocabulary.dailySession().then(setSession);
   }, []);
 
   const modules = [
-    { to: "/vocabulary", icon: "/icons/vocabulary.svg", anim: "/icons/vocabulary.lottie.json", bg: "#EAF3F1", name: "Vocabulary", desc: "5000 words, A1 to B2" },
-    { to: "/grammar", icon: "/icons/grammar.svg", anim: "/icons/grammar.lottie.json", bg: "#F1EAF7", name: "Grammar", desc: "86 lessons, A1 to B2" },
-    { to: "/listening", icon: "/icons/listening.svg", anim: "/icons/listening.lottie.json", bg: "#EAF0F7", name: "Listening", desc: "30 listening lessons" },
-    { to: "/reading", icon: "/icons/reading.svg", bg: "#FCEFE6", name: "Reading", desc: "20 passages + quizzes" },
-    { to: "/speaking", icon: "/icons/speaking.svg", anim: "/icons/speaking.lottie.json", bg: "#FDEBEA", name: "Speaking", desc: "Shadowing & dialogues" },
-    { to: "/vocabulary/browse", icon: "/icons/browse.svg", anim: "/icons/browse.lottie.json", bg: "#E9F5EF", name: "Browse Words", desc: "Search & filter by status" },
-    { to: "/progress", icon: "/icons/progress.svg", anim: "/icons/progress.lottie.json", bg: "#FFF3E4", name: "Progress", desc: "See your learning stats" }
+    { to: "/vocabulary", icon: "/icons/vocabulary.svg", anim: "/icons/vocabulary.lottie.json", bg: "var(--teal-soft)", name: "Vocabulary", desc: "5000 words, A1 to B2" },
+    { to: "/grammar", icon: "/icons/grammar.svg", anim: "/icons/grammar.lottie.json", bg: "var(--violet-soft)", name: "Grammar", desc: "86 lessons, A1 to B2" },
+    { to: "/listening", icon: "/icons/listening.svg", anim: "/icons/listening.lottie.json", bg: "var(--blue-soft)", name: "Listening", desc: "30 listening lessons" },
+    { to: "/reading", icon: "/icons/reading.svg", bg: "var(--orange-soft)", name: "Reading", desc: "20 passages + quizzes" },
+    { to: "/speaking", icon: "/icons/speaking.svg", anim: "/icons/speaking.lottie.json", bg: "var(--coral-soft)", name: "Speaking", desc: "Shadowing & dialogues" },
+    { to: "/vocabulary/browse", icon: "/icons/browse.svg", anim: "/icons/browse.lottie.json", bg: "var(--mint-soft)", name: "Browse Words", desc: "Search & filter by status" },
+    { to: "/progress", icon: "/icons/progress.svg", anim: "/icons/progress.lottie.json", bg: "var(--amber-soft)", name: "Progress", desc: "See your learning stats" }
   ];
 
   return (
@@ -30,7 +31,7 @@ export default function Home() {
           <div style={{ fontSize: 13, fontWeight: 700 }}>Hi {auth.username() || "there"} 👋</div>
           <div style={{ fontSize: 11, color: "var(--ink-soft)" }}>Let's learn some English today</div>
         </div>
-        <div className="pill" style={{ background: "#FFF3E4", borderColor: "#F3DCAE", color: "#B5720F" }}>
+        <div className="pill" style={{ background: "var(--amber-soft)", borderColor: "var(--amber-line)", color: "#B5720F" }}>
           <AnimatedIcon src="/icons/fire.lottie.json" fallback="/icons/fire.svg" size={18} />
           {progress ? progress.streak.current : "…"} days
         </div>
@@ -56,7 +57,7 @@ export default function Home() {
       )}
 
       {session && session.newWords.length > 0 && (
-        <Link to="/vocabulary/review" className="review-banner" style={{ background: "#EAF0F7", borderColor: "#CBDCF2" }}>
+        <Link to="/vocabulary/review" className="review-banner" style={{ background: "var(--blue-soft)", borderColor: "var(--blue-line)" }}>
           <AnimatedIcon src="/icons/sparkle.lottie.json" fallback="/icons/sparkle.svg" size={22} />
           <div style={{ flex: 1 }}>
             <b style={{ fontSize: 12.5, display: "block" }}>{session.newWords.length} new words to learn</b>

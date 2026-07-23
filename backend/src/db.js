@@ -61,23 +61,44 @@ export function ensureTables() {
   return tablesReady;
 }
 
+// Runs a query directly, only creating the tables (and retrying once) if the
+// database says they're missing. Skips 3 roundtrips on every serverless cold
+// start compared to always awaiting ensureTables() first.
+export async function withTableRetry(fn) {
+  try {
+    return await fn();
+  } catch (err) {
+    if (/does not exist/i.test(err?.message || "")) {
+      await ensureTables();
+      return await fn();
+    }
+    throw err;
+  }
+}
+
 // Loads one user's progress blob, seeding a fresh default row if missing.
 export async function loadState(userId) {
-  await ensureTables();
-  const rows = await sql`select state from user_state where user_id = ${userId}`;
-  if (rows.length > 0) return { ...defaultState(), ...rows[0].state };
-  const seed = defaultState();
-  await saveState(userId, seed);
-  return seed;
+  return withTableRetry(async () => {
+    const rows = await sql`select state from user_state where user_id = ${userId}`;
+    if (rows.length > 0) return { ...defaultState(), ...rows[0].state };
+    const seed = defaultState();
+    await sql`
+      insert into user_state (user_id, state, updated_at)
+      values (${userId}, ${JSON.stringify(seed)}::jsonb, now())
+      on conflict (user_id) do nothing
+    `;
+    return seed;
+  });
 }
 
 export async function saveState(userId, state) {
-  await ensureTables();
-  await sql`
-    insert into user_state (user_id, state, updated_at)
-    values (${userId}, ${JSON.stringify(state)}::jsonb, now())
-    on conflict (user_id) do update set state = excluded.state, updated_at = now()
-  `;
+  return withTableRetry(async () => {
+    await sql`
+      insert into user_state (user_id, state, updated_at)
+      values (${userId}, ${JSON.stringify(state)}::jsonb, now())
+      on conflict (user_id) do update set state = excluded.state, updated_at = now()
+    `;
+  });
 }
 
 // ---- Helpers that operate on a loaded state object ----

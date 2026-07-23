@@ -17,10 +17,10 @@ const statusTabs = [
 
 // The 4 knowledge stages a studied word moves through (see backend wordStatus).
 const STAGE_BADGES = {
-  recognition: { label: "Lv1 · Seen", bg: "#F1EAF7", color: "#6D3FE0" },
-  recall: { label: "Lv2 · Recall", bg: "#EAF0F7", color: "#2563A8" },
-  context: { label: "Lv3 · Context", bg: "#FCEFE6", color: "#B5720F" },
-  mastered: { label: "Lv4 · Mastered", bg: "#E4F5EA", color: "#3E9142" }
+  recognition: { label: "Lv1 · Seen", bg: "var(--violet-soft)", color: "#6D3FE0" },
+  recall: { label: "Lv2 · Recall", bg: "var(--blue-soft)", color: "#2563A8" },
+  context: { label: "Lv3 · Context", bg: "var(--orange-soft)", color: "#B5720F" },
+  mastered: { label: "Lv4 · Mastered", bg: "var(--good-soft)", color: "#3E9142" }
 };
 
 function StageBadge({ status }) {
@@ -114,7 +114,7 @@ export default function VocabBrowse() {
         <button
           aria-label="Pronounce"
           onClick={(e) => { e.stopPropagation(); speak(w.word); }}
-          style={{ background: "#EAF3F1", border: "none", borderRadius: "50%", width: 30, height: 30, cursor: "pointer", display: "flex", alignItems: "center", justifyContent: "center", flexShrink: 0 }}
+          style={{ background: "var(--teal-soft)", border: "none", borderRadius: "50%", width: 30, height: 30, cursor: "pointer", display: "flex", alignItems: "center", justifyContent: "center", flexShrink: 0 }}
         ><Icon name="speaker-wave" size={16} /></button>
       </div>
       {openWord === w.id && (
@@ -185,7 +185,7 @@ export default function VocabBrowse() {
             data-anim-hover
             style={{
               flex: 1, justifyContent: "center", cursor: "pointer",
-              background: status === s.id ? "var(--teal)" : "#fff",
+              background: status === s.id ? "var(--teal)" : "var(--card)",
               color: status === s.id ? "#fff" : "var(--teal-deep)",
               border: "1px solid var(--line)"
             }}
@@ -203,7 +203,7 @@ export default function VocabBrowse() {
             className="pill"
             style={{
               cursor: "pointer",
-              background: level === lv ? "var(--teal)" : "#fff",
+              background: level === lv ? "var(--teal)" : "var(--card)",
               color: level === lv ? "#fff" : "var(--teal-deep)",
               border: "1px solid var(--line)"
             }}

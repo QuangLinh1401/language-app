@@ -27,7 +27,7 @@ function SoundBtn({ text, audioUrl, size = 30 }) {
       aria-label="Pronounce"
       onClick={play}
       style={{
-        background: "#EAF3F1", border: "none", borderRadius: "50%",
+        background: "var(--teal-soft)", border: "none", borderRadius: "50%",
         width: size, height: size, cursor: "pointer", flexShrink: 0,
         display: "flex", alignItems: "center", justifyContent: "center"
       }}
@@ -134,7 +134,7 @@ export default function WordDetailModal({ wordId, onClose }) {
                       className="pill"
                       style={{
                         flex: 1, justifyContent: "center", cursor: "pointer",
-                        background: activeTab === t.id ? "var(--teal)" : "#fff",
+                        background: activeTab === t.id ? "var(--teal)" : "var(--card)",
                         color: activeTab === t.id ? "#fff" : "var(--teal-deep)",
                         border: "1px solid var(--line)"
                       }}

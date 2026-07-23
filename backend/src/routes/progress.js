@@ -51,12 +51,20 @@ router.get("/", (req, res) => {
   });
 });
 
+// Returns the full progress summary so the Home screen needs just one call.
 router.post("/touch", asyncHandler(async (req, res) => {
   const { xp } = req.body;
   const streak = touchStreak(req.state);
   if (xp) addXp(req.state, xp);
   await req.saveState();
-  res.json({ streak, xp: req.state.xp });
+  res.json({
+    streak,
+    xp: req.state.xp,
+    wordsLearned: Object.keys(req.state.wordProgress).length,
+    grammarCompleted: Object.keys(req.state.grammarProgress).length,
+    listeningCompleted: Object.keys(req.state.listeningProgress).length,
+    readingCompleted: Object.keys(req.state.readingProgress).length
+  });
 }));
 
 export default router;

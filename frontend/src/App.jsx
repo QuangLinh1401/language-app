@@ -31,6 +31,11 @@ export default function App() {
   const [resetKey, setResetKey] = useState(0);
   const [user, setUser] = useState(() => (auth.token() ? auth.username() : null));
 
+  // Apply the saved theme (light/dark) on startup.
+  useEffect(() => {
+    document.documentElement.dataset.theme = localStorage.getItem("language-app-theme") || "light";
+  }, []);
+
   // api.js fires this when a request comes back 401 (expired/invalid token).
   useEffect(() => {
     const onExpired = () => setUser(null);

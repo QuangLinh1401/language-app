@@ -20,8 +20,12 @@ export default function BottomNav() {
           data-anim-hover
           className={({ isActive }) => "nav-tab" + (isActive ? " active" : "")}
         >
-          <AnimatedIcon src={t.anim} fallback={t.svg} size={20} hover className="icon" />
-          {t.label}
+          {({ isActive }) => (
+            <>
+              <AnimatedIcon src={t.anim} fallback={t.svg} size={20} hover active={isActive} className="icon" />
+              {t.label}
+            </>
+          )}
         </NavLink>
       ))}
     </nav>

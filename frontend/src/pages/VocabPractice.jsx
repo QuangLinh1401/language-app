@@ -73,7 +73,7 @@ export default function VocabPractice() {
               className="pill"
               style={{
                 cursor: "pointer",
-                background: level === lv ? "var(--teal)" : "#fff",
+                background: level === lv ? "var(--teal)" : "var(--card)",
                 color: level === lv ? "#fff" : "var(--teal-deep)",
                 border: "1px solid var(--line)"
               }}
@@ -123,7 +123,7 @@ export default function VocabPractice() {
                         style={{
                           textAlign: "left", padding: "9px 12px", borderRadius: 10, fontSize: 12.5,
                           border: "1px solid " + (isCorrect ? "var(--good)" : isWrongSelected ? "var(--bad)" : "var(--line)"),
-                          background: isSelected ? "#EAF3F1" : "#fff", cursor: checked ? "default" : "pointer", fontFamily: "inherit"
+                          background: isSelected ? "var(--teal-soft)" : "var(--card)", cursor: checked ? "default" : "pointer", fontFamily: "inherit"
                         }}
                       >
                         {opt}

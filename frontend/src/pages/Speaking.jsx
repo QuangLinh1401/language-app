@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import { api } from "../api.js";
-import Icon from "../components/Icon.jsx";
+import AnimatedIcon from "../components/AnimatedIcon.jsx";
 import Loading from "../components/Loading.jsx";
 
 export default function Speaking() {
@@ -27,33 +27,34 @@ export default function Speaking() {
         <button
           onClick={() => setTab("dialogues")}
           className="pill"
+          data-anim-hover
           style={{
             flex: 1, justifyContent: "center", cursor: "pointer",
-            background: tab === "dialogues" ? "var(--teal)" : "#fff",
+            background: tab === "dialogues" ? "var(--teal)" : "var(--card)",
             color: tab === "dialogues" ? "#fff" : "var(--teal-deep)",
             border: "1px solid var(--line)"
           }}
         >
-          <Icon name="chat" size={14} /> Dialogues ({dialogues.length})
+          <AnimatedIcon src="/icons/topic-chat.lottie.json" fallback="/icons/topic-chat.svg" size={15} hover active={tab === "dialogues"} /> Dialogues ({dialogues.length})
         </button>
         <button
           onClick={() => setTab("shadowing")}
           className="pill"
           style={{
             flex: 1, justifyContent: "center", cursor: "pointer",
-            background: tab === "shadowing" ? "var(--teal)" : "#fff",
+            background: tab === "shadowing" ? "var(--teal)" : "var(--card)",
             color: tab === "shadowing" ? "#fff" : "var(--teal-deep)",
             border: "1px solid var(--line)"
           }}
         >
-          <Icon name="mic" size={14} /> Shadowing ({shadowing.length})
+          <img src="/icons/mic.svg" alt="" width={15} height={15} style={{ display: "block" }} /> Shadowing ({shadowing.length})
         </button>
       </div>
 
       {tab === "dialogues" && dialogues.map((d) => (
-        <Link key={d.id} to={`/speaking/dialogue/${d.id}`} className="topic-card" style={{ background: "#FDEBEA", borderColor: "#FBD4CE" }}>
-          <div className="topic-emoji" style={{ background: "#fff" }}>
-            <Icon name="chat" size={20} />
+        <Link key={d.id} to={`/speaking/dialogue/${d.id}`} className="topic-card" style={{ background: "var(--coral-soft)", borderColor: "var(--coral-line)" }}>
+          <div className="topic-emoji" style={{ background: "var(--card)" }}>
+            <AnimatedIcon src="/icons/topic-chat.lottie.json" fallback="/icons/topic-chat.svg" size={22} hover />
           </div>
           <div style={{ flex: 1 }}>
             <b style={{ fontSize: 13 }}>{d.title}</b>
@@ -67,9 +68,9 @@ export default function Speaking() {
       {tab === "shadowing" && topics.map((t) => {
         const count = shadowing.filter((s) => s.topic === t).length;
         return (
-          <Link key={t} to={`/speaking/shadowing/${encodeURIComponent(t)}`} className="topic-card">
+          <Link key={t} to={`/speaking/shadowing/${encodeURIComponent(t)}`} className="topic-card" data-anim-hover>
             <div className="topic-emoji">
-              <Icon name="mic" size={20} />
+              <AnimatedIcon src="/icons/speaking.lottie.json" fallback="/icons/mic.svg" size={22} hover />
             </div>
             <div style={{ flex: 1 }}>
               <b style={{ fontSize: 13 }}>{t}</b>

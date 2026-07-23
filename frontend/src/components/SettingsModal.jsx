@@ -1,12 +1,21 @@
 import { useRef, useState } from "react";
 import { api } from "../api.js";
-import Icon from "./Icon.jsx";
+import AnimatedIcon from "./AnimatedIcon.jsx";
+
+const THEME_KEY = "language-app-theme";
 
 export default function SettingsModal({ username, onClose, onReset, onLogout }) {
   const [busy, setBusy] = useState("");
   const [confirmReset, setConfirmReset] = useState(false);
   const [importMsg, setImportMsg] = useState("");
+  const [theme, setTheme] = useState(() => localStorage.getItem(THEME_KEY) || "light");
   const fileRef = useRef(null);
+
+  function applyTheme(next) {
+    setTheme(next);
+    localStorage.setItem(THEME_KEY, next);
+    document.documentElement.dataset.theme = next;
+  }
 
   async function importJson(e) {
     const file = e.target.files?.[0];
@@ -68,12 +77,40 @@ export default function SettingsModal({ username, onClose, onReset, onLogout }) 
         <button className="modal-close" onClick={onClose} aria-label="Close">✕</button>
         <div className="modal-scroll">
           <h2 className="page-title" style={{ fontSize: 20, display: "flex", alignItems: "center", gap: 8 }}>
-            <Icon name="gear" size={22} /> Settings
+            <AnimatedIcon src="/icons/gear.lottie.json" fallback="/icons/gear.svg" size={24} /> Settings
           </h2>
 
           <div style={{ fontSize: 12.5, color: "var(--ink-soft)", marginTop: 6, marginBottom: 18 }}>
             Logged in as <b style={{ color: "var(--ink)" }}>{username}</b>. Your progress is saved
             to your account on the server (Neon Postgres).
+          </div>
+
+          <div style={{ fontSize: 12, fontWeight: 700, color: "var(--ink-soft)", marginBottom: 6 }}>Theme</div>
+          <div style={{ display: "flex", gap: 8, marginBottom: 16 }}>
+            <button
+              className="pill"
+              onClick={() => applyTheme("light")}
+              style={{
+                flex: 1, justifyContent: "center", cursor: "pointer",
+                background: theme === "light" ? "var(--teal)" : "var(--card)",
+                color: theme === "light" ? "#fff" : "var(--teal-deep)",
+                border: "1px solid var(--line)"
+              }}
+            >
+              <img src="/icons/sun.svg" alt="" width={15} height={15} /> Light
+            </button>
+            <button
+              className="pill"
+              onClick={() => applyTheme("dark")}
+              style={{
+                flex: 1, justifyContent: "center", cursor: "pointer",
+                background: theme === "dark" ? "var(--teal)" : "var(--card)",
+                color: theme === "dark" ? "#fff" : "var(--teal-deep)",
+                border: "1px solid var(--line)"
+              }}
+            >
+              <img src="/icons/moon.svg" alt="" width={15} height={15} /> Dark
+            </button>
           </div>
 
           <button
@@ -82,7 +119,7 @@ export default function SettingsModal({ username, onClose, onReset, onLogout }) 
             disabled={busy === "export"}
             style={{ display: "flex", alignItems: "center", justifyContent: "center", gap: 8 }}
           >
-            <Icon name="chart" size={16} />
+            <img src="/icons/save.svg" alt="" width={16} height={16} />
             {busy === "export" ? "Preparing file..." : "Download my data (JSON)"}
           </button>
 
@@ -93,7 +130,7 @@ export default function SettingsModal({ username, onClose, onReset, onLogout }) 
             disabled={busy === "import"}
             style={{ display: "flex", alignItems: "center", justifyContent: "center", gap: 8 }}
           >
-            <Icon name="book" size={16} />
+            <img src="/icons/folder.svg" alt="" width={16} height={16} />
             {busy === "import" ? "Importing..." : "Import data from backup (JSON)"}
           </button>
           {importMsg && (
@@ -107,7 +144,7 @@ export default function SettingsModal({ username, onClose, onReset, onLogout }) 
             onClick={onLogout}
             style={{ display: "flex", alignItems: "center", justifyContent: "center", gap: 8 }}
           >
-            <Icon name="cross" size={16} /> Log out
+            <img src="/icons/door.svg" alt="" width={16} height={16} /> Log out
           </button>
 
           <div style={{ marginTop: 20, paddingTop: 16, borderTop: "1px solid var(--line)" }}>
@@ -117,7 +154,7 @@ export default function SettingsModal({ username, onClose, onReset, onLogout }) 
                 onClick={() => setConfirmReset(true)}
                 style={{ borderColor: "var(--bad)", color: "var(--bad-deep)", display: "flex", alignItems: "center", justifyContent: "center", gap: 8 }}
               >
-                <Icon name="cross" size={16} /> Reset all progress
+                <img src="/icons/trash.svg" alt="" width={16} height={16} /> Reset all progress
               </button>
             ) : (
               <div className="card" style={{ borderColor: "var(--bad)" }}>
