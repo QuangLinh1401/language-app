@@ -145,6 +145,18 @@ export default function WordDetailModal({ wordId, onClose }) {
                   📊 Độ phổ biến: {POPULARITY_BY_LEVEL[detail.level]}
                 </div>
               )}
+              {detail.id?.startsWith("zh-") && (
+                <a
+                  href={`https://hanzii.net/search/${encodeURIComponent(detail.word)}?hl=vi`}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="pill"
+                  style={{ display: "inline-flex", marginTop: 8, textDecoration: "none" }}
+                  onClick={(e) => e.stopPropagation()}
+                >
+                  🔗 Xem thêm trên Hanzii ↗
+                </a>
+              )}
 
               {tabs.length > 1 && (
                 <div style={{ display: "flex", gap: 6, marginTop: 14 }}>
