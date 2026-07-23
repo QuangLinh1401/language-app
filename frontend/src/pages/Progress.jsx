@@ -36,41 +36,6 @@ export default function Progress() {
         <div className="stat-card"><b>{progress.readingCompleted}</b><span>Reading passages done</span></div>
       </div>
 
-      <div style={{ fontSize: 12.5, fontWeight: 700, color: "var(--ink-soft)", margin: "18px 0 8px" }}>
-        Achievements
-      </div>
-      <div className="badge-grid">
-        {[
-          { emoji: "🔥", label: "3-day streak", value: progress.streak.current, target: 3 },
-          { emoji: "🔥", label: "7-day streak", value: progress.streak.current, target: 7 },
-          { emoji: "🔥", label: "30-day streak", value: progress.streak.current, target: 30 },
-          { emoji: "🌱", label: "10 words", value: progress.wordsLearned, target: 10 },
-          { emoji: "📚", label: "50 words", value: progress.wordsLearned, target: 50 },
-          { emoji: "🏆", label: "250 words", value: progress.wordsLearned, target: 250 },
-          { emoji: "⭐", label: "10 mastered", value: vocabStats?.overall.mastered || 0, target: 10 },
-          { emoji: "🌟", label: "50 mastered", value: vocabStats?.overall.mastered || 0, target: 50 },
-          { emoji: "✏️", label: "10 grammar", value: progress.grammarCompleted, target: 10 },
-          { emoji: "🎓", label: "All 86 grammar", value: progress.grammarCompleted, target: 86 },
-          { emoji: "🎧", label: "10 listening", value: progress.listeningCompleted, target: 10 },
-          { emoji: "📖", label: "10 reading", value: progress.readingCompleted, target: 10 }
-        ].map((b) => {
-          const ok = b.value >= b.target;
-          const pct = Math.min(100, Math.round((b.value / b.target) * 100));
-          return (
-            <div key={b.label} className={"badge" + (ok ? "" : " locked")} title={ok ? "Unlocked!" : `${b.value}/${b.target} — keep going!`}>
-              <div className="emoji">{b.emoji}</div>
-              <div className="label">{b.label}</div>
-              <div className="badge-progress">
-                {ok ? "✓ Done" : `${b.value}/${b.target}`}
-              </div>
-              <div className="badge-track">
-                <div className="badge-fill" style={{ width: `${pct}%` }} />
-              </div>
-            </div>
-          );
-        })}
-      </div>
-
       {vocabStats && (
         <>
           <div style={{ fontSize: 12.5, fontWeight: 700, color: "var(--ink-soft)", margin: "18px 0 8px" }}>

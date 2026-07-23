@@ -679,23 +679,6 @@ h1.page-title {
 
 [data-theme="dark"] .settings-gear { background: var(--card); }
 
-/* Achievement badges */
-.badge-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 8px; }
-.badge {
-  background: var(--teal-soft); border: 2px solid var(--good); border-radius: 14px;
-  padding: 10px 6px; text-align: center;
-}
-.badge .emoji { font-size: 22px; }
-.badge .label { font-size: 10px; font-weight: 800; margin-top: 4px; color: var(--ink); }
-.badge-progress { font-size: 9.5px; font-weight: 800; color: var(--good-deep); margin: 7px 0 4px; }
-.badge-track { height: 4px; background: var(--line); border-radius: 999px; overflow: hidden; }
-.badge-fill { height: 100%; background: var(--good); border-radius: 999px; transition: width 0.3s ease; }
-
-.badge.locked { background: var(--card); border-color: var(--line); }
-.badge.locked .emoji { filter: grayscale(1); opacity: 0.55; }
-.badge.locked .badge-progress { color: var(--ink-soft); }
-.badge.locked .badge-fill { background: var(--teal); }
-
 /* Daily XP goal bar inside the teal goal ticket */
 .goal-bar { height: 8px; background: rgba(255,255,255,0.3); border-radius: 999px; overflow: hidden; }
 .goal-bar-fill { height: 100%; background: var(--amber); border-radius: 999px; transition: width 0.4s ease; }
@@ -726,19 +709,6 @@ h1.page-title {
   border-radius: 999px; padding: 4px 12px; font-size: 11.5px; font-weight: 800;
   cursor: pointer; font-family: inherit;
 }
-
-/* Badge progress: current/target + mini bar */
-.badge-progress { font-size: 9.5px; font-weight: 800; color: var(--teal-deep); margin-top: 3px; }
-.badge.locked .badge-progress { color: var(--ink-soft); }
-.badge-track { height: 4px; background: var(--line); border-radius: 999px; margin-top: 4px; overflow: hidden; }
-.badge-fill { height: 100%; background: var(--teal); border-radius: 999px; }
-/* Locked badges stay readable now that they show progress */
-.badge.locked { opacity: 0.75; filter: grayscale(0.6); }
-
-/* Unlocked badges pop with green instead of relying on opacity alone */
-.badge:not(.locked) { border-color: var(--good); background: var(--good-soft); }
-.badge:not(.locked) .badge-progress { color: var(--good-deep); }
-.badge:not(.locked) .badge-fill { background: var(--good); }
 
 /* Quick dictionary dropdown on Home */
 .search-pop {
