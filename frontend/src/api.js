@@ -1,5 +1,11 @@
 const BASE = "/api";
 
+// The user's LOCAL date (YYYY-MM-DD) — sent with daily-reset requests so the
+// server never has to guess the timezone ("en-CA" formats as YYYY-MM-DD).
+export function localDate() {
+  return new Date().toLocaleDateString("en-CA");
+}
+
 const TOKEN_KEY = "language-app-token";
 const USERNAME_KEY = "language-app-username";
 
@@ -76,7 +82,7 @@ export const api = {
 
   progress: {
     get: () => request("/progress"),
-    touch: (xp) => request("/progress/touch", { method: "POST", body: JSON.stringify({ xp }) }),
+    touch: (xp) => request("/progress/touch", { method: "POST", body: JSON.stringify({ xp, date: localDate() }) }),
     export: () => request("/progress/export"),
     updateSettings: (payload) =>
       request("/progress/settings", { method: "PUT", body: JSON.stringify(payload) }),
@@ -88,7 +94,8 @@ export const api = {
     topics: () => request("/vocabulary/topics"),
     topic: (id) => request(`/vocabulary/topics/${id}`),
     stats: () => request("/vocabulary/stats"),
-    dailySession: (level) => request(`/vocabulary/daily-session${level ? `?level=${level}` : ""}`),
+    dailySession: (level) =>
+      request(`/vocabulary/daily-session?date=${localDate()}${level ? `&level=${level}` : ""}`),
     review: (opts = {}) => {
       const params = new URLSearchParams();
       if (opts.level) params.set("level", opts.level);
@@ -100,7 +107,7 @@ export const api = {
     grade: (wordId, grade, tier) =>
       request(`/vocabulary/words/${wordId}/grade`, { method: "POST", body: JSON.stringify({ grade, tier }) }),
     search: (q) => request(`/vocabulary/search?q=${encodeURIComponent(q)}`),
-    wordOfDay: () => request("/vocabulary/word-of-day"),
+    wordOfDay: () => request(`/vocabulary/word-of-day?date=${localDate()}`),
     practiceReading: (payload) =>
       request("/vocabulary/practice-reading", { method: "POST", body: JSON.stringify(payload) }),
     wordDetail: (wordId) => request(`/vocabulary/words/${wordId}/detail`),

@@ -5,30 +5,6 @@ import AnimatedIcon from "../components/AnimatedIcon.jsx";
 import WordDetailModal from "../components/WordDetailModal.jsx";
 import { speak } from "../speech.js";
 
-// Last 7 calendar days as {label, active} — active days are inferred from the
-// streak length ending on the last active date (no extra data needed).
-function last7Days(streak) {
-  const DAY = 86400000;
-  const toKey = (d) => d.toISOString().slice(0, 10);
-  const today = new Date();
-  const last = streak.lastActiveDate;
-  const current = streak.current || 0;
-  const days = [];
-  for (let i = 6; i >= 0; i--) {
-    const d = new Date(today.getTime() - i * DAY);
-    const key = toKey(d);
-    let active = false;
-    if (last && current > 0) {
-      const lastMs = new Date(last + "T00:00:00Z").getTime();
-      const dMs = new Date(key + "T00:00:00Z").getTime();
-      const diff = Math.round((lastMs - dMs) / DAY);
-      active = diff >= 0 && diff < current;
-    }
-    days.push({ label: "SMTWTFS"[d.getDay()], active, isToday: i === 0 });
-  }
-  return days;
-}
-
 export default function Home() {
   const [progress, setProgress] = useState(null);
   const [session, setSession] = useState(null);
@@ -83,19 +59,6 @@ export default function Home() {
           )}
         </div>
       </div>
-
-      {progress && (
-        <div className="streak-week">
-          {last7Days(progress.streak).map((d, i) => (
-            <div key={i} className="streak-day">
-              <div className={"streak-dot" + (d.active ? " on" : "") + (d.isToday ? " today" : "")}>
-                {d.active ? "✓" : ""}
-              </div>
-              <span>{d.label}</span>
-            </div>
-          ))}
-        </div>
-      )}
 
       <div className="goal-ticket">
         <div className="eyebrow">Daily goal</div>

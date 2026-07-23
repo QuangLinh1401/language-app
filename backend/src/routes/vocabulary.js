@@ -2,7 +2,7 @@ import express from "express";
 import fs from "fs";
 import path from "path";
 import { fileURLToPath } from "url";
-import { getDailyNewWordIds, addDailyNewWordIds, getDailyNewLimit, setDailyNewLimit } from "../db.js";
+import { getDailyNewWordIds, addDailyNewWordIds, getDailyNewLimit, setDailyNewLimit, validClientDate } from "../db.js";
 import { scheduleNext, isDue } from "../srs.js";
 import { generateVocabPassage, generateWordDetail } from "../vocabAi.js";
 import { fetchDictionaryEntry } from "../freeDictionary.js";
@@ -126,7 +126,7 @@ router.get("/review", (req, res) => {
 });
 
 router.get("/daily-session", asyncHandler(async (req, res) => {
-  const { level } = req.query;
+  const { level, date } = req.query; // date = client's local YYYY-MM-DD
   const dailyNewLimit = getDailyNewLimit(req.state);
 
   let words = allWords().map((w) => {
@@ -140,7 +140,7 @@ router.get("/daily-session", asyncHandler(async (req, res) => {
     .sort((a, b) => a.progress.due - b.progress.due)
     .slice(0, 60);
 
-  const introducedToday = getDailyNewWordIds(req.state);
+  const introducedToday = getDailyNewWordIds(req.state, date);
   const alreadyPicked = words.filter((w) => w.status === "new" && introducedToday.includes(w.id));
   const remaining = Math.max(0, dailyNewLimit - introducedToday.length);
 
@@ -149,7 +149,7 @@ router.get("/daily-session", asyncHandler(async (req, res) => {
     .sort((a, b) => (a.frequency || 0) - (b.frequency || 0));
   const freshPicked = remaining > 0 ? freshCandidates.slice(0, remaining) : [];
   if (freshPicked.length > 0) {
-    addDailyNewWordIds(req.state, freshPicked.map((w) => w.id));
+    addDailyNewWordIds(req.state, freshPicked.map((w) => w.id), date);
     await req.saveState();
   }
 
@@ -159,7 +159,7 @@ router.get("/daily-session", asyncHandler(async (req, res) => {
     due,
     newWords,
     dailyNewLimit,
-    newIntroducedToday: getDailyNewWordIds(req.state).length
+    newIntroducedToday: getDailyNewWordIds(req.state, date).length
   });
 }));
 
@@ -212,10 +212,11 @@ router.post("/words/:id/grade", asyncHandler(async (req, res) => {
   res.json({ wordId: req.params.id, state: nextState, status: wordStatus(nextState) });
 }));
 
-// Word of the day: deterministic daily pick, same for everyone.
+// Word of the day: deterministic daily pick keyed by the CLIENT's local date,
+// so it flips at the user's midnight, not 7 AM Vietnam time (UTC boundary).
 router.get("/word-of-day", (req, res) => {
   const words = allWords();
-  const today = new Date().toISOString().slice(0, 10);
+  const today = validClientDate(req.query.date) || new Date().toISOString().slice(0, 10);
   let h = 0;
   for (const ch of today) h = (h * 31 + ch.charCodeAt(0)) >>> 0;
   const w = words[h % words.length];

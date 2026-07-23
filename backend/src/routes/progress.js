@@ -44,7 +44,7 @@ router.get("/", (req, res) => {
   res.json({
     streak: req.state.streak,
     xp: req.state.xp,
-    dailyXp: getDailyXp(req.state),
+    dailyXp: getDailyXp(req.state, req.query.date),
     dailyXpGoal: getDailyXpGoal(req.state),
     wordsLearned: wordCount,
     grammarCompleted: Object.keys(req.state.grammarProgress).length,
@@ -54,15 +54,17 @@ router.get("/", (req, res) => {
 });
 
 // Returns the full progress summary so the Home screen needs just one call.
+// `date` is the client's LOCAL date (YYYY-MM-DD) — the server must not decide
+// when "today" starts for the user.
 router.post("/touch", asyncHandler(async (req, res) => {
-  const { xp } = req.body;
-  const streak = touchStreak(req.state);
-  if (xp) addXp(req.state, xp);
+  const { xp, date } = req.body;
+  const streak = touchStreak(req.state, date);
+  if (xp) addXp(req.state, xp, date);
   await req.saveState();
   res.json({
     streak,
     xp: req.state.xp,
-    dailyXp: getDailyXp(req.state),
+    dailyXp: getDailyXp(req.state, date),
     dailyXpGoal: getDailyXpGoal(req.state),
     preferredLevel: req.state.settings?.preferredLevel || null,
     wordsLearned: Object.keys(req.state.wordProgress).length,
