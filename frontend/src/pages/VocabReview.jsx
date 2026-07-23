@@ -3,6 +3,7 @@ import { Link, useNavigate } from "react-router-dom";
 import { api } from "../api.js";
 import StudySession from "../components/StudySession.jsx";
 import Icon from "../components/Icon.jsx";
+import AnimatedIcon from "../components/AnimatedIcon.jsx";
 import Loading from "../components/Loading.jsx";
 
 const levels = ["all", "A1", "A2", "B1", "B2"];
@@ -97,9 +98,9 @@ export default function VocabReview() {
       <h1 className="page-title">Review</h1>
       <p className="sub">Active recall + spaced repetition — a few minutes, every day</p>
 
-      <div className="card" style={{ marginBottom: 12 }}>
+      <div className="card" style={{ marginBottom: 12 }} data-anim-hover>
         <div style={{ display: "flex", alignItems: "center", gap: 10 }}>
-          <Icon name="sparkle" size={22} />
+          <AnimatedIcon src="/icons/sparkle.lottie.json" fallback="/icons/sparkle.svg" size={24} hover />
           <div style={{ flex: 1 }}>
             <b style={{ fontSize: 13 }}>New words to learn</b>
             <div style={{ fontSize: 10.5, color: "var(--ink-soft)", marginTop: 2 }}>
@@ -139,9 +140,9 @@ export default function VocabReview() {
         </button>
       </div>
 
-      <div className="card" style={{ marginBottom: 16 }}>
+      <div className="card" style={{ marginBottom: 16 }} data-anim-hover>
         <div style={{ display: "flex", alignItems: "center", gap: 10 }}>
-          <Icon name="repeat" size={22} />
+          <AnimatedIcon src="/icons/hourglass.lottie.json" fallback="/icons/hourglass.svg" size={24} hover />
           <div style={{ flex: 1 }}>
             <b style={{ fontSize: 13 }}>Words to review</b>
             <div style={{ fontSize: 10.5, color: "var(--ink-soft)", marginTop: 2 }}>

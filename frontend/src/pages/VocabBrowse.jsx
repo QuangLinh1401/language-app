@@ -10,9 +10,9 @@ import { speak } from "../speech.js";
 
 const levels = ["all", "A1", "A2", "B1", "B2"];
 const statusTabs = [
-  { id: "new", label: "New", icon: "sparkle" },
-  { id: "learning", label: "Learning", icon: "book" },
-  { id: "mastered", label: "Mastered", icon: "check" }
+  { id: "new", label: "New", anim: "/icons/sparkle.lottie.json", svg: "/icons/sparkle.svg" },
+  { id: "learning", label: "Learning", anim: "/icons/vocabulary.lottie.json", svg: "/icons/vocabulary.svg" },
+  { id: "mastered", label: "Mastered", anim: "/icons/check.lottie.json", svg: "/icons/check.svg" }
 ];
 
 // The 4 knowledge stages a studied word moves through (see backend wordStatus).
@@ -182,6 +182,7 @@ export default function VocabBrowse() {
             key={s.id}
             onClick={() => setStatus(s.id)}
             className="pill"
+            data-anim-hover
             style={{
               flex: 1, justifyContent: "center", cursor: "pointer",
               background: status === s.id ? "var(--teal)" : "#fff",
@@ -189,7 +190,7 @@ export default function VocabBrowse() {
               border: "1px solid var(--line)"
             }}
           >
-            <Icon name={s.icon} size={14} accent={status === s.id ? "nav" : undefined} /> {s.label}
+            <AnimatedIcon src={s.anim} fallback={s.svg} size={16} hover /> {s.label}
           </button>
         ))}
       </div>

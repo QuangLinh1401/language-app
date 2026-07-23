@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import { api } from "../api.js";
-import Icon from "../components/Icon.jsx";
+import AnimatedIcon from "../components/AnimatedIcon.jsx";
 import Loading from "../components/Loading.jsx";
 
 export default function Progress() {
@@ -20,7 +20,9 @@ export default function Progress() {
       <p className="sub">A summary of your whole learning journey</p>
 
       <div className="card icon-trigger" style={{ textAlign: "center", marginBottom: 16 }}>
-        <div style={{ display: "flex", justifyContent: "center" }}><Icon name="flame" size={30} /></div>
+        <div style={{ display: "flex", justifyContent: "center" }}>
+          <AnimatedIcon src="/icons/fire.lottie.json" fallback="/icons/fire.svg" size={34} />
+        </div>
         <div style={{ fontFamily: "'Nunito',sans-serif", fontWeight: 800, fontSize: 20, color: "var(--teal-deep)" }}>
           {progress.streak.current} day streak
         </div>

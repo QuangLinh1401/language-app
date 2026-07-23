@@ -1,7 +1,8 @@
 import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import { api } from "../api.js";
-import Icon, { TOPIC_ICONS } from "../components/Icon.jsx";
+import AnimatedIcon from "../components/AnimatedIcon.jsx";
+import { TOPIC_MEDIA } from "../topicIcons.js";
 import Loading from "../components/Loading.jsx";
 
 export default function Vocabulary() {
@@ -21,9 +22,13 @@ export default function Vocabulary() {
       {topics.map((t) => {
         const pct = t.total ? Math.round((t.learned / t.total) * 100) : 0;
         return (
-          <Link key={t.id} to={`/vocabulary/${t.id}`} className="topic-card">
+          <Link key={t.id} to={`/vocabulary/${t.id}`} className="topic-card" data-anim-hover>
             <div className="topic-emoji">
-              <Icon name={TOPIC_ICONS[t.id]} size={20} />
+              {TOPIC_MEDIA[t.id]?.anim ? (
+                <AnimatedIcon src={TOPIC_MEDIA[t.id].anim} fallback={TOPIC_MEDIA[t.id].svg} size={22} hover />
+              ) : (
+                <img src={TOPIC_MEDIA[t.id]?.svg} alt="" width={22} height={22} style={{ display: "block" }} />
+              )}
             </div>
             <div style={{ flex: 1 }}>
               <b style={{ fontSize: 13 }}>{t.name}</b>

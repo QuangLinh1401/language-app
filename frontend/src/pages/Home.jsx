@@ -45,8 +45,8 @@ export default function Home() {
       </div>
 
       {session && session.due.length > 0 && (
-        <Link to="/vocabulary/review" className="review-banner">
-          <img src="/icons/repeat.svg" alt="" width={22} height={22} />
+        <Link to="/vocabulary/review" className="review-banner" data-anim-hover>
+          <AnimatedIcon src="/icons/hourglass.lottie.json" fallback="/icons/hourglass.svg" size={22} hover />
           <div style={{ flex: 1 }}>
             <b style={{ fontSize: 12.5, display: "block" }}>{session.due.length} words to review</b>
             <span style={{ fontSize: 11, color: "var(--ink-soft)" }}>Studied before, due again today</span>
@@ -68,10 +68,10 @@ export default function Home() {
 
       <div className="module-grid">
         {modules.map((m) => (
-          <Link key={m.to} to={m.to} className="mod-card">
+          <Link key={m.to} to={m.to} className="mod-card" data-anim-hover>
             <div className="ic" style={{ background: m.bg }}>
               {m.anim ? (
-                <AnimatedIcon src={m.anim} fallback={m.icon} size={26} className="mod-icon" />
+                <AnimatedIcon src={m.anim} fallback={m.icon} size={26} className="mod-icon" hover />
               ) : (
                 <img src={m.icon} alt="" className="mod-icon" />
               )}

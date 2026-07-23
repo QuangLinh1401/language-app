@@ -2,7 +2,9 @@ import { useEffect, useState } from "react";
 import { Link, useParams, useSearchParams } from "react-router-dom";
 import { api } from "../api.js";
 import WordDetailModal from "../components/WordDetailModal.jsx";
-import Icon, { TOPIC_ICONS } from "../components/Icon.jsx";
+import Icon from "../components/Icon.jsx";
+import AnimatedIcon from "../components/AnimatedIcon.jsx";
+import { TOPIC_MEDIA } from "../topicIcons.js";
 import Loading from "../components/Loading.jsx";
 
 function speak(text) {
@@ -44,8 +46,12 @@ export default function VocabTopic() {
   return (
     <div>
       <Link to="/vocabulary" className="backbtn">‹ Vocabulary</Link>
-      <h1 className="page-title" style={{ display: "flex", alignItems: "center", gap: 8 }}>
-        <Icon name={TOPIC_ICONS[topicId]} size={26} />
+      <h1 className="page-title" style={{ display: "flex", alignItems: "center", gap: 8 }} data-anim-hover>
+        {TOPIC_MEDIA[topicId]?.anim ? (
+          <AnimatedIcon src={TOPIC_MEDIA[topicId].anim} fallback={TOPIC_MEDIA[topicId].svg} size={28} hover />
+        ) : (
+          <img src={TOPIC_MEDIA[topicId]?.svg} alt="" width={28} height={28} style={{ display: "block" }} />
+        )}
         {topic.name}
       </h1>
       <p className="sub">{topic.words.length} words · A1 to B2</p>

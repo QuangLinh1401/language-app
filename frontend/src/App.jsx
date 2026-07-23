@@ -3,7 +3,7 @@ import { Routes, Route, useLocation } from "react-router-dom";
 import BottomNav from "./components/BottomNav.jsx";
 import ScrollToTop from "./components/ScrollToTop.jsx";
 import SettingsModal from "./components/SettingsModal.jsx";
-import Icon from "./components/Icon.jsx";
+import AnimatedIcon from "./components/AnimatedIcon.jsx";
 import { auth } from "./api.js";
 
 import Login from "./pages/Login.jsx";
@@ -56,8 +56,9 @@ export default function App() {
         onClick={() => setShowSettings(true)}
         aria-label="Settings"
         title="Settings"
+        data-anim-hover
       >
-        <Icon name="gear" size={20} />
+        <AnimatedIcon src="/icons/gear.lottie.json" fallback="/icons/gear.svg" size={20} hover />
       </button>
       <div className="app-content">
         <div key={location.pathname + ":" + resetKey} className="view-transition">
