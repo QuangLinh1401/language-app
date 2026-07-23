@@ -3,6 +3,7 @@ import { Link, useParams } from "react-router-dom";
 import { api } from "../api.js";
 import Icon from "../components/Icon.jsx";
 import Loading from "../components/Loading.jsx";
+import SpeakCheck from "../components/SpeakCheck.jsx";
 
 function speak(text, rate = 0.9) {
   if (!window.speechSynthesis) return;
@@ -51,9 +52,11 @@ export default function SpeakingShadowing() {
             <Icon name="speaker-wave" size={15} accent="muted" /> Slow
           </button>
         </div>
+
+        <SpeakCheck sentence={s.sentence} />
       </div>
 
-      <div className="mic-hint">Listen a few times, then shadow the sentence out loud until it feels natural.</div>
+      <div className="mic-hint">Listen a few times, shadow it out loud, then hit the mic to check yourself.</div>
 
       <div style={{ display: "flex", gap: 8, marginTop: 16, marginBottom: 20 }}>
         <button className="btn-ghost" disabled={index === 0} onClick={() => setIndex((i) => i - 1)}>‹ Previous</button>

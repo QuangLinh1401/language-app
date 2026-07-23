@@ -1,4 +1,4 @@
-import { useRef, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import { api } from "../api.js";
 import AnimatedIcon from "./AnimatedIcon.jsx";
 
@@ -9,7 +9,26 @@ export default function SettingsModal({ username, onClose, onReset, onLogout }) 
   const [confirmReset, setConfirmReset] = useState(false);
   const [importMsg, setImportMsg] = useState("");
   const [theme, setTheme] = useState(() => localStorage.getItem(THEME_KEY) || "light");
+  const [xpGoal, setXpGoal] = useState(null);
+  const [goalSaving, setGoalSaving] = useState(false);
   const fileRef = useRef(null);
+
+  useEffect(() => {
+    api.progress.get().then((p) => setXpGoal(p.dailyXpGoal || 50)).catch(() => {});
+  }, []);
+
+  async function adjustXpGoal(delta) {
+    if (xpGoal == null || goalSaving) return;
+    const next = Math.min(1000, Math.max(10, xpGoal + delta));
+    if (next === xpGoal) return;
+    setGoalSaving(true);
+    try {
+      await api.progress.updateSettings({ dailyXpGoal: next });
+      setXpGoal(next);
+    } finally {
+      setGoalSaving(false);
+    }
+  }
 
   function applyTheme(next) {
     setTheme(next);
@@ -122,6 +141,15 @@ export default function SettingsModal({ username, onClose, onReset, onLogout }) 
             <img src="/icons/save.svg" alt="" width={16} height={16} />
             {busy === "export" ? "Preparing file..." : "Download my data (JSON)"}
           </button>
+
+          <div style={{ display: "flex", alignItems: "center", gap: 10, marginBottom: 14, paddingTop: 4 }}>
+            <span style={{ fontSize: 12, color: "var(--ink-soft)", fontWeight: 700, flex: 1 }}>Daily XP goal</span>
+            <button className="icon-step" disabled={goalSaving || xpGoal == null || xpGoal <= 10} onClick={() => adjustXpGoal(-10)}>−</button>
+            <span style={{ fontSize: 14, fontWeight: 800, color: "var(--teal-deep)", minWidth: 34, textAlign: "center" }}>
+              {xpGoal == null ? "…" : xpGoal}
+            </span>
+            <button className="icon-step" disabled={goalSaving || xpGoal == null || xpGoal >= 1000} onClick={() => adjustXpGoal(10)}>+</button>
+          </div>
 
           <input ref={fileRef} type="file" accept=".json,application/json" style={{ display: "none" }} onChange={importJson} />
           <button

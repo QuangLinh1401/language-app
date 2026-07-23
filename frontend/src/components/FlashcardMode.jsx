@@ -64,6 +64,13 @@ export default function FlashcardMode({ words, onGrade, onFinish }) {
         <div style={{ height: "100%", background: "var(--amber)", width: `${(index / words.length) * 100}%` }} />
       </div>
 
+      {(w.progress?.forgotStreak || 0) >= 4 && (
+        <div style={{ background: "var(--bad-soft)", border: "1px solid var(--bad)", borderRadius: 12, padding: "8px 12px", fontSize: 11.5, fontWeight: 700, color: "var(--bad-deep)", marginBottom: 10, textAlign: "center" }}>
+          ⚠️ Tricky word — you've forgotten it {w.progress.forgotStreak} times in a row.
+          Slow down: read the example aloud and write your own sentence below.
+        </div>
+      )}
+
       <div className="flashcard" onClick={() => setFlipped((f) => !f)}>
         {!flipped ? (
           <>

@@ -34,13 +34,17 @@ export default function Home() {
   const [session, setSession] = useState(null);
   const [wod, setWod] = useState(null);
   const [openWord, setOpenWord] = useState(false);
+  const [queue, setQueue] = useState(null);
 
   useEffect(() => {
     // touch returns the full summary — one round trip instead of two.
     api.progress.touch(5).then(setProgress);
     api.vocabulary.dailySession().then(setSession);
     api.vocabulary.wordOfDay().then(setWod);
+    api.reviewQueue().then(setQueue);
   }, []);
+
+  const SKILL_ICONS = { grammar: "/icons/grammar.svg", listening: "/icons/listening.svg", reading: "/icons/reading.svg" };
 
   const modules = [
     { to: "/vocabulary", icon: "/icons/vocabulary.svg", anim: "/icons/vocabulary.lottie.json", bg: "var(--teal-soft)", name: "Vocabulary", desc: "5000 words, A1 to B2" },
@@ -63,6 +67,11 @@ export default function Home() {
         <div className="pill" style={{ background: "var(--amber-soft)", borderColor: "var(--amber-line)", color: "#B5720F" }}>
           <AnimatedIcon src="/icons/fire.lottie.json" fallback="/icons/fire.svg" size={18} />
           {progress ? progress.streak.current : "…"} days
+          {progress?.streak?.freezes > 0 && (
+            <span title="Streak freezes — each one saves your streak if you miss a single day" style={{ marginLeft: 2 }}>
+              🧊{progress.streak.freezes > 1 ? `×${progress.streak.freezes}` : ""}
+            </span>
+          )}
         </div>
       </div>
 
@@ -80,12 +89,58 @@ export default function Home() {
       )}
 
       <div className="goal-ticket">
-        <div className="eyebrow">Quick stats</div>
-        <h3>{progress ? `${progress.wordsLearned} words · ${progress.grammarCompleted} grammar lessons` : "Loading..."}</h3>
-        <div style={{ fontSize: 12 }}>
-          {progress ? `${progress.xp} XP earned — keep it up!` : ""}
+        <div className="eyebrow">Daily goal</div>
+        <h3>{progress ? `${Math.min(progress.dailyXp, progress.dailyXpGoal)}/${progress.dailyXpGoal} XP today` : "Loading..."}</h3>
+        {progress && (
+          <div className="goal-bar">
+            <div className="goal-bar-fill" style={{ width: `${Math.min(100, Math.round((progress.dailyXp / progress.dailyXpGoal) * 100))}%` }} />
+          </div>
+        )}
+        <div style={{ fontSize: 12, marginTop: 8 }}>
+          {progress
+            ? progress.dailyXp >= progress.dailyXpGoal
+              ? `🎉 Goal reached! ${progress.wordsLearned} words · ${progress.xp} XP total`
+              : `${progress.wordsLearned} words learned · ${progress.xp} XP total`
+            : ""}
         </div>
       </div>
+
+      {(session?.due.length > 0 || queue?.count > 0) && (
+        <div className="card" style={{ marginBottom: 16 }}>
+          <div style={{ fontSize: 10.5, letterSpacing: "0.08em", textTransform: "uppercase", fontWeight: 800, color: "var(--teal-deep)", marginBottom: 8 }}>
+            📅 Today's plan
+          </div>
+          {session?.due.length > 0 && (
+            <>
+              <Link to="/vocabulary/review" className="plan-row">
+                <span className="plan-num">1</span>
+                <span style={{ flex: 1 }}>Review <b>{session.due.length} due words</b></span>
+                <span>›</span>
+              </Link>
+              <Link to="/vocabulary/practice" state={{ wordIds: session.due.slice(0, 8).map((w) => w.id) }} className="plan-row">
+                <span className="plan-num">2</span>
+                <span style={{ flex: 1 }}>Read those words <b>in a fresh passage</b></span>
+                <span>›</span>
+              </Link>
+              <Link to="/speaking" className="plan-row">
+                <span className="plan-num">3</span>
+                <span style={{ flex: 1 }}>Then <b>say them out loud</b> in Speaking</span>
+                <span>›</span>
+              </Link>
+            </>
+          )}
+          {queue?.items.map((it) => (
+            <Link key={it.skill + it.id} to={it.to} className="plan-row">
+              <img src={SKILL_ICONS[it.skill]} alt="" width={16} height={16} />
+              <span style={{ flex: 1 }}>
+                Re-do <b>{it.title}</b>
+                <span style={{ color: "var(--ink-soft)", fontWeight: 600 }}> · {it.skill} due again</span>
+              </span>
+              <span>›</span>
+            </Link>
+          ))}
+        </div>
+      )}
 
       {wod && (
         <div className="card" style={{ marginBottom: 16, cursor: "pointer" }} onClick={() => setOpenWord(true)}>

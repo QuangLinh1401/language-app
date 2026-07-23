@@ -56,6 +56,8 @@ export const api = {
     get: () => request("/progress"),
     touch: (xp) => request("/progress/touch", { method: "POST", body: JSON.stringify({ xp }) }),
     export: () => request("/progress/export"),
+    updateSettings: (payload) =>
+      request("/progress/settings", { method: "PUT", body: JSON.stringify(payload) }),
     import: (state) => request("/progress/import", { method: "POST", body: JSON.stringify(state) }),
     reset: () => request("/progress/reset", { method: "POST" })
   },
@@ -108,5 +110,7 @@ export const api = {
   speaking: {
     shadowing: () => request("/speaking/shadowing"),
     dialogues: () => request("/speaking/dialogues")
-  }
+  },
+
+  reviewQueue: () => request("/review-queue")
 };

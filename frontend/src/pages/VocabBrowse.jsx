@@ -33,6 +33,16 @@ function StageBadge({ status }) {
   );
 }
 
+// Leech: a word forgotten 4+ times in a row — needs special attention.
+function LeechBadge({ progress }) {
+  if ((progress?.forgotStreak || 0) < 4) return null;
+  return (
+    <span className="pill" title="You've forgotten this word 4+ times in a row — open its details and try a new example or mnemonic" style={{ marginLeft: 6, padding: "2px 8px", fontSize: 9.5, background: "var(--bad-soft)", color: "var(--bad-deep)", borderColor: "transparent" }}>
+      ⚠️ Tricky
+    </span>
+  );
+}
+
 const PAGE_SIZE = 25;
 
 export default function VocabBrowse() {
@@ -110,6 +120,7 @@ export default function VocabBrowse() {
           <span style={{ fontSize: 11.5, color: "var(--ink-soft)", marginLeft: 8 }}>{w.ipa}</span>
           <span className="pill" style={{ marginLeft: 8, padding: "2px 8px", fontSize: 10 }}>{w.level}</span>
           <StageBadge status={w.status} />
+          <LeechBadge progress={w.progress} />
         </div>
         <button
           aria-label="Pronounce"

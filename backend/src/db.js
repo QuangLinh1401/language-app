@@ -2,8 +2,9 @@ import { neon } from "@neondatabase/serverless";
 
 export function defaultState() {
   return {
-    streak: { current: 0, lastActiveDate: null },
+    streak: { current: 0, lastActiveDate: null, freezes: 0 },
     xp: 0,
+    dailyXp: { date: null, amount: 0 },
     wordProgress: {},
     grammarProgress: {},
     listeningProgress: {},
@@ -11,7 +12,7 @@ export function defaultState() {
     // Tracks which brand-new words have already been introduced "today",
     // so the daily new-word cap holds even across page refreshes.
     dailyNewWords: { date: null, wordIds: [] },
-    settings: { dailyNewLimit: 20 }
+    settings: { dailyNewLimit: 20, dailyXpGoal: 50 }
   };
 }
 
@@ -103,23 +104,59 @@ export async function saveState(userId, state) {
 
 // ---- Helpers that operate on a loaded state object ----
 
+const DAY_MS = 86400000;
+
 export function touchStreak(state) {
+  const s = state.streak;
+  if (s.freezes === undefined) s.freezes = 0; // older saves
   const today = new Date().toISOString().slice(0, 10);
-  const last = state.streak.lastActiveDate;
-  if (last === today) return state.streak;
-  const yesterday = new Date(Date.now() - 86400000).toISOString().slice(0, 10);
-  if (last === yesterday) {
-    state.streak.current += 1;
+  if (s.lastActiveDate === today) return s;
+
+  const yesterday = new Date(Date.now() - DAY_MS).toISOString().slice(0, 10);
+  const dayBefore = new Date(Date.now() - 2 * DAY_MS).toISOString().slice(0, 10);
+  if (s.lastActiveDate === yesterday) {
+    s.current += 1;
+  } else if (s.lastActiveDate === dayBefore && s.freezes > 0) {
+    // Missed exactly one day — a streak freeze keeps the run alive.
+    s.freezes -= 1;
+    s.usedFreezeOn = yesterday;
+    s.current += 1;
   } else {
-    state.streak.current = 1;
+    s.current = 1;
   }
-  state.streak.lastActiveDate = today;
-  return state.streak;
+  // Earn a freeze at every 7-day milestone (bank up to 2).
+  if (s.current > 0 && s.current % 7 === 0 && s.freezes < 2) s.freezes += 1;
+  s.lastActiveDate = today;
+  return s;
 }
 
 export function addXp(state, amount) {
   state.xp += amount;
+  const today = todayKey();
+  if (!state.dailyXp || state.dailyXp.date !== today) {
+    state.dailyXp = { date: today, amount: 0 };
+  }
+  state.dailyXp.amount += amount;
   return state.xp;
+}
+
+// Today's XP (resets when the day rolls over).
+export function getDailyXp(state) {
+  const today = todayKey();
+  if (!state.dailyXp || state.dailyXp.date !== today) return 0;
+  return state.dailyXp.amount;
+}
+
+export function getDailyXpGoal(state) {
+  if (!state.settings) state.settings = { dailyNewLimit: 20, dailyXpGoal: 50 };
+  if (!state.settings.dailyXpGoal) state.settings.dailyXpGoal = 50;
+  return state.settings.dailyXpGoal;
+}
+
+export function setDailyXpGoal(state, goal) {
+  getDailyXpGoal(state);
+  state.settings.dailyXpGoal = goal;
+  return goal;
 }
 
 export function todayKey() {

@@ -3,6 +3,7 @@ import { Link, useParams } from "react-router-dom";
 import { api } from "../api.js";
 import Icon from "../components/Icon.jsx";
 import Loading from "../components/Loading.jsx";
+import SpeakCheck from "../components/SpeakCheck.jsx";
 
 function speak(text, rate = 0.9) {
   if (!window.speechSynthesis) return;
@@ -80,8 +81,10 @@ export default function SpeakingDialogue() {
         ))}
       </div>
 
+      {dialogue.lines[current] && <SpeakCheck sentence={dialogue.lines[current].text} />}
+
       <div className="mic-hint" style={{ marginTop: 12 }}>
-        Tap a line to select it, then shadow it out loud. Use "Play the whole dialogue" to hear it flow naturally.
+        Tap a line to select it, say it out loud, then hit the mic to check yourself.
       </div>
     </div>
   );

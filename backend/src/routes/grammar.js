@@ -3,6 +3,7 @@ import fs from "fs";
 import path from "path";
 import { fileURLToPath } from "url";
 import { asyncHandler } from "../auth.js";
+import { scheduleNext } from "../srs.js";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const dataPath = path.join(__dirname, "..", "..", "data", "grammar.json");
@@ -29,7 +30,10 @@ router.get("/:id", (req, res) => {
 router.post("/:id/complete", asyncHandler(async (req, res) => {
   const lesson = grammarData.lessons.find((l) => l.id === req.params.id);
   if (!lesson) return res.status(404).json({ error: "Lesson not found" });
-  req.state.grammarProgress[req.params.id] = { completedAt: Date.now() };
+  // Lessons follow the same spaced-repetition schedule as vocabulary —
+  // each completion pushes the next review further out.
+  const prev = req.state.grammarProgress[req.params.id];
+  req.state.grammarProgress[req.params.id] = { completedAt: Date.now(), ...scheduleNext(prev, "good") };
   await req.saveState();
   res.json({ ok: true });
 }));

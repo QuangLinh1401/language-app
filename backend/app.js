@@ -8,6 +8,7 @@ import listeningRoutes from "./src/routes/listening.js";
 import readingRoutes from "./src/routes/reading.js";
 import speakingRoutes from "./src/routes/speaking.js";
 import progressRoutes from "./src/routes/progress.js";
+import reviewsRoutes from "./src/routes/reviews.js";
 import { requireAuth, withState } from "./src/auth.js";
 
 // The configured Express app, with no .listen() — so it can be used both by
@@ -29,6 +30,7 @@ app.use("/api/listening", requireAuth, withState, listeningRoutes);
 app.use("/api/reading", requireAuth, withState, readingRoutes);
 app.use("/api/speaking", requireAuth, speakingRoutes);
 app.use("/api/progress", requireAuth, withState, progressRoutes);
+app.use("/api/review-queue", requireAuth, withState, reviewsRoutes);
 
 app.get("/api/health", (req, res) => {
   res.json({ ok: true });

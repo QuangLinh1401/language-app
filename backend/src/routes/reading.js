@@ -3,6 +3,7 @@ import fs from "fs";
 import path from "path";
 import { fileURLToPath } from "url";
 import { asyncHandler } from "../auth.js";
+import { scheduleNext } from "../srs.js";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const dataPath = path.join(__dirname, "..", "..", "data", "reading.json");
@@ -38,10 +39,13 @@ router.post("/:id/complete", asyncHandler(async (req, res) => {
   const { score, timeSeconds } = req.body;
   const passage = readingData.passages.find((p) => p.id === req.params.id);
   if (!passage) return res.status(404).json({ error: "Passage not found" });
+  const grade = score != null && passage.questions.length > 0 && score / passage.questions.length < 0.7 ? "hard" : "good";
+  const prev = req.state.readingProgress[req.params.id];
   req.state.readingProgress[req.params.id] = {
     completedAt: Date.now(),
     score: score ?? null,
-    timeSeconds: timeSeconds ?? null
+    timeSeconds: timeSeconds ?? null,
+    ...scheduleNext(prev, grade)
   };
   await req.saveState();
   res.json({ ok: true });

@@ -13,7 +13,10 @@ export function scheduleNext(prevState, grade) {
     reps = 0;
     ease = Math.max(1.3, ease - 0.2);
     const due = Date.now() + 10 * MINUTE;
-    return { interval: 0, ease, reps, due, lastGrade: grade };
+    // Consecutive-forgot counter: >= 4 marks the word as a "leech"
+    // (a stubborn word that needs special attention, Anki-style).
+    const forgotStreak = (state.forgotStreak || 0) + 1;
+    return { interval: 0, ease, reps, due, lastGrade: grade, forgotStreak };
   }
 
   reps += 1;
@@ -30,10 +33,15 @@ export function scheduleNext(prevState, grade) {
   }
 
   const due = Date.now() + interval * DAY;
-  return { interval, ease, reps, due, lastGrade: grade };
+  // Any successful answer breaks the forgot streak.
+  return { interval, ease, reps, due, lastGrade: grade, forgotStreak: 0 };
 }
 
 export function isDue(state) {
   if (!state) return true;
   return Date.now() >= state.due;
+}
+
+export function isLeech(state) {
+  return (state?.forgotStreak || 0) >= 4;
 }

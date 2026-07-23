@@ -1,5 +1,5 @@
 import express from "express";
-import { defaultState, touchStreak, addXp } from "../db.js";
+import { defaultState, touchStreak, addXp, getDailyXp, getDailyXpGoal, setDailyXpGoal } from "../db.js";
 import { asyncHandler } from "../auth.js";
 
 const router = express.Router();
@@ -44,6 +44,8 @@ router.get("/", (req, res) => {
   res.json({
     streak: req.state.streak,
     xp: req.state.xp,
+    dailyXp: getDailyXp(req.state),
+    dailyXpGoal: getDailyXpGoal(req.state),
     wordsLearned: wordCount,
     grammarCompleted: Object.keys(req.state.grammarProgress).length,
     listeningCompleted: Object.keys(req.state.listeningProgress).length,
@@ -60,11 +62,24 @@ router.post("/touch", asyncHandler(async (req, res) => {
   res.json({
     streak,
     xp: req.state.xp,
+    dailyXp: getDailyXp(req.state),
+    dailyXpGoal: getDailyXpGoal(req.state),
     wordsLearned: Object.keys(req.state.wordProgress).length,
     grammarCompleted: Object.keys(req.state.grammarProgress).length,
     listeningCompleted: Object.keys(req.state.listeningProgress).length,
     readingCompleted: Object.keys(req.state.readingProgress).length
   });
+}));
+
+// Adjust the daily XP goal (goal-gradient: a visible finish line each day).
+router.put("/settings", asyncHandler(async (req, res) => {
+  const n = parseInt(req.body.dailyXpGoal, 10);
+  if (!Number.isInteger(n) || n < 10 || n > 1000) {
+    return res.status(400).json({ error: "dailyXpGoal must be an integer between 10 and 1000" });
+  }
+  setDailyXpGoal(req.state, n);
+  await req.saveState();
+  res.json({ dailyXpGoal: n });
 }));
 
 export default router;

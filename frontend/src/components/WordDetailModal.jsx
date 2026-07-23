@@ -149,6 +149,12 @@ export default function WordDetailModal({ wordId, onClose }) {
             </div>
 
             <div className="modal-scroll">
+              {(detail.progress?.forgotStreak || 0) >= 4 && (
+                <div style={{ background: "var(--bad-soft)", border: "1px solid var(--bad)", borderRadius: 12, padding: "9px 12px", fontSize: 11.5, fontWeight: 700, color: "var(--bad-deep)", marginBottom: 12 }}>
+                  ⚠️ This word keeps slipping away ({detail.progress.forgotStreak} misses in a row).
+                  Try reading the examples below out loud, or write your own sentence with it.
+                </div>
+              )}
               {activeTab === "definitions" && (
                 <>
                   {detail.usage && (
