@@ -82,6 +82,10 @@ function buildFallbackWordDetail(word) {
     examples: [word.example, word.phrase].filter(Boolean),
     grammarNote: null,
     synonyms: [],
+    antonyms: [],
+    distinguish: null,
+    compounds: [],
+    senses: [],
     collocations: [],
     isFallback: true
   };
@@ -111,26 +115,37 @@ Reply with ONLY valid JSON, no other text, in this exact structure:
 
 // Chinese words need different fields than English: pinyin is already shown
 // elsewhere, so what's missing is the measure word (量词) for nouns, HSK-style
-// grammar patterns, and examples that carry pinyin + Vietnamese translation
-// together (the UI only has room for one example string per line).
+// grammar patterns, examples that carry pinyin + Vietnamese translation
+// together (the UI only has room for one example string per line), and — for
+// words that behave as more than one part of speech (e.g. 要 as verb, noun,
+// and conjunction) — separate numbered senses per part of speech, each with
+// its own example, rather than one flattened definition.
 function buildChineseInstruction(word) {
   return `You are helping a Vietnamese learner of Mandarin Chinese understand the word "${word.word}" (pinyin: ${word.ipa}, HSK level ${word.level}, meaning in Vietnamese: "${word.meaning}").
 
 Write a detailed but compact explanation IN VIETNAMESE (except the Chinese characters and pinyin themselves) covering:
-- The part of speech as a short Vietnamese label (e.g. "danh từ", "động từ", "tính từ", "phó từ", "liên từ", "lượng từ"). If it's a noun that takes a specific measure word (量词), append it, e.g. "danh từ · lượng từ: 个/张/本".
-- A short, practical usage note: when/how this word is used, its register (formal/informal/written/spoken), common sentence patterns it appears in, and mistakes Vietnamese learners often make with it (e.g. confusing it with a near-synonym).
-- 3 natural example sentences DIFFERENT from "${word.example}", using the word in different contexts. Each example must be formatted as exactly: "<Chinese sentence> (<pinyin>) – <Vietnamese translation>".
-- A short grammar note if relevant (e.g. sentence pattern like "把...了", verb-object separability, whether it needs 了/过/着, word order quirks). Empty string if nothing notable.
-- Up to 4 common near-synonyms (Chinese characters only, empty array if none fit).
-- Up to 4 common collocations or fixed phrases using this word, each formatted as "<Chinese phrase> (<pinyin>) – <Vietnamese meaning>" (empty array if none).
+- "partOfSpeech": a short summary label listing every part of speech this word can act as, separated by " · " (e.g. "động từ · danh từ · liên từ"). If it's a noun that takes a specific measure word (量词), append it, e.g. "danh từ · lượng từ: 个/张/本".
+- "senses": group the word's distinct meanings BY PART OF SPEECH — one entry per part of speech the word actually functions as (most words only have 1, but polyfunctional words like 要 need several). Each entry has:
+  - "partOfSpeech": Vietnamese label for this specific role (e.g. "Động từ", "Danh từ", "Liên từ", "Tính từ", "Phó từ").
+  - "meanings": array of distinct senses under that part of speech, each with "meaning" (short Vietnamese gloss) and "example" formatted as exactly "<Chinese sentence> (<pinyin>) – <Vietnamese translation>". Cover the genuinely common, distinct senses (usually 1-4 per part of speech) — don't pad with near-duplicates.
+- "usage": a short, practical usage note: register (formal/informal/written/spoken), common sentence patterns, and mistakes Vietnamese learners often make with it.
+- "grammarNote": a short grammar note if relevant (e.g. sentence pattern like "把...了", verb-object separability, whether it needs 了/过/着, word order quirks). Empty string if nothing notable.
+- "synonyms": up to 4 common near-synonyms (Chinese characters only, empty array if none fit).
+- "antonyms": up to 4 common antonyms (Chinese characters only, empty array if none fit — many words genuinely have none).
+- "distinguish": if this word is commonly confused with ONE specific near-synonym, a short Vietnamese note contrasting them (e.g. how "要" differs from "想"). Empty string if there's no notable confusion pair.
+- "compounds": up to 6 common multi-character words that contain "${word.word}" as one of their characters (e.g. for 要: 需要, 重要, 主要), each formatted as "<compound word> (<pinyin>) – <Vietnamese meaning>". Empty array only if truly none exist.
+- "collocations": up to 4 common fixed phrases or sentence patterns using this word (not full compound words, but usage patterns like "要么...要么..."), each formatted as "<Chinese phrase> (<pinyin>) – <Vietnamese meaning>" (empty array if none).
 
 Reply with ONLY valid JSON, no other text, in this exact structure:
 {
   "partOfSpeech": "...",
+  "senses": [{ "partOfSpeech": "...", "meanings": [{ "meaning": "...", "example": "..." }] }],
   "usage": "...",
-  "examples": ["...", "...", "..."],
   "grammarNote": "...",
   "synonyms": ["..."],
+  "antonyms": ["..."],
+  "distinguish": "...",
+  "compounds": ["..."],
   "collocations": ["..."]
 }`;
 }
@@ -139,22 +154,43 @@ export async function generateWordDetail(word) {
   if (wordDetailCache.has(word.id)) return wordDetailCache.get(word.id);
   if (!hasApiKey()) return buildFallbackWordDetail(word);
 
-  const instruction = isChinese(word) ? buildChineseInstruction(word) : buildEnglishInstruction(word);
+  const chinese = isChinese(word);
+  const instruction = chinese ? buildChineseInstruction(word) : buildEnglishInstruction(word);
 
   try {
-    const raw = await callClaude([{ role: "user", content: instruction }], 700);
+    const raw = await callClaude([{ role: "user", content: instruction }], chinese ? 1500 : 700);
     const cleaned = raw.replace(/```json|```/g, "").trim();
     const parsed = JSON.parse(cleaned);
+    const senses = Array.isArray(parsed.senses)
+      ? parsed.senses
+          .filter((s) => s && typeof s.partOfSpeech === "string")
+          .map((s) => ({
+            partOfSpeech: s.partOfSpeech,
+            meanings: Array.isArray(s.meanings)
+              ? s.meanings
+                  .filter((m) => m && m.meaning)
+                  .map((m) => ({ meaning: m.meaning, example: m.example || "" }))
+              : []
+          }))
+      : [];
+    // Examples tab falls back to senses' examples when the flat list (English-only) is empty.
+    const flatExamples = Array.isArray(parsed.examples)
+      ? parsed.examples
+      : senses.flatMap((s) => s.meanings.map((m) => m.example).filter(Boolean));
     const detail = {
       word: word.word,
       ipa: word.ipa,
       meaning: word.meaning,
       level: word.level,
       partOfSpeech: parsed.partOfSpeech || null,
+      senses,
       usage: parsed.usage || null,
-      examples: Array.isArray(parsed.examples) ? parsed.examples : [],
+      examples: flatExamples,
       grammarNote: parsed.grammarNote || null,
       synonyms: Array.isArray(parsed.synonyms) ? parsed.synonyms : [],
+      antonyms: Array.isArray(parsed.antonyms) ? parsed.antonyms : [],
+      distinguish: parsed.distinguish || null,
+      compounds: Array.isArray(parsed.compounds) ? parsed.compounds : [],
       collocations: Array.isArray(parsed.collocations) ? parsed.collocations : [],
       isFallback: false
     };

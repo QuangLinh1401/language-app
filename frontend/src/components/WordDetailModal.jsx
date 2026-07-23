@@ -171,7 +171,33 @@ export default function WordDetailModal({ wordId, onClose }) {
                     </div>
                   )}
 
-                  {!dict && !detail.usage && (
+                  {detail.senses?.length > 0 && (
+                    <Section title="Nghĩa theo từ loại">
+                      <div style={{ display: "flex", flexDirection: "column", gap: 14 }}>
+                        {detail.senses.map((s, i) => (
+                          <div key={i}>
+                            <div style={{ fontStyle: "italic", fontWeight: 800, fontSize: 12, color: "var(--violet-deep)", marginBottom: 6 }}>
+                              {s.partOfSpeech}
+                            </div>
+                            <ol style={{ margin: 0, paddingLeft: 18, display: "flex", flexDirection: "column", gap: 8 }}>
+                              {s.meanings.map((m, j) => (
+                                <li key={j} style={{ fontSize: 12.5, lineHeight: 1.6 }}>
+                                  {m.meaning}
+                                  {m.example && (
+                                    <div style={{ color: "var(--ink-soft)", fontStyle: "italic", marginTop: 2 }}>
+                                      “<Highlighted text={m.example} word={detail.word} />”
+                                    </div>
+                                  )}
+                                </li>
+                              ))}
+                            </ol>
+                          </div>
+                        ))}
+                      </div>
+                    </Section>
+                  )}
+
+                  {!dict && !detail.usage && detail.senses?.length === 0 && (
                     <Section title="Definitions">
                       <div className="card" style={{ padding: "12px 14px" }}>
                         <div style={{ fontSize: 13.5, fontWeight: 800, color: "var(--teal)" }}>{detail.meaning}</div>
@@ -257,6 +283,34 @@ export default function WordDetailModal({ wordId, onClose }) {
                       <div style={{ display: "flex", gap: 6, flexWrap: "wrap" }}>
                         {detail.synonyms.map((s) => (
                           <span key={s} className="pill" style={{ cursor: "pointer" }} onClick={() => speak(s)}>{s}</span>
+                        ))}
+                      </div>
+                    </Section>
+                  )}
+
+                  {detail.antonyms?.length > 0 && (
+                    <Section title="Từ trái nghĩa">
+                      <div style={{ display: "flex", gap: 6, flexWrap: "wrap" }}>
+                        {detail.antonyms.map((s) => (
+                          <span key={s} className="pill" style={{ cursor: "pointer" }} onClick={() => speak(s)}>{s}</span>
+                        ))}
+                      </div>
+                    </Section>
+                  )}
+
+                  {detail.distinguish && (
+                    <Section title="Phân biệt từ">
+                      <div style={{ fontSize: 12.5, lineHeight: 1.6 }}>
+                        <Highlighted text={detail.distinguish} word={detail.word} />
+                      </div>
+                    </Section>
+                  )}
+
+                  {detail.compounds?.length > 0 && (
+                    <Section title="Từ ghép thường gặp">
+                      <div style={{ display: "flex", flexDirection: "column", gap: 6 }}>
+                        {detail.compounds.map((c) => (
+                          <div key={c} style={{ fontSize: 12.5, color: "var(--ink-soft)" }}>🔤 {c}</div>
                         ))}
                       </div>
                     </Section>
