@@ -3020,7 +3020,7 @@
     "char": "学",
     "componentMeaning": "học",
     "hanViet": "HỌC",
-    "pictographicOrigin": "Chữ giản thể, hình đứa trẻ (子) dưới mái nhà có bàn tay chỉ dạy — nghĩa \"học\".",
+    "pictographicOrigin": "Hình đứa trẻ (子) dưới mái nhà có bàn tay chỉ dạy — nghĩa \"học\".",
     "radical": "子(bộ tử)",
     "strokeCount": 8
    }
@@ -3153,7 +3153,7 @@
     "char": "学",
     "componentMeaning": "học",
     "hanViet": "HỌC",
-    "pictographicOrigin": "Chữ giản thể, hình đứa trẻ (子) dưới mái nhà có bàn tay chỉ dạy — nghĩa \"học\".",
+    "pictographicOrigin": "Hình đứa trẻ (子) dưới mái nhà có bàn tay chỉ dạy — nghĩa \"học\".",
     "radical": "子(bộ tử)",
     "strokeCount": 8
    },
@@ -3203,7 +3203,7 @@
     "char": "医",
     "componentMeaning": "",
     "hanViet": "Y",
-    "pictographicOrigin": "Chữ giản thể từ 醫, vốn có bộ 酉(rượu, thuốc) — nghĩa \"y học, chữa bệnh\".",
+    "pictographicOrigin": "Chữ giản thể từ 醫 — nghĩa \"y học, chữa bệnh\".",
     "radical": "匚(bộ phương)",
     "strokeCount": 7
    },
@@ -3450,7 +3450,7 @@
     "char": "自",
     "componentMeaning": "",
     "hanViet": "TỰ",
-    "pictographicOrigin": "Chữ giáp cốt vẽ hình một cái MŨI người — người cổ chỉ vào mũi mình khi nói \"tôi, bản thân\".",
+    "pictographicOrigin": "Chữ giáp cốt vẽ hình cái MŨI người — người cổ chỉ vào mũi khi nói \"tôi\".",
     "radical": "自(bộ tự)",
     "strokeCount": 6
    },
@@ -3685,7 +3685,7 @@
     "char": "司",
     "componentMeaning": "",
     "hanViet": "TY/TƯ",
-    "pictographicOrigin": "Chữ giáp cốt vẽ hình một người ra lệnh bằng miệng — nghĩa \"quản lý, điều khiển\".",
+    "pictographicOrigin": "Chữ giáp cốt vẽ hình người ra lệnh bằng miệng — nghĩa \"quản lý, điều khiển\".",
     "radical": "口(bộ khẩu)",
     "strokeCount": 5
    },
@@ -3693,7 +3693,7 @@
     "char": "机",
     "componentMeaning": "máy",
     "hanViet": "CƠ",
-    "pictographicOrigin": "Bộ 木(gỗ) — máy móc thời cổ làm bằng gỗ, nghĩa \"máy\".",
+    "pictographicOrigin": "Bộ 木(gỗ) — máy móc làm bằng gỗ thời cổ, \"máy\".",
     "radical": "木(bộ mộc)",
     "strokeCount": 6
    }
@@ -5025,7 +5025,7 @@
     "char": "面",
     "componentMeaning": "bột mì",
     "hanViet": "DIỆN",
-    "pictographicOrigin": "Chữ giáp cốt vẽ hình khuôn mặt người với đường viền — nghĩa gốc \"mặt\", mượn chỉ \"bột mì, mì\".",
+    "pictographicOrigin": "Chữ giáp cốt vẽ hình khuôn mặt người — nghĩa gốc \"mặt\", mở rộng nghĩa \"mặt, phía\".",
     "radical": "面(bộ diện)",
     "strokeCount": 9
    },
@@ -5398,7 +5398,7 @@
     "char": "饭",
     "componentMeaning": "cơm",
     "hanViet": "PHẠN",
-    "pictographicOrigin": "Bộ 饣(ăn uống) ghép 反 lấy âm — nghĩa \"cơm, bữa ăn\".",
+    "pictographicOrigin": "Bộ 饣(ăn uống) ghép 反 lấy âm — nghĩa \"cơm\" (饭店 nghĩa đen \"cửa hàng cơm\").",
     "radical": "饣(bộ thực)",
     "strokeCount": 7
    }
@@ -5441,7 +5441,7 @@
     "char": "饭",
     "componentMeaning": "cơm",
     "hanViet": "PHẠN",
-    "pictographicOrigin": "Bộ 饣(ăn uống) ghép 反 lấy âm — nghĩa \"cơm, bữa ăn\".",
+    "pictographicOrigin": "Bộ 饣(ăn uống) ghép 反 lấy âm — nghĩa \"cơm\" (饭店 nghĩa đen \"cửa hàng cơm\").",
     "radical": "饣(bộ thực)",
     "strokeCount": 7
    }
@@ -5484,7 +5484,7 @@
     "char": "饭",
     "componentMeaning": "cơm",
     "hanViet": "PHẠN",
-    "pictographicOrigin": "Bộ 饣(ăn uống) ghép 反 lấy âm — nghĩa \"cơm, bữa ăn\".",
+    "pictographicOrigin": "Bộ 饣(ăn uống) ghép 反 lấy âm — nghĩa \"cơm\" (饭店 nghĩa đen \"cửa hàng cơm\").",
     "radical": "饣(bộ thực)",
     "strokeCount": 7
    }
@@ -5519,7 +5519,7 @@
     "char": "饭",
     "componentMeaning": "",
     "hanViet": "PHẠN",
-    "pictographicOrigin": "Bộ 饣(ăn uống) ghép 反 lấy âm — nghĩa \"cơm, bữa ăn\".",
+    "pictographicOrigin": "Bộ 饣(ăn uống) ghép 反 lấy âm — nghĩa \"cơm\" (饭店 nghĩa đen \"cửa hàng cơm\").",
     "radical": "饣(bộ thực)",
     "strokeCount": 7
    }
@@ -5909,7 +5909,7 @@
     "char": "饭",
     "componentMeaning": "cơm",
     "hanViet": "PHẠN",
-    "pictographicOrigin": "Bộ 饣(ăn uống) ghép 反 lấy âm — nghĩa \"cơm, bữa ăn\".",
+    "pictographicOrigin": "Bộ 饣(ăn uống) ghép 反 lấy âm — nghĩa \"cơm\" (饭店 nghĩa đen \"cửa hàng cơm\").",
     "radical": "饣(bộ thực)",
     "strokeCount": 7
    },
@@ -5917,7 +5917,7 @@
     "char": "馆",
     "componentMeaning": "quán",
     "hanViet": "QUÁN",
-    "pictographicOrigin": "Bộ 饣(ăn uống) ghép 官 lấy âm — nơi phục vụ ăn uống, \"quán, nhà hàng\".",
+    "pictographicOrigin": "Bộ 饣(ăn uống) ghép 官 lấy âm — nơi phục vụ công cộng, \"quán, thư viện\".",
     "radical": "饣(bộ thực)",
     "strokeCount": 11
    }
@@ -6013,7 +6013,7 @@
     "char": "饭",
     "componentMeaning": "cơm",
     "hanViet": "PHẠN",
-    "pictographicOrigin": "Bộ 饣(ăn uống) ghép 反 lấy âm — nghĩa \"cơm, bữa ăn\".",
+    "pictographicOrigin": "Bộ 饣(ăn uống) ghép 反 lấy âm — nghĩa \"cơm\" (饭店 nghĩa đen \"cửa hàng cơm\").",
     "radical": "饣(bộ thực)",
     "strokeCount": 7
    }
@@ -6295,7 +6295,7 @@
     "char": "面",
     "componentMeaning": "bột mì",
     "hanViet": "DIỆN",
-    "pictographicOrigin": "Chữ giáp cốt vẽ hình khuôn mặt người với đường viền — nghĩa gốc \"mặt\", mượn chỉ \"bột mì, mì\".",
+    "pictographicOrigin": "Chữ giáp cốt vẽ hình khuôn mặt người — nghĩa gốc \"mặt\", mở rộng nghĩa \"mặt, phía\".",
     "radical": "面(bộ diện)",
     "strokeCount": 9
    },
@@ -7597,7 +7597,7 @@
     "char": "上",
     "componentMeaning": "trên",
     "hanViet": "THƯỢNG",
-    "pictographicOrigin": "Một nét ngang dài (mặt đất) với một nét ngắn phía trên — biểu thị vị trí \"TRÊN\".",
+    "pictographicOrigin": "Một nét ngang (mặt đất) với một nét ngắn phía trên — vị trí \"trên\".",
     "radical": "一(bộ nhất)",
     "strokeCount": 3
    },
@@ -7645,7 +7645,7 @@
     "char": "中",
     "componentMeaning": "giữa",
     "hanViet": "TRUNG",
-    "pictographicOrigin": "Hình một mũi tên xuyên qua chính GIỮA một cái khiên/vòng tròn — nghĩa \"giữa, trung\".",
+    "pictographicOrigin": "Hình mũi tên xuyên qua chính giữa một cái khiên — nghĩa \"giữa, trung\".",
     "radical": "丨(bộ cổn)",
     "strokeCount": 4
    },
@@ -7749,7 +7749,7 @@
     "char": "上",
     "componentMeaning": "hậu tố thời gian",
     "hanViet": "THƯỢNG",
-    "pictographicOrigin": "Một nét ngang dài (mặt đất) với một nét ngắn phía trên — biểu thị vị trí \"TRÊN\".",
+    "pictographicOrigin": "Một nét ngang (mặt đất) với một nét ngắn phía trên — vị trí \"trên\".",
     "radical": "一(bộ nhất)",
     "strokeCount": 3
    }
@@ -7797,7 +7797,7 @@
     "char": "上",
     "componentMeaning": "hậu tố thời gian",
     "hanViet": "THƯỢNG",
-    "pictographicOrigin": "Một nét ngang dài (mặt đất) với một nét ngắn phía trên — biểu thị vị trí \"TRÊN\".",
+    "pictographicOrigin": "Một nét ngang (mặt đất) với một nét ngắn phía trên — vị trí \"trên\".",
     "radical": "一(bộ nhất)",
     "strokeCount": 3
    }
@@ -8152,7 +8152,7 @@
     "char": "前",
     "componentMeaning": "trước",
     "hanViet": "TIỀN",
-    "pictographicOrigin": "Chữ giáp cốt vẽ hình một chiếc thuyền (舟) với bàn chân (止) — người bước lên thuyền tiến về PHÍA TRƯỚC.",
+    "pictographicOrigin": "Hình một chiếc thuyền với bàn chân — người bước lên thuyền tiến về PHÍA TRƯỚC.",
     "radical": "刀(bộ đao)",
     "strokeCount": 9
    }
@@ -8200,7 +8200,7 @@
     "char": "后",
     "componentMeaning": "sau",
     "hanViet": "HẬU",
-    "pictographicOrigin": "Chữ giản thể (mượn từ 後), nghĩa \"phía sau, sau này\".",
+    "pictographicOrigin": "Chữ giản thể (mượn từ 後), nghĩa \"phía sau\".",
     "radical": "口(bộ khẩu)",
     "strokeCount": 6
    }
@@ -8657,6 +8657,2221 @@
      }
     ],
     "partOfSpeech": "Số từ"
+   }
+  ],
+  "synonyms": [],
+  "usage": ""
+ },
+ "zh-places-transport-1": {
+  "antonyms": [],
+  "characters": [
+   {
+    "char": "中",
+    "componentMeaning": "giữa",
+    "hanViet": "TRUNG",
+    "pictographicOrigin": "Hình mũi tên xuyên qua chính giữa một cái khiên — nghĩa \"giữa, trung\".",
+    "radical": "丨(bộ cổn)",
+    "strokeCount": 4
+   },
+   {
+    "char": "国",
+    "componentMeaning": "nước",
+    "hanViet": "QUỐC",
+    "pictographicOrigin": "Bộ 囗(vòng thành lũy) bao quanh 玉(ngọc/vua) — vùng đất có vua cai trị, \"nước\".",
+    "radical": "囗(bộ vi)",
+    "strokeCount": 8
+   }
+  ],
+  "collocations": [],
+  "compounds": [],
+  "distinguish": "",
+  "distinguishExample": "",
+  "grammarExample": "",
+  "grammarNote": "",
+  "image": "🇨🇳",
+  "mnemonic": "中国 = 中(giữa) + 国(nước có vua) — \"nước Ở GIỮA\", tên gọi truyền thống của TRUNG QUỐC.",
+  "partOfSpeech": "Danh từ riêng",
+  "senses": [
+   {
+    "meanings": [
+     {
+      "example": "我在中国学习汉语。 (Wǒ zài Zhōngguó xuéxí Hànyǔ.) – Tôi học tiếng Trung ở Trung Quốc.",
+      "meaning": "Trung Quốc"
+     }
+    ],
+    "partOfSpeech": "Danh từ riêng"
+   }
+  ],
+  "synonyms": [],
+  "usage": ""
+ },
+ "zh-places-transport-10": {
+  "antonyms": [],
+  "characters": [
+   {
+    "char": "银",
+    "componentMeaning": "bạc",
+    "hanViet": "NGÂN",
+    "pictographicOrigin": "Bộ 钅(kim loại) ghép 艮 lấy âm — kim loại quý màu trắng, \"bạc\", mở rộng nghĩa \"ngân hàng\".",
+    "radical": "钅(bộ kim)",
+    "strokeCount": 11
+   },
+   {
+    "char": "行",
+    "componentMeaning": "hàng",
+    "hanViet": "HÀNH/HÀNG",
+    "pictographicOrigin": "Chữ giáp cốt vẽ hình một ngã tư đường — nghĩa \"đi, hàng lối\".",
+    "radical": "行(bộ hành)",
+    "strokeCount": 6
+   }
+  ],
+  "collocations": [],
+  "compounds": [],
+  "distinguish": "",
+  "distinguishExample": "",
+  "grammarExample": "",
+  "grammarNote": "",
+  "image": "🏦",
+  "mnemonic": "银行 = 银(bạc, kim loại quý) + 行(hàng) — nơi lưu trữ \"BẠC\" (tiền), NGÂN HÀNG.",
+  "partOfSpeech": "Danh từ",
+  "senses": [
+   {
+    "meanings": [
+     {
+      "example": "银行几点开门？ (Yínháng jǐ diǎn kāimén?) – Ngân hàng mấy giờ mở cửa?",
+      "meaning": "ngân hàng"
+     }
+    ],
+    "partOfSpeech": "Danh từ"
+   }
+  ],
+  "synonyms": [],
+  "usage": ""
+ },
+ "zh-places-transport-11": {
+  "antonyms": [],
+  "characters": [
+   {
+    "char": "公",
+    "componentMeaning": "chung",
+    "hanViet": "CÔNG",
+    "pictographicOrigin": "Chữ giáp cốt vẽ hình vật được CHIA đều công bằng — nghĩa \"công cộng, công bằng\".",
+    "radical": "八(bộ bát)",
+    "strokeCount": 4
+   },
+   {
+    "char": "司",
+    "componentMeaning": "quản lý",
+    "hanViet": "TY/TƯ",
+    "pictographicOrigin": "Chữ giáp cốt vẽ hình người ra lệnh bằng miệng — nghĩa \"quản lý, điều khiển\".",
+    "radical": "口(bộ khẩu)",
+    "strokeCount": 5
+   }
+  ],
+  "collocations": [],
+  "compounds": [],
+  "distinguish": "",
+  "distinguishExample": "",
+  "grammarExample": "",
+  "grammarNote": "",
+  "image": "🏢",
+  "mnemonic": "公司 = 公(chung) + 司(quản lý, điều khiển) — tổ chức QUẢN LÝ việc CHUNG, CÔNG TY.",
+  "partOfSpeech": "Danh từ",
+  "senses": [
+   {
+    "meanings": [
+     {
+      "example": "我在一家公司上班。 (Wǒ zài yì jiā gōngsī shàngbān.) – Tôi làm việc ở một công ty.",
+      "meaning": "công ty"
+     }
+    ],
+    "partOfSpeech": "Danh từ"
+   }
+  ],
+  "synonyms": [],
+  "usage": ""
+ },
+ "zh-places-transport-12": {
+  "antonyms": [],
+  "characters": [
+   {
+    "char": "公",
+    "componentMeaning": "chung",
+    "hanViet": "CÔNG",
+    "pictographicOrigin": "Chữ giáp cốt vẽ hình vật được CHIA đều công bằng — nghĩa \"công cộng, công bằng\".",
+    "radical": "八(bộ bát)",
+    "strokeCount": 4
+   },
+   {
+    "char": "园",
+    "componentMeaning": "vườn",
+    "hanViet": "VIÊN",
+    "pictographicOrigin": "Bộ 囗(vòng rào) bao quanh 元 — khu đất có rào quanh trồng cây, \"vườn, công viên\".",
+    "radical": "囗(bộ vi)",
+    "strokeCount": 7
+   }
+  ],
+  "collocations": [],
+  "compounds": [],
+  "distinguish": "",
+  "distinguishExample": "",
+  "grammarExample": "",
+  "grammarNote": "",
+  "image": "🏞️",
+  "mnemonic": "公园 = 公(công cộng) + 园(vườn có rào) — khu VƯỜN dành cho CÔNG CỘNG, CÔNG VIÊN.",
+  "partOfSpeech": "Danh từ",
+  "senses": [
+   {
+    "meanings": [
+     {
+      "example": "我们去公园散步吧。 (Wǒmen qù gōngyuán sànbù ba.) – Chúng ta đi dạo công viên đi.",
+      "meaning": "công viên"
+     }
+    ],
+    "partOfSpeech": "Danh từ"
+   }
+  ],
+  "synonyms": [],
+  "usage": ""
+ },
+ "zh-places-transport-13": {
+  "antonyms": [],
+  "characters": [
+   {
+    "char": "机",
+    "componentMeaning": "máy",
+    "hanViet": "CƠ",
+    "pictographicOrigin": "Bộ 木(gỗ) — máy móc làm bằng gỗ thời cổ, \"máy\".",
+    "radical": "木(bộ mộc)",
+    "strokeCount": 6
+   },
+   {
+    "char": "场",
+    "componentMeaning": "sân, bãi",
+    "hanViet": "TRƯỜNG",
+    "pictographicOrigin": "Bộ 土(đất) — một khoảng đất trống rộng, \"sân, trường (bãi)\".",
+    "radical": "土(bộ thổ)",
+    "strokeCount": 6
+   }
+  ],
+  "collocations": [],
+  "compounds": [],
+  "distinguish": "",
+  "distinguishExample": "",
+  "grammarExample": "",
+  "grammarNote": "",
+  "image": "✈️",
+  "mnemonic": "机场 = 机(máy bay) + 场(bãi đất rộng) — bãi đất cho MÁY BAY, SÂN BAY.",
+  "partOfSpeech": "Danh từ",
+  "senses": [
+   {
+    "meanings": [
+     {
+      "example": "我们去机场接他。 (Wǒmen qù jīchǎng jiē tā.) – Chúng tôi đi sân bay đón anh ấy.",
+      "meaning": "sân bay"
+     }
+    ],
+    "partOfSpeech": "Danh từ"
+   }
+  ],
+  "synonyms": [],
+  "usage": ""
+ },
+ "zh-places-transport-14": {
+  "antonyms": [],
+  "characters": [
+   {
+    "char": "火",
+    "componentMeaning": "lửa",
+    "hanViet": "HỎA",
+    "pictographicOrigin": "Chữ giáp cốt vẽ hình ngọn lửa đang cháy bùng lên — nghĩa \"lửa\".",
+    "radical": "火(bộ hỏa)",
+    "strokeCount": 4
+   },
+   {
+    "char": "车",
+    "componentMeaning": "xe",
+    "hanViet": "XA",
+    "pictographicOrigin": "Chữ giản thể, vốn vẽ hình một cỗ xe nhìn từ trên xuống với bánh xe — nghĩa \"xe\".",
+    "radical": "车(bộ xa)",
+    "strokeCount": 4
+   },
+   {
+    "char": "站",
+    "componentMeaning": "trạm",
+    "hanViet": "TRẠM",
+    "pictographicOrigin": "Bộ 立(đứng) ghép 占 lấy âm — nơi người ta ĐỨNG chờ, \"trạm, ga\".",
+    "radical": "立(bộ lập)",
+    "strokeCount": 10
+   }
+  ],
+  "collocations": [],
+  "compounds": [],
+  "distinguish": "",
+  "distinguishExample": "",
+  "grammarExample": "",
+  "grammarNote": "",
+  "image": "🚉",
+  "mnemonic": "火车站 = 火车(tàu hỏa, xe chạy bằng lửa) + 站(trạm đứng chờ) — trạm dừng của TÀU HỎA.",
+  "partOfSpeech": "Danh từ",
+  "senses": [
+   {
+    "meanings": [
+     {
+      "example": "火车站离这儿很近。 (Huǒchēzhàn lí zhèr hěn jìn.) – Ga tàu hỏa gần đây.",
+      "meaning": "ga tàu hỏa"
+     }
+    ],
+    "partOfSpeech": "Danh từ"
+   }
+  ],
+  "synonyms": [],
+  "usage": ""
+ },
+ "zh-places-transport-15": {
+  "antonyms": [],
+  "characters": [
+   {
+    "char": "饭",
+    "componentMeaning": "cơm",
+    "hanViet": "PHẠN",
+    "pictographicOrigin": "Bộ 饣(ăn uống) ghép 反 lấy âm — nghĩa \"cơm\" (饭店 nghĩa đen \"cửa hàng cơm\").",
+    "radical": "饣(bộ thực)",
+    "strokeCount": 7
+   },
+   {
+    "char": "店",
+    "componentMeaning": "cửa hàng",
+    "hanViet": "ĐIẾM",
+    "pictographicOrigin": "Bộ 广(mái nhà, lều) ghép 占(chiếm chỗ) — nơi dựng lều để bán hàng, \"cửa hàng\".",
+    "radical": "广(bộ nghiễm)",
+    "strokeCount": 8
+   }
+  ],
+  "collocations": [],
+  "compounds": [],
+  "distinguish": "",
+  "distinguishExample": "",
+  "grammarExample": "",
+  "grammarNote": "",
+  "image": "🏨",
+  "mnemonic": "饭店 = 饭(cơm) + 店(cửa hàng) — \"cửa hàng CƠM\" ban đầu, nay mở rộng thành KHÁCH SẠN.",
+  "partOfSpeech": "Danh từ",
+  "senses": [
+   {
+    "meanings": [
+     {
+      "example": "我们住在这家饭店。 (Wǒmen zhù zài zhè jiā fàndiàn.) – Chúng tôi ở khách sạn này.",
+      "meaning": "khách sạn"
+     },
+     {
+      "example": "这家饭店的菜很好吃。 (Zhè jiā fàndiàn de cài hěn hǎochī.) – Món ăn ở nhà hàng này rất ngon.",
+      "meaning": "nhà hàng (nghĩa cũ hơn/vùng miền)"
+     }
+    ],
+    "partOfSpeech": "Danh từ"
+   }
+  ],
+  "synonyms": [
+   {
+    "example": "这家酒店五星级。 (Zhè jiā jiǔdiàn wǔ xīngjí.) – Khách sạn này 5 sao.",
+    "word": "酒店"
+   }
+  ],
+  "usage": "饭店 ở miền Bắc Trung Quốc thường chỉ khách sạn; ở nhiều nơi khác cũng dùng chỉ nhà hàng lớn."
+ },
+ "zh-places-transport-16": {
+  "antonyms": [],
+  "characters": [
+   {
+    "char": "房",
+    "componentMeaning": "phòng",
+    "hanViet": "PHÒNG",
+    "pictographicOrigin": "Bộ 户(cửa một cánh) ghép 方 lấy âm — một gian có cửa riêng, \"phòng\".",
+    "radical": "户(bộ hộ)",
+    "strokeCount": 8
+   },
+   {
+    "char": "间",
+    "componentMeaning": "gian, khoảng",
+    "hanViet": "GIAN",
+    "pictographicOrigin": "Bộ 门(cửa) với 日(ánh sáng) lọt qua khe — khoảng KHÔNG GIAN giữa hai cánh cửa.",
+    "radical": "门(bộ môn)",
+    "strokeCount": 7
+   }
+  ],
+  "collocations": [],
+  "compounds": [],
+  "distinguish": "",
+  "distinguishExample": "",
+  "grammarExample": "",
+  "grammarNote": "",
+  "image": "🚪",
+  "mnemonic": "房间 = 房(có cửa riêng) + 间(khoảng không gian) — một khoảng KHÔNG GIAN có CỬA riêng, PHÒNG.",
+  "partOfSpeech": "Danh từ",
+  "senses": [
+   {
+    "meanings": [
+     {
+      "example": "我的房间在二楼。 (Wǒ de fángjiān zài èr lóu.) – Phòng tôi ở tầng hai.",
+      "meaning": "phòng"
+     }
+    ],
+    "partOfSpeech": "Danh từ"
+   }
+  ],
+  "synonyms": [],
+  "usage": ""
+ },
+ "zh-places-transport-17": {
+  "antonyms": [],
+  "characters": [
+   {
+    "char": "洗",
+    "componentMeaning": "rửa",
+    "hanViet": "TẨY",
+    "pictographicOrigin": "Bộ 氵(nước) ghép 先 lấy âm — dùng nước để RỬA.",
+    "radical": "氵(bộ thủy)",
+    "strokeCount": 9
+   },
+   {
+    "char": "手",
+    "componentMeaning": "tay",
+    "hanViet": "THỦ",
+    "pictographicOrigin": "Chữ giáp cốt vẽ hình một bàn tay xòe năm ngón — nghĩa \"tay\".",
+    "radical": "手(bộ thủ)",
+    "strokeCount": 4
+   },
+   {
+    "char": "间",
+    "componentMeaning": "gian, phòng",
+    "hanViet": "GIAN",
+    "pictographicOrigin": "Bộ 门(cửa) với 日(ánh sáng) lọt qua khe — khoảng KHÔNG GIAN giữa hai cánh cửa.",
+    "radical": "门(bộ môn)",
+    "strokeCount": 7
+   }
+  ],
+  "collocations": [],
+  "compounds": [],
+  "distinguish": "",
+  "distinguishExample": "",
+  "grammarExample": "",
+  "grammarNote": "",
+  "image": "🚻",
+  "mnemonic": "洗手间 = 洗(rửa) + 手(tay) + 间(phòng) — \"PHÒNG RỬA TAY\", cách gọi lịch sự của NHÀ VỆ SINH.",
+  "partOfSpeech": "Danh từ",
+  "senses": [
+   {
+    "meanings": [
+     {
+      "example": "洗手间在哪儿？ (Xǐshǒujiān zài nǎr?) – Nhà vệ sinh ở đâu?",
+      "meaning": "nhà vệ sinh"
+     }
+    ],
+    "partOfSpeech": "Danh từ"
+   }
+  ],
+  "synonyms": [
+   {
+    "example": "厕所在那边。 (Cèsuǒ zài nàbiān.) – Nhà vệ sinh ở phía đó.",
+    "word": "厕所"
+   }
+  ],
+  "usage": "洗手间 lịch sự hơn 厕所 (cèsuǒ) — nghĩa đen \"phòng rửa tay\"."
+ },
+ "zh-places-transport-18": {
+  "antonyms": [],
+  "characters": [
+   {
+    "char": "教",
+    "componentMeaning": "dạy",
+    "hanViet": "GIÁO",
+    "pictographicOrigin": "Bộ 攵(cầm roi/thước) ghép 孝(hiếu) — người cầm thước DẠY, \"giáo dục\".",
+    "radical": "攵(bộ phốc)",
+    "strokeCount": 11
+   },
+   {
+    "char": "室",
+    "componentMeaning": "phòng",
+    "hanViet": "THẤT",
+    "pictographicOrigin": "Bộ 宀(mái nhà) trên 至(đến, tận cùng) — căn phòng sâu trong nhà.",
+    "radical": "宀(bộ miên)",
+    "strokeCount": 9
+   }
+  ],
+  "collocations": [],
+  "compounds": [],
+  "distinguish": "",
+  "distinguishExample": "",
+  "grammarExample": "",
+  "grammarNote": "",
+  "image": "🏫",
+  "mnemonic": "教室 = 教(dạy, tay cầm roi) + 室(phòng sâu trong nhà) — PHÒNG để DẠY HỌC.",
+  "partOfSpeech": "Danh từ",
+  "senses": [
+   {
+    "meanings": [
+     {
+      "example": "教室里有很多学生。 (Jiàoshì lǐ yǒu hěn duō xuésheng.) – Trong phòng học có nhiều học sinh.",
+      "meaning": "phòng học"
+     }
+    ],
+    "partOfSpeech": "Danh từ"
+   }
+  ],
+  "synonyms": [],
+  "usage": ""
+ },
+ "zh-places-transport-19": {
+  "antonyms": [],
+  "characters": [
+   {
+    "char": "图",
+    "componentMeaning": "hình vẽ",
+    "hanViet": "ĐỒ",
+    "pictographicOrigin": "Chữ giản thể, bộ 囗(khung viền) bao một hình vẽ — nghĩa \"bản đồ, hình vẽ\".",
+    "radical": "囗(bộ vi)",
+    "strokeCount": 8
+   },
+   {
+    "char": "书",
+    "componentMeaning": "sách",
+    "hanViet": "THƯ",
+    "pictographicOrigin": "Chữ giản thể từ 書, vốn vẽ hình tay cầm bút viết — nghĩa \"sách, chữ viết\".",
+    "radical": "乛(bộ quyết)",
+    "strokeCount": 4
+   },
+   {
+    "char": "馆",
+    "componentMeaning": "quán",
+    "hanViet": "QUÁN",
+    "pictographicOrigin": "Bộ 饣(ăn uống) ghép 官 lấy âm — nơi phục vụ công cộng, \"quán, thư viện\".",
+    "radical": "饣(bộ thực)",
+    "strokeCount": 11
+   }
+  ],
+  "collocations": [],
+  "compounds": [],
+  "distinguish": "",
+  "distinguishExample": "",
+  "grammarExample": "",
+  "grammarNote": "",
+  "image": "📚",
+  "mnemonic": "图书馆 = 图(hình vẽ) + 书(sách) + 馆(quán) — \"QUÁN chứa SÁCH và HÌNH VẼ\", THƯ VIỆN.",
+  "partOfSpeech": "Danh từ",
+  "senses": [
+   {
+    "meanings": [
+     {
+      "example": "我在图书馆学习。 (Wǒ zài túshūguǎn xuéxí.) – Tôi học ở thư viện.",
+      "meaning": "thư viện"
+     }
+    ],
+    "partOfSpeech": "Danh từ"
+   }
+  ],
+  "synonyms": [],
+  "usage": ""
+ },
+ "zh-places-transport-2": {
+  "antonyms": [],
+  "characters": [
+   {
+    "char": "越",
+    "componentMeaning": "vượt/Việt",
+    "hanViet": "VIỆT",
+    "pictographicOrigin": "Bộ 走(đi, chạy) ghép 戉(rìu) — nghĩa gốc \"vượt qua\", cũng là tên một dân tộc/nước cổ, VIỆT.",
+    "radical": "走(bộ tẩu)",
+    "strokeCount": 12
+   },
+   {
+    "char": "南",
+    "componentMeaning": "nam",
+    "hanViet": "NAM",
+    "pictographicOrigin": "Chữ giáp cốt vẽ hình một loại nhạc cụ treo — mượn âm chỉ hướng NAM.",
+    "radical": "十(bộ thập)",
+    "strokeCount": 9
+   }
+  ],
+  "collocations": [],
+  "compounds": [],
+  "distinguish": "",
+  "distinguishExample": "",
+  "grammarExample": "",
+  "grammarNote": "",
+  "image": "🇻🇳",
+  "mnemonic": "越南 = 越(vượt qua) + 南(nam) — vùng đất phía NAM, VIỆT NAM.",
+  "partOfSpeech": "Danh từ riêng",
+  "senses": [
+   {
+    "meanings": [
+     {
+      "example": "越南菜很好吃。 (Yuènán cài hěn hǎochī.) – Món ăn Việt Nam rất ngon.",
+      "meaning": "Việt Nam"
+     }
+    ],
+    "partOfSpeech": "Danh từ riêng"
+   }
+  ],
+  "synonyms": [],
+  "usage": ""
+ },
+ "zh-places-transport-20": {
+  "antonyms": [],
+  "characters": [
+   {
+    "char": "办",
+    "componentMeaning": "làm",
+    "hanViet": "BIỆN",
+    "pictographicOrigin": "Chữ giản thể, có bộ 力(sức lực) — dốc sức LÀM việc, \"xử lý, làm\".",
+    "radical": "力(bộ lực)",
+    "strokeCount": 4
+   },
+   {
+    "char": "公",
+    "componentMeaning": "công việc",
+    "hanViet": "CÔNG",
+    "pictographicOrigin": "Chữ giáp cốt vẽ hình vật được CHIA đều công bằng — nghĩa \"công cộng, công bằng\".",
+    "radical": "八(bộ bát)",
+    "strokeCount": 4
+   },
+   {
+    "char": "室",
+    "componentMeaning": "phòng",
+    "hanViet": "THẤT",
+    "pictographicOrigin": "Bộ 宀(mái nhà) trên 至(đến, tận cùng) — căn phòng sâu trong nhà.",
+    "radical": "宀(bộ miên)",
+    "strokeCount": 9
+   }
+  ],
+  "collocations": [],
+  "compounds": [],
+  "distinguish": "",
+  "distinguishExample": "",
+  "grammarExample": "",
+  "grammarNote": "",
+  "image": "🏢",
+  "mnemonic": "办公室 = 办(làm) + 公(việc chung) + 室(phòng) — PHÒNG để LÀM VIỆC CHUNG, VĂN PHÒNG.",
+  "partOfSpeech": "Danh từ",
+  "senses": [
+   {
+    "meanings": [
+     {
+      "example": "经理在办公室。 (Jīnglǐ zài bàngōngshì.) – Giám đốc đang ở văn phòng.",
+      "meaning": "văn phòng"
+     }
+    ],
+    "partOfSpeech": "Danh từ"
+   }
+  ],
+  "synonyms": [],
+  "usage": ""
+ },
+ "zh-places-transport-21": {
+  "antonyms": [
+   {
+    "example": "上面是天，下面是地。 (Shàngmiàn shì tiān, xiàmiàn shì dì.) – Trên là trời, dưới là đất.",
+    "word": "下"
+   }
+  ],
+  "characters": [
+   {
+    "char": "上",
+    "componentMeaning": "",
+    "hanViet": "THƯỢNG",
+    "pictographicOrigin": "Một nét ngang (mặt đất) với một nét ngắn phía trên — vị trí \"trên\".",
+    "radical": "一(bộ nhất)",
+    "strokeCount": 3
+   }
+  ],
+  "collocations": [],
+  "compounds": [],
+  "distinguish": "",
+  "distinguishExample": "",
+  "grammarExample": "",
+  "grammarNote": "",
+  "image": "⬆️",
+  "mnemonic": "上 = một nét ngắn phía TRÊN một đường ngang (mặt đất).",
+  "partOfSpeech": "Danh từ",
+  "senses": [
+   {
+    "meanings": [
+     {
+      "example": "书在桌子上。 (Shū zài zhuōzi shàng.) – Sách ở trên bàn.",
+      "meaning": "trên"
+     }
+    ],
+    "partOfSpeech": "Danh từ"
+   }
+  ],
+  "synonyms": [],
+  "usage": "上 đứng sau danh từ để chỉ vị trí (桌子上 = trên bàn), khác với 上 đứng đầu (上午 = buổi sáng)."
+ },
+ "zh-places-transport-22": {
+  "antonyms": [
+   {
+    "example": "见分辨\"上\"。",
+    "word": "上"
+   }
+  ],
+  "characters": [
+   {
+    "char": "下",
+    "componentMeaning": "",
+    "hanViet": "HẠ",
+    "pictographicOrigin": "Một nét ngang dài (mặt đất) với một nét ngắn phía dưới — biểu thị vị trí \"DƯỚI\".",
+    "radical": "一(bộ nhất)",
+    "strokeCount": 3
+   }
+  ],
+  "collocations": [],
+  "compounds": [],
+  "distinguish": "",
+  "distinguishExample": "",
+  "grammarExample": "",
+  "grammarNote": "",
+  "image": "⬇️",
+  "mnemonic": "下 = một nét ngắn phía DƯỚI một đường ngang (mặt đất).",
+  "partOfSpeech": "Danh từ",
+  "senses": [
+   {
+    "meanings": [
+     {
+      "example": "猫在桌子下。 (Māo zài zhuōzi xià.) – Con mèo ở dưới bàn.",
+      "meaning": "dưới"
+     }
+    ],
+    "partOfSpeech": "Danh từ"
+   }
+  ],
+  "synonyms": [],
+  "usage": ""
+ },
+ "zh-places-transport-23": {
+  "antonyms": [
+   {
+    "example": "里面是新的，外面是旧的。 (Lǐmiàn shì xīn de, wàimiàn shì jiù de.) – Bên trong mới, bên ngoài cũ.",
+    "word": "外"
+   }
+  ],
+  "characters": [
+   {
+    "char": "里",
+    "componentMeaning": "",
+    "hanViet": "LÝ",
+    "pictographicOrigin": "Bộ 田(ruộng) trên 土(đất) — khu dân cư có ruộng đất, mở rộng nghĩa \"bên trong\".",
+    "radical": "里(bộ lý)",
+    "strokeCount": 7
+   }
+  ],
+  "collocations": [],
+  "compounds": [],
+  "distinguish": "",
+  "distinguishExample": "",
+  "grammarExample": "",
+  "grammarNote": "",
+  "image": "📦",
+  "mnemonic": "里 trông như ruộng (田) trên đất (土) — khu dân cư có ranh giới BÊN TRONG.",
+  "partOfSpeech": "Danh từ",
+  "senses": [
+   {
+    "meanings": [
+     {
+      "example": "包里有什么？ (Bāo lǐ yǒu shénme?) – Trong túi có gì?",
+      "meaning": "trong"
+     }
+    ],
+    "partOfSpeech": "Danh từ"
+   }
+  ],
+  "synonyms": [],
+  "usage": ""
+ },
+ "zh-places-transport-24": {
+  "antonyms": [
+   {
+    "example": "见分辨\"里\"。",
+    "word": "里"
+   }
+  ],
+  "characters": [
+   {
+    "char": "外",
+    "componentMeaning": "",
+    "hanViet": "NGOẠI",
+    "pictographicOrigin": "Bộ 夕(buổi tối) ghép 卜(bói) — thời cổ bói vào ban ngày, làm vào buổi tối là \"khác thường, bên ngoài\".",
+    "radical": "夕(bộ tịch)",
+    "strokeCount": 5
+   }
+  ],
+  "collocations": [],
+  "compounds": [],
+  "distinguish": "",
+  "distinguishExample": "",
+  "grammarExample": "",
+  "grammarNote": "",
+  "image": "🌳",
+  "mnemonic": "外 = 夕(buổi tối) + 卜(bói) — làm việc khác thường vào ban đêm, ở BÊN NGOÀI quy tắc.",
+  "partOfSpeech": "Danh từ",
+  "senses": [
+   {
+    "meanings": [
+     {
+      "example": "外面在下雨。 (Wàimiàn zài xiàyǔ.) – Bên ngoài trời đang mưa.",
+      "meaning": "ngoài"
+     }
+    ],
+    "partOfSpeech": "Danh từ"
+   }
+  ],
+  "synonyms": [],
+  "usage": ""
+ },
+ "zh-places-transport-25": {
+  "antonyms": [
+   {
+    "example": "前面是学校，后面是公园。 (Qiánmiàn shì xuéxiào, hòumiàn shì gōngyuán.) – Phía trước là trường học, phía sau là công viên.",
+    "word": "后面"
+   }
+  ],
+  "characters": [
+   {
+    "char": "前",
+    "componentMeaning": "trước",
+    "hanViet": "TIỀN",
+    "pictographicOrigin": "Hình một chiếc thuyền với bàn chân — người bước lên thuyền tiến về PHÍA TRƯỚC.",
+    "radical": "刀(bộ đao)",
+    "strokeCount": 9
+   },
+   {
+    "char": "面",
+    "componentMeaning": "mặt, phía",
+    "hanViet": "DIỆN",
+    "pictographicOrigin": "Chữ giáp cốt vẽ hình khuôn mặt người — nghĩa gốc \"mặt\", mở rộng nghĩa \"mặt, phía\".",
+    "radical": "面(bộ diện)",
+    "strokeCount": 9
+   }
+  ],
+  "collocations": [],
+  "compounds": [],
+  "distinguish": "",
+  "distinguishExample": "",
+  "grammarExample": "",
+  "grammarNote": "",
+  "image": "⏩",
+  "mnemonic": "前面 = 前(hình thuyền tiến lên) + 面(mặt, phía) — PHÍA hướng TIẾN LÊN, PHÍA TRƯỚC.",
+  "partOfSpeech": "Danh từ",
+  "senses": [
+   {
+    "meanings": [
+     {
+      "example": "前面有一家商店。 (Qiánmiàn yǒu yì jiā shāngdiàn.) – Phía trước có một cửa hàng.",
+      "meaning": "phía trước"
+     }
+    ],
+    "partOfSpeech": "Danh từ"
+   }
+  ],
+  "synonyms": [],
+  "usage": ""
+ },
+ "zh-places-transport-26": {
+  "antonyms": [
+   {
+    "example": "见分辨\"前面\"。",
+    "word": "前面"
+   }
+  ],
+  "characters": [
+   {
+    "char": "后",
+    "componentMeaning": "sau",
+    "hanViet": "HẬU",
+    "pictographicOrigin": "Chữ giản thể (mượn từ 後), nghĩa \"phía sau\".",
+    "radical": "口(bộ khẩu)",
+    "strokeCount": 6
+   },
+   {
+    "char": "面",
+    "componentMeaning": "mặt, phía",
+    "hanViet": "DIỆN",
+    "pictographicOrigin": "Chữ giáp cốt vẽ hình khuôn mặt người — nghĩa gốc \"mặt\", mở rộng nghĩa \"mặt, phía\".",
+    "radical": "面(bộ diện)",
+    "strokeCount": 9
+   }
+  ],
+  "collocations": [],
+  "compounds": [],
+  "distinguish": "",
+  "distinguishExample": "",
+  "grammarExample": "",
+  "grammarNote": "",
+  "image": "⏪",
+  "mnemonic": "后面 = 后(sau) + 面(phía) — PHÍA ở SAU.",
+  "partOfSpeech": "Danh từ",
+  "senses": [
+   {
+    "meanings": [
+     {
+      "example": "他站在我后面。 (Tā zhàn zài wǒ hòumiàn.) – Anh ấy đứng phía sau tôi.",
+      "meaning": "phía sau"
+     }
+    ],
+    "partOfSpeech": "Danh từ"
+   }
+  ],
+  "synonyms": [],
+  "usage": ""
+ },
+ "zh-places-transport-27": {
+  "antonyms": [],
+  "characters": [
+   {
+    "char": "旁",
+    "componentMeaning": "bên",
+    "hanViet": "BÀNG",
+    "pictographicOrigin": "Bộ 方(phương hướng) — hướng ở BÊN, \"bên cạnh\".",
+    "radical": "方(bộ phương)",
+    "strokeCount": 10
+   },
+   {
+    "char": "边",
+    "componentMeaning": "cạnh",
+    "hanViet": "BIÊN",
+    "pictographicOrigin": "Bộ 辶(đi) — đi men theo rìa, \"bên, cạnh\".",
+    "radical": "辶(bộ sước)",
+    "strokeCount": 5
+   }
+  ],
+  "collocations": [],
+  "compounds": [],
+  "distinguish": "",
+  "distinguishExample": "",
+  "grammarExample": "",
+  "grammarNote": "",
+  "image": "↔️",
+  "mnemonic": "旁边 = 旁(hướng bên) + 边(rìa, cạnh) — ghép đôi nghĩa BÊN CẠNH.",
+  "partOfSpeech": "Danh từ",
+  "senses": [
+   {
+    "meanings": [
+     {
+      "example": "银行旁边有个公园。 (Yínháng pángbiān yǒu ge gōngyuán.) – Bên cạnh ngân hàng có một công viên.",
+      "meaning": "bên cạnh"
+     }
+    ],
+    "partOfSpeech": "Danh từ"
+   }
+  ],
+  "synonyms": [],
+  "usage": ""
+ },
+ "zh-places-transport-28": {
+  "antonyms": [],
+  "characters": [
+   {
+    "char": "中",
+    "componentMeaning": "giữa",
+    "hanViet": "TRUNG",
+    "pictographicOrigin": "Hình mũi tên xuyên qua chính giữa một cái khiên — nghĩa \"giữa, trung\".",
+    "radical": "丨(bộ cổn)",
+    "strokeCount": 4
+   },
+   {
+    "char": "间",
+    "componentMeaning": "khoảng",
+    "hanViet": "GIAN",
+    "pictographicOrigin": "Bộ 门(cửa) với 日(ánh sáng) lọt qua khe — khoảng KHÔNG GIAN giữa hai cánh cửa.",
+    "radical": "门(bộ môn)",
+    "strokeCount": 7
+   }
+  ],
+  "collocations": [],
+  "compounds": [],
+  "distinguish": "",
+  "distinguishExample": "",
+  "grammarExample": "",
+  "grammarNote": "",
+  "image": "🎯",
+  "mnemonic": "中间 = 中(giữa) + 间(khoảng) — khoảng nằm chính GIỮA.",
+  "partOfSpeech": "Danh từ",
+  "senses": [
+   {
+    "meanings": [
+     {
+      "example": "他坐在中间。 (Tā zuò zài zhōngjiān.) – Anh ấy ngồi ở giữa.",
+      "meaning": "ở giữa"
+     }
+    ],
+    "partOfSpeech": "Danh từ"
+   }
+  ],
+  "synonyms": [],
+  "usage": ""
+ },
+ "zh-places-transport-29": {
+  "antonyms": [
+   {
+    "example": "左边是入口，右边是出口。 (Zuǒbiān shì rùkǒu, yòubiān shì chūkǒu.) – Bên trái là lối vào, bên phải là lối ra.",
+    "word": "右边"
+   }
+  ],
+  "characters": [
+   {
+    "char": "左",
+    "componentMeaning": "trái",
+    "hanViet": "TẢ",
+    "pictographicOrigin": "Chữ giáp cốt vẽ hình bàn tay trái — nghĩa \"bên trái\".",
+    "radical": "工(bộ công)",
+    "strokeCount": 5
+   },
+   {
+    "char": "边",
+    "componentMeaning": "cạnh",
+    "hanViet": "BIÊN",
+    "pictographicOrigin": "Bộ 辶(đi) — đi men theo rìa, \"bên, cạnh\".",
+    "radical": "辶(bộ sước)",
+    "strokeCount": 5
+   }
+  ],
+  "collocations": [],
+  "compounds": [],
+  "distinguish": "",
+  "distinguishExample": "",
+  "grammarExample": "",
+  "grammarNote": "",
+  "image": "⬅️",
+  "mnemonic": "左边 = 左(hình bàn tay trái) + 边(cạnh) — phía BÊN TAY TRÁI.",
+  "partOfSpeech": "Danh từ",
+  "senses": [
+   {
+    "meanings": [
+     {
+      "example": "洗手间在左边。 (Xǐshǒujiān zài zuǒbiān.) – Nhà vệ sinh ở bên trái.",
+      "meaning": "bên trái"
+     }
+    ],
+    "partOfSpeech": "Danh từ"
+   }
+  ],
+  "synonyms": [],
+  "usage": ""
+ },
+ "zh-places-transport-3": {
+  "antonyms": [
+   {
+    "example": "北京在北方，上海在南方。 (Běijīng zài běifāng, Shànghǎi zài nánfāng.) – Bắc Kinh ở phía bắc, Thượng Hải ở phía nam.",
+    "word": "上海"
+   }
+  ],
+  "characters": [
+   {
+    "char": "北",
+    "componentMeaning": "bắc",
+    "hanViet": "BẮC",
+    "pictographicOrigin": "Chữ giáp cốt vẽ hình hai người quay lưng vào nhau — hướng quay lưng lại với mặt trời phương nam, tức BẮC.",
+    "radical": "匕(bộ chuỷ)",
+    "strokeCount": 5
+   },
+   {
+    "char": "京",
+    "componentMeaning": "kinh đô",
+    "hanViet": "KINH",
+    "pictographicOrigin": "Chữ giáp cốt vẽ hình một tòa lầu cao trên nền đất đắp — kinh đô.",
+    "radical": "亠(bộ đầu)",
+    "strokeCount": 8
+   }
+  ],
+  "collocations": [],
+  "compounds": [],
+  "distinguish": "",
+  "distinguishExample": "",
+  "grammarExample": "",
+  "grammarNote": "",
+  "image": "🏙️",
+  "mnemonic": "北京 = 北(bắc) + 京(kinh đô) — kinh đô ở phía BẮC, BẮC KINH.",
+  "partOfSpeech": "Danh từ riêng",
+  "senses": [
+   {
+    "meanings": [
+     {
+      "example": "北京是中国的首都。 (Běijīng shì Zhōngguó de shǒudū.) – Bắc Kinh là thủ đô Trung Quốc.",
+      "meaning": "Bắc Kinh"
+     }
+    ],
+    "partOfSpeech": "Danh từ riêng"
+   }
+  ],
+  "synonyms": [],
+  "usage": ""
+ },
+ "zh-places-transport-30": {
+  "antonyms": [
+   {
+    "example": "见分辨\"左边\"。",
+    "word": "左边"
+   }
+  ],
+  "characters": [
+   {
+    "char": "右",
+    "componentMeaning": "phải",
+    "hanViet": "HỮU",
+    "pictographicOrigin": "Chữ giáp cốt vẽ hình bàn tay phải cầm vật — nghĩa \"bên phải\".",
+    "radical": "口(bộ khẩu)",
+    "strokeCount": 5
+   },
+   {
+    "char": "边",
+    "componentMeaning": "cạnh",
+    "hanViet": "BIÊN",
+    "pictographicOrigin": "Bộ 辶(đi) — đi men theo rìa, \"bên, cạnh\".",
+    "radical": "辶(bộ sước)",
+    "strokeCount": 5
+   }
+  ],
+  "collocations": [],
+  "compounds": [],
+  "distinguish": "",
+  "distinguishExample": "",
+  "grammarExample": "",
+  "grammarNote": "",
+  "image": "➡️",
+  "mnemonic": "右边 = 右(hình bàn tay phải cầm vật) + 边(cạnh) — phía BÊN TAY PHẢI.",
+  "partOfSpeech": "Danh từ",
+  "senses": [
+   {
+    "meanings": [
+     {
+      "example": "请往右边走。 (Qǐng wǎng yòubiān zǒu.) – Xin đi về bên phải.",
+      "meaning": "bên phải"
+     }
+    ],
+    "partOfSpeech": "Danh từ"
+   }
+  ],
+  "synonyms": [],
+  "usage": ""
+ },
+ "zh-places-transport-31": {
+  "antonyms": [
+   {
+    "example": "见分辨\"近\"。",
+    "word": "近"
+   }
+  ],
+  "characters": [
+   {
+    "char": "远",
+    "componentMeaning": "",
+    "hanViet": "VIỄN",
+    "pictographicOrigin": "Bộ 辶(đi) ghép 元 lấy âm — đi một quãng đường dài, \"xa\".",
+    "radical": "辶(bộ sước)",
+    "strokeCount": 7
+   }
+  ],
+  "collocations": [],
+  "compounds": [],
+  "distinguish": "",
+  "distinguishExample": "",
+  "grammarExample": "",
+  "grammarNote": "",
+  "image": "🏔️",
+  "mnemonic": "远 = 辶(đi) + 元 — phải ĐI một quãng đường rất dài mới tới, tức XA.",
+  "partOfSpeech": "Tính từ",
+  "senses": [
+   {
+    "meanings": [
+     {
+      "example": "学校离我家很远。 (Xuéxiào lí wǒ jiā hěn yuǎn.) – Trường học cách nhà tôi rất xa.",
+      "meaning": "xa"
+     }
+    ],
+    "partOfSpeech": "Tính từ"
+   }
+  ],
+  "synonyms": [],
+  "usage": ""
+ },
+ "zh-places-transport-32": {
+  "antonyms": [
+   {
+    "example": "近的地方走路去，远的地方坐车去。 (Jìn de dìfang zǒulù qù, yuǎn de dìfang zuòchē qù.) – Chỗ gần thì đi bộ, chỗ xa thì đi xe.",
+    "word": "远"
+   }
+  ],
+  "characters": [
+   {
+    "char": "近",
+    "componentMeaning": "",
+    "hanViet": "CẬN",
+    "pictographicOrigin": "Bộ 辶(đi) ghép 斤 lấy âm — đi một quãng đường ngắn, \"gần\".",
+    "radical": "辶(bộ sước)",
+    "strokeCount": 7
+   }
+  ],
+  "collocations": [],
+  "compounds": [],
+  "distinguish": "",
+  "distinguishExample": "",
+  "grammarExample": "",
+  "grammarNote": "",
+  "image": "📍",
+  "mnemonic": "近 = 辶(đi) + 斤(cái rìu, vật nhỏ) — chỉ cần đi một đoạn NGẮN như tầm ném cái rìu, tức GẦN.",
+  "partOfSpeech": "Tính từ",
+  "senses": [
+   {
+    "meanings": [
+     {
+      "example": "超市离这儿很近。 (Chāoshì lí zhèr hěn jìn.) – Siêu thị gần đây.",
+      "meaning": "gần"
+     }
+    ],
+    "partOfSpeech": "Tính từ"
+   }
+  ],
+  "synonyms": [],
+  "usage": ""
+ },
+ "zh-places-transport-33": {
+  "antonyms": [],
+  "characters": [
+   {
+    "char": "车",
+    "componentMeaning": "",
+    "hanViet": "XA",
+    "pictographicOrigin": "Chữ giản thể, vốn vẽ hình một cỗ xe nhìn từ trên xuống với bánh xe — nghĩa \"xe\".",
+    "radical": "车(bộ xa)",
+    "strokeCount": 4
+   }
+  ],
+  "collocations": [],
+  "compounds": [],
+  "distinguish": "",
+  "distinguishExample": "",
+  "grammarExample": "",
+  "grammarNote": "",
+  "image": "🚗",
+  "mnemonic": "车 trông như hình một cỗ XE nhìn từ trên xuống với trục bánh.",
+  "partOfSpeech": "Danh từ",
+  "senses": [
+   {
+    "meanings": [
+     {
+      "example": "这辆车是新买的。 (Zhè liàng chē shì xīn mǎi de.) – Chiếc xe này mới mua.",
+      "meaning": "xe"
+     }
+    ],
+    "partOfSpeech": "Danh từ"
+   }
+  ],
+  "synonyms": [],
+  "usage": ""
+ },
+ "zh-places-transport-34": {
+  "antonyms": [],
+  "characters": [
+   {
+    "char": "公",
+    "componentMeaning": "công cộng",
+    "hanViet": "CÔNG",
+    "pictographicOrigin": "Chữ giáp cốt vẽ hình vật được CHIA đều công bằng — nghĩa \"công cộng, công bằng\".",
+    "radical": "八(bộ bát)",
+    "strokeCount": 4
+   },
+   {
+    "char": "共",
+    "componentMeaning": "chung",
+    "hanViet": "CỘNG",
+    "pictographicOrigin": "Chữ giáp cốt vẽ hình hai tay cùng nâng một vật — nghĩa \"chung, cùng\".",
+    "radical": "八(bộ bát)",
+    "strokeCount": 6
+   },
+   {
+    "char": "汽",
+    "componentMeaning": "hơi, ô tô",
+    "hanViet": "KHÍ",
+    "pictographicOrigin": "Bộ 氵(nước) ghép 气(hơi) — hơi nước, mở rộng nghĩa động cơ chạy bằng hơi, \"ô tô\".",
+    "radical": "氵(bộ thủy)",
+    "strokeCount": 7
+   },
+   {
+    "char": "车",
+    "componentMeaning": "xe",
+    "hanViet": "XA",
+    "pictographicOrigin": "Chữ giản thể, vốn vẽ hình một cỗ xe nhìn từ trên xuống với bánh xe — nghĩa \"xe\".",
+    "radical": "车(bộ xa)",
+    "strokeCount": 4
+   }
+  ],
+  "collocations": [],
+  "compounds": [],
+  "distinguish": "",
+  "distinguishExample": "",
+  "grammarExample": "",
+  "grammarNote": "",
+  "image": "🚌",
+  "mnemonic": "公共汽车 = 公共(công cộng) + 汽车(ô tô, xe chạy bằng hơi) — Ô TÔ dùng CHUNG cho mọi người, XE BUÝT.",
+  "partOfSpeech": "Danh từ",
+  "senses": [
+   {
+    "meanings": [
+     {
+      "example": "我坐公共汽车上班。 (Wǒ zuò gōnggòng qìchē shàngbān.) – Tôi đi xe buýt đi làm.",
+      "meaning": "xe buýt"
+     }
+    ],
+    "partOfSpeech": "Danh từ"
+   }
+  ],
+  "synonyms": [
+   {
+    "example": "坐公交车更便宜。 (Zuò gōngjiāochē gèng piányi.) – Đi xe buýt rẻ hơn.",
+    "word": "公交车"
+   }
+  ],
+  "usage": "Khẩu ngữ thường gọi tắt là 公交车 (gōngjiāochē)."
+ },
+ "zh-places-transport-35": {
+  "antonyms": [],
+  "characters": [
+   {
+    "char": "出",
+    "componentMeaning": "ra",
+    "hanViet": "XUẤT",
+    "pictographicOrigin": "Chữ giáp cốt vẽ hình một bàn chân bước ra khỏi hang — nghĩa \"ra, xuất\".",
+    "radical": "凵(bộ khảm)",
+    "strokeCount": 5
+   },
+   {
+    "char": "租",
+    "componentMeaning": "thuê",
+    "hanViet": "TÔ",
+    "pictographicOrigin": "Bộ 禾(lúa) ghép 且 lấy âm — thời cổ nộp lúa để thuê đất, \"thuê\".",
+    "radical": "禾(bộ hòa)",
+    "strokeCount": 10
+   },
+   {
+    "char": "车",
+    "componentMeaning": "xe",
+    "hanViet": "XA",
+    "pictographicOrigin": "Chữ giản thể, vốn vẽ hình một cỗ xe nhìn từ trên xuống với bánh xe — nghĩa \"xe\".",
+    "radical": "车(bộ xa)",
+    "strokeCount": 4
+   }
+  ],
+  "collocations": [],
+  "compounds": [],
+  "distinguish": "",
+  "distinguishExample": "",
+  "grammarExample": "",
+  "grammarNote": "",
+  "image": "🚕",
+  "mnemonic": "出租车 = 出租(cho thuê ra) + 车(xe) — XE cho THUÊ theo chuyến, TAXI.",
+  "partOfSpeech": "Danh từ",
+  "senses": [
+   {
+    "meanings": [
+     {
+      "example": "我们坐出租车去吧。 (Wǒmen zuò chūzūchē qù ba.) – Chúng ta đi taxi đi.",
+      "meaning": "taxi"
+     }
+    ],
+    "partOfSpeech": "Danh từ"
+   }
+  ],
+  "synonyms": [
+   {
+    "example": "打的士很方便。 (Dǎ dīshì hěn fāngbiàn.) – Bắt taxi rất tiện.",
+    "word": "的士"
+   }
+  ],
+  "usage": ""
+ },
+ "zh-places-transport-36": {
+  "antonyms": [],
+  "characters": [
+   {
+    "char": "火",
+    "componentMeaning": "lửa",
+    "hanViet": "HỎA",
+    "pictographicOrigin": "Chữ giáp cốt vẽ hình ngọn lửa đang cháy bùng lên — nghĩa \"lửa\".",
+    "radical": "火(bộ hỏa)",
+    "strokeCount": 4
+   },
+   {
+    "char": "车",
+    "componentMeaning": "xe",
+    "hanViet": "XA",
+    "pictographicOrigin": "Chữ giản thể, vốn vẽ hình một cỗ xe nhìn từ trên xuống với bánh xe — nghĩa \"xe\".",
+    "radical": "车(bộ xa)",
+    "strokeCount": 4
+   }
+  ],
+  "collocations": [],
+  "compounds": [],
+  "distinguish": "",
+  "distinguishExample": "",
+  "grammarExample": "",
+  "grammarNote": "",
+  "image": "🚆",
+  "mnemonic": "火车 = 火(lửa) + 车(xe) — xe chạy bằng hơi nước đốt LỬA thời xưa, TÀU HỎA.",
+  "partOfSpeech": "Danh từ",
+  "senses": [
+   {
+    "meanings": [
+     {
+      "example": "火车比飞机便宜。 (Huǒchē bǐ fēijī piányi.) – Tàu hỏa rẻ hơn máy bay.",
+      "meaning": "tàu hỏa"
+     }
+    ],
+    "partOfSpeech": "Danh từ"
+   }
+  ],
+  "synonyms": [],
+  "usage": ""
+ },
+ "zh-places-transport-37": {
+  "antonyms": [],
+  "characters": [
+   {
+    "char": "飞",
+    "componentMeaning": "bay",
+    "hanViet": "PHI",
+    "pictographicOrigin": "Chữ giản thể, vốn vẽ hình một con chim đang xòe cánh bay — nghĩa \"bay\".",
+    "radical": "飞(bộ phi)",
+    "strokeCount": 3
+   },
+   {
+    "char": "机",
+    "componentMeaning": "máy",
+    "hanViet": "CƠ",
+    "pictographicOrigin": "Bộ 木(gỗ) — máy móc làm bằng gỗ thời cổ, \"máy\".",
+    "radical": "木(bộ mộc)",
+    "strokeCount": 6
+   }
+  ],
+  "collocations": [],
+  "compounds": [],
+  "distinguish": "",
+  "distinguishExample": "",
+  "grammarExample": "",
+  "grammarNote": "",
+  "image": "✈️",
+  "mnemonic": "飞机 = 飞(bay, hình chim xòe cánh) + 机(máy) — MÁY biết BAY, MÁY BAY.",
+  "partOfSpeech": "Danh từ",
+  "senses": [
+   {
+    "meanings": [
+     {
+      "example": "飞机几点起飞？ (Fēijī jǐ diǎn qǐfēi?) – Máy bay mấy giờ cất cánh?",
+      "meaning": "máy bay"
+     }
+    ],
+    "partOfSpeech": "Danh từ"
+   }
+  ],
+  "synonyms": [],
+  "usage": ""
+ },
+ "zh-places-transport-38": {
+  "antonyms": [],
+  "characters": [
+   {
+    "char": "自",
+    "componentMeaning": "tự",
+    "hanViet": "TỰ",
+    "pictographicOrigin": "Chữ giáp cốt vẽ hình cái MŨI người — người cổ chỉ vào mũi khi nói \"tôi\".",
+    "radical": "自(bộ tự)",
+    "strokeCount": 6
+   },
+   {
+    "char": "行",
+    "componentMeaning": "đi",
+    "hanViet": "HÀNH/HÀNG",
+    "pictographicOrigin": "Chữ giáp cốt vẽ hình một ngã tư đường — nghĩa \"đi, hàng lối\".",
+    "radical": "行(bộ hành)",
+    "strokeCount": 6
+   },
+   {
+    "char": "车",
+    "componentMeaning": "xe",
+    "hanViet": "XA",
+    "pictographicOrigin": "Chữ giản thể, vốn vẽ hình một cỗ xe nhìn từ trên xuống với bánh xe — nghĩa \"xe\".",
+    "radical": "车(bộ xa)",
+    "strokeCount": 4
+   }
+  ],
+  "collocations": [],
+  "compounds": [],
+  "distinguish": "",
+  "distinguishExample": "",
+  "grammarExample": "",
+  "grammarNote": "",
+  "image": "🚲",
+  "mnemonic": "自行车 = 自(tự) + 行(đi) + 车(xe) — xe TỰ mình ĐI được (đạp), XE ĐẠP.",
+  "partOfSpeech": "Danh từ",
+  "senses": [
+   {
+    "meanings": [
+     {
+      "example": "我骑自行车上学。 (Wǒ qí zìxíngchē shàngxué.) – Tôi đạp xe đi học.",
+      "meaning": "xe đạp"
+     }
+    ],
+    "partOfSpeech": "Danh từ"
+   }
+  ],
+  "synonyms": [],
+  "usage": ""
+ },
+ "zh-places-transport-39": {
+  "antonyms": [],
+  "characters": [
+   {
+    "char": "摩",
+    "componentMeaning": "",
+    "hanViet": "MA",
+    "pictographicOrigin": "Bộ 手(tay) dưới 麻 — hành động xoa, cọ xát (dùng phiên âm trong 摩托车).",
+    "radical": "手(bộ thủ)",
+    "strokeCount": 15
+   },
+   {
+    "char": "托",
+    "componentMeaning": "",
+    "hanViet": "THÁC",
+    "pictographicOrigin": "Bộ 扌(tay) ghép 乇 lấy âm — dùng làm chữ phiên âm trong \"motor\".",
+    "radical": "扌(bộ thủ)",
+    "strokeCount": 6
+   },
+   {
+    "char": "车",
+    "componentMeaning": "xe",
+    "hanViet": "XA",
+    "pictographicOrigin": "Chữ giản thể, vốn vẽ hình một cỗ xe nhìn từ trên xuống với bánh xe — nghĩa \"xe\".",
+    "radical": "车(bộ xa)",
+    "strokeCount": 4
+   }
+  ],
+  "collocations": [],
+  "compounds": [],
+  "distinguish": "",
+  "distinguishExample": "",
+  "grammarExample": "",
+  "grammarNote": "",
+  "image": "🏍️",
+  "mnemonic": "摩托车 là từ mượn âm \"motor\" — 摩托 đọc gần giống \"motor\", ghép với 车(xe) thành XE MÁY.",
+  "partOfSpeech": "Danh từ",
+  "senses": [
+   {
+    "meanings": [
+     {
+      "example": "在越南很多人骑摩托车。 (Zài Yuènán hěn duō rén qí mótuōchē.) – Ở Việt Nam nhiều người đi xe máy.",
+      "meaning": "xe máy"
+     }
+    ],
+    "partOfSpeech": "Danh từ"
+   }
+  ],
+  "synonyms": [],
+  "usage": "摩托车 là từ mượn phiên âm từ \"motor\"."
+ },
+ "zh-places-transport-4": {
+  "antonyms": [
+   {
+    "example": "见分辨\"北京\"。",
+    "word": "北京"
+   }
+  ],
+  "characters": [
+   {
+    "char": "上",
+    "componentMeaning": "trên",
+    "hanViet": "THƯỢNG",
+    "pictographicOrigin": "Một nét ngang (mặt đất) với một nét ngắn phía trên — vị trí \"trên\".",
+    "radical": "一(bộ nhất)",
+    "strokeCount": 3
+   },
+   {
+    "char": "海",
+    "componentMeaning": "biển",
+    "hanViet": "HẢI",
+    "pictographicOrigin": "Bộ 氵(nước) ghép 每 lấy âm — vùng nước rộng lớn, \"biển\".",
+    "radical": "氵(bộ thủy)",
+    "strokeCount": 10
+   }
+  ],
+  "collocations": [],
+  "compounds": [],
+  "distinguish": "",
+  "distinguishExample": "",
+  "grammarExample": "",
+  "grammarNote": "",
+  "image": "🌃",
+  "mnemonic": "上海 = 上(trên) + 海(biển) — thành phố nằm TRÊN BIỂN, THƯỢNG HẢI.",
+  "partOfSpeech": "Danh từ riêng",
+  "senses": [
+   {
+    "meanings": [
+     {
+      "example": "上海是中国最大的城市。 (Shànghǎi shì Zhōngguó zuì dà de chéngshì.) – Thượng Hải là thành phố lớn nhất Trung Quốc.",
+      "meaning": "Thượng Hải"
+     }
+    ],
+    "partOfSpeech": "Danh từ riêng"
+   }
+  ],
+  "synonyms": [],
+  "usage": ""
+ },
+ "zh-places-transport-40": {
+  "antonyms": [],
+  "characters": [
+   {
+    "char": "地",
+    "componentMeaning": "đất",
+    "hanViet": "ĐỊA",
+    "pictographicOrigin": "Bộ 土(đất) ghép 也 lấy âm — nghĩa \"đất, mặt đất\".",
+    "radical": "土(bộ thổ)",
+    "strokeCount": 6
+   },
+   {
+    "char": "铁",
+    "componentMeaning": "sắt",
+    "hanViet": "THIẾT",
+    "pictographicOrigin": "Bộ 钅(kim loại) — kim loại cứng phổ biến, \"sắt\".",
+    "radical": "钅(bộ kim)",
+    "strokeCount": 10
+   }
+  ],
+  "collocations": [],
+  "compounds": [],
+  "distinguish": "",
+  "distinguishExample": "",
+  "grammarExample": "",
+  "grammarNote": "",
+  "image": "🚇",
+  "mnemonic": "地铁 = 地(đất) + 铁(sắt) — đường ray SẮT chạy dưới ĐẤT, TÀU ĐIỆN NGẦM.",
+  "partOfSpeech": "Danh từ",
+  "senses": [
+   {
+    "meanings": [
+     {
+      "example": "坐地铁比较快。 (Zuò dìtiě bǐjiào kuài.) – Đi tàu điện ngầm nhanh hơn.",
+      "meaning": "tàu điện ngầm"
+     }
+    ],
+    "partOfSpeech": "Danh từ"
+   }
+  ],
+  "synonyms": [],
+  "usage": ""
+ },
+ "zh-places-transport-41": {
+  "antonyms": [],
+  "characters": [
+   {
+    "char": "路",
+    "componentMeaning": "",
+    "hanViet": "LỘ",
+    "pictographicOrigin": "Bộ 足(chân) ghép 各 lấy âm — nơi bàn CHÂN bước qua, \"đường\".",
+    "radical": "足(bộ túc)",
+    "strokeCount": 13
+   }
+  ],
+  "collocations": [],
+  "compounds": [],
+  "distinguish": "",
+  "distinguishExample": "",
+  "grammarExample": "",
+  "grammarNote": "",
+  "image": "🛣️",
+  "mnemonic": "路 = 足(chân) + 各 — nơi bàn CHÂN bước qua, ĐƯỜNG.",
+  "partOfSpeech": "Danh từ",
+  "senses": [
+   {
+    "meanings": [
+     {
+      "example": "这条路很长。 (Zhè tiáo lù hěn cháng.) – Con đường này rất dài.",
+      "meaning": "đường"
+     }
+    ],
+    "partOfSpeech": "Danh từ"
+   }
+  ],
+  "synonyms": [],
+  "usage": ""
+ },
+ "zh-places-transport-42": {
+  "antonyms": [],
+  "characters": [
+   {
+    "char": "坐",
+    "componentMeaning": "",
+    "hanViet": "TỌA",
+    "pictographicOrigin": "Chữ giáp cốt vẽ hình hai người ngồi đối diện trên mặt đất — nghĩa \"ngồi\".",
+    "radical": "土(bộ thổ)",
+    "strokeCount": 7
+   }
+  ],
+  "collocations": [],
+  "compounds": [],
+  "distinguish": "\"坐\" dùng cho phương tiện mình NGỒI TRONG (xe buýt, tàu); \"骑\" dùng cho phương tiện mình CƯỠI LÊN (xe đạp, xe máy).",
+  "distinguishExample": "坐公共汽车 vs 骑自行车 — ngồi xe buýt, đạp xe đạp.",
+  "grammarExample": "",
+  "grammarNote": "",
+  "image": "🪑",
+  "mnemonic": "坐 trông như hai người NGỒI đối diện nhau trên mặt đất (土).",
+  "partOfSpeech": "Động từ",
+  "senses": [
+   {
+    "meanings": [
+     {
+      "example": "请坐。 (Qǐng zuò.) – Xin mời ngồi.",
+      "meaning": "ngồi"
+     },
+     {
+      "example": "我坐公共汽车来的。 (Wǒ zuò gōnggòng qìchē lái de.) – Tôi đi xe buýt đến.",
+      "meaning": "đi (bằng phương tiện giao thông)"
+     }
+    ],
+    "partOfSpeech": "Động từ"
+   }
+  ],
+  "synonyms": [],
+  "usage": ""
+ },
+ "zh-places-transport-43": {
+  "antonyms": [],
+  "characters": [
+   {
+    "char": "开",
+    "componentMeaning": "mở, điều khiển",
+    "hanViet": "KHAI",
+    "pictographicOrigin": "Chữ giản thể, vốn vẽ hình hai tay mở cánh cửa/then cài — nghĩa \"mở\".",
+    "radical": "廾(bộ củng)",
+    "strokeCount": 4
+   },
+   {
+    "char": "车",
+    "componentMeaning": "xe",
+    "hanViet": "XA",
+    "pictographicOrigin": "Chữ giản thể, vốn vẽ hình một cỗ xe nhìn từ trên xuống với bánh xe — nghĩa \"xe\".",
+    "radical": "车(bộ xa)",
+    "strokeCount": 4
+   }
+  ],
+  "collocations": [],
+  "compounds": [],
+  "distinguish": "",
+  "distinguishExample": "",
+  "grammarExample": "",
+  "grammarNote": "",
+  "image": "🚙",
+  "mnemonic": "开车 = 开(mở, điều khiển) + 车(xe) — ĐIỀU KHIỂN chiếc XE, LÁI XE.",
+  "partOfSpeech": "Động từ",
+  "senses": [
+   {
+    "meanings": [
+     {
+      "example": "他会开车。 (Tā huì kāichē.) – Anh ấy biết lái xe.",
+      "meaning": "lái xe"
+     }
+    ],
+    "partOfSpeech": "Động từ"
+   }
+  ],
+  "synonyms": [],
+  "usage": ""
+ },
+ "zh-places-transport-44": {
+  "antonyms": [],
+  "characters": [
+   {
+    "char": "骑",
+    "componentMeaning": "",
+    "hanViet": "KỴ",
+    "pictographicOrigin": "Bộ 马(ngựa) ghép 奇 lấy âm — cưỡi lên NGỰA, mở rộng \"cưỡi, đạp (xe)\".",
+    "radical": "马(bộ mã)",
+    "strokeCount": 8
+   }
+  ],
+  "collocations": [],
+  "compounds": [],
+  "distinguish": "",
+  "distinguishExample": "",
+  "grammarExample": "",
+  "grammarNote": "",
+  "image": "🚴",
+  "mnemonic": "骑 = 马(ngựa) + 奇 — CƯỠI lên con NGỰA, mở rộng nghĩa cưỡi/đạp xe.",
+  "partOfSpeech": "Động từ",
+  "senses": [
+   {
+    "meanings": [
+     {
+      "example": "他骑摩托车去上班。 (Tā qí mótuōchē qù shàngbān.) – Anh ấy đi xe máy đi làm.",
+      "meaning": "cưỡi, đạp (xe)"
+     }
+    ],
+    "partOfSpeech": "Động từ"
+   }
+  ],
+  "synonyms": [],
+  "usage": "Xem phân biệt tại mục \"坐\"."
+ },
+ "zh-places-transport-45": {
+  "antonyms": [],
+  "characters": [
+   {
+    "char": "走",
+    "componentMeaning": "",
+    "hanViet": "TẨU",
+    "pictographicOrigin": "Chữ giáp cốt vẽ hình một người vung tay chạy — nghĩa \"đi, chạy\".",
+    "radical": "走(bộ tẩu)",
+    "strokeCount": 7
+   }
+  ],
+  "collocations": [
+   {
+    "example": "走路去只要十分钟。 (Zǒulù qù zhǐ yào shí fēnzhōng.) – Đi bộ chỉ mất mười phút.",
+    "meaning": "đi bộ",
+    "phrase": "走路",
+    "pinyin": "zǒulù"
+   }
+  ],
+  "compounds": [],
+  "distinguish": "",
+  "distinguishExample": "",
+  "grammarExample": "",
+  "grammarNote": "",
+  "image": "🚶",
+  "mnemonic": "走 trông như một người đang vung tay CHẠY nhanh.",
+  "partOfSpeech": "Động từ",
+  "senses": [
+   {
+    "meanings": [
+     {
+      "example": "我们走路去吧。 (Wǒmen zǒulù qù ba.) – Chúng ta đi bộ đi.",
+      "meaning": "đi, đi bộ"
+     },
+     {
+      "example": "他已经走了。 (Tā yǐjīng zǒu le.) – Anh ấy đã đi rồi.",
+      "meaning": "rời đi"
+     }
+    ],
+    "partOfSpeech": "Động từ"
+   }
+  ],
+  "synonyms": [],
+  "usage": ""
+ },
+ "zh-places-transport-46": {
+  "antonyms": [],
+  "characters": [
+   {
+    "char": "到",
+    "componentMeaning": "",
+    "hanViet": "ĐÁO",
+    "pictographicOrigin": "Bộ 至(đến) ghép 刂 — nghĩa \"đến, tới nơi\".",
+    "radical": "刂(bộ đao)",
+    "strokeCount": 8
+   }
+  ],
+  "collocations": [],
+  "compounds": [],
+  "distinguish": "",
+  "distinguishExample": "",
+  "grammarExample": "我找到了钥匙。 (Wǒ zhǎodàole yàoshi.) – Tôi tìm thấy chìa khóa rồi.",
+  "grammarNote": "",
+  "image": "🏁",
+  "mnemonic": "到 = 至(đến nơi) + 刂(dao, hình ảnh kết thúc dứt khoát) — ĐẾN dứt điểm.",
+  "partOfSpeech": "Động từ",
+  "senses": [
+   {
+    "meanings": [
+     {
+      "example": "火车到了。 (Huǒchē dào le.) – Tàu đến rồi.",
+      "meaning": "đến, tới"
+     }
+    ],
+    "partOfSpeech": "Động từ"
+   }
+  ],
+  "synonyms": [],
+  "usage": "到 thường dùng làm bổ ngữ kết quả sau động từ khác: 走到 (đi tới), 找到 (tìm thấy)."
+ },
+ "zh-places-transport-47": {
+  "antonyms": [
+   {
+    "example": "他来了，我去了。 (Tā lái le, wǒ qù le.) – Anh ấy đến rồi, tôi đi rồi.",
+    "word": "去"
+   }
+  ],
+  "characters": [
+   {
+    "char": "来",
+    "componentMeaning": "",
+    "hanViet": "LAI",
+    "pictographicOrigin": "Chữ giáp cốt vẽ hình một cây lúa mì — mượn âm chỉ hành động \"đến, lại\".",
+    "radical": "一(bộ nhất)",
+    "strokeCount": 7
+   }
+  ],
+  "collocations": [],
+  "compounds": [],
+  "distinguish": "\"来\" là hướng VỀ PHÍA người nói; \"去\" là hướng RỜI XA người nói.",
+  "distinguishExample": "你来我家 (bạn đến nhà tôi) vs 我去你家 (tôi đến nhà bạn) — chủ thể quy chiếu khác nhau.",
+  "grammarExample": "",
+  "grammarNote": "",
+  "image": "🙋‍♂️",
+  "mnemonic": "来 trông như một cây lúa mì — mượn âm chỉ hành động ĐẾN, LẠI.",
+  "partOfSpeech": "Động từ",
+  "senses": [
+   {
+    "meanings": [
+     {
+      "example": "你什么时候来？ (Nǐ shénme shíhou lái?) – Khi nào bạn đến?",
+      "meaning": "đến, lại (hướng về phía người nói)"
+     }
+    ],
+    "partOfSpeech": "Động từ"
+   }
+  ],
+  "synonyms": [],
+  "usage": ""
+ },
+ "zh-places-transport-48": {
+  "antonyms": [
+   {
+    "example": "见分辨\"来\"。",
+    "word": "来"
+   }
+  ],
+  "characters": [
+   {
+    "char": "去",
+    "componentMeaning": "",
+    "hanViet": "KHỨ",
+    "pictographicOrigin": "Chữ giáp cốt vẽ hình một người bước ra khỏi cửa hang — nghĩa \"đi, rời khỏi\".",
+    "radical": "厶(bộ khư)",
+    "strokeCount": 5
+   }
+  ],
+  "collocations": [],
+  "compounds": [],
+  "distinguish": "",
+  "distinguishExample": "",
+  "grammarExample": "",
+  "grammarNote": "",
+  "image": "🚶‍♂️",
+  "mnemonic": "去 = 土(đất) + 厶 — người bước RA KHỎI một nơi, ĐI.",
+  "partOfSpeech": "Động từ",
+  "senses": [
+   {
+    "meanings": [
+     {
+      "example": "我要去学校。 (Wǒ yào qù xuéxiào.) – Tôi phải đi học.",
+      "meaning": "đi"
+     }
+    ],
+    "partOfSpeech": "Động từ"
+   }
+  ],
+  "synonyms": [],
+  "usage": ""
+ },
+ "zh-places-transport-49": {
+  "antonyms": [],
+  "characters": [
+   {
+    "char": "回",
+    "componentMeaning": "",
+    "hanViet": "HỒI",
+    "pictographicOrigin": "Chữ giáp cốt vẽ hình hai vòng tròn lồng nhau — hình ảnh xoay vòng trở lại, \"về, quay lại\".",
+    "radical": "囗(bộ vi)",
+    "strokeCount": 6
+   }
+  ],
+  "collocations": [
+   {
+    "example": "我要回家了。 (Wǒ yào huí jiā le.) – Tôi phải về nhà rồi.",
+    "meaning": "về nhà",
+    "phrase": "回家",
+    "pinyin": "huí jiā"
+   }
+  ],
+  "compounds": [],
+  "distinguish": "",
+  "distinguishExample": "",
+  "grammarExample": "",
+  "grammarNote": "",
+  "image": "🔄",
+  "mnemonic": "回 trông như hai vòng tròn lồng nhau — hình ảnh XOAY VÒNG TRỞ LẠI.",
+  "partOfSpeech": "Động từ",
+  "senses": [
+   {
+    "meanings": [
+     {
+      "example": "我明天回国。 (Wǒ míngtiān huíguó.) – Mai tôi về nước.",
+      "meaning": "về, quay lại"
+     }
+    ],
+    "partOfSpeech": "Động từ"
+   }
+  ],
+  "synonyms": [],
+  "usage": ""
+ },
+ "zh-places-transport-5": {
+  "antonyms": [],
+  "characters": [
+   {
+    "char": "河",
+    "componentMeaning": "sông",
+    "hanViet": "HÀ",
+    "pictographicOrigin": "Bộ 氵(nước) ghép 可 lấy âm — dòng nước lớn chảy dài, \"sông\".",
+    "radical": "氵(bộ thủy)",
+    "strokeCount": 8
+   },
+   {
+    "char": "内",
+    "componentMeaning": "trong",
+    "hanViet": "NỘI",
+    "pictographicOrigin": "Chữ giáp cốt vẽ hình một người bước vào trong một khung cửa — nghĩa \"bên trong\".",
+    "radical": "冂(bộ quynh)",
+    "strokeCount": 4
+   }
+  ],
+  "collocations": [],
+  "compounds": [],
+  "distinguish": "",
+  "distinguishExample": "",
+  "grammarExample": "",
+  "grammarNote": "",
+  "image": "🇻🇳",
+  "mnemonic": "河内 = 河(sông) + 内(bên trong) — thành phố nằm BÊN TRONG khúc uốn của SÔNG, HÀ NỘI.",
+  "partOfSpeech": "Danh từ riêng",
+  "senses": [
+   {
+    "meanings": [
+     {
+      "example": "河内是越南的首都。 (Hénèi shì Yuènán de shǒudū.) – Hà Nội là thủ đô Việt Nam.",
+      "meaning": "Hà Nội"
+     }
+    ],
+    "partOfSpeech": "Danh từ riêng"
+   }
+  ],
+  "synonyms": [],
+  "usage": ""
+ },
+ "zh-places-transport-50": {
+  "antonyms": [
+   {
+    "example": "进来和出去。 (Jìnlai hé chūqu.) – Vào và ra.",
+    "word": "出"
+   }
+  ],
+  "characters": [
+   {
+    "char": "进",
+    "componentMeaning": "",
+    "hanViet": "TIẾN",
+    "pictographicOrigin": "Bộ 辶(đi) ghép 井(giếng, hình vuông vắn) — bước thẳng về phía trước, \"tiến vào\".",
+    "radical": "辶(bộ sước)",
+    "strokeCount": 7
+   }
+  ],
+  "collocations": [],
+  "compounds": [],
+  "distinguish": "",
+  "distinguishExample": "",
+  "grammarExample": "",
+  "grammarNote": "",
+  "image": "🚪",
+  "mnemonic": "进 = 辶(đi) + 井(giếng vuông vắn, thẳng) — bước THẲNG về phía trước, VÀO.",
+  "partOfSpeech": "Động từ",
+  "senses": [
+   {
+    "meanings": [
+     {
+      "example": "请进！ (Qǐng jìn!) – Mời vào!",
+      "meaning": "vào"
+     }
+    ],
+    "partOfSpeech": "Động từ"
+   }
+  ],
+  "synonyms": [],
+  "usage": ""
+ },
+ "zh-places-transport-6": {
+  "antonyms": [],
+  "characters": [
+   {
+    "char": "学",
+    "componentMeaning": "học",
+    "hanViet": "HỌC",
+    "pictographicOrigin": "Hình đứa trẻ (子) dưới mái nhà có bàn tay chỉ dạy — nghĩa \"học\".",
+    "radical": "子(bộ tử)",
+    "strokeCount": 8
+   },
+   {
+    "char": "校",
+    "componentMeaning": "trường",
+    "hanViet": "HIỆU",
+    "pictographicOrigin": "Bộ 木(gỗ) ghép 交 lấy âm — nơi dựng bằng gỗ để dạy học, \"trường\".",
+    "radical": "木(bộ mộc)",
+    "strokeCount": 10
+   }
+  ],
+  "collocations": [],
+  "compounds": [],
+  "distinguish": "",
+  "distinguishExample": "",
+  "grammarExample": "",
+  "grammarNote": "",
+  "image": "🏫",
+  "mnemonic": "学校 = 学(học) + 校(trường, làm bằng gỗ) — nơi để HỌC, TRƯỜNG HỌC.",
+  "partOfSpeech": "Danh từ",
+  "senses": [
+   {
+    "meanings": [
+     {
+      "example": "我每天去学校。 (Wǒ měitiān qù xuéxiào.) – Tôi đi học mỗi ngày.",
+      "meaning": "trường học"
+     }
+    ],
+    "partOfSpeech": "Danh từ"
+   }
+  ],
+  "synonyms": [],
+  "usage": ""
+ },
+ "zh-places-transport-7": {
+  "antonyms": [],
+  "characters": [
+   {
+    "char": "医",
+    "componentMeaning": "y",
+    "hanViet": "Y",
+    "pictographicOrigin": "Chữ giản thể từ 醫 — nghĩa \"y học, chữa bệnh\".",
+    "radical": "匚(bộ phương)",
+    "strokeCount": 7
+   },
+   {
+    "char": "院",
+    "componentMeaning": "viện",
+    "hanViet": "VIỆN",
+    "pictographicOrigin": "Bộ 阝(tường thành) ghép 完 lấy âm — khuôn viên có tường bao quanh, \"viện\".",
+    "radical": "阝(bộ phụ)",
+    "strokeCount": 9
+   }
+  ],
+  "collocations": [],
+  "compounds": [],
+  "distinguish": "",
+  "distinguishExample": "",
+  "grammarExample": "",
+  "grammarNote": "",
+  "image": "🏥",
+  "mnemonic": "医院 = 医(y học) + 院(viện có tường bao) — nơi chữa bệnh, BỆNH VIỆN.",
+  "partOfSpeech": "Danh từ",
+  "senses": [
+   {
+    "meanings": [
+     {
+      "example": "他在医院工作。 (Tā zài yīyuàn gōngzuò.) – Anh ấy làm việc ở bệnh viện.",
+      "meaning": "bệnh viện"
+     }
+    ],
+    "partOfSpeech": "Danh từ"
+   }
+  ],
+  "synonyms": [],
+  "usage": ""
+ },
+ "zh-places-transport-8": {
+  "antonyms": [],
+  "characters": [
+   {
+    "char": "商",
+    "componentMeaning": "buôn bán",
+    "hanViet": "THƯƠNG",
+    "pictographicOrigin": "Chữ giáp cốt liên quan đến việc trao đổi, đo lường — nghĩa \"buôn bán, thương mại\".",
+    "radical": "口(bộ khẩu)",
+    "strokeCount": 11
+   },
+   {
+    "char": "店",
+    "componentMeaning": "cửa hàng",
+    "hanViet": "ĐIẾM",
+    "pictographicOrigin": "Bộ 广(mái nhà, lều) ghép 占(chiếm chỗ) — nơi dựng lều để bán hàng, \"cửa hàng\".",
+    "radical": "广(bộ nghiễm)",
+    "strokeCount": 8
+   }
+  ],
+  "collocations": [],
+  "compounds": [],
+  "distinguish": "",
+  "distinguishExample": "",
+  "grammarExample": "",
+  "grammarNote": "",
+  "image": "🏬",
+  "mnemonic": "商店 = 商(buôn bán) + 店(lều dựng để bán) — nơi BUÔN BÁN, CỬA HÀNG.",
+  "partOfSpeech": "Danh từ",
+  "senses": [
+   {
+    "meanings": [
+     {
+      "example": "这家商店卖衣服。 (Zhè jiā shāngdiàn mài yīfu.) – Cửa hàng này bán quần áo.",
+      "meaning": "cửa hàng"
+     }
+    ],
+    "partOfSpeech": "Danh từ"
+   }
+  ],
+  "synonyms": [],
+  "usage": ""
+ },
+ "zh-places-transport-9": {
+  "antonyms": [],
+  "characters": [
+   {
+    "char": "超",
+    "componentMeaning": "siêu",
+    "hanViet": "SIÊU",
+    "pictographicOrigin": "Bộ 走(đi, chạy) ghép 召 lấy âm — chạy VƯỢT lên, \"siêu, vượt trội\".",
+    "radical": "走(bộ tẩu)",
+    "strokeCount": 12
+   },
+   {
+    "char": "市",
+    "componentMeaning": "chợ",
+    "hanViet": "THỊ",
+    "pictographicOrigin": "Chữ giáp cốt vẽ hình một khu chợ có cờ hiệu — nghĩa \"chợ, thành phố\".",
+    "radical": "巾(bộ cân)",
+    "strokeCount": 5
+   }
+  ],
+  "collocations": [],
+  "compounds": [],
+  "distinguish": "",
+  "distinguishExample": "",
+  "grammarExample": "",
+  "grammarNote": "",
+  "image": "🛒",
+  "mnemonic": "超市 = 超(vượt trội) + 市(chợ) — một cái CHỢ VƯỢT TRỘI lớn hơn, SIÊU THỊ.",
+  "partOfSpeech": "Danh từ",
+  "senses": [
+   {
+    "meanings": [
+     {
+      "example": "我去超市买菜。 (Wǒ qù chāoshì mǎi cài.) – Tôi đi siêu thị mua rau.",
+      "meaning": "siêu thị"
+     }
+    ],
+    "partOfSpeech": "Danh từ"
    }
   ],
   "synonyms": [],
