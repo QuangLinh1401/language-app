@@ -56,6 +56,7 @@ export const api = {
     get: () => request("/progress"),
     touch: (xp) => request("/progress/touch", { method: "POST", body: JSON.stringify({ xp }) }),
     export: () => request("/progress/export"),
+    import: (state) => request("/progress/import", { method: "POST", body: JSON.stringify(state) }),
     reset: () => request("/progress/reset", { method: "POST" })
   },
 
@@ -72,8 +73,9 @@ export const api = {
       const qs = params.toString();
       return request(`/vocabulary/review${qs ? `?${qs}` : ""}`);
     },
-    grade: (wordId, grade) =>
-      request(`/vocabulary/words/${wordId}/grade`, { method: "POST", body: JSON.stringify({ grade }) }),
+    grade: (wordId, grade, tier) =>
+      request(`/vocabulary/words/${wordId}/grade`, { method: "POST", body: JSON.stringify({ grade, tier }) }),
+    search: (q) => request(`/vocabulary/search?q=${encodeURIComponent(q)}`),
     practiceReading: (payload) =>
       request("/vocabulary/practice-reading", { method: "POST", body: JSON.stringify(payload) }),
     wordDetail: (wordId) => request(`/vocabulary/words/${wordId}/detail`),

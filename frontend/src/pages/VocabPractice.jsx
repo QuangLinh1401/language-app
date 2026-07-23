@@ -51,7 +51,8 @@ export default function VocabPractice() {
   async function finish() {
     const gradeLabel = correctCount / passage.questions.length >= 0.7 ? "good" : "hard";
     const ids = passage.wordIds || [];
-    await Promise.all(ids.map((id) => api.vocabulary.grade(id, gradeLabel)));
+    // Reading a fresh passage tests the words in a new context.
+    await Promise.all(ids.map((id) => api.vocabulary.grade(id, gradeLabel, "context")));
     setFinished(true);
   }
 

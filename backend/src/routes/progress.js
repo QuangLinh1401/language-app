@@ -9,6 +9,29 @@ router.get("/export", (req, res) => {
   res.json(req.state);
 });
 
+// Restore a backup made with /export — replaces the whole progress blob.
+router.post("/import", asyncHandler(async (req, res) => {
+  const incoming = req.body;
+  const KNOWN_KEYS = [
+    "streak", "xp", "wordProgress", "grammarProgress",
+    "listeningProgress", "readingProgress", "dailyNewWords", "settings"
+  ];
+  if (
+    !incoming || typeof incoming !== "object" || Array.isArray(incoming) ||
+    !KNOWN_KEYS.some((k) => k in incoming)
+  ) {
+    return res.status(400).json({ error: "This file doesn't look like a valid backup" });
+  }
+  // Only accept known keys, layered over defaults so missing fields stay sane.
+  const next = defaultState();
+  for (const k of KNOWN_KEYS) {
+    if (incoming[k] !== undefined) next[k] = incoming[k];
+  }
+  req.state = next;
+  await req.saveState();
+  res.json({ ok: true });
+}));
+
 // "Reset all progress" in Settings — wipes back to a fresh default.
 router.post("/reset", asyncHandler(async (req, res) => {
   req.state = defaultState();

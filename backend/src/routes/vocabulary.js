@@ -24,11 +24,36 @@ function allWords() {
   return words;
 }
 
+// 4-tier vocabulary knowledge model (simplified Vocabulary Knowledge Scale):
+//   recognition -> recall -> context -> production
+// Each tier counts correct answers in that kind of exercise. A word is only
+// "mastered" after repeated correct *production* use — finishing a game alone
+// doesn't count as knowing the word.
+const TIERS = ["recognition", "recall", "context", "production"];
+
+function tierCounts(progress) {
+  const t = (progress && progress.tiers) || {};
+  return {
+    recognition: t.recognition || 0,
+    // Legacy save files predate tiers: their flashcard reps were recall-style,
+    // so map them in rather than resetting everyone to zero.
+    recall: t.recall !== undefined ? t.recall : progress ? Math.min(progress.reps || 0, 3) : 0,
+    context: t.context || 0,
+    production: t.production || 0
+  };
+}
+
 function wordStatus(progress) {
   if (!progress) return "new";
-  if (progress.reps >= 3 && (progress.lastGrade === "good" || progress.lastGrade === "easy")) return "mastered";
-  return "learning";
+  const t = tierCounts(progress);
+  if (t.production >= 3) return "mastered";
+  if (t.context >= 2) return "context";
+  if (t.recall >= 2) return "recall";
+  return "recognition";
 }
+
+// Statuses that mean "started but not yet mastered".
+const LEARNING_STATUSES = ["recognition", "recall", "context"];
 
 router.get("/topics", (req, res) => {
   const summary = vocabData.topics.map((t) => {
@@ -53,19 +78,18 @@ router.get("/topics/:id", (req, res) => {
 
 router.get("/stats", (req, res) => {
   const levels = ["A1", "A2", "B1", "B2"];
+  const empty = () => ({ total: 0, new: 0, recognition: 0, recall: 0, context: 0, mastered: 0, learning: 0 });
   const byLevel = {};
-  for (const lv of levels) byLevel[lv] = { total: 0, new: 0, learning: 0, mastered: 0 };
+  for (const lv of levels) byLevel[lv] = empty();
   for (const w of allWords()) {
     const status = wordStatus(req.state.wordProgress[w.id]);
     byLevel[w.level].total += 1;
     byLevel[w.level][status] += 1;
+    if (LEARNING_STATUSES.includes(status)) byLevel[w.level].learning += 1;
   }
-  const overall = { total: 0, new: 0, learning: 0, mastered: 0 };
+  const overall = empty();
   for (const lv of levels) {
-    overall.total += byLevel[lv].total;
-    overall.new += byLevel[lv].new;
-    overall.learning += byLevel[lv].learning;
-    overall.mastered += byLevel[lv].mastered;
+    for (const key of Object.keys(overall)) overall[key] += byLevel[lv][key];
   }
   res.json({ overall, byLevel });
 });
@@ -84,9 +108,9 @@ router.get("/review", (req, res) => {
   if (status === "new") {
     words = words.filter((w) => w.status === "new");
   } else if (status === "learning") {
-    words = words.filter((w) => w.status === "learning");
-  } else if (status === "mastered") {
-    words = words.filter((w) => w.status === "mastered");
+    words = words.filter((w) => LEARNING_STATUSES.includes(w.status));
+  } else if (TIERS.includes(status) || status === "mastered") {
+    words = words.filter((w) => w.status === status);
   } else if (status === "all") {
     // no extra filtering
   } else {
@@ -166,16 +190,48 @@ router.get("/words/:id/detail", asyncHandler(async (req, res) => {
 }));
 
 router.post("/words/:id/grade", asyncHandler(async (req, res) => {
-  const { grade } = req.body;
+  const { grade, tier } = req.body;
   if (!["forgot", "hard", "good", "easy"].includes(grade)) {
     return res.status(400).json({ error: "Invalid grade" });
   }
+  if (tier !== undefined && !TIERS.includes(tier)) {
+    return res.status(400).json({ error: "Invalid tier" });
+  }
   const prevState = req.state.wordProgress[req.params.id];
   const nextState = scheduleNext(prevState, grade);
+  // Carry tier progress forward, then apply this answer to its tier:
+  // correct (good/easy) climbs, forgot slips back, hard holds steady.
+  const tiers = tierCounts(prevState);
+  if (tier) {
+    if (grade === "good" || grade === "easy") tiers[tier] += 1;
+    else if (grade === "forgot") tiers[tier] = Math.max(0, tiers[tier] - 1);
+  }
+  nextState.tiers = tiers;
   req.state.wordProgress[req.params.id] = nextState;
   await req.saveState();
-  res.json({ wordId: req.params.id, state: nextState });
+  res.json({ wordId: req.params.id, state: nextState, status: wordStatus(nextState) });
 }));
+
+// Search across all 5000 words by English word or Vietnamese meaning.
+router.get("/search", (req, res) => {
+  const q = (req.query.q || "").trim().toLowerCase();
+  if (!q) return res.json({ count: 0, words: [] });
+  const matches = allWords().filter(
+    (w) => w.word.toLowerCase().includes(q) || w.meaning.toLowerCase().includes(q)
+  );
+  // Words starting with the query first, then by frequency.
+  matches.sort((a, b) => {
+    const aStarts = a.word.toLowerCase().startsWith(q) ? 0 : 1;
+    const bStarts = b.word.toLowerCase().startsWith(q) ? 0 : 1;
+    if (aStarts !== bStarts) return aStarts - bStarts;
+    return (a.frequency || 0) - (b.frequency || 0);
+  });
+  const words = matches.slice(0, 50).map((w) => {
+    const progress = req.state.wordProgress[w.id] || null;
+    return { ...w, progress, status: wordStatus(progress) };
+  });
+  res.json({ count: matches.length, words });
+});
 
 router.post("/practice-reading", asyncHandler(async (req, res) => {
   const { wordIds, level, count } = req.body;

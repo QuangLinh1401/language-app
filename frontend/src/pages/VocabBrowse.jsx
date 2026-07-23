@@ -1,18 +1,11 @@
-import { useEffect, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import { Link } from "react-router-dom";
 import { api } from "../api.js";
 import StudySession from "../components/StudySession.jsx";
 import { getCustomExample } from "../customExamples.js";
 import Icon from "../components/Icon.jsx";
 import Loading from "../components/Loading.jsx";
-
-function speak(text) {
-  if (!window.speechSynthesis) return;
-  const utter = new SpeechSynthesisUtterance(text);
-  utter.lang = "en-US";
-  utter.rate = 0.95;
-  window.speechSynthesis.speak(utter);
-}
+import { speak } from "../speech.js";
 
 const levels = ["all", "A1", "A2", "B1", "B2"];
 const statusTabs = [
@@ -20,6 +13,24 @@ const statusTabs = [
   { id: "learning", label: "Learning", icon: "book" },
   { id: "mastered", label: "Mastered", icon: "check" }
 ];
+
+// The 4 knowledge stages a studied word moves through (see backend wordStatus).
+const STAGE_BADGES = {
+  recognition: { label: "Lv1 · Seen", bg: "#F1EAF7", color: "#6D3FE0" },
+  recall: { label: "Lv2 · Recall", bg: "#EAF0F7", color: "#2563A8" },
+  context: { label: "Lv3 · Context", bg: "#FCEFE6", color: "#B5720F" },
+  mastered: { label: "Lv4 · Mastered", bg: "#E4F5EA", color: "#3E9142" }
+};
+
+function StageBadge({ status }) {
+  const b = STAGE_BADGES[status];
+  if (!b) return null;
+  return (
+    <span className="pill" style={{ marginLeft: 6, padding: "2px 8px", fontSize: 9.5, background: b.bg, color: b.color, borderColor: "transparent" }}>
+      {b.label}
+    </span>
+  );
+}
 
 const PAGE_SIZE = 25;
 
@@ -31,6 +42,24 @@ export default function VocabBrowse() {
   const [studyWords, setStudyWords] = useState(null);
   const [done, setDone] = useState(false);
   const [page, setPage] = useState(0);
+  const [query, setQuery] = useState("");
+  const [searchResults, setSearchResults] = useState(null);
+  const searchTimer = useRef(null);
+
+  // Debounced search across all 5000 words (English word or Vietnamese meaning).
+  useEffect(() => {
+    clearTimeout(searchTimer.current);
+    const q = query.trim();
+    if (q.length < 2) {
+      setSearchResults(null);
+      return;
+    }
+    searchTimer.current = setTimeout(async () => {
+      const r = await api.vocabulary.search(q);
+      setSearchResults(r);
+    }, 300);
+    return () => clearTimeout(searchTimer.current);
+  }, [query]);
 
   async function load() {
     setData(null);
@@ -70,12 +99,75 @@ export default function VocabBrowse() {
     );
   }
 
+  const renderWordRow = (w) => (
+    <div key={w.id} className="word-list-row">
+      <div style={{ display: "flex", alignItems: "center", justifyContent: "space-between", cursor: "pointer" }} onClick={() => setOpenWord(openWord === w.id ? null : w.id)}>
+        <div>
+          <b style={{ fontSize: 13.5 }}>{w.word}</b>
+          <span style={{ fontSize: 11.5, color: "var(--ink-soft)", marginLeft: 8 }}>{w.ipa}</span>
+          <span className="pill" style={{ marginLeft: 8, padding: "2px 8px", fontSize: 10 }}>{w.level}</span>
+          <StageBadge status={w.status} />
+        </div>
+        <button
+          aria-label="Pronounce"
+          onClick={(e) => { e.stopPropagation(); speak(w.word); }}
+          style={{ background: "#EAF3F1", border: "none", borderRadius: "50%", width: 30, height: 30, cursor: "pointer", display: "flex", alignItems: "center", justifyContent: "center", flexShrink: 0 }}
+        ><Icon name="speaker-wave" size={16} /></button>
+      </div>
+      {openWord === w.id && (
+        <div style={{ marginTop: 8, fontSize: 12.5 }}>
+          <div style={{ color: "var(--teal)", fontWeight: 700 }}>{w.meaning}</div>
+          <div style={{ color: "var(--ink-soft)", fontStyle: "italic", marginTop: 4 }}>{w.example}</div>
+          {w.phrase && <div style={{ color: "var(--ink-soft)", marginTop: 4 }}>💬 {w.phrase}</div>}
+          {w.family && <div style={{ color: "var(--ink-soft)", marginTop: 4 }}>🌱 {w.family}</div>}
+          {getCustomExample(w.id) && (
+            <div style={{ color: "var(--teal-deep)", marginTop: 4 }}>✏️ {getCustomExample(w.id)}</div>
+          )}
+        </div>
+      )}
+    </div>
+  );
+
+  const searching = query.trim().length >= 2;
+
   return (
     <div>
       <Link to="/vocabulary/review" className="backbtn">‹ Review</Link>
       <h1 className="page-title">Browse Vocabulary</h1>
       <p className="sub">See exactly which words you know, and pick any group to study</p>
 
+      <input
+        className="fib-input"
+        style={{ width: "100%", marginBottom: 12, textAlign: "left" }}
+        placeholder="🔍 Search all 5000 words (English or Vietnamese)..."
+        value={query}
+        onChange={(e) => setQuery(e.target.value)}
+        autoCapitalize="off"
+        autoCorrect="off"
+        spellCheck={false}
+      />
+
+      {searching ? (
+        !searchResults ? (
+          <Loading text="Searching..." />
+        ) : (
+          <>
+            <div style={{ fontSize: 11.5, color: "var(--ink-soft)", fontWeight: 700, marginBottom: 8 }}>
+              {searchResults.count} result{searchResults.count === 1 ? "" : "s"}
+              {searchResults.count > searchResults.words.length ? ` (showing first ${searchResults.words.length})` : ""}
+            </div>
+            <div className="card" style={{ padding: 0 }}>
+              {searchResults.words.map(renderWordRow)}
+              {searchResults.words.length === 0 && (
+                <div style={{ padding: 16, textAlign: "center", fontSize: 12.5, color: "var(--ink-soft)" }}>
+                  No words found for "{query.trim()}".
+                </div>
+              )}
+            </div>
+          </>
+        )
+      ) : (
+      <>
       <div style={{ display: "flex", gap: 6, marginBottom: 10 }}>
         {statusTabs.map((s) => (
           <button
@@ -138,33 +230,7 @@ export default function VocabBrowse() {
           )}
 
           <div className="card" style={{ padding: 0 }}>
-            {data.words.slice(page * PAGE_SIZE, page * PAGE_SIZE + PAGE_SIZE).map((w) => (
-              <div key={w.id} className="word-list-row">
-                <div style={{ display: "flex", alignItems: "center", justifyContent: "space-between", cursor: "pointer" }} onClick={() => setOpenWord(openWord === w.id ? null : w.id)}>
-                  <div>
-                    <b style={{ fontSize: 13.5 }}>{w.word}</b>
-                    <span style={{ fontSize: 11.5, color: "var(--ink-soft)", marginLeft: 8 }}>{w.ipa}</span>
-                    <span className="pill" style={{ marginLeft: 8, padding: "2px 8px", fontSize: 10 }}>{w.level}</span>
-                  </div>
-                  <button
-                    aria-label="Pronounce"
-                    onClick={(e) => { e.stopPropagation(); speak(w.word); }}
-                    style={{ background: "#EAF3F1", border: "none", borderRadius: "50%", width: 30, height: 30, cursor: "pointer", display: "flex", alignItems: "center", justifyContent: "center" }}
-                  ><Icon name="speaker-wave" size={16} /></button>
-                </div>
-                {openWord === w.id && (
-                  <div style={{ marginTop: 8, fontSize: 12.5 }}>
-                    <div style={{ color: "var(--teal)", fontWeight: 700 }}>{w.meaning}</div>
-                    <div style={{ color: "var(--ink-soft)", fontStyle: "italic", marginTop: 4 }}>{w.example}</div>
-                    {w.phrase && <div style={{ color: "var(--ink-soft)", marginTop: 4 }}>💬 {w.phrase}</div>}
-                    {w.family && <div style={{ color: "var(--ink-soft)", marginTop: 4 }}>🌱 {w.family}</div>}
-                    {getCustomExample(w.id) && (
-                      <div style={{ color: "var(--teal-deep)", marginTop: 4 }}>✏️ {getCustomExample(w.id)}</div>
-                    )}
-                  </div>
-                )}
-              </div>
-            ))}
+            {data.words.slice(page * PAGE_SIZE, page * PAGE_SIZE + PAGE_SIZE).map(renderWordRow)}
             {data.words.length === 0 && (
               <div style={{ padding: 16, textAlign: "center", fontSize: 12.5, color: "var(--ink-soft)" }}>
                 No words in this category yet.
@@ -186,6 +252,8 @@ export default function VocabBrowse() {
             </div>
           )}
         </>
+      )}
+      </>
       )}
     </div>
   );

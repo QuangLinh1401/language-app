@@ -69,7 +69,14 @@ export default function VocabReview() {
       <StudySession
         words={words}
         onExit={() => setWords(null)}
-        onDone={() => { setWords(null); setDone(true); }}
+        onDone={async () => {
+          setWords(null);
+          // Refresh the session: if reviews (or more new words) remain, go back
+          // to the menu instead of hiding everything behind the "done" screen.
+          const fresh = await api.vocabulary.dailySession();
+          setSession(fresh);
+          if (fresh.due.length === 0 && fresh.newWords.length === 0) setDone(true);
+        }}
       />
     );
   }

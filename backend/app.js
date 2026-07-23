@@ -16,7 +16,8 @@ import { requireAuth, withState } from "./src/auth.js";
 const app = express();
 
 app.use(cors());
-app.use(express.json());
+// Larger limit so a full progress backup (5000-word wordProgress) can be imported.
+app.use(express.json({ limit: "5mb" }));
 
 app.use("/api/auth", authRoutes);
 

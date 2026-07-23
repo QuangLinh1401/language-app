@@ -1,10 +1,39 @@
-import { useState } from "react";
+import { useRef, useState } from "react";
 import { api } from "../api.js";
 import Icon from "./Icon.jsx";
 
 export default function SettingsModal({ username, onClose, onReset, onLogout }) {
   const [busy, setBusy] = useState("");
   const [confirmReset, setConfirmReset] = useState(false);
+  const [importMsg, setImportMsg] = useState("");
+  const fileRef = useRef(null);
+
+  async function importJson(e) {
+    const file = e.target.files?.[0];
+    e.target.value = ""; // allow re-selecting the same file
+    if (!file) return;
+    setBusy("import");
+    setImportMsg("");
+    try {
+      const text = await file.text();
+      let state;
+      try {
+        state = JSON.parse(text);
+      } catch {
+        throw new Error("That file is not valid JSON.");
+      }
+      if (!window.confirm("Importing will REPLACE your current progress with this backup. Continue?")) {
+        return;
+      }
+      await api.progress.import(state);
+      onReset?.();
+      onClose();
+    } catch (err) {
+      setImportMsg(err.message);
+    } finally {
+      setBusy("");
+    }
+  }
 
   async function exportJson() {
     setBusy("export");
@@ -56,6 +85,22 @@ export default function SettingsModal({ username, onClose, onReset, onLogout }) 
             <Icon name="chart" size={16} />
             {busy === "export" ? "Preparing file..." : "Download my data (JSON)"}
           </button>
+
+          <input ref={fileRef} type="file" accept=".json,application/json" style={{ display: "none" }} onChange={importJson} />
+          <button
+            className="btn-ghost"
+            onClick={() => fileRef.current?.click()}
+            disabled={busy === "import"}
+            style={{ display: "flex", alignItems: "center", justifyContent: "center", gap: 8 }}
+          >
+            <Icon name="book" size={16} />
+            {busy === "import" ? "Importing..." : "Import data from backup (JSON)"}
+          </button>
+          {importMsg && (
+            <div style={{ fontSize: 11.5, color: "var(--bad-deep)", fontWeight: 700, marginTop: 6, textAlign: "center" }}>
+              {importMsg}
+            </div>
+          )}
 
           <button
             className="btn-ghost"

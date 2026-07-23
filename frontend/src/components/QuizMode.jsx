@@ -41,7 +41,8 @@ export default function QuizMode({ words, onGrade, onFinish }) {
     setSelected(opt);
     const correct = opt.toLowerCase() === w.word.toLowerCase();
     if (correct) setScore((s) => s + 1);
-    onGrade(w.id, correct ? "good" : "forgot");
+    // Fill-in-the-blank tests understanding the word in a sentence context.
+    onGrade(w.id, correct ? "good" : "forgot", "context");
     setTimeout(() => setIndex((i) => i + 1), 900);
   }
 

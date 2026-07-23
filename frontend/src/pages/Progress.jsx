@@ -39,9 +39,15 @@ export default function Progress() {
           <div style={{ fontSize: 12.5, fontWeight: 700, color: "var(--ink-soft)", margin: "18px 0 8px" }}>
             Vocabulary breakdown ({vocabStats.overall.total} words)
           </div>
+          <div style={{ fontSize: 10.5, color: "var(--ink-soft)", marginBottom: 8 }}>
+            A word climbs 4 stages: Seen → Recall → Context → Mastered. It only counts
+            as mastered after you use it correctly several times.
+          </div>
           <div className="stat-grid">
-            <div className="stat-card"><b>{vocabStats.overall.mastered}</b><span>Mastered</span></div>
-            <div className="stat-card"><b>{vocabStats.overall.learning}</b><span>Still learning</span></div>
+            <div className="stat-card"><b>{vocabStats.overall.recognition}</b><span>Lv1 · Seen</span></div>
+            <div className="stat-card"><b>{vocabStats.overall.recall}</b><span>Lv2 · Recall</span></div>
+            <div className="stat-card"><b>{vocabStats.overall.context}</b><span>Lv3 · In context</span></div>
+            <div className="stat-card"><b>{vocabStats.overall.mastered}</b><span>Lv4 · Mastered</span></div>
             <div className="stat-card"><b>{vocabStats.overall.new}</b><span>Not started</span></div>
             <div className="stat-card"><b>{Math.round((vocabStats.overall.mastered / vocabStats.overall.total) * 100)}%</b><span>Mastery rate</span></div>
           </div>

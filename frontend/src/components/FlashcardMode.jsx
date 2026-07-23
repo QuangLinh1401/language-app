@@ -43,7 +43,8 @@ export default function FlashcardMode({ words, onGrade, onFinish }) {
   const typedCorrect = typed.trim().toLowerCase() === w.word.trim().toLowerCase();
 
   async function grade(g) {
-    await onGrade(w.id, g);
+    // Flashcards test recall: see the word, remember the meaning.
+    await onGrade(w.id, g, "recall");
     setMsg(gradeMsgs[g]);
     setTimeout(() => {
       setMsg("");

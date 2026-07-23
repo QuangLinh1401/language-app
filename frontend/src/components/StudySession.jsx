@@ -13,8 +13,10 @@ export default function StudySession({ words, onExit, onDone }) {
   const navigate = useNavigate();
   const [mode, setMode] = useState(null);
 
-  async function grade(wordId, g) {
-    await api.vocabulary.grade(wordId, g);
+  // Each mode reports which knowledge tier it exercises
+  // (recognition / recall / context / production).
+  async function grade(wordId, g, tier) {
+    await api.vocabulary.grade(wordId, g, tier);
   }
 
   function selectMode(m) {
