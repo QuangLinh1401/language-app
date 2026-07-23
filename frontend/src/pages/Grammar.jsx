@@ -67,7 +67,10 @@ export default function Grammar() {
           >
             <div>
               <div style={{ fontSize: 13.5, fontWeight: 700 }}>{l.title}</div>
-              <div style={{ fontSize: 10.5, color: "var(--ink-soft)" }}>Level {l.level}</div>
+              <div style={{ fontSize: 10.5, color: "var(--ink-soft)" }}>
+                Level {l.level}
+                {l.wrongCount > 0 && <span style={{ color: "var(--amber-deep)", fontWeight: 700 }}> · ⟳ {l.wrongCount} câu sai lần trước</span>}
+              </div>
             </div>
             <div style={{ fontSize: 16, display: "flex", alignItems: "center" }}>{l.completed ? <Icon name="check" size={18} /> : "›"}</div>
           </Link>

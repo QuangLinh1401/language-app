@@ -19,7 +19,7 @@ const stages = [
 export default function VocabReview() {
   const navigate = useNavigate();
   const [session, setSession] = useState(null);
-  const [level, setLevel] = useState("all");
+  const [level, setLevel] = useState(() => localStorage.getItem("language-app-level") || "all");
   const [stage, setStage] = useState("recognition");
   const [customWords, setCustomWords] = useState(null);
   const [words, setWords] = useState(null);

@@ -30,9 +30,13 @@ export default function GrammarLesson() {
   }
 
   async function finish() {
-    await api.grammar.complete(lessonId);
+    const wrongIds = lesson.exercises.filter((ex) => checked[ex.id] === false).map((ex) => ex.id);
+    await api.grammar.complete(lessonId, wrongIds);
     setDone(true);
   }
+
+  // Exercises missed in the previous attempt — worth extra attention.
+  const prevWrong = new Set(lesson.progress?.wrongIds || []);
 
   const allChecked = lesson.exercises.every((ex) => ex.id in checked);
   const correctCount = Object.values(checked).filter(Boolean).length;
@@ -53,11 +57,16 @@ export default function GrammarLesson() {
       </div>
 
       <div style={{ fontSize: 12.5, fontWeight: 700, marginBottom: 8 }}>Practice exercises</div>
+      {prevWrong.size > 0 && (
+        <div style={{ fontSize: 11.5, fontWeight: 700, color: "var(--amber-deep)", marginBottom: 8 }}>
+          ⟳ Lần trước bạn sai {prevWrong.size} câu — chú ý các câu được đánh dấu nhé.
+        </div>
+      )}
       <div className="card">
         {lesson.exercises.map((ex, i) => (
           <div key={ex.id} style={{ marginBottom: i < lesson.exercises.length - 1 ? 16 : 0 }}>
             <div style={{ fontSize: 13.5, lineHeight: 1.8, marginBottom: 6 }}>
-              {i + 1}. {ex.sentence.split("___")[0]}
+              {i + 1}. {prevWrong.has(ex.id) && <span title="Sai lần trước" style={{ color: "var(--amber-deep)" }}>⟳ </span>}{ex.sentence.split("___")[0]}
               <input
                 className={
                   "fib-input" +

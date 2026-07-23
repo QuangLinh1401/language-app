@@ -53,13 +53,16 @@ export default function ListeningLesson() {
     setChecked(true);
   }
 
+  const isRight = (q) => (answers[q.id] || "").trim().toLowerCase() === q.answer.toLowerCase();
+
   async function finish() {
-    const correct = lesson.questions.filter(
-      (q) => (answers[q.id] || "").trim().toLowerCase() === q.answer.toLowerCase()
-    ).length;
-    await api.listening.complete(lessonId, Math.round((correct / lesson.questions.length) * 100));
+    const correct = lesson.questions.filter(isRight).length;
+    const wrongIds = lesson.questions.filter((q) => !isRight(q)).map((q) => q.id);
+    await api.listening.complete(lessonId, Math.round((correct / lesson.questions.length) * 100), wrongIds);
     navigate("/listening");
   }
+
+  const prevWrong = new Set(lesson.progress?.wrongIds || []);
 
   return (
     <div>
@@ -89,7 +92,9 @@ export default function ListeningLesson() {
       <div className="card">
         {lesson.questions.map((q, i) => (
           <div key={q.id} style={{ marginBottom: i < lesson.questions.length - 1 ? 16 : 0 }}>
-            <div style={{ fontSize: 13, marginBottom: 6 }}>{i + 1}. {q.prompt}</div>
+            <div style={{ fontSize: 13, marginBottom: 6 }}>
+              {i + 1}. {prevWrong.has(q.id) && <span title="Sai lần trước" style={{ color: "var(--amber-deep)" }}>⟳ </span>}{q.prompt}
+            </div>
             {q.type === "blank" && (
               <input
                 className={"fib-input" + (checked ? (

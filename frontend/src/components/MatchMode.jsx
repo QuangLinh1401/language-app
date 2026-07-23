@@ -52,7 +52,12 @@ export default function MatchMode({ words, onGrade, onFinish }) {
     if (phase === "match" && round.length > 0 && matchedIds.size === round.length) {
       const timer = setTimeout(() => {
         // Matching word <-> meaning is recognition-level practice.
-        round.forEach((w) => onGrade(w.id, (misses[w.id] || 0) > 0 ? "hard" : "good", "recognition"));
+        // 2+ misses on a word means it wasn't really known — grade "forgot"
+        // so the SRS interval resets instead of silently growing.
+        round.forEach((w) => {
+          const m = misses[w.id] || 0;
+          onGrade(w.id, m >= 2 ? "forgot" : m > 0 ? "hard" : "good", "recognition");
+        });
         setPhase("type");
       }, 600);
       return () => clearTimeout(timer);

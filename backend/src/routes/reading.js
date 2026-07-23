@@ -23,7 +23,8 @@ router.get("/", (req, res) => {
       totalQuestions: p.questions.length,
       read: Boolean(progress),
       score: progress ? progress.score : null,
-      timeSeconds: progress ? progress.timeSeconds : null
+      timeSeconds: progress ? progress.timeSeconds : null,
+      wrongCount: (progress?.wrongIds || []).length
     };
   });
   res.json(list);
@@ -32,19 +33,24 @@ router.get("/", (req, res) => {
 router.get("/:id", (req, res) => {
   const passage = readingData.passages.find((p) => p.id === req.params.id);
   if (!passage) return res.status(404).json({ error: "Passage not found" });
-  res.json(passage);
+  res.json({ ...passage, progress: req.state.readingProgress[passage.id] || null });
 });
 
 router.post("/:id/complete", asyncHandler(async (req, res) => {
   const { score, timeSeconds } = req.body;
   const passage = readingData.passages.find((p) => p.id === req.params.id);
   if (!passage) return res.status(404).json({ error: "Passage not found" });
+  const validIds = new Set(passage.questions.map((q) => q.id));
+  const wrongIds = Array.isArray(req.body?.wrongIds)
+    ? req.body.wrongIds.filter((id) => validIds.has(id)).slice(0, 50)
+    : [];
   const grade = score != null && passage.questions.length > 0 && score / passage.questions.length < 0.7 ? "hard" : "good";
   const prev = req.state.readingProgress[req.params.id];
   req.state.readingProgress[req.params.id] = {
     completedAt: Date.now(),
     score: score ?? null,
     timeSeconds: timeSeconds ?? null,
+    wrongIds,
     ...scheduleNext(prev, grade)
   };
   await req.saveState();

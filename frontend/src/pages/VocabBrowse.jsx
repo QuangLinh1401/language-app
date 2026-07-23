@@ -46,7 +46,7 @@ function LeechBadge({ progress }) {
 const PAGE_SIZE = 25;
 
 export default function VocabBrowse() {
-  const [level, setLevel] = useState("all");
+  const [level, setLevel] = useState(() => localStorage.getItem("language-app-level") || "all");
   const [status, setStatus] = useState("learning");
   const [data, setData] = useState(null);
   const [openWord, setOpenWord] = useState(null);

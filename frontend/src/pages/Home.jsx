@@ -38,11 +38,20 @@ export default function Home() {
 
   useEffect(() => {
     // touch returns the full summary — one round trip instead of two.
-    api.progress.touch(5).then(setProgress);
+    api.progress.touch(5).then((p) => {
+      setProgress(p);
+      // Sync the placement-test level across devices.
+      if (p.preferredLevel && !localStorage.getItem("language-app-level")) {
+        localStorage.setItem("language-app-level", p.preferredLevel);
+      }
+    });
     api.vocabulary.dailySession().then(setSession);
     api.vocabulary.wordOfDay().then(setWod);
     api.reviewQueue().then(setQueue);
   }, []);
+
+  const needsPlacement =
+    progress && progress.wordsLearned === 0 && !progress.preferredLevel && !localStorage.getItem("language-app-level");
 
   const SKILL_ICONS = { grammar: "/icons/grammar.svg", listening: "/icons/listening.svg", reading: "/icons/reading.svg" };
 
@@ -104,6 +113,17 @@ export default function Home() {
             : ""}
         </div>
       </div>
+
+      {needsPlacement && (
+        <Link to="/placement" className="review-banner" style={{ background: "var(--violet-soft)", borderColor: "var(--line)" }}>
+          <span style={{ fontSize: 22 }}>🧭</span>
+          <div style={{ flex: 1 }}>
+            <b style={{ fontSize: 12.5, display: "block" }}>New here? Find your level</b>
+            <span style={{ fontSize: 11, color: "var(--ink-soft)" }}>12 quick questions · sets the right difficulty for you</span>
+          </div>
+          <div style={{ fontSize: 16 }}>›</div>
+        </Link>
+      )}
 
       {(session?.due.length > 0 || queue?.count > 0) && (
         <div className="card" style={{ marginBottom: 16 }}>

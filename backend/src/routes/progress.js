@@ -64,6 +64,7 @@ router.post("/touch", asyncHandler(async (req, res) => {
     xp: req.state.xp,
     dailyXp: getDailyXp(req.state),
     dailyXpGoal: getDailyXpGoal(req.state),
+    preferredLevel: req.state.settings?.preferredLevel || null,
     wordsLearned: Object.keys(req.state.wordProgress).length,
     grammarCompleted: Object.keys(req.state.grammarProgress).length,
     listeningCompleted: Object.keys(req.state.listeningProgress).length,
@@ -71,15 +72,29 @@ router.post("/touch", asyncHandler(async (req, res) => {
   });
 }));
 
-// Adjust the daily XP goal (goal-gradient: a visible finish line each day).
+// Adjust progress settings: daily XP goal and/or preferred CEFR level.
 router.put("/settings", asyncHandler(async (req, res) => {
-  const n = parseInt(req.body.dailyXpGoal, 10);
-  if (!Number.isInteger(n) || n < 10 || n > 1000) {
-    return res.status(400).json({ error: "dailyXpGoal must be an integer between 10 and 1000" });
+  const out = {};
+  if (req.body.dailyXpGoal !== undefined) {
+    const n = parseInt(req.body.dailyXpGoal, 10);
+    if (!Number.isInteger(n) || n < 10 || n > 1000) {
+      return res.status(400).json({ error: "dailyXpGoal must be an integer between 10 and 1000" });
+    }
+    setDailyXpGoal(req.state, n);
+    out.dailyXpGoal = n;
   }
-  setDailyXpGoal(req.state, n);
+  if (req.body.preferredLevel !== undefined) {
+    if (!["A1", "A2", "B1", "B2"].includes(req.body.preferredLevel)) {
+      return res.status(400).json({ error: "preferredLevel must be A1, A2, B1 or B2" });
+    }
+    req.state.settings.preferredLevel = req.body.preferredLevel;
+    out.preferredLevel = req.body.preferredLevel;
+  }
+  if (Object.keys(out).length === 0) {
+    return res.status(400).json({ error: "Nothing to update" });
+  }
   await req.saveState();
-  res.json({ dailyXpGoal: n });
+  res.json(out);
 }));
 
 export default router;

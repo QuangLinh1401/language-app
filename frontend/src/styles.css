@@ -722,3 +722,16 @@ h1.page-title {
   display: flex; align-items: center; justify-content: center;
   font-size: 11px; font-weight: 900;
 }
+
+/* Global connection-problem banner */
+.net-banner {
+  position: sticky; top: 0; z-index: 60;
+  display: flex; align-items: center; gap: 10px;
+  background: var(--bad); color: #fff;
+  padding: 9px 14px; font-size: 12px; font-weight: 700;
+}
+.net-banner button {
+  background: rgba(255,255,255,0.25); color: #fff; border: none;
+  border-radius: 999px; padding: 4px 12px; font-size: 11.5px; font-weight: 800;
+  cursor: pointer; font-family: inherit;
+}

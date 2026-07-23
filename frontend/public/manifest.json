@@ -1,0 +1,13 @@
+{
+  "name": "Language App",
+  "short_name": "Language",
+  "description": "Learn English: 5000 words, grammar, listening, reading and speaking practice.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#F7F9FA",
+  "theme_color": "#12B3A8",
+  "icons": [
+    { "src": "/cat.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any" },
+    { "src": "/icons/vocabulary.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any" }
+  ]
+}

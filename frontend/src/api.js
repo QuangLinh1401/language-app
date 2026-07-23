@@ -16,12 +16,30 @@ export const auth = {
   }
 };
 
-async function request(path, options = {}) {
+async function request(path, options = {}, retried = false) {
   const headers = { "Content-Type": "application/json" };
   const token = auth.token();
   if (token) headers.Authorization = `Bearer ${token}`;
 
-  const res = await fetch(`${BASE}${path}`, { headers, ...options });
+  let res;
+  try {
+    res = await fetch(`${BASE}${path}`, { headers, ...options });
+  } catch (err) {
+    // Network failure (offline, DNS, aborted) — retry once after a short wait.
+    if (!retried) {
+      await new Promise((r) => setTimeout(r, 800));
+      return request(path, options, true);
+    }
+    window.dispatchEvent(new CustomEvent("api-error", { detail: "Mất kết nối mạng — kiểm tra internet rồi thử lại." }));
+    throw err;
+  }
+
+  // Transient server errors (cold start, gateway hiccup) also get one retry.
+  if (res.status >= 500 && !retried) {
+    await new Promise((r) => setTimeout(r, 800));
+    return request(path, options, true);
+  }
+
   if (res.status === 401 && !path.startsWith("/auth/")) {
     // Token missing/expired — drop it and send the user back to the login screen.
     auth.clear();
@@ -36,8 +54,12 @@ async function request(path, options = {}) {
     } catch {
       // non-JSON error body — keep the generic message
     }
+    if (res.status >= 500) {
+      window.dispatchEvent(new CustomEvent("api-error", { detail: "Máy chủ đang gặp trục trặc — thử lại nhé." }));
+    }
     throw new Error(message);
   }
+  window.dispatchEvent(new Event("api-ok"));
   return res.json();
 }
 
@@ -90,21 +112,22 @@ export const api = {
   grammar: {
     list: () => request("/grammar"),
     lesson: (id) => request(`/grammar/${id}`),
-    complete: (id) => request(`/grammar/${id}/complete`, { method: "POST" })
+    complete: (id, wrongIds = []) =>
+      request(`/grammar/${id}/complete`, { method: "POST", body: JSON.stringify({ wrongIds }) })
   },
 
   listening: {
     list: () => request("/listening"),
     lesson: (id) => request(`/listening/${id}`),
-    complete: (id, score) =>
-      request(`/listening/${id}/complete`, { method: "POST", body: JSON.stringify({ score }) })
+    complete: (id, score, wrongIds = []) =>
+      request(`/listening/${id}/complete`, { method: "POST", body: JSON.stringify({ score, wrongIds }) })
   },
 
   reading: {
     list: () => request("/reading"),
     passage: (id) => request(`/reading/${id}`),
-    complete: (id, score, timeSeconds) =>
-      request(`/reading/${id}/complete`, { method: "POST", body: JSON.stringify({ score, timeSeconds }) })
+    complete: (id, score, timeSeconds, wrongIds = []) =>
+      request(`/reading/${id}/complete`, { method: "POST", body: JSON.stringify({ score, timeSeconds, wrongIds }) })
   },
 
   speaking: {

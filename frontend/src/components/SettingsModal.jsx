@@ -11,7 +11,32 @@ export default function SettingsModal({ username, onClose, onReset, onLogout }) 
   const [theme, setTheme] = useState(() => localStorage.getItem(THEME_KEY) || "light");
   const [xpGoal, setXpGoal] = useState(null);
   const [goalSaving, setGoalSaving] = useState(false);
+  const [reminderTime, setReminderTime] = useState(() => localStorage.getItem("language-app-reminder") || "");
   const fileRef = useRef(null);
+
+  async function toggleReminder() {
+    if (reminderTime) {
+      localStorage.removeItem("language-app-reminder");
+      setReminderTime("");
+      return;
+    }
+    if (!("Notification" in window)) {
+      setImportMsg("This browser doesn't support notifications.");
+      return;
+    }
+    const perm = await Notification.requestPermission();
+    if (perm !== "granted") {
+      setImportMsg("Notifications were blocked — allow them in browser settings to use reminders.");
+      return;
+    }
+    localStorage.setItem("language-app-reminder", "20:00");
+    setReminderTime("20:00");
+  }
+
+  function changeReminderTime(v) {
+    setReminderTime(v);
+    localStorage.setItem("language-app-reminder", v);
+  }
 
   useEffect(() => {
     api.progress.get().then((p) => setXpGoal(p.dailyXpGoal || 50)).catch(() => {});
@@ -149,6 +174,24 @@ export default function SettingsModal({ username, onClose, onReset, onLogout }) 
               {xpGoal == null ? "…" : xpGoal}
             </span>
             <button className="icon-step" disabled={goalSaving || xpGoal == null || xpGoal >= 1000} onClick={() => adjustXpGoal(10)}>+</button>
+          </div>
+
+          <div style={{ display: "flex", alignItems: "center", gap: 10, marginBottom: 14 }}>
+            <span style={{ fontSize: 12, color: "var(--ink-soft)", fontWeight: 700, flex: 1 }}>
+              Daily reminder
+              <span style={{ display: "block", fontSize: 10, fontWeight: 600 }}>(fires while the app is open)</span>
+            </span>
+            {reminderTime && (
+              <input
+                type="time"
+                value={reminderTime}
+                onChange={(e) => changeReminderTime(e.target.value)}
+                style={{ border: "1px solid var(--line)", borderRadius: 8, padding: "4px 6px", fontFamily: "inherit", fontSize: 12, background: "var(--card)", color: "var(--ink)" }}
+              />
+            )}
+            <button className="pill" onClick={toggleReminder} style={{ cursor: "pointer", background: reminderTime ? "var(--teal)" : "var(--card)", color: reminderTime ? "#fff" : "var(--teal-deep)", border: "1px solid var(--line)" }}>
+              {reminderTime ? "On" : "Off"}
+            </button>
           </div>
 
           <input ref={fileRef} type="file" accept=".json,application/json" style={{ display: "none" }} onChange={importJson} />

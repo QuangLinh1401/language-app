@@ -65,6 +65,7 @@ export default function Listening() {
             <div style={{ fontSize: 10.5, color: "var(--ink-soft)", marginTop: 4, display: "flex", alignItems: "center", gap: 4 }}>
               <span>{l.topic} · Level {l.level}</span>
               {l.completed && <><span>· Completed</span><Icon name="check" size={13} /></>}
+              {l.wrongCount > 0 && <span style={{ color: "var(--amber-deep)", fontWeight: 700 }}>· ⟳ {l.wrongCount} câu sai</span>}
             </div>
           </div>
         </Link>

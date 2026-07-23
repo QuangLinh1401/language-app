@@ -63,6 +63,7 @@ export default function Reading() {
             {p.read && (
               <div style={{ fontSize: 10.5, color: "var(--teal)", marginTop: 2, fontWeight: 700 }}>
                 Score {p.score}/{p.totalQuestions || 5} · {Math.round(p.timeSeconds / 60)} min {p.timeSeconds % 60}s
+                {p.wrongCount > 0 && <span style={{ color: "var(--amber-deep)" }}> · ⟳ {p.wrongCount} câu sai</span>}
               </div>
             )}
           </div>

@@ -40,9 +40,12 @@ export default function ReadingPassage() {
   async function finish() {
     const elapsed = Math.round((Date.now() - startRef.current) / 1000);
     setTimeSeconds(elapsed);
-    await api.reading.complete(passageId, correctCount, elapsed);
+    const wrongIds = passage.questions.filter((q) => !isRight(q)).map((q) => q.id);
+    await api.reading.complete(passageId, correctCount, elapsed, wrongIds);
     setFinished(true);
   }
+
+  const prevWrong = new Set(passage.progress?.wrongIds || []);
 
   if (finished) {
     return (
@@ -80,7 +83,9 @@ export default function ReadingPassage() {
           <div className="card">
             {passage.questions.map((q, i) => (
               <div key={q.id} style={{ marginBottom: i < passage.questions.length - 1 ? 16 : 0 }}>
-                <div style={{ fontSize: 13, marginBottom: 6 }}>{i + 1}. {q.prompt}</div>
+                <div style={{ fontSize: 13, marginBottom: 6 }}>
+                  {i + 1}. {prevWrong.has(q.id) && <span title="Sai lần trước" style={{ color: "var(--amber-deep)" }}>⟳ </span>}{q.prompt}
+                </div>
                 {q.type === "blank" ? (
                   <div>
                     <input

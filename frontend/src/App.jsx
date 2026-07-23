@@ -4,6 +4,7 @@ import BottomNav from "./components/BottomNav.jsx";
 import ScrollToTop from "./components/ScrollToTop.jsx";
 import SettingsModal from "./components/SettingsModal.jsx";
 import AnimatedIcon from "./components/AnimatedIcon.jsx";
+import ErrorBoundary from "./components/ErrorBoundary.jsx";
 import { auth } from "./api.js";
 
 import Login from "./pages/Login.jsx";
@@ -24,12 +25,26 @@ import Speaking from "./pages/Speaking.jsx";
 import SpeakingShadowing from "./pages/SpeakingShadowing.jsx";
 import SpeakingDialogue from "./pages/SpeakingDialogue.jsx";
 import Progress from "./pages/Progress.jsx";
+import Placement from "./pages/Placement.jsx";
 
 export default function App() {
   const location = useLocation();
   const [showSettings, setShowSettings] = useState(false);
   const [resetKey, setResetKey] = useState(0);
   const [user, setUser] = useState(() => (auth.token() ? auth.username() : null));
+  const [apiError, setApiError] = useState("");
+
+  // Global connection banner: any failed request shows it, any success clears it.
+  useEffect(() => {
+    const onError = (e) => setApiError(e.detail || "Có lỗi kết nối.");
+    const onOk = () => setApiError("");
+    window.addEventListener("api-error", onError);
+    window.addEventListener("api-ok", onOk);
+    return () => {
+      window.removeEventListener("api-error", onError);
+      window.removeEventListener("api-ok", onOk);
+    };
+  }, []);
 
   // Apply the saved theme (light/dark) on startup.
   useEffect(() => {
@@ -41,6 +56,25 @@ export default function App() {
     const onExpired = () => setUser(null);
     window.addEventListener("auth-expired", onExpired);
     return () => window.removeEventListener("auth-expired", onExpired);
+  }, []);
+
+  // Daily study reminder (best effort — fires while the app is open).
+  useEffect(() => {
+    const timer = setInterval(() => {
+      const time = localStorage.getItem("language-app-reminder");
+      if (!time || !("Notification" in window) || Notification.permission !== "granted") return;
+      const now = new Date();
+      const hhmm = `${String(now.getHours()).padStart(2, "0")}:${String(now.getMinutes()).padStart(2, "0")}`;
+      const today = now.toISOString().slice(0, 10);
+      if (hhmm === time && localStorage.getItem("language-app-reminded") !== today) {
+        localStorage.setItem("language-app-reminded", today);
+        new Notification("Time to learn! 🔥", {
+          body: "Giữ chuỗi ngày của bạn — vài phút thôi cũng được.",
+          icon: "/icons/fire.svg"
+        });
+      }
+    }, 30000);
+    return () => clearInterval(timer);
   }, []);
 
   function logout() {
@@ -65,7 +99,14 @@ export default function App() {
       >
         <AnimatedIcon src="/icons/gear.lottie.json" fallback="/icons/gear.svg" size={20} hover />
       </button>
+      {apiError && (
+        <div className="net-banner">
+          <span style={{ flex: 1 }}>⚠️ {apiError}</span>
+          <button onClick={() => window.location.reload()}>Thử lại</button>
+        </div>
+      )}
       <div className="app-content">
+        <ErrorBoundary>
         <div key={location.pathname + ":" + resetKey} className="view-transition">
         <Routes>
           <Route path="/" element={<Home />} />
@@ -91,8 +132,10 @@ export default function App() {
           <Route path="/speaking/dialogue/:dialogueId" element={<SpeakingDialogue />} />
 
           <Route path="/progress" element={<Progress />} />
+          <Route path="/placement" element={<Placement />} />
         </Routes>
         </div>
+        </ErrorBoundary>
       </div>
       <BottomNav />
       {showSettings && (
