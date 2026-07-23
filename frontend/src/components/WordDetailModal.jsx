@@ -88,7 +88,9 @@ export default function WordDetailModal({ wordId, onClose }) {
         .slice(0, 10)
     : [];
 
-  const hasDefinitions = Boolean(detail?.usage || dict || detail?.grammarNote || detail?.synonyms?.length || detail?.collocations?.length);
+  // Always available — words missing from the open dictionaries fall back to
+  // the app's own Vietnamese meaning + example.
+  const hasDefinitions = Boolean(detail);
   const hasExamples = examples.length > 0;
   const hasNotes = Boolean(detail?.phrase || detail?.family || customExample);
 
@@ -111,12 +113,12 @@ export default function WordDetailModal({ wordId, onClose }) {
         ) : (
           <>
             <div className="modal-head">
-              <div style={{ display: "flex", alignItems: "center", gap: 10, paddingRight: 36 }}>
-                <div style={{ fontFamily: "'Nunito',sans-serif", fontWeight: 900, fontSize: 24, color: "var(--teal-deep)" }}>
+              <div style={{ display: "flex", alignItems: "center", gap: 10, paddingRight: 36, flexWrap: "wrap" }}>
+                <div style={{ fontFamily: "'Nunito',sans-serif", fontWeight: 900, fontSize: detail.word.length > 18 ? 19 : 24, color: "var(--teal-deep)", flex: 1, minWidth: 0, overflowWrap: "break-word" }}>
                   {detail.word}
                 </div>
                 <SoundBtn text={detail.word} />
-                <span className="pill" style={{ marginLeft: "auto" }}>{detail.level}</span>
+                <span className="pill">{detail.level}</span>
               </div>
               <div style={{ fontSize: 13, color: "var(--ink-soft)", marginTop: 4, fontWeight: 700 }}>
                 <span className="ipa-text">{detail.ipa}</span>{detail.partOfSpeech ? ` · ${detail.partOfSpeech}` : ""}
@@ -151,6 +153,22 @@ export default function WordDetailModal({ wordId, onClose }) {
                     <div className="explain-box" style={{ marginTop: 0 }}>
                       <Highlighted text={detail.usage} word={detail.word} />
                     </div>
+                  )}
+
+                  {!dict && !detail.usage && (
+                    <Section title="Definitions">
+                      <div className="card" style={{ padding: "12px 14px" }}>
+                        <div style={{ fontSize: 13.5, fontWeight: 800, color: "var(--teal)" }}>{detail.meaning}</div>
+                        {detail.example && (
+                          <div style={{ fontSize: 12.5, color: "var(--ink-soft)", fontStyle: "italic", marginTop: 6 }}>
+                            “<Highlighted text={detail.example} word={detail.word} />”
+                          </div>
+                        )}
+                      </div>
+                      <div style={{ fontSize: 10.5, color: "var(--ink-soft)", marginTop: 8 }}>
+                        Cụm từ này chưa có trong từ điển mở — nghĩa và ví dụ lấy từ bộ từ vựng của app.
+                      </div>
+                    </Section>
                   )}
 
                   {dict && (

@@ -620,3 +620,9 @@ h1.page-title {
 @media (prefers-reduced-motion: reduce) {
   .flame-anim { animation: none; }
 }
+
+/* Word detail modal: never let long words/definitions overflow the sheet */
+.modal-sheet { overflow-wrap: break-word; }
+.modal-scroll { overflow-wrap: break-word; word-break: break-word; min-width: 0; }
+.modal-scroll .pill { white-space: normal; text-align: left; max-width: 100%; }
+.modal-scroll ol { min-width: 0; }

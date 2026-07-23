@@ -1,7 +1,21 @@
 import fetch from "node-fetch";
 
 const API_URL = "https://api.dictionaryapi.dev/api/v2/entries/en";
+const WIKI_URL = "https://en.wiktionary.org/api/rest_v1/page/definition";
 const cache = new Map();
+
+function stripHtml(s) {
+  return (s || "")
+    .replace(/<[^>]*>/g, "")
+    .replace(/&nbsp;/g, " ")
+    .replace(/&amp;/g, "&")
+    .replace(/&lt;/g, "<")
+    .replace(/&gt;/g, ">")
+    .replace(/&#39;|&apos;/g, "'")
+    .replace(/&quot;/g, '"')
+    .replace(/\s+/g, " ")
+    .trim();
+}
 
 function normalize(entries) {
   const phonetics = [];
@@ -43,27 +57,85 @@ function normalize(entries) {
   };
 }
 
+async function fetchFromDictionaryApi(term) {
+  const controller = new AbortController();
+  const timeout = setTimeout(() => controller.abort(), 4000);
+  try {
+    const res = await fetch(`${API_URL}/${encodeURIComponent(term)}`, { signal: controller.signal });
+    if (!res.ok) return null;
+    const data = await res.json();
+    const result = normalize(Array.isArray(data) ? data : []);
+    return result.found ? result : null;
+  } catch {
+    return null;
+  } finally {
+    clearTimeout(timeout);
+  }
+}
+
+// Wiktionary's own REST API covers far more entries than dictionaryapi.dev —
+// including compounds and phrasal verbs like "bus stop" or "get on".
+async function fetchFromWiktionary(term) {
+  const controller = new AbortController();
+  const timeout = setTimeout(() => controller.abort(), 4000);
+  try {
+    const page = term.replace(/ /g, "_");
+    const res = await fetch(`${WIKI_URL}/${encodeURIComponent(page)}`, {
+      signal: controller.signal,
+      headers: { accept: "application/json", "user-agent": "language-app (learning project)" }
+    });
+    if (!res.ok) return null;
+    const data = await res.json();
+    const langEntries = data.en || [];
+    const meanings = [];
+    for (const e of langEntries) {
+      const definitions = (e.definitions || [])
+        .map((d) => ({
+          definition: stripHtml(d.definition),
+          example:
+            d.parsedExamples && d.parsedExamples.length
+              ? stripHtml(d.parsedExamples[0].example)
+              : d.examples && d.examples.length
+                ? stripHtml(d.examples[0])
+                : null
+        }))
+        .filter((d) => d.definition);
+      if (definitions.length > 0) {
+        definitions.sort((a, b) => (b.example ? 1 : 0) - (a.example ? 1 : 0));
+        meanings.push({
+          partOfSpeech: (e.partOfSpeech || "").toLowerCase() || "phrase",
+          definitions: definitions.slice(0, 6)
+        });
+      }
+    }
+    if (meanings.length === 0) return null;
+    return {
+      found: true,
+      phonetics: [],
+      meanings: meanings.slice(0, 6),
+      synonyms: [],
+      antonyms: [],
+      sourceUrl: `https://en.wiktionary.org/wiki/${encodeURIComponent(page)}`
+    };
+  } catch {
+    return null;
+  } finally {
+    clearTimeout(timeout);
+  }
+}
+
 export async function fetchDictionaryEntry(word) {
   const key = word.toLowerCase().trim();
   if (cache.has(key)) return cache.get(key);
 
-  const notFound = { found: false, phonetics: [], meanings: [], synonyms: [], antonyms: [], sourceUrl: null };
-  const controller = new AbortController();
-  const timeout = setTimeout(() => controller.abort(), 5000);
+  // Our word list uses qualifiers like "trunk (car)" — look up the bare term.
+  const clean = key.replace(/\s*\([^)]*\)\s*/g, " ").replace(/\s+/g, " ").trim() || key;
 
-  try {
-    const res = await fetch(`${API_URL}/${encodeURIComponent(key)}`, { signal: controller.signal });
-    if (!res.ok) {
-      cache.set(key, notFound);
-      return notFound;
-    }
-    const data = await res.json();
-    const result = normalize(Array.isArray(data) ? data : []);
-    cache.set(key, result);
-    return result;
-  } catch (err) {
-    return notFound;
-  } finally {
-    clearTimeout(timeout);
-  }
+  const notFound = { found: false, phonetics: [], meanings: [], synonyms: [], antonyms: [], sourceUrl: null };
+
+  // dictionaryapi.dev first (has audio + synonyms), Wiktionary as fallback
+  // (much wider coverage, especially multi-word entries).
+  const result = (await fetchFromDictionaryApi(clean)) || (await fetchFromWiktionary(clean)) || notFound;
+  cache.set(key, result);
+  return result;
 }
