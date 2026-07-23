@@ -1,6 +1,6 @@
 import { useEffect, useRef, useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
-import { api, auth, localDate } from "../api.js";
+import { api, auth, localDate, appLang, setAppLang } from "../api.js";
 import AnimatedIcon from "../components/AnimatedIcon.jsx";
 import WordDetailModal from "../components/WordDetailModal.jsx";
 
@@ -21,6 +21,19 @@ function estimateCefr(stats) {
   if (!now) return { now: "starter", next: known("A1") >= 0.05 ? "A1" : null };
   const next = order[order.indexOf(now) + 1];
   return { now, next: next && known(next) >= 0.08 ? next : null };
+}
+
+// One-line level summary: CEFR estimate for English, HSK1 progress for Chinese.
+function levelLine(stats) {
+  if (!stats) return null;
+  if (stats.byLevel?.HSK1) {
+    const s = stats.byLevel.HSK1;
+    const known = s.total ? (s.recall + s.context + s.mastered) / s.total : 0;
+    return `🎓 HSK1: ${Math.round(known * 100)}% learned`;
+  }
+  const cefr = estimateCefr(stats);
+  if (!cefr) return null;
+  return `🎓 ${cefr.now === "starter" ? "just starting" : `~${cefr.now}`}${cefr.next ? ` → ${cefr.next}` : ""}`;
 }
 
 // Where you stand against the study plan (targetWords in N days).
@@ -84,6 +97,7 @@ const MODULES = [
 
 export default function Home() {
   const navigate = useNavigate();
+  const lang = appLang();
   const [progress, setProgress] = useState(null);
   const [session, setSession] = useState(null);
   const [queue, setQueue] = useState(null);
@@ -151,9 +165,9 @@ export default function Home() {
   }
 
   const needsPlacement =
-    progress && progress.wordsLearned === 0 && !progress.preferredLevel && !localStorage.getItem("language-app-level");
+    lang === "en" && progress && progress.wordsLearned === 0 && !progress.preferredLevel && !localStorage.getItem("language-app-level");
 
-  const cefr = estimateCefr(stats);
+  const lvl = levelLine(stats);
   const plan = progress?.studyPlan ? planStatus(progress.studyPlan, progress.wordsLearned) : null;
   // Main daily metric: new words started today vs the daily cap.
   const newToday = session?.newIntroducedToday ?? 0;
@@ -177,8 +191,17 @@ export default function Home() {
       key: "read", to: "/vocabulary/practice", state: { wordIds: session.due.slice(0, 8).map((w) => w.id) },
       label: <>Read those words <b>in a fresh passage</b></>
     });
-    planRows.push({ key: "speak", to: "/speaking", label: <>Then <b>say them out loud</b> in Speaking</> });
+    if (lang === "en") {
+      planRows.push({ key: "speak", to: "/speaking", label: <>Then <b>say them out loud</b> in Speaking</> });
+    }
   }
+  // Grammar/listening/reading lessons are English content only.
+  const queueItems = lang === "en" ? queue?.items || [] : [];
+  const modules = lang === "zh"
+    ? MODULES.filter((m) => ["/vocabulary", "/vocabulary/browse", "/progress"].includes(m.to)).map((m) =>
+        m.to === "/vocabulary" ? { ...m, desc: "475 HSK1 words · 汉语" } : m
+      )
+    : MODULES;
 
   return (
     <div>
@@ -189,6 +212,14 @@ export default function Home() {
           <div style={{ fontSize: 11, color: "var(--ink-soft)" }}>Let's learn some English today</div>
         </div>
         <div style={{ display: "flex", alignItems: "center", gap: 6, flexShrink: 0 }}>
+          <button
+            className="pill"
+            onClick={() => { setAppLang(lang === "zh" ? "en" : "zh"); window.location.reload(); }}
+            title={lang === "zh" ? "Đang học tiếng Trung — bấm để chuyển sang tiếng Anh" : "Đang học tiếng Anh — bấm để chuyển sang tiếng Trung"}
+            style={{ cursor: "pointer", padding: "6px 10px", fontWeight: 900 }}
+          >
+            {lang === "zh" ? "中" : "EN"}
+          </button>
           <div className="pill" style={{ background: "var(--amber-soft)", borderColor: "var(--amber-line)", color: "#B5720F" }}>
             <AnimatedIcon src="/icons/fire.lottie.json" fallback="/icons/fire.svg" size={18} />
             {progress ? progress.streak.current : "…"}
@@ -224,7 +255,7 @@ export default function Home() {
           )}
           <div style={{ fontSize: 10.5, opacity: 0.9, marginTop: plan ? 1 : 2 }}>
             {mastered !== null ? `⭐ ${mastered} words mastered` : ""}
-            {cefr ? ` · 🎓 ${cefr.now === "starter" ? "just starting" : `~${cefr.now}`}${cefr.next ? ` → ${cefr.next}` : ""}` : ""}
+            {lvl ? ` · ${lvl}` : ""}
           </div>
         </div>
       </div>
@@ -276,7 +307,7 @@ export default function Home() {
       )}
 
       {/* 4. Today's plan */}
-      {(planRows.length > 0 || queue?.items.length > 0) && (
+      {(planRows.length > 0 || queueItems.length > 0) && (
         <div className="card" style={{ marginBottom: 10, padding: "10px 14px" }}>
           <div style={{ fontSize: 10, letterSpacing: "0.08em", textTransform: "uppercase", fontWeight: 800, color: "var(--teal-deep)", marginBottom: 4 }}>
             📅 Today's plan
@@ -288,7 +319,7 @@ export default function Home() {
               <span>›</span>
             </Link>
           ))}
-          {queue?.items.map((it) => (
+          {queueItems.map((it) => (
             <Link key={it.skill + it.id} to={it.to} className="plan-row">
               <img src={SKILL_ICONS[it.skill]} alt="" width={16} height={16} />
               <span style={{ flex: 1 }}>
@@ -311,9 +342,9 @@ export default function Home() {
         <span style={{ fontSize: 15 }}>›</span>
       </Link>
 
-      {/* 6. Main navigation */}
+      {/* 6. Main navigation (Chinese mode is vocabulary-first for now) */}
       <div className="module-grid">
-        {MODULES.map((m) => (
+        {modules.map((m) => (
           <Link key={m.to} to={m.to} className="mod-card" data-anim-hover>
             <div className="ic" style={{ background: m.bg }}>
               {m.anim ? (

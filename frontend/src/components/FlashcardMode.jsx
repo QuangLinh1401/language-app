@@ -1,14 +1,7 @@
 import { useState, useEffect } from "react";
 import { getCustomExample, setCustomExample } from "../customExamples.js";
 import Icon from "./Icon.jsx";
-
-function speak(text) {
-  if (!window.speechSynthesis) return;
-  const utter = new SpeechSynthesisUtterance(text);
-  utter.lang = "en-US";
-  utter.rate = 0.95;
-  window.speechSynthesis.speak(utter);
-}
+import { speak } from "../speech.js";
 
 const gradeMsgs = {
   forgot: "This word will come back in about 10 minutes.",

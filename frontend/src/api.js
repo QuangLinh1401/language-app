@@ -6,6 +6,15 @@ export function localDate() {
   return new Date().toLocaleDateString("en-CA");
 }
 
+// Current study language: "en" (English) or "zh" (Chinese, HSK).
+export function appLang() {
+  return localStorage.getItem("language-app-mode") === "zh" ? "zh" : "en";
+}
+
+export function setAppLang(lang) {
+  localStorage.setItem("language-app-mode", lang === "zh" ? "zh" : "en");
+}
+
 const TOKEN_KEY = "language-app-token";
 const USERNAME_KEY = "language-app-username";
 
@@ -91,25 +100,25 @@ export const api = {
   },
 
   vocabulary: {
-    topics: () => request("/vocabulary/topics"),
+    topics: () => request(`/vocabulary/topics?lang=${appLang()}`),
     topic: (id) => request(`/vocabulary/topics/${id}`),
-    stats: () => request("/vocabulary/stats"),
+    stats: () => request(`/vocabulary/stats?lang=${appLang()}`),
     dailySession: (level) =>
-      request(`/vocabulary/daily-session?date=${localDate()}${level ? `&level=${level}` : ""}`),
+      request(`/vocabulary/daily-session?date=${localDate()}&lang=${appLang()}${level ? `&level=${level}` : ""}`),
     review: (opts = {}) => {
       const params = new URLSearchParams();
+      params.set("lang", appLang());
       if (opts.level) params.set("level", opts.level);
       if (opts.status) params.set("status", opts.status);
       if (opts.limit) params.set("limit", opts.limit);
-      const qs = params.toString();
-      return request(`/vocabulary/review${qs ? `?${qs}` : ""}`);
+      return request(`/vocabulary/review?${params.toString()}`);
     },
     grade: (wordId, grade, tier) =>
       request(`/vocabulary/words/${wordId}/grade`, { method: "POST", body: JSON.stringify({ grade, tier }) }),
-    search: (q) => request(`/vocabulary/search?q=${encodeURIComponent(q)}`),
-    wordOfDay: () => request(`/vocabulary/word-of-day?date=${localDate()}`),
+    search: (q) => request(`/vocabulary/search?q=${encodeURIComponent(q)}&lang=${appLang()}`),
+    wordOfDay: () => request(`/vocabulary/word-of-day?date=${localDate()}&lang=${appLang()}`),
     practiceReading: (payload) =>
-      request("/vocabulary/practice-reading", { method: "POST", body: JSON.stringify(payload) }),
+      request("/vocabulary/practice-reading", { method: "POST", body: JSON.stringify({ ...payload, lang: appLang() }) }),
     wordDetail: (wordId) => request(`/vocabulary/words/${wordId}/detail`),
     getSettings: () => request("/vocabulary/settings"),
     updateSettings: (payload) =>

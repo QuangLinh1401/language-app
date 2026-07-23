@@ -1,12 +1,12 @@
 import { useEffect, useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
-import { api } from "../api.js";
+import { api, appLang } from "../api.js";
 import StudySession from "../components/StudySession.jsx";
 import Icon from "../components/Icon.jsx";
 import AnimatedIcon from "../components/AnimatedIcon.jsx";
 import Loading from "../components/Loading.jsx";
 
-const levels = ["all", "A1", "A2", "B1", "B2"];
+const levels = appLang() === "zh" ? ["all", "HSK1"] : ["all", "A1", "A2", "B1", "B2"];
 
 // The 4 knowledge stages — practice words stuck at any stage to level them up.
 const stages = [
@@ -19,7 +19,7 @@ const stages = [
 export default function VocabReview() {
   const navigate = useNavigate();
   const [session, setSession] = useState(null);
-  const [level, setLevel] = useState(() => localStorage.getItem("language-app-level") || "all");
+  const [level, setLevel] = useState(() => (appLang() === "zh" ? "all" : localStorage.getItem("language-app-level") || "all"));
   const [stage, setStage] = useState("recognition");
   const [customWords, setCustomWords] = useState(null);
   const [stageLoading, setStageLoading] = useState(false);

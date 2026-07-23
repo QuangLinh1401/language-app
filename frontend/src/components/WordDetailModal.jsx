@@ -8,7 +8,8 @@ function speak(text, rate = 0.95) {
   if (!window.speechSynthesis) return;
   window.speechSynthesis.cancel();
   const utter = new SpeechSynthesisUtterance(text);
-  utter.lang = "en-US";
+  // Chinese entries (hanzi) need the zh-CN voice.
+  utter.lang = /[㐀-鿿]/.test(text) ? "zh-CN" : "en-US";
   utter.rate = rate;
   window.speechSynthesis.speak(utter);
 }

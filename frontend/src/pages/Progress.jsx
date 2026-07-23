@@ -60,11 +60,11 @@ export default function Progress() {
             By level
           </div>
           <div className="card" style={{ padding: 0 }}>
-            {["A1", "A2", "B1", "B2"].map((lv, i) => {
+            {(vocabStats.levels || ["A1", "A2", "B1", "B2"]).map((lv, i) => {
               const s = vocabStats.byLevel[lv];
               const pct = s.total ? Math.round((s.mastered / s.total) * 100) : 0;
               return (
-                <div key={lv} style={{ padding: "12px 14px", borderBottom: i < 3 ? "1px solid var(--line)" : "none" }}>
+                <div key={lv} style={{ padding: "12px 14px", borderBottom: i < (vocabStats.levels || [1,2,3,4]).length - 1 ? "1px solid var(--line)" : "none" }}>
                   <div style={{ display: "flex", justifyContent: "space-between", fontSize: 12.5, marginBottom: 6 }}>
                     <b>{lv}</b>
                     <span style={{ color: "var(--ink-soft)" }}>{s.mastered}/{s.total} mastered</span>

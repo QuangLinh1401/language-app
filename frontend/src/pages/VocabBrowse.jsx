@@ -1,6 +1,6 @@
 import { useEffect, useRef, useState } from "react";
 import { Link, useLocation } from "react-router-dom";
-import { api } from "../api.js";
+import { api, appLang } from "../api.js";
 import StudySession from "../components/StudySession.jsx";
 import { getCustomExample } from "../customExamples.js";
 import Icon from "../components/Icon.jsx";
@@ -9,7 +9,8 @@ import Loading from "../components/Loading.jsx";
 import Pager from "../components/Pager.jsx";
 import { speak } from "../speech.js";
 
-const levels = ["all", "A1", "A2", "B1", "B2"];
+
+const levels = appLang() === "zh" ? ["all", "HSK1"] : ["all", "A1", "A2", "B1", "B2"];
 const statusTabs = [
   { id: "new", label: "New", anim: "/icons/sparkle.lottie.json", svg: "/icons/sparkle.svg" },
   { id: "learning", label: "Learning", anim: "/icons/vocabulary.lottie.json", svg: "/icons/vocabulary.svg" },
@@ -47,7 +48,7 @@ function LeechBadge({ progress }) {
 const PAGE_SIZE = 25;
 
 export default function VocabBrowse() {
-  const [level, setLevel] = useState(() => localStorage.getItem("language-app-level") || "all");
+  const [level, setLevel] = useState(() => (appLang() === "zh" ? "all" : localStorage.getItem("language-app-level") || "all"));
   const [status, setStatus] = useState("learning");
   const [data, setData] = useState(null);
   const [openWord, setOpenWord] = useState(null);

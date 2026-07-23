@@ -6,14 +6,7 @@ import Icon from "../components/Icon.jsx";
 import AnimatedIcon from "../components/AnimatedIcon.jsx";
 import { TOPIC_MEDIA } from "../topicIcons.js";
 import Loading from "../components/Loading.jsx";
-
-function speak(text) {
-  if (!window.speechSynthesis) return;
-  const utter = new SpeechSynthesisUtterance(text);
-  utter.lang = "en-US";
-  utter.rate = 0.95;
-  window.speechSynthesis.speak(utter);
-}
+import { speak } from "../speech.js";
 
 const PAGE_SIZE = 25;
 
@@ -33,7 +26,9 @@ export default function VocabTopic() {
 
   if (!topic) return <Loading />;
 
-  const levels = ["all", "A1", "A2", "B1", "B2"];
+  // Level pills come from the topic's own data (A1-B2 for English, HSK1 for Chinese).
+  const distinctLevels = [...new Set(topic.words.map((w) => w.level))];
+  const levels = distinctLevels.length > 1 ? ["all", ...distinctLevels] : [];
   const shown = levelFilter === "all" ? topic.words : topic.words.filter((w) => w.level === levelFilter);
   const pageCount = Math.max(1, Math.ceil(shown.length / PAGE_SIZE));
   const paged = shown.slice(page * PAGE_SIZE, page * PAGE_SIZE + PAGE_SIZE);
@@ -49,13 +44,16 @@ export default function VocabTopic() {
       <h1 className="page-title" style={{ display: "flex", alignItems: "center", gap: 8 }} data-anim-hover>
         {TOPIC_MEDIA[topicId]?.anim ? (
           <AnimatedIcon src={TOPIC_MEDIA[topicId].anim} fallback={TOPIC_MEDIA[topicId].svg} size={28} hover />
+        ) : TOPIC_MEDIA[topicId]?.svg ? (
+          <img src={TOPIC_MEDIA[topicId].svg} alt="" width={28} height={28} style={{ display: "block" }} />
         ) : (
-          <img src={TOPIC_MEDIA[topicId]?.svg} alt="" width={28} height={28} style={{ display: "block" }} />
+          <span style={{ fontSize: 26 }}>{topic.emoji}</span>
         )}
         {topic.name}
       </h1>
       <p className="sub">{topic.words.length} words · A1 to B2</p>
 
+      {levels.length > 0 && (
       <div style={{ display: "flex", gap: 6, marginBottom: 14, flexWrap: "wrap" }}>
         {levels.map((lv) => (
           <button
@@ -73,6 +71,7 @@ export default function VocabTopic() {
           </button>
         ))}
       </div>
+      )}
 
       <Link
         to={`/vocabulary/${topicId}/flashcards${levelFilter !== "all" ? `?level=${levelFilter}` : ""}`}

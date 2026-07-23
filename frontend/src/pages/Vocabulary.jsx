@@ -54,8 +54,10 @@ export default function Vocabulary() {
             <div className="topic-emoji">
               {TOPIC_MEDIA[t.id]?.anim ? (
                 <AnimatedIcon src={TOPIC_MEDIA[t.id].anim} fallback={TOPIC_MEDIA[t.id].svg} size={22} hover />
+              ) : TOPIC_MEDIA[t.id]?.svg ? (
+                <img src={TOPIC_MEDIA[t.id].svg} alt="" width={22} height={22} style={{ display: "block" }} />
               ) : (
-                <img src={TOPIC_MEDIA[t.id]?.svg} alt="" width={22} height={22} style={{ display: "block" }} />
+                <span style={{ fontSize: 22 }}>{t.emoji}</span>
               )}
             </div>
             <div style={{ flex: 1 }}>

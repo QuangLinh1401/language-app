@@ -9,19 +9,33 @@ import { fetchDictionaryEntry } from "../freeDictionary.js";
 import { asyncHandler } from "../auth.js";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
-const dataPath = path.join(__dirname, "..", "..", "data", "vocabulary.json");
-const vocabData = JSON.parse(fs.readFileSync(dataPath, "utf-8"));
+const load = (f) => JSON.parse(fs.readFileSync(path.join(__dirname, "..", "..", "data", f), "utf-8"));
+// Two languages, same schema: English (A1-B2) and Chinese (HSK 3.0 band 1).
+const DATA = { en: load("vocabulary.json"), zh: load("vocabulary-zh.json") };
+const LEVELS = { en: ["A1", "A2", "B1", "B2"], zh: ["HSK1"] };
 
 const router = express.Router();
 
-function allWords() {
+// The frontend sends ?lang=zh for Chinese mode; anything else means English.
+function langOf(req) {
+  return req.query.lang === "zh" ? "zh" : "en";
+}
+
+function allWords(lang = "en") {
   const words = [];
-  for (const topic of vocabData.topics) {
+  for (const topic of DATA[lang].topics) {
     for (const w of topic.words) {
       words.push({ ...w, topicId: topic.id, topicName: topic.name });
     }
   }
   return words;
+}
+
+// Word ids are globally unique across languages (zh ids are prefixed "zh-"),
+// so id-based lookups search both sets.
+function findWordById(id) {
+  const lang = id.startsWith("zh-") ? "zh" : "en";
+  return allWords(lang).find((w) => w.id === id);
 }
 
 // 4-tier vocabulary knowledge model (simplified Vocabulary Knowledge Scale):
@@ -56,7 +70,7 @@ function wordStatus(progress) {
 const LEARNING_STATUSES = ["recognition", "recall", "context"];
 
 router.get("/topics", (req, res) => {
-  const summary = vocabData.topics.map((t) => {
+  const summary = DATA[langOf(req)].topics.map((t) => {
     const total = t.words.length;
     const learned = t.words.filter((w) => req.state.wordProgress[w.id]).length;
     return { id: t.id, name: t.name, emoji: t.emoji, total, learned };
@@ -65,7 +79,8 @@ router.get("/topics", (req, res) => {
 });
 
 router.get("/topics/:id", (req, res) => {
-  const topic = vocabData.topics.find((t) => t.id === req.params.id);
+  const lang = req.params.id.startsWith("zh-") ? "zh" : "en";
+  const topic = DATA[lang].topics.find((t) => t.id === req.params.id);
   if (!topic) return res.status(404).json({ error: "Topic not found" });
   const words = topic.words
     .map((w) => {
@@ -77,11 +92,12 @@ router.get("/topics/:id", (req, res) => {
 });
 
 router.get("/stats", (req, res) => {
-  const levels = ["A1", "A2", "B1", "B2"];
+  const lang = langOf(req);
+  const levels = LEVELS[lang];
   const empty = () => ({ total: 0, new: 0, recognition: 0, recall: 0, context: 0, mastered: 0, learning: 0 });
   const byLevel = {};
   for (const lv of levels) byLevel[lv] = empty();
-  for (const w of allWords()) {
+  for (const w of allWords(lang)) {
     const status = wordStatus(req.state.wordProgress[w.id]);
     byLevel[w.level].total += 1;
     byLevel[w.level][status] += 1;
@@ -91,14 +107,14 @@ router.get("/stats", (req, res) => {
   for (const lv of levels) {
     for (const key of Object.keys(overall)) overall[key] += byLevel[lv][key];
   }
-  res.json({ overall, byLevel });
+  res.json({ overall, byLevel, levels });
 });
 
 router.get("/review", (req, res) => {
   const { level, status } = req.query;
   const limit = Math.min(parseInt(req.query.limit) || 30, 100);
 
-  let words = allWords().map((w) => {
+  let words = allWords(langOf(req)).map((w) => {
     const progress = req.state.wordProgress[w.id] || null;
     return { ...w, progress, status: wordStatus(progress) };
   });
@@ -127,9 +143,10 @@ router.get("/review", (req, res) => {
 
 router.get("/daily-session", asyncHandler(async (req, res) => {
   const { level, date } = req.query; // date = client's local YYYY-MM-DD
+  const lang = langOf(req);
   const dailyNewLimit = getDailyNewLimit(req.state);
 
-  let words = allWords().map((w) => {
+  let words = allWords(lang).map((w) => {
     const progress = req.state.wordProgress[w.id] || null;
     return { ...w, progress, status: wordStatus(progress) };
   });
@@ -140,7 +157,9 @@ router.get("/daily-session", asyncHandler(async (req, res) => {
     .sort((a, b) => a.progress.due - b.progress.due)
     .slice(0, 60);
 
-  const introducedToday = getDailyNewWordIds(req.state, date);
+  // The daily-new cap counts per language (zh ids are prefixed "zh-").
+  const introducedAll = getDailyNewWordIds(req.state, date);
+  const introducedToday = introducedAll.filter((id) => (lang === "zh") === id.startsWith("zh-"));
   const alreadyPicked = words.filter((w) => w.status === "new" && introducedToday.includes(w.id));
   const remaining = Math.max(0, dailyNewLimit - introducedToday.length);
 
@@ -159,7 +178,7 @@ router.get("/daily-session", asyncHandler(async (req, res) => {
     due,
     newWords,
     dailyNewLimit,
-    newIntroducedToday: getDailyNewWordIds(req.state, date).length
+    newIntroducedToday: getDailyNewWordIds(req.state, date).filter((id) => (lang === "zh") === id.startsWith("zh-")).length
   });
 }));
 
@@ -179,7 +198,7 @@ router.put("/settings", asyncHandler(async (req, res) => {
 }));
 
 router.get("/words/:id/detail", asyncHandler(async (req, res) => {
-  const word = allWords().find((w) => w.id === req.params.id);
+  const word = findWordById(req.params.id);
   if (!word) return res.status(404).json({ error: "Word not found" });
   const progress = req.state.wordProgress[word.id] || null;
   const [detail, dictionary] = await Promise.all([
@@ -215,7 +234,7 @@ router.post("/words/:id/grade", asyncHandler(async (req, res) => {
 // Word of the day: deterministic daily pick keyed by the CLIENT's local date,
 // so it flips at the user's midnight, not 7 AM Vietnam time (UTC boundary).
 router.get("/word-of-day", (req, res) => {
-  const words = allWords();
+  const words = allWords(langOf(req));
   const today = validClientDate(req.query.date) || new Date().toISOString().slice(0, 10);
   let h = 0;
   for (const ch of today) h = (h * 31 + ch.charCodeAt(0)) >>> 0;
@@ -228,8 +247,13 @@ router.get("/word-of-day", (req, res) => {
 router.get("/search", (req, res) => {
   const q = (req.query.q || "").trim().toLowerCase();
   if (!q) return res.json({ count: 0, words: [] });
-  const matches = allWords().filter(
-    (w) => w.word.toLowerCase().includes(q) || w.meaning.toLowerCase().includes(q)
+  // Chinese search also matches pinyin (typed without tones is fine for exact pinyin text).
+  const lang = langOf(req);
+  const matches = allWords(lang).filter(
+    (w) =>
+      w.word.toLowerCase().includes(q) ||
+      w.meaning.toLowerCase().includes(q) ||
+      (lang === "zh" && w.ipa.toLowerCase().includes(q))
   );
   // Words starting with the query first, then by frequency.
   matches.sort((a, b) => {
@@ -247,11 +271,11 @@ router.get("/search", (req, res) => {
 
 router.post("/practice-reading", asyncHandler(async (req, res) => {
   const { wordIds, level, count } = req.body;
-  const words = allWords();
+  const words = allWords(req.body.lang === "zh" ? "zh" : "en");
 
   let target = [];
   if (Array.isArray(wordIds) && wordIds.length > 0) {
-    target = words.filter((w) => wordIds.includes(w.id));
+    target = wordIds.map(findWordById).filter(Boolean);
   } else {
     let pool = words.map((w) => ({ ...w, progress: req.state.wordProgress[w.id] || null }));
     if (level) pool = pool.filter((w) => w.level === level);

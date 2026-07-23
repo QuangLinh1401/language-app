@@ -1,0 +1,4349 @@
+{
+ "topics": [
+  {
+   "id": "zh-basics",
+   "name": "Chào hỏi & Đại từ",
+   "emoji": "👋",
+   "words": [
+    {
+     "id": "zh-basics-1",
+     "word": "你",
+     "ipa": "nǐ",
+     "meaning": "bạn, anh, chị (ngôi 2)",
+     "example": "你好吗？",
+     "level": "HSK1",
+     "frequency": 1
+    },
+    {
+     "id": "zh-basics-2",
+     "word": "我",
+     "ipa": "wǒ",
+     "meaning": "tôi, mình",
+     "example": "我是学生。",
+     "level": "HSK1",
+     "frequency": 2
+    },
+    {
+     "id": "zh-basics-3",
+     "word": "他",
+     "ipa": "tā",
+     "meaning": "anh ấy, ông ấy",
+     "example": "他是我的朋友。",
+     "level": "HSK1",
+     "frequency": 3
+    },
+    {
+     "id": "zh-basics-4",
+     "word": "她",
+     "ipa": "tā",
+     "meaning": "cô ấy, bà ấy",
+     "example": "她很漂亮。",
+     "level": "HSK1",
+     "frequency": 4
+    },
+    {
+     "id": "zh-basics-5",
+     "word": "它",
+     "ipa": "tā",
+     "meaning": "nó (đồ vật, con vật)",
+     "example": "它是一只猫。",
+     "level": "HSK1",
+     "frequency": 5
+    },
+    {
+     "id": "zh-basics-6",
+     "word": "我们",
+     "ipa": "wǒmen",
+     "meaning": "chúng tôi, chúng ta",
+     "example": "我们是同学。",
+     "level": "HSK1",
+     "frequency": 6
+    },
+    {
+     "id": "zh-basics-7",
+     "word": "你们",
+     "ipa": "nǐmen",
+     "meaning": "các bạn",
+     "example": "你们好！",
+     "level": "HSK1",
+     "frequency": 7
+    },
+    {
+     "id": "zh-basics-8",
+     "word": "他们",
+     "ipa": "tāmen",
+     "meaning": "họ, bọn họ",
+     "example": "他们在学校。",
+     "level": "HSK1",
+     "frequency": 8
+    },
+    {
+     "id": "zh-basics-9",
+     "word": "您",
+     "ipa": "nín",
+     "meaning": "ngài, ông/bà (kính trọng)",
+     "example": "您好，老师！",
+     "level": "HSK1",
+     "frequency": 9
+    },
+    {
+     "id": "zh-basics-10",
+     "word": "你好",
+     "ipa": "nǐ hǎo",
+     "meaning": "xin chào",
+     "example": "你好，我叫小明。",
+     "level": "HSK1",
+     "frequency": 10
+    },
+    {
+     "id": "zh-basics-11",
+     "word": "谢谢",
+     "ipa": "xièxie",
+     "meaning": "cảm ơn",
+     "example": "谢谢你的帮助。",
+     "level": "HSK1",
+     "frequency": 11
+    },
+    {
+     "id": "zh-basics-12",
+     "word": "不客气",
+     "ipa": "bú kèqi",
+     "meaning": "không có gì (đáp lời cảm ơn)",
+     "example": "不客气，这是我应该做的。",
+     "level": "HSK1",
+     "frequency": 12
+    },
+    {
+     "id": "zh-basics-13",
+     "word": "对不起",
+     "ipa": "duìbuqǐ",
+     "meaning": "xin lỗi",
+     "example": "对不起，我来晚了。",
+     "level": "HSK1",
+     "frequency": 13
+    },
+    {
+     "id": "zh-basics-14",
+     "word": "没关系",
+     "ipa": "méi guānxi",
+     "meaning": "không sao đâu",
+     "example": "没关系，你别担心。",
+     "level": "HSK1",
+     "frequency": 14
+    },
+    {
+     "id": "zh-basics-15",
+     "word": "再见",
+     "ipa": "zàijiàn",
+     "meaning": "tạm biệt",
+     "example": "明天见，再见！",
+     "level": "HSK1",
+     "frequency": 15
+    },
+    {
+     "id": "zh-basics-16",
+     "word": "请",
+     "ipa": "qǐng",
+     "meaning": "mời, xin mời",
+     "example": "请坐，请喝茶。",
+     "level": "HSK1",
+     "frequency": 16
+    },
+    {
+     "id": "zh-basics-17",
+     "word": "是",
+     "ipa": "shì",
+     "meaning": "là, phải",
+     "example": "我是越南人。",
+     "level": "HSK1",
+     "frequency": 17
+    },
+    {
+     "id": "zh-basics-18",
+     "word": "不",
+     "ipa": "bù",
+     "meaning": "không (phủ định)",
+     "example": "我不喝咖啡。",
+     "level": "HSK1",
+     "frequency": 18
+    },
+    {
+     "id": "zh-basics-19",
+     "word": "没",
+     "ipa": "méi",
+     "meaning": "không, chưa (phủ định)",
+     "example": "我没去过中国。",
+     "level": "HSK1",
+     "frequency": 19
+    },
+    {
+     "id": "zh-basics-20",
+     "word": "很",
+     "ipa": "hěn",
+     "meaning": "rất",
+     "example": "今天天气很好。",
+     "level": "HSK1",
+     "frequency": 20
+    },
+    {
+     "id": "zh-basics-21",
+     "word": "太",
+     "ipa": "tài",
+     "meaning": "quá",
+     "example": "这个太贵了！",
+     "level": "HSK1",
+     "frequency": 21
+    },
+    {
+     "id": "zh-basics-22",
+     "word": "都",
+     "ipa": "dōu",
+     "meaning": "đều, tất cả",
+     "example": "我们都是学生。",
+     "level": "HSK1",
+     "frequency": 22
+    },
+    {
+     "id": "zh-basics-23",
+     "word": "也",
+     "ipa": "yě",
+     "meaning": "cũng",
+     "example": "我也喜欢中文。",
+     "level": "HSK1",
+     "frequency": 23
+    },
+    {
+     "id": "zh-basics-24",
+     "word": "和",
+     "ipa": "hé",
+     "meaning": "và, với",
+     "example": "我和他是朋友。",
+     "level": "HSK1",
+     "frequency": 24
+    },
+    {
+     "id": "zh-basics-25",
+     "word": "的",
+     "ipa": "de",
+     "meaning": "của (trợ từ sở hữu)",
+     "example": "这是我的书。",
+     "level": "HSK1",
+     "frequency": 25
+    },
+    {
+     "id": "zh-basics-26",
+     "word": "了",
+     "ipa": "le",
+     "meaning": "rồi (trợ từ hoàn thành)",
+     "example": "我吃饭了。",
+     "level": "HSK1",
+     "frequency": 26
+    },
+    {
+     "id": "zh-basics-27",
+     "word": "吗",
+     "ipa": "ma",
+     "meaning": "không? (trợ từ nghi vấn)",
+     "example": "你是老师吗？",
+     "level": "HSK1",
+     "frequency": 27
+    },
+    {
+     "id": "zh-basics-28",
+     "word": "呢",
+     "ipa": "ne",
+     "meaning": "thì sao? còn... thì?",
+     "example": "我很好，你呢？",
+     "level": "HSK1",
+     "frequency": 28
+    },
+    {
+     "id": "zh-basics-29",
+     "word": "什么",
+     "ipa": "shénme",
+     "meaning": "cái gì",
+     "example": "这是什么？",
+     "level": "HSK1",
+     "frequency": 29
+    },
+    {
+     "id": "zh-basics-30",
+     "word": "谁",
+     "ipa": "shéi",
+     "meaning": "ai",
+     "example": "他是谁？",
+     "level": "HSK1",
+     "frequency": 30
+    },
+    {
+     "id": "zh-basics-31",
+     "word": "哪",
+     "ipa": "nǎ",
+     "meaning": "nào, đâu",
+     "example": "你是哪国人？",
+     "level": "HSK1",
+     "frequency": 31
+    },
+    {
+     "id": "zh-basics-32",
+     "word": "哪儿",
+     "ipa": "nǎr",
+     "meaning": "ở đâu",
+     "example": "洗手间在哪儿？",
+     "level": "HSK1",
+     "frequency": 32
+    },
+    {
+     "id": "zh-basics-33",
+     "word": "怎么",
+     "ipa": "zěnme",
+     "meaning": "thế nào, làm sao",
+     "example": "这个字怎么读？",
+     "level": "HSK1",
+     "frequency": 33
+    },
+    {
+     "id": "zh-basics-34",
+     "word": "怎么样",
+     "ipa": "zěnmeyàng",
+     "meaning": "như thế nào",
+     "example": "你觉得这本书怎么样？",
+     "level": "HSK1",
+     "frequency": 34
+    },
+    {
+     "id": "zh-basics-35",
+     "word": "为什么",
+     "ipa": "wèishénme",
+     "meaning": "tại sao",
+     "example": "你为什么学中文？",
+     "level": "HSK1",
+     "frequency": 35
+    },
+    {
+     "id": "zh-basics-36",
+     "word": "多少",
+     "ipa": "duōshao",
+     "meaning": "bao nhiêu",
+     "example": "这个多少钱？",
+     "level": "HSK1",
+     "frequency": 36
+    },
+    {
+     "id": "zh-basics-37",
+     "word": "几",
+     "ipa": "jǐ",
+     "meaning": "mấy, vài",
+     "example": "现在几点？",
+     "level": "HSK1",
+     "frequency": 37
+    },
+    {
+     "id": "zh-basics-38",
+     "word": "这",
+     "ipa": "zhè",
+     "meaning": "này, đây",
+     "example": "这是我的手机。",
+     "level": "HSK1",
+     "frequency": 38
+    },
+    {
+     "id": "zh-basics-39",
+     "word": "那",
+     "ipa": "nà",
+     "meaning": "kia, đó",
+     "example": "那是谁的车？",
+     "level": "HSK1",
+     "frequency": 39
+    },
+    {
+     "id": "zh-basics-40",
+     "word": "这儿",
+     "ipa": "zhèr",
+     "meaning": "ở đây",
+     "example": "请在这儿等我。",
+     "level": "HSK1",
+     "frequency": 40
+    },
+    {
+     "id": "zh-basics-41",
+     "word": "那儿",
+     "ipa": "nàr",
+     "meaning": "ở kia, ở đó",
+     "example": "他在那儿工作。",
+     "level": "HSK1",
+     "frequency": 41
+    },
+    {
+     "id": "zh-basics-42",
+     "word": "叫",
+     "ipa": "jiào",
+     "meaning": "gọi là, tên là",
+     "example": "我叫阿玲。",
+     "level": "HSK1",
+     "frequency": 42
+    },
+    {
+     "id": "zh-basics-43",
+     "word": "姓",
+     "ipa": "xìng",
+     "meaning": "họ (tên họ)",
+     "example": "我姓阮。",
+     "level": "HSK1",
+     "frequency": 43
+    },
+    {
+     "id": "zh-basics-44",
+     "word": "名字",
+     "ipa": "míngzi",
+     "meaning": "tên",
+     "example": "你叫什么名字？",
+     "level": "HSK1",
+     "frequency": 44
+    },
+    {
+     "id": "zh-basics-45",
+     "word": "对",
+     "ipa": "duì",
+     "meaning": "đúng",
+     "example": "对，你说得对。",
+     "level": "HSK1",
+     "frequency": 45
+    },
+    {
+     "id": "zh-basics-46",
+     "word": "好",
+     "ipa": "hǎo",
+     "meaning": "tốt, được",
+     "example": "好，我们走吧。",
+     "level": "HSK1",
+     "frequency": 46
+    },
+    {
+     "id": "zh-basics-47",
+     "word": "喂",
+     "ipa": "wéi",
+     "meaning": "a lô (nghe điện thoại)",
+     "example": "喂，你是哪位？",
+     "level": "HSK1",
+     "frequency": 47
+    },
+    {
+     "id": "zh-basics-48",
+     "word": "欢迎",
+     "ipa": "huānyíng",
+     "meaning": "hoan nghênh, chào mừng",
+     "example": "欢迎来到越南！",
+     "level": "HSK1",
+     "frequency": 48
+    },
+    {
+     "id": "zh-basics-49",
+     "word": "认识",
+     "ipa": "rènshi",
+     "meaning": "quen biết",
+     "example": "认识你很高兴。",
+     "level": "HSK1",
+     "frequency": 49
+    },
+    {
+     "id": "zh-basics-50",
+     "word": "高兴",
+     "ipa": "gāoxìng",
+     "meaning": "vui, vui mừng",
+     "example": "见到你我很高兴。",
+     "level": "HSK1",
+     "frequency": 50
+    }
+   ]
+  },
+  {
+   "id": "zh-numbers-time",
+   "name": "Số đếm & Thời gian",
+   "emoji": "🕐",
+   "words": [
+    {
+     "id": "zh-numbers-time-1",
+     "word": "一",
+     "ipa": "yī",
+     "meaning": "một, số 1",
+     "example": "我有一个哥哥。",
+     "level": "HSK1",
+     "frequency": 51
+    },
+    {
+     "id": "zh-numbers-time-2",
+     "word": "二",
+     "ipa": "èr",
+     "meaning": "hai, số 2",
+     "example": "现在是二月。",
+     "level": "HSK1",
+     "frequency": 52
+    },
+    {
+     "id": "zh-numbers-time-3",
+     "word": "三",
+     "ipa": "sān",
+     "meaning": "ba, số 3",
+     "example": "我们三点见面。",
+     "level": "HSK1",
+     "frequency": 53
+    },
+    {
+     "id": "zh-numbers-time-4",
+     "word": "四",
+     "ipa": "sì",
+     "meaning": "bốn, số 4",
+     "example": "我家有四口人。",
+     "level": "HSK1",
+     "frequency": 54
+    },
+    {
+     "id": "zh-numbers-time-5",
+     "word": "五",
+     "ipa": "wǔ",
+     "meaning": "năm, số 5",
+     "example": "我五点下班。",
+     "level": "HSK1",
+     "frequency": 55
+    },
+    {
+     "id": "zh-numbers-time-6",
+     "word": "六",
+     "ipa": "liù",
+     "meaning": "sáu, số 6",
+     "example": "他六岁了。",
+     "level": "HSK1",
+     "frequency": 56
+    },
+    {
+     "id": "zh-numbers-time-7",
+     "word": "七",
+     "ipa": "qī",
+     "meaning": "bảy, số 7",
+     "example": "一个星期有七天。",
+     "level": "HSK1",
+     "frequency": 57
+    },
+    {
+     "id": "zh-numbers-time-8",
+     "word": "八",
+     "ipa": "bā",
+     "meaning": "tám, số 8",
+     "example": "我八点上课。",
+     "level": "HSK1",
+     "frequency": 58
+    },
+    {
+     "id": "zh-numbers-time-9",
+     "word": "九",
+     "ipa": "jiǔ",
+     "meaning": "chín, số 9",
+     "example": "现在九点了。",
+     "level": "HSK1",
+     "frequency": 59
+    },
+    {
+     "id": "zh-numbers-time-10",
+     "word": "十",
+     "ipa": "shí",
+     "meaning": "mười, số 10",
+     "example": "我学中文十个月了。",
+     "level": "HSK1",
+     "frequency": 60
+    },
+    {
+     "id": "zh-numbers-time-11",
+     "word": "百",
+     "ipa": "bǎi",
+     "meaning": "trăm",
+     "example": "这本书一百块。",
+     "level": "HSK1",
+     "frequency": 61
+    },
+    {
+     "id": "zh-numbers-time-12",
+     "word": "千",
+     "ipa": "qiān",
+     "meaning": "nghìn",
+     "example": "这个手机三千块。",
+     "level": "HSK1",
+     "frequency": 62
+    },
+    {
+     "id": "zh-numbers-time-13",
+     "word": "万",
+     "ipa": "wàn",
+     "meaning": "vạn (mười nghìn)",
+     "example": "这辆车十万块。",
+     "level": "HSK1",
+     "frequency": 63
+    },
+    {
+     "id": "zh-numbers-time-14",
+     "word": "零",
+     "ipa": "líng",
+     "meaning": "số không",
+     "example": "现在十点零五分。",
+     "level": "HSK1",
+     "frequency": 64
+    },
+    {
+     "id": "zh-numbers-time-15",
+     "word": "两",
+     "ipa": "liǎng",
+     "meaning": "hai (đi với lượng từ)",
+     "example": "我要两杯咖啡。",
+     "level": "HSK1",
+     "frequency": 65
+    },
+    {
+     "id": "zh-numbers-time-16",
+     "word": "号",
+     "ipa": "hào",
+     "meaning": "ngày (trong tháng); số",
+     "example": "今天是五号。",
+     "level": "HSK1",
+     "frequency": 66
+    },
+    {
+     "id": "zh-numbers-time-17",
+     "word": "点",
+     "ipa": "diǎn",
+     "meaning": "giờ",
+     "example": "现在下午三点。",
+     "level": "HSK1",
+     "frequency": 67
+    },
+    {
+     "id": "zh-numbers-time-18",
+     "word": "分",
+     "ipa": "fēn",
+     "meaning": "phút",
+     "example": "现在两点十分。",
+     "level": "HSK1",
+     "frequency": 68
+    },
+    {
+     "id": "zh-numbers-time-19",
+     "word": "半",
+     "ipa": "bàn",
+     "meaning": "rưỡi, một nửa",
+     "example": "我七点半起床。",
+     "level": "HSK1",
+     "frequency": 69
+    },
+    {
+     "id": "zh-numbers-time-20",
+     "word": "年",
+     "ipa": "nián",
+     "meaning": "năm",
+     "example": "我去年去了北京。",
+     "level": "HSK1",
+     "frequency": 70
+    },
+    {
+     "id": "zh-numbers-time-21",
+     "word": "月",
+     "ipa": "yuè",
+     "meaning": "tháng",
+     "example": "我下个月回国。",
+     "level": "HSK1",
+     "frequency": 71
+    },
+    {
+     "id": "zh-numbers-time-22",
+     "word": "日",
+     "ipa": "rì",
+     "meaning": "ngày",
+     "example": "今天是十月一日。",
+     "level": "HSK1",
+     "frequency": 72
+    },
+    {
+     "id": "zh-numbers-time-23",
+     "word": "天",
+     "ipa": "tiān",
+     "meaning": "ngày, trời",
+     "example": "我每天学习中文。",
+     "level": "HSK1",
+     "frequency": 73
+    },
+    {
+     "id": "zh-numbers-time-24",
+     "word": "星期",
+     "ipa": "xīngqī",
+     "meaning": "tuần",
+     "example": "一个星期有七天。",
+     "level": "HSK1",
+     "frequency": 74
+    },
+    {
+     "id": "zh-numbers-time-25",
+     "word": "星期一",
+     "ipa": "xīngqīyī",
+     "meaning": "thứ hai",
+     "example": "星期一我要上班。",
+     "level": "HSK1",
+     "frequency": 75
+    },
+    {
+     "id": "zh-numbers-time-26",
+     "word": "星期天",
+     "ipa": "xīngqītiān",
+     "meaning": "chủ nhật",
+     "example": "星期天我在家休息。",
+     "level": "HSK1",
+     "frequency": 76
+    },
+    {
+     "id": "zh-numbers-time-27",
+     "word": "今天",
+     "ipa": "jīntiān",
+     "meaning": "hôm nay",
+     "example": "今天天气很好。",
+     "level": "HSK1",
+     "frequency": 77
+    },
+    {
+     "id": "zh-numbers-time-28",
+     "word": "明天",
+     "ipa": "míngtiān",
+     "meaning": "ngày mai",
+     "example": "明天我们去公园。",
+     "level": "HSK1",
+     "frequency": 78
+    },
+    {
+     "id": "zh-numbers-time-29",
+     "word": "昨天",
+     "ipa": "zuótiān",
+     "meaning": "hôm qua",
+     "example": "昨天我很忙。",
+     "level": "HSK1",
+     "frequency": 79
+    },
+    {
+     "id": "zh-numbers-time-30",
+     "word": "现在",
+     "ipa": "xiànzài",
+     "meaning": "bây giờ",
+     "example": "现在几点了？",
+     "level": "HSK1",
+     "frequency": 80
+    },
+    {
+     "id": "zh-numbers-time-31",
+     "word": "时候",
+     "ipa": "shíhou",
+     "meaning": "lúc, khi",
+     "example": "你什么时候回来？",
+     "level": "HSK1",
+     "frequency": 81
+    },
+    {
+     "id": "zh-numbers-time-32",
+     "word": "上午",
+     "ipa": "shàngwǔ",
+     "meaning": "buổi sáng",
+     "example": "上午我有课。",
+     "level": "HSK1",
+     "frequency": 82
+    },
+    {
+     "id": "zh-numbers-time-33",
+     "word": "中午",
+     "ipa": "zhōngwǔ",
+     "meaning": "buổi trưa",
+     "example": "中午我们一起吃饭吧。",
+     "level": "HSK1",
+     "frequency": 83
+    },
+    {
+     "id": "zh-numbers-time-34",
+     "word": "下午",
+     "ipa": "xiàwǔ",
+     "meaning": "buổi chiều",
+     "example": "下午三点开会。",
+     "level": "HSK1",
+     "frequency": 84
+    },
+    {
+     "id": "zh-numbers-time-35",
+     "word": "晚上",
+     "ipa": "wǎnshang",
+     "meaning": "buổi tối",
+     "example": "晚上我看电视。",
+     "level": "HSK1",
+     "frequency": 85
+    },
+    {
+     "id": "zh-numbers-time-36",
+     "word": "早上",
+     "ipa": "zǎoshang",
+     "meaning": "buổi sáng sớm",
+     "example": "早上好！",
+     "level": "HSK1",
+     "frequency": 86
+    },
+    {
+     "id": "zh-numbers-time-37",
+     "word": "小时",
+     "ipa": "xiǎoshí",
+     "meaning": "tiếng đồng hồ",
+     "example": "我等了两个小时。",
+     "level": "HSK1",
+     "frequency": 87
+    },
+    {
+     "id": "zh-numbers-time-38",
+     "word": "分钟",
+     "ipa": "fēnzhōng",
+     "meaning": "phút (khoảng thời gian)",
+     "example": "请等五分钟。",
+     "level": "HSK1",
+     "frequency": 88
+    },
+    {
+     "id": "zh-numbers-time-39",
+     "word": "去年",
+     "ipa": "qùnián",
+     "meaning": "năm ngoái",
+     "example": "去年我开始学中文。",
+     "level": "HSK1",
+     "frequency": 89
+    },
+    {
+     "id": "zh-numbers-time-40",
+     "word": "明年",
+     "ipa": "míngnián",
+     "meaning": "năm sau",
+     "example": "明年我想去中国。",
+     "level": "HSK1",
+     "frequency": 90
+    },
+    {
+     "id": "zh-numbers-time-41",
+     "word": "生日",
+     "ipa": "shēngrì",
+     "meaning": "sinh nhật",
+     "example": "祝你生日快乐！",
+     "level": "HSK1",
+     "frequency": 91
+    },
+    {
+     "id": "zh-numbers-time-42",
+     "word": "岁",
+     "ipa": "suì",
+     "meaning": "tuổi",
+     "example": "我二十岁。",
+     "level": "HSK1",
+     "frequency": 92
+    },
+    {
+     "id": "zh-numbers-time-43",
+     "word": "以前",
+     "ipa": "yǐqián",
+     "meaning": "trước đây",
+     "example": "以前我住在河内。",
+     "level": "HSK1",
+     "frequency": 93
+    },
+    {
+     "id": "zh-numbers-time-44",
+     "word": "以后",
+     "ipa": "yǐhòu",
+     "meaning": "sau này",
+     "example": "以后我想当老师。",
+     "level": "HSK1",
+     "frequency": 94
+    },
+    {
+     "id": "zh-numbers-time-45",
+     "word": "早",
+     "ipa": "zǎo",
+     "meaning": "sớm",
+     "example": "我今天起得很早。",
+     "level": "HSK1",
+     "frequency": 95
+    },
+    {
+     "id": "zh-numbers-time-46",
+     "word": "晚",
+     "ipa": "wǎn",
+     "meaning": "muộn, trễ",
+     "example": "对不起，我来晚了。",
+     "level": "HSK1",
+     "frequency": 96
+    },
+    {
+     "id": "zh-numbers-time-47",
+     "word": "周末",
+     "ipa": "zhōumò",
+     "meaning": "cuối tuần",
+     "example": "周末你做什么？",
+     "level": "HSK1",
+     "frequency": 97
+    },
+    {
+     "id": "zh-numbers-time-48",
+     "word": "块",
+     "ipa": "kuài",
+     "meaning": "đồng (tiền); miếng",
+     "example": "这个十块钱。",
+     "level": "HSK1",
+     "frequency": 98
+    },
+    {
+     "id": "zh-numbers-time-49",
+     "word": "钱",
+     "ipa": "qián",
+     "meaning": "tiền",
+     "example": "你有零钱吗？",
+     "level": "HSK1",
+     "frequency": 99
+    },
+    {
+     "id": "zh-numbers-time-50",
+     "word": "第一",
+     "ipa": "dì-yī",
+     "meaning": "thứ nhất",
+     "example": "这是我第一次来中国。",
+     "level": "HSK1",
+     "frequency": 100
+    }
+   ]
+  },
+  {
+   "id": "zh-family-people",
+   "name": "Gia đình & Con người",
+   "emoji": "👨‍👩‍👧",
+   "words": [
+    {
+     "id": "zh-family-people-1",
+     "word": "家",
+     "ipa": "jiā",
+     "meaning": "nhà, gia đình",
+     "example": "我家有五口人。",
+     "level": "HSK1",
+     "frequency": 101
+    },
+    {
+     "id": "zh-family-people-2",
+     "word": "爸爸",
+     "ipa": "bàba",
+     "meaning": "bố, ba",
+     "example": "我爸爸是医生。",
+     "level": "HSK1",
+     "frequency": 102
+    },
+    {
+     "id": "zh-family-people-3",
+     "word": "妈妈",
+     "ipa": "māma",
+     "meaning": "mẹ, má",
+     "example": "我妈妈做饭很好吃。",
+     "level": "HSK1",
+     "frequency": 103
+    },
+    {
+     "id": "zh-family-people-4",
+     "word": "哥哥",
+     "ipa": "gēge",
+     "meaning": "anh trai",
+     "example": "我哥哥在上海工作。",
+     "level": "HSK1",
+     "frequency": 104
+    },
+    {
+     "id": "zh-family-people-5",
+     "word": "姐姐",
+     "ipa": "jiějie",
+     "meaning": "chị gái",
+     "example": "我姐姐是老师。",
+     "level": "HSK1",
+     "frequency": 105
+    },
+    {
+     "id": "zh-family-people-6",
+     "word": "弟弟",
+     "ipa": "dìdi",
+     "meaning": "em trai",
+     "example": "我弟弟今年十岁。",
+     "level": "HSK1",
+     "frequency": 106
+    },
+    {
+     "id": "zh-family-people-7",
+     "word": "妹妹",
+     "ipa": "mèimei",
+     "meaning": "em gái",
+     "example": "我妹妹喜欢唱歌。",
+     "level": "HSK1",
+     "frequency": 107
+    },
+    {
+     "id": "zh-family-people-8",
+     "word": "儿子",
+     "ipa": "érzi",
+     "meaning": "con trai",
+     "example": "他儿子很聪明。",
+     "level": "HSK1",
+     "frequency": 108
+    },
+    {
+     "id": "zh-family-people-9",
+     "word": "女儿",
+     "ipa": "nǚ'ér",
+     "meaning": "con gái",
+     "example": "我女儿三岁了。",
+     "level": "HSK1",
+     "frequency": 109
+    },
+    {
+     "id": "zh-family-people-10",
+     "word": "爷爷",
+     "ipa": "yéye",
+     "meaning": "ông nội",
+     "example": "我爷爷八十岁了。",
+     "level": "HSK1",
+     "frequency": 110
+    },
+    {
+     "id": "zh-family-people-11",
+     "word": "奶奶",
+     "ipa": "nǎinai",
+     "meaning": "bà nội",
+     "example": "奶奶每天早上散步。",
+     "level": "HSK1",
+     "frequency": 111
+    },
+    {
+     "id": "zh-family-people-12",
+     "word": "丈夫",
+     "ipa": "zhàngfu",
+     "meaning": "chồng",
+     "example": "她丈夫是工程师。",
+     "level": "HSK1",
+     "frequency": 112
+    },
+    {
+     "id": "zh-family-people-13",
+     "word": "妻子",
+     "ipa": "qīzi",
+     "meaning": "vợ",
+     "example": "我妻子喜欢做菜。",
+     "level": "HSK1",
+     "frequency": 113
+    },
+    {
+     "id": "zh-family-people-14",
+     "word": "孩子",
+     "ipa": "háizi",
+     "meaning": "con, đứa trẻ",
+     "example": "他们有两个孩子。",
+     "level": "HSK1",
+     "frequency": 114
+    },
+    {
+     "id": "zh-family-people-15",
+     "word": "人",
+     "ipa": "rén",
+     "meaning": "người",
+     "example": "教室里有很多人。",
+     "level": "HSK1",
+     "frequency": 115
+    },
+    {
+     "id": "zh-family-people-16",
+     "word": "男人",
+     "ipa": "nánrén",
+     "meaning": "đàn ông",
+     "example": "那个男人是谁？",
+     "level": "HSK1",
+     "frequency": 116
+    },
+    {
+     "id": "zh-family-people-17",
+     "word": "女人",
+     "ipa": "nǚrén",
+     "meaning": "phụ nữ",
+     "example": "那个女人是我妈妈。",
+     "level": "HSK1",
+     "frequency": 117
+    },
+    {
+     "id": "zh-family-people-18",
+     "word": "朋友",
+     "ipa": "péngyou",
+     "meaning": "bạn, bạn bè",
+     "example": "他是我最好的朋友。",
+     "level": "HSK1",
+     "frequency": 118
+    },
+    {
+     "id": "zh-family-people-19",
+     "word": "同学",
+     "ipa": "tóngxué",
+     "meaning": "bạn học",
+     "example": "我们是大学同学。",
+     "level": "HSK1",
+     "frequency": 119
+    },
+    {
+     "id": "zh-family-people-20",
+     "word": "老师",
+     "ipa": "lǎoshī",
+     "meaning": "giáo viên, thầy cô",
+     "example": "王老师教我们汉语。",
+     "level": "HSK1",
+     "frequency": 120
+    },
+    {
+     "id": "zh-family-people-21",
+     "word": "学生",
+     "ipa": "xuésheng",
+     "meaning": "học sinh, sinh viên",
+     "example": "我是一名大学生。",
+     "level": "HSK1",
+     "frequency": 121
+    },
+    {
+     "id": "zh-family-people-22",
+     "word": "医生",
+     "ipa": "yīshēng",
+     "meaning": "bác sĩ",
+     "example": "我想当一名医生。",
+     "level": "HSK1",
+     "frequency": 122
+    },
+    {
+     "id": "zh-family-people-23",
+     "word": "先生",
+     "ipa": "xiānsheng",
+     "meaning": "ông, ngài (xưng hô)",
+     "example": "王先生，您好！",
+     "level": "HSK1",
+     "frequency": 123
+    },
+    {
+     "id": "zh-family-people-24",
+     "word": "小姐",
+     "ipa": "xiǎojiě",
+     "meaning": "cô (xưng hô)",
+     "example": "李小姐在办公室。",
+     "level": "HSK1",
+     "frequency": 124
+    },
+    {
+     "id": "zh-family-people-25",
+     "word": "大家",
+     "ipa": "dàjiā",
+     "meaning": "mọi người",
+     "example": "大家好！",
+     "level": "HSK1",
+     "frequency": 125
+    },
+    {
+     "id": "zh-family-people-26",
+     "word": "别人",
+     "ipa": "biéren",
+     "meaning": "người khác",
+     "example": "不要拿别人的东西。",
+     "level": "HSK1",
+     "frequency": 126
+    },
+    {
+     "id": "zh-family-people-27",
+     "word": "自己",
+     "ipa": "zìjǐ",
+     "meaning": "tự mình, bản thân",
+     "example": "我自己做饭。",
+     "level": "HSK1",
+     "frequency": 127
+    },
+    {
+     "id": "zh-family-people-28",
+     "word": "男孩",
+     "ipa": "nánhái",
+     "meaning": "bé trai, cậu bé",
+     "example": "那个男孩在踢足球。",
+     "level": "HSK1",
+     "frequency": 128
+    },
+    {
+     "id": "zh-family-people-29",
+     "word": "女孩",
+     "ipa": "nǚhái",
+     "meaning": "bé gái, cô bé",
+     "example": "那个女孩在画画。",
+     "level": "HSK1",
+     "frequency": 129
+    },
+    {
+     "id": "zh-family-people-30",
+     "word": "服务员",
+     "ipa": "fúwùyuán",
+     "meaning": "nhân viên phục vụ",
+     "example": "服务员，买单！",
+     "level": "HSK1",
+     "frequency": 130
+    },
+    {
+     "id": "zh-family-people-31",
+     "word": "司机",
+     "ipa": "sījī",
+     "meaning": "tài xế",
+     "example": "司机开车很快。",
+     "level": "HSK1",
+     "frequency": 131
+    },
+    {
+     "id": "zh-family-people-32",
+     "word": "经理",
+     "ipa": "jīnglǐ",
+     "meaning": "giám đốc, quản lý",
+     "example": "我们经理人很好。",
+     "level": "HSK1",
+     "frequency": 132
+    },
+    {
+     "id": "zh-family-people-33",
+     "word": "客人",
+     "ipa": "kèrén",
+     "meaning": "khách",
+     "example": "家里来客人了。",
+     "level": "HSK1",
+     "frequency": 133
+    },
+    {
+     "id": "zh-family-people-34",
+     "word": "邻居",
+     "ipa": "línjū",
+     "meaning": "hàng xóm",
+     "example": "我的邻居很友好。",
+     "level": "HSK1",
+     "frequency": 134
+    },
+    {
+     "id": "zh-family-people-35",
+     "word": "阿姨",
+     "ipa": "āyí",
+     "meaning": "cô, dì",
+     "example": "阿姨，请问车站在哪儿？",
+     "level": "HSK1",
+     "frequency": 135
+    },
+    {
+     "id": "zh-family-people-36",
+     "word": "叔叔",
+     "ipa": "shūshu",
+     "meaning": "chú",
+     "example": "叔叔送我一本书。",
+     "level": "HSK1",
+     "frequency": 136
+    },
+    {
+     "id": "zh-family-people-37",
+     "word": "眼睛",
+     "ipa": "yǎnjing",
+     "meaning": "mắt",
+     "example": "她的眼睛很大。",
+     "level": "HSK1",
+     "frequency": 137
+    },
+    {
+     "id": "zh-family-people-38",
+     "word": "手",
+     "ipa": "shǒu",
+     "meaning": "tay",
+     "example": "吃饭前要洗手。",
+     "level": "HSK1",
+     "frequency": 138
+    },
+    {
+     "id": "zh-family-people-39",
+     "word": "头",
+     "ipa": "tóu",
+     "meaning": "đầu",
+     "example": "我头有点疼。",
+     "level": "HSK1",
+     "frequency": 139
+    },
+    {
+     "id": "zh-family-people-40",
+     "word": "口",
+     "ipa": "kǒu",
+     "meaning": "miệng; nhân khẩu",
+     "example": "你家有几口人？",
+     "level": "HSK1",
+     "frequency": 140
+    },
+    {
+     "id": "zh-family-people-41",
+     "word": "耳朵",
+     "ipa": "ěrduo",
+     "meaning": "tai",
+     "example": "兔子的耳朵很长。",
+     "level": "HSK1",
+     "frequency": 141
+    },
+    {
+     "id": "zh-family-people-42",
+     "word": "鼻子",
+     "ipa": "bízi",
+     "meaning": "mũi",
+     "example": "大象的鼻子很长。",
+     "level": "HSK1",
+     "frequency": 142
+    },
+    {
+     "id": "zh-family-people-43",
+     "word": "脚",
+     "ipa": "jiǎo",
+     "meaning": "chân, bàn chân",
+     "example": "我的脚很疼。",
+     "level": "HSK1",
+     "frequency": 143
+    },
+    {
+     "id": "zh-family-people-44",
+     "word": "身体",
+     "ipa": "shēntǐ",
+     "meaning": "cơ thể, sức khỏe",
+     "example": "爷爷的身体很好。",
+     "level": "HSK1",
+     "frequency": 144
+    },
+    {
+     "id": "zh-family-people-45",
+     "word": "头发",
+     "ipa": "tóufa",
+     "meaning": "tóc",
+     "example": "她的头发很长。",
+     "level": "HSK1",
+     "frequency": 145
+    }
+   ]
+  },
+  {
+   "id": "zh-food-drink",
+   "name": "Ăn uống",
+   "emoji": "🍜",
+   "words": [
+    {
+     "id": "zh-food-drink-1",
+     "word": "吃",
+     "ipa": "chī",
+     "meaning": "ăn",
+     "example": "你想吃什么？",
+     "level": "HSK1",
+     "frequency": 146
+    },
+    {
+     "id": "zh-food-drink-2",
+     "word": "喝",
+     "ipa": "hē",
+     "meaning": "uống",
+     "example": "我想喝水。",
+     "level": "HSK1",
+     "frequency": 147
+    },
+    {
+     "id": "zh-food-drink-3",
+     "word": "饭",
+     "ipa": "fàn",
+     "meaning": "cơm, bữa ăn",
+     "example": "我们去吃饭吧。",
+     "level": "HSK1",
+     "frequency": 148
+    },
+    {
+     "id": "zh-food-drink-4",
+     "word": "米饭",
+     "ipa": "mǐfàn",
+     "meaning": "cơm trắng",
+     "example": "我要一碗米饭。",
+     "level": "HSK1",
+     "frequency": 149
+    },
+    {
+     "id": "zh-food-drink-5",
+     "word": "面条",
+     "ipa": "miàntiáo",
+     "meaning": "mì sợi",
+     "example": "我喜欢吃面条。",
+     "level": "HSK1",
+     "frequency": 150
+    },
+    {
+     "id": "zh-food-drink-6",
+     "word": "菜",
+     "ipa": "cài",
+     "meaning": "món ăn, rau",
+     "example": "这个菜很好吃。",
+     "level": "HSK1",
+     "frequency": 151
+    },
+    {
+     "id": "zh-food-drink-7",
+     "word": "水",
+     "ipa": "shuǐ",
+     "meaning": "nước",
+     "example": "请给我一杯水。",
+     "level": "HSK1",
+     "frequency": 152
+    },
+    {
+     "id": "zh-food-drink-8",
+     "word": "茶",
+     "ipa": "chá",
+     "meaning": "trà",
+     "example": "中国人喜欢喝茶。",
+     "level": "HSK1",
+     "frequency": 153
+    },
+    {
+     "id": "zh-food-drink-9",
+     "word": "咖啡",
+     "ipa": "kāfēi",
+     "meaning": "cà phê",
+     "example": "越南咖啡很有名。",
+     "level": "HSK1",
+     "frequency": 154
+    },
+    {
+     "id": "zh-food-drink-10",
+     "word": "牛奶",
+     "ipa": "niúnǎi",
+     "meaning": "sữa bò",
+     "example": "我每天早上喝牛奶。",
+     "level": "HSK1",
+     "frequency": 155
+    },
+    {
+     "id": "zh-food-drink-11",
+     "word": "水果",
+     "ipa": "shuǐguǒ",
+     "meaning": "trái cây",
+     "example": "多吃水果对身体好。",
+     "level": "HSK1",
+     "frequency": 156
+    },
+    {
+     "id": "zh-food-drink-12",
+     "word": "苹果",
+     "ipa": "píngguǒ",
+     "meaning": "quả táo",
+     "example": "我买了三个苹果。",
+     "level": "HSK1",
+     "frequency": 157
+    },
+    {
+     "id": "zh-food-drink-13",
+     "word": "香蕉",
+     "ipa": "xiāngjiāo",
+     "meaning": "quả chuối",
+     "example": "猴子喜欢吃香蕉。",
+     "level": "HSK1",
+     "frequency": 158
+    },
+    {
+     "id": "zh-food-drink-14",
+     "word": "西瓜",
+     "ipa": "xīguā",
+     "meaning": "dưa hấu",
+     "example": "夏天吃西瓜很舒服。",
+     "level": "HSK1",
+     "frequency": 159
+    },
+    {
+     "id": "zh-food-drink-15",
+     "word": "鸡蛋",
+     "ipa": "jīdàn",
+     "meaning": "trứng gà",
+     "example": "我早饭吃了两个鸡蛋。",
+     "level": "HSK1",
+     "frequency": 160
+    },
+    {
+     "id": "zh-food-drink-16",
+     "word": "肉",
+     "ipa": "ròu",
+     "meaning": "thịt",
+     "example": "我不吃牛肉。",
+     "level": "HSK1",
+     "frequency": 161
+    },
+    {
+     "id": "zh-food-drink-17",
+     "word": "鱼",
+     "ipa": "yú",
+     "meaning": "cá",
+     "example": "这条鱼很新鲜。",
+     "level": "HSK1",
+     "frequency": 162
+    },
+    {
+     "id": "zh-food-drink-18",
+     "word": "鸡肉",
+     "ipa": "jīròu",
+     "meaning": "thịt gà",
+     "example": "我想吃鸡肉。",
+     "level": "HSK1",
+     "frequency": 163
+    },
+    {
+     "id": "zh-food-drink-19",
+     "word": "面包",
+     "ipa": "miànbāo",
+     "meaning": "bánh mì",
+     "example": "早上我吃面包。",
+     "level": "HSK1",
+     "frequency": 164
+    },
+    {
+     "id": "zh-food-drink-20",
+     "word": "汤",
+     "ipa": "tāng",
+     "meaning": "canh, súp",
+     "example": "这个汤很好喝。",
+     "level": "HSK1",
+     "frequency": 165
+    },
+    {
+     "id": "zh-food-drink-21",
+     "word": "糖",
+     "ipa": "táng",
+     "meaning": "đường; kẹo",
+     "example": "咖啡里要加糖吗？",
+     "level": "HSK1",
+     "frequency": 166
+    },
+    {
+     "id": "zh-food-drink-22",
+     "word": "盐",
+     "ipa": "yán",
+     "meaning": "muối",
+     "example": "菜里盐放多了。",
+     "level": "HSK1",
+     "frequency": 167
+    },
+    {
+     "id": "zh-food-drink-23",
+     "word": "好吃",
+     "ipa": "hǎochī",
+     "meaning": "ngon (đồ ăn)",
+     "example": "妈妈做的菜真好吃。",
+     "level": "HSK1",
+     "frequency": 168
+    },
+    {
+     "id": "zh-food-drink-24",
+     "word": "好喝",
+     "ipa": "hǎohē",
+     "meaning": "ngon (đồ uống)",
+     "example": "这杯果汁很好喝。",
+     "level": "HSK1",
+     "frequency": 169
+    },
+    {
+     "id": "zh-food-drink-25",
+     "word": "饿",
+     "ipa": "è",
+     "meaning": "đói",
+     "example": "我饿了，我们吃饭吧。",
+     "level": "HSK1",
+     "frequency": 170
+    },
+    {
+     "id": "zh-food-drink-26",
+     "word": "渴",
+     "ipa": "kě",
+     "meaning": "khát",
+     "example": "我很渴，想喝水。",
+     "level": "HSK1",
+     "frequency": 171
+    },
+    {
+     "id": "zh-food-drink-27",
+     "word": "早饭",
+     "ipa": "zǎofàn",
+     "meaning": "bữa sáng",
+     "example": "你吃早饭了吗？",
+     "level": "HSK1",
+     "frequency": 172
+    },
+    {
+     "id": "zh-food-drink-28",
+     "word": "午饭",
+     "ipa": "wǔfàn",
+     "meaning": "bữa trưa",
+     "example": "中午我们一起吃午饭。",
+     "level": "HSK1",
+     "frequency": 173
+    },
+    {
+     "id": "zh-food-drink-29",
+     "word": "晚饭",
+     "ipa": "wǎnfàn",
+     "meaning": "bữa tối",
+     "example": "晚饭想吃什么？",
+     "level": "HSK1",
+     "frequency": 174
+    },
+    {
+     "id": "zh-food-drink-30",
+     "word": "杯子",
+     "ipa": "bēizi",
+     "meaning": "cái cốc, ly",
+     "example": "这个杯子很漂亮。",
+     "level": "HSK1",
+     "frequency": 175
+    },
+    {
+     "id": "zh-food-drink-31",
+     "word": "碗",
+     "ipa": "wǎn",
+     "meaning": "cái bát",
+     "example": "我要一碗汤。",
+     "level": "HSK1",
+     "frequency": 176
+    },
+    {
+     "id": "zh-food-drink-32",
+     "word": "筷子",
+     "ipa": "kuàizi",
+     "meaning": "đũa",
+     "example": "你会用筷子吗？",
+     "level": "HSK1",
+     "frequency": 177
+    },
+    {
+     "id": "zh-food-drink-33",
+     "word": "啤酒",
+     "ipa": "píjiǔ",
+     "meaning": "bia",
+     "example": "他喜欢喝啤酒。",
+     "level": "HSK1",
+     "frequency": 178
+    },
+    {
+     "id": "zh-food-drink-34",
+     "word": "果汁",
+     "ipa": "guǒzhī",
+     "meaning": "nước ép trái cây",
+     "example": "我要一杯苹果果汁。",
+     "level": "HSK1",
+     "frequency": 179
+    },
+    {
+     "id": "zh-food-drink-35",
+     "word": "蛋糕",
+     "ipa": "dàngāo",
+     "meaning": "bánh kem, bánh ngọt",
+     "example": "生日要吃蛋糕。",
+     "level": "HSK1",
+     "frequency": 180
+    },
+    {
+     "id": "zh-food-drink-36",
+     "word": "点菜",
+     "ipa": "diǎn cài",
+     "meaning": "gọi món",
+     "example": "服务员，我们要点菜。",
+     "level": "HSK1",
+     "frequency": 181
+    },
+    {
+     "id": "zh-food-drink-37",
+     "word": "菜单",
+     "ipa": "càidān",
+     "meaning": "thực đơn",
+     "example": "请给我看一下菜单。",
+     "level": "HSK1",
+     "frequency": 182
+    },
+    {
+     "id": "zh-food-drink-38",
+     "word": "饭馆",
+     "ipa": "fànguǎn",
+     "meaning": "quán ăn, nhà hàng",
+     "example": "这家饭馆的菜很好吃。",
+     "level": "HSK1",
+     "frequency": 183
+    },
+    {
+     "id": "zh-food-drink-39",
+     "word": "买单",
+     "ipa": "mǎidān",
+     "meaning": "thanh toán, tính tiền",
+     "example": "服务员，买单！",
+     "level": "HSK1",
+     "frequency": 184
+    },
+    {
+     "id": "zh-food-drink-40",
+     "word": "辣",
+     "ipa": "là",
+     "meaning": "cay",
+     "example": "四川菜很辣。",
+     "level": "HSK1",
+     "frequency": 185
+    },
+    {
+     "id": "zh-food-drink-41",
+     "word": "甜",
+     "ipa": "tián",
+     "meaning": "ngọt",
+     "example": "这个西瓜很甜。",
+     "level": "HSK1",
+     "frequency": 186
+    },
+    {
+     "id": "zh-food-drink-42",
+     "word": "米粉",
+     "ipa": "mǐfěn",
+     "meaning": "bún, phở (sợi gạo)",
+     "example": "越南米粉很有名。",
+     "level": "HSK1",
+     "frequency": 187
+    },
+    {
+     "id": "zh-food-drink-43",
+     "word": "蔬菜",
+     "ipa": "shūcài",
+     "meaning": "rau củ",
+     "example": "多吃蔬菜身体好。",
+     "level": "HSK1",
+     "frequency": 188
+    },
+    {
+     "id": "zh-food-drink-44",
+     "word": "矿泉水",
+     "ipa": "kuàngquánshuǐ",
+     "meaning": "nước khoáng",
+     "example": "请给我一瓶矿泉水。",
+     "level": "HSK1",
+     "frequency": 189
+    },
+    {
+     "id": "zh-food-drink-45",
+     "word": "瓶",
+     "ipa": "píng",
+     "meaning": "chai, bình",
+     "example": "我买了两瓶水。",
+     "level": "HSK1",
+     "frequency": 190
+    }
+   ]
+  },
+  {
+   "id": "zh-places-transport",
+   "name": "Địa điểm & Di chuyển",
+   "emoji": "🚕",
+   "words": [
+    {
+     "id": "zh-places-transport-1",
+     "word": "中国",
+     "ipa": "Zhōngguó",
+     "meaning": "Trung Quốc",
+     "example": "我想去中国旅游。",
+     "level": "HSK1",
+     "frequency": 191
+    },
+    {
+     "id": "zh-places-transport-2",
+     "word": "越南",
+     "ipa": "Yuènán",
+     "meaning": "Việt Nam",
+     "example": "我是越南人。",
+     "level": "HSK1",
+     "frequency": 192
+    },
+    {
+     "id": "zh-places-transport-3",
+     "word": "北京",
+     "ipa": "Běijīng",
+     "meaning": "Bắc Kinh",
+     "example": "北京是中国的首都。",
+     "level": "HSK1",
+     "frequency": 193
+    },
+    {
+     "id": "zh-places-transport-4",
+     "word": "上海",
+     "ipa": "Shànghǎi",
+     "meaning": "Thượng Hải",
+     "example": "上海很大很现代。",
+     "level": "HSK1",
+     "frequency": 194
+    },
+    {
+     "id": "zh-places-transport-5",
+     "word": "河内",
+     "ipa": "Hénèi",
+     "meaning": "Hà Nội",
+     "example": "河内是越南的首都。",
+     "level": "HSK1",
+     "frequency": 195
+    },
+    {
+     "id": "zh-places-transport-6",
+     "word": "学校",
+     "ipa": "xuéxiào",
+     "meaning": "trường học",
+     "example": "我们学校很大。",
+     "level": "HSK1",
+     "frequency": 196
+    },
+    {
+     "id": "zh-places-transport-7",
+     "word": "医院",
+     "ipa": "yīyuàn",
+     "meaning": "bệnh viện",
+     "example": "他在医院工作。",
+     "level": "HSK1",
+     "frequency": 197
+    },
+    {
+     "id": "zh-places-transport-8",
+     "word": "商店",
+     "ipa": "shāngdiàn",
+     "meaning": "cửa hàng",
+     "example": "商店九点开门。",
+     "level": "HSK1",
+     "frequency": 198
+    },
+    {
+     "id": "zh-places-transport-9",
+     "word": "超市",
+     "ipa": "chāoshì",
+     "meaning": "siêu thị",
+     "example": "我去超市买东西。",
+     "level": "HSK1",
+     "frequency": 199
+    },
+    {
+     "id": "zh-places-transport-10",
+     "word": "银行",
+     "ipa": "yínháng",
+     "meaning": "ngân hàng",
+     "example": "银行下午五点关门。",
+     "level": "HSK1",
+     "frequency": 200
+    },
+    {
+     "id": "zh-places-transport-11",
+     "word": "公司",
+     "ipa": "gōngsī",
+     "meaning": "công ty",
+     "example": "我在一家外国公司工作。",
+     "level": "HSK1",
+     "frequency": 201
+    },
+    {
+     "id": "zh-places-transport-12",
+     "word": "公园",
+     "ipa": "gōngyuán",
+     "meaning": "công viên",
+     "example": "周末我们去公园玩。",
+     "level": "HSK1",
+     "frequency": 202
+    },
+    {
+     "id": "zh-places-transport-13",
+     "word": "机场",
+     "ipa": "jīchǎng",
+     "meaning": "sân bay",
+     "example": "我去机场接朋友。",
+     "level": "HSK1",
+     "frequency": 203
+    },
+    {
+     "id": "zh-places-transport-14",
+     "word": "火车站",
+     "ipa": "huǒchēzhàn",
+     "meaning": "ga tàu hỏa",
+     "example": "火车站离这儿远吗？",
+     "level": "HSK1",
+     "frequency": 204
+    },
+    {
+     "id": "zh-places-transport-15",
+     "word": "饭店",
+     "ipa": "fàndiàn",
+     "meaning": "khách sạn; nhà hàng",
+     "example": "我们住在这家饭店。",
+     "level": "HSK1",
+     "frequency": 205
+    },
+    {
+     "id": "zh-places-transport-16",
+     "word": "房间",
+     "ipa": "fángjiān",
+     "meaning": "phòng",
+     "example": "我的房间很干净。",
+     "level": "HSK1",
+     "frequency": 206
+    },
+    {
+     "id": "zh-places-transport-17",
+     "word": "洗手间",
+     "ipa": "xǐshǒujiān",
+     "meaning": "nhà vệ sinh",
+     "example": "请问洗手间在哪儿？",
+     "level": "HSK1",
+     "frequency": 207
+    },
+    {
+     "id": "zh-places-transport-18",
+     "word": "教室",
+     "ipa": "jiàoshì",
+     "meaning": "phòng học",
+     "example": "教室里有很多学生。",
+     "level": "HSK1",
+     "frequency": 208
+    },
+    {
+     "id": "zh-places-transport-19",
+     "word": "图书馆",
+     "ipa": "túshūguǎn",
+     "meaning": "thư viện",
+     "example": "我在图书馆看书。",
+     "level": "HSK1",
+     "frequency": 209
+    },
+    {
+     "id": "zh-places-transport-20",
+     "word": "办公室",
+     "ipa": "bàngōngshì",
+     "meaning": "văn phòng",
+     "example": "经理在办公室开会。",
+     "level": "HSK1",
+     "frequency": 210
+    },
+    {
+     "id": "zh-places-transport-21",
+     "word": "上",
+     "ipa": "shàng",
+     "meaning": "trên",
+     "example": "书在桌子上。",
+     "level": "HSK1",
+     "frequency": 211
+    },
+    {
+     "id": "zh-places-transport-22",
+     "word": "下",
+     "ipa": "xià",
+     "meaning": "dưới",
+     "example": "猫在椅子下。",
+     "level": "HSK1",
+     "frequency": 212
+    },
+    {
+     "id": "zh-places-transport-23",
+     "word": "里",
+     "ipa": "lǐ",
+     "meaning": "trong",
+     "example": "手机在包里。",
+     "level": "HSK1",
+     "frequency": 213
+    },
+    {
+     "id": "zh-places-transport-24",
+     "word": "外",
+     "ipa": "wài",
+     "meaning": "ngoài",
+     "example": "外面下雨了。",
+     "level": "HSK1",
+     "frequency": 214
+    },
+    {
+     "id": "zh-places-transport-25",
+     "word": "前面",
+     "ipa": "qiánmiàn",
+     "meaning": "phía trước",
+     "example": "学校在银行前面。",
+     "level": "HSK1",
+     "frequency": 215
+    },
+    {
+     "id": "zh-places-transport-26",
+     "word": "后面",
+     "ipa": "hòumiàn",
+     "meaning": "phía sau",
+     "example": "超市在医院后面。",
+     "level": "HSK1",
+     "frequency": 216
+    },
+    {
+     "id": "zh-places-transport-27",
+     "word": "旁边",
+     "ipa": "pángbiān",
+     "meaning": "bên cạnh",
+     "example": "我家旁边有一个公园。",
+     "level": "HSK1",
+     "frequency": 217
+    },
+    {
+     "id": "zh-places-transport-28",
+     "word": "中间",
+     "ipa": "zhōngjiān",
+     "meaning": "ở giữa",
+     "example": "他坐在我们中间。",
+     "level": "HSK1",
+     "frequency": 218
+    },
+    {
+     "id": "zh-places-transport-29",
+     "word": "左边",
+     "ipa": "zuǒbiān",
+     "meaning": "bên trái",
+     "example": "银行在左边。",
+     "level": "HSK1",
+     "frequency": 219
+    },
+    {
+     "id": "zh-places-transport-30",
+     "word": "右边",
+     "ipa": "yòubiān",
+     "meaning": "bên phải",
+     "example": "商店在右边。",
+     "level": "HSK1",
+     "frequency": 220
+    },
+    {
+     "id": "zh-places-transport-31",
+     "word": "远",
+     "ipa": "yuǎn",
+     "meaning": "xa",
+     "example": "机场离市区很远。",
+     "level": "HSK1",
+     "frequency": 221
+    },
+    {
+     "id": "zh-places-transport-32",
+     "word": "近",
+     "ipa": "jìn",
+     "meaning": "gần",
+     "example": "我家离学校很近。",
+     "level": "HSK1",
+     "frequency": 222
+    },
+    {
+     "id": "zh-places-transport-33",
+     "word": "车",
+     "ipa": "chē",
+     "meaning": "xe",
+     "example": "路上车很多。",
+     "level": "HSK1",
+     "frequency": 223
+    },
+    {
+     "id": "zh-places-transport-34",
+     "word": "公共汽车",
+     "ipa": "gōnggòng qìchē",
+     "meaning": "xe buýt",
+     "example": "我坐公共汽车上班。",
+     "level": "HSK1",
+     "frequency": 224
+    },
+    {
+     "id": "zh-places-transport-35",
+     "word": "出租车",
+     "ipa": "chūzūchē",
+     "meaning": "taxi",
+     "example": "我们打出租车去吧。",
+     "level": "HSK1",
+     "frequency": 225
+    },
+    {
+     "id": "zh-places-transport-36",
+     "word": "火车",
+     "ipa": "huǒchē",
+     "meaning": "tàu hỏa",
+     "example": "我坐火车去上海。",
+     "level": "HSK1",
+     "frequency": 226
+    },
+    {
+     "id": "zh-places-transport-37",
+     "word": "飞机",
+     "ipa": "fēijī",
+     "meaning": "máy bay",
+     "example": "飞机十点起飞。",
+     "level": "HSK1",
+     "frequency": 227
+    },
+    {
+     "id": "zh-places-transport-38",
+     "word": "自行车",
+     "ipa": "zìxíngchē",
+     "meaning": "xe đạp",
+     "example": "我骑自行车上学。",
+     "level": "HSK1",
+     "frequency": 228
+    },
+    {
+     "id": "zh-places-transport-39",
+     "word": "摩托车",
+     "ipa": "mótuōchē",
+     "meaning": "xe máy",
+     "example": "越南有很多摩托车。",
+     "level": "HSK1",
+     "frequency": 229
+    },
+    {
+     "id": "zh-places-transport-40",
+     "word": "地铁",
+     "ipa": "dìtiě",
+     "meaning": "tàu điện ngầm",
+     "example": "坐地铁很方便。",
+     "level": "HSK1",
+     "frequency": 230
+    },
+    {
+     "id": "zh-places-transport-41",
+     "word": "路",
+     "ipa": "lù",
+     "meaning": "đường",
+     "example": "这条路很长。",
+     "level": "HSK1",
+     "frequency": 231
+    },
+    {
+     "id": "zh-places-transport-42",
+     "word": "坐",
+     "ipa": "zuò",
+     "meaning": "ngồi; đi (xe, tàu)",
+     "example": "我坐飞机去中国。",
+     "level": "HSK1",
+     "frequency": 232
+    },
+    {
+     "id": "zh-places-transport-43",
+     "word": "开车",
+     "ipa": "kāichē",
+     "meaning": "lái xe",
+     "example": "我爸爸会开车。",
+     "level": "HSK1",
+     "frequency": 233
+    },
+    {
+     "id": "zh-places-transport-44",
+     "word": "骑",
+     "ipa": "qí",
+     "meaning": "cưỡi, đạp (xe)",
+     "example": "我每天骑自行车。",
+     "level": "HSK1",
+     "frequency": 234
+    },
+    {
+     "id": "zh-places-transport-45",
+     "word": "走",
+     "ipa": "zǒu",
+     "meaning": "đi, đi bộ",
+     "example": "我们走吧！",
+     "level": "HSK1",
+     "frequency": 235
+    },
+    {
+     "id": "zh-places-transport-46",
+     "word": "到",
+     "ipa": "dào",
+     "meaning": "đến, tới",
+     "example": "我到家了。",
+     "level": "HSK1",
+     "frequency": 236
+    },
+    {
+     "id": "zh-places-transport-47",
+     "word": "来",
+     "ipa": "lái",
+     "meaning": "đến, lại",
+     "example": "你什么时候来越南？",
+     "level": "HSK1",
+     "frequency": 237
+    },
+    {
+     "id": "zh-places-transport-48",
+     "word": "去",
+     "ipa": "qù",
+     "meaning": "đi",
+     "example": "我明天去北京。",
+     "level": "HSK1",
+     "frequency": 238
+    },
+    {
+     "id": "zh-places-transport-49",
+     "word": "回",
+     "ipa": "huí",
+     "meaning": "về, quay lại",
+     "example": "我六点回家。",
+     "level": "HSK1",
+     "frequency": 239
+    },
+    {
+     "id": "zh-places-transport-50",
+     "word": "进",
+     "ipa": "jìn",
+     "meaning": "vào",
+     "example": "请进！",
+     "level": "HSK1",
+     "frequency": 240
+    }
+   ]
+  },
+  {
+   "id": "zh-verbs-1",
+   "name": "Động từ thường dùng 1",
+   "emoji": "🏃",
+   "words": [
+    {
+     "id": "zh-verbs-1-1",
+     "word": "有",
+     "ipa": "yǒu",
+     "meaning": "có",
+     "example": "我有一个妹妹。",
+     "level": "HSK1",
+     "frequency": 241
+    },
+    {
+     "id": "zh-verbs-1-2",
+     "word": "在",
+     "ipa": "zài",
+     "meaning": "ở, tại; đang",
+     "example": "我在家看书。",
+     "level": "HSK1",
+     "frequency": 242
+    },
+    {
+     "id": "zh-verbs-1-3",
+     "word": "看",
+     "ipa": "kàn",
+     "meaning": "nhìn, xem, đọc",
+     "example": "我喜欢看电影。",
+     "level": "HSK1",
+     "frequency": 243
+    },
+    {
+     "id": "zh-verbs-1-4",
+     "word": "听",
+     "ipa": "tīng",
+     "meaning": "nghe",
+     "example": "我每天听音乐。",
+     "level": "HSK1",
+     "frequency": 244
+    },
+    {
+     "id": "zh-verbs-1-5",
+     "word": "说",
+     "ipa": "shuō",
+     "meaning": "nói",
+     "example": "你会说汉语吗？",
+     "level": "HSK1",
+     "frequency": 245
+    },
+    {
+     "id": "zh-verbs-1-6",
+     "word": "读",
+     "ipa": "dú",
+     "meaning": "đọc",
+     "example": "请读这个句子。",
+     "level": "HSK1",
+     "frequency": 246
+    },
+    {
+     "id": "zh-verbs-1-7",
+     "word": "写",
+     "ipa": "xiě",
+     "meaning": "viết",
+     "example": "我会写汉字。",
+     "level": "HSK1",
+     "frequency": 247
+    },
+    {
+     "id": "zh-verbs-1-8",
+     "word": "学习",
+     "ipa": "xuéxí",
+     "meaning": "học, học tập",
+     "example": "我在学习中文。",
+     "level": "HSK1",
+     "frequency": 248
+    },
+    {
+     "id": "zh-verbs-1-9",
+     "word": "学",
+     "ipa": "xué",
+     "meaning": "học",
+     "example": "我学汉语一年了。",
+     "level": "HSK1",
+     "frequency": 249
+    },
+    {
+     "id": "zh-verbs-1-10",
+     "word": "做",
+     "ipa": "zuò",
+     "meaning": "làm",
+     "example": "你在做什么？",
+     "level": "HSK1",
+     "frequency": 250
+    },
+    {
+     "id": "zh-verbs-1-11",
+     "word": "工作",
+     "ipa": "gōngzuò",
+     "meaning": "làm việc; công việc",
+     "example": "我在银行工作。",
+     "level": "HSK1",
+     "frequency": 251
+    },
+    {
+     "id": "zh-verbs-1-12",
+     "word": "买",
+     "ipa": "mǎi",
+     "meaning": "mua",
+     "example": "我想买一个新手机。",
+     "level": "HSK1",
+     "frequency": 252
+    },
+    {
+     "id": "zh-verbs-1-13",
+     "word": "卖",
+     "ipa": "mài",
+     "meaning": "bán",
+     "example": "这家店卖水果。",
+     "level": "HSK1",
+     "frequency": 253
+    },
+    {
+     "id": "zh-verbs-1-14",
+     "word": "要",
+     "ipa": "yào",
+     "meaning": "muốn, cần",
+     "example": "我要一杯咖啡。",
+     "level": "HSK1",
+     "frequency": 254
+    },
+    {
+     "id": "zh-verbs-1-15",
+     "word": "想",
+     "ipa": "xiǎng",
+     "meaning": "muốn, nghĩ, nhớ",
+     "example": "我想回家。",
+     "level": "HSK1",
+     "frequency": 255
+    },
+    {
+     "id": "zh-verbs-1-16",
+     "word": "喜欢",
+     "ipa": "xǐhuan",
+     "meaning": "thích",
+     "example": "我喜欢听音乐。",
+     "level": "HSK1",
+     "frequency": 256
+    },
+    {
+     "id": "zh-verbs-1-17",
+     "word": "爱",
+     "ipa": "ài",
+     "meaning": "yêu",
+     "example": "我爱我的家人。",
+     "level": "HSK1",
+     "frequency": 257
+    },
+    {
+     "id": "zh-verbs-1-18",
+     "word": "会",
+     "ipa": "huì",
+     "meaning": "biết, có thể (kỹ năng)",
+     "example": "我会游泳。",
+     "level": "HSK1",
+     "frequency": 258
+    },
+    {
+     "id": "zh-verbs-1-19",
+     "word": "能",
+     "ipa": "néng",
+     "meaning": "có thể",
+     "example": "你能帮我吗？",
+     "level": "HSK1",
+     "frequency": 259
+    },
+    {
+     "id": "zh-verbs-1-20",
+     "word": "可以",
+     "ipa": "kěyǐ",
+     "meaning": "có thể, được phép",
+     "example": "这儿可以拍照吗？",
+     "level": "HSK1",
+     "frequency": 260
+    },
+    {
+     "id": "zh-verbs-1-21",
+     "word": "知道",
+     "ipa": "zhīdào",
+     "meaning": "biết",
+     "example": "我不知道他的名字。",
+     "level": "HSK1",
+     "frequency": 261
+    },
+    {
+     "id": "zh-verbs-1-22",
+     "word": "觉得",
+     "ipa": "juéde",
+     "meaning": "cảm thấy",
+     "example": "我觉得中文很有意思。",
+     "level": "HSK1",
+     "frequency": 262
+    },
+    {
+     "id": "zh-verbs-1-23",
+     "word": "睡觉",
+     "ipa": "shuìjiào",
+     "meaning": "ngủ",
+     "example": "我每天十一点睡觉。",
+     "level": "HSK1",
+     "frequency": 263
+    },
+    {
+     "id": "zh-verbs-1-24",
+     "word": "起床",
+     "ipa": "qǐchuáng",
+     "meaning": "thức dậy",
+     "example": "我早上六点起床。",
+     "level": "HSK1",
+     "frequency": 264
+    },
+    {
+     "id": "zh-verbs-1-25",
+     "word": "打电话",
+     "ipa": "dǎ diànhuà",
+     "meaning": "gọi điện thoại",
+     "example": "我给妈妈打电话。",
+     "level": "HSK1",
+     "frequency": 265
+    },
+    {
+     "id": "zh-verbs-1-26",
+     "word": "给",
+     "ipa": "gěi",
+     "meaning": "cho, đưa",
+     "example": "请给我一杯水。",
+     "level": "HSK1",
+     "frequency": 266
+    },
+    {
+     "id": "zh-verbs-1-27",
+     "word": "住",
+     "ipa": "zhù",
+     "meaning": "ở, sống",
+     "example": "我住在河内。",
+     "level": "HSK1",
+     "frequency": 267
+    },
+    {
+     "id": "zh-verbs-1-28",
+     "word": "等",
+     "ipa": "děng",
+     "meaning": "đợi, chờ",
+     "example": "请等我五分钟。",
+     "level": "HSK1",
+     "frequency": 268
+    },
+    {
+     "id": "zh-verbs-1-29",
+     "word": "找",
+     "ipa": "zhǎo",
+     "meaning": "tìm",
+     "example": "我在找我的手机。",
+     "level": "HSK1",
+     "frequency": 269
+    },
+    {
+     "id": "zh-verbs-1-30",
+     "word": "帮助",
+     "ipa": "bāngzhù",
+     "meaning": "giúp đỡ",
+     "example": "谢谢你的帮助。",
+     "level": "HSK1",
+     "frequency": 270
+    },
+    {
+     "id": "zh-verbs-1-31",
+     "word": "帮",
+     "ipa": "bāng",
+     "meaning": "giúp",
+     "example": "你能帮我一下吗？",
+     "level": "HSK1",
+     "frequency": 271
+    },
+    {
+     "id": "zh-verbs-1-32",
+     "word": "问",
+     "ipa": "wèn",
+     "meaning": "hỏi",
+     "example": "我想问一个问题。",
+     "level": "HSK1",
+     "frequency": 272
+    },
+    {
+     "id": "zh-verbs-1-33",
+     "word": "回答",
+     "ipa": "huídá",
+     "meaning": "trả lời",
+     "example": "请回答我的问题。",
+     "level": "HSK1",
+     "frequency": 273
+    },
+    {
+     "id": "zh-verbs-1-34",
+     "word": "告诉",
+     "ipa": "gàosu",
+     "meaning": "nói cho biết",
+     "example": "请告诉我你的电话号码。",
+     "level": "HSK1",
+     "frequency": 274
+    },
+    {
+     "id": "zh-verbs-1-35",
+     "word": "开",
+     "ipa": "kāi",
+     "meaning": "mở; lái",
+     "example": "请开门。",
+     "level": "HSK1",
+     "frequency": 275
+    },
+    {
+     "id": "zh-verbs-1-36",
+     "word": "关",
+     "ipa": "guān",
+     "meaning": "đóng, tắt",
+     "example": "请关灯。",
+     "level": "HSK1",
+     "frequency": 276
+    },
+    {
+     "id": "zh-verbs-1-37",
+     "word": "玩",
+     "ipa": "wán",
+     "meaning": "chơi",
+     "example": "孩子们在公园玩。",
+     "level": "HSK1",
+     "frequency": 277
+    },
+    {
+     "id": "zh-verbs-1-38",
+     "word": "用",
+     "ipa": "yòng",
+     "meaning": "dùng, sử dụng",
+     "example": "我用手机学中文。",
+     "level": "HSK1",
+     "frequency": 278
+    },
+    {
+     "id": "zh-verbs-1-39",
+     "word": "上班",
+     "ipa": "shàngbān",
+     "meaning": "đi làm",
+     "example": "我八点上班。",
+     "level": "HSK1",
+     "frequency": 279
+    },
+    {
+     "id": "zh-verbs-1-40",
+     "word": "下班",
+     "ipa": "xiàbān",
+     "meaning": "tan làm",
+     "example": "我五点半下班。",
+     "level": "HSK1",
+     "frequency": 280
+    },
+    {
+     "id": "zh-verbs-1-41",
+     "word": "上课",
+     "ipa": "shàngkè",
+     "meaning": "vào học, lên lớp",
+     "example": "我们八点上课。",
+     "level": "HSK1",
+     "frequency": 281
+    },
+    {
+     "id": "zh-verbs-1-42",
+     "word": "下课",
+     "ipa": "xiàkè",
+     "meaning": "tan học",
+     "example": "下课以后我去图书馆。",
+     "level": "HSK1",
+     "frequency": 282
+    },
+    {
+     "id": "zh-verbs-1-43",
+     "word": "吃饭",
+     "ipa": "chīfàn",
+     "meaning": "ăn cơm",
+     "example": "我们一起吃饭吧。",
+     "level": "HSK1",
+     "frequency": 283
+    },
+    {
+     "id": "zh-verbs-1-44",
+     "word": "见面",
+     "ipa": "jiànmiàn",
+     "meaning": "gặp mặt",
+     "example": "我们明天见面吧。",
+     "level": "HSK1",
+     "frequency": 284
+    },
+    {
+     "id": "zh-verbs-1-45",
+     "word": "介绍",
+     "ipa": "jièshào",
+     "meaning": "giới thiệu",
+     "example": "我来介绍一下我自己。",
+     "level": "HSK1",
+     "frequency": 285
+    },
+    {
+     "id": "zh-verbs-1-46",
+     "word": "洗",
+     "ipa": "xǐ",
+     "meaning": "rửa, giặt",
+     "example": "我在洗衣服。",
+     "level": "HSK1",
+     "frequency": 286
+    },
+    {
+     "id": "zh-verbs-1-47",
+     "word": "穿",
+     "ipa": "chuān",
+     "meaning": "mặc, đi (giày)",
+     "example": "今天很冷，多穿衣服。",
+     "level": "HSK1",
+     "frequency": 287
+    },
+    {
+     "id": "zh-verbs-1-48",
+     "word": "休息",
+     "ipa": "xiūxi",
+     "meaning": "nghỉ ngơi",
+     "example": "你累了，休息一下吧。",
+     "level": "HSK1",
+     "frequency": 288
+    },
+    {
+     "id": "zh-verbs-1-49",
+     "word": "运动",
+     "ipa": "yùndòng",
+     "meaning": "vận động, thể thao",
+     "example": "我每天运动一个小时。",
+     "level": "HSK1",
+     "frequency": 289
+    },
+    {
+     "id": "zh-verbs-1-50",
+     "word": "跑步",
+     "ipa": "pǎobù",
+     "meaning": "chạy bộ",
+     "example": "我早上去公园跑步。",
+     "level": "HSK1",
+     "frequency": 290
+    },
+    {
+     "id": "zh-verbs-1-51",
+     "word": "游泳",
+     "ipa": "yóuyǒng",
+     "meaning": "bơi",
+     "example": "夏天我喜欢游泳。",
+     "level": "HSK1",
+     "frequency": 291
+    },
+    {
+     "id": "zh-verbs-1-52",
+     "word": "唱歌",
+     "ipa": "chànggē",
+     "meaning": "hát",
+     "example": "她唱歌很好听。",
+     "level": "HSK1",
+     "frequency": 292
+    },
+    {
+     "id": "zh-verbs-1-53",
+     "word": "跳舞",
+     "ipa": "tiàowǔ",
+     "meaning": "nhảy múa",
+     "example": "她喜欢跳舞。",
+     "level": "HSK1",
+     "frequency": 293
+    },
+    {
+     "id": "zh-verbs-1-54",
+     "word": "旅游",
+     "ipa": "lǚyóu",
+     "meaning": "du lịch",
+     "example": "我想去中国旅游。",
+     "level": "HSK1",
+     "frequency": 294
+    },
+    {
+     "id": "zh-verbs-1-55",
+     "word": "照相",
+     "ipa": "zhàoxiàng",
+     "meaning": "chụp ảnh",
+     "example": "我们在这儿照相吧。",
+     "level": "HSK1",
+     "frequency": 295
+    }
+   ]
+  },
+  {
+   "id": "zh-verbs-2",
+   "name": "Động từ thường dùng 2",
+   "emoji": "💬",
+   "words": [
+    {
+     "id": "zh-verbs-2-1",
+     "word": "是不是",
+     "ipa": "shì bu shì",
+     "meaning": "có phải không",
+     "example": "你是不是学生？",
+     "level": "HSK1",
+     "frequency": 296
+    },
+    {
+     "id": "zh-verbs-2-2",
+     "word": "没有",
+     "ipa": "méiyǒu",
+     "meaning": "không có",
+     "example": "我没有时间。",
+     "level": "HSK1",
+     "frequency": 297
+    },
+    {
+     "id": "zh-verbs-2-3",
+     "word": "开始",
+     "ipa": "kāishǐ",
+     "meaning": "bắt đầu",
+     "example": "电影八点开始。",
+     "level": "HSK1",
+     "frequency": 298
+    },
+    {
+     "id": "zh-verbs-2-4",
+     "word": "完",
+     "ipa": "wán",
+     "meaning": "xong, hết",
+     "example": "我做完作业了。",
+     "level": "HSK1",
+     "frequency": 299
+    },
+    {
+     "id": "zh-verbs-2-5",
+     "word": "来到",
+     "ipa": "láidào",
+     "meaning": "đến nơi",
+     "example": "欢迎来到我们学校。",
+     "level": "HSK1",
+     "frequency": 300
+    },
+    {
+     "id": "zh-verbs-2-6",
+     "word": "出去",
+     "ipa": "chūqù",
+     "meaning": "đi ra ngoài",
+     "example": "晚上我们出去吃饭吧。",
+     "level": "HSK1",
+     "frequency": 301
+    },
+    {
+     "id": "zh-verbs-2-7",
+     "word": "起来",
+     "ipa": "qǐlái",
+     "meaning": "đứng dậy, dậy",
+     "example": "快起来，要迟到了！",
+     "level": "HSK1",
+     "frequency": 302
+    },
+    {
+     "id": "zh-verbs-2-8",
+     "word": "送",
+     "ipa": "sòng",
+     "meaning": "tặng; tiễn; giao",
+     "example": "这是送给你的礼物。",
+     "level": "HSK1",
+     "frequency": 303
+    },
+    {
+     "id": "zh-verbs-2-9",
+     "word": "拿",
+     "ipa": "ná",
+     "meaning": "cầm, lấy",
+     "example": "请帮我拿一下包。",
+     "level": "HSK1",
+     "frequency": 304
+    },
+    {
+     "id": "zh-verbs-2-10",
+     "word": "放",
+     "ipa": "fàng",
+     "meaning": "đặt, để; thả",
+     "example": "把书放在桌子上。",
+     "level": "HSK1",
+     "frequency": 305
+    },
+    {
+     "id": "zh-verbs-2-11",
+     "word": "带",
+     "ipa": "dài",
+     "meaning": "mang theo, dẫn",
+     "example": "别忘了带雨伞。",
+     "level": "HSK1",
+     "frequency": 306
+    },
+    {
+     "id": "zh-verbs-2-12",
+     "word": "接",
+     "ipa": "jiē",
+     "meaning": "đón; nghe (điện thoại)",
+     "example": "我去机场接你。",
+     "level": "HSK1",
+     "frequency": 307
+    },
+    {
+     "id": "zh-verbs-2-13",
+     "word": "记得",
+     "ipa": "jìde",
+     "meaning": "nhớ (không quên)",
+     "example": "你还记得我吗？",
+     "level": "HSK1",
+     "frequency": 308
+    },
+    {
+     "id": "zh-verbs-2-14",
+     "word": "忘记",
+     "ipa": "wàngjì",
+     "meaning": "quên",
+     "example": "我忘记带钥匙了。",
+     "level": "HSK1",
+     "frequency": 309
+    },
+    {
+     "id": "zh-verbs-2-15",
+     "word": "迟到",
+     "ipa": "chídào",
+     "meaning": "đến muộn",
+     "example": "对不起，我迟到了。",
+     "level": "HSK1",
+     "frequency": 310
+    },
+    {
+     "id": "zh-verbs-2-16",
+     "word": "进来",
+     "ipa": "jìnlái",
+     "meaning": "đi vào",
+     "example": "外面冷，快进来吧。",
+     "level": "HSK1",
+     "frequency": 311
+    },
+    {
+     "id": "zh-verbs-2-17",
+     "word": "准备",
+     "ipa": "zhǔnbèi",
+     "meaning": "chuẩn bị",
+     "example": "我在准备考试。",
+     "level": "HSK1",
+     "frequency": 312
+    },
+    {
+     "id": "zh-verbs-2-18",
+     "word": "需要",
+     "ipa": "xūyào",
+     "meaning": "cần",
+     "example": "你需要帮助吗？",
+     "level": "HSK1",
+     "frequency": 313
+    },
+    {
+     "id": "zh-verbs-2-19",
+     "word": "希望",
+     "ipa": "xīwàng",
+     "meaning": "hy vọng",
+     "example": "希望你早日康复。",
+     "level": "HSK1",
+     "frequency": 314
+    },
+    {
+     "id": "zh-verbs-2-20",
+     "word": "应该",
+     "ipa": "yīnggāi",
+     "meaning": "nên, phải",
+     "example": "你应该多休息。",
+     "level": "HSK1",
+     "frequency": 315
+    },
+    {
+     "id": "zh-verbs-2-21",
+     "word": "让",
+     "ipa": "ràng",
+     "meaning": "để cho, nhường",
+     "example": "妈妈不让我玩手机。",
+     "level": "HSK1",
+     "frequency": 316
+    },
+    {
+     "id": "zh-verbs-2-22",
+     "word": "试",
+     "ipa": "shì",
+     "meaning": "thử",
+     "example": "这件衣服可以试吗？",
+     "level": "HSK1",
+     "frequency": 317
+    },
+    {
+     "id": "zh-verbs-2-23",
+     "word": "换",
+     "ipa": "huàn",
+     "meaning": "đổi",
+     "example": "我想换一个房间。",
+     "level": "HSK1",
+     "frequency": 318
+    },
+    {
+     "id": "zh-verbs-2-24",
+     "word": "付",
+     "ipa": "fù",
+     "meaning": "trả (tiền)",
+     "example": "我来付钱。",
+     "level": "HSK1",
+     "frequency": 319
+    },
+    {
+     "id": "zh-verbs-2-25",
+     "word": "花",
+     "ipa": "huā",
+     "meaning": "tiêu (tiền, thời gian); hoa",
+     "example": "我花了一百块买书。",
+     "level": "HSK1",
+     "frequency": 320
+    },
+    {
+     "id": "zh-verbs-2-26",
+     "word": "借",
+     "ipa": "jiè",
+     "meaning": "mượn, cho mượn",
+     "example": "我可以借你的笔吗？",
+     "level": "HSK1",
+     "frequency": 321
+    },
+    {
+     "id": "zh-verbs-2-27",
+     "word": "还",
+     "ipa": "huán",
+     "meaning": "trả lại",
+     "example": "我明天还你钱。",
+     "level": "HSK1",
+     "frequency": 322
+    },
+    {
+     "id": "zh-verbs-2-28",
+     "word": "搬",
+     "ipa": "bān",
+     "meaning": "chuyển, dọn",
+     "example": "我们下个月搬家。",
+     "level": "HSK1",
+     "frequency": 323
+    },
+    {
+     "id": "zh-verbs-2-29",
+     "word": "教",
+     "ipa": "jiāo",
+     "meaning": "dạy",
+     "example": "王老师教我们汉语。",
+     "level": "HSK1",
+     "frequency": 324
+    },
+    {
+     "id": "zh-verbs-2-30",
+     "word": "练习",
+     "ipa": "liànxí",
+     "meaning": "luyện tập",
+     "example": "我每天练习说汉语。",
+     "level": "HSK1",
+     "frequency": 325
+    },
+    {
+     "id": "zh-verbs-2-31",
+     "word": "复习",
+     "ipa": "fùxí",
+     "meaning": "ôn tập",
+     "example": "考试前要复习。",
+     "level": "HSK1",
+     "frequency": 326
+    },
+    {
+     "id": "zh-verbs-2-32",
+     "word": "考试",
+     "ipa": "kǎoshì",
+     "meaning": "thi, kỳ thi",
+     "example": "明天我有汉语考试。",
+     "level": "HSK1",
+     "frequency": 327
+    },
+    {
+     "id": "zh-verbs-2-33",
+     "word": "参加",
+     "ipa": "cānjiā",
+     "meaning": "tham gia",
+     "example": "我想参加这个活动。",
+     "level": "HSK1",
+     "frequency": 328
+    },
+    {
+     "id": "zh-verbs-2-34",
+     "word": "结婚",
+     "ipa": "jiéhūn",
+     "meaning": "kết hôn",
+     "example": "他们明年结婚。",
+     "level": "HSK1",
+     "frequency": 329
+    },
+    {
+     "id": "zh-verbs-2-35",
+     "word": "生病",
+     "ipa": "shēngbìng",
+     "meaning": "bị ốm",
+     "example": "他生病了，不能来上课。",
+     "level": "HSK1",
+     "frequency": 330
+    },
+    {
+     "id": "zh-verbs-2-36",
+     "word": "感冒",
+     "ipa": "gǎnmào",
+     "meaning": "bị cảm",
+     "example": "我感冒了，头很疼。",
+     "level": "HSK1",
+     "frequency": 331
+    },
+    {
+     "id": "zh-verbs-2-37",
+     "word": "疼",
+     "ipa": "téng",
+     "meaning": "đau",
+     "example": "我牙疼。",
+     "level": "HSK1",
+     "frequency": 332
+    },
+    {
+     "id": "zh-verbs-2-38",
+     "word": "哭",
+     "ipa": "kū",
+     "meaning": "khóc",
+     "example": "孩子饿了就哭。",
+     "level": "HSK1",
+     "frequency": 333
+    },
+    {
+     "id": "zh-verbs-2-39",
+     "word": "笑",
+     "ipa": "xiào",
+     "meaning": "cười",
+     "example": "她笑得很开心。",
+     "level": "HSK1",
+     "frequency": 334
+    },
+    {
+     "id": "zh-verbs-2-40",
+     "word": "下雨",
+     "ipa": "xiàyǔ",
+     "meaning": "mưa",
+     "example": "外面下雨了，带伞吧。",
+     "level": "HSK1",
+     "frequency": 335
+    },
+    {
+     "id": "zh-verbs-2-41",
+     "word": "刮风",
+     "ipa": "guāfēng",
+     "meaning": "nổi gió",
+     "example": "今天刮风，有点冷。",
+     "level": "HSK1",
+     "frequency": 336
+    },
+    {
+     "id": "zh-verbs-2-42",
+     "word": "下雪",
+     "ipa": "xiàxuě",
+     "meaning": "tuyết rơi",
+     "example": "北京冬天会下雪。",
+     "level": "HSK1",
+     "frequency": 337
+    },
+    {
+     "id": "zh-verbs-2-43",
+     "word": "打篮球",
+     "ipa": "dǎ lánqiú",
+     "meaning": "chơi bóng rổ",
+     "example": "周末我和朋友打篮球。",
+     "level": "HSK1",
+     "frequency": 338
+    },
+    {
+     "id": "zh-verbs-2-44",
+     "word": "踢足球",
+     "ipa": "tī zúqiú",
+     "meaning": "đá bóng",
+     "example": "弟弟喜欢踢足球。",
+     "level": "HSK1",
+     "frequency": 339
+    },
+    {
+     "id": "zh-verbs-2-45",
+     "word": "上网",
+     "ipa": "shàngwǎng",
+     "meaning": "lên mạng",
+     "example": "我每天上网看新闻。",
+     "level": "HSK1",
+     "frequency": 340
+    }
+   ]
+  },
+  {
+   "id": "zh-adjectives",
+   "name": "Tính từ",
+   "emoji": "✨",
+   "words": [
+    {
+     "id": "zh-adjectives-1",
+     "word": "大",
+     "ipa": "dà",
+     "meaning": "to, lớn",
+     "example": "我家的房子很大。",
+     "level": "HSK1",
+     "frequency": 341
+    },
+    {
+     "id": "zh-adjectives-2",
+     "word": "小",
+     "ipa": "xiǎo",
+     "meaning": "nhỏ, bé",
+     "example": "这只猫很小。",
+     "level": "HSK1",
+     "frequency": 342
+    },
+    {
+     "id": "zh-adjectives-3",
+     "word": "多",
+     "ipa": "duō",
+     "meaning": "nhiều",
+     "example": "今天人很多。",
+     "level": "HSK1",
+     "frequency": 343
+    },
+    {
+     "id": "zh-adjectives-4",
+     "word": "少",
+     "ipa": "shǎo",
+     "meaning": "ít",
+     "example": "我的钱很少。",
+     "level": "HSK1",
+     "frequency": 344
+    },
+    {
+     "id": "zh-adjectives-5",
+     "word": "高",
+     "ipa": "gāo",
+     "meaning": "cao",
+     "example": "他个子很高。",
+     "level": "HSK1",
+     "frequency": 345
+    },
+    {
+     "id": "zh-adjectives-6",
+     "word": "矮",
+     "ipa": "ǎi",
+     "meaning": "thấp (người)",
+     "example": "弟弟比我矮。",
+     "level": "HSK1",
+     "frequency": 346
+    },
+    {
+     "id": "zh-adjectives-7",
+     "word": "长",
+     "ipa": "cháng",
+     "meaning": "dài",
+     "example": "这条河很长。",
+     "level": "HSK1",
+     "frequency": 347
+    },
+    {
+     "id": "zh-adjectives-8",
+     "word": "短",
+     "ipa": "duǎn",
+     "meaning": "ngắn",
+     "example": "她的头发很短。",
+     "level": "HSK1",
+     "frequency": 348
+    },
+    {
+     "id": "zh-adjectives-9",
+     "word": "新",
+     "ipa": "xīn",
+     "meaning": "mới",
+     "example": "我买了一部新手机。",
+     "level": "HSK1",
+     "frequency": 349
+    },
+    {
+     "id": "zh-adjectives-10",
+     "word": "旧",
+     "ipa": "jiù",
+     "meaning": "cũ",
+     "example": "这辆车很旧了。",
+     "level": "HSK1",
+     "frequency": 350
+    },
+    {
+     "id": "zh-adjectives-11",
+     "word": "热",
+     "ipa": "rè",
+     "meaning": "nóng",
+     "example": "今天天气很热。",
+     "level": "HSK1",
+     "frequency": 351
+    },
+    {
+     "id": "zh-adjectives-12",
+     "word": "冷",
+     "ipa": "lěng",
+     "meaning": "lạnh",
+     "example": "冬天很冷。",
+     "level": "HSK1",
+     "frequency": 352
+    },
+    {
+     "id": "zh-adjectives-13",
+     "word": "忙",
+     "ipa": "máng",
+     "meaning": "bận",
+     "example": "我最近很忙。",
+     "level": "HSK1",
+     "frequency": 353
+    },
+    {
+     "id": "zh-adjectives-14",
+     "word": "累",
+     "ipa": "lèi",
+     "meaning": "mệt",
+     "example": "工作了一天，我很累。",
+     "level": "HSK1",
+     "frequency": 354
+    },
+    {
+     "id": "zh-adjectives-15",
+     "word": "快",
+     "ipa": "kuài",
+     "meaning": "nhanh",
+     "example": "他跑得很快。",
+     "level": "HSK1",
+     "frequency": 355
+    },
+    {
+     "id": "zh-adjectives-16",
+     "word": "慢",
+     "ipa": "màn",
+     "meaning": "chậm",
+     "example": "请说慢一点儿。",
+     "level": "HSK1",
+     "frequency": 356
+    },
+    {
+     "id": "zh-adjectives-17",
+     "word": "贵",
+     "ipa": "guì",
+     "meaning": "đắt",
+     "example": "这个包太贵了。",
+     "level": "HSK1",
+     "frequency": 357
+    },
+    {
+     "id": "zh-adjectives-18",
+     "word": "便宜",
+     "ipa": "piányi",
+     "meaning": "rẻ",
+     "example": "这家店的东西很便宜。",
+     "level": "HSK1",
+     "frequency": 358
+    },
+    {
+     "id": "zh-adjectives-19",
+     "word": "漂亮",
+     "ipa": "piàoliang",
+     "meaning": "đẹp, xinh",
+     "example": "这条裙子真漂亮。",
+     "level": "HSK1",
+     "frequency": 359
+    },
+    {
+     "id": "zh-adjectives-20",
+     "word": "帅",
+     "ipa": "shuài",
+     "meaning": "đẹp trai",
+     "example": "她的男朋友很帅。",
+     "level": "HSK1",
+     "frequency": 360
+    },
+    {
+     "id": "zh-adjectives-21",
+     "word": "可爱",
+     "ipa": "kě'ài",
+     "meaning": "dễ thương",
+     "example": "这只小狗真可爱。",
+     "level": "HSK1",
+     "frequency": 361
+    },
+    {
+     "id": "zh-adjectives-22",
+     "word": "聪明",
+     "ipa": "cōngming",
+     "meaning": "thông minh",
+     "example": "这个孩子很聪明。",
+     "level": "HSK1",
+     "frequency": 362
+    },
+    {
+     "id": "zh-adjectives-23",
+     "word": "好看",
+     "ipa": "hǎokàn",
+     "meaning": "đẹp, hay (xem)",
+     "example": "这部电影很好看。",
+     "level": "HSK1",
+     "frequency": 363
+    },
+    {
+     "id": "zh-adjectives-24",
+     "word": "难",
+     "ipa": "nán",
+     "meaning": "khó",
+     "example": "汉字很难写。",
+     "level": "HSK1",
+     "frequency": 364
+    },
+    {
+     "id": "zh-adjectives-25",
+     "word": "容易",
+     "ipa": "róngyì",
+     "meaning": "dễ",
+     "example": "这个题很容易。",
+     "level": "HSK1",
+     "frequency": 365
+    },
+    {
+     "id": "zh-adjectives-26",
+     "word": "干净",
+     "ipa": "gānjìng",
+     "meaning": "sạch sẽ",
+     "example": "房间很干净。",
+     "level": "HSK1",
+     "frequency": 366
+    },
+    {
+     "id": "zh-adjectives-27",
+     "word": "脏",
+     "ipa": "zāng",
+     "meaning": "bẩn",
+     "example": "衣服脏了，要洗。",
+     "level": "HSK1",
+     "frequency": 367
+    },
+    {
+     "id": "zh-adjectives-28",
+     "word": "开心",
+     "ipa": "kāixīn",
+     "meaning": "vui vẻ",
+     "example": "今天玩得很开心。",
+     "level": "HSK1",
+     "frequency": 368
+    },
+    {
+     "id": "zh-adjectives-29",
+     "word": "难过",
+     "ipa": "nánguò",
+     "meaning": "buồn",
+     "example": "听到这个消息我很难过。",
+     "level": "HSK1",
+     "frequency": 369
+    },
+    {
+     "id": "zh-adjectives-30",
+     "word": "生气",
+     "ipa": "shēngqì",
+     "meaning": "tức giận",
+     "example": "妈妈生气了。",
+     "level": "HSK1",
+     "frequency": 370
+    },
+    {
+     "id": "zh-adjectives-31",
+     "word": "舒服",
+     "ipa": "shūfu",
+     "meaning": "dễ chịu, thoải mái",
+     "example": "这把椅子坐着很舒服。",
+     "level": "HSK1",
+     "frequency": 371
+    },
+    {
+     "id": "zh-adjectives-32",
+     "word": "重要",
+     "ipa": "zhòngyào",
+     "meaning": "quan trọng",
+     "example": "健康很重要。",
+     "level": "HSK1",
+     "frequency": 372
+    },
+    {
+     "id": "zh-adjectives-33",
+     "word": "有意思",
+     "ipa": "yǒu yìsi",
+     "meaning": "thú vị, hay",
+     "example": "这本书很有意思。",
+     "level": "HSK1",
+     "frequency": 373
+    },
+    {
+     "id": "zh-adjectives-34",
+     "word": "没意思",
+     "ipa": "méi yìsi",
+     "meaning": "chán, không thú vị",
+     "example": "这个电影没意思。",
+     "level": "HSK1",
+     "frequency": 374
+    },
+    {
+     "id": "zh-adjectives-35",
+     "word": "有名",
+     "ipa": "yǒumíng",
+     "meaning": "nổi tiếng",
+     "example": "这家饭馆很有名。",
+     "level": "HSK1",
+     "frequency": 375
+    },
+    {
+     "id": "zh-adjectives-36",
+     "word": "红",
+     "ipa": "hóng",
+     "meaning": "màu đỏ",
+     "example": "她穿着红衣服。",
+     "level": "HSK1",
+     "frequency": 376
+    },
+    {
+     "id": "zh-adjectives-37",
+     "word": "白",
+     "ipa": "bái",
+     "meaning": "màu trắng",
+     "example": "我喜欢白色的车。",
+     "level": "HSK1",
+     "frequency": 377
+    },
+    {
+     "id": "zh-adjectives-38",
+     "word": "黑",
+     "ipa": "hēi",
+     "meaning": "màu đen",
+     "example": "他的头发是黑色的。",
+     "level": "HSK1",
+     "frequency": 378
+    },
+    {
+     "id": "zh-adjectives-39",
+     "word": "蓝",
+     "ipa": "lán",
+     "meaning": "màu xanh dương",
+     "example": "天空是蓝色的。",
+     "level": "HSK1",
+     "frequency": 379
+    },
+    {
+     "id": "zh-adjectives-40",
+     "word": "绿",
+     "ipa": "lǜ",
+     "meaning": "màu xanh lá",
+     "example": "春天树都绿了。",
+     "level": "HSK1",
+     "frequency": 380
+    },
+    {
+     "id": "zh-adjectives-41",
+     "word": "黄",
+     "ipa": "huáng",
+     "meaning": "màu vàng",
+     "example": "香蕉是黄色的。",
+     "level": "HSK1",
+     "frequency": 381
+    },
+    {
+     "id": "zh-adjectives-42",
+     "word": "颜色",
+     "ipa": "yánsè",
+     "meaning": "màu sắc",
+     "example": "你喜欢什么颜色？",
+     "level": "HSK1",
+     "frequency": 382
+    },
+    {
+     "id": "zh-adjectives-43",
+     "word": "胖",
+     "ipa": "pàng",
+     "meaning": "béo, mập",
+     "example": "这只猫有点胖。",
+     "level": "HSK1",
+     "frequency": 383
+    },
+    {
+     "id": "zh-adjectives-44",
+     "word": "瘦",
+     "ipa": "shòu",
+     "meaning": "gầy, ốm",
+     "example": "她最近瘦了很多。",
+     "level": "HSK1",
+     "frequency": 384
+    },
+    {
+     "id": "zh-adjectives-45",
+     "word": "年轻",
+     "ipa": "niánqīng",
+     "meaning": "trẻ",
+     "example": "我妈妈看起来很年轻。",
+     "level": "HSK1",
+     "frequency": 385
+    }
+   ]
+  },
+  {
+   "id": "zh-study-work",
+   "name": "Học tập & Làm việc",
+   "emoji": "📚",
+   "words": [
+    {
+     "id": "zh-study-work-1",
+     "word": "汉语",
+     "ipa": "Hànyǔ",
+     "meaning": "tiếng Trung, Hán ngữ",
+     "example": "我在学汉语。",
+     "level": "HSK1",
+     "frequency": 386
+    },
+    {
+     "id": "zh-study-work-2",
+     "word": "中文",
+     "ipa": "Zhōngwén",
+     "meaning": "tiếng Trung",
+     "example": "你的中文很好！",
+     "level": "HSK1",
+     "frequency": 387
+    },
+    {
+     "id": "zh-study-work-3",
+     "word": "英语",
+     "ipa": "Yīngyǔ",
+     "meaning": "tiếng Anh",
+     "example": "我会说英语和汉语。",
+     "level": "HSK1",
+     "frequency": 388
+    },
+    {
+     "id": "zh-study-work-4",
+     "word": "越南语",
+     "ipa": "Yuènányǔ",
+     "meaning": "tiếng Việt",
+     "example": "越南语有六个声调。",
+     "level": "HSK1",
+     "frequency": 389
+    },
+    {
+     "id": "zh-study-work-5",
+     "word": "汉字",
+     "ipa": "Hànzì",
+     "meaning": "chữ Hán",
+     "example": "我每天写十个汉字。",
+     "level": "HSK1",
+     "frequency": 390
+    },
+    {
+     "id": "zh-study-work-6",
+     "word": "书",
+     "ipa": "shū",
+     "meaning": "sách",
+     "example": "我买了一本汉语书。",
+     "level": "HSK1",
+     "frequency": 391
+    },
+    {
+     "id": "zh-study-work-7",
+     "word": "本",
+     "ipa": "běn",
+     "meaning": "quyển, cuốn (lượng từ)",
+     "example": "这本书很有意思。",
+     "level": "HSK1",
+     "frequency": 392
+    },
+    {
+     "id": "zh-study-work-8",
+     "word": "课",
+     "ipa": "kè",
+     "meaning": "bài học, tiết học",
+     "example": "今天我们学第五课。",
+     "level": "HSK1",
+     "frequency": 393
+    },
+    {
+     "id": "zh-study-work-9",
+     "word": "课本",
+     "ipa": "kèběn",
+     "meaning": "sách giáo khoa",
+     "example": "请打开课本第十页。",
+     "level": "HSK1",
+     "frequency": 394
+    },
+    {
+     "id": "zh-study-work-10",
+     "word": "作业",
+     "ipa": "zuòyè",
+     "meaning": "bài tập về nhà",
+     "example": "我晚上做作业。",
+     "level": "HSK1",
+     "frequency": 395
+    },
+    {
+     "id": "zh-study-work-11",
+     "word": "问题",
+     "ipa": "wèntí",
+     "meaning": "câu hỏi, vấn đề",
+     "example": "我有一个问题。",
+     "level": "HSK1",
+     "frequency": 396
+    },
+    {
+     "id": "zh-study-work-12",
+     "word": "词",
+     "ipa": "cí",
+     "meaning": "từ (vựng)",
+     "example": "这个词是什么意思？",
+     "level": "HSK1",
+     "frequency": 397
+    },
+    {
+     "id": "zh-study-work-13",
+     "word": "意思",
+     "ipa": "yìsi",
+     "meaning": "ý nghĩa",
+     "example": "这句话是什么意思？",
+     "level": "HSK1",
+     "frequency": 398
+    },
+    {
+     "id": "zh-study-work-14",
+     "word": "句子",
+     "ipa": "jùzi",
+     "meaning": "câu",
+     "example": "请用这个词造一个句子。",
+     "level": "HSK1",
+     "frequency": 399
+    },
+    {
+     "id": "zh-study-work-15",
+     "word": "字",
+     "ipa": "zì",
+     "meaning": "chữ",
+     "example": "这个字怎么写？",
+     "level": "HSK1",
+     "frequency": 400
+    },
+    {
+     "id": "zh-study-work-16",
+     "word": "班",
+     "ipa": "bān",
+     "meaning": "lớp",
+     "example": "我们班有二十个学生。",
+     "level": "HSK1",
+     "frequency": 401
+    },
+    {
+     "id": "zh-study-work-17",
+     "word": "年级",
+     "ipa": "niánjí",
+     "meaning": "khối, năm học",
+     "example": "我妹妹上三年级。",
+     "level": "HSK1",
+     "frequency": 402
+    },
+    {
+     "id": "zh-study-work-18",
+     "word": "大学",
+     "ipa": "dàxué",
+     "meaning": "đại học",
+     "example": "我在河内大学学习。",
+     "level": "HSK1",
+     "frequency": 403
+    },
+    {
+     "id": "zh-study-work-19",
+     "word": "考",
+     "ipa": "kǎo",
+     "meaning": "thi",
+     "example": "下周我要考HSK。",
+     "level": "HSK1",
+     "frequency": 404
+    },
+    {
+     "id": "zh-study-work-20",
+     "word": "分数",
+     "ipa": "fēnshù",
+     "meaning": "điểm số",
+     "example": "他的考试分数很高。",
+     "level": "HSK1",
+     "frequency": 405
+    },
+    {
+     "id": "zh-study-work-21",
+     "word": "笔",
+     "ipa": "bǐ",
+     "meaning": "bút",
+     "example": "我可以借你的笔吗？",
+     "level": "HSK1",
+     "frequency": 406
+    },
+    {
+     "id": "zh-study-work-22",
+     "word": "铅笔",
+     "ipa": "qiānbǐ",
+     "meaning": "bút chì",
+     "example": "请用铅笔写。",
+     "level": "HSK1",
+     "frequency": 407
+    },
+    {
+     "id": "zh-study-work-23",
+     "word": "纸",
+     "ipa": "zhǐ",
+     "meaning": "giấy",
+     "example": "给我一张纸。",
+     "level": "HSK1",
+     "frequency": 408
+    },
+    {
+     "id": "zh-study-work-24",
+     "word": "桌子",
+     "ipa": "zhuōzi",
+     "meaning": "cái bàn",
+     "example": "书在桌子上。",
+     "level": "HSK1",
+     "frequency": 409
+    },
+    {
+     "id": "zh-study-work-25",
+     "word": "椅子",
+     "ipa": "yǐzi",
+     "meaning": "cái ghế",
+     "example": "教室里有很多椅子。",
+     "level": "HSK1",
+     "frequency": 410
+    },
+    {
+     "id": "zh-study-work-26",
+     "word": "黑板",
+     "ipa": "hēibǎn",
+     "meaning": "bảng đen",
+     "example": "老师在黑板上写字。",
+     "level": "HSK1",
+     "frequency": 411
+    },
+    {
+     "id": "zh-study-work-27",
+     "word": "电脑",
+     "ipa": "diànnǎo",
+     "meaning": "máy tính",
+     "example": "我用电脑工作。",
+     "level": "HSK1",
+     "frequency": 412
+    },
+    {
+     "id": "zh-study-work-28",
+     "word": "手机",
+     "ipa": "shǒujī",
+     "meaning": "điện thoại di động",
+     "example": "我的手机没电了。",
+     "level": "HSK1",
+     "frequency": 413
+    },
+    {
+     "id": "zh-study-work-29",
+     "word": "电话",
+     "ipa": "diànhuà",
+     "meaning": "điện thoại",
+     "example": "你的电话号码是多少？",
+     "level": "HSK1",
+     "frequency": 414
+    },
+    {
+     "id": "zh-study-work-30",
+     "word": "号码",
+     "ipa": "hàomǎ",
+     "meaning": "số (điện thoại...)",
+     "example": "请告诉我你的号码。",
+     "level": "HSK1",
+     "frequency": 415
+    },
+    {
+     "id": "zh-study-work-31",
+     "word": "电子邮件",
+     "ipa": "diànzǐ yóujiàn",
+     "meaning": "email",
+     "example": "我给你发电子邮件。",
+     "level": "HSK1",
+     "frequency": 416
+    },
+    {
+     "id": "zh-study-work-32",
+     "word": "上学",
+     "ipa": "shàngxué",
+     "meaning": "đi học",
+     "example": "弟弟七点去上学。",
+     "level": "HSK1",
+     "frequency": 417
+    },
+    {
+     "id": "zh-study-work-33",
+     "word": "毕业",
+     "ipa": "bìyè",
+     "meaning": "tốt nghiệp",
+     "example": "我明年大学毕业。",
+     "level": "HSK1",
+     "frequency": 418
+    },
+    {
+     "id": "zh-study-work-34",
+     "word": "努力",
+     "ipa": "nǔlì",
+     "meaning": "nỗ lực, chăm chỉ",
+     "example": "他学习很努力。",
+     "level": "HSK1",
+     "frequency": 419
+    },
+    {
+     "id": "zh-study-work-35",
+     "word": "会议",
+     "ipa": "huìyì",
+     "meaning": "cuộc họp",
+     "example": "下午两点有会议。",
+     "level": "HSK1",
+     "frequency": 420
+    },
+    {
+     "id": "zh-study-work-36",
+     "word": "开会",
+     "ipa": "kāihuì",
+     "meaning": "họp",
+     "example": "经理在开会。",
+     "level": "HSK1",
+     "frequency": 421
+    },
+    {
+     "id": "zh-study-work-37",
+     "word": "事情",
+     "ipa": "shìqing",
+     "meaning": "việc, chuyện",
+     "example": "我今天有很多事情要做。",
+     "level": "HSK1",
+     "frequency": 422
+    },
+    {
+     "id": "zh-study-work-38",
+     "word": "忙不忙",
+     "ipa": "máng bu máng",
+     "meaning": "có bận không",
+     "example": "你最近忙不忙？",
+     "level": "HSK1",
+     "frequency": 423
+    },
+    {
+     "id": "zh-study-work-39",
+     "word": "工资",
+     "ipa": "gōngzī",
+     "meaning": "lương",
+     "example": "这个工作的工资不错。",
+     "level": "HSK1",
+     "frequency": 424
+    },
+    {
+     "id": "zh-study-work-40",
+     "word": "老板",
+     "ipa": "lǎobǎn",
+     "meaning": "ông chủ, sếp",
+     "example": "我们老板对我们很好。",
+     "level": "HSK1",
+     "frequency": 425
+    },
+    {
+     "id": "zh-study-work-41",
+     "word": "同事",
+     "ipa": "tóngshì",
+     "meaning": "đồng nghiệp",
+     "example": "我和同事一起吃午饭。",
+     "level": "HSK1",
+     "frequency": 426
+    },
+    {
+     "id": "zh-study-work-42",
+     "word": "电影",
+     "ipa": "diànyǐng",
+     "meaning": "phim",
+     "example": "晚上我们去看电影吧。",
+     "level": "HSK1",
+     "frequency": 427
+    },
+    {
+     "id": "zh-study-work-43",
+     "word": "电视",
+     "ipa": "diànshì",
+     "meaning": "ti vi",
+     "example": "爷爷在看电视。",
+     "level": "HSK1",
+     "frequency": 428
+    },
+    {
+     "id": "zh-study-work-44",
+     "word": "音乐",
+     "ipa": "yīnyuè",
+     "meaning": "âm nhạc",
+     "example": "我喜欢听中国音乐。",
+     "level": "HSK1",
+     "frequency": 429
+    },
+    {
+     "id": "zh-study-work-45",
+     "word": "歌",
+     "ipa": "gē",
+     "meaning": "bài hát",
+     "example": "这首歌很好听。",
+     "level": "HSK1",
+     "frequency": 430
+    }
+   ]
+  },
+  {
+   "id": "zh-daily-things",
+   "name": "Đồ vật & Cuộc sống",
+   "emoji": "🏠",
+   "words": [
+    {
+     "id": "zh-daily-things-1",
+     "word": "东西",
+     "ipa": "dōngxi",
+     "meaning": "đồ, đồ vật",
+     "example": "我去超市买东西。",
+     "level": "HSK1",
+     "frequency": 431
+    },
+    {
+     "id": "zh-daily-things-2",
+     "word": "衣服",
+     "ipa": "yīfu",
+     "meaning": "quần áo",
+     "example": "这件衣服很漂亮。",
+     "level": "HSK1",
+     "frequency": 432
+    },
+    {
+     "id": "zh-daily-things-3",
+     "word": "裤子",
+     "ipa": "kùzi",
+     "meaning": "quần",
+     "example": "我想买一条裤子。",
+     "level": "HSK1",
+     "frequency": 433
+    },
+    {
+     "id": "zh-daily-things-4",
+     "word": "裙子",
+     "ipa": "qúnzi",
+     "meaning": "váy",
+     "example": "她穿着白色的裙子。",
+     "level": "HSK1",
+     "frequency": 434
+    },
+    {
+     "id": "zh-daily-things-5",
+     "word": "鞋",
+     "ipa": "xié",
+     "meaning": "giày",
+     "example": "这双鞋多少钱？",
+     "level": "HSK1",
+     "frequency": 435
+    },
+    {
+     "id": "zh-daily-things-6",
+     "word": "帽子",
+     "ipa": "màozi",
+     "meaning": "mũ, nón",
+     "example": "今天太阳大，戴帽子吧。",
+     "level": "HSK1",
+     "frequency": 436
+    },
+    {
+     "id": "zh-daily-things-7",
+     "word": "包",
+     "ipa": "bāo",
+     "meaning": "túi, cặp",
+     "example": "我的包里有很多书。",
+     "level": "HSK1",
+     "frequency": 437
+    },
+    {
+     "id": "zh-daily-things-8",
+     "word": "钱包",
+     "ipa": "qiánbāo",
+     "meaning": "ví tiền",
+     "example": "我的钱包不见了！",
+     "level": "HSK1",
+     "frequency": 438
+    },
+    {
+     "id": "zh-daily-things-9",
+     "word": "钥匙",
+     "ipa": "yàoshi",
+     "meaning": "chìa khóa",
+     "example": "我忘带钥匙了。",
+     "level": "HSK1",
+     "frequency": 439
+    },
+    {
+     "id": "zh-daily-things-10",
+     "word": "雨伞",
+     "ipa": "yǔsǎn",
+     "meaning": "ô, dù",
+     "example": "下雨了，你带雨伞了吗？",
+     "level": "HSK1",
+     "frequency": 440
+    },
+    {
+     "id": "zh-daily-things-11",
+     "word": "眼镜",
+     "ipa": "yǎnjìng",
+     "meaning": "kính mắt",
+     "example": "我爸爸戴眼镜。",
+     "level": "HSK1",
+     "frequency": 441
+    },
+    {
+     "id": "zh-daily-things-12",
+     "word": "手表",
+     "ipa": "shǒubiǎo",
+     "meaning": "đồng hồ đeo tay",
+     "example": "这块手表是爸爸送的。",
+     "level": "HSK1",
+     "frequency": 442
+    },
+    {
+     "id": "zh-daily-things-13",
+     "word": "床",
+     "ipa": "chuáng",
+     "meaning": "giường",
+     "example": "我的床很舒服。",
+     "level": "HSK1",
+     "frequency": 443
+    },
+    {
+     "id": "zh-daily-things-14",
+     "word": "门",
+     "ipa": "mén",
+     "meaning": "cửa",
+     "example": "请关门。",
+     "level": "HSK1",
+     "frequency": 444
+    },
+    {
+     "id": "zh-daily-things-15",
+     "word": "窗户",
+     "ipa": "chuānghu",
+     "meaning": "cửa sổ",
+     "example": "请打开窗户。",
+     "level": "HSK1",
+     "frequency": 445
+    },
+    {
+     "id": "zh-daily-things-16",
+     "word": "灯",
+     "ipa": "dēng",
+     "meaning": "đèn",
+     "example": "睡觉前要关灯。",
+     "level": "HSK1",
+     "frequency": 446
+    },
+    {
+     "id": "zh-daily-things-17",
+     "word": "电",
+     "ipa": "diàn",
+     "meaning": "điện",
+     "example": "我的手机没电了。",
+     "level": "HSK1",
+     "frequency": 447
+    },
+    {
+     "id": "zh-daily-things-18",
+     "word": "水果店",
+     "ipa": "shuǐguǒdiàn",
+     "meaning": "cửa hàng trái cây",
+     "example": "水果店在我家旁边。",
+     "level": "HSK1",
+     "frequency": 448
+    },
+    {
+     "id": "zh-daily-things-19",
+     "word": "猫",
+     "ipa": "māo",
+     "meaning": "con mèo",
+     "example": "我家有一只猫。",
+     "level": "HSK1",
+     "frequency": 449
+    },
+    {
+     "id": "zh-daily-things-20",
+     "word": "狗",
+     "ipa": "gǒu",
+     "meaning": "con chó",
+     "example": "这只狗很可爱。",
+     "level": "HSK1",
+     "frequency": 450
+    },
+    {
+     "id": "zh-daily-things-21",
+     "word": "鸟",
+     "ipa": "niǎo",
+     "meaning": "con chim",
+     "example": "树上有很多鸟。",
+     "level": "HSK1",
+     "frequency": 451
+    },
+    {
+     "id": "zh-daily-things-22",
+     "word": "树",
+     "ipa": "shù",
+     "meaning": "cây",
+     "example": "公园里有很多树。",
+     "level": "HSK1",
+     "frequency": 452
+    },
+    {
+     "id": "zh-daily-things-23",
+     "word": "山",
+     "ipa": "shān",
+     "meaning": "núi",
+     "example": "周末我们去爬山。",
+     "level": "HSK1",
+     "frequency": 453
+    },
+    {
+     "id": "zh-daily-things-24",
+     "word": "海",
+     "ipa": "hǎi",
+     "meaning": "biển",
+     "example": "我喜欢看海。",
+     "level": "HSK1",
+     "frequency": 454
+    },
+    {
+     "id": "zh-daily-things-25",
+     "word": "天气",
+     "ipa": "tiānqì",
+     "meaning": "thời tiết",
+     "example": "今天天气怎么样？",
+     "level": "HSK1",
+     "frequency": 455
+    },
+    {
+     "id": "zh-daily-things-26",
+     "word": "太阳",
+     "ipa": "tàiyáng",
+     "meaning": "mặt trời",
+     "example": "今天太阳很大。",
+     "level": "HSK1",
+     "frequency": 456
+    },
+    {
+     "id": "zh-daily-things-27",
+     "word": "月亮",
+     "ipa": "yuèliang",
+     "meaning": "mặt trăng",
+     "example": "今晚的月亮很圆。",
+     "level": "HSK1",
+     "frequency": 457
+    },
+    {
+     "id": "zh-daily-things-28",
+     "word": "雨",
+     "ipa": "yǔ",
+     "meaning": "mưa",
+     "example": "雨下得很大。",
+     "level": "HSK1",
+     "frequency": 458
+    },
+    {
+     "id": "zh-daily-things-29",
+     "word": "雪",
+     "ipa": "xuě",
+     "meaning": "tuyết",
+     "example": "我没见过雪。",
+     "level": "HSK1",
+     "frequency": 459
+    },
+    {
+     "id": "zh-daily-things-30",
+     "word": "风",
+     "ipa": "fēng",
+     "meaning": "gió",
+     "example": "今天风很大。",
+     "level": "HSK1",
+     "frequency": 460
+    },
+    {
+     "id": "zh-daily-things-31",
+     "word": "花儿",
+     "ipa": "huār",
+     "meaning": "hoa",
+     "example": "公园里的花儿开了。",
+     "level": "HSK1",
+     "frequency": 461
+    },
+    {
+     "id": "zh-daily-things-32",
+     "word": "礼物",
+     "ipa": "lǐwù",
+     "meaning": "quà",
+     "example": "这是给你的生日礼物。",
+     "level": "HSK1",
+     "frequency": 462
+    },
+    {
+     "id": "zh-daily-things-33",
+     "word": "照片",
+     "ipa": "zhàopiàn",
+     "meaning": "ảnh, tấm hình",
+     "example": "这张照片很漂亮。",
+     "level": "HSK1",
+     "frequency": 463
+    },
+    {
+     "id": "zh-daily-things-34",
+     "word": "票",
+     "ipa": "piào",
+     "meaning": "vé",
+     "example": "我买了两张电影票。",
+     "level": "HSK1",
+     "frequency": 464
+    },
+    {
+     "id": "zh-daily-things-35",
+     "word": "个",
+     "ipa": "gè",
+     "meaning": "cái, chiếc (lượng từ)",
+     "example": "我有三个苹果。",
+     "level": "HSK1",
+     "frequency": 465
+    },
+    {
+     "id": "zh-daily-things-36",
+     "word": "张",
+     "ipa": "zhāng",
+     "meaning": "tấm, tờ (lượng từ)",
+     "example": "给我一张纸。",
+     "level": "HSK1",
+     "frequency": 466
+    },
+    {
+     "id": "zh-daily-things-37",
+     "word": "只",
+     "ipa": "zhī",
+     "meaning": "con (lượng từ động vật)",
+     "example": "我家有两只猫。",
+     "level": "HSK1",
+     "frequency": 467
+    },
+    {
+     "id": "zh-daily-things-38",
+     "word": "件",
+     "ipa": "jiàn",
+     "meaning": "chiếc, cái (áo, việc)",
+     "example": "我买了一件衣服。",
+     "level": "HSK1",
+     "frequency": 468
+    },
+    {
+     "id": "zh-daily-things-39",
+     "word": "条",
+     "ipa": "tiáo",
+     "meaning": "con, chiếc (dài) (lượng từ)",
+     "example": "这条路很宽。",
+     "level": "HSK1",
+     "frequency": 469
+    },
+    {
+     "id": "zh-daily-things-40",
+     "word": "些",
+     "ipa": "xiē",
+     "meaning": "một vài, một số",
+     "example": "我买了一些水果。",
+     "level": "HSK1",
+     "frequency": 470
+    },
+    {
+     "id": "zh-daily-things-41",
+     "word": "还是",
+     "ipa": "háishi",
+     "meaning": "hay là",
+     "example": "你喝茶还是咖啡？",
+     "level": "HSK1",
+     "frequency": 471
+    },
+    {
+     "id": "zh-daily-things-42",
+     "word": "但是",
+     "ipa": "dànshì",
+     "meaning": "nhưng",
+     "example": "汉语很难，但是很有意思。",
+     "level": "HSK1",
+     "frequency": 472
+    },
+    {
+     "id": "zh-daily-things-43",
+     "word": "因为",
+     "ipa": "yīnwèi",
+     "meaning": "bởi vì",
+     "example": "因为下雨，我们不去了。",
+     "level": "HSK1",
+     "frequency": 473
+    },
+    {
+     "id": "zh-daily-things-44",
+     "word": "所以",
+     "ipa": "suǒyǐ",
+     "meaning": "cho nên",
+     "example": "我累了，所以想休息。",
+     "level": "HSK1",
+     "frequency": 474
+    },
+    {
+     "id": "zh-daily-things-45",
+     "word": "一起",
+     "ipa": "yìqǐ",
+     "meaning": "cùng nhau",
+     "example": "我们一起去吃饭吧。",
+     "level": "HSK1",
+     "frequency": 475
+    }
+   ]
+  }
+ ]
+}
