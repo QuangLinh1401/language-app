@@ -76,6 +76,7 @@ export const api = {
     grade: (wordId, grade, tier) =>
       request(`/vocabulary/words/${wordId}/grade`, { method: "POST", body: JSON.stringify({ grade, tier }) }),
     search: (q) => request(`/vocabulary/search?q=${encodeURIComponent(q)}`),
+    wordOfDay: () => request("/vocabulary/word-of-day"),
     practiceReading: (payload) =>
       request("/vocabulary/practice-reading", { method: "POST", body: JSON.stringify(payload) }),
     wordDetail: (wordId) => request(`/vocabulary/words/${wordId}/detail`),

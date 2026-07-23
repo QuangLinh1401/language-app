@@ -2,15 +2,44 @@ import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import { api, auth } from "../api.js";
 import AnimatedIcon from "../components/AnimatedIcon.jsx";
+import WordDetailModal from "../components/WordDetailModal.jsx";
+import { speak } from "../speech.js";
+
+// Last 7 calendar days as {label, active} — active days are inferred from the
+// streak length ending on the last active date (no extra data needed).
+function last7Days(streak) {
+  const DAY = 86400000;
+  const toKey = (d) => d.toISOString().slice(0, 10);
+  const today = new Date();
+  const last = streak.lastActiveDate;
+  const current = streak.current || 0;
+  const days = [];
+  for (let i = 6; i >= 0; i--) {
+    const d = new Date(today.getTime() - i * DAY);
+    const key = toKey(d);
+    let active = false;
+    if (last && current > 0) {
+      const lastMs = new Date(last + "T00:00:00Z").getTime();
+      const dMs = new Date(key + "T00:00:00Z").getTime();
+      const diff = Math.round((lastMs - dMs) / DAY);
+      active = diff >= 0 && diff < current;
+    }
+    days.push({ label: "SMTWTFS"[d.getDay()], active, isToday: i === 0 });
+  }
+  return days;
+}
 
 export default function Home() {
   const [progress, setProgress] = useState(null);
   const [session, setSession] = useState(null);
+  const [wod, setWod] = useState(null);
+  const [openWord, setOpenWord] = useState(false);
 
   useEffect(() => {
     // touch returns the full summary — one round trip instead of two.
     api.progress.touch(5).then(setProgress);
     api.vocabulary.dailySession().then(setSession);
+    api.vocabulary.wordOfDay().then(setWod);
   }, []);
 
   const modules = [
@@ -37,6 +66,19 @@ export default function Home() {
         </div>
       </div>
 
+      {progress && (
+        <div className="streak-week">
+          {last7Days(progress.streak).map((d, i) => (
+            <div key={i} className="streak-day">
+              <div className={"streak-dot" + (d.active ? " on" : "") + (d.isToday ? " today" : "")}>
+                {d.active ? "✓" : ""}
+              </div>
+              <span>{d.label}</span>
+            </div>
+          ))}
+        </div>
+      )}
+
       <div className="goal-ticket">
         <div className="eyebrow">Quick stats</div>
         <h3>{progress ? `${progress.wordsLearned} words · ${progress.grammarCompleted} grammar lessons` : "Loading..."}</h3>
@@ -44,6 +86,28 @@ export default function Home() {
           {progress ? `${progress.xp} XP earned — keep it up!` : ""}
         </div>
       </div>
+
+      {wod && (
+        <div className="card" style={{ marginBottom: 16, cursor: "pointer" }} onClick={() => setOpenWord(true)}>
+          <div style={{ fontSize: 10.5, letterSpacing: "0.08em", textTransform: "uppercase", fontWeight: 800, color: "var(--amber-deep)", marginBottom: 6 }}>
+            ⭐ Word of the day
+          </div>
+          <div style={{ display: "flex", alignItems: "center", gap: 10 }}>
+            <div style={{ flex: 1, minWidth: 0 }}>
+              <b style={{ fontFamily: "'Nunito',sans-serif", fontSize: 18, color: "var(--teal-deep)" }}>{wod.word}</b>
+              <span style={{ fontSize: 11.5, color: "var(--ink-soft)", marginLeft: 8 }} className="ipa-text">{wod.ipa}</span>
+              <div style={{ fontSize: 13, color: "var(--teal)", fontWeight: 700, marginTop: 2 }}>{wod.meaning}</div>
+              <div style={{ fontSize: 11.5, color: "var(--ink-soft)", fontStyle: "italic", marginTop: 4 }}>"{wod.example}"</div>
+            </div>
+            <button
+              aria-label="Pronounce"
+              onClick={(e) => { e.stopPropagation(); speak(wod.word); }}
+              style={{ background: "var(--teal-soft)", border: "none", borderRadius: "50%", width: 34, height: 34, cursor: "pointer", display: "flex", alignItems: "center", justifyContent: "center", flexShrink: 0 }}
+            >🔊</button>
+          </div>
+        </div>
+      )}
+      {openWord && wod && <WordDetailModal wordId={wod.id} onClose={() => setOpenWord(false)} />}
 
       {session && session.due.length > 0 && (
         <Link to="/vocabulary/review" className="review-banner" data-anim-hover>

@@ -36,6 +36,31 @@ export default function Progress() {
         <div className="stat-card"><b>{progress.readingCompleted}</b><span>Reading passages done</span></div>
       </div>
 
+      <div style={{ fontSize: 12.5, fontWeight: 700, color: "var(--ink-soft)", margin: "18px 0 8px" }}>
+        Achievements
+      </div>
+      <div className="badge-grid">
+        {[
+          { emoji: "🔥", label: "3-day streak", ok: progress.streak.current >= 3 },
+          { emoji: "🔥", label: "7-day streak", ok: progress.streak.current >= 7 },
+          { emoji: "🔥", label: "30-day streak", ok: progress.streak.current >= 30 },
+          { emoji: "🌱", label: "10 words", ok: progress.wordsLearned >= 10 },
+          { emoji: "📚", label: "50 words", ok: progress.wordsLearned >= 50 },
+          { emoji: "🏆", label: "250 words", ok: progress.wordsLearned >= 250 },
+          { emoji: "⭐", label: "10 mastered", ok: (vocabStats?.overall.mastered || 0) >= 10 },
+          { emoji: "🌟", label: "50 mastered", ok: (vocabStats?.overall.mastered || 0) >= 50 },
+          { emoji: "✏️", label: "10 grammar", ok: progress.grammarCompleted >= 10 },
+          { emoji: "🎓", label: "All 86 grammar", ok: progress.grammarCompleted >= 86 },
+          { emoji: "🎧", label: "10 listening", ok: progress.listeningCompleted >= 10 },
+          { emoji: "📖", label: "10 reading", ok: progress.readingCompleted >= 10 }
+        ].map((b) => (
+          <div key={b.label} className={"badge" + (b.ok ? "" : " locked")} title={b.ok ? "Unlocked!" : "Keep going!"}>
+            <div className="emoji">{b.emoji}</div>
+            <div className="label">{b.label}</div>
+          </div>
+        ))}
+      </div>
+
       {vocabStats && (
         <>
           <div style={{ fontSize: 12.5, fontWeight: 700, color: "var(--ink-soft)", margin: "18px 0 8px" }}>

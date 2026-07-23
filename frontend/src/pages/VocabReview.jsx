@@ -19,7 +19,6 @@ const stages = [
 export default function VocabReview() {
   const navigate = useNavigate();
   const [session, setSession] = useState(null);
-  const [showAdvanced, setShowAdvanced] = useState(false);
   const [level, setLevel] = useState("all");
   const [stage, setStage] = useState("recognition");
   const [customWords, setCustomWords] = useState(null);
@@ -52,9 +51,9 @@ export default function VocabReview() {
   }
 
   useEffect(() => {
-    if (showAdvanced) loadAdvanced(level, stage);
+    loadAdvanced(level, stage);
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [showAdvanced, level, stage]);
+  }, [level, stage]);
 
   if (!session) return <Loading text="Loading today's session..." />;
 
@@ -168,12 +167,18 @@ export default function VocabReview() {
         </button>
       </div>
 
-      <button className="btn-ghost" onClick={() => setShowAdvanced((s) => !s)}>
-        {showAdvanced ? "Hide" : "Practice by stage (Lv1–Lv4)"}
-      </button>
+      <div className="card" style={{ marginBottom: 16 }} data-anim-hover>
+        <div style={{ display: "flex", alignItems: "center", gap: 10, marginBottom: 12 }}>
+          <AnimatedIcon src="/icons/check.lottie.json" fallback="/icons/check.svg" size={24} hover />
+          <div style={{ flex: 1 }}>
+            <b style={{ fontSize: 13 }}>Practice by stage</b>
+            <div style={{ fontSize: 10.5, color: "var(--ink-soft)", marginTop: 2 }}>
+              Level words up: Seen → Recall → Context → Mastered
+            </div>
+          </div>
+        </div>
 
-      {showAdvanced && (
-        <div style={{ marginTop: 16 }}>
+        <div>
           <div style={{ fontSize: 12, fontWeight: 700, color: "var(--ink-soft)", marginBottom: 6 }}>Stage</div>
           <div style={{ display: "flex", gap: 6, marginBottom: 10, flexWrap: "wrap" }}>
             {stages.map((s) => (
@@ -213,22 +218,26 @@ export default function VocabReview() {
           </div>
 
           {!customWords ? (
-            <Loading />
+            <div style={{ fontSize: 12, color: "var(--ink-soft)", textAlign: "center", padding: "8px 0" }}>Loading…</div>
           ) : (
             <>
-              <div className="card" style={{ textAlign: "center", padding: "16px", marginBottom: 12 }}>
-                <div style={{ fontFamily: "'Nunito',sans-serif", fontWeight: 800, fontSize: 18, color: "var(--teal-deep)" }}>{customWords.length}</div>
-                <div style={{ fontSize: 11, color: "var(--ink-soft)" }}>
+              <div style={{ textAlign: "center", padding: "6px 0 10px" }}>
+                <span style={{ fontFamily: "'Nunito',sans-serif", fontWeight: 800, fontSize: 18, color: "var(--teal-deep)" }}>{customWords.length}</span>
+                <span style={{ fontSize: 11, color: "var(--ink-soft)", marginLeft: 6 }}>
                   {stages.find((s) => s.id === stage)?.hint}
-                </div>
+                </span>
               </div>
-              {customWords.length > 0 && (
-                <button className="btn-primary" onClick={() => setWords(customWords)}>Study these words</button>
-              )}
+              <button
+                className="btn-primary"
+                disabled={customWords.length === 0}
+                onClick={() => setWords(customWords)}
+              >
+                {customWords.length > 0 ? "Study these words" : "No words at this stage yet"}
+              </button>
             </>
           )}
         </div>
-      )}
+      </div>
     </div>
   );
 }

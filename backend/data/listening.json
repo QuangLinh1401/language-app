@@ -40,6 +40,23 @@
       "Nam"
      ],
      "answer": "Minh"
+    },
+    {
+     "id": "l01-q5",
+     "type": "blank",
+     "prompt": "I live in District 1, near the ___.",
+     "answer": "river"
+    },
+    {
+     "id": "l01-q6",
+     "type": "mc",
+     "prompt": "Where is Anna from?",
+     "options": [
+      "Canada",
+      "Australia",
+      "England"
+     ],
+     "answer": "Canada"
     }
    ]
   },
@@ -83,6 +100,23 @@
       "The bus station"
      ],
      "answer": "The post office"
+    },
+    {
+     "id": "l02-q5",
+     "type": "blank",
+     "prompt": "Thank you so much. — You're ___.",
+     "answer": "welcome"
+    },
+    {
+     "id": "l02-q6",
+     "type": "mc",
+     "prompt": "Which street is the post office on?",
+     "options": [
+      "Le Loi Street",
+      "Nguyen Hue Street",
+      "Tran Hung Dao Street"
+     ],
+     "answer": "Le Loi Street"
     }
    ]
   },
@@ -126,6 +160,23 @@
       "Bangkok"
      ],
      "answer": "Tokyo"
+    },
+    {
+     "id": "l03-q5",
+     "type": "blank",
+     "prompt": "You're welcome, have a nice ___.",
+     "answer": "flight"
+    },
+    {
+     "id": "l03-q6",
+     "type": "mc",
+     "prompt": "Where is gate 12?",
+     "options": [
+      "Down the hallway",
+      "Upstairs",
+      "Outside the terminal"
+     ],
+     "answer": "Down the hallway"
     }
    ]
   },
@@ -169,6 +220,23 @@
       "Beef noodles"
      ],
      "answer": "Grilled chicken"
+    },
+    {
+     "id": "l04-q5",
+     "type": "blank",
+     "prompt": "Would you like any ___? — Not right now.",
+     "answer": "dessert"
+    },
+    {
+     "id": "l04-q6",
+     "type": "mc",
+     "prompt": "What drink does the customer order?",
+     "options": [
+      "Orange juice",
+      "Iced tea",
+      "Coffee"
+     ],
+     "answer": "Orange juice"
     }
    ]
   },
@@ -212,6 +280,23 @@
       "Small"
      ],
      "answer": "Medium"
+    },
+    {
+     "id": "l05-q5",
+     "type": "blank",
+     "prompt": "Sure, do you have the ___?",
+     "answer": "receipt"
+    },
+    {
+     "id": "l05-q6",
+     "type": "mc",
+     "prompt": "When did the customer buy the shirt?",
+     "options": [
+      "Yesterday",
+      "Last week",
+      "This morning"
+     ],
+     "answer": "Yesterday"
     }
    ]
   },
@@ -255,6 +340,23 @@
       "3 percent"
      ],
      "answer": "30 percent"
+    },
+    {
+     "id": "l06-q5",
+     "type": "blank",
+     "prompt": "I'm looking for a role where I can grow into a ___ position.",
+     "answer": "management"
+    },
+    {
+     "id": "l06-q6",
+     "type": "mc",
+     "prompt": "What field does the speaker work in?",
+     "options": [
+      "Marketing",
+      "Accounting",
+      "Engineering"
+     ],
+     "answer": "Marketing"
     }
    ]
   },
@@ -298,6 +400,23 @@
       "Next weekend"
      ],
      "answer": "This Friday"
+    },
+    {
+     "id": "l07-q5",
+     "type": "blank",
+     "prompt": "May I have your name and a contact ___?",
+     "answer": "number"
+    },
+    {
+     "id": "l07-q6",
+     "type": "mc",
+     "prompt": "How many nights is the booking for?",
+     "options": [
+      "Three",
+      "Two",
+      "Five"
+     ],
+     "answer": "Three"
     }
    ]
   },
@@ -341,6 +460,23 @@
       "A job interview"
      ],
      "answer": "Tomorrow's meeting"
+    },
+    {
+     "id": "l08-q5",
+     "type": "blank",
+     "prompt": "I just need to finish the last ___.",
+     "answer": "section"
+    },
+    {
+     "id": "l08-q6",
+     "type": "mc",
+     "prompt": "Which team is An calling from?",
+     "options": [
+      "The design team",
+      "The sales team",
+      "The HR team"
+     ],
+     "answer": "The design team"
     }
    ]
   },
@@ -384,6 +520,23 @@
       "2050"
      ],
      "answer": "2040"
+    },
+    {
+     "id": "l09-q5",
+     "type": "blank",
+     "prompt": "Companies are urged to reduce ___-use plastic production.",
+     "answer": "single"
+    },
+    {
+     "id": "l09-q6",
+     "type": "mc",
+     "prompt": "Who gives this warning?",
+     "options": [
+      "Scientists",
+      "Politicians",
+      "Farmers"
+     ],
+     "answer": "Scientists"
     }
    ]
   },
@@ -427,6 +580,23 @@
       "Yes, immediately"
      ],
      "answer": "No, but it will change how we work"
+    },
+    {
+     "id": "l10-q5",
+     "type": "blank",
+     "prompt": "People will need to focus more on creative and ___ thinking.",
+     "answer": "strategic"
+    },
+    {
+     "id": "l10-q6",
+     "type": "mc",
+     "prompt": "What kind of tasks will be automated?",
+     "options": [
+      "Repetitive tasks",
+      "Creative tasks",
+      "Management tasks"
+     ],
+     "answer": "Repetitive tasks"
     }
    ]
   },
@@ -470,6 +640,23 @@
       "The father"
      ],
      "answer": "The sister"
+    },
+    {
+     "id": "l11-q5",
+     "type": "blank",
+     "prompt": "My sister is ___ than me.",
+     "answer": "younger"
+    },
+    {
+     "id": "l11-q6",
+     "type": "mc",
+     "prompt": "How many people are in the family?",
+     "options": [
+      "Four",
+      "Three",
+      "Five"
+     ],
+     "answer": "Four"
     }
    ]
   },
@@ -513,6 +700,23 @@
       "To the cinema"
      ],
      "answer": "To the park"
+    },
+    {
+     "id": "l12-q5",
+     "type": "blank",
+     "prompt": "I hope it stays sunny this ___.",
+     "answer": "weekend"
+    },
+    {
+     "id": "l12-q6",
+     "type": "mc",
+     "prompt": "What was the weather like yesterday?",
+     "options": [
+      "Rainy",
+      "Sunny",
+      "Snowy"
+     ],
+     "answer": "Rainy"
     }
    ]
   },
@@ -556,6 +760,23 @@
       "Fruit"
      ],
      "answer": "Bread"
+    },
+    {
+     "id": "l13-q5",
+     "type": "blank",
+     "prompt": "The bakery section is at the ___ of the store.",
+     "answer": "front"
+    },
+    {
+     "id": "l13-q6",
+     "type": "mc",
+     "prompt": "Which aisle is the milk in?",
+     "options": [
+      "Aisle three",
+      "Aisle five",
+      "Aisle one"
+     ],
+     "answer": "Aisle three"
     }
    ]
   },
@@ -599,6 +820,23 @@
       "This weekend"
      ],
      "answer": "This evening"
+    },
+    {
+     "id": "l14-q5",
+     "type": "blank",
+     "prompt": "Are you ___ this evening?",
+     "answer": "free"
+    },
+    {
+     "id": "l14-q6",
+     "type": "mc",
+     "prompt": "What time will they meet?",
+     "options": [
+      "7 o'clock",
+      "6 o'clock",
+      "8 o'clock"
+     ],
+     "answer": "7 o'clock"
     }
    ]
   },
@@ -642,6 +880,23 @@
       "Swimming and running"
      ],
      "answer": "Reading and listening to music"
+    },
+    {
+     "id": "l15-q5",
+     "type": "blank",
+     "prompt": "What do you like to do in your ___ time?",
+     "answer": "free"
+    },
+    {
+     "id": "l15-q6",
+     "type": "mc",
+     "prompt": "Who does the second speaker play football with?",
+     "options": [
+      "His friends",
+      "His brothers",
+      "His classmates"
+     ],
+     "answer": "His friends"
     }
    ]
   },
@@ -685,6 +940,23 @@
       "25 Le Loi Street"
      ],
      "answer": "25 Nguyen Trai Street"
+    },
+    {
+     "id": "l16-q5",
+     "type": "blank",
+     "prompt": "I'd like to book a taxi to the ___, please.",
+     "answer": "airport"
+    },
+    {
+     "id": "l16-q6",
+     "type": "mc",
+     "prompt": "How soon will the car arrive?",
+     "options": [
+      "In about ten minutes",
+      "In about an hour",
+      "Right away"
+     ],
+     "answer": "In about ten minutes"
     }
    ]
   },
@@ -728,6 +1000,23 @@
       "One day"
      ],
      "answer": "Two days"
+    },
+    {
+     "id": "l17-q5",
+     "type": "blank",
+     "prompt": "I'll prescribe some ___.",
+     "answer": "medicine"
+    },
+    {
+     "id": "l17-q6",
+     "type": "mc",
+     "prompt": "What are the patient's symptoms?",
+     "options": [
+      "Headache and sore throat",
+      "Stomachache and cough",
+      "Back pain and fever"
+     ],
+     "answer": "Headache and sore throat"
     }
    ]
   },
@@ -771,6 +1060,23 @@
       "Friday"
      ],
      "answer": "Saturday"
+    },
+    {
+     "id": "l18-q5",
+     "type": "blank",
+     "prompt": "That sounds nice, I might ___ you for the hike.",
+     "answer": "join"
+    },
+    {
+     "id": "l18-q6",
+     "type": "mc",
+     "prompt": "Who is the speaker going hiking with?",
+     "options": [
+      "Some friends",
+      "Family",
+      "Coworkers"
+     ],
+     "answer": "Some friends"
     }
    ]
   },
@@ -814,6 +1120,23 @@
       "150,000 dong"
      ],
      "answer": "350,000 dong"
+    },
+    {
+     "id": "l19-q5",
+     "type": "blank",
+     "prompt": "Would you like any popcorn or ___ with that?",
+     "answer": "drinks"
+    },
+    {
+     "id": "l19-q6",
+     "type": "mc",
+     "prompt": "How many tickets does the customer buy?",
+     "options": [
+      "Two",
+      "Three",
+      "One"
+     ],
+     "answer": "Two"
     }
    ]
   },
@@ -857,6 +1180,23 @@
       "Next month"
      ],
      "answer": "If it gets worse"
+    },
+    {
+     "id": "l20-q5",
+     "type": "blank",
+     "prompt": "You should rest and drink plenty of ___.",
+     "answer": "water"
+    },
+    {
+     "id": "l20-q6",
+     "type": "mc",
+     "prompt": "What symptom does the person mention?",
+     "options": [
+      "A runny nose",
+      "A broken arm",
+      "An earache"
+     ],
+     "answer": "A runny nose"
     }
    ]
   },
@@ -900,6 +1240,23 @@
       "Phu Quoc"
      ],
      "answer": "Da Lat"
+    },
+    {
+     "id": "l21-q5",
+     "type": "blank",
+     "prompt": "Have you decided where to go for your ___?",
+     "answer": "vacation"
+    },
+    {
+     "id": "l21-q6",
+     "type": "mc",
+     "prompt": "What two options is the speaker torn between?",
+     "options": [
+      "The mountains and the beach",
+      "The city and the countryside",
+      "Japan and Korea"
+     ],
+     "answer": "The mountains and the beach"
     }
    ]
   },
@@ -943,6 +1300,23 @@
       "The payment"
      ],
      "answer": "The tracking information"
+    },
+    {
+     "id": "l22-q5",
+     "type": "blank",
+     "prompt": "I'm very sorry for the ___.",
+     "answer": "delay"
+    },
+    {
+     "id": "l22-q6",
+     "type": "mc",
+     "prompt": "How late is the order?",
+     "options": [
+      "Three days",
+      "One week",
+      "One day"
+     ],
+     "answer": "Three days"
     }
    ]
   },
@@ -986,6 +1360,23 @@
       "The report"
      ],
      "answer": "The logo"
+    },
+    {
+     "id": "l23-q5",
+     "type": "blank",
+     "prompt": "Let's go over the tasks for this ___.",
+     "answer": "week"
+    },
+    {
+     "id": "l23-q6",
+     "type": "mc",
+     "prompt": "Who will handle the client presentation?",
+     "options": [
+      "Minh",
+      "Lan",
+      "An"
+     ],
+     "answer": "Minh"
     }
    ]
   },
@@ -1029,6 +1420,23 @@
       "To the market"
      ],
      "answer": "To work"
+    },
+    {
+     "id": "l24-q5",
+     "type": "blank",
+     "prompt": "Luckily, nobody was ___.",
+     "answer": "hurt"
+    },
+    {
+     "id": "l24-q6",
+     "type": "mc",
+     "prompt": "What suddenly cut in front of the speaker?",
+     "options": [
+      "A motorbike",
+      "A truck",
+      "A bicycle"
+     ],
+     "answer": "A motorbike"
     }
    ]
   },
@@ -1072,6 +1480,23 @@
       "Getting a second job"
      ],
      "answer": "Tracking monthly expenses"
+    },
+    {
+     "id": "l25-q5",
+     "type": "blank",
+     "prompt": "Once you see where your money ___, you can cut spending.",
+     "answer": "goes"
+    },
+    {
+     "id": "l25-q6",
+     "type": "mc",
+     "prompt": "What does the person want to start doing?",
+     "options": [
+      "Saving more",
+      "Spending more",
+      "Investing in stocks"
+     ],
+     "answer": "Saving more"
     }
    ]
   },
@@ -1115,6 +1540,23 @@
       "2015"
      ],
      "answer": "2020"
+    },
+    {
+     "id": "l26-q5",
+     "type": "blank",
+     "prompt": "Experts warn about its effect on ___.",
+     "answer": "motivation"
+    },
+    {
+     "id": "l26-q6",
+     "type": "mc",
+     "prompt": "What does online learning lack, according to experts?",
+     "options": [
+      "Face-to-face interaction",
+      "Course materials",
+      "Qualified teachers"
+     ],
+     "answer": "Face-to-face interaction"
     }
    ]
   },
@@ -1158,6 +1600,23 @@
       "Your boss"
      ],
      "answer": "Someone you trust"
+    },
+    {
+     "id": "l27-q5",
+     "type": "blank",
+     "prompt": "I always recommend starting ___.",
+     "answer": "small"
+    },
+    {
+     "id": "l27-q6",
+     "type": "mc",
+     "prompt": "Which of these is one of the recommended habits?",
+     "options": [
+      "A short walk",
+      "A long run",
+      "A strict diet"
+     ],
+     "answer": "A short walk"
     }
    ]
   },
@@ -1201,6 +1660,23 @@
       "The company size"
      ],
      "answer": "The type of job"
+    },
+    {
+     "id": "l28-q5",
+     "type": "blank",
+     "prompt": "Others believe it weakens team ___.",
+     "answer": "collaboration"
+    },
+    {
+     "id": "l28-q6",
+     "type": "mc",
+     "prompt": "What kind of tasks can thrive remotely?",
+     "options": [
+      "Independent tasks",
+      "Creative team tasks",
+      "Customer service tasks"
+     ],
+     "answer": "Independent tasks"
     }
    ]
   },
@@ -1244,6 +1720,23 @@
       "Higher inflation"
      ],
      "answer": "Unchanged interest rates"
+    },
+    {
+     "id": "l29-q5",
+     "type": "blank",
+     "prompt": "Interest rates will remain unchanged for the third consecutive ___.",
+     "answer": "month"
+    },
+    {
+     "id": "l29-q6",
+     "type": "mc",
+     "prompt": "Who made the announcement?",
+     "options": [
+      "The central bank",
+      "The prime minister",
+      "A private company"
+     ],
+     "answer": "The central bank"
     }
    ]
   },
@@ -1287,6 +1780,23 @@
       "When to hold elections"
      ],
      "answer": "How to fund the projects"
+    },
+    {
+     "id": "l30-q5",
+     "type": "blank",
+     "prompt": "Coastal cities are adapting to rising sea ___.",
+     "answer": "levels"
+    },
+    {
+     "id": "l30-q6",
+     "type": "mc",
+     "prompt": "What is this recording?",
+     "options": [
+      "A podcast",
+      "A phone call",
+      "A job interview"
+     ],
+     "answer": "A podcast"
     }
    ]
   }

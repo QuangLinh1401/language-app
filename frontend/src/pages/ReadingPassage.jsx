@@ -25,9 +25,13 @@ export default function ReadingPassage() {
 
   if (!passage) return <Loading text="Loading passage..." />;
 
-  const correctCount = passage.questions.filter(
-    (q) => answers[q.id] === q.answer
-  ).length;
+  // "blank" questions are typed, so compare loosely; choice questions exactly.
+  const isRight = (q) =>
+    q.type === "blank"
+      ? (answers[q.id] || "").trim().toLowerCase() === q.answer.trim().toLowerCase()
+      : answers[q.id] === q.answer;
+  const correctCount = passage.questions.filter(isRight).length;
+  const allAnswered = passage.questions.every((q) => (answers[q.id] || "").trim() !== "");
 
   function checkAnswers() {
     setChecked(true);
@@ -77,6 +81,26 @@ export default function ReadingPassage() {
             {passage.questions.map((q, i) => (
               <div key={q.id} style={{ marginBottom: i < passage.questions.length - 1 ? 16 : 0 }}>
                 <div style={{ fontSize: 13, marginBottom: 6 }}>{i + 1}. {q.prompt}</div>
+                {q.type === "blank" ? (
+                  <div>
+                    <input
+                      className={"fib-input" + (checked ? (isRight(q) ? " correct" : " wrong") : "")}
+                      style={{ width: "100%", textAlign: "left" }}
+                      placeholder="Type the word..."
+                      disabled={checked}
+                      value={answers[q.id] || ""}
+                      onChange={(e) => setAnswers({ ...answers, [q.id]: e.target.value })}
+                      autoCapitalize="off"
+                      autoCorrect="off"
+                      spellCheck={false}
+                    />
+                    {checked && !isRight(q) && (
+                      <div style={{ fontSize: 11.5, color: "var(--bad-deep)", fontWeight: 700, marginTop: 4 }}>
+                        Answer: {q.answer}
+                      </div>
+                    )}
+                  </div>
+                ) : (
                 <div style={{ display: "flex", flexDirection: "column", gap: 6 }}>
                   {q.options.map((opt) => {
                     const isSelected = answers[q.id] === opt;
@@ -98,6 +122,7 @@ export default function ReadingPassage() {
                     );
                   })}
                 </div>
+                )}
               </div>
             ))}
 
@@ -105,7 +130,7 @@ export default function ReadingPassage() {
               <button
                 className="btn-primary"
                 style={{ marginTop: 14 }}
-                disabled={Object.keys(answers).length < passage.questions.length}
+                disabled={!allAnswered}
                 onClick={checkAnswers}
               >
                 Check answers

@@ -30,6 +30,8 @@
   --amber-line: #F3DCAE;
   --blue-line: #CBDCF2;
   --coral-line: #FBD4CE;
+  --peach-soft: #FFF0EC;
+  --peach-line: #FFD2C7;
 }
 
 [data-theme="dark"] {
@@ -52,6 +54,8 @@
   --amber-line: #57451B;
   --blue-line: #2E415A;
   --coral-line: #542E27;
+  --peach-soft: #35211B;
+  --peach-line: #55322A;
   --violet-deep: #B79CF8;
   --good-deep: #7ACC7E;
   --bad-deep: #FF8585;
@@ -59,6 +63,10 @@
 }
 
 * { box-sizing: border-box; }
+
+/* Buttons default to black UA text — inherit the theme color instead so
+   quiz options and icon buttons stay readable in dark mode. */
+button { color: inherit; }
 
 body {
   margin: 0;
@@ -334,7 +342,7 @@ h1.page-title {
 
 .review-banner {
   display: flex; align-items: center; gap: 11px;
-  background: #FFF0EC; border: 2px solid #FFD2C7;
+  background: var(--peach-soft); border: 2px solid var(--peach-line);
   border-radius: 18px; padding: 13px; margin-bottom: 16px;
   cursor: pointer; text-decoration: none; color: inherit;
 }
@@ -670,3 +678,29 @@ h1.page-title {
 .modal-scroll ol { min-width: 0; }
 
 [data-theme="dark"] .settings-gear { background: var(--card); }
+
+/* 7-day streak strip (Duolingo-style) */
+.streak-week {
+  display: flex; justify-content: space-between; gap: 4px;
+  background: var(--card); border: 2px solid var(--line); border-radius: 16px;
+  padding: 10px 14px; margin-bottom: 14px;
+}
+.streak-day { display: flex; flex-direction: column; align-items: center; gap: 4px; }
+.streak-day span { font-size: 9.5px; font-weight: 800; color: var(--ink-soft); }
+.streak-dot {
+  width: 22px; height: 22px; border-radius: 50%;
+  background: var(--line); color: #fff; font-size: 11px; font-weight: 900;
+  display: flex; align-items: center; justify-content: center;
+}
+.streak-dot.on { background: var(--good); }
+.streak-dot.today { box-shadow: 0 0 0 2px var(--amber); }
+
+/* Achievement badges */
+.badge-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 8px; }
+.badge {
+  background: var(--card); border: 2px solid var(--line); border-radius: 14px;
+  padding: 10px 6px; text-align: center;
+}
+.badge .emoji { font-size: 22px; }
+.badge .label { font-size: 10px; font-weight: 800; margin-top: 4px; color: var(--ink); }
+.badge.locked { opacity: 0.35; filter: grayscale(1); }

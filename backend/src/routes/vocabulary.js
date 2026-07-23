@@ -212,6 +212,17 @@ router.post("/words/:id/grade", asyncHandler(async (req, res) => {
   res.json({ wordId: req.params.id, state: nextState, status: wordStatus(nextState) });
 }));
 
+// Word of the day: deterministic daily pick, same for everyone.
+router.get("/word-of-day", (req, res) => {
+  const words = allWords();
+  const today = new Date().toISOString().slice(0, 10);
+  let h = 0;
+  for (const ch of today) h = (h * 31 + ch.charCodeAt(0)) >>> 0;
+  const w = words[h % words.length];
+  const progress = req.state.wordProgress[w.id] || null;
+  res.json({ ...w, progress, status: wordStatus(progress) });
+});
+
 // Search across all 5000 words by English word or Vietnamese meaning.
 router.get("/search", (req, res) => {
   const q = (req.query.q || "").trim().toLowerCase();
