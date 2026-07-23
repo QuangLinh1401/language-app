@@ -1,5 +1,5 @@
 import { useEffect, useRef, useState } from "react";
-import { Link } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 import { api } from "../api.js";
 import StudySession from "../components/StudySession.jsx";
 import { getCustomExample } from "../customExamples.js";
@@ -53,7 +53,8 @@ export default function VocabBrowse() {
   const [studyWords, setStudyWords] = useState(null);
   const [done, setDone] = useState(false);
   const [page, setPage] = useState(0);
-  const [query, setQuery] = useState("");
+  const location = useLocation();
+  const [query, setQuery] = useState(location.state?.q || "");
   const [searchResults, setSearchResults] = useState(null);
   const [searchPage, setSearchPage] = useState(0);
   const searchTimer = useRef(null);

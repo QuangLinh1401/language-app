@@ -1,5 +1,5 @@
 import express from "express";
-import { defaultState, touchStreak, addXp, getDailyXp, getDailyXpGoal, setDailyXpGoal } from "../db.js";
+import { defaultState, touchStreak, addXp, getDailyXp, getDailyXpGoal, setDailyXpGoal, validClientDate, todayKey } from "../db.js";
 import { asyncHandler } from "../auth.js";
 
 const router = express.Router();
@@ -67,6 +67,7 @@ router.post("/touch", asyncHandler(async (req, res) => {
     dailyXp: getDailyXp(req.state, date),
     dailyXpGoal: getDailyXpGoal(req.state),
     preferredLevel: req.state.settings?.preferredLevel || null,
+    studyPlan: req.state.settings?.studyPlan || null,
     wordsLearned: Object.keys(req.state.wordProgress).length,
     grammarCompleted: Object.keys(req.state.grammarProgress).length,
     listeningCompleted: Object.keys(req.state.listeningProgress).length,
@@ -91,6 +92,28 @@ router.put("/settings", asyncHandler(async (req, res) => {
     }
     req.state.settings.preferredLevel = req.body.preferredLevel;
     out.preferredLevel = req.body.preferredLevel;
+  }
+  // Study plan: a concrete target (words in N days) that daily activity rolls
+  // up into. Pass null to clear.
+  if (req.body.studyPlan !== undefined) {
+    if (req.body.studyPlan === null) {
+      req.state.settings.studyPlan = null;
+      out.studyPlan = null;
+    } else {
+      const targetWords = parseInt(req.body.studyPlan.targetWords, 10);
+      const days = parseInt(req.body.studyPlan.days, 10);
+      if (!Number.isInteger(targetWords) || targetWords < 50 || targetWords > 5000 ||
+          !Number.isInteger(days) || days < 7 || days > 365) {
+        return res.status(400).json({ error: "studyPlan needs targetWords (50-5000) and days (7-365)" });
+      }
+      req.state.settings.studyPlan = {
+        targetWords,
+        days,
+        startDate: validClientDate(req.body.date) || todayKey(),
+        startWords: Object.keys(req.state.wordProgress).length
+      };
+      out.studyPlan = req.state.settings.studyPlan;
+    }
   }
   if (Object.keys(out).length === 0) {
     return res.status(400).json({ error: "Nothing to update" });

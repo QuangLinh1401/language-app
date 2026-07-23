@@ -1,16 +1,73 @@
-import { useEffect, useState } from "react";
-import { Link } from "react-router-dom";
-import { api, auth } from "../api.js";
+import { useEffect, useRef, useState } from "react";
+import { Link, useNavigate } from "react-router-dom";
+import { api, auth, localDate } from "../api.js";
 import AnimatedIcon from "../components/AnimatedIcon.jsx";
 import WordDetailModal from "../components/WordDetailModal.jsx";
 import { speak } from "../speech.js";
 
+// Rough overall CEFR estimate from how much of each level's vocabulary has
+// reached recall/context/mastered — no separate test needed.
+function estimateCefr(stats) {
+  if (!stats) return null;
+  const order = ["A1", "A2", "B1", "B2"];
+  const known = (lv) => {
+    const s = stats.byLevel[lv];
+    return s.total ? (s.recall + s.context + s.mastered) / s.total : 0;
+  };
+  let now = null;
+  for (const lv of order) {
+    if (known(lv) >= 0.3) now = lv;
+    else break;
+  }
+  if (!now) return { now: "starter", next: known("A1") >= 0.05 ? "A1" : null };
+  const next = order[order.indexOf(now) + 1];
+  return { now, next: next && known(next) >= 0.08 ? next : null };
+}
+
+// Where you stand against the study plan (targetWords in N days).
+function planStatus(plan, wordsLearned) {
+  const DAY = 86400000;
+  const start = new Date(plan.startDate + "T00:00:00Z").getTime();
+  const now = new Date(localDate() + "T00:00:00Z").getTime();
+  const elapsed = Math.max(1, Math.round((now - start) / DAY) + 1);
+  const totalWeeks = Math.ceil(plan.days / 7);
+  const week = Math.min(totalWeeks, Math.ceil(elapsed / 7));
+  const expected = plan.targetWords * Math.min(1, elapsed / plan.days);
+  const got = Math.max(0, wordsLearned - plan.startWords);
+  const pct = Math.min(100, Math.round((got / plan.targetWords) * 100));
+  if (got >= plan.targetWords) return { week, totalWeeks, got, pct, emoji: "🏆", label: "Goal complete!" };
+  if (got >= expected * 1.15) return { week, totalWeeks, got, pct, emoji: "🚀", label: "Ahead of schedule" };
+  if (got >= expected * 0.85) return { week, totalWeeks, got, pct, emoji: "✅", label: "On track" };
+  return { week, totalWeeks, got, pct, emoji: "⏰", label: "A bit behind — small sessions count!" };
+}
+
+const PLAN_TARGETS = [250, 500, 1000, 2000];
+const PLAN_DURATIONS = [
+  { days: 30, label: "1 month" },
+  { days: 60, label: "2 months" },
+  { days: 90, label: "3 months" },
+  { days: 180, label: "6 months" }
+];
+
 export default function Home() {
+  const navigate = useNavigate();
   const [progress, setProgress] = useState(null);
   const [session, setSession] = useState(null);
   const [wod, setWod] = useState(null);
   const [openWord, setOpenWord] = useState(false);
   const [queue, setQueue] = useState(null);
+  const [stats, setStats] = useState(null);
+
+  // Quick dictionary
+  const [q, setQ] = useState("");
+  const [hits, setHits] = useState(null);
+  const [openSearchWord, setOpenSearchWord] = useState(null);
+  const searchTimer = useRef(null);
+
+  // Study plan setup
+  const [planTarget, setPlanTarget] = useState(500);
+  const [planDays, setPlanDays] = useState(90);
+  const [planSaving, setPlanSaving] = useState(false);
 
   useEffect(() => {
     // touch returns the full summary — one round trip instead of two.
@@ -24,7 +81,44 @@ export default function Home() {
     api.vocabulary.dailySession().then(setSession);
     api.vocabulary.wordOfDay().then(setWod);
     api.reviewQueue().then(setQueue);
+    api.vocabulary.stats().then(setStats);
   }, []);
+
+  useEffect(() => {
+    clearTimeout(searchTimer.current);
+    const term = q.trim();
+    if (term.length < 2) {
+      setHits(null);
+      return;
+    }
+    searchTimer.current = setTimeout(async () => {
+      const r = await api.vocabulary.search(term);
+      setHits(r.words.slice(0, 6));
+    }, 250);
+    return () => clearTimeout(searchTimer.current);
+  }, [q]);
+
+  async function startPlan() {
+    setPlanSaving(true);
+    try {
+      const r = await api.progress.updateSettings({
+        studyPlan: { targetWords: planTarget, days: planDays },
+        date: localDate()
+      });
+      setProgress((p) => ({ ...p, studyPlan: r.studyPlan }));
+    } finally {
+      setPlanSaving(false);
+    }
+  }
+
+  async function clearPlan() {
+    if (!window.confirm("Remove your study plan?")) return;
+    await api.progress.updateSettings({ studyPlan: null });
+    setProgress((p) => ({ ...p, studyPlan: null }));
+  }
+
+  const cefr = estimateCefr(stats);
+  const plan = progress?.studyPlan ? planStatus(progress.studyPlan, progress.wordsLearned) : null;
 
   const needsPlacement =
     progress && progress.wordsLearned === 0 && !progress.preferredLevel && !localStorage.getItem("language-app-level");
@@ -60,22 +154,107 @@ export default function Home() {
         </div>
       </div>
 
+      {/* Quick dictionary — search any of the 5000 words without leaving Home */}
+      <div style={{ position: "relative", marginBottom: 14 }}>
+        <input
+          className="text-input"
+          placeholder="🔍 Quick dictionary — English or Vietnamese..."
+          value={q}
+          onChange={(e) => setQ(e.target.value)}
+          autoCapitalize="off"
+          autoCorrect="off"
+          spellCheck={false}
+        />
+        {hits && q.trim().length >= 2 && (
+          <div className="search-pop">
+            {hits.map((w) => (
+              <div key={w.id} className="search-pop-row" onClick={() => setOpenSearchWord(w.id)}>
+                <b>{w.word}</b>
+                <span style={{ color: "var(--ink-soft)", flex: 1, overflow: "hidden", textOverflow: "ellipsis", whiteSpace: "nowrap" }}>{w.meaning}</span>
+                <span className="pill" style={{ padding: "1px 7px", fontSize: 9.5 }}>{w.level}</span>
+              </div>
+            ))}
+            {hits.length === 0 && (
+              <div className="search-pop-row" style={{ color: "var(--ink-soft)", cursor: "default" }}>No matches found.</div>
+            )}
+            <div
+              className="search-pop-row"
+              style={{ color: "var(--teal-deep)", fontWeight: 800, justifyContent: "center" }}
+              onClick={() => navigate("/vocabulary/browse", { state: { q: q.trim() } })}
+            >
+              See all in Browse ›
+            </div>
+          </div>
+        )}
+      </div>
+      {openSearchWord && <WordDetailModal wordId={openSearchWord} onClose={() => setOpenSearchWord(null)} />}
+
       <div className="goal-ticket">
-        <div className="eyebrow">Daily goal</div>
+        <div className="eyebrow" style={{ display: "flex", alignItems: "center" }}>
+          <span style={{ flex: 1 }}>
+            {plan ? `🎯 Study plan · Week ${plan.week}/${plan.totalWeeks} · ${plan.emoji} ${plan.label}` : "Daily goal"}
+          </span>
+          {plan && (
+            <button onClick={clearPlan} style={{ background: "none", border: "none", color: "#fff", opacity: 0.7, fontSize: 10, cursor: "pointer", fontFamily: "inherit", textDecoration: "underline" }}>
+              change
+            </button>
+          )}
+        </div>
         <h3>{progress ? `${Math.min(progress.dailyXp, progress.dailyXpGoal)}/${progress.dailyXpGoal} XP today` : "Loading..."}</h3>
         {progress && (
           <div className="goal-bar">
             <div className="goal-bar-fill" style={{ width: `${Math.min(100, Math.round((progress.dailyXp / progress.dailyXpGoal) * 100))}%` }} />
           </div>
         )}
-        <div style={{ fontSize: 12, marginTop: 8 }}>
+        {plan && (
+          <div style={{ fontSize: 11.5, marginTop: 8 }}>
+            {plan.got}/{progress.studyPlan.targetWords} words toward your goal ({plan.pct}%)
+          </div>
+        )}
+        <div style={{ fontSize: 12, marginTop: plan ? 4 : 8 }}>
           {progress
             ? progress.dailyXp >= progress.dailyXpGoal
               ? `🎉 Goal reached! ${progress.wordsLearned} words · ${progress.xp} XP total`
               : `${progress.wordsLearned} words learned · ${progress.xp} XP total`
             : ""}
         </div>
+        {cefr && (
+          <div style={{ fontSize: 11.5, marginTop: 4, opacity: 0.9 }}>
+            🎓 Estimated level: {cefr.now === "starter" ? "just starting out" : cefr.now}
+            {cefr.next ? ` → approaching ${cefr.next}` : ""}
+          </div>
+        )}
       </div>
+
+      {progress && !progress.studyPlan && (
+        <div className="card" style={{ marginBottom: 16 }}>
+          <div style={{ fontSize: 10.5, letterSpacing: "0.08em", textTransform: "uppercase", fontWeight: 800, color: "var(--teal-deep)", marginBottom: 8 }}>
+            🎯 Set a goal to aim for
+          </div>
+          <div style={{ fontSize: 11.5, color: "var(--ink-soft)", marginBottom: 8 }}>
+            Daily XP feels better when it adds up to something big.
+          </div>
+          <div style={{ fontSize: 11, fontWeight: 700, color: "var(--ink-soft)", marginBottom: 4 }}>Learn</div>
+          <div style={{ display: "flex", gap: 6, flexWrap: "wrap", marginBottom: 8 }}>
+            {PLAN_TARGETS.map((t) => (
+              <button key={t} className="pill" onClick={() => setPlanTarget(t)} style={{ cursor: "pointer", background: planTarget === t ? "var(--teal)" : "var(--card)", color: planTarget === t ? "#fff" : "var(--teal-deep)", border: "1px solid var(--line)" }}>
+                {t} words
+              </button>
+            ))}
+          </div>
+          <div style={{ fontSize: 11, fontWeight: 700, color: "var(--ink-soft)", marginBottom: 4 }}>in</div>
+          <div style={{ display: "flex", gap: 6, flexWrap: "wrap", marginBottom: 10 }}>
+            {PLAN_DURATIONS.map((d) => (
+              <button key={d.days} className="pill" onClick={() => setPlanDays(d.days)} style={{ cursor: "pointer", background: planDays === d.days ? "var(--teal)" : "var(--card)", color: planDays === d.days ? "#fff" : "var(--teal-deep)", border: "1px solid var(--line)" }}>
+                {d.label}
+              </button>
+            ))}
+          </div>
+          <button className="btn-primary" disabled={planSaving} onClick={startPlan}>
+            {planSaving ? "Starting..." : `Start: ${planTarget} words in ${PLAN_DURATIONS.find((d) => d.days === planDays)?.label}`}
+          </button>
+        </div>
+      )}
 
       {needsPlacement && (
         <Link to="/placement" className="review-banner" style={{ background: "var(--violet-soft)", borderColor: "var(--line)" }}>
@@ -146,6 +325,18 @@ export default function Home() {
         </div>
       )}
       {openWord && wod && <WordDetailModal wordId={wod.id} onClose={() => setOpenWord(false)} />}
+
+      <Link to="/vocabulary/practice" className="card" style={{ display: "block", marginBottom: 16, textDecoration: "none", color: "inherit" }}>
+        <div style={{ fontSize: 10.5, letterSpacing: "0.08em", textTransform: "uppercase", fontWeight: 800, color: "var(--coral-deep)", marginBottom: 6 }}>
+          📰 Fresh reading for today
+        </div>
+        <div style={{ display: "flex", alignItems: "center", gap: 10 }}>
+          <div style={{ flex: 1, fontSize: 12.5, color: "var(--ink-soft)" }}>
+            A new short passage built from <b style={{ color: "var(--ink)" }}>the words you're learning right now</b> — different every visit, with a mini quiz.
+          </div>
+          <span style={{ fontSize: 16 }}>›</span>
+        </div>
+      </Link>
 
       {session && session.due.length > 0 && (
         <Link to="/vocabulary/review" className="review-banner" data-anim-hover>
