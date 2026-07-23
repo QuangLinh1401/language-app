@@ -26,10 +26,15 @@ function estimateCefr(stats) {
 // One-line level summary: CEFR estimate for English, HSK1 progress for Chinese.
 function levelLine(stats) {
   if (!stats) return null;
-  if (stats.byLevel?.HSK1) {
-    const s = stats.byLevel.HSK1;
-    const known = s.total ? (s.recall + s.context + s.mastered) / s.total : 0;
-    return `🎓 HSK1: ${Math.round(known * 100)}% learned`;
+  const hskBands = Object.keys(stats.byLevel || {}).filter((l) => l.startsWith("HSK")).sort();
+  if (hskBands.length) {
+    const known = (lv) => {
+      const s = stats.byLevel[lv];
+      return s.total ? (s.recall + s.context + s.mastered) / s.total : 0;
+    };
+    // Show the band the learner is currently working through.
+    const current = hskBands.find((lv) => known(lv) < 0.8) || hskBands[hskBands.length - 1];
+    return `🎓 ${current}: ${Math.round(known(current) * 100)}% learned`;
   }
   const cefr = estimateCefr(stats);
   if (!cefr) return null;
@@ -86,7 +91,7 @@ const PLAN_DURATIONS = [
 const SKILL_ICONS = { grammar: "/icons/grammar.svg", listening: "/icons/listening.svg", reading: "/icons/reading.svg" };
 
 const MODULES = [
-  { to: "/vocabulary", icon: "/icons/vocabulary.svg", anim: "/icons/vocabulary.lottie.json", bg: "var(--teal-soft)", name: "Vocabulary", desc: "5000 words, A1 to B2", zhDesc: "475 từ HSK1 · 汉语" },
+  { to: "/vocabulary", icon: "/icons/vocabulary.svg", anim: "/icons/vocabulary.lottie.json", bg: "var(--teal-soft)", name: "Vocabulary", desc: "5000 words, A1 to B2", zhDesc: "1080 từ HSK1–HSK2 · 汉语" },
   { to: "/grammar", icon: "/icons/grammar.svg", anim: "/icons/grammar.lottie.json", bg: "var(--violet-soft)", name: "Grammar", desc: "86 lessons, A1 to B2", zhDesc: "20 bài ngữ pháp HSK1" },
   { to: "/listening", icon: "/icons/listening.svg", anim: "/icons/listening.lottie.json", bg: "var(--blue-soft)", name: "Listening", desc: "30 listening lessons", zhDesc: "12 bài nghe hội thoại" },
   { to: "/reading", icon: "/icons/reading.svg", bg: "var(--orange-soft)", name: "Reading", desc: "20 passages + quizzes", zhDesc: "10 bài đọc + quiz" },
@@ -366,7 +371,7 @@ export default function Home() {
               <p className="sub" style={{ marginTop: 2 }}>Mỗi ngôn ngữ có lộ trình và tiến độ riêng.</p>
               {[
                 { code: "en", flag: "🇬🇧", name: "English", desc: "5000 từ A1–B2 · grammar · listening · reading · speaking" },
-                { code: "zh", flag: "🇨🇳", name: "中文 (Tiếng Trung)", desc: "HSK1 · 475 từ · ngữ pháp · nghe · đọc · nói" }
+                { code: "zh", flag: "🇨🇳", name: "中文 (Tiếng Trung)", desc: "HSK1–HSK2 · 1080 từ · ngữ pháp · nghe · đọc · nói" }
               ].map((opt) => (
                 <button
                   key={opt.code}

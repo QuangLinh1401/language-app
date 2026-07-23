@@ -10,9 +10,11 @@ import { asyncHandler } from "../auth.js";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const load = (f) => JSON.parse(fs.readFileSync(path.join(__dirname, "..", "..", "data", f), "utf-8"));
-// Two languages, same schema: English (A1-B2) and Chinese (HSK 3.0 band 1).
+// Two languages, same schema: English (A1-B2) and Chinese (HSK 3.0 bands).
 const DATA = { en: load("vocabulary.json"), zh: load("vocabulary-zh.json") };
-const LEVELS = { en: ["A1", "A2", "B1", "B2"], zh: ["HSK1"] };
+// Chinese levels are derived from the data so adding HSK3+ words just works.
+const zhLevels = [...new Set(DATA.zh.topics.flatMap((t) => t.words.map((w) => w.level)))].sort();
+const LEVELS = { en: ["A1", "A2", "B1", "B2"], zh: zhLevels };
 
 const router = express.Router();
 
@@ -244,16 +246,21 @@ router.get("/word-of-day", (req, res) => {
 });
 
 // Search across all 5000 words by English word or Vietnamese meaning.
+// "xǐhuan" -> "xihuan": strip tone marks/spaces so pinyin can be typed plainly.
+const plainPinyin = (s) =>
+  s.toLowerCase().normalize("NFD").replace(/[̀-ͯ]/g, "").replace(/[\s']/g, "");
+
 router.get("/search", (req, res) => {
   const q = (req.query.q || "").trim().toLowerCase();
   if (!q) return res.json({ count: 0, words: [] });
-  // Chinese search also matches pinyin (typed without tones is fine for exact pinyin text).
+  // Chinese search also matches pinyin — with or without tone marks.
   const lang = langOf(req);
+  const qPlain = plainPinyin(q);
   const matches = allWords(lang).filter(
     (w) =>
       w.word.toLowerCase().includes(q) ||
       w.meaning.toLowerCase().includes(q) ||
-      (lang === "zh" && w.ipa.toLowerCase().includes(q))
+      (lang === "zh" && (w.ipa.toLowerCase().includes(q) || plainPinyin(w.ipa).includes(qPlain)))
   );
   // Words starting with the query first, then by frequency.
   matches.sort((a, b) => {

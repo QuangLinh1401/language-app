@@ -6,7 +6,7 @@ import Icon from "../components/Icon.jsx";
 import AnimatedIcon from "../components/AnimatedIcon.jsx";
 import Loading from "../components/Loading.jsx";
 
-const levels = appLang() === "zh" ? ["all", "HSK1"] : ["all", "A1", "A2", "B1", "B2"];
+const levels = appLang() === "zh" ? ["all", "HSK1", "HSK2"] : ["all", "A1", "A2", "B1", "B2"];
 
 // The 4 knowledge stages — practice words stuck at any stage to level them up.
 const stages = [
