@@ -210,9 +210,10 @@ router.get("/words/:id/detail", asyncHandler(async (req, res) => {
   const word = findWordById(req.params.id);
   if (!word) return res.status(404).json({ error: "Word not found" });
   const progress = req.state.wordProgress[word.id] || null;
+  const notFound = { found: false, phonetics: [], meanings: [], synonyms: [], antonyms: [], sourceUrl: null };
   const [detail, dictionary] = await Promise.all([
     generateWordDetail(word),
-    fetchDictionaryEntry(word.word)
+    word.id.startsWith("zh-") ? Promise.resolve(notFound) : fetchDictionaryEntry(word.word)
   ]);
   res.json({ ...word, ...detail, dictionary, progress });
 }));

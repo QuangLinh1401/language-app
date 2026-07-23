@@ -67,6 +67,10 @@ function buildFallbackPassage(words) {
 
 const wordDetailCache = new Map();
 
+function isChinese(word) {
+  return word.id.startsWith("zh-");
+}
+
 function buildFallbackWordDetail(word) {
   return {
     word: word.word,
@@ -83,11 +87,8 @@ function buildFallbackWordDetail(word) {
   };
 }
 
-export async function generateWordDetail(word) {
-  if (wordDetailCache.has(word.id)) return wordDetailCache.get(word.id);
-  if (!hasApiKey()) return buildFallbackWordDetail(word);
-
-  const instruction = `You are helping a Vietnamese learner understand the English word "${word.word}" (level ${word.level}, meaning in Vietnamese: "${word.meaning}").
+function buildEnglishInstruction(word) {
+  return `You are helping a Vietnamese learner understand the English word "${word.word}" (level ${word.level}, meaning in Vietnamese: "${word.meaning}").
 
 Write a detailed but compact explanation IN VIETNAMESE (except the English word itself and the example sentences, which must be in English) covering:
 - The part of speech (as a short Vietnamese label, e.g. "danh từ", "động từ", "tính từ").
@@ -106,6 +107,39 @@ Reply with ONLY valid JSON, no other text, in this exact structure:
   "synonyms": ["..."],
   "collocations": ["..."]
 }`;
+}
+
+// Chinese words need different fields than English: pinyin is already shown
+// elsewhere, so what's missing is the measure word (量词) for nouns, HSK-style
+// grammar patterns, and examples that carry pinyin + Vietnamese translation
+// together (the UI only has room for one example string per line).
+function buildChineseInstruction(word) {
+  return `You are helping a Vietnamese learner of Mandarin Chinese understand the word "${word.word}" (pinyin: ${word.ipa}, HSK level ${word.level}, meaning in Vietnamese: "${word.meaning}").
+
+Write a detailed but compact explanation IN VIETNAMESE (except the Chinese characters and pinyin themselves) covering:
+- The part of speech as a short Vietnamese label (e.g. "danh từ", "động từ", "tính từ", "phó từ", "liên từ", "lượng từ"). If it's a noun that takes a specific measure word (量词), append it, e.g. "danh từ · lượng từ: 个/张/本".
+- A short, practical usage note: when/how this word is used, its register (formal/informal/written/spoken), common sentence patterns it appears in, and mistakes Vietnamese learners often make with it (e.g. confusing it with a near-synonym).
+- 3 natural example sentences DIFFERENT from "${word.example}", using the word in different contexts. Each example must be formatted as exactly: "<Chinese sentence> (<pinyin>) – <Vietnamese translation>".
+- A short grammar note if relevant (e.g. sentence pattern like "把...了", verb-object separability, whether it needs 了/过/着, word order quirks). Empty string if nothing notable.
+- Up to 4 common near-synonyms (Chinese characters only, empty array if none fit).
+- Up to 4 common collocations or fixed phrases using this word, each formatted as "<Chinese phrase> (<pinyin>) – <Vietnamese meaning>" (empty array if none).
+
+Reply with ONLY valid JSON, no other text, in this exact structure:
+{
+  "partOfSpeech": "...",
+  "usage": "...",
+  "examples": ["...", "...", "..."],
+  "grammarNote": "...",
+  "synonyms": ["..."],
+  "collocations": ["..."]
+}`;
+}
+
+export async function generateWordDetail(word) {
+  if (wordDetailCache.has(word.id)) return wordDetailCache.get(word.id);
+  if (!hasApiKey()) return buildFallbackWordDetail(word);
+
+  const instruction = isChinese(word) ? buildChineseInstruction(word) : buildEnglishInstruction(word);
 
   try {
     const raw = await callClaude([{ role: "user", content: instruction }], 700);

@@ -3,6 +3,7 @@ import { api } from "../api.js";
 import { getCustomExample } from "../customExamples.js";
 import Icon from "./Icon.jsx";
 import Loading from "./Loading.jsx";
+import HanziStroke from "./HanziStroke.jsx";
 
 function speak(text, rate = 0.95) {
   if (!window.speechSynthesis) return;
@@ -158,6 +159,12 @@ export default function WordDetailModal({ wordId, onClose }) {
               )}
               {activeTab === "definitions" && (
                 <>
+                  {detail.id?.startsWith("zh-") && (
+                    <Section title="Cách viết">
+                      <HanziStroke word={detail.word} />
+                    </Section>
+                  )}
+
                   {detail.usage && (
                     <div className="explain-box" style={{ marginTop: 0 }}>
                       <Highlighted text={detail.usage} word={detail.word} />
