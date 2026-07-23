@@ -78,6 +78,7 @@ function buildFallbackWordDetail(word) {
     meaning: word.meaning,
     level: word.level,
     image: "",
+    mnemonic: "",
     partOfSpeech: null,
     usage: null,
     examples: [word.example, word.phrase].filter(Boolean),
@@ -129,6 +130,7 @@ function buildChineseInstruction(word) {
 
 Write a detailed but compact explanation IN VIETNAMESE (except the Chinese characters and pinyin themselves) covering:
 - "image": ONE emoji that visually represents this word if it denotes something concrete/picturable (an object, animal, action, place...). Empty string for abstract words, particles, function words, grammar words etc. where no picture would make sense — do not force a bad fit.
+- "mnemonic": a short, creative Vietnamese memory trick to help remember this word — ideally breaking down the character(s) into recognizable parts (radical/components) and building a vivid mental image or story from them, or a sound-alike association for the pinyin. One or two sentences.
 - "partOfSpeech": a short summary label listing every part of speech this word can act as, separated by " · " (e.g. "động từ · danh từ · liên từ"). If it's a noun that takes a specific measure word (量词), append it, e.g. "danh từ · lượng từ: 个/张/本".
 - "senses": group the word's distinct meanings BY PART OF SPEECH — one entry per part of speech the word actually functions as (most words only have 1, but polyfunctional words need several). Each entry has:
   - "partOfSpeech": Vietnamese label for this specific role (e.g. "Động từ", "Danh từ", "Liên từ", "Tính từ", "Phó từ").
@@ -153,6 +155,7 @@ Write a detailed but compact explanation IN VIETNAMESE (except the Chinese chara
 Reply with ONLY valid JSON, no other text, in this exact structure:
 {
   "image": "",
+  "mnemonic": "...",
   "partOfSpeech": "...",
   "senses": [{ "partOfSpeech": "...", "meanings": [{ "meaning": "...", "example": "..." }] }],
   "usage": "...",
@@ -220,6 +223,7 @@ export async function generateWordDetail(word) {
       meaning: word.meaning,
       level: word.level,
       image: parsed.image || "",
+      mnemonic: parsed.mnemonic || "",
       partOfSpeech: parsed.partOfSpeech || null,
       senses,
       usage: parsed.usage || null,

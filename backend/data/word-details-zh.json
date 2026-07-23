@@ -36,6 +36,7 @@
   "grammarExample": "",
   "grammarNote": "",
   "image": "",
+  "mnemonic": "你 = 亻(người) + 尔(mày/ngươi) — hình dung một NGƯỜI đứng trước mặt bạn, chỉ thẳng vào \"BẠN\".",
   "partOfSpeech": "Đại từ",
   "senses": [
    {
@@ -94,6 +95,7 @@
   "grammarExample": "",
   "grammarNote": "",
   "image": "👋",
+  "mnemonic": "你好 = 你(bạn) + 好(tốt) — nói thẳng \"bạn tốt\" khi gặp mặt, chính là câu chào quen thuộc nhất.",
   "partOfSpeech": "Cụm chào hỏi",
   "senses": [
    {
@@ -146,6 +148,7 @@
   "grammarExample": "",
   "grammarNote": "",
   "image": "🙏",
+  "mnemonic": "谢 = 讠(lời nói) + 射(bắn) — hình dung lời cảm ơn được \"BẮN\" thẳng ra bằng lời nói.",
   "partOfSpeech": "Động từ",
   "senses": [
    {
@@ -208,6 +211,7 @@
   "grammarExample": "",
   "grammarNote": "",
   "image": "",
+  "mnemonic": "不客气 = 不(không) + 客气(khách sáo) — nghĩa đen \"đừng khách sáo\", câu đáp lễ khi ai đó cảm ơn mình.",
   "partOfSpeech": "Cụm đáp lời",
   "senses": [
    {
@@ -263,6 +267,7 @@
   "grammarExample": "我对得起你，但对不起他。 (Wǒ duìdeqǐ nǐ, dàn duìbuqǐ tā.) – Tôi xứng đáng với bạn, nhưng có lỗi với anh ấy.",
   "grammarNote": "对不起 vốn là dạng phủ định của cấu trúc \"đối được với\" (对得起) — nghĩa đen là \"không xứng với bạn\".",
   "image": "",
+  "mnemonic": "对不起 = 对(đối/xứng) + 不(không) + 起(nổi) — nghĩa đen \"không xứng nổi với bạn\", cực kỳ khiêm nhường khi xin lỗi.",
   "partOfSpeech": "Cụm xin lỗi",
   "senses": [
    {
@@ -318,6 +323,7 @@
   "grammarExample": "",
   "grammarNote": "",
   "image": "",
+  "mnemonic": "没关系 = 没(không) + 关系(quan hệ) — nghĩa đen \"không (ảnh hưởng) quan hệ gì\", tức \"không sao đâu\".",
   "partOfSpeech": "Cụm đáp lời",
   "senses": [
    {
@@ -377,6 +383,7 @@
   "grammarExample": "",
   "grammarNote": "",
   "image": "👋",
+  "mnemonic": "再见 = 再(lại) + 见(gặp) — nói thẳng \"gặp lại\", hình dung một cái vẫy tay hẹn ngày tái ngộ.",
   "partOfSpeech": "Cụm chào tạm biệt",
   "senses": [
    {
@@ -431,6 +438,7 @@
   "grammarExample": "",
   "grammarNote": "",
   "image": "",
+  "mnemonic": "请 = 讠(lời nói) + 青(xanh, thanh khiết) — lời nói THANH LỊCH, nhã nhặn khi mời ai.",
   "partOfSpeech": "Động từ · Phó từ",
   "senses": [
    {
@@ -492,6 +500,7 @@
   "grammarExample": "他不是老师，他是学生。 (Tā bú shì lǎoshī, tā shì xuésheng.) – Anh ấy không phải giáo viên, anh ấy là học sinh.",
   "grammarNote": "Phủ định của 是 luôn là 不是 (không dùng 没是).",
   "image": "",
+  "mnemonic": "是 = 日(mặt trời) trên 正(ngay thẳng) — mặt trời mọc NGAY chính giữa, biểu thị điều \"đúng\", \"là\" hiển nhiên.",
   "partOfSpeech": "Động từ",
   "senses": [
    {
@@ -543,6 +552,7 @@
   "grammarExample": "不是 đọc \"bú shì\" chứ không phải \"bù shì\". (Bú shì, không phải \"bù shì\".)",
   "grammarNote": "不 đổi thanh điệu thành thanh 2 (bú) khi đứng trước một âm tiết mang thanh 4, ví dụ 不是 (bú shì), 不客气 (bú kèqi).",
   "image": "",
+  "mnemonic": "不 trông như một con CHIM đang xòe cánh KHÔNG chịu đậu xuống — nhớ hình ảnh cánh chim để liên tưởng đến phủ định.",
   "partOfSpeech": "Phó từ",
   "senses": [
    {
@@ -590,6 +600,7 @@
   "grammarExample": "正确: 我没吃饭。 错误: 我没吃了饭。 (Wǒ méi chīfàn.) – Đúng: \"Tôi chưa ăn cơm\". Sai: có thêm 了 sau khi đã có 没.",
   "grammarNote": "没 không kết hợp với 了 ở cuối câu — không nói 我没吃了饭.",
   "image": "",
+  "mnemonic": "没 = 氵(nước) + 殳 — hình dung một người bị CHÌM xuống nước, mất tích — từ đó ra nghĩa \"không có, chưa\".",
   "partOfSpeech": "Phó từ",
   "senses": [
    {
@@ -651,6 +662,7 @@
   "grammarExample": "",
   "grammarNote": "",
   "image": "",
+  "mnemonic": "我 trông như một cây GIÁO (戈) — hồi xưa \"tôi\" tự vệ bằng vũ khí của MÌNH, nhớ 我 = cái tôi cầm giáo.",
   "partOfSpeech": "Đại từ",
   "senses": [
    {
@@ -685,6 +697,7 @@
   "grammarExample": "我很忙 (bình thường) khác với 我忙 (ngụ ý so sánh, ví dụ \"tôi [thì] bận [còn người khác thì rảnh]\").",
   "grammarNote": "Câu tính từ vị ngữ tiếng Trung bắt buộc phải có phó từ mức độ (như 很) đứng trước tính từ, nếu không câu sẽ mang nghĩa so sánh/đối lập ngầm.",
   "image": "",
+  "mnemonic": "很 = 彳(bước chân) + 艮(cứng đầu) — bước đi CƯƠNG QUYẾT, dùng để nhấn mạnh mức độ \"rất\".",
   "partOfSpeech": "Phó từ",
   "senses": [
    {
@@ -745,6 +758,7 @@
   "grammarExample": "",
   "grammarNote": "",
   "image": "",
+  "mnemonic": "太 = 大(to) + một chấm nhỏ ở dưới — \"to\" mà còn thêm nữa thì thành \"quá to\", tức \"太\" (quá).",
   "partOfSpeech": "Phó từ",
   "senses": [
    {
@@ -788,6 +802,7 @@
   "grammarExample": "他也都喜欢吃。 (Tā yě dōu xǐhuan chī.) – Anh ấy cũng đều thích ăn (cả hai thứ).",
   "grammarNote": "Khi câu có 也 và 都 cùng lúc, thứ tự chuẩn là 也都 (ví dụ: 我也都喜欢).",
   "image": "",
+  "mnemonic": "都 = 者(người ta) + 阝(thành ấp) — hình dung TẤT CẢ mọi người trong cùng một thành, nên nghĩa là \"đều\".",
   "partOfSpeech": "Phó từ",
   "senses": [
    {
@@ -829,6 +844,7 @@
   "grammarExample": "",
   "grammarNote": "",
   "image": "",
+  "mnemonic": "也 trông giống một cái BÌNH nghiêng đổ nước ra — nước đổ từ bình này sang bình kia \"CŨNG\" như vậy.",
   "partOfSpeech": "Phó từ",
   "senses": [
    {
@@ -863,6 +879,7 @@
   "grammarExample": "",
   "grammarNote": "",
   "image": "",
+  "mnemonic": "和 = 禾(lúa) + 口(miệng) — có LÚA để ăn thì mọi người HÒA THUẬN, do đó 和 nghĩa là \"và, hòa\".",
   "partOfSpeech": "Liên từ · Giới từ",
   "senses": [
    {
@@ -915,6 +932,7 @@
   "grammarExample": "",
   "grammarNote": "",
   "image": "",
+  "mnemonic": "的 = 白(trắng) + 勺(cái muỗng) — hình dung một giọt trắng tinh CỦA riêng ai đó — trợ từ sở hữu \"của\".",
   "partOfSpeech": "Trợ từ",
   "senses": [
    {
@@ -953,6 +971,7 @@
   "grammarExample": "了 trong 吃了 đọc \"le\"; 了 trong 了解 đọc \"liǎo\".",
   "grammarNote": "Không nhầm với 了 (liǎo) trong 了解 (liǎojiě) — cùng chữ nhưng đọc khác, nghĩa khác.",
   "image": "",
+  "mnemonic": "了 trông như một đứa trẻ sơ sinh cuộn tròn — biểu thị việc đã \"xong\", hoàn thành (trẻ đã ra đời XONG).",
   "partOfSpeech": "Trợ từ",
   "senses": [
    {
@@ -991,6 +1010,7 @@
   "grammarExample": "正确: 你是学生吗？ 或 你是不是学生？ 错误: 你是不是学生吗？",
   "grammarNote": "Câu đã có 吗 thì không dùng thêm cấu trúc nghi vấn khác (như 是不是) trong cùng câu.",
   "image": "",
+  "mnemonic": "吗 = 口(miệng) + 马(ngựa) — MIỆNG hí lên như tiếng ngựa hỏi \"phải KHÔNG?\" ở cuối câu.",
   "partOfSpeech": "Trợ từ",
   "senses": [
    {
@@ -1025,6 +1045,7 @@
   "grammarExample": "",
   "grammarNote": "",
   "image": "",
+  "mnemonic": "呢 = 口(miệng) + 尼 — MIỆNG kéo dài giọng hỏi ngược \"còn... THÌ SAO?\".",
   "partOfSpeech": "Trợ từ",
   "senses": [
    {
@@ -1084,6 +1105,7 @@
   "grammarExample": "",
   "grammarNote": "",
   "image": "",
+  "mnemonic": "什么 = 什(một vài) + 么(hư từ) — ghép lại hỏi \"CÁI GÌ\" mơ hồ, chưa xác định.",
   "partOfSpeech": "Đại từ nghi vấn",
   "senses": [
    {
@@ -1134,6 +1156,7 @@
   "grammarExample": "",
   "grammarNote": "",
   "image": "",
+  "mnemonic": "他 = 亻(người) + 也(cũng) — \"người kia CŨNG là một người\", dùng cho phái mạnh (nam).",
   "partOfSpeech": "Đại từ",
   "senses": [
    {
@@ -1168,6 +1191,7 @@
   "grammarExample": "",
   "grammarNote": "",
   "image": "",
+  "mnemonic": "谁 = 讠(lời nói) + 隹(chim đuôi ngắn) — như một tiếng CHIM hỏi vọng lại \"AI đó?\".",
   "partOfSpeech": "Đại từ nghi vấn",
   "senses": [
    {
@@ -1215,6 +1239,7 @@
   "grammarExample": "",
   "grammarNote": "",
   "image": "",
+  "mnemonic": "哪 = 口(miệng) + 那(kia) — MIỆNG hỏi \"cái KIA nào?\" trong nhiều lựa chọn.",
   "partOfSpeech": "Đại từ nghi vấn",
   "senses": [
    {
@@ -1257,6 +1282,7 @@
   "grammarExample": "",
   "grammarNote": "",
   "image": "",
+  "mnemonic": "哪儿 = 哪(nào) + 儿(hậu tố Bắc Kinh) — hỏi \"nào\" + nơi chốn = \"Ở ĐÂU\".",
   "partOfSpeech": "Đại từ nghi vấn",
   "senses": [
    {
@@ -1317,6 +1343,7 @@
   "grammarExample": "",
   "grammarNote": "",
   "image": "",
+  "mnemonic": "怎 = 乍(bỗng) trên 心(tâm) — bỗng nhiên trong LÒNG thắc mắc \"THẾ NÀO\" đây.",
   "partOfSpeech": "Đại từ nghi vấn",
   "senses": [
    {
@@ -1371,6 +1398,7 @@
   "grammarExample": "",
   "grammarNote": "",
   "image": "",
+  "mnemonic": "怎么样 = 怎么(thế nào) + 样(dạng) — hỏi cụ thể \"dạng NHƯ THẾ NÀO\".",
   "partOfSpeech": "Đại từ nghi vấn",
   "senses": [
    {
@@ -1428,6 +1456,7 @@
   "grammarExample": "",
   "grammarNote": "",
   "image": "",
+  "mnemonic": "为什么 = 为(vì) + 什么(cái gì) — hỏi \"VÌ cái gì\" tức \"TẠI SAO\".",
   "partOfSpeech": "Đại từ nghi vấn",
   "senses": [
    {
@@ -1470,6 +1499,7 @@
   "grammarExample": "",
   "grammarNote": "",
   "image": "",
+  "mnemonic": "多少 = 多(nhiều) + 少(ít) — ghép hai thái cực NHIỀU và ÍT lại để hỏi \"BAO NHIÊU\" (không rõ nhiều hay ít).",
   "partOfSpeech": "Đại từ nghi vấn",
   "senses": [
    {
@@ -1504,6 +1534,7 @@
   "grammarExample": "",
   "grammarNote": "",
   "image": "",
+  "mnemonic": "几 trông như một cái BÀN thấp có 2 chân — hình dung vài (MẤY) món đồ đặt trên chiếc bàn nhỏ đó.",
   "partOfSpeech": "Đại từ nghi vấn · Số từ",
   "senses": [
    {
@@ -1565,6 +1596,7 @@
   "grammarExample": "",
   "grammarNote": "",
   "image": "",
+  "mnemonic": "这 = 辶(đi) + văn — vật đang ở gần, \"đi\" tới là chạm được ngay — nghĩa \"NÀY, ĐÂY\".",
   "partOfSpeech": "Đại từ chỉ định",
   "senses": [
    {
@@ -1617,6 +1649,7 @@
   "grammarExample": "",
   "grammarNote": "",
   "image": "",
+  "mnemonic": "那 = 阝(vùng đất) + 那 — một VÙNG ĐẤT xa xa — nghĩa \"KIA, ĐÓ\".",
   "partOfSpeech": "Đại từ chỉ định",
   "senses": [
    {
@@ -1663,6 +1696,7 @@
   "grammarExample": "",
   "grammarNote": "",
   "image": "",
+  "mnemonic": "她 = 女(nữ) + 也 — giống hệt 他 nhưng đổi bộ 亻 thành 女, nhớ: thêm bộ NỮ vào là chỉ phái nữ.",
   "partOfSpeech": "Đại từ",
   "senses": [
    {
@@ -1710,6 +1744,7 @@
   "grammarExample": "",
   "grammarNote": "",
   "image": "",
+  "mnemonic": "这儿 = 这(này) + 儿(nơi chốn) — \"này\" + hậu tố nơi chốn = \"Ở ĐÂY\".",
   "partOfSpeech": "Đại từ chỉ định",
   "senses": [
    {
@@ -1762,6 +1797,7 @@
   "grammarExample": "",
   "grammarNote": "",
   "image": "",
+  "mnemonic": "那儿 = 那(kia) + 儿(nơi chốn) — \"kia\" + hậu tố nơi chốn = \"Ở ĐÓ\".",
   "partOfSpeech": "Đại từ chỉ định",
   "senses": [
    {
@@ -1808,6 +1844,7 @@
   "grammarExample": "",
   "grammarNote": "",
   "image": "",
+  "mnemonic": "叫 = 口(miệng) + 니 — MIỆNG phát ra tiếng KÊU, GỌI tên ai đó.",
   "partOfSpeech": "Động từ",
   "senses": [
    {
@@ -1864,6 +1901,7 @@
   "grammarExample": "",
   "grammarNote": "",
   "image": "",
+  "mnemonic": "姓 = 女(nữ) + 生(sinh ra) — thời cổ, đứa trẻ SINH ra mang họ theo dòng mẹ (NỮ) — nhớ họ (姓) gắn với chữ nữ.",
   "partOfSpeech": "Động từ · Danh từ",
   "senses": [
    {
@@ -1922,6 +1960,7 @@
   "grammarExample": "",
   "grammarNote": "",
   "image": "",
+  "mnemonic": "名字 = 名(tên gọi ban đêm) + 字(chữ) — đêm tối (夕) không nhìn rõ mặt (口), nên phải gọi TÊN bằng miệng.",
   "partOfSpeech": "Danh từ",
   "senses": [
    {
@@ -1981,6 +2020,7 @@
   "grammarExample": "",
   "grammarNote": "",
   "image": "",
+  "mnemonic": "对 = 又(bàn tay) + 寸(tấc, đo lường) — bàn tay ĐO ĐÚNG chuẩn mực — nghĩa \"ĐÚNG, ĐỐI\".",
   "partOfSpeech": "Tính từ · Giới từ",
   "senses": [
    {
@@ -2048,6 +2088,7 @@
   "grammarExample": "",
   "grammarNote": "",
   "image": "👍",
+  "mnemonic": "好 = 女(nữ) + 子(con) — hình ảnh MẸ và CON bên nhau — biểu tượng cho điều TỐT ĐẸP nhất.",
   "partOfSpeech": "Tính từ",
   "senses": [
    {
@@ -2090,6 +2131,7 @@
   "grammarExample": "",
   "grammarNote": "",
   "image": "📞",
+  "mnemonic": "喂 nghe như tiếng gọi \"A LÔ\" khi nhấc điện thoại lên — âm thanh gần giống tiếng Việt nên rất dễ nhớ.",
   "partOfSpeech": "Thán từ",
   "senses": [
    {
@@ -2143,6 +2185,7 @@
   "grammarExample": "",
   "grammarNote": "",
   "image": "🎉",
+  "mnemonic": "欢迎 = 欢(vui, cười) + 迎(đi đón) — VUI VẺ ra ĐÓN khách — \"hoan nghênh\".",
   "partOfSpeech": "Động từ",
   "senses": [
    {
@@ -2185,6 +2228,7 @@
   "grammarExample": "",
   "grammarNote": "",
   "image": "",
+  "mnemonic": "认识 = 认(nhận ra) + 识(hiểu biết) — NHẬN RA ai đó và HIỂU BIẾT về họ — \"quen biết\".",
   "partOfSpeech": "Động từ",
   "senses": [
    {
@@ -2235,6 +2279,7 @@
   "grammarExample": "",
   "grammarNote": "",
   "image": "📦",
+  "mnemonic": "它 = 宀(mái nhà) + 匕 — hình dung một con VẬT nhỏ nằm dưới mái nhà, không phải người nên dùng cho đồ vật/con vật.",
   "partOfSpeech": "Đại từ",
   "senses": [
    {
@@ -2282,6 +2327,7 @@
   "grammarExample": "",
   "grammarNote": "",
   "image": "😊",
+  "mnemonic": "高兴 = 高(cao) + 兴(hứng) — cảm xúc dâng CAO, hứng khởi — \"vui mừng\".",
   "partOfSpeech": "Tính từ",
   "senses": [
    {
@@ -2333,6 +2379,7 @@
   "grammarExample": "不能说\"猫们\"，只能说\"猫\"（复数用语境表示）。 (Bùnéng shuō \"māo men\", zhǐ néng shuō \"māo\".) – Không thể nói \"猫们\", chỉ nói \"猫\" (số nhiều thể hiện qua ngữ cảnh).",
   "grammarNote": "们 chỉ gắn sau đại từ chỉ người (我/你/他...), không dùng với danh từ chỉ vật.",
   "image": "",
+  "mnemonic": "我们 = 我(tôi) + 们(thêm nhiều người) — cứ thêm 们 sau đại từ là ra số nhiều, như thêm \"S\" trong tiếng Anh.",
   "partOfSpeech": "Đại từ",
   "senses": [
    {
@@ -2380,6 +2427,7 @@
   "grammarExample": "",
   "grammarNote": "",
   "image": "",
+  "mnemonic": "你们 = 你(bạn) + 们(nhiều người) — nhiều \"bạn\" cộng lại thành \"các bạn\".",
   "partOfSpeech": "Đại từ",
   "senses": [
    {
@@ -2422,6 +2470,7 @@
   "grammarExample": "",
   "grammarNote": "",
   "image": "",
+  "mnemonic": "他们 = 他(anh ấy) + 们 — nhiều \"anh ấy\" cộng lại thành \"họ\".",
   "partOfSpeech": "Đại từ",
   "senses": [
    {
@@ -2463,6 +2512,7 @@
   "grammarExample": "",
   "grammarNote": "",
   "image": "",
+  "mnemonic": "您 = 你(bạn) trên 心(trái tim) — \"bạn\" được đặt lên TRÊN trái tim, hình dung sự trân trọng, kính trọng khi nói với người lớn tuổi.",
   "partOfSpeech": "Đại từ",
   "senses": [
    {

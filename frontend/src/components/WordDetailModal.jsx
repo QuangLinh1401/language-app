@@ -148,7 +148,7 @@ export default function WordDetailModal({ wordId, onClose }) {
               )}
               {detail.id?.startsWith("zh-") && (
                 <a
-                  href={`https://hanzii.net/search/${encodeURIComponent(detail.word)}?hl=vi`}
+                  href={`https://hanzii.net/search/word/${encodeURIComponent(detail.word)}?hl=vi`}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="pill"
@@ -216,6 +216,14 @@ export default function WordDetailModal({ wordId, onClose }) {
                             )}
                           </div>
                         ))}
+                      </div>
+                    </Section>
+                  )}
+
+                  {detail.mnemonic && (
+                    <Section title="Cách nhớ">
+                      <div className="explain-box" style={{ marginTop: 0, background: "var(--violet-soft)" }}>
+                        💡 <Highlighted text={detail.mnemonic} word={detail.word} />
                       </div>
                     </Section>
                   )}
