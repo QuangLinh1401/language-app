@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import { useParams, useNavigate } from "react-router-dom";
 import { api } from "../api.js";
+import Loading from "../components/Loading.jsx";
 
 export default function GrammarLesson() {
   const { lessonId } = useParams();
@@ -17,7 +18,7 @@ export default function GrammarLesson() {
     setDone(false);
   }, [lessonId]);
 
-  if (!lesson) return <div className="loading">Loading lesson...</div>;
+  if (!lesson) return <Loading text="Loading lesson..." />;
 
   function checkAll() {
     const result = {};

@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import { api } from "../api.js";
 import Icon, { TOPIC_ICONS } from "../components/Icon.jsx";
+import Loading from "../components/Loading.jsx";
 
 export default function Vocabulary() {
   const [topics, setTopics] = useState(null);
@@ -10,7 +11,7 @@ export default function Vocabulary() {
     api.vocabulary.topics().then(setTopics);
   }, []);
 
-  if (!topics) return <div className="loading">Loading topics...</div>;
+  if (!topics) return <Loading text="Loading topics..." />;
 
   return (
     <div>

@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import { Link, useParams } from "react-router-dom";
 import { api } from "../api.js";
 import Icon from "../components/Icon.jsx";
+import Loading from "../components/Loading.jsx";
 
 function speak(text, rate = 0.9) {
   if (!window.speechSynthesis) return;
@@ -23,7 +24,7 @@ export default function SpeakingShadowing() {
     });
   }, [topic]);
 
-  if (!sentences) return <div className="loading">Loading...</div>;
+  if (!sentences) return <Loading />;
   if (sentences.length === 0) return <div className="loading">No sentences in this topic yet.</div>;
 
   const s = sentences[index];

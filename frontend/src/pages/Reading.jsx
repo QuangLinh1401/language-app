@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import { Link, useSearchParams } from "react-router-dom";
 import { api } from "../api.js";
 import Icon from "../components/Icon.jsx";
+import Loading from "../components/Loading.jsx";
 
 export default function Reading() {
   const [passages, setPassages] = useState(null);
@@ -12,7 +13,7 @@ export default function Reading() {
     api.reading.list().then(setPassages);
   }, []);
 
-  if (!passages) return <div className="loading">Loading passages...</div>;
+  if (!passages) return <Loading text="Loading passages..." />;
 
   const levels = ["all", "A2", "B1", "B2"];
   const shown = filter === "all" ? passages : passages.filter((p) => p.level === filter);

@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import { Link, useSearchParams } from "react-router-dom";
 import { api } from "../api.js";
 import Icon from "../components/Icon.jsx";
+import Loading from "../components/Loading.jsx";
 
 export default function Listening() {
   const [lessons, setLessons] = useState(null);
@@ -12,7 +13,7 @@ export default function Listening() {
     api.listening.list().then(setLessons);
   }, []);
 
-  if (!lessons) return <div className="loading">Loading lessons...</div>;
+  if (!lessons) return <Loading text="Loading lessons..." />;
 
   const levels = ["all", "A1", "A2", "B1", "B2"];
   const shown = filter === "all" ? lessons : lessons.filter((l) => l.level === filter);

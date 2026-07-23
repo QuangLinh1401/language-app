@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import { api } from "../api.js";
 import Icon from "../components/Icon.jsx";
+import Loading from "../components/Loading.jsx";
 
 export default function Progress() {
   const [progress, setProgress] = useState(null);
@@ -11,7 +12,7 @@ export default function Progress() {
     api.vocabulary.stats().then(setVocabStats);
   }, []);
 
-  if (!progress) return <div className="loading">Loading...</div>;
+  if (!progress) return <Loading />;
 
   return (
     <div>

@@ -3,6 +3,7 @@ import { Link, useNavigate } from "react-router-dom";
 import { api } from "../api.js";
 import StudySession from "../components/StudySession.jsx";
 import Icon from "../components/Icon.jsx";
+import Loading from "../components/Loading.jsx";
 
 const levels = ["all", "A1", "A2", "B1", "B2"];
 
@@ -44,7 +45,7 @@ export default function VocabReview() {
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [showAdvanced, level]);
 
-  if (!session) return <div className="loading">Loading today's session...</div>;
+  if (!session) return <Loading text="Loading today's session..." />;
 
   if (done) {
     return (
@@ -175,7 +176,7 @@ export default function VocabReview() {
           </div>
 
           {!customWords ? (
-            <div className="loading">Loading...</div>
+            <Loading />
           ) : (
             <>
               <div className="card" style={{ textAlign: "center", padding: "16px", marginBottom: 12 }}>

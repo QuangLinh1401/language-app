@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import { Link, useParams } from "react-router-dom";
 import { api } from "../api.js";
 import Icon from "../components/Icon.jsx";
+import Loading from "../components/Loading.jsx";
 
 function speak(text, rate = 0.9) {
   if (!window.speechSynthesis) return;
@@ -35,7 +36,7 @@ export default function SpeakingDialogue() {
     setCurrent(0);
   }, [dialogueId]);
 
-  if (!dialogue) return <div className="loading">Loading dialogue...</div>;
+  if (!dialogue) return <Loading text="Loading dialogue..." />;
 
   return (
     <div>

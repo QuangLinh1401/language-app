@@ -4,6 +4,7 @@ import { api } from "../api.js";
 import StudySession from "../components/StudySession.jsx";
 import { getCustomExample } from "../customExamples.js";
 import Icon from "../components/Icon.jsx";
+import Loading from "../components/Loading.jsx";
 
 function speak(text) {
   if (!window.speechSynthesis) return;
@@ -112,7 +113,7 @@ export default function VocabBrowse() {
       </div>
 
       {!data ? (
-        <div className="loading">Loading...</div>
+        <Loading />
       ) : (
         <>
           <div className="card" style={{ textAlign: "center", padding: "14px", marginBottom: 12 }}>

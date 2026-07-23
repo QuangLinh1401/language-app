@@ -1,6 +1,7 @@
 import { useEffect, useState, useRef } from "react";
 import { Link, useParams, useNavigate } from "react-router-dom";
 import { api } from "../api.js";
+import Loading from "../components/Loading.jsx";
 
 const speeds = [0.75, 1, 1.25, 1.5];
 
@@ -27,7 +28,7 @@ export default function ListeningLesson() {
     };
   }, [lessonId]);
 
-  if (!lesson) return <div className="loading">Loading lesson...</div>;
+  if (!lesson) return <Loading text="Loading lesson..." />;
 
   function play() {
     if (!window.speechSynthesis) {

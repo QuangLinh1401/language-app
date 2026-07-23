@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import { useNavigate, useLocation } from "react-router-dom";
 import { api } from "../api.js";
+import Loading from "../components/Loading.jsx";
 
 function renderBold(text) {
   const parts = text.split(/(\*\*[^*]+\*\*)/g);
@@ -43,7 +44,7 @@ export default function VocabPractice() {
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
-  if (loading || !passage) return <div className="loading">Generating your practice reading...</div>;
+  if (loading || !passage) return <Loading text="Generating your practice reading..." />;
 
   const correctCount = passage.questions.filter((q) => answers[q.id] === q.answer).length;
 

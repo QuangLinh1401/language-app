@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import { api } from "../api.js";
 import { getCustomExample } from "../customExamples.js";
 import Icon from "./Icon.jsx";
+import Loading from "./Loading.jsx";
 
 function speak(text, rate = 0.95) {
   if (!window.speechSynthesis) return;
@@ -105,7 +106,7 @@ export default function WordDetailModal({ wordId, onClose }) {
 
         {!detail ? (
           <div className="modal-scroll" style={{ padding: "26px 22px" }}>
-            <div className="loading">Loading word details...</div>
+            <Loading text="Loading word details..." />
           </div>
         ) : (
           <>

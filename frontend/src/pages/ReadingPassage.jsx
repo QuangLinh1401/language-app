@@ -1,6 +1,7 @@
 import { useEffect, useRef, useState } from "react";
 import { useParams, useNavigate } from "react-router-dom";
 import { api } from "../api.js";
+import Loading from "../components/Loading.jsx";
 
 export default function ReadingPassage() {
   const { passageId } = useParams();
@@ -22,7 +23,7 @@ export default function ReadingPassage() {
     startRef.current = Date.now();
   }, [passageId]);
 
-  if (!passage) return <div className="loading">Loading passage...</div>;
+  if (!passage) return <Loading text="Loading passage..." />;
 
   const correctCount = passage.questions.filter(
     (q) => answers[q.id] === q.answer

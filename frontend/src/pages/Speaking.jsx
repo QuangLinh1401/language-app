@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import { api } from "../api.js";
 import Icon from "../components/Icon.jsx";
+import Loading from "../components/Loading.jsx";
 
 export default function Speaking() {
   const [shadowing, setShadowing] = useState(null);
@@ -13,7 +14,7 @@ export default function Speaking() {
     api.speaking.dialogues().then(setDialogues);
   }, []);
 
-  if (!shadowing || !dialogues) return <div className="loading">Loading...</div>;
+  if (!shadowing || !dialogues) return <Loading />;
 
   const topics = [...new Set(shadowing.map((s) => s.topic))];
 

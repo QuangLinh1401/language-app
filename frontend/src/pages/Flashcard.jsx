@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import { useParams, useNavigate, useSearchParams } from "react-router-dom";
 import { api } from "../api.js";
 import StudySession from "../components/StudySession.jsx";
+import Loading from "../components/Loading.jsx";
 
 export default function Flashcard() {
   const { topicId } = useParams();
@@ -22,7 +23,7 @@ export default function Flashcard() {
     setDone(false);
   }, [topicId, levelFilter]);
 
-  if (!words) return <div className="loading">Loading flashcards...</div>;
+  if (!words) return <Loading text="Loading flashcards..." />;
 
   if (done) {
     return (

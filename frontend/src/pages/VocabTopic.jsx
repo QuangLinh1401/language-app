@@ -3,6 +3,7 @@ import { Link, useParams, useSearchParams } from "react-router-dom";
 import { api } from "../api.js";
 import WordDetailModal from "../components/WordDetailModal.jsx";
 import Icon, { TOPIC_ICONS } from "../components/Icon.jsx";
+import Loading from "../components/Loading.jsx";
 
 function speak(text) {
   if (!window.speechSynthesis) return;
@@ -28,7 +29,7 @@ export default function VocabTopic() {
 
   useEffect(() => { setPage(0); }, [topicId, levelFilter]);
 
-  if (!topic) return <div className="loading">Loading...</div>;
+  if (!topic) return <Loading />;
 
   const levels = ["all", "A1", "A2", "B1", "B2"];
   const shown = levelFilter === "all" ? topic.words : topic.words.filter((w) => w.level === levelFilter);
