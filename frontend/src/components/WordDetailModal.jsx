@@ -90,7 +90,7 @@ export default function WordDetailModal({ wordId, onClose }) {
 
   const hasDefinitions = Boolean(detail?.usage || dict || detail?.grammarNote || detail?.synonyms?.length || detail?.collocations?.length);
   const hasExamples = examples.length > 0;
-  const hasNotes = Boolean(detail?.phrase || detail?.family || customExample || detail?.progress);
+  const hasNotes = Boolean(detail?.phrase || detail?.family || customExample);
 
   const tabs = [
     hasDefinitions && { id: "definitions", label: "Definitions" },
@@ -267,11 +267,6 @@ export default function WordDetailModal({ wordId, onClose }) {
                   )}
                   {customExample && (
                     <div style={{ fontSize: 12.5, color: "var(--teal-deep)", marginTop: 10 }}>✏️ {customExample}</div>
-                  )}
-                  {detail.progress && (
-                    <div style={{ fontSize: 11, color: "var(--ink-soft)", marginTop: 10 }}>
-                      Reviewed {detail.progress.reps || 0} {detail.progress.reps === 1 ? "time" : "times"}
-                    </div>
                   )}
                 </>
               )}

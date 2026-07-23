@@ -13,11 +13,12 @@ export default function Home() {
   }, []);
 
   const modules = [
-    { to: "/vocabulary", iconName: "book", bg: "#EAF3F1", name: "Vocabulary", desc: "3000+ words, A1 to B2" },
+    { to: "/vocabulary", iconName: "book", bg: "#EAF3F1", name: "Vocabulary", desc: "5000 words, A1 to B2" },
     { to: "/grammar", iconName: "pencil-ruler", bg: "#F1EAF7", name: "Grammar", desc: "86 lessons, A1 to B2" },
     { to: "/listening", iconName: "headphones", bg: "#EAF0F7", name: "Listening", desc: "30 listening lessons" },
     { to: "/reading", iconName: "newspaper", bg: "#FCEFE6", name: "Reading", desc: "20 passages + quizzes" },
     { to: "/speaking", iconName: "mic", bg: "#FDEBEA", name: "Speaking", desc: "Shadowing & dialogues" },
+    { to: "/vocabulary/browse", iconName: "flashcard", bg: "#E9F5EF", name: "Browse Words", desc: "Search & filter by status" },
     { to: "/progress", iconName: "chart", bg: "#FFF3E4", name: "Progress", desc: "See your learning stats" }
   ];
 
@@ -65,9 +66,6 @@ export default function Home() {
         </Link>
       )}
 
-      <div style={{ fontSize: 12.5, fontWeight: 700, color: "var(--ink-soft)", marginBottom: 8 }}>
-        Your 5 skills
-      </div>
       <div className="module-grid">
         {modules.map((m) => (
           <Link key={m.to} to={m.to} className="mod-card">

@@ -7,11 +7,20 @@ import Loading from "../components/Loading.jsx";
 
 const levels = ["all", "A1", "A2", "B1", "B2"];
 
+// The 4 knowledge stages — practice words stuck at any stage to level them up.
+const stages = [
+  { id: "recognition", label: "Lv1 · Seen", hint: "You've met these words — push them to recall" },
+  { id: "recall", label: "Lv2 · Recall", hint: "You remember the meaning — try them in context" },
+  { id: "context", label: "Lv3 · Context", hint: "You understand them in sentences — now use them" },
+  { id: "mastered", label: "Lv4 · Mastered", hint: "A quick refresher so they stay sharp" }
+];
+
 export default function VocabReview() {
   const navigate = useNavigate();
   const [session, setSession] = useState(null);
   const [showAdvanced, setShowAdvanced] = useState(false);
   const [level, setLevel] = useState("all");
+  const [stage, setStage] = useState("recognition");
   const [customWords, setCustomWords] = useState(null);
   const [words, setWords] = useState(null);
   const [done, setDone] = useState(false);
@@ -33,17 +42,18 @@ export default function VocabReview() {
     setLimitSaving(false);
   }
 
-  async function loadAdvanced(lv) {
-    const opts = { status: "mastered", limit: 30 };
+  async function loadAdvanced(lv, st) {
+    setCustomWords(null);
+    const opts = { status: st, limit: 30 };
     if (lv !== "all") opts.level = lv;
     const r = await api.vocabulary.review(opts);
     setCustomWords(r.words);
   }
 
   useEffect(() => {
-    if (showAdvanced) loadAdvanced(level);
+    if (showAdvanced) loadAdvanced(level, stage);
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [showAdvanced, level]);
+  }, [showAdvanced, level, stage]);
 
   if (!session) return <Loading text="Loading today's session..." />;
 
@@ -158,11 +168,30 @@ export default function VocabReview() {
       </div>
 
       <button className="btn-ghost" onClick={() => setShowAdvanced((s) => !s)}>
-        {showAdvanced ? "Hide" : "Show"} mastered words
+        {showAdvanced ? "Hide" : "Practice by stage (Lv1–Lv4)"}
       </button>
 
       {showAdvanced && (
         <div style={{ marginTop: 16 }}>
+          <div style={{ fontSize: 12, fontWeight: 700, color: "var(--ink-soft)", marginBottom: 6 }}>Stage</div>
+          <div style={{ display: "flex", gap: 6, marginBottom: 10, flexWrap: "wrap" }}>
+            {stages.map((s) => (
+              <button
+                key={s.id}
+                onClick={() => setStage(s.id)}
+                className="pill"
+                style={{
+                  cursor: "pointer",
+                  background: stage === s.id ? "var(--teal)" : "#fff",
+                  color: stage === s.id ? "#fff" : "var(--teal-deep)",
+                  border: "1px solid var(--line)"
+                }}
+              >
+                {s.label}
+              </button>
+            ))}
+          </div>
+
           <div style={{ fontSize: 12, fontWeight: 700, color: "var(--ink-soft)", marginBottom: 6 }}>Level</div>
           <div style={{ display: "flex", gap: 6, marginBottom: 14, flexWrap: "wrap" }}>
             {levels.map((lv) => (
@@ -188,21 +217,17 @@ export default function VocabReview() {
             <>
               <div className="card" style={{ textAlign: "center", padding: "16px", marginBottom: 12 }}>
                 <div style={{ fontFamily: "'Nunito',sans-serif", fontWeight: 800, fontSize: 18, color: "var(--teal-deep)" }}>{customWords.length}</div>
-                <div style={{ fontSize: 11, color: "var(--ink-soft)" }}>mastered words for a quick refresher</div>
+                <div style={{ fontSize: 11, color: "var(--ink-soft)" }}>
+                  {stages.find((s) => s.id === stage)?.hint}
+                </div>
               </div>
               {customWords.length > 0 && (
-                <button className="btn-primary" onClick={() => setWords(customWords)}>Refresh these words</button>
+                <button className="btn-primary" onClick={() => setWords(customWords)}>Study these words</button>
               )}
             </>
           )}
         </div>
       )}
-
-      <div style={{ marginTop: 16, textAlign: "center" }}>
-        <Link to="/vocabulary/browse" style={{ fontSize: 12, color: "var(--teal)", fontWeight: 700 }}>
-          Browse all your vocabulary by status ›
-        </Link>
-      </div>
     </div>
   );
 }

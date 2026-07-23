@@ -3,9 +3,13 @@ import { Link, useSearchParams } from "react-router-dom";
 import { api } from "../api.js";
 import Icon from "../components/Icon.jsx";
 import Loading from "../components/Loading.jsx";
+import Pager from "../components/Pager.jsx";
+
+const PAGE_SIZE = 20;
 
 export default function Grammar() {
   const [lessons, setLessons] = useState(null);
+  const [page, setPage] = useState(0);
   const [searchParams, setSearchParams] = useSearchParams();
   const filter = searchParams.get("level") || "all";
 
@@ -13,10 +17,14 @@ export default function Grammar() {
     api.grammar.list().then(setLessons);
   }, []);
 
+  useEffect(() => { setPage(0); }, [filter]);
+
   if (!lessons) return <Loading text="Loading lessons..." />;
 
   const levels = ["all", "A1", "A2", "B1", "B2"];
   const shown = filter === "all" ? lessons : lessons.filter((l) => l.level === filter);
+  const pageCount = Math.max(1, Math.ceil(shown.length / PAGE_SIZE));
+  const paged = shown.slice(page * PAGE_SIZE, page * PAGE_SIZE + PAGE_SIZE);
 
   function setFilter(lv) {
     if (lv === "all") setSearchParams({});
@@ -47,14 +55,14 @@ export default function Grammar() {
       </div>
 
       <div className="card" style={{ padding: 0 }}>
-        {shown.map((l, i) => (
+        {paged.map((l, i) => (
           <Link
             key={l.id}
             to={`/grammar/${l.id}`}
             style={{
               display: "flex", alignItems: "center", justifyContent: "space-between",
               padding: "13px 14px", textDecoration: "none", color: "inherit",
-              borderBottom: i < shown.length - 1 ? "1px solid var(--line)" : "none"
+              borderBottom: i < paged.length - 1 ? "1px solid var(--line)" : "none"
             }}
           >
             <div>
@@ -65,6 +73,8 @@ export default function Grammar() {
           </Link>
         ))}
       </div>
+
+      <Pager page={page} pageCount={pageCount} onPage={setPage} />
     </div>
   );
 }

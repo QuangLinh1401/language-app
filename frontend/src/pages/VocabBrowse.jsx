@@ -5,6 +5,7 @@ import StudySession from "../components/StudySession.jsx";
 import { getCustomExample } from "../customExamples.js";
 import Icon from "../components/Icon.jsx";
 import Loading from "../components/Loading.jsx";
+import Pager from "../components/Pager.jsx";
 import { speak } from "../speech.js";
 
 const levels = ["all", "A1", "A2", "B1", "B2"];
@@ -44,12 +45,14 @@ export default function VocabBrowse() {
   const [page, setPage] = useState(0);
   const [query, setQuery] = useState("");
   const [searchResults, setSearchResults] = useState(null);
+  const [searchPage, setSearchPage] = useState(0);
   const searchTimer = useRef(null);
 
   // Debounced search across all 5000 words (English word or Vietnamese meaning).
   useEffect(() => {
     clearTimeout(searchTimer.current);
     const q = query.trim();
+    setSearchPage(0);
     if (q.length < 2) {
       setSearchResults(null);
       return;
@@ -132,7 +135,7 @@ export default function VocabBrowse() {
 
   return (
     <div>
-      <Link to="/vocabulary/review" className="backbtn">‹ Review</Link>
+      <Link to="/" className="backbtn">‹ Home</Link>
       <h1 className="page-title">Browse Vocabulary</h1>
       <p className="sub">See exactly which words you know, and pick any group to study</p>
 
@@ -157,13 +160,18 @@ export default function VocabBrowse() {
               {searchResults.count > searchResults.words.length ? ` (showing first ${searchResults.words.length})` : ""}
             </div>
             <div className="card" style={{ padding: 0 }}>
-              {searchResults.words.map(renderWordRow)}
+              {searchResults.words.slice(searchPage * PAGE_SIZE, searchPage * PAGE_SIZE + PAGE_SIZE).map(renderWordRow)}
               {searchResults.words.length === 0 && (
                 <div style={{ padding: 16, textAlign: "center", fontSize: 12.5, color: "var(--ink-soft)" }}>
                   No words found for "{query.trim()}".
                 </div>
               )}
             </div>
+            <Pager
+              page={searchPage}
+              pageCount={Math.max(1, Math.ceil(searchResults.words.length / PAGE_SIZE))}
+              onPage={setSearchPage}
+            />
           </>
         )
       ) : (
