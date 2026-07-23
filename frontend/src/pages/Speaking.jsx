@@ -20,6 +20,7 @@ export default function Speaking() {
 
   return (
     <div>
+      <Link to="/" className="backbtn">‹ Home</Link>
       <h1 className="page-title">Speaking</h1>
       <p className="sub">Shadow real sentences and dialogues out loud, at your own pace</p>
 

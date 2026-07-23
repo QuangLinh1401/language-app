@@ -33,6 +33,7 @@ export default function Grammar() {
 
   return (
     <div>
+      <Link to="/" className="backbtn">‹ Home</Link>
       <h1 className="page-title">Grammar</h1>
       <p className="sub">{lessons.length} lessons from A1 to B2</p>
 

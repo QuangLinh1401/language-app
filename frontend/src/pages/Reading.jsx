@@ -25,6 +25,7 @@ export default function Reading() {
 
   return (
     <div>
+      <Link to="/" className="backbtn">‹ Home</Link>
       <h1 className="page-title">Reading</h1>
       <p className="sub">{passages.length} passages · read carefully, then answer the quiz</p>
 

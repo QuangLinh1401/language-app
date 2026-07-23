@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+import { Link } from "react-router-dom";
 import { api } from "../api.js";
 import AnimatedIcon from "../components/AnimatedIcon.jsx";
 import Loading from "../components/Loading.jsx";
@@ -16,6 +17,7 @@ export default function Progress() {
 
   return (
     <div>
+      <Link to="/" className="backbtn">‹ Home</Link>
       <h1 className="page-title">Your Progress</h1>
       <p className="sub">A summary of your whole learning journey</p>
 

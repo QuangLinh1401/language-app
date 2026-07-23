@@ -155,7 +155,11 @@ export default function Home() {
 
   const cefr = estimateCefr(stats);
   const plan = progress?.studyPlan ? planStatus(progress.studyPlan, progress.wordsLearned) : null;
-  const xpPct = progress ? Math.round((progress.dailyXp / progress.dailyXpGoal) * 100) : 0;
+  // Main daily metric: new words started today vs the daily cap.
+  const newToday = session?.newIntroducedToday ?? 0;
+  const newLimit = session?.dailyNewLimit ?? 20;
+  const wordsPct = Math.round((newToday / newLimit) * 100);
+  const mastered = stats?.overall.mastered ?? null;
 
   // Today's plan — one card, no duplicate banners elsewhere.
   const planRows = [];
@@ -205,24 +209,23 @@ export default function Home() {
         </div>
       </div>
 
-      {/* 2. Compact daily goal strip */}
+      {/* 2. Compact daily goal strip — words, not XP */}
       <div className="goal-strip">
-        <Ring pct={xpPct} />
+        <Ring pct={wordsPct} />
         <div style={{ flex: 1, minWidth: 0 }}>
           <div style={{ fontWeight: 900, fontSize: 14.5, fontFamily: "'Nunito',sans-serif" }}>
-            {progress ? `${Math.min(progress.dailyXp, progress.dailyXpGoal)}/${progress.dailyXpGoal} XP today` : "Loading..."}
-            {progress && progress.dailyXp >= progress.dailyXpGoal && " 🎉"}
+            {session ? `${newToday}/${newLimit} new words today` : "Loading..."}
+            {session && newToday >= newLimit && " 🎉"}
           </div>
-          <div style={{ fontSize: 10.5, opacity: 0.9, marginTop: 2 }}>
-            {plan
-              ? `🎯 Week ${plan.week}/${plan.totalWeeks} · ${plan.emoji} ${plan.label} · ${plan.got}/${progress.studyPlan.targetWords} words`
-              : progress ? `${progress.wordsLearned} words · ${progress.xp} XP total` : ""}
-          </div>
-          {cefr && (
-            <div style={{ fontSize: 10.5, opacity: 0.85, marginTop: 1 }}>
-              🎓 {cefr.now === "starter" ? "Just starting out" : `Level ~${cefr.now}`}{cefr.next ? ` → ${cefr.next}` : ""}
+          {plan && (
+            <div style={{ fontSize: 10.5, opacity: 0.9, marginTop: 2 }}>
+              🎯 Week {plan.week}/{plan.totalWeeks} · {plan.emoji} {plan.label} · {plan.got}/{progress.studyPlan.targetWords} words
             </div>
           )}
+          <div style={{ fontSize: 10.5, opacity: 0.9, marginTop: plan ? 1 : 2 }}>
+            {mastered !== null ? `⭐ ${mastered} words mastered` : ""}
+            {cefr ? ` · 🎓 ${cefr.now === "starter" ? "just starting" : `~${cefr.now}`}${cefr.next ? ` → ${cefr.next}` : ""}` : ""}
+          </div>
         </div>
       </div>
 
@@ -274,8 +277,8 @@ export default function Home() {
 
       {/* 4. Today's plan */}
       {(planRows.length > 0 || queue?.items.length > 0) && (
-        <div className="card" style={{ marginBottom: 12 }}>
-          <div style={{ fontSize: 10.5, letterSpacing: "0.08em", textTransform: "uppercase", fontWeight: 800, color: "var(--teal-deep)", marginBottom: 8 }}>
+        <div className="card" style={{ marginBottom: 10, padding: "10px 14px" }}>
+          <div style={{ fontSize: 10, letterSpacing: "0.08em", textTransform: "uppercase", fontWeight: 800, color: "var(--teal-deep)", marginBottom: 4 }}>
             📅 Today's plan
           </div>
           {planRows.map((r, i) => (
@@ -298,17 +301,14 @@ export default function Home() {
         </div>
       )}
 
-      {/* 5. Fresh reading */}
-      <Link to="/vocabulary/practice" className="card" style={{ display: "block", marginBottom: 12, textDecoration: "none", color: "inherit" }}>
-        <div style={{ fontSize: 10.5, letterSpacing: "0.08em", textTransform: "uppercase", fontWeight: 800, color: "var(--coral-deep)", marginBottom: 6 }}>
-          📰 Fresh reading for today
+      {/* 5. Fresh reading — one slim row */}
+      <Link to="/vocabulary/practice" className="card" style={{ display: "flex", alignItems: "center", gap: 10, padding: "10px 14px", marginBottom: 12, textDecoration: "none", color: "inherit" }}>
+        <span style={{ fontSize: 18, flexShrink: 0 }}>📰</span>
+        <div style={{ flex: 1, minWidth: 0 }}>
+          <b style={{ fontSize: 12.5 }}>Fresh reading for today</b>
+          <div style={{ fontSize: 10.5, color: "var(--ink-soft)" }}>New passage from your words · mini quiz</div>
         </div>
-        <div style={{ display: "flex", alignItems: "center", gap: 10 }}>
-          <div style={{ flex: 1, fontSize: 12.5, color: "var(--ink-soft)" }}>
-            A new short passage built from <b style={{ color: "var(--ink)" }}>the words you're learning right now</b> — different every visit, with a mini quiz.
-          </div>
-          <span style={{ fontSize: 16 }}>›</span>
-        </div>
+        <span style={{ fontSize: 15 }}>›</span>
       </Link>
 
       {/* 6. Main navigation */}

@@ -21,6 +21,7 @@ export default function Vocabulary() {
 
   return (
     <div>
+      <Link to="/" className="backbtn">‹ Home</Link>
       <h1 className="page-title">Vocabulary</h1>
       <p className="sub">Pick a topic to learn new words or review them</p>
 
