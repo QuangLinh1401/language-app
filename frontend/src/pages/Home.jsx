@@ -35,9 +35,31 @@ function planStatus(plan, wordsLearned) {
   const got = Math.max(0, wordsLearned - plan.startWords);
   const pct = Math.min(100, Math.round((got / plan.targetWords) * 100));
   if (got >= plan.targetWords) return { week, totalWeeks, got, pct, emoji: "🏆", label: "Goal complete!" };
-  if (got >= expected * 1.15) return { week, totalWeeks, got, pct, emoji: "🚀", label: "Ahead of schedule" };
+  if (got >= expected * 1.15) return { week, totalWeeks, got, pct, emoji: "🚀", label: "Ahead" };
   if (got >= expected * 0.85) return { week, totalWeeks, got, pct, emoji: "✅", label: "On track" };
-  return { week, totalWeeks, got, pct, emoji: "⏰", label: "A bit behind — small sessions count!" };
+  return { week, totalWeeks, got, pct, emoji: "⏰", label: "Behind" };
+}
+
+// Circular XP progress ring for the compact daily-goal strip.
+function Ring({ pct, size = 46 }) {
+  const stroke = 5;
+  const r = (size - stroke) / 2;
+  const c = 2 * Math.PI * r;
+  return (
+    <svg width={size} height={size} style={{ flexShrink: 0 }}>
+      <circle cx={size / 2} cy={size / 2} r={r} stroke="rgba(255,255,255,0.3)" strokeWidth={stroke} fill="none" />
+      <circle
+        cx={size / 2} cy={size / 2} r={r}
+        stroke="var(--amber)" strokeWidth={stroke} fill="none"
+        strokeDasharray={c} strokeDashoffset={c * (1 - Math.min(100, pct) / 100)}
+        strokeLinecap="round" transform={`rotate(-90 ${size / 2} ${size / 2})`}
+        style={{ transition: "stroke-dashoffset 0.4s ease" }}
+      />
+      <text x="50%" y="54%" dominantBaseline="middle" textAnchor="middle" fill="#fff" fontSize="12" fontWeight="900" fontFamily="Nunito, sans-serif">
+        {pct >= 100 ? "✓" : `${Math.min(99, pct)}%`}
+      </text>
+    </svg>
+  );
 }
 
 const PLAN_TARGETS = [250, 500, 1000, 2000];
@@ -73,7 +95,8 @@ export default function Home() {
   const [openSearchWord, setOpenSearchWord] = useState(null);
   const searchTimer = useRef(null);
 
-  // Study plan setup
+  // Study plan modal
+  const [showGoal, setShowGoal] = useState(false);
   const [planTarget, setPlanTarget] = useState(500);
   const [planDays, setPlanDays] = useState(90);
   const [planSaving, setPlanSaving] = useState(false);
@@ -114,15 +137,17 @@ export default function Home() {
         date: localDate()
       });
       setProgress((p) => ({ ...p, studyPlan: r.studyPlan }));
+      setShowGoal(false);
     } finally {
       setPlanSaving(false);
     }
   }
 
-  async function clearPlan() {
+  async function removePlan() {
     if (!window.confirm("Remove your study plan?")) return;
     await api.progress.updateSettings({ studyPlan: null });
     setProgress((p) => ({ ...p, studyPlan: null }));
+    setShowGoal(false);
   }
 
   const needsPlacement =
@@ -130,6 +155,7 @@ export default function Home() {
 
   const cefr = estimateCefr(stats);
   const plan = progress?.studyPlan ? planStatus(progress.studyPlan, progress.wordsLearned) : null;
+  const xpPct = progress ? Math.round((progress.dailyXp / progress.dailyXpGoal) * 100) : 0;
 
   // Today's plan — one card, no duplicate banners elsewhere.
   const planRows = [];
@@ -152,24 +178,55 @@ export default function Home() {
 
   return (
     <div>
-      {/* 1. Header + streak — paddingRight leaves room for the settings gear */}
-      <div style={{ display: "flex", alignItems: "center", justifyContent: "space-between", marginBottom: 12, paddingRight: 44 }}>
-        <div>
+      {/* 1. Header + streak + goal button (settings gear floats top-right) */}
+      <div style={{ display: "flex", alignItems: "center", justifyContent: "space-between", gap: 8, marginBottom: 10, paddingRight: 44 }}>
+        <div style={{ minWidth: 0 }}>
           <div style={{ fontSize: 13, fontWeight: 700 }}>Hi {auth.username() || "there"} 👋</div>
           <div style={{ fontSize: 11, color: "var(--ink-soft)" }}>Let's learn some English today</div>
         </div>
-        <div className="pill" style={{ background: "var(--amber-soft)", borderColor: "var(--amber-line)", color: "#B5720F" }}>
-          <AnimatedIcon src="/icons/fire.lottie.json" fallback="/icons/fire.svg" size={18} />
-          {progress ? progress.streak.current : "…"} days
-          {progress?.streak?.freezes > 0 && (
-            <span title="Streak freezes — each one saves your streak if you miss a single day" style={{ marginLeft: 2 }}>
-              🧊{progress.streak.freezes > 1 ? `×${progress.streak.freezes}` : ""}
-            </span>
+        <div style={{ display: "flex", alignItems: "center", gap: 6, flexShrink: 0 }}>
+          <div className="pill" style={{ background: "var(--amber-soft)", borderColor: "var(--amber-line)", color: "#B5720F" }}>
+            <AnimatedIcon src="/icons/fire.lottie.json" fallback="/icons/fire.svg" size={18} />
+            {progress ? progress.streak.current : "…"}
+            {progress?.streak?.freezes > 0 && (
+              <span title="Streak freezes — each one saves your streak if you miss a single day">
+                🧊{progress.streak.freezes > 1 ? `×${progress.streak.freezes}` : ""}
+              </span>
+            )}
+          </div>
+          <button
+            className="pill"
+            onClick={() => setShowGoal(true)}
+            title={plan ? "Your study plan" : "Set a study goal"}
+            style={{ cursor: "pointer", padding: "6px 10px", background: plan ? "var(--teal)" : "var(--card)", color: plan ? "#fff" : "var(--teal-deep)", borderColor: plan ? "var(--teal)" : "var(--line)" }}
+          >
+            🎯
+          </button>
+        </div>
+      </div>
+
+      {/* 2. Compact daily goal strip */}
+      <div className="goal-strip">
+        <Ring pct={xpPct} />
+        <div style={{ flex: 1, minWidth: 0 }}>
+          <div style={{ fontWeight: 900, fontSize: 14.5, fontFamily: "'Nunito',sans-serif" }}>
+            {progress ? `${Math.min(progress.dailyXp, progress.dailyXpGoal)}/${progress.dailyXpGoal} XP today` : "Loading..."}
+            {progress && progress.dailyXp >= progress.dailyXpGoal && " 🎉"}
+          </div>
+          <div style={{ fontSize: 10.5, opacity: 0.9, marginTop: 2 }}>
+            {plan
+              ? `🎯 Week ${plan.week}/${plan.totalWeeks} · ${plan.emoji} ${plan.label} · ${plan.got}/${progress.studyPlan.targetWords} words`
+              : progress ? `${progress.wordsLearned} words · ${progress.xp} XP total` : ""}
+          </div>
+          {cefr && (
+            <div style={{ fontSize: 10.5, opacity: 0.85, marginTop: 1 }}>
+              🎓 {cefr.now === "starter" ? "Just starting out" : `Level ~${cefr.now}`}{cefr.next ? ` → ${cefr.next}` : ""}
+            </div>
           )}
         </div>
       </div>
 
-      {/* Quick dictionary — one slim row, used constantly */}
+      {/* 3. Quick dictionary */}
       <div style={{ position: "relative", marginBottom: 12 }}>
         <input
           className="text-input"
@@ -215,26 +272,9 @@ export default function Home() {
         </Link>
       )}
 
-      {/* 2. Main navigation — always visible without scrolling */}
-      <div className="module-grid">
-        {MODULES.map((m) => (
-          <Link key={m.to} to={m.to} className="mod-card" data-anim-hover>
-            <div className="ic" style={{ background: m.bg }}>
-              {m.anim ? (
-                <AnimatedIcon src={m.anim} fallback={m.icon} size={26} className="mod-icon" hover />
-              ) : (
-                <img src={m.icon} alt="" className="mod-icon" />
-              )}
-            </div>
-            <div className="name">{m.name}</div>
-            <div className="desc">{m.desc}</div>
-          </Link>
-        ))}
-      </div>
-
-      {/* 3. Today's plan — the one place for "what should I do today" */}
+      {/* 4. Today's plan */}
       {(planRows.length > 0 || queue?.items.length > 0) && (
-        <div className="card" style={{ marginBottom: 16 }}>
+        <div className="card" style={{ marginBottom: 12 }}>
           <div style={{ fontSize: 10.5, letterSpacing: "0.08em", textTransform: "uppercase", fontWeight: 800, color: "var(--teal-deep)", marginBottom: 8 }}>
             📅 Today's plan
           </div>
@@ -258,76 +298,8 @@ export default function Home() {
         </div>
       )}
 
-      {/* 4. Goal & progress summary */}
-      <div className="goal-ticket">
-        <div className="eyebrow" style={{ display: "flex", alignItems: "center" }}>
-          <span style={{ flex: 1 }}>
-            {plan ? `🎯 Study plan · Week ${plan.week}/${plan.totalWeeks} · ${plan.emoji} ${plan.label}` : "Daily goal"}
-          </span>
-          {plan && (
-            <button onClick={clearPlan} style={{ background: "none", border: "none", color: "#fff", opacity: 0.7, fontSize: 10, cursor: "pointer", fontFamily: "inherit", textDecoration: "underline" }}>
-              change
-            </button>
-          )}
-        </div>
-        <h3>{progress ? `${Math.min(progress.dailyXp, progress.dailyXpGoal)}/${progress.dailyXpGoal} XP today` : "Loading..."}</h3>
-        {progress && (
-          <div className="goal-bar">
-            <div className="goal-bar-fill" style={{ width: `${Math.min(100, Math.round((progress.dailyXp / progress.dailyXpGoal) * 100))}%` }} />
-          </div>
-        )}
-        {plan && (
-          <div style={{ fontSize: 11.5, marginTop: 8 }}>
-            {plan.got}/{progress.studyPlan.targetWords} words toward your goal ({plan.pct}%)
-          </div>
-        )}
-        <div style={{ fontSize: 12, marginTop: plan ? 4 : 8 }}>
-          {progress
-            ? progress.dailyXp >= progress.dailyXpGoal
-              ? `🎉 Goal reached! ${progress.wordsLearned} words · ${progress.xp} XP total`
-              : `${progress.wordsLearned} words learned · ${progress.xp} XP total`
-            : ""}
-        </div>
-        {cefr && (
-          <div style={{ fontSize: 11.5, marginTop: 4, opacity: 0.9 }}>
-            🎓 Estimated level: {cefr.now === "starter" ? "just starting out" : cefr.now}
-            {cefr.next ? ` → approaching ${cefr.next}` : ""}
-          </div>
-        )}
-      </div>
-
-      {progress && !progress.studyPlan && (
-        <div className="card" style={{ marginBottom: 16 }}>
-          <div style={{ fontSize: 10.5, letterSpacing: "0.08em", textTransform: "uppercase", fontWeight: 800, color: "var(--teal-deep)", marginBottom: 8 }}>
-            🎯 Set a goal to aim for
-          </div>
-          <div style={{ fontSize: 11.5, color: "var(--ink-soft)", marginBottom: 8 }}>
-            Daily XP feels better when it adds up to something big.
-          </div>
-          <div style={{ fontSize: 11, fontWeight: 700, color: "var(--ink-soft)", marginBottom: 4 }}>Learn</div>
-          <div style={{ display: "flex", gap: 6, flexWrap: "wrap", marginBottom: 8 }}>
-            {PLAN_TARGETS.map((t) => (
-              <button key={t} className="pill" onClick={() => setPlanTarget(t)} style={{ cursor: "pointer", background: planTarget === t ? "var(--teal)" : "var(--card)", color: planTarget === t ? "#fff" : "var(--teal-deep)", border: "1px solid var(--line)" }}>
-                {t} words
-              </button>
-            ))}
-          </div>
-          <div style={{ fontSize: 11, fontWeight: 700, color: "var(--ink-soft)", marginBottom: 4 }}>in</div>
-          <div style={{ display: "flex", gap: 6, flexWrap: "wrap", marginBottom: 10 }}>
-            {PLAN_DURATIONS.map((d) => (
-              <button key={d.days} className="pill" onClick={() => setPlanDays(d.days)} style={{ cursor: "pointer", background: planDays === d.days ? "var(--teal)" : "var(--card)", color: planDays === d.days ? "#fff" : "var(--teal-deep)", border: "1px solid var(--line)" }}>
-                {d.label}
-              </button>
-            ))}
-          </div>
-          <button className="btn-primary" disabled={planSaving} onClick={startPlan}>
-            {planSaving ? "Starting..." : `Start: ${planTarget} words in ${PLAN_DURATIONS.find((d) => d.days === planDays)?.label}`}
-          </button>
-        </div>
-      )}
-
-      {/* 5. Extra daily content, lowest priority */}
-      <Link to="/vocabulary/practice" className="card" style={{ display: "block", marginBottom: 16, textDecoration: "none", color: "inherit" }}>
+      {/* 5. Fresh reading */}
+      <Link to="/vocabulary/practice" className="card" style={{ display: "block", marginBottom: 12, textDecoration: "none", color: "inherit" }}>
         <div style={{ fontSize: 10.5, letterSpacing: "0.08em", textTransform: "uppercase", fontWeight: 800, color: "var(--coral-deep)", marginBottom: 6 }}>
           📰 Fresh reading for today
         </div>
@@ -338,6 +310,72 @@ export default function Home() {
           <span style={{ fontSize: 16 }}>›</span>
         </div>
       </Link>
+
+      {/* 6. Main navigation */}
+      <div className="module-grid">
+        {MODULES.map((m) => (
+          <Link key={m.to} to={m.to} className="mod-card" data-anim-hover>
+            <div className="ic" style={{ background: m.bg }}>
+              {m.anim ? (
+                <AnimatedIcon src={m.anim} fallback={m.icon} size={26} className="mod-icon" hover />
+              ) : (
+                <img src={m.icon} alt="" className="mod-icon" />
+              )}
+            </div>
+            <div className="name">{m.name}</div>
+            <div className="desc">{m.desc}</div>
+          </Link>
+        ))}
+      </div>
+
+      {/* Study plan modal (🎯 button) */}
+      {showGoal && (
+        <div className="modal-overlay" onClick={() => setShowGoal(false)}>
+          <div className="modal-sheet" onClick={(e) => e.stopPropagation()} style={{ maxWidth: 420 }}>
+            <button className="modal-close" onClick={() => setShowGoal(false)} aria-label="Close">✕</button>
+            <div className="modal-scroll" style={{ paddingTop: 24 }}>
+              <h2 className="page-title" style={{ fontSize: 20 }}>🎯 Study goal</h2>
+
+              {progress?.studyPlan && plan && (
+                <div className="card" style={{ margin: "12px 0", background: "var(--teal-soft)", borderColor: "var(--teal)" }}>
+                  <div style={{ fontSize: 13, fontWeight: 800, color: "var(--teal-deep)" }}>
+                    {progress.studyPlan.targetWords} words in {Math.round(progress.studyPlan.days / 30)} month{progress.studyPlan.days > 45 ? "s" : ""}
+                  </div>
+                  <div style={{ fontSize: 12, marginTop: 4 }}>
+                    Week {plan.week}/{plan.totalWeeks} · {plan.emoji} {plan.label} · {plan.got}/{progress.studyPlan.targetWords} words ({plan.pct}%)
+                  </div>
+                  <button className="btn-ghost" style={{ marginTop: 10, borderColor: "var(--bad)", color: "var(--bad-deep)" }} onClick={removePlan}>
+                    Remove this plan
+                  </button>
+                </div>
+              )}
+
+              <div style={{ fontSize: 11.5, color: "var(--ink-soft)", margin: "10px 0 8px" }}>
+                {progress?.studyPlan ? "Or start a new one:" : "Daily XP feels better when it adds up to something big."}
+              </div>
+              <div style={{ fontSize: 11, fontWeight: 700, color: "var(--ink-soft)", marginBottom: 4 }}>Learn</div>
+              <div style={{ display: "flex", gap: 6, flexWrap: "wrap", marginBottom: 8 }}>
+                {PLAN_TARGETS.map((t) => (
+                  <button key={t} className="pill" onClick={() => setPlanTarget(t)} style={{ cursor: "pointer", background: planTarget === t ? "var(--teal)" : "var(--card)", color: planTarget === t ? "#fff" : "var(--teal-deep)", border: "1px solid var(--line)" }}>
+                    {t} words
+                  </button>
+                ))}
+              </div>
+              <div style={{ fontSize: 11, fontWeight: 700, color: "var(--ink-soft)", marginBottom: 4 }}>in</div>
+              <div style={{ display: "flex", gap: 6, flexWrap: "wrap", marginBottom: 12 }}>
+                {PLAN_DURATIONS.map((d) => (
+                  <button key={d.days} className="pill" onClick={() => setPlanDays(d.days)} style={{ cursor: "pointer", background: planDays === d.days ? "var(--teal)" : "var(--card)", color: planDays === d.days ? "#fff" : "var(--teal-deep)", border: "1px solid var(--line)" }}>
+                    {d.label}
+                  </button>
+                ))}
+              </div>
+              <button className="btn-primary" disabled={planSaving} onClick={startPlan} style={{ marginBottom: 20 }}>
+                {planSaving ? "Starting..." : `Start: ${planTarget} words in ${PLAN_DURATIONS.find((d) => d.days === planDays)?.label}`}
+              </button>
+            </div>
+          </div>
+        </div>
+      )}
     </div>
   );
 }

@@ -723,3 +723,13 @@ h1.page-title {
 }
 .search-pop-row:last-child { border-bottom: none; }
 .search-pop-row:hover { background: var(--teal-soft); }
+
+/* Compact daily-goal strip under the header (teal gradient + XP ring) */
+.goal-strip {
+  display: flex; align-items: center; gap: 12px;
+  background: linear-gradient(120deg, var(--teal) 0%, var(--teal-deep) 100%);
+  color: #fff; border-radius: 18px; padding: 12px 14px; margin-bottom: 12px;
+}
+[data-theme="dark"] .goal-strip {
+  background: linear-gradient(120deg, #12857D 0%, #0A5F59 100%);
+}

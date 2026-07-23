@@ -4,6 +4,7 @@ import { api } from "../api.js";
 import StudySession from "../components/StudySession.jsx";
 import { getCustomExample } from "../customExamples.js";
 import Icon from "../components/Icon.jsx";
+import AnimatedIcon from "../components/AnimatedIcon.jsx";
 import Loading from "../components/Loading.jsx";
 import Pager from "../components/Pager.jsx";
 import { speak } from "../speech.js";
