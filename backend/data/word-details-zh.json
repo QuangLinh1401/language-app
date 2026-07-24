@@ -255,7 +255,7 @@
     "char": "起",
     "componentMeaning": "nổi, được",
     "hanViet": "KHỞI",
-    "pictographicOrigin": "Ghép bộ 走(đi, chạy) với 己 lấy âm — chữ hình thanh, nghĩa \"đứng dậy, khởi đầu\".",
+    "pictographicOrigin": "Bộ 走(đi) ghép 己 lấy âm — nghĩa \"đứng dậy, khởi đầu\".",
     "radical": "走(bộ tẩu)",
     "strokeCount": 10
    }
@@ -9086,7 +9086,7 @@
     "char": "教",
     "componentMeaning": "dạy",
     "hanViet": "GIÁO",
-    "pictographicOrigin": "Bộ 攵(cầm roi/thước) ghép 孝(hiếu) — người cầm thước DẠY, \"giáo dục\".",
+    "pictographicOrigin": "Bộ 攵(cầm roi/thước) ghép 孝(hiếu) — người cầm thước DẠY.",
     "radical": "攵(bộ phốc)",
     "strokeCount": 11
    },
@@ -9939,7 +9939,7 @@
     "char": "出",
     "componentMeaning": "ra",
     "hanViet": "XUẤT",
-    "pictographicOrigin": "Chữ giáp cốt vẽ hình một bàn chân bước ra khỏi hang — nghĩa \"ra, xuất\".",
+    "pictographicOrigin": "Chữ giáp cốt vẽ hình một bàn chân bước ra khỏi hang — nghĩa \"ra\".",
     "radical": "凵(bộ khảm)",
     "strokeCount": 5
    },
@@ -10348,7 +10348,7 @@
     "char": "开",
     "componentMeaning": "mở, điều khiển",
     "hanViet": "KHAI",
-    "pictographicOrigin": "Hai tay mở cánh cửa/then cài — nghĩa \"mở\".",
+    "pictographicOrigin": "Hai tay mở cánh cửa/then cài — nghĩa \"mở, bắt đầu\".",
     "radical": "廾(bộ củng)",
     "strokeCount": 4
    },
@@ -10677,7 +10677,7 @@
     "char": "进",
     "componentMeaning": "",
     "hanViet": "TIẾN",
-    "pictographicOrigin": "Bộ 辶(đi) ghép 井(giếng, hình vuông vắn) — bước thẳng về phía trước, \"tiến vào\".",
+    "pictographicOrigin": "Bộ 辶(đi) ghép 井(giếng, thẳng) — bước thẳng về phía trước, \"vào\".",
     "radical": "辶(bộ sước)",
     "strokeCount": 7
    }
@@ -11581,7 +11581,7 @@
     "char": "起",
     "componentMeaning": "dậy",
     "hanViet": "KHỞI",
-    "pictographicOrigin": "Ghép bộ 走(đi, chạy) với 己 lấy âm — chữ hình thanh, nghĩa \"đứng dậy, khởi đầu\".",
+    "pictographicOrigin": "Bộ 走(đi) ghép 己 lấy âm — nghĩa \"đứng dậy, khởi đầu\".",
     "radical": "走(bộ tẩu)",
     "strokeCount": 10
    },
@@ -12082,7 +12082,7 @@
     "char": "开",
     "componentMeaning": "",
     "hanViet": "KHAI",
-    "pictographicOrigin": "Hai tay mở cánh cửa/then cài — nghĩa \"mở\".",
+    "pictographicOrigin": "Hai tay mở cánh cửa/then cài — nghĩa \"mở, bắt đầu\".",
     "radical": "廾(bộ củng)",
     "strokeCount": 4
    }
@@ -13124,7 +13124,7 @@
     "char": "习",
     "componentMeaning": "luyện tập",
     "hanViet": "TẬP",
-    "pictographicOrigin": "Chữ giản thể từ 習, vốn vẽ hình đôi cánh chim non tập bay — nghĩa \"luyện tập, học\".",
+    "pictographicOrigin": "Vốn vẽ hình đôi cánh chim non tập bay — nghĩa \"luyện tập\".",
     "radical": "乙(bộ ất)",
     "strokeCount": 3
    }
@@ -13195,6 +13195,1929 @@
     "word": "学习"
    }
   ],
+  "usage": ""
+ },
+ "zh-verbs-2-1": {
+  "antonyms": [],
+  "characters": [
+   {
+    "char": "是",
+    "componentMeaning": "là",
+    "hanViet": "THỊ",
+    "pictographicOrigin": "Gồm 日(mặt trời) trên 正(ngay thẳng) — nghĩa gốc \"đúng, ngay chính\", sau dùng làm động từ \"là\".",
+    "radical": "日(bộ nhật)",
+    "strokeCount": 9
+   },
+   {
+    "char": "不",
+    "componentMeaning": "không",
+    "hanViet": "BẤT",
+    "pictographicOrigin": "Chữ giáp cốt vốn vẽ hình một bông hoa/quả đang khép cánh — mượn âm làm từ phủ định.",
+    "radical": "一(bộ nhất)",
+    "strokeCount": 4
+   },
+   {
+    "char": "是",
+    "componentMeaning": "là",
+    "hanViet": "THỊ",
+    "pictographicOrigin": "Gồm 日(mặt trời) trên 正(ngay thẳng) — nghĩa gốc \"đúng, ngay chính\", sau dùng làm động từ \"là\".",
+    "radical": "日(bộ nhật)",
+    "strokeCount": 9
+   }
+  ],
+  "collocations": [],
+  "compounds": [],
+  "distinguish": "",
+  "distinguishExample": "",
+  "grammarExample": "",
+  "grammarNote": "",
+  "image": "",
+  "mnemonic": "是不是 = lặp lại 是(là) với 不(không) ở giữa — hỏi khẳng định-phủ định, CÓ PHẢI KHÔNG.",
+  "partOfSpeech": "Cụm nghi vấn",
+  "senses": [
+   {
+    "meanings": [
+     {
+      "example": "你是不是学生？ (Nǐ shì bu shì xuésheng?) – Bạn có phải học sinh không?",
+      "meaning": "có phải... không"
+     }
+    ],
+    "partOfSpeech": "Cụm nghi vấn"
+   }
+  ],
+  "synonyms": [],
+  "usage": "Cấu trúc chính phản, thay thế cho câu hỏi dùng 吗."
+ },
+ "zh-verbs-2-10": {
+  "antonyms": [],
+  "characters": [
+   {
+    "char": "放",
+    "componentMeaning": "",
+    "hanViet": "PHÓNG",
+    "pictographicOrigin": "Bộ 攵(cầm roi, hành động) ghép 方 lấy âm — nghĩa \"đặt, thả\".",
+    "radical": "攵(bộ phốc)",
+    "strokeCount": 8
+   }
+  ],
+  "collocations": [],
+  "compounds": [],
+  "distinguish": "",
+  "distinguishExample": "",
+  "grammarExample": "",
+  "grammarNote": "",
+  "image": "📥",
+  "mnemonic": "放 = 攵(hành động) + 方(phương hướng) — hành động đưa vật theo một hướng rồi ĐẶT xuống hoặc THẢ ra.",
+  "partOfSpeech": "Động từ",
+  "senses": [
+   {
+    "meanings": [
+     {
+      "example": "把书放在桌子上。 (Bǎ shū fàng zài zhuōzi shàng.) – Đặt sách lên bàn.",
+      "meaning": "đặt, để"
+     },
+     {
+      "example": "放假了！ (Fàngjià le!) – Được nghỉ rồi!",
+      "meaning": "thả"
+     }
+    ],
+    "partOfSpeech": "Động từ"
+   }
+  ],
+  "synonyms": [],
+  "usage": ""
+ },
+ "zh-verbs-2-11": {
+  "antonyms": [],
+  "characters": [
+   {
+    "char": "带",
+    "componentMeaning": "",
+    "hanViet": "ĐỚI",
+    "pictographicOrigin": "Chữ giáp cốt vẽ hình một dải thắt lưng đeo vật dụng — mang theo bên mình.",
+    "radical": "巾(bộ cân)",
+    "strokeCount": 9
+   }
+  ],
+  "collocations": [],
+  "compounds": [],
+  "distinguish": "",
+  "distinguishExample": "",
+  "grammarExample": "",
+  "grammarNote": "",
+  "image": "🎒",
+  "mnemonic": "带 trông như một dải thắt lưng có đeo vật dụng — MANG THEO bên mình.",
+  "partOfSpeech": "Động từ",
+  "senses": [
+   {
+    "meanings": [
+     {
+      "example": "别忘了带雨伞。 (Bié wàngle dài yǔsǎn.) – Đừng quên mang ô.",
+      "meaning": "mang theo, dẫn"
+     }
+    ],
+    "partOfSpeech": "Động từ"
+   }
+  ],
+  "synonyms": [],
+  "usage": ""
+ },
+ "zh-verbs-2-12": {
+  "antonyms": [],
+  "characters": [
+   {
+    "char": "接",
+    "componentMeaning": "",
+    "hanViet": "TIẾP",
+    "pictographicOrigin": "Bộ 扌(tay) ghép 妾 lấy âm — dùng TAY đón nhận, \"tiếp đón, nghe (điện thoại)\".",
+    "radical": "扌(bộ thủ)",
+    "strokeCount": 11
+   }
+  ],
+  "collocations": [],
+  "compounds": [],
+  "distinguish": "",
+  "distinguishExample": "",
+  "grammarExample": "",
+  "grammarNote": "",
+  "image": "🤝",
+  "mnemonic": "接 = 扌(tay) + 妾 — dùng TAY đón nhận vật/người, TIẾP ĐÓN.",
+  "partOfSpeech": "Động từ",
+  "senses": [
+   {
+    "meanings": [
+     {
+      "example": "我去机场接你。 (Wǒ qù jīchǎng jiē nǐ.) – Tôi đi sân bay đón bạn.",
+      "meaning": "đón"
+     },
+     {
+      "example": "请接电话。 (Qǐng jiē diànhuà.) – Xin nghe điện thoại.",
+      "meaning": "nghe (điện thoại)"
+     }
+    ],
+    "partOfSpeech": "Động từ"
+   }
+  ],
+  "synonyms": [],
+  "usage": ""
+ },
+ "zh-verbs-2-13": {
+  "antonyms": [
+   {
+    "example": "见分辨\"忘记\"。",
+    "word": "忘记"
+   }
+  ],
+  "characters": [
+   {
+    "char": "记",
+    "componentMeaning": "nhớ",
+    "hanViet": "KÝ",
+    "pictographicOrigin": "Bộ 讠(lời nói) ghép 己(bản thân) — ghi nhớ trong đầu, \"nhớ, ghi\".",
+    "radical": "讠(bộ ngôn)",
+    "strokeCount": 5
+   },
+   {
+    "char": "得",
+    "componentMeaning": "được",
+    "hanViet": "ĐẮC",
+    "pictographicOrigin": "Bộ 彳(bước đi) ghép 贝(tiền) — trên đường đi nhặt được của cải, \"đạt được\".",
+    "radical": "彳(bộ xích)",
+    "strokeCount": 11
+   }
+  ],
+  "collocations": [],
+  "compounds": [],
+  "distinguish": "",
+  "distinguishExample": "",
+  "grammarExample": "",
+  "grammarNote": "",
+  "image": "🧠",
+  "mnemonic": "记得 = 记(ghi lại bằng lời 讠+ 己) + 得(đạt được) — giữ ĐƯỢC điều đã GHI trong đầu, NHỚ.",
+  "partOfSpeech": "Động từ",
+  "senses": [
+   {
+    "meanings": [
+     {
+      "example": "我还记得他的名字。 (Wǒ hái jìde tā de míngzi.) – Tôi vẫn nhớ tên anh ấy.",
+      "meaning": "nhớ (không quên)"
+     }
+    ],
+    "partOfSpeech": "Động từ"
+   }
+  ],
+  "synonyms": [],
+  "usage": ""
+ },
+ "zh-verbs-2-14": {
+  "antonyms": [
+   {
+    "example": "我忘记了，你记得吗？ (Wǒ wàngjìle, nǐ jìde ma?) – Tôi quên rồi, bạn còn nhớ không?",
+    "word": "记得"
+   }
+  ],
+  "characters": [
+   {
+    "char": "忘",
+    "componentMeaning": "quên",
+    "hanViet": "VONG",
+    "pictographicOrigin": "Bộ 心(tim) dưới 亡(mất) — điều gì đó MẤT khỏi TÂM TRÍ, \"quên\".",
+    "radical": "心(bộ tâm)",
+    "strokeCount": 7
+   },
+   {
+    "char": "记",
+    "componentMeaning": "nhớ",
+    "hanViet": "KÝ",
+    "pictographicOrigin": "Bộ 讠(lời nói) ghép 己(bản thân) — ghi nhớ trong đầu, \"nhớ, ghi\".",
+    "radical": "讠(bộ ngôn)",
+    "strokeCount": 5
+   }
+  ],
+  "collocations": [],
+  "compounds": [],
+  "distinguish": "",
+  "distinguishExample": "",
+  "grammarExample": "",
+  "grammarNote": "",
+  "image": "💭",
+  "mnemonic": "忘记 = 忘(tim 心 + mất 亡) + 记(ghi nhớ) — điều đã ghi bị MẤT khỏi TIM, QUÊN.",
+  "partOfSpeech": "Động từ",
+  "senses": [
+   {
+    "meanings": [
+     {
+      "example": "我忘记他的电话了。 (Wǒ wàngjì tā de diànhuà le.) – Tôi quên số điện thoại của anh ấy rồi.",
+      "meaning": "quên"
+     }
+    ],
+    "partOfSpeech": "Động từ"
+   }
+  ],
+  "synonyms": [],
+  "usage": ""
+ },
+ "zh-verbs-2-15": {
+  "antonyms": [],
+  "characters": [
+   {
+    "char": "迟",
+    "componentMeaning": "chậm",
+    "hanViet": "TRÌ",
+    "pictographicOrigin": "Bộ 辶(đi) — đi chậm, đến sau giờ hẹn, \"muộn\".",
+    "radical": "辶(bộ sước)",
+    "strokeCount": 7
+   },
+   {
+    "char": "到",
+    "componentMeaning": "đến",
+    "hanViet": "ĐÁO",
+    "pictographicOrigin": "Bộ 至(đến) ghép 刂 — nghĩa \"đến, tới nơi\".",
+    "radical": "刂(bộ đao)",
+    "strokeCount": 8
+   }
+  ],
+  "collocations": [],
+  "compounds": [],
+  "distinguish": "",
+  "distinguishExample": "",
+  "grammarExample": "",
+  "grammarNote": "",
+  "image": "⏰",
+  "mnemonic": "迟到 = 迟(đi chậm 辶) + 到(đến) — ĐI CHẬM nên ĐẾN muộn, ĐẾN MUỘN.",
+  "partOfSpeech": "Động từ",
+  "senses": [
+   {
+    "meanings": [
+     {
+      "example": "对不起，我迟到了。 (Duìbuqǐ, wǒ chídào le.) – Xin lỗi, tôi đến muộn.",
+      "meaning": "đến muộn"
+     }
+    ],
+    "partOfSpeech": "Động từ"
+   }
+  ],
+  "synonyms": [],
+  "usage": ""
+ },
+ "zh-verbs-2-16": {
+  "antonyms": [
+   {
+    "example": "见分辨\"出去\"。",
+    "word": "出去"
+   }
+  ],
+  "characters": [
+   {
+    "char": "进",
+    "componentMeaning": "vào",
+    "hanViet": "TIẾN",
+    "pictographicOrigin": "Bộ 辶(đi) ghép 井(giếng, thẳng) — bước thẳng về phía trước, \"vào\".",
+    "radical": "辶(bộ sước)",
+    "strokeCount": 7
+   },
+   {
+    "char": "来",
+    "componentMeaning": "đến",
+    "hanViet": "LAI",
+    "pictographicOrigin": "Chữ giáp cốt vẽ hình một cây lúa mì — mượn âm chỉ hành động \"đến, lại\".",
+    "radical": "一(bộ nhất)",
+    "strokeCount": 7
+   }
+  ],
+  "collocations": [],
+  "compounds": [],
+  "distinguish": "",
+  "distinguishExample": "",
+  "grammarExample": "",
+  "grammarNote": "",
+  "image": "🚪",
+  "mnemonic": "进来 = 进(vào, đi thẳng qua giếng 井) + 来(hướng về người nói) — bước VÀO và tiến lại, ĐI VÀO.",
+  "partOfSpeech": "Động từ",
+  "senses": [
+   {
+    "meanings": [
+     {
+      "example": "请进来。 (Qǐng jìnlái.) – Xin mời vào.",
+      "meaning": "đi vào"
+     }
+    ],
+    "partOfSpeech": "Động từ"
+   }
+  ],
+  "synonyms": [],
+  "usage": ""
+ },
+ "zh-verbs-2-17": {
+  "antonyms": [],
+  "characters": [
+   {
+    "char": "准",
+    "componentMeaning": "chuẩn",
+    "hanViet": "CHUẨN",
+    "pictographicOrigin": "Bộ 冫(băng, lạnh) ghép 隹(chim) — chim bay thẳng chuẩn xác, \"chuẩn, đúng\".",
+    "radical": "冫(bộ băng)",
+    "strokeCount": 10
+   },
+   {
+    "char": "备",
+    "componentMeaning": "bị",
+    "hanViet": "BỊ",
+    "pictographicOrigin": "Chữ giản thể, nghĩa liên quan tới chuẩn bị đầy đủ, \"trang bị, chuẩn bị\".",
+    "radical": "夂(bộ truy)",
+    "strokeCount": 8
+   }
+  ],
+  "collocations": [],
+  "compounds": [],
+  "distinguish": "",
+  "distinguishExample": "",
+  "grammarExample": "",
+  "grammarNote": "",
+  "image": "📝",
+  "mnemonic": "准备 = 准(chim bay chuẩn xác) + 备(trang bị đầy đủ) — làm mọi thứ CHUẨN XÁC và ĐẦY ĐỦ, CHUẨN BỊ.",
+  "partOfSpeech": "Động từ",
+  "senses": [
+   {
+    "meanings": [
+     {
+      "example": "我在准备考试。 (Wǒ zài zhǔnbèi kǎoshì.) – Tôi đang chuẩn bị thi.",
+      "meaning": "chuẩn bị"
+     }
+    ],
+    "partOfSpeech": "Động từ"
+   }
+  ],
+  "synonyms": [],
+  "usage": ""
+ },
+ "zh-verbs-2-18": {
+  "antonyms": [],
+  "characters": [
+   {
+    "char": "需",
+    "componentMeaning": "",
+    "hanViet": "NHU",
+    "pictographicOrigin": "Bộ 雨(mưa) trên 而 — chờ mưa tạnh mới đi, ý chỉ điều CẦN THIẾT phải chờ.",
+    "radical": "雨(bộ vũ)",
+    "strokeCount": 14
+   },
+   {
+    "char": "要",
+    "componentMeaning": "",
+    "hanViet": "YẾU",
+    "pictographicOrigin": "Bộ 西 trên 女 — nghĩa gốc liên quan tới eo lưng, mở rộng nghĩa \"muốn, cần, quan trọng\".",
+    "radical": "西(bộ tây)",
+    "strokeCount": 9
+   }
+  ],
+  "collocations": [],
+  "compounds": [],
+  "distinguish": "\"需要\" trang trọng hơn, nhấn mạnh nhu cầu khách quan; \"要\" ngắn gọn, dùng phổ biến trong khẩu ngữ.",
+  "distinguishExample": "我需要休息（nhu cầu khách quan） vs 我要喝水（mong muốn tức thời）。",
+  "grammarExample": "",
+  "grammarNote": "",
+  "image": "❗",
+  "mnemonic": "需要 = 需(chờ mưa tạnh 雨) + 要(muốn) — chờ đợi điều mình thực sự CẦN.",
+  "partOfSpeech": "Động từ",
+  "senses": [
+   {
+    "meanings": [
+     {
+      "example": "我需要你的帮助。 (Wǒ xūyào nǐ de bāngzhù.) – Tôi cần sự giúp đỡ của bạn.",
+      "meaning": "cần"
+     }
+    ],
+    "partOfSpeech": "Động từ"
+   }
+  ],
+  "synonyms": [
+   {
+    "example": "见分辨\"要\" ở phần zh-verbs-1。",
+    "word": "要"
+   }
+  ],
+  "usage": ""
+ },
+ "zh-verbs-2-19": {
+  "antonyms": [],
+  "characters": [
+   {
+    "char": "希",
+    "componentMeaning": "mong",
+    "hanViet": "HY",
+    "pictographicOrigin": "Bộ 巾(vải) ghép 爻 — vải đan thưa, mượn nghĩa \"mong mỏi, hiếm\".",
+    "radical": "巾(bộ cân)",
+    "strokeCount": 7
+   },
+   {
+    "char": "望",
+    "componentMeaning": "trông",
+    "hanViet": "VỌNG",
+    "pictographicOrigin": "Bộ 月(trăng) ghép 王 — người ngước nhìn TRĂNG xa xăm, \"trông mong, hy vọng\".",
+    "radical": "月(bộ nguyệt)",
+    "strokeCount": 11
+   }
+  ],
+  "collocations": [],
+  "compounds": [],
+  "distinguish": "",
+  "distinguishExample": "",
+  "grammarExample": "",
+  "grammarNote": "",
+  "image": "🌟",
+  "mnemonic": "希望 = 希(vải đan thưa, hiếm) + 望(ngước nhìn trăng 月) — ngước nhìn xa xăm mong điều HIẾM có, HY VỌNG.",
+  "partOfSpeech": "Động từ",
+  "senses": [
+   {
+    "meanings": [
+     {
+      "example": "我希望你成功。 (Wǒ xīwàng nǐ chénggōng.) – Tôi hy vọng bạn thành công.",
+      "meaning": "hy vọng"
+     }
+    ],
+    "partOfSpeech": "Động từ"
+   }
+  ],
+  "synonyms": [],
+  "usage": ""
+ },
+ "zh-verbs-2-2": {
+  "antonyms": [
+   {
+    "example": "见分辨\"有\"。",
+    "word": "有"
+   }
+  ],
+  "characters": [
+   {
+    "char": "没",
+    "componentMeaning": "không",
+    "hanViet": "MỘT/MÔ",
+    "pictographicOrigin": "Bộ 氵(nước) — hình ảnh người chìm xuống nước (nghĩa gốc \"chìm, mất\"), sau mượn làm từ phủ định.",
+    "radical": "氵(bộ thủy)",
+    "strokeCount": 7
+   },
+   {
+    "char": "有",
+    "componentMeaning": "có",
+    "hanViet": "HỮU",
+    "pictographicOrigin": "Chữ giáp cốt vẽ hình một bàn tay cầm miếng thịt — có thức ăn trong tay, nghĩa \"có\".",
+    "radical": "月(bộ nhục)",
+    "strokeCount": 6
+   }
+  ],
+  "collocations": [],
+  "compounds": [],
+  "distinguish": "",
+  "distinguishExample": "",
+  "grammarExample": "",
+  "grammarNote": "",
+  "image": "",
+  "mnemonic": "没有 = 没(không) + 有(có) — ghép phủ định trực tiếp, KHÔNG CÓ.",
+  "partOfSpeech": "Động từ",
+  "senses": [
+   {
+    "meanings": [
+     {
+      "example": "我没有兄弟姐妹。 (Wǒ méiyǒu xiōngdì jiěmèi.) – Tôi không có anh chị em.",
+      "meaning": "không có"
+     }
+    ],
+    "partOfSpeech": "Động từ"
+   }
+  ],
+  "synonyms": [],
+  "usage": ""
+ },
+ "zh-verbs-2-20": {
+  "antonyms": [],
+  "characters": [
+   {
+    "char": "应",
+    "componentMeaning": "nên",
+    "hanViet": "ỨNG",
+    "pictographicOrigin": "Chữ giản thể từ 應, có bộ 心(tim) — phản ứng, đáp lại, \"nên, đáp ứng\".",
+    "radical": "广(bộ nghiễm)",
+    "strokeCount": 7
+   },
+   {
+    "char": "该",
+    "componentMeaning": "phải",
+    "hanViet": "CAI",
+    "pictographicOrigin": "Bộ 讠(lời nói) ghép 亥 lấy âm — nghĩa \"nên, phải\" (trong 应该).",
+    "radical": "讠(bộ ngôn)",
+    "strokeCount": 8
+   }
+  ],
+  "collocations": [],
+  "compounds": [],
+  "distinguish": "",
+  "distinguishExample": "",
+  "grammarExample": "",
+  "grammarNote": "",
+  "image": "☑️",
+  "mnemonic": "应该 = 应(tim đáp lại) + 该(lời nói + hài, lấy âm) — trong LÒNG cảm thấy PHẢI làm, NÊN.",
+  "partOfSpeech": "Động từ",
+  "senses": [
+   {
+    "meanings": [
+     {
+      "example": "你应该早点睡觉。 (Nǐ yīnggāi zǎodiǎn shuìjiào.) – Bạn nên ngủ sớm hơn.",
+      "meaning": "nên, phải"
+     }
+    ],
+    "partOfSpeech": "Động từ"
+   }
+  ],
+  "synonyms": [],
+  "usage": ""
+ },
+ "zh-verbs-2-21": {
+  "antonyms": [],
+  "characters": [
+   {
+    "char": "让",
+    "componentMeaning": "",
+    "hanViet": "NHƯỢNG",
+    "pictographicOrigin": "Bộ 讠(lời nói) ghép 上 (giản thể) — dùng lời nhường nhịn, \"để cho, nhường\".",
+    "radical": "讠(bộ ngôn)",
+    "strokeCount": 5
+   }
+  ],
+  "collocations": [],
+  "compounds": [],
+  "distinguish": "",
+  "distinguishExample": "",
+  "grammarExample": "",
+  "grammarNote": "",
+  "image": "🙌",
+  "mnemonic": "让 = 讠(lời nói) + 上(giản thể) — dùng LỜI nhường nhịn người khác, ĐỂ CHO/NHƯỜNG.",
+  "partOfSpeech": "Động từ",
+  "senses": [
+   {
+    "meanings": [
+     {
+      "example": "妈妈让我早点回家。 (Māma ràng wǒ zǎodiǎn huíjiā.) – Mẹ bảo tôi về nhà sớm hơn.",
+      "meaning": "để cho, khiến"
+     },
+     {
+      "example": "让我先走。 (Ràng wǒ xiān zǒu.) – Nhường tôi đi trước.",
+      "meaning": "nhường"
+     }
+    ],
+    "partOfSpeech": "Động từ"
+   }
+  ],
+  "synonyms": [],
+  "usage": "让 dùng để tạo câu sai khiến: chủ ngữ + 让 + đối tượng + động từ."
+ },
+ "zh-verbs-2-22": {
+  "antonyms": [],
+  "characters": [
+   {
+    "char": "试",
+    "componentMeaning": "",
+    "hanViet": "THÍ",
+    "pictographicOrigin": "Bộ 讠(lời nói) ghép 式(khuôn mẫu) — kiểm tra theo khuôn mẫu bằng lời, \"thử, thi\".",
+    "radical": "讠(bộ ngôn)",
+    "strokeCount": 8
+   }
+  ],
+  "collocations": [],
+  "compounds": [
+   {
+    "example": "明天有考试。 (Míngtiān yǒu kǎoshì.) – Mai có kỳ thi.",
+    "meaning": "thi",
+    "pinyin": "kǎoshì",
+    "word": "考试"
+   }
+  ],
+  "distinguish": "",
+  "distinguishExample": "",
+  "grammarExample": "",
+  "grammarNote": "",
+  "image": "🧪",
+  "mnemonic": "试 = 讠(lời nói) + 式(khuôn mẫu) — kiểm tra theo KHUÔN MẪU bằng lời, THỬ.",
+  "partOfSpeech": "Động từ",
+  "senses": [
+   {
+    "meanings": [
+     {
+      "example": "你试一下吧。 (Nǐ shì yíxià ba.) – Bạn thử xem sao.",
+      "meaning": "thử"
+     }
+    ],
+    "partOfSpeech": "Động từ"
+   }
+  ],
+  "synonyms": [],
+  "usage": ""
+ },
+ "zh-verbs-2-23": {
+  "antonyms": [],
+  "characters": [
+   {
+    "char": "换",
+    "componentMeaning": "",
+    "hanViet": "HOÁN",
+    "pictographicOrigin": "Bộ 扌(tay) ghép 奂 lấy âm — dùng tay TRAO ĐỔI vật, \"đổi\".",
+    "radical": "扌(bộ thủ)",
+    "strokeCount": 10
+   }
+  ],
+  "collocations": [],
+  "compounds": [],
+  "distinguish": "",
+  "distinguishExample": "",
+  "grammarExample": "",
+  "grammarNote": "",
+  "image": "🔄",
+  "mnemonic": "换 = 扌(tay) + 奂 — dùng TAY trao đổi vật, ĐỔI.",
+  "partOfSpeech": "Động từ",
+  "senses": [
+   {
+    "meanings": [
+     {
+      "example": "我想换一件衣服。 (Wǒ xiǎng huàn yí jiàn yīfu.) – Tôi muốn đổi một chiếc áo khác.",
+      "meaning": "đổi"
+     }
+    ],
+    "partOfSpeech": "Động từ"
+   }
+  ],
+  "synonyms": [],
+  "usage": ""
+ },
+ "zh-verbs-2-24": {
+  "antonyms": [],
+  "characters": [
+   {
+    "char": "付",
+    "componentMeaning": "",
+    "hanViet": "PHÓ",
+    "pictographicOrigin": "Bộ 亻(người) ghép 寸(tấc, tay) — người TRAO tiền bằng tay, \"trả (tiền)\".",
+    "radical": "亻(bộ nhân)",
+    "strokeCount": 5
+   }
+  ],
+  "collocations": [],
+  "compounds": [],
+  "distinguish": "",
+  "distinguishExample": "",
+  "grammarExample": "",
+  "grammarNote": "",
+  "image": "💳",
+  "mnemonic": "付 = 亻(người) + 寸(tấc, bàn tay) — người TRAO tiền bằng bàn TAY, TRẢ (tiền).",
+  "partOfSpeech": "Động từ",
+  "senses": [
+   {
+    "meanings": [
+     {
+      "example": "我来付钱。 (Wǒ lái fù qián.) – Để tôi trả tiền.",
+      "meaning": "trả (tiền)"
+     }
+    ],
+    "partOfSpeech": "Động từ"
+   }
+  ],
+  "synonyms": [],
+  "usage": ""
+ },
+ "zh-verbs-2-25": {
+  "antonyms": [],
+  "characters": [
+   {
+    "char": "花",
+    "componentMeaning": "",
+    "hanViet": "HOA",
+    "pictographicOrigin": "Bộ 艹(cây cỏ) ghép 化(biến hóa) — cây biến hóa nở thành HOA; mở rộng nghĩa \"tiêu (tiền)\".",
+    "radical": "艹(bộ thảo)",
+    "strokeCount": 7
+   }
+  ],
+  "collocations": [],
+  "compounds": [],
+  "distinguish": "",
+  "distinguishExample": "",
+  "grammarExample": "",
+  "grammarNote": "",
+  "image": "🌸",
+  "mnemonic": "花 = 艹(cây cỏ) + 化(biến hóa) — cây biến hóa nở thành HOA; tiền cũng \"biến hóa\" biến mất khi TIÊU.",
+  "partOfSpeech": "Động từ · Danh từ",
+  "senses": [
+   {
+    "meanings": [
+     {
+      "example": "我花了很多钱。 (Wǒ huāle hěn duō qián.) – Tôi tiêu rất nhiều tiền.",
+      "meaning": "tiêu (tiền, thời gian)"
+     }
+    ],
+    "partOfSpeech": "Động từ"
+   },
+   {
+    "meanings": [
+     {
+      "example": "这些花很漂亮。 (Zhèxiē huā hěn piàoliang.) – Những bông hoa này rất đẹp.",
+      "meaning": "hoa"
+     }
+    ],
+    "partOfSpeech": "Danh từ"
+   }
+  ],
+  "synonyms": [],
+  "usage": ""
+ },
+ "zh-verbs-2-26": {
+  "antonyms": [
+   {
+    "example": "见分辨\"还\"。",
+    "word": "还"
+   }
+  ],
+  "characters": [
+   {
+    "char": "借",
+    "componentMeaning": "",
+    "hanViet": "TÁ",
+    "pictographicOrigin": "Bộ 亻(người) ghép 昔(xưa) — người mượn vật của người khác trong một khoảng thời gian, \"mượn\".",
+    "radical": "亻(bộ nhân)",
+    "strokeCount": 10
+   }
+  ],
+  "collocations": [],
+  "compounds": [],
+  "distinguish": "",
+  "distinguishExample": "",
+  "grammarExample": "",
+  "grammarNote": "",
+  "image": "📖",
+  "mnemonic": "借 = 亻(người) + 昔(xưa, thời gian đã qua) — người MƯỢN vật trong một khoảng THỜI GIAN.",
+  "partOfSpeech": "Động từ",
+  "senses": [
+   {
+    "meanings": [
+     {
+      "example": "我能借你的笔吗？ (Wǒ néng jiè nǐ de bǐ ma?) – Tôi mượn bút của bạn được không?",
+      "meaning": "mượn, cho mượn"
+     }
+    ],
+    "partOfSpeech": "Động từ"
+   }
+  ],
+  "synonyms": [],
+  "usage": "借 lưỡng nghĩa: vừa \"mượn của ai\" vừa \"cho ai mượn\" — phân biệt qua ngữ cảnh/giới từ đi kèm."
+ },
+ "zh-verbs-2-27": {
+  "antonyms": [
+   {
+    "example": "见分辨\"借\"。",
+    "word": "借"
+   }
+  ],
+  "characters": [
+   {
+    "char": "还",
+    "componentMeaning": "",
+    "hanViet": "HOÀN",
+    "pictographicOrigin": "Bộ 辶(đi) ghép 不见了(giản thể liên quan tới quay lại) — đi rồi QUAY LẠI trả, \"trả lại\".",
+    "radical": "辶(bộ sước)",
+    "strokeCount": 7
+   }
+  ],
+  "collocations": [],
+  "compounds": [],
+  "distinguish": "",
+  "distinguishExample": "",
+  "grammarExample": "",
+  "grammarNote": "",
+  "image": "↩️",
+  "mnemonic": "还 = 辶(đi) — ĐI rồi quay lại TRẢ LẠI vật đã mượn.",
+  "partOfSpeech": "Động từ",
+  "senses": [
+   {
+    "meanings": [
+     {
+      "example": "我明天还你钱。 (Wǒ míngtiān huán nǐ qián.) – Mai tôi trả tiền cho bạn.",
+      "meaning": "trả lại"
+     }
+    ],
+    "partOfSpeech": "Động từ"
+   }
+  ],
+  "synonyms": [],
+  "usage": "Chú ý: 还 đọc \"huán\" (trả lại) khác với 还 đọc \"hái\" (vẫn còn) — cùng chữ khác âm khác nghĩa."
+ },
+ "zh-verbs-2-28": {
+  "antonyms": [],
+  "characters": [
+   {
+    "char": "搬",
+    "componentMeaning": "",
+    "hanViet": "BAN",
+    "pictographicOrigin": "Bộ 扌(tay) ghép 般(loại, kiểu) — dùng TAY di chuyển đồ đạc, \"chuyển, dọn\".",
+    "radical": "扌(bộ thủ)",
+    "strokeCount": 13
+   }
+  ],
+  "collocations": [
+   {
+    "example": "他们刚搬家。 (Tāmen gāng bānjiā.) – Họ vừa mới chuyển nhà.",
+    "meaning": "chuyển nhà",
+    "phrase": "搬家",
+    "pinyin": "bānjiā"
+   }
+  ],
+  "compounds": [],
+  "distinguish": "",
+  "distinguishExample": "",
+  "grammarExample": "",
+  "grammarNote": "",
+  "image": "📦",
+  "mnemonic": "搬 = 扌(tay) + 般(kiểu, loại) — dùng TAY di chuyển đủ LOẠI đồ đạc, CHUYỂN/DỌN.",
+  "partOfSpeech": "Động từ",
+  "senses": [
+   {
+    "meanings": [
+     {
+      "example": "我们下个月搬家。 (Wǒmen xià ge yuè bānjiā.) – Tháng sau chúng tôi chuyển nhà.",
+      "meaning": "chuyển, dọn"
+     }
+    ],
+    "partOfSpeech": "Động từ"
+   }
+  ],
+  "synonyms": [],
+  "usage": ""
+ },
+ "zh-verbs-2-29": {
+  "antonyms": [
+   {
+    "example": "老师教，学生学。 (Lǎoshī jiāo, xuésheng xué.) – Thầy dạy, trò học.",
+    "word": "学"
+   }
+  ],
+  "characters": [
+   {
+    "char": "教",
+    "componentMeaning": "",
+    "hanViet": "GIÁO",
+    "pictographicOrigin": "Bộ 攵(cầm roi/thước) ghép 孝(hiếu) — người cầm thước DẠY.",
+    "radical": "攵(bộ phốc)",
+    "strokeCount": 11
+   }
+  ],
+  "collocations": [],
+  "compounds": [],
+  "distinguish": "",
+  "distinguishExample": "",
+  "grammarExample": "",
+  "grammarNote": "",
+  "image": "👩‍🏫",
+  "mnemonic": "教 = 攵(cầm roi) + 孝(hiếu) — người cầm THƯỚC (roi) DẠY con cháu đạo hiếu.",
+  "partOfSpeech": "Động từ",
+  "senses": [
+   {
+    "meanings": [
+     {
+      "example": "她教我们汉语。 (Tā jiāo wǒmen Hànyǔ.) – Cô ấy dạy chúng tôi tiếng Trung.",
+      "meaning": "dạy"
+     }
+    ],
+    "partOfSpeech": "Động từ"
+   }
+  ],
+  "synonyms": [],
+  "usage": ""
+ },
+ "zh-verbs-2-3": {
+  "antonyms": [
+   {
+    "example": "开始和结束。 (Kāishǐ hé jiéshù.) – Bắt đầu và kết thúc.",
+    "word": "结束"
+   }
+  ],
+  "characters": [
+   {
+    "char": "开",
+    "componentMeaning": "mở",
+    "hanViet": "KHAI",
+    "pictographicOrigin": "Hai tay mở cánh cửa/then cài — nghĩa \"mở, bắt đầu\".",
+    "radical": "廾(bộ củng)",
+    "strokeCount": 4
+   },
+   {
+    "char": "始",
+    "componentMeaning": "bắt đầu",
+    "hanViet": "THỦY",
+    "pictographicOrigin": "Bộ 女(nữ) ghép 台 lấy âm — nghĩa \"bắt đầu, khởi thủy\".",
+    "radical": "女(bộ nữ)",
+    "strokeCount": 8
+   }
+  ],
+  "collocations": [],
+  "compounds": [],
+  "distinguish": "",
+  "distinguishExample": "",
+  "grammarExample": "",
+  "grammarNote": "",
+  "image": "🎬",
+  "mnemonic": "开始 = 开(mở) + 始(nữ + đài, khởi thủy) — MỞ ra một khởi đầu mới, BẮT ĐẦU.",
+  "partOfSpeech": "Động từ",
+  "senses": [
+   {
+    "meanings": [
+     {
+      "example": "电影开始了。 (Diànyǐng kāishǐ le.) – Phim bắt đầu rồi.",
+      "meaning": "bắt đầu"
+     }
+    ],
+    "partOfSpeech": "Động từ"
+   }
+  ],
+  "synonyms": [],
+  "usage": ""
+ },
+ "zh-verbs-2-30": {
+  "antonyms": [],
+  "characters": [
+   {
+    "char": "练",
+    "componentMeaning": "luyện",
+    "hanViet": "LUYỆN",
+    "pictographicOrigin": "Bộ 纟(sợi tơ) ghép 东 lấy âm — luyện tơ cho mềm, mở rộng nghĩa \"luyện tập\".",
+    "radical": "纟(bộ mịch)",
+    "strokeCount": 8
+   },
+   {
+    "char": "习",
+    "componentMeaning": "tập",
+    "hanViet": "TẬP",
+    "pictographicOrigin": "Vốn vẽ hình đôi cánh chim non tập bay — nghĩa \"luyện tập\".",
+    "radical": "乙(bộ ất)",
+    "strokeCount": 3
+   }
+  ],
+  "collocations": [],
+  "compounds": [],
+  "distinguish": "\"练习\" luyện KỸ NĂNG mới; \"复习\" ôn lại kiến thức ĐÃ HỌC.",
+  "distinguishExample": "练习发音（luyện phát âm mới） vs 复习课文（ôn lại bài cũ）。",
+  "grammarExample": "",
+  "grammarNote": "",
+  "image": "🏋️",
+  "mnemonic": "练习 = 练(sợi tơ luyện mềm 纟) + 习(cánh chim tập bay) — LUYỆN cho thuần thục như chim TẬP bay.",
+  "partOfSpeech": "Động từ",
+  "senses": [
+   {
+    "meanings": [
+     {
+      "example": "多练习就能学会。 (Duō liànxí jiù néng xuéhuì.) – Luyện tập nhiều là học được.",
+      "meaning": "luyện tập"
+     }
+    ],
+    "partOfSpeech": "Động từ"
+   }
+  ],
+  "synonyms": [],
+  "usage": ""
+ },
+ "zh-verbs-2-31": {
+  "antonyms": [],
+  "characters": [
+   {
+    "char": "复",
+    "componentMeaning": "lặp lại",
+    "hanViet": "PHỤC",
+    "pictographicOrigin": "Chữ giản thể, nghĩa gốc \"quay trở lại, lặp lại\" — mở rộng \"ôn lại\".",
+    "radical": "夂(bộ truy)",
+    "strokeCount": 9
+   },
+   {
+    "char": "习",
+    "componentMeaning": "học",
+    "hanViet": "TẬP",
+    "pictographicOrigin": "Vốn vẽ hình đôi cánh chim non tập bay — nghĩa \"luyện tập\".",
+    "radical": "乙(bộ ất)",
+    "strokeCount": 3
+   }
+  ],
+  "collocations": [],
+  "compounds": [],
+  "distinguish": "",
+  "distinguishExample": "",
+  "grammarExample": "",
+  "grammarNote": "",
+  "image": "📔",
+  "mnemonic": "复习 = 复(lặp lại) + 习(học tập) — LẶP LẠI việc HỌC đã qua, ÔN TẬP.",
+  "partOfSpeech": "Động từ",
+  "senses": [
+   {
+    "meanings": [
+     {
+      "example": "考试前要复习。 (Kǎoshì qián yào fùxí.) – Trước khi thi phải ôn tập.",
+      "meaning": "ôn tập"
+     }
+    ],
+    "partOfSpeech": "Động từ"
+   }
+  ],
+  "synonyms": [],
+  "usage": "Xem phân biệt tại mục \"练习\"."
+ },
+ "zh-verbs-2-32": {
+  "antonyms": [],
+  "characters": [
+   {
+    "char": "考",
+    "componentMeaning": "kiểm tra",
+    "hanViet": "KHẢO",
+    "pictographicOrigin": "Chữ giáp cốt liên quan tới người già kiểm tra, xem xét — \"kiểm tra, thi\".",
+    "radical": "耂(bộ lão)",
+    "strokeCount": 6
+   },
+   {
+    "char": "试",
+    "componentMeaning": "thử",
+    "hanViet": "THÍ",
+    "pictographicOrigin": "Bộ 讠(lời nói) ghép 式(khuôn mẫu) — kiểm tra theo khuôn mẫu bằng lời, \"thử, thi\".",
+    "radical": "讠(bộ ngôn)",
+    "strokeCount": 8
+   }
+  ],
+  "collocations": [],
+  "compounds": [],
+  "distinguish": "",
+  "distinguishExample": "",
+  "grammarExample": "",
+  "grammarNote": "",
+  "image": "📝",
+  "mnemonic": "考试 = 考(người già kiểm tra 耂) + 试(thử bằng lời) — KIỂM TRA và THỬ sức, THI.",
+  "partOfSpeech": "Động từ · Danh từ",
+  "senses": [
+   {
+    "meanings": [
+     {
+      "example": "明天我们考试。 (Míngtiān wǒmen kǎoshì.) – Mai chúng tôi thi.",
+      "meaning": "thi, kỳ thi"
+     }
+    ],
+    "partOfSpeech": "Động từ · Danh từ"
+   }
+  ],
+  "synonyms": [],
+  "usage": ""
+ },
+ "zh-verbs-2-33": {
+  "antonyms": [],
+  "characters": [
+   {
+    "char": "参",
+    "componentMeaning": "",
+    "hanViet": "THAM",
+    "pictographicOrigin": "Chữ giản thể, nghĩa gốc liên quan tới các ngôi sao chòm Sâm — mở rộng nghĩa \"tham gia\".",
+    "radical": "厶(bộ khư)",
+    "strokeCount": 8
+   },
+   {
+    "char": "加",
+    "componentMeaning": "thêm vào",
+    "hanViet": "GIA",
+    "pictographicOrigin": "Bộ 力(sức lực) ghép 口(miệng) — dùng lời và sức để THÊM VÀO.",
+    "radical": "力(bộ lực)",
+    "strokeCount": 5
+   }
+  ],
+  "collocations": [],
+  "compounds": [],
+  "distinguish": "",
+  "distinguishExample": "",
+  "grammarExample": "",
+  "grammarNote": "",
+  "image": "🙋",
+  "mnemonic": "参加 = 参(chòm sao Sâm, nhiều thứ hội tụ) + 加(thêm vào 力+口) — THÊM MÌNH vào một nhóm, THAM GIA.",
+  "partOfSpeech": "Động từ",
+  "senses": [
+   {
+    "meanings": [
+     {
+      "example": "我想参加这个活动。 (Wǒ xiǎng cānjiā zhège huódòng.) – Tôi muốn tham gia hoạt động này.",
+      "meaning": "tham gia"
+     }
+    ],
+    "partOfSpeech": "Động từ"
+   }
+  ],
+  "synonyms": [],
+  "usage": ""
+ },
+ "zh-verbs-2-34": {
+  "antonyms": [
+   {
+    "example": "结婚容易，离婚难。 (Jiéhūn róngyì, líhūn nán.) – Kết hôn dễ, ly hôn khó.",
+    "word": "离婚"
+   }
+  ],
+  "characters": [
+   {
+    "char": "结",
+    "componentMeaning": "kết",
+    "hanViet": "KẾT",
+    "pictographicOrigin": "Bộ 纟(sợi tơ) ghép 吉(tốt lành) — buộc sợi tơ thành nút, \"kết, buộc\".",
+    "radical": "纟(bộ mịch)",
+    "strokeCount": 9
+   },
+   {
+    "char": "婚",
+    "componentMeaning": "hôn",
+    "hanViet": "HÔN",
+    "pictographicOrigin": "Bộ 女(nữ) ghép 昏(hoàng hôn) — lễ cưới cổ thường tổ chức lúc HOÀNG HÔN.",
+    "radical": "女(bộ nữ)",
+    "strokeCount": 11
+   }
+  ],
+  "collocations": [],
+  "compounds": [],
+  "distinguish": "",
+  "distinguishExample": "",
+  "grammarExample": "",
+  "grammarNote": "",
+  "image": "💍",
+  "mnemonic": "结婚 = 结(buộc sợi tơ 纟 thành nút) + 婚(nữ + hoàng hôn 昏) — BUỘC hai người lại trong lễ cưới lúc HOÀNG HÔN.",
+  "partOfSpeech": "Động từ",
+  "senses": [
+   {
+    "meanings": [
+     {
+      "example": "他们下个月结婚。 (Tāmen xià ge yuè jiéhūn.) – Tháng sau họ kết hôn.",
+      "meaning": "kết hôn"
+     }
+    ],
+    "partOfSpeech": "Động từ"
+   }
+  ],
+  "synonyms": [],
+  "usage": ""
+ },
+ "zh-verbs-2-35": {
+  "antonyms": [],
+  "characters": [
+   {
+    "char": "生",
+    "componentMeaning": "sinh ra",
+    "hanViet": "SINH",
+    "pictographicOrigin": "Chữ giáp cốt vẽ hình mầm cây nhú lên khỏi đất — nghĩa \"sinh ra, sống\".",
+    "radical": "生(bộ sinh)",
+    "strokeCount": 5
+   },
+   {
+    "char": "病",
+    "componentMeaning": "bệnh",
+    "hanViet": "BỆNH",
+    "pictographicOrigin": "Bộ 疒(dáng người nằm bệnh trên giường) — nghĩa \"bệnh, ốm\".",
+    "radical": "疒(bộ nạch)",
+    "strokeCount": 10
+   }
+  ],
+  "collocations": [],
+  "compounds": [],
+  "distinguish": "",
+  "distinguishExample": "",
+  "grammarExample": "",
+  "grammarNote": "",
+  "image": "🤒",
+  "mnemonic": "生病 = 生(sinh ra) + 病(người nằm bệnh 疒) — SINH ra BỆNH trong người, BỊ ỐM.",
+  "partOfSpeech": "Động từ",
+  "senses": [
+   {
+    "meanings": [
+     {
+      "example": "他生病了，没来上班。 (Tā shēngbìng le, méi lái shàngbān.) – Anh ấy bị ốm, không đi làm.",
+      "meaning": "bị ốm"
+     }
+    ],
+    "partOfSpeech": "Động từ"
+   }
+  ],
+  "synonyms": [],
+  "usage": ""
+ },
+ "zh-verbs-2-36": {
+  "antonyms": [],
+  "characters": [
+   {
+    "char": "感",
+    "componentMeaning": "cảm",
+    "hanViet": "CẢM",
+    "pictographicOrigin": "Bộ 心(tim) dưới 咸(đều) — trái tim CẢM NHẬN đầy đủ mọi thứ.",
+    "radical": "心(bộ tâm)",
+    "strokeCount": 13
+   },
+   {
+    "char": "冒",
+    "componentMeaning": "xông ra",
+    "hanViet": "MẠO",
+    "pictographicOrigin": "Chữ giáp cốt vẽ hình một cái mũ trùm lên mắt — nghĩa \"che lấp, xông ra\" (cảm mạo = bị gió độc xâm nhập).",
+    "radical": "冂(bộ quynh)",
+    "strokeCount": 9
+   }
+  ],
+  "collocations": [],
+  "compounds": [],
+  "distinguish": "",
+  "distinguishExample": "",
+  "grammarExample": "",
+  "grammarNote": "",
+  "image": "🤧",
+  "mnemonic": "感冒 = 感(tim cảm nhận 心) + 冒(mũ trùm mắt, xông ra) — cơ thể CẢM NHẬN gió độc XÔNG vào, BỊ CẢM.",
+  "partOfSpeech": "Động từ",
+  "senses": [
+   {
+    "meanings": [
+     {
+      "example": "我感冒了，有点儿咳嗽。 (Wǒ gǎnmào le, yǒudiǎnr késou.) – Tôi bị cảm, hơi ho.",
+      "meaning": "bị cảm"
+     }
+    ],
+    "partOfSpeech": "Động từ"
+   }
+  ],
+  "synonyms": [],
+  "usage": ""
+ },
+ "zh-verbs-2-37": {
+  "antonyms": [],
+  "characters": [
+   {
+    "char": "疼",
+    "componentMeaning": "",
+    "hanViet": "ĐỒNG",
+    "pictographicOrigin": "Bộ 疒(bệnh tật) ghép 冬 lấy âm — cảm giác ĐAU do bệnh.",
+    "radical": "疒(bộ nạch)",
+    "strokeCount": 10
+   }
+  ],
+  "collocations": [],
+  "compounds": [],
+  "distinguish": "",
+  "distinguishExample": "",
+  "grammarExample": "",
+  "grammarNote": "",
+  "image": "🤕",
+  "mnemonic": "疼 = 疒(bệnh tật) + 冬(mùa đông, lấy âm) — cảm giác khó chịu như BỆNH, ĐAU.",
+  "partOfSpeech": "Động từ · Tính từ",
+  "senses": [
+   {
+    "meanings": [
+     {
+      "example": "我头很疼。 (Wǒ tóu hěn téng.) – Tôi đau đầu.",
+      "meaning": "đau"
+     }
+    ],
+    "partOfSpeech": "Động từ · Tính từ"
+   }
+  ],
+  "synonyms": [],
+  "usage": ""
+ },
+ "zh-verbs-2-38": {
+  "antonyms": [
+   {
+    "example": "别哭了，笑一笑。 (Bié kū le, xiào yi xiào.) – Đừng khóc nữa, cười lên nào.",
+    "word": "笑"
+   }
+  ],
+  "characters": [
+   {
+    "char": "哭",
+    "componentMeaning": "",
+    "hanViet": "KHỐC",
+    "pictographicOrigin": "Hai chữ 口(miệng) trên 犬(chó) — hình ảnh miệng kêu gào thảm thiết, \"khóc\".",
+    "radical": "口(bộ khẩu)",
+    "strokeCount": 10
+   }
+  ],
+  "collocations": [],
+  "compounds": [],
+  "distinguish": "",
+  "distinguishExample": "",
+  "grammarExample": "",
+  "grammarNote": "",
+  "image": "😭",
+  "mnemonic": "哭 trông như hai cái miệng (口口) trên một con chó (犬) đang gào — hình ảnh KHÓC thảm thiết.",
+  "partOfSpeech": "Động từ",
+  "senses": [
+   {
+    "meanings": [
+     {
+      "example": "她哭了。 (Tā kū le.) – Cô ấy khóc rồi.",
+      "meaning": "khóc"
+     }
+    ],
+    "partOfSpeech": "Động từ"
+   }
+  ],
+  "synonyms": [],
+  "usage": ""
+ },
+ "zh-verbs-2-39": {
+  "antonyms": [
+   {
+    "example": "见分辨\"哭\"。",
+    "word": "哭"
+   }
+  ],
+  "characters": [
+   {
+    "char": "笑",
+    "componentMeaning": "",
+    "hanViet": "TIẾU",
+    "pictographicOrigin": "Bộ 竹(tre, hình lá tre cong như nét cười) trên 夭 — dáng người NGHIÊNG NGƯỜI CƯỜI.",
+    "radical": "竹(bộ trúc)",
+    "strokeCount": 10
+   }
+  ],
+  "collocations": [],
+  "compounds": [],
+  "distinguish": "",
+  "distinguishExample": "",
+  "grammarExample": "",
+  "grammarNote": "",
+  "image": "😄",
+  "mnemonic": "笑 = 竹(lá tre cong như nét cười) trên 夭(người nghiêng) — dáng người NGHIÊNG NGƯỜI CƯỜI.",
+  "partOfSpeech": "Động từ",
+  "senses": [
+   {
+    "meanings": [
+     {
+      "example": "他笑得很开心。 (Tā xiào de hěn kāixīn.) – Anh ấy cười rất vui vẻ.",
+      "meaning": "cười"
+     }
+    ],
+    "partOfSpeech": "Động từ"
+   }
+  ],
+  "synonyms": [],
+  "usage": ""
+ },
+ "zh-verbs-2-4": {
+  "antonyms": [],
+  "characters": [
+   {
+    "char": "完",
+    "componentMeaning": "",
+    "hanViet": "HOÀN",
+    "pictographicOrigin": "Bộ 宀(mái nhà) trên 元(đầu tiên, trọn vẹn) — công trình dưới mái nhà đã HOÀN THÀNH.",
+    "radical": "宀(bộ miên)",
+    "strokeCount": 7
+   }
+  ],
+  "collocations": [],
+  "compounds": [],
+  "distinguish": "",
+  "distinguishExample": "",
+  "grammarExample": "我吃完饭了。 (Wǒ chīwán fàn le.) – Tôi ăn cơm xong rồi.",
+  "grammarNote": "",
+  "image": "✅",
+  "mnemonic": "完 = 宀(mái nhà) trên 元(trọn vẹn) — công trình dưới mái nhà đã trọn vẹn, XONG.",
+  "partOfSpeech": "Động từ",
+  "senses": [
+   {
+    "meanings": [
+     {
+      "example": "作业写完了。 (Zuòyè xiěwán le.) – Bài tập viết xong rồi.",
+      "meaning": "xong, hết"
+     }
+    ],
+    "partOfSpeech": "Động từ"
+   }
+  ],
+  "synonyms": [],
+  "usage": "完 thường đứng sau động từ khác làm bổ ngữ kết quả: 吃完 (ăn xong), 做完 (làm xong)."
+ },
+ "zh-verbs-2-40": {
+  "antonyms": [],
+  "characters": [
+   {
+    "char": "下",
+    "componentMeaning": "rơi xuống",
+    "hanViet": "HẠ",
+    "pictographicOrigin": "Một nét ngang dài (mặt đất) với một nét ngắn phía dưới — biểu thị vị trí \"DƯỚI\".",
+    "radical": "一(bộ nhất)",
+    "strokeCount": 3
+   },
+   {
+    "char": "雨",
+    "componentMeaning": "mưa",
+    "hanViet": "VŨ",
+    "pictographicOrigin": "Chữ giáp cốt vẽ hình các giọt nước rơi từ mây — nghĩa \"mưa\".",
+    "radical": "雨(bộ vũ)",
+    "strokeCount": 8
+   }
+  ],
+  "collocations": [],
+  "compounds": [],
+  "distinguish": "",
+  "distinguishExample": "",
+  "grammarExample": "",
+  "grammarNote": "",
+  "image": "🌧️",
+  "mnemonic": "下雨 = 下(rơi xuống) + 雨(mưa, giọt nước từ mây) — nước MƯA RƠI XUỐNG.",
+  "partOfSpeech": "Động từ",
+  "senses": [
+   {
+    "meanings": [
+     {
+      "example": "外面在下雨。 (Wàimiàn zài xiàyǔ.) – Bên ngoài đang mưa.",
+      "meaning": "mưa"
+     }
+    ],
+    "partOfSpeech": "Động từ"
+   }
+  ],
+  "synonyms": [],
+  "usage": ""
+ },
+ "zh-verbs-2-41": {
+  "antonyms": [],
+  "characters": [
+   {
+    "char": "刮",
+    "componentMeaning": "thổi",
+    "hanViet": "QUÁT",
+    "pictographicOrigin": "Bộ 刂(dao) — hành động cạo, quét qua mạnh như dao, dùng chỉ GIÓ THỔI mạnh.",
+    "radical": "刂(bộ đao)",
+    "strokeCount": 8
+   },
+   {
+    "char": "风",
+    "componentMeaning": "gió",
+    "hanViet": "PHONG",
+    "pictographicOrigin": "Chữ giản thể, vốn liên quan tới hình con chim/rồng cuốn theo luồng khí — nghĩa \"gió\".",
+    "radical": "风(bộ phong)",
+    "strokeCount": 4
+   }
+  ],
+  "collocations": [],
+  "compounds": [],
+  "distinguish": "",
+  "distinguishExample": "",
+  "grammarExample": "",
+  "grammarNote": "",
+  "image": "💨",
+  "mnemonic": "刮风 = 刮(dao quét mạnh 刂) + 风(gió) — GIÓ THỔI quét mạnh như dao cạo.",
+  "partOfSpeech": "Động từ",
+  "senses": [
+   {
+    "meanings": [
+     {
+      "example": "今天刮风了。 (Jīntiān guāfēng le.) – Hôm nay có gió.",
+      "meaning": "nổi gió"
+     }
+    ],
+    "partOfSpeech": "Động từ"
+   }
+  ],
+  "synonyms": [],
+  "usage": ""
+ },
+ "zh-verbs-2-42": {
+  "antonyms": [],
+  "characters": [
+   {
+    "char": "下",
+    "componentMeaning": "rơi xuống",
+    "hanViet": "HẠ",
+    "pictographicOrigin": "Một nét ngang dài (mặt đất) với một nét ngắn phía dưới — biểu thị vị trí \"DƯỚI\".",
+    "radical": "一(bộ nhất)",
+    "strokeCount": 3
+   },
+   {
+    "char": "雪",
+    "componentMeaning": "tuyết",
+    "hanViet": "TUYẾT",
+    "pictographicOrigin": "Bộ 雨(mưa) trên 彐(bàn tay quét) — nước mưa đông thành bông TUYẾT có thể quét/gạt.",
+    "radical": "雨(bộ vũ)",
+    "strokeCount": 11
+   }
+  ],
+  "collocations": [],
+  "compounds": [],
+  "distinguish": "",
+  "distinguishExample": "",
+  "grammarExample": "",
+  "grammarNote": "",
+  "image": "❄️",
+  "mnemonic": "下雪 = 下(rơi xuống) + 雪(mưa 雨 + tay quét 彐) — bông TUYẾT RƠI XUỐNG.",
+  "partOfSpeech": "Động từ",
+  "senses": [
+   {
+    "meanings": [
+     {
+      "example": "北方冬天经常下雪。 (Běifāng dōngtiān jīngcháng xiàxuě.) – Miền Bắc mùa đông thường có tuyết rơi.",
+      "meaning": "tuyết rơi"
+     }
+    ],
+    "partOfSpeech": "Động từ"
+   }
+  ],
+  "synonyms": [],
+  "usage": ""
+ },
+ "zh-verbs-2-43": {
+  "antonyms": [],
+  "characters": [
+   {
+    "char": "打",
+    "componentMeaning": "đánh",
+    "hanViet": "ĐẢ",
+    "pictographicOrigin": "Bộ 扌(tay) ghép 丁 lấy âm — dùng TAY để đánh/thực hiện, \"đánh, gọi (điện thoại)\".",
+    "radical": "扌(bộ thủ)",
+    "strokeCount": 5
+   },
+   {
+    "char": "篮",
+    "componentMeaning": "giỏ",
+    "hanViet": "LAM",
+    "pictographicOrigin": "Bộ 竹(tre) — giỏ đan bằng tre, dùng trong \"bóng RỔ\".",
+    "radical": "竹(bộ trúc)",
+    "strokeCount": 16
+   },
+   {
+    "char": "球",
+    "componentMeaning": "quả bóng",
+    "hanViet": "CẦU",
+    "pictographicOrigin": "Bộ 王(ngọc) ghép 求 lấy âm — viên ngọc hình tròn, mở rộng nghĩa \"quả bóng\".",
+    "radical": "王(bộ ngọc)",
+    "strokeCount": 11
+   }
+  ],
+  "collocations": [],
+  "compounds": [],
+  "distinguish": "\"打篮球\" dùng động từ 打 (đánh, dùng tay); \"踢足球\" dùng động từ 踢 (đá, dùng chân) — mỗi môn thể thao có động từ riêng phù hợp cách chơi.",
+  "distinguishExample": "打篮球（dùng tay） vs 踢足球（dùng chân）。",
+  "grammarExample": "",
+  "grammarNote": "",
+  "image": "🏀",
+  "mnemonic": "打篮球 = 打(dùng tay) + 篮(giỏ tre 竹) + 球(quả bóng ngọc tròn) — dùng TAY ném bóng vào GIỎ, BÓNG RỔ.",
+  "partOfSpeech": "Động từ",
+  "senses": [
+   {
+    "meanings": [
+     {
+      "example": "他每天打篮球。 (Tā měitiān dǎ lánqiú.) – Anh ấy chơi bóng rổ mỗi ngày.",
+      "meaning": "chơi bóng rổ"
+     }
+    ],
+    "partOfSpeech": "Động từ"
+   }
+  ],
+  "synonyms": [],
+  "usage": ""
+ },
+ "zh-verbs-2-44": {
+  "antonyms": [],
+  "characters": [
+   {
+    "char": "踢",
+    "componentMeaning": "đá",
+    "hanViet": "DỊCH",
+    "pictographicOrigin": "Bộ 足(chân) ghép 易 lấy âm — dùng CHÂN đá.",
+    "radical": "足(bộ túc)",
+    "strokeCount": 15
+   },
+   {
+    "char": "足",
+    "componentMeaning": "chân",
+    "hanViet": "TÚC",
+    "pictographicOrigin": "Chữ giáp cốt vẽ hình một bàn chân với đầu gối — nghĩa \"chân\".",
+    "radical": "足(bộ túc)",
+    "strokeCount": 7
+   },
+   {
+    "char": "球",
+    "componentMeaning": "quả bóng",
+    "hanViet": "CẦU",
+    "pictographicOrigin": "Bộ 王(ngọc) ghép 求 lấy âm — viên ngọc hình tròn, mở rộng nghĩa \"quả bóng\".",
+    "radical": "王(bộ ngọc)",
+    "strokeCount": 11
+   }
+  ],
+  "collocations": [],
+  "compounds": [],
+  "distinguish": "",
+  "distinguishExample": "",
+  "grammarExample": "",
+  "grammarNote": "",
+  "image": "⚽",
+  "mnemonic": "踢足球 = 踢(dùng chân đá 足) + 足(chân) + 球(quả bóng) — dùng CHÂN đá quả BÓNG, BÓNG ĐÁ.",
+  "partOfSpeech": "Động từ",
+  "senses": [
+   {
+    "meanings": [
+     {
+      "example": "我们周末去踢足球。 (Wǒmen zhōumò qù tī zúqiú.) – Cuối tuần chúng tôi đi đá bóng.",
+      "meaning": "đá bóng"
+     }
+    ],
+    "partOfSpeech": "Động từ"
+   }
+  ],
+  "synonyms": [],
+  "usage": "Xem phân biệt tại mục \"打篮球\"."
+ },
+ "zh-verbs-2-45": {
+  "antonyms": [],
+  "characters": [
+   {
+    "char": "上",
+    "componentMeaning": "lên",
+    "hanViet": "THƯỢNG",
+    "pictographicOrigin": "Một nét ngang (mặt đất) với một nét ngắn phía trên — vị trí \"trên\".",
+    "radical": "一(bộ nhất)",
+    "strokeCount": 3
+   },
+   {
+    "char": "网",
+    "componentMeaning": "mạng",
+    "hanViet": "VÕNG",
+    "pictographicOrigin": "Chữ giáp cốt vẽ hình một tấm lưới đan — nghĩa \"lưới, mạng\".",
+    "radical": "冂(bộ quynh)",
+    "strokeCount": 6
+   }
+  ],
+  "collocations": [],
+  "compounds": [],
+  "distinguish": "",
+  "distinguishExample": "",
+  "grammarExample": "",
+  "grammarNote": "",
+  "image": "💻",
+  "mnemonic": "上网 = 上(lên) + 网(tấm lưới đan) — bước LÊN tấm LƯỚI thông tin toàn cầu, LÊN MẠNG.",
+  "partOfSpeech": "Động từ",
+  "senses": [
+   {
+    "meanings": [
+     {
+      "example": "我每天上网看新闻。 (Wǒ měitiān shàngwǎng kàn xīnwén.) – Tôi lên mạng đọc tin mỗi ngày.",
+      "meaning": "lên mạng"
+     }
+    ],
+    "partOfSpeech": "Động từ"
+   }
+  ],
+  "synonyms": [],
+  "usage": ""
+ },
+ "zh-verbs-2-5": {
+  "antonyms": [],
+  "characters": [
+   {
+    "char": "来",
+    "componentMeaning": "đến",
+    "hanViet": "LAI",
+    "pictographicOrigin": "Chữ giáp cốt vẽ hình một cây lúa mì — mượn âm chỉ hành động \"đến, lại\".",
+    "radical": "一(bộ nhất)",
+    "strokeCount": 7
+   },
+   {
+    "char": "到",
+    "componentMeaning": "tới",
+    "hanViet": "ĐÁO",
+    "pictographicOrigin": "Bộ 至(đến) ghép 刂 — nghĩa \"đến, tới nơi\".",
+    "radical": "刂(bộ đao)",
+    "strokeCount": 8
+   }
+  ],
+  "collocations": [],
+  "compounds": [],
+  "distinguish": "",
+  "distinguishExample": "",
+  "grammarExample": "",
+  "grammarNote": "",
+  "image": "📍",
+  "mnemonic": "来到 = 来(đến) + 到(tới nơi) — ghép đôi nhấn mạnh, ĐÃ ĐẾN NƠI.",
+  "partOfSpeech": "Động từ",
+  "senses": [
+   {
+    "meanings": [
+     {
+      "example": "我们来到了北京。 (Wǒmen láidàole Běijīng.) – Chúng tôi đã đến Bắc Kinh.",
+      "meaning": "đến nơi"
+     }
+    ],
+    "partOfSpeech": "Động từ"
+   }
+  ],
+  "synonyms": [],
+  "usage": ""
+ },
+ "zh-verbs-2-6": {
+  "antonyms": [
+   {
+    "example": "出去和进来。 (Chūqù hé jìnlái.) – Ra ngoài và đi vào.",
+    "word": "进来"
+   }
+  ],
+  "characters": [
+   {
+    "char": "出",
+    "componentMeaning": "ra",
+    "hanViet": "XUẤT",
+    "pictographicOrigin": "Chữ giáp cốt vẽ hình một bàn chân bước ra khỏi hang — nghĩa \"ra\".",
+    "radical": "凵(bộ khảm)",
+    "strokeCount": 5
+   },
+   {
+    "char": "去",
+    "componentMeaning": "đi",
+    "hanViet": "KHỨ",
+    "pictographicOrigin": "Chữ giáp cốt vẽ hình một người bước ra khỏi cửa hang — nghĩa \"đi, rời khỏi\".",
+    "radical": "厶(bộ khư)",
+    "strokeCount": 5
+   }
+  ],
+  "collocations": [],
+  "compounds": [],
+  "distinguish": "",
+  "distinguishExample": "",
+  "grammarExample": "",
+  "grammarNote": "",
+  "image": "🚶",
+  "mnemonic": "出去 = 出(ra, chân bước khỏi hang) + 去(đi, rời khỏi) — RA và ĐI, ĐI RA NGOÀI.",
+  "partOfSpeech": "Động từ",
+  "senses": [
+   {
+    "meanings": [
+     {
+      "example": "他出去了。 (Tā chūqù le.) – Anh ấy ra ngoài rồi.",
+      "meaning": "đi ra ngoài"
+     }
+    ],
+    "partOfSpeech": "Động từ"
+   }
+  ],
+  "synonyms": [],
+  "usage": ""
+ },
+ "zh-verbs-2-7": {
+  "antonyms": [],
+  "characters": [
+   {
+    "char": "起",
+    "componentMeaning": "dậy",
+    "hanViet": "KHỞI",
+    "pictographicOrigin": "Bộ 走(đi) ghép 己 lấy âm — nghĩa \"đứng dậy, khởi đầu\".",
+    "radical": "走(bộ tẩu)",
+    "strokeCount": 10
+   },
+   {
+    "char": "来",
+    "componentMeaning": "đến",
+    "hanViet": "LAI",
+    "pictographicOrigin": "Chữ giáp cốt vẽ hình một cây lúa mì — mượn âm chỉ hành động \"đến, lại\".",
+    "radical": "一(bộ nhất)",
+    "strokeCount": 7
+   }
+  ],
+  "collocations": [],
+  "compounds": [],
+  "distinguish": "",
+  "distinguishExample": "",
+  "grammarExample": "",
+  "grammarNote": "",
+  "image": "🙆",
+  "mnemonic": "起来 = 起(đứng dậy) + 来(hướng về phía người nói) — ĐỨNG DẬY và tiến lại, DẬY.",
+  "partOfSpeech": "Động từ",
+  "senses": [
+   {
+    "meanings": [
+     {
+      "example": "快起来吧！ (Kuài qǐlái ba!) – Dậy nhanh đi!",
+      "meaning": "đứng dậy, dậy"
+     }
+    ],
+    "partOfSpeech": "Động từ"
+   }
+  ],
+  "synonyms": [],
+  "usage": "起来 còn dùng làm bổ ngữ xu hướng sau động từ khác, diễn tả hành động bắt đầu và tiếp diễn: 笑起来 (cười lên)."
+ },
+ "zh-verbs-2-8": {
+  "antonyms": [],
+  "characters": [
+   {
+    "char": "送",
+    "componentMeaning": "",
+    "hanViet": "TỐNG",
+    "pictographicOrigin": "Bộ 辶(đi) — mang vật đi đưa cho ai, \"tặng, tiễn, giao\".",
+    "radical": "辶(bộ sước)",
+    "strokeCount": 9
+   }
+  ],
+  "collocations": [],
+  "compounds": [],
+  "distinguish": "",
+  "distinguishExample": "",
+  "grammarExample": "",
+  "grammarNote": "",
+  "image": "🎁",
+  "mnemonic": "送 = 辶(đi) — mang một vật ĐI trao cho ai, TẶNG/TIỄN/GIAO.",
+  "partOfSpeech": "Động từ",
+  "senses": [
+   {
+    "meanings": [
+     {
+      "example": "我送你一件礼物。 (Wǒ sòng nǐ yí jiàn lǐwù.) – Tôi tặng bạn một món quà.",
+      "meaning": "tặng"
+     },
+     {
+      "example": "我送你去机场。 (Wǒ sòng nǐ qù jīchǎng.) – Tôi đưa bạn ra sân bay.",
+      "meaning": "tiễn"
+     },
+     {
+      "example": "外卖已经送到了。 (Wàimài yǐjīng sòngdào le.) – Đồ ăn giao tận nơi đã đến rồi.",
+      "meaning": "giao (hàng)"
+     }
+    ],
+    "partOfSpeech": "Động từ"
+   }
+  ],
+  "synonyms": [],
+  "usage": ""
+ },
+ "zh-verbs-2-9": {
+  "antonyms": [],
+  "characters": [
+   {
+    "char": "拿",
+    "componentMeaning": "",
+    "hanViet": "NÃ",
+    "pictographicOrigin": "Bộ 合(hợp) trên 手(tay) — bàn TAY nắm giữ vật, \"cầm, lấy\".",
+    "radical": "手(bộ thủ)",
+    "strokeCount": 10
+   }
+  ],
+  "collocations": [],
+  "compounds": [],
+  "distinguish": "",
+  "distinguishExample": "",
+  "grammarExample": "",
+  "grammarNote": "",
+  "image": "🤲",
+  "mnemonic": "拿 = 合(khớp vào) trên 手(tay) — TAY khớp giữ chặt lấy vật, CẦM.",
+  "partOfSpeech": "Động từ",
+  "senses": [
+   {
+    "meanings": [
+     {
+      "example": "请拿好你的东西。 (Qǐng ná hǎo nǐ de dōngxi.) – Xin cầm chắc đồ của bạn.",
+      "meaning": "cầm, lấy"
+     }
+    ],
+    "partOfSpeech": "Động từ"
+   }
+  ],
+  "synonyms": [],
   "usage": ""
  }
 }
