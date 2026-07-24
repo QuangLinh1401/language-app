@@ -36246,5 +36246,1225 @@
   ],
   "synonyms": [],
   "usage": "Chỉ khu trung tâm/nội đô, đối lập 郊区."
+ },
+ "zh-places-transport-107": {
+  "antonyms": [],
+  "characters": [
+   {
+    "char": "首",
+    "hanViet": "THỦ",
+    "radical": "首(bộ thủ)",
+    "strokeCount": 9,
+    "componentMeaning": "đầu, đứng đầu",
+    "pictographicOrigin": "Vẽ cái đầu có tóc — nghĩa \"đầu, đứng đầu\"."
+   },
+   {
+    "char": "都",
+    "hanViet": "ĐÔ",
+    "radical": "阝(bộ ấp)",
+    "strokeCount": 10,
+    "componentMeaning": "đô thị lớn",
+    "pictographicOrigin": "Bộ 阝(ấp/thành) với 者 lấy âm — thành lớn, nghĩa \"đô thị\" (đọc dū)."
+   }
+  ],
+  "collocations": [],
+  "compounds": [
+   {
+    "word": "首先",
+    "pinyin": "shǒuxiān",
+    "meaning": "trước tiên",
+    "example": "首先要感谢大家。 (Shǒuxiān yào gǎnxiè dàjiā.) – Trước tiên phải cảm ơn mọi người."
+   },
+   {
+    "word": "都市",
+    "pinyin": "dūshì",
+    "meaning": "đô thị",
+    "example": "他喜欢都市生活。 (Tā xǐhuan dūshì shēnghuó.) – Anh ấy thích cuộc sống đô thị."
+   }
+  ],
+  "distinguish": "",
+  "distinguishExample": "",
+  "grammarExample": "",
+  "grammarNote": "",
+  "image": "",
+  "mnemonic": "首(đứng đầu) + 都(đô thị) = đô thị đứng đầu nước → thủ đô. Lưu ý 都 ở đây đọc dū.",
+  "partOfSpeech": "Danh từ",
+  "senses": [
+   {
+    "partOfSpeech": "Danh từ",
+    "meanings": [
+     {
+      "meaning": "thủ đô",
+      "example": "北京是中国的首都。 (Běijīng shì Zhōngguó de shǒudū.) – Bắc Kinh là thủ đô của Trung Quốc."
+     }
+    ]
+   }
+  ],
+  "synonyms": [],
+  "usage": "Chỉ thành phố trung tâm chính trị của một nước; 都 đọc dū (khác 都 dōu \"đều\")."
+ },
+ "zh-places-transport-108": {
+  "antonyms": [],
+  "characters": [
+   {
+    "char": "路",
+    "hanViet": "LỘ",
+    "radical": "足(bộ túc)",
+    "strokeCount": 13,
+    "componentMeaning": "đường",
+    "pictographicOrigin": "Bộ 足(chân) với 各 lấy âm — nơi chân đi, nghĩa \"đường\"."
+   },
+   {
+    "char": "线",
+    "hanViet": "TUYẾN",
+    "radical": "纟(bộ mịch)",
+    "strokeCount": 8,
+    "componentMeaning": "đường, sợi",
+    "pictographicOrigin": "Bộ 纟(sợi tơ) với 戋 — sợi mảnh, nghĩa \"đường, tuyến\"."
+   }
+  ],
+  "collocations": [],
+  "compounds": [
+   {
+    "word": "马路",
+    "pinyin": "mǎlù",
+    "meaning": "đường cái",
+    "example": "过马路要小心。 (Guò mǎlù yào xiǎoxīn.) – Qua đường phải cẩn thận."
+   },
+   {
+    "word": "路上",
+    "pinyin": "lùshang",
+    "meaning": "trên đường",
+    "example": "路上很堵。 (Lùshang hěn dǔ.) – Trên đường rất tắc."
+   }
+  ],
+  "distinguish": "",
+  "distinguishExample": "",
+  "grammarExample": "",
+  "grammarNote": "",
+  "image": "",
+  "mnemonic": "路(đường) + 线(tuyến) = đường đi vạch sẵn → tuyến đường.",
+  "partOfSpeech": "Danh từ",
+  "senses": [
+   {
+    "partOfSpeech": "Danh từ",
+    "meanings": [
+     {
+      "meaning": "tuyến đường, lộ trình",
+      "example": "这条路线最近。 (Zhè tiáo lùxiàn zuì jìn.) – Tuyến đường này gần nhất."
+     }
+    ]
+   }
+  ],
+  "synonyms": [],
+  "usage": "Chỉ lộ trình di chuyển (公交路线/旅游路线); đếm bằng 条."
+ },
+ "zh-places-transport-109": {
+  "antonyms": [],
+  "characters": [
+   {
+    "char": "距",
+    "hanViet": "CỰ",
+    "radical": "足(bộ túc)",
+    "strokeCount": 11,
+    "componentMeaning": "cách",
+    "pictographicOrigin": "Bộ 足(chân) với 巨 lấy âm — bước chân cách nhau, nghĩa \"khoảng cách\"."
+   },
+   {
+    "char": "离",
+    "hanViet": "LY",
+    "radical": "亠(bộ đầu)",
+    "strokeCount": 10,
+    "componentMeaning": "rời, cách",
+    "pictographicOrigin": "Giản hóa từ 離 — nghĩa \"rời xa, cách\"."
+   }
+  ],
+  "collocations": [],
+  "compounds": [
+   {
+    "word": "离开",
+    "pinyin": "líkāi",
+    "meaning": "rời khỏi",
+    "example": "他离开了家乡。 (Tā líkāi le jiāxiāng.) – Anh ấy rời quê hương."
+   },
+   {
+    "word": "距今",
+    "pinyin": "jùjīn",
+    "meaning": "cách nay",
+    "example": "距今一百年。 (Jùjīn yìbǎi nián.) – Cách nay một trăm năm."
+   }
+  ],
+  "distinguish": "",
+  "distinguishExample": "",
+  "grammarExample": "",
+  "grammarNote": "",
+  "image": "",
+  "mnemonic": "距(cách) + 离(rời) = mức rời xa nhau → khoảng cách.",
+  "partOfSpeech": "Danh từ",
+  "senses": [
+   {
+    "partOfSpeech": "Danh từ",
+    "meanings": [
+     {
+      "meaning": "khoảng cách (không gian)",
+      "example": "两地的距离很远。 (Liǎng dì de jùlí hěn yuǎn.) – Khoảng cách hai nơi rất xa."
+     },
+     {
+      "meaning": "khoảng cách (trừu tượng: quan hệ, trình độ)",
+      "example": "我们之间有距离。 (Wǒmen zhījiān yǒu jùlí.) – Giữa chúng tôi có khoảng cách."
+     }
+    ]
+   }
+  ],
+  "synonyms": [],
+  "usage": "Danh từ; hay đi với 距离…很远/很近 hoặc 缩短距离 (rút ngắn khoảng cách)."
+ },
+ "zh-places-transport-110": {
+  "antonyms": [],
+  "characters": [
+   {
+    "char": "穿",
+    "hanViet": "XUYÊN",
+    "radical": "穴(bộ huyệt)",
+    "strokeCount": 9,
+    "componentMeaning": "xuyên qua; mặc",
+    "pictographicOrigin": "Bộ 穴(hang) với 牙(răng) — răng khoét thủng, nghĩa \"xuyên thủng; mặc (chui qua)\"."
+   },
+   {
+    "char": "过",
+    "hanViet": "QUÁ",
+    "radical": "辶(bộ sước)",
+    "strokeCount": 6,
+    "componentMeaning": "qua",
+    "pictographicOrigin": "Bộ 辶(đi) với 寸 — đi qua, nghĩa \"vượt qua, qua\"."
+   }
+  ],
+  "collocations": [],
+  "compounds": [
+   {
+    "word": "穿",
+    "pinyin": "chuān",
+    "meaning": "mặc",
+    "example": "她穿着红色的裙子。 (Tā chuān zhe hóngsè de qúnzi.) – Cô ấy mặc váy đỏ."
+   },
+   {
+    "word": "经过",
+    "pinyin": "jīngguò",
+    "meaning": "đi qua, trải qua",
+    "example": "公交车经过学校。 (Gōngjiāochē jīngguò xuéxiào.) – Xe buýt đi qua trường."
+   }
+  ],
+  "distinguish": "",
+  "distinguishExample": "",
+  "grammarExample": "",
+  "grammarNote": "",
+  "image": "",
+  "mnemonic": "穿(xuyên) + 过(qua) = đi xuyên qua.",
+  "partOfSpeech": "Động từ",
+  "senses": [
+   {
+    "partOfSpeech": "Động từ",
+    "meanings": [
+     {
+      "meaning": "đi xuyên qua, băng qua",
+      "example": "我们穿过了公园。 (Wǒmen chuānguò le gōngyuán.) – Chúng tôi băng qua công viên."
+     }
+    ]
+   }
+  ],
+  "synonyms": [
+   {
+    "word": "通过",
+    "example": "通过隧道。 (Tōngguò suìdào.) – Đi qua đường hầm."
+   }
+  ],
+  "usage": "Mang tân ngữ là không gian (穿过马路/森林/人群); nhấn đi từ bên này sang bên kia."
+ },
+ "zh-places-transport-111": {
+  "antonyms": [],
+  "characters": [
+   {
+    "char": "十",
+    "hanViet": "THẬP",
+    "radical": "十(bộ thập)",
+    "strokeCount": 2,
+    "componentMeaning": "mười; hình chữ thập",
+    "pictographicOrigin": "Một vạch dọc cắt một vạch ngang — số mười, cũng gợi hình chữ thập."
+   },
+   {
+    "char": "字",
+    "hanViet": "TỰ",
+    "radical": "子(bộ tử)",
+    "strokeCount": 6,
+    "componentMeaning": "chữ",
+    "pictographicOrigin": "Bộ 宀(nhà) với 子(con) — sinh chữ trong nhà, nghĩa \"chữ\"."
+   },
+   {
+    "char": "路",
+    "hanViet": "LỘ",
+    "radical": "足(bộ túc)",
+    "strokeCount": 13,
+    "componentMeaning": "đường",
+    "pictographicOrigin": "Bộ 足(chân) với 各 — nghĩa \"đường\"."
+   },
+   {
+    "char": "口",
+    "hanViet": "KHẨU",
+    "radical": "口(bộ khẩu)",
+    "strokeCount": 3,
+    "componentMeaning": "cửa, chỗ giao",
+    "pictographicOrigin": "Vẽ cái miệng mở — nghĩa \"miệng, cửa, chỗ ra vào\"."
+   }
+  ],
+  "collocations": [],
+  "compounds": [
+   {
+    "word": "路口",
+    "pinyin": "lùkǒu",
+    "meaning": "ngã, chỗ rẽ",
+    "example": "在路口等我。 (Zài lùkǒu děng wǒ.) – Đợi tôi ở chỗ ngã đường."
+   },
+   {
+    "word": "十字",
+    "pinyin": "shízì",
+    "meaning": "chữ thập",
+    "example": "画一个十字。 (Huà yí ge shízì.) – Vẽ một hình chữ thập."
+   }
+  ],
+  "distinguish": "",
+  "distinguishExample": "",
+  "grammarExample": "",
+  "grammarNote": "",
+  "image": "",
+  "mnemonic": "十字(chữ thập) + 路口(chỗ đường giao) = đường giao nhau hình chữ thập → ngã tư.",
+  "partOfSpeech": "Danh từ",
+  "senses": [
+   {
+    "partOfSpeech": "Danh từ",
+    "meanings": [
+     {
+      "meaning": "ngã tư (đường giao nhau hình chữ thập)",
+      "example": "到十字路口向右拐。 (Dào shízì lùkǒu xiàng yòu guǎi.) – Đến ngã tư rẽ phải."
+     }
+    ]
+   }
+  ],
+  "synonyms": [],
+  "usage": "Chỉ nơi bốn ngả đường giao nhau; đi với 到/在…十字路口."
+ },
+ "zh-places-transport-112": {
+  "antonyms": [],
+  "characters": [
+   {
+    "char": "目",
+    "hanViet": "MỤC",
+    "radical": "目(bộ mục)",
+    "strokeCount": 5,
+    "componentMeaning": "mắt; mục tiêu",
+    "pictographicOrigin": "Vẽ con mắt — nghĩa \"mắt, mục tiêu\"."
+   },
+   {
+    "char": "的",
+    "hanViet": "ĐÍCH",
+    "radical": "白(bộ bạch)",
+    "strokeCount": 8,
+    "componentMeaning": "đích, mục tiêu (đọc dì)",
+    "pictographicOrigin": "Bộ 白(trắng) với 勺 — điểm sáng rõ, nghĩa \"đích, mục tiêu\"."
+   },
+   {
+    "char": "地",
+    "hanViet": "ĐỊA",
+    "radical": "土(bộ thổ)",
+    "strokeCount": 6,
+    "componentMeaning": "nơi, đất",
+    "pictographicOrigin": "Bộ 土(đất) với 也 lấy âm — nghĩa \"đất, nơi\"."
+   }
+  ],
+  "collocations": [],
+  "compounds": [
+   {
+    "word": "目标",
+    "pinyin": "mùbiāo",
+    "meaning": "mục tiêu",
+    "example": "我的目标是学好汉语。 (Wǒ de mùbiāo shì xué hǎo Hànyǔ.) – Mục tiêu của tôi là học giỏi tiếng Trung."
+   },
+   {
+    "word": "地方",
+    "pinyin": "dìfang",
+    "meaning": "nơi, chỗ",
+    "example": "这个地方很美。 (Zhège dìfang hěn měi.) – Nơi này rất đẹp."
+   }
+  ],
+  "distinguish": "",
+  "distinguishExample": "",
+  "grammarExample": "",
+  "grammarNote": "",
+  "image": "",
+  "mnemonic": "目的(mục đích) + 地(nơi) = nơi nhắm tới → điểm đến.",
+  "partOfSpeech": "Danh từ",
+  "senses": [
+   {
+    "partOfSpeech": "Danh từ",
+    "meanings": [
+     {
+      "meaning": "điểm đến, nơi định tới",
+      "example": "我们快到目的地了。 (Wǒmen kuài dào mùdìdì le.) – Chúng ta sắp đến điểm đến rồi."
+     }
+    ]
+   }
+  ],
+  "synonyms": [],
+  "usage": "Chỉ nơi cần đến của chuyến đi; 的 ở đây đọc dì."
+ },
+ "zh-places-transport-113": {
+  "antonyms": [
+   {
+    "word": "单程",
+    "example": "我只买单程票。 (Wǒ zhǐ mǎi dānchéng piào.) – Tôi chỉ mua vé một chiều."
+   }
+  ],
+  "characters": [
+   {
+    "char": "往",
+    "hanViet": "VÃNG",
+    "radical": "彳(bộ xích)",
+    "strokeCount": 8,
+    "componentMeaning": "đi, về phía",
+    "pictographicOrigin": "Bộ 彳(bước đi) với 主 — nghĩa \"đi về hướng\"."
+   },
+   {
+    "char": "返",
+    "hanViet": "PHẢN",
+    "radical": "辶(bộ sước)",
+    "strokeCount": 7,
+    "componentMeaning": "quay về",
+    "pictographicOrigin": "Bộ 辶(đi) với 反(ngược) — đi ngược lại, nghĩa \"trở về\"."
+   }
+  ],
+  "collocations": [],
+  "compounds": [
+   {
+    "word": "往",
+    "pinyin": "wǎng",
+    "meaning": "về phía",
+    "example": "往前走。 (Wǎng qián zǒu.) – Đi về phía trước."
+   },
+   {
+    "word": "返回",
+    "pinyin": "fǎnhuí",
+    "meaning": "quay lại",
+    "example": "他返回了公司。 (Tā fǎnhuí le gōngsī.) – Anh ấy quay lại công ty."
+   }
+  ],
+  "distinguish": "",
+  "distinguishExample": "",
+  "grammarExample": "",
+  "grammarNote": "",
+  "image": "",
+  "mnemonic": "往(đi) + 返(về) = đi rồi về → khứ hồi.",
+  "partOfSpeech": "Động từ / Danh từ",
+  "senses": [
+   {
+    "partOfSpeech": "Động từ",
+    "meanings": [
+     {
+      "meaning": "đi và về, khứ hồi",
+      "example": "每天往返于家和公司之间。 (Měitiān wǎngfǎn yú jiā hé gōngsī zhījiān.) – Hằng ngày đi về giữa nhà và công ty."
+     }
+    ]
+   }
+  ],
+  "synonyms": [],
+  "usage": "Chỉ việc đi và quay lại; hay đi với 往返票 (vé khứ hồi), 往返于A和B之间."
+ },
+ "zh-places-transport-114": {
+  "antonyms": [],
+  "characters": [
+   {
+    "char": "导",
+    "hanViet": "ĐẠO",
+    "radical": "寸(bộ thốn)",
+    "strokeCount": 6,
+    "componentMeaning": "dẫn dắt",
+    "pictographicOrigin": "Giản hóa từ 導 — bộ 寸(tay) dẫn đường, nghĩa \"dẫn dắt, hướng dẫn\"."
+   },
+   {
+    "char": "游",
+    "hanViet": "DU",
+    "radical": "氵(bộ thủy)",
+    "strokeCount": 12,
+    "componentMeaning": "đi chơi, bơi",
+    "pictographicOrigin": "Bộ 氵(nước) với 斿 — nghĩa \"bơi; ngao du\"."
+   }
+  ],
+  "collocations": [],
+  "compounds": [
+   {
+    "word": "旅游",
+    "pinyin": "lǚyóu",
+    "meaning": "du lịch",
+    "example": "我喜欢旅游。 (Wǒ xǐhuan lǚyóu.) – Tôi thích du lịch."
+   },
+   {
+    "word": "导演",
+    "pinyin": "dǎoyǎn",
+    "meaning": "đạo diễn",
+    "example": "他是电影导演。 (Tā shì diànyǐng dǎoyǎn.) – Anh ấy là đạo diễn phim."
+   }
+  ],
+  "distinguish": "",
+  "distinguishExample": "",
+  "grammarExample": "",
+  "grammarNote": "",
+  "image": "",
+  "mnemonic": "导(dẫn) + 游(đi chơi) = người dẫn khách đi chơi → hướng dẫn viên.",
+  "partOfSpeech": "Danh từ",
+  "senses": [
+   {
+    "partOfSpeech": "Danh từ",
+    "meanings": [
+     {
+      "meaning": "hướng dẫn viên du lịch",
+      "example": "导游给我们介绍风景。 (Dǎoyóu gěi wǒmen jièshào fēngjǐng.) – Hướng dẫn viên giới thiệu cảnh cho chúng tôi."
+     }
+    ]
+   }
+  ],
+  "synonyms": [],
+  "usage": "Chỉ người dẫn đoàn du lịch; đếm bằng 位/个."
+ },
+ "zh-places-transport-115": {
+  "antonyms": [
+   {
+    "word": "城市",
+    "example": "上海是个大城市。 (Shànghǎi shì ge dà chéngshì.) – Thượng Hải là thành phố lớn."
+   }
+  ],
+  "characters": [
+   {
+    "char": "乡",
+    "hanViet": "HƯƠNG",
+    "radical": "乙(bộ ất)",
+    "strokeCount": 3,
+    "componentMeaning": "quê, làng",
+    "pictographicOrigin": "Vốn vẽ hai người ngồi đối ăn — cộng đồng làng, nghĩa \"quê, hương\"."
+   },
+   {
+    "char": "村",
+    "hanViet": "THÔN",
+    "radical": "木(bộ mộc)",
+    "strokeCount": 7,
+    "componentMeaning": "thôn, làng",
+    "pictographicOrigin": "Bộ 木(cây) với 寸 — xóm có cây, nghĩa \"thôn làng\"."
+   }
+  ],
+  "collocations": [],
+  "compounds": [
+   {
+    "word": "农村",
+    "pinyin": "nóngcūn",
+    "meaning": "nông thôn",
+    "example": "爷爷住在农村。 (Yéye zhù zài nóngcūn.) – Ông sống ở nông thôn."
+   },
+   {
+    "word": "家乡",
+    "pinyin": "jiāxiāng",
+    "meaning": "quê hương",
+    "example": "我很想念家乡。 (Wǒ hěn xiǎngniàn jiāxiāng.) – Tôi rất nhớ quê."
+   }
+  ],
+  "distinguish": "",
+  "distinguishExample": "",
+  "grammarExample": "",
+  "grammarNote": "",
+  "image": "",
+  "mnemonic": "乡(quê) + 村(thôn) = thôn quê → làng quê.",
+  "partOfSpeech": "Danh từ",
+  "senses": [
+   {
+    "partOfSpeech": "Danh từ",
+    "meanings": [
+     {
+      "meaning": "làng quê, nông thôn",
+      "example": "他在乡村长大。 (Tā zài xiāngcūn zhǎngdà.) – Anh ấy lớn lên ở làng quê."
+     }
+    ]
+   }
+  ],
+  "synonyms": [],
+  "usage": "Chỉ vùng nông thôn, đối lập 城市; sắc thái thanh bình."
+ },
+ "zh-places-transport-116": {
+  "antonyms": [],
+  "characters": [
+   {
+    "char": "地",
+    "hanViet": "ĐỊA",
+    "radical": "土(bộ thổ)",
+    "strokeCount": 6,
+    "componentMeaning": "đất, nơi",
+    "pictographicOrigin": "Bộ 土(đất) với 也 lấy âm — nghĩa \"đất, nơi\"."
+   },
+   {
+    "char": "区",
+    "hanViet": "KHU",
+    "radical": "匚(bộ phương)",
+    "strokeCount": 4,
+    "componentMeaning": "khu, vùng",
+    "pictographicOrigin": "Giản hóa từ 區 — nghĩa \"khu vực\"."
+   }
+  ],
+  "collocations": [],
+  "compounds": [
+   {
+    "word": "地方",
+    "pinyin": "dìfang",
+    "meaning": "nơi",
+    "example": "这是个好地方。 (Zhè shì ge hǎo dìfang.) – Đây là nơi tốt."
+   },
+   {
+    "word": "郊区",
+    "pinyin": "jiāoqū",
+    "meaning": "ngoại ô",
+    "example": "他住在郊区。 (Tā zhù zài jiāoqū.) – Anh ấy sống ở ngoại ô."
+   }
+  ],
+  "distinguish": "",
+  "distinguishExample": "",
+  "grammarExample": "",
+  "grammarNote": "",
+  "image": "",
+  "mnemonic": "地(đất) + 区(khu) = vùng đất → khu vực.",
+  "partOfSpeech": "Danh từ",
+  "senses": [
+   {
+    "partOfSpeech": "Danh từ",
+    "meanings": [
+     {
+      "meaning": "khu vực, vùng, địa phương",
+      "example": "这个地区很发达。 (Zhège dìqū hěn fādá.) – Khu vực này rất phát triển."
+     }
+    ]
+   }
+  ],
+  "synonyms": [
+   {
+    "word": "地方",
+    "example": "你是哪个地方的人？ (Nǐ shì nǎge dìfang de rén?) – Bạn là người vùng nào?"
+   }
+  ],
+  "usage": "Chỉ vùng địa lý có phạm vi (山区/沿海地区); trang trọng hơn 地方."
+ },
+ "zh-places-transport-117": {
+  "antonyms": [],
+  "characters": [
+   {
+    "char": "空",
+    "hanViet": "KHÔNG",
+    "radical": "穴(bộ huyệt)",
+    "strokeCount": 8,
+    "componentMeaning": "trống, không",
+    "pictographicOrigin": "Bộ 穴(hang) với 工 lấy âm — hang rỗng, nghĩa \"trống, không\"."
+   },
+   {
+    "char": "间",
+    "hanViet": "GIAN",
+    "radical": "门(bộ môn)",
+    "strokeCount": 7,
+    "componentMeaning": "khoảng, gian",
+    "pictographicOrigin": "Ánh sáng (日) lọt qua khe cửa (门) — nghĩa \"khoảng cách, gian\"."
+   }
+  ],
+  "collocations": [],
+  "compounds": [
+   {
+    "word": "空气",
+    "pinyin": "kōngqì",
+    "meaning": "không khí",
+    "example": "山上空气好。 (Shān shàng kōngqì hǎo.) – Trên núi không khí trong lành."
+   },
+   {
+    "word": "时间",
+    "pinyin": "shíjiān",
+    "meaning": "thời gian",
+    "example": "我没有时间。 (Wǒ méiyǒu shíjiān.) – Tôi không có thời gian."
+   }
+  ],
+  "distinguish": "",
+  "distinguishExample": "",
+  "grammarExample": "",
+  "grammarNote": "",
+  "image": "",
+  "mnemonic": "空(trống) + 间(khoảng) = khoảng trống → không gian.",
+  "partOfSpeech": "Danh từ",
+  "senses": [
+   {
+    "partOfSpeech": "Danh từ",
+    "meanings": [
+     {
+      "meaning": "không gian (chỗ trống)",
+      "example": "这个房间空间很大。 (Zhège fángjiān kōngjiān hěn dà.) – Căn phòng này không gian rất rộng."
+     },
+     {
+      "meaning": "khoảng không, dư địa (trừu tượng)",
+      "example": "还有进步的空间。 (Hái yǒu jìnbù de kōngjiān.) – Vẫn còn dư địa để tiến bộ."
+     }
+    ]
+   }
+  ],
+  "synonyms": [],
+  "usage": "Chỉ không gian vật lý lẫn dư địa trừu tượng (发展空间/想象空间)."
+ },
+ "zh-places-transport-118": {
+  "antonyms": [],
+  "characters": [
+   {
+    "char": "现",
+    "hanViet": "HIỆN",
+    "radical": "王(bộ ngọc)",
+    "strokeCount": 8,
+    "componentMeaning": "hiện tại, ngay",
+    "pictographicOrigin": "Bộ 王(ngọc) với 见(thấy) — ngọc lộ ra, nghĩa \"hiện ra, hiện tại\"."
+   },
+   {
+    "char": "场",
+    "hanViet": "TRƯỜNG",
+    "radical": "土(bộ thổ)",
+    "strokeCount": 6,
+    "componentMeaning": "bãi, chỗ",
+    "pictographicOrigin": "Bộ 土(đất) với 昜 — khoảng đất trống, nghĩa \"bãi, sân\"."
+   }
+  ],
+  "collocations": [],
+  "compounds": [
+   {
+    "word": "现在",
+    "pinyin": "xiànzài",
+    "meaning": "bây giờ",
+    "example": "现在几点？ (Xiànzài jǐ diǎn?) – Bây giờ mấy giờ?"
+   },
+   {
+    "word": "操场",
+    "pinyin": "cāochǎng",
+    "meaning": "sân vận động",
+    "example": "学生在操场跑步。 (Xuésheng zài cāochǎng pǎobù.) – Học sinh chạy trên sân."
+   }
+  ],
+  "distinguish": "",
+  "distinguishExample": "",
+  "grammarExample": "",
+  "grammarNote": "",
+  "image": "",
+  "mnemonic": "现(ngay tại) + 场(chỗ) = ngay tại chỗ → hiện trường.",
+  "partOfSpeech": "Danh từ",
+  "senses": [
+   {
+    "partOfSpeech": "Danh từ",
+    "meanings": [
+     {
+      "meaning": "hiện trường, tại chỗ",
+      "example": "警察赶到了现场。 (Jǐngchá gǎndào le xiànchǎng.) – Cảnh sát đã tới hiện trường."
+     },
+     {
+      "meaning": "trực tiếp, tại chỗ (định ngữ)",
+      "example": "这是现场直播。 (Zhè shì xiànchǎng zhíbō.) – Đây là truyền hình trực tiếp tại chỗ."
+     }
+    ]
+   }
+  ],
+  "synonyms": [],
+  "usage": "Chỉ nơi sự việc diễn ra; hay đi với 现场直播/在现场."
+ },
+ "zh-places-transport-119": {
+  "antonyms": [],
+  "characters": [
+   {
+    "char": "场",
+    "hanViet": "TRƯỜNG",
+    "radical": "土(bộ thổ)",
+    "strokeCount": 6,
+    "componentMeaning": "bãi, chỗ",
+    "pictographicOrigin": "Bộ 土(đất) với 昜 — khoảng đất, nghĩa \"bãi, sân\"."
+   },
+   {
+    "char": "所",
+    "hanViet": "SỞ",
+    "radical": "户(bộ hộ)",
+    "strokeCount": 8,
+    "componentMeaning": "nơi, chỗ",
+    "pictographicOrigin": "Bộ 户(cửa) với 斤(rìu) — nơi đốn gỗ, suy ra \"nơi chốn\"."
+   }
+  ],
+  "collocations": [],
+  "compounds": [
+   {
+    "word": "厕所",
+    "pinyin": "cèsuǒ",
+    "meaning": "nhà vệ sinh",
+    "example": "厕所在哪儿？ (Cèsuǒ zài nǎr?) – Nhà vệ sinh ở đâu?"
+   },
+   {
+    "word": "场地",
+    "pinyin": "chǎngdì",
+    "meaning": "sân bãi, mặt bằng",
+    "example": "比赛场地很大。 (Bǐsài chǎngdì hěn dà.) – Sân thi đấu rất rộng."
+   }
+  ],
+  "distinguish": "",
+  "distinguishExample": "",
+  "grammarExample": "",
+  "grammarNote": "",
+  "image": "",
+  "mnemonic": "场(bãi) + 所(nơi) = nơi chốn (cho hoạt động).",
+  "partOfSpeech": "Danh từ",
+  "senses": [
+   {
+    "partOfSpeech": "Danh từ",
+    "meanings": [
+     {
+      "meaning": "nơi chốn, địa điểm (dùng cho hoạt động)",
+      "example": "这是公共场所，请安静。 (Zhè shì gōnggòng chǎngsuǒ, qǐng ānjìng.) – Đây là nơi công cộng, xin giữ yên lặng."
+     }
+    ]
+   }
+  ],
+  "synonyms": [
+   {
+    "word": "地方",
+    "example": "找个安静的地方。 (Zhǎo ge ānjìng de dìfang.) – Tìm chỗ yên tĩnh."
+   }
+  ],
+  "usage": "Trang trọng, chỉ địa điểm dùng cho một loại hoạt động (公共场所/娱乐场所)."
+ },
+ "zh-places-transport-120": {
+  "antonyms": [
+   {
+    "word": "海洋",
+    "example": "海洋占地球的大部分。 (Hǎiyáng zhàn dìqiú de dà bùfen.) – Đại dương chiếm phần lớn trái đất."
+   }
+  ],
+  "characters": [
+   {
+    "char": "陆",
+    "hanViet": "LỤC",
+    "radical": "阝(bộ phụ)",
+    "strokeCount": 7,
+    "componentMeaning": "đất liền",
+    "pictographicOrigin": "Bộ 阝(gò đất) — vùng đất cao khô, nghĩa \"đất liền, lục\"."
+   },
+   {
+    "char": "地",
+    "hanViet": "ĐỊA",
+    "radical": "土(bộ thổ)",
+    "strokeCount": 6,
+    "componentMeaning": "đất",
+    "pictographicOrigin": "Bộ 土(đất) với 也 — nghĩa \"đất\"."
+   }
+  ],
+  "collocations": [],
+  "compounds": [
+   {
+    "word": "大陆",
+    "pinyin": "dàlù",
+    "meaning": "đại lục",
+    "example": "这种动物生活在大陆。 (Zhè zhǒng dòngwù shēnghuó zài dàlù.) – Loài này sống ở đại lục."
+   },
+   {
+    "word": "陆续",
+    "pinyin": "lùxù",
+    "meaning": "lần lượt, nối tiếp",
+    "example": "客人陆续到了。 (Kèrén lùxù dào le.) – Khách lần lượt tới."
+   }
+  ],
+  "distinguish": "",
+  "distinguishExample": "",
+  "grammarExample": "",
+  "grammarNote": "",
+  "image": "",
+  "mnemonic": "陆(đất cao) + 地(đất) = phần đất khô → đất liền.",
+  "partOfSpeech": "Danh từ",
+  "senses": [
+   {
+    "partOfSpeech": "Danh từ",
+    "meanings": [
+     {
+      "meaning": "đất liền, lục địa",
+      "example": "船慢慢靠近陆地。 (Chuán mànmàn kàojìn lùdì.) – Con thuyền từ từ tiến gần đất liền."
+     }
+    ]
+   }
+  ],
+  "synonyms": [],
+  "usage": "Đối lập 海洋/海面; chỉ phần đất khô của bề mặt Trái Đất."
+ },
+ "zh-places-transport-121": {
+  "antonyms": [],
+  "characters": [
+   {
+    "char": "边",
+    "hanViet": "BIÊN",
+    "radical": "辶(bộ sước)",
+    "strokeCount": 5,
+    "componentMeaning": "biên, mép",
+    "pictographicOrigin": "Bộ 辶(đi) gợi đường ranh — nghĩa \"biên, cạnh\"."
+   },
+   {
+    "char": "境",
+    "hanViet": "CẢNH",
+    "radical": "土(bộ thổ)",
+    "strokeCount": 14,
+    "componentMeaning": "ranh giới đất",
+    "pictographicOrigin": "Bộ 土(đất) với 竟(đến cùng) — chỗ đất tận cùng, nghĩa \"ranh giới, cảnh\"."
+   }
+  ],
+  "collocations": [],
+  "compounds": [
+   {
+    "word": "环境",
+    "pinyin": "huánjìng",
+    "meaning": "môi trường",
+    "example": "要保护环境。 (Yào bǎohù huánjìng.) – Phải bảo vệ môi trường."
+   },
+   {
+    "word": "边界",
+    "pinyin": "biānjiè",
+    "meaning": "đường biên giới",
+    "example": "两国的边界很长。 (Liǎng guó de biānjiè hěn cháng.) – Đường biên hai nước rất dài."
+   }
+  ],
+  "distinguish": "",
+  "distinguishExample": "",
+  "grammarExample": "",
+  "grammarNote": "",
+  "image": "",
+  "mnemonic": "边(biên) + 境(ranh đất) = ranh giới ngoài cùng → biên giới.",
+  "partOfSpeech": "Danh từ",
+  "senses": [
+   {
+    "partOfSpeech": "Danh từ",
+    "meanings": [
+     {
+      "meaning": "biên giới, vùng giáp ranh quốc gia",
+      "example": "这个城市在中越边境。 (Zhège chéngshì zài Zhōng-Yuè biānjìng.) – Thành phố này ở biên giới Trung–Việt."
+     }
+    ]
+   }
+  ],
+  "synonyms": [],
+  "usage": "Chỉ vùng giáp ranh giữa các quốc gia/khu vực; đi với 边境地区/过边境."
+ },
+ "zh-places-transport-122": {
+  "antonyms": [],
+  "characters": [
+   {
+    "char": "交",
+    "hanViet": "GIAO",
+    "radical": "亠(bộ đầu)",
+    "strokeCount": 6,
+    "componentMeaning": "giao nhau, qua lại",
+    "pictographicOrigin": "Vẽ người bắt chéo chân — nghĩa \"giao nhau, trao đổi\"."
+   },
+   {
+    "char": "通",
+    "hanViet": "THÔNG",
+    "radical": "辶(bộ sước)",
+    "strokeCount": 10,
+    "componentMeaning": "thông suốt",
+    "pictographicOrigin": "Bộ 辶(đi) với 甬 — đường đi thông, nghĩa \"thông suốt\"."
+   },
+   {
+    "char": "工",
+    "hanViet": "CÔNG",
+    "radical": "工(bộ công)",
+    "strokeCount": 3,
+    "componentMeaning": "công cụ, làm",
+    "pictographicOrigin": "Vẽ cái thước/dụng cụ thợ — nghĩa \"công việc, công cụ\"."
+   },
+   {
+    "char": "具",
+    "hanViet": "CỤ",
+    "radical": "八(bộ bát)",
+    "strokeCount": 8,
+    "componentMeaning": "đồ dùng",
+    "pictographicOrigin": "Hai tay nâng cái đỉnh — nghĩa \"đồ dùng, dụng cụ\"."
+   }
+  ],
+  "collocations": [],
+  "compounds": [
+   {
+    "word": "交通",
+    "pinyin": "jiāotōng",
+    "meaning": "giao thông",
+    "example": "这里交通很方便。 (Zhèlǐ jiāotōng hěn fāngbiàn.) – Ở đây giao thông rất thuận tiện."
+   },
+   {
+    "word": "工具",
+    "pinyin": "gōngjù",
+    "meaning": "công cụ",
+    "example": "我需要一些工具。 (Wǒ xūyào yìxiē gōngjù.) – Tôi cần một số công cụ."
+   }
+  ],
+  "distinguish": "",
+  "distinguishExample": "",
+  "grammarExample": "",
+  "grammarNote": "",
+  "image": "",
+  "mnemonic": "交通(giao thông) + 工具(công cụ) = công cụ để đi lại → phương tiện giao thông.",
+  "partOfSpeech": "Danh từ",
+  "senses": [
+   {
+    "partOfSpeech": "Danh từ",
+    "meanings": [
+     {
+      "meaning": "phương tiện giao thông",
+      "example": "公共汽车是常用的交通工具。 (Gōnggòng qìchē shì chángyòng de jiāotōng gōngjù.) – Xe buýt là phương tiện giao thông thông dụng."
+     }
+    ]
+   }
+  ],
+  "synonyms": [],
+  "usage": "Danh từ ghép chỉ chung xe cộ/tàu thuyền/máy bay dùng để di chuyển."
+ },
+ "zh-places-transport-123": {
+  "antonyms": [],
+  "characters": [
+   {
+    "char": "码",
+    "hanViet": "MÃ",
+    "radical": "石(bộ thạch)",
+    "strokeCount": 8,
+    "componentMeaning": "bến; mã số",
+    "pictographicOrigin": "Bộ 石(đá) với 马 lấy âm — chồng đá làm bến/đơn vị, nghĩa \"bến; số\"."
+   },
+   {
+    "char": "头",
+    "hanViet": "ĐẦU",
+    "radical": "大(bộ đại)",
+    "strokeCount": 5,
+    "componentMeaning": "đầu; hậu tố",
+    "pictographicOrigin": "Giản hóa từ 頭 — nghĩa \"đầu\"; ở đây làm hậu tố chỉ nơi."
+   }
+  ],
+  "collocations": [],
+  "compounds": [
+   {
+    "word": "号码",
+    "pinyin": "hàomǎ",
+    "meaning": "số (điện thoại...)",
+    "example": "你的电话号码是多少？ (Nǐ de diànhuà hàomǎ shì duōshao?) – Số điện thoại của bạn là gì?"
+   },
+   {
+    "word": "起点",
+    "pinyin": "qǐdiǎn",
+    "meaning": "điểm khởi đầu",
+    "example": "这是旅程的起点。 (Zhè shì lǚchéng de qǐdiǎn.) – Đây là điểm khởi đầu hành trình."
+   }
+  ],
+  "distinguish": "",
+  "distinguishExample": "",
+  "grammarExample": "",
+  "grammarNote": "",
+  "image": "",
+  "mnemonic": "码(chồng đá) + 头(nơi) = chỗ kè đá cho thuyền cập → bến tàu.",
+  "partOfSpeech": "Danh từ",
+  "senses": [
+   {
+    "partOfSpeech": "Danh từ",
+    "meanings": [
+     {
+      "meaning": "bến tàu, cầu cảng",
+      "example": "我们在码头上船。 (Wǒmen zài mǎtou shàngchuán.) – Chúng tôi lên thuyền ở bến tàu."
+     }
+    ]
+   }
+  ],
+  "synonyms": [],
+  "usage": "Chỉ nơi tàu thuyền cập bến; đi với 在码头/轮船码头."
+ },
+ "zh-verbs-1-136": {
+  "antonyms": [],
+  "characters": [
+   {
+    "char": "发",
+    "hanViet": "PHÁT",
+    "radical": "又(bộ hựu)",
+    "strokeCount": 5,
+    "componentMeaning": "phát ra, nảy sinh",
+    "pictographicOrigin": "Giản hóa từ 發 (bắn cung) — nghĩa \"phát ra, khởi\"."
+   },
+   {
+    "char": "生",
+    "hanViet": "SINH",
+    "radical": "生(bộ sinh)",
+    "strokeCount": 5,
+    "componentMeaning": "sinh ra, nảy",
+    "pictographicOrigin": "Mầm cây mọc khỏi đất — nghĩa \"sinh ra, mọc\"."
+   }
+  ],
+  "collocations": [],
+  "compounds": [
+   {
+    "word": "发现",
+    "pinyin": "fāxiàn",
+    "meaning": "phát hiện",
+    "example": "我发现了问题。 (Wǒ fāxiàn le wèntí.) – Tôi phát hiện vấn đề."
+   },
+   {
+    "word": "生活",
+    "pinyin": "shēnghuó",
+    "meaning": "cuộc sống",
+    "example": "我喜欢这里的生活。 (Wǒ xǐhuan zhèlǐ de shēnghuó.) – Tôi thích cuộc sống ở đây."
+   }
+  ],
+  "distinguish": "",
+  "distinguishExample": "",
+  "grammarExample": "",
+  "grammarNote": "",
+  "image": "",
+  "mnemonic": "发(nảy) + 生(sinh) = nảy sinh ra → xảy ra.",
+  "partOfSpeech": "Động từ",
+  "senses": [
+   {
+    "partOfSpeech": "Động từ",
+    "meanings": [
+     {
+      "meaning": "xảy ra, phát sinh (sự việc)",
+      "example": "路上发生了一起事故。 (Lù shàng fāshēng le yì qǐ shìgù.) – Trên đường xảy ra một vụ tai nạn."
+     }
+    ]
+   }
+  ],
+  "synonyms": [],
+  "usage": "Chủ ngữ là sự việc (事情/事故/变化 + 发生); không mang tân ngữ chỉ người."
+ },
+ "zh-verbs-1-138": {
+  "antonyms": [],
+  "characters": [
+   {
+    "char": "发",
+    "hanViet": "PHÁT",
+    "radical": "又(bộ hựu)",
+    "strokeCount": 5,
+    "componentMeaning": "phát ra, đưa ra",
+    "pictographicOrigin": "Giản hóa từ 發 — nghĩa \"phát ra\"."
+   },
+   {
+    "char": "表",
+    "hanViet": "BIỂU",
+    "radical": "衣(bộ y)",
+    "strokeCount": 8,
+    "componentMeaning": "bày ra ngoài",
+    "pictographicOrigin": "Lông thú mặt ngoài áo — nghĩa \"bề ngoài, bày tỏ\"."
+   }
+  ],
+  "collocations": [],
+  "compounds": [
+   {
+    "word": "表示",
+    "pinyin": "biǎoshì",
+    "meaning": "bày tỏ",
+    "example": "他表示感谢。 (Tā biǎoshì gǎnxiè.) – Anh ấy tỏ lời cảm ơn."
+   },
+   {
+    "word": "发言",
+    "pinyin": "fāyán",
+    "meaning": "phát biểu (nói)",
+    "example": "请你发言。 (Qǐng nǐ fāyán.) – Mời bạn phát biểu."
+   }
+  ],
+  "distinguish": "\"发表\" nhấn công bố ra công chúng (ý kiến/bài viết); \"发言\" chỉ việc nói phát biểu trong cuộc họp.",
+  "distinguishExample": "他在会上发言，并发表了论文。 (Tā zài huì shàng fāyán, bìng fābiǎo le lùnwén.) – Anh ấy phát biểu tại họp và công bố luận văn.",
+  "grammarExample": "",
+  "grammarNote": "",
+  "image": "",
+  "mnemonic": "发(đưa ra) + 表(bày ra) = đưa ra công khai → công bố, phát biểu.",
+  "partOfSpeech": "Động từ",
+  "senses": [
+   {
+    "partOfSpeech": "Động từ",
+    "meanings": [
+     {
+      "meaning": "phát biểu, nêu ra (ý kiến, lời nói)",
+      "example": "他在会上发表了意见。 (Tā zài huì shàng fābiǎo le yìjiàn.) – Anh ấy phát biểu ý kiến trong cuộc họp."
+     },
+     {
+      "meaning": "đăng, công bố (bài viết)",
+      "example": "她发表了一篇文章。 (Tā fābiǎo le yì piān wénzhāng.) – Cô ấy đăng một bài viết."
+     }
+    ]
+   }
+  ],
+  "synonyms": [],
+  "usage": "Mang tân ngữ là ý kiến/bài viết (发表意见/文章/演讲)."
+ },
+ "zh-verbs-1-139": {
+  "antonyms": [],
+  "characters": [
+   {
+    "char": "表",
+    "hanViet": "BIỂU",
+    "radical": "衣(bộ y)",
+    "strokeCount": 8,
+    "componentMeaning": "bày ra, thể hiện",
+    "pictographicOrigin": "Lông thú mặt ngoài áo — nghĩa \"bày tỏ, thể hiện\"."
+   },
+   {
+    "char": "演",
+    "hanViet": "DIỄN",
+    "radical": "氵(bộ thủy)",
+    "strokeCount": 14,
+    "componentMeaning": "diễn, trình diễn",
+    "pictographicOrigin": "Bộ 氵(nước) với 寅 — vốn nghĩa \"chảy dài, diễn tiến\", suy ra \"diễn xuất\"."
+   }
+  ],
+  "collocations": [],
+  "compounds": [
+   {
+    "word": "演员",
+    "pinyin": "yǎnyuán",
+    "meaning": "diễn viên",
+    "example": "他是有名的演员。 (Tā shì yǒumíng de yǎnyuán.) – Anh ấy là diễn viên nổi tiếng."
+   },
+   {
+    "word": "演出",
+    "pinyin": "yǎnchū",
+    "meaning": "biểu diễn, buổi diễn",
+    "example": "今晚有演出。 (Jīnwǎn yǒu yǎnchū.) – Tối nay có buổi diễn."
+   }
+  ],
+  "distinguish": "",
+  "distinguishExample": "",
+  "grammarExample": "",
+  "grammarNote": "",
+  "image": "",
+  "mnemonic": "表(thể hiện) + 演(diễn) = thể hiện qua diễn xuất → biểu diễn.",
+  "partOfSpeech": "Động từ / Danh từ",
+  "senses": [
+   {
+    "partOfSpeech": "Động từ",
+    "meanings": [
+     {
+      "meaning": "biểu diễn, trình diễn",
+      "example": "孩子们在表演节目。 (Háizimen zài biǎoyǎn jiémù.) – Bọn trẻ đang biểu diễn tiết mục."
+     }
+    ]
+   },
+   {
+    "partOfSpeech": "Danh từ",
+    "meanings": [
+     {
+      "meaning": "buổi biểu diễn",
+      "example": "今天的表演很精彩。 (Jīntiān de biǎoyǎn hěn jīngcǎi.) – Buổi biểu diễn hôm nay rất đặc sắc."
+     }
+    ]
+   }
+  ],
+  "synonyms": [
+   {
+    "word": "演出",
+    "example": "演出很成功。 (Yǎnchū hěn chénggōng.) – Buổi diễn rất thành công."
+   }
+  ],
+  "usage": "Vừa động từ (表演节目) vừa danh từ (精彩的表演)."
  }
 }
