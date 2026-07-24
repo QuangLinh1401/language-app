@@ -2071,7 +2071,7 @@
     "char": "外",
     "componentMeaning": "ngoài",
     "hanViet": "NGOẠI",
-    "pictographicOrigin": "Bộ 夕(buổi tối) ghép 卜(bói) — làm việc khác thường vào ban đêm, \"bên ngoài\".",
+    "pictographicOrigin": "Bộ 夕(tối) ghép 卜(bói) — làm việc khác thường ban đêm, \"bên ngoài\" (họ ngoại).",
     "radical": "夕(bộ tịch)",
     "strokeCount": 5
    }
@@ -4198,7 +4198,7 @@
     "char": "太",
     "componentMeaning": "",
     "hanViet": "THÁI",
-    "pictographicOrigin": "Thêm một nét vào chữ 大(to lớn) — nhấn mạnh \"lớn hơn cả to\".",
+    "pictographicOrigin": "Thêm một nét vào chữ 大(to) — nhấn mạnh \"to hơn cả to\" (trong 太太).",
     "radical": "大(bộ đại)",
     "strokeCount": 4
    }
@@ -6940,7 +6940,7 @@
     "char": "者",
     "componentMeaning": "",
     "hanViet": "GIẢ",
-    "pictographicOrigin": "Chữ giáp cốt liên quan tới việc phân loại — hậu tố chỉ NGƯỜI/vật (trong 或者).",
+    "pictographicOrigin": "Hậu tố chỉ NGƯỜI làm việc gì (trong 记者).",
     "radical": "耂(bộ lão)",
     "strokeCount": 8
    }
@@ -8804,7 +8804,7 @@
     "char": "太",
     "componentMeaning": "quá, thái",
     "hanViet": "THÁI",
-    "pictographicOrigin": "Thêm một nét vào chữ 大(to lớn) — nhấn mạnh \"lớn hơn cả to\".",
+    "pictographicOrigin": "Thêm một nét vào chữ 大(to) — nhấn mạnh \"to hơn cả to\" (trong 太太).",
     "radical": "大(bộ đại)",
     "strokeCount": 4
    },
@@ -9207,7 +9207,7 @@
     "char": "个",
     "componentMeaning": "",
     "hanViet": "CÁ",
-    "pictographicOrigin": "Chữ giản thể, lượng từ chung phổ biến nhất, dùng đếm hầu hết mọi vật.",
+    "pictographicOrigin": "Chữ giản thể, lượng từ phổ biến — \"vóc dáng\" (trong 个子).",
     "radical": "人(bộ nhân)",
     "strokeCount": 3
    }
@@ -10269,7 +10269,7 @@
     "char": "女",
     "componentMeaning": "nữ",
     "hanViet": "NỮ",
-    "pictographicOrigin": "Chữ giáp cốt vẽ hình một người quỳ, hai tay khoanh trước ngực — dáng ngồi truyền thống của phụ nữ.",
+    "pictographicOrigin": "Chữ giáp cốt vẽ hình một người quỳ, hai tay khoanh trước ngực.",
     "radical": "女(bộ nữ)",
     "strokeCount": 3
    },
@@ -10902,7 +10902,7 @@
     "char": "女",
     "componentMeaning": "nữ",
     "hanViet": "NỮ",
-    "pictographicOrigin": "Chữ giáp cốt vẽ hình một người quỳ, hai tay khoanh trước ngực — dáng ngồi truyền thống của phụ nữ.",
+    "pictographicOrigin": "Chữ giáp cốt vẽ hình một người quỳ, hai tay khoanh trước ngực.",
     "radical": "女(bộ nữ)",
     "strokeCount": 3
    },
@@ -11006,7 +11006,7 @@
     "char": "员",
     "componentMeaning": "người (hậu tố nghề nghiệp)",
     "hanViet": "VIÊN",
-    "pictographicOrigin": "Bộ 口(miệng, hình tròn) trên 贝(tiền cổ) — nghĩa gốc liên quan đến số lượng người, nay chỉ \"nhân viên\".",
+    "pictographicOrigin": "Bộ 口(miệng, hình tròn) trên 贝(tiền cổ) — hậu tố chỉ NGƯỜI trong một nhóm/nghề.",
     "radical": "口(bộ khẩu)",
     "strokeCount": 7
    }
@@ -11727,6 +11727,188 @@
   "synonyms": [],
   "usage": ""
  },
+ "zh-family-people-46": {
+  "antonyms": [
+   {
+    "example": "见 zh-family-people-10。",
+    "word": "爷爷"
+   }
+  ],
+  "characters": [
+   {
+    "char": "外",
+    "componentMeaning": "ngoại",
+    "hanViet": "NGOẠI",
+    "pictographicOrigin": "Bộ 夕(tối) ghép 卜(bói) — làm việc khác thường ban đêm, \"bên ngoài\" (họ ngoại).",
+    "radical": "夕(bộ tịch)",
+    "strokeCount": 5
+   },
+   {
+    "char": "公",
+    "componentMeaning": "ông",
+    "hanViet": "CÔNG",
+    "pictographicOrigin": "Chữ giáp cốt vẽ vật được chia đều — \"công, ông\" (trong 外公).",
+    "radical": "八(bộ bát)",
+    "strokeCount": 4
+   }
+  ],
+  "collocations": [],
+  "compounds": [],
+  "distinguish": "",
+  "distinguishExample": "",
+  "grammarExample": "",
+  "grammarNote": "",
+  "image": "👴",
+  "mnemonic": "外公 = 外(bên ngoài, nhà mẹ) + 公(ông) — ÔNG bên NGOẠI (nhà mẹ).",
+  "partOfSpeech": "Danh từ",
+  "senses": [
+   {
+    "meanings": [
+     {
+      "example": "外公住在乡下。 (Wàigōng zhù zài xiāngxia.) – Ông ngoại sống ở quê.",
+      "meaning": "ông ngoại"
+     }
+    ],
+    "partOfSpeech": "Danh từ"
+   }
+  ],
+  "synonyms": [],
+  "usage": "外公 là bố của mẹ; ông nội (bố của bố) là 爷爷."
+ },
+ "zh-family-people-47": {
+  "antonyms": [
+   {
+    "example": "见 zh-family-people-11。",
+    "word": "奶奶"
+   }
+  ],
+  "characters": [
+   {
+    "char": "外",
+    "componentMeaning": "ngoại",
+    "hanViet": "NGOẠI",
+    "pictographicOrigin": "Bộ 夕(tối) ghép 卜(bói) — làm việc khác thường ban đêm, \"bên ngoài\" (họ ngoại).",
+    "radical": "夕(bộ tịch)",
+    "strokeCount": 5
+   },
+   {
+    "char": "婆",
+    "componentMeaning": "bà",
+    "hanViet": "BÀ",
+    "pictographicOrigin": "Bộ 女(nữ) ghép 波(sóng, lấy âm) — nghĩa \"bà\" (trong 外婆).",
+    "radical": "女(bộ nữ)",
+    "strokeCount": 11
+   }
+  ],
+  "collocations": [],
+  "compounds": [],
+  "distinguish": "",
+  "distinguishExample": "",
+  "grammarExample": "",
+  "grammarNote": "",
+  "image": "👵",
+  "mnemonic": "外婆 = 外(bên ngoài) + 婆(bà) — BÀ bên NGOẠI.",
+  "partOfSpeech": "Danh từ",
+  "senses": [
+   {
+    "meanings": [
+     {
+      "example": "外婆做的菜很好吃。 (Wàipó zuò de cài hěn hǎochī.) – Món bà ngoại nấu rất ngon.",
+      "meaning": "bà ngoại"
+     }
+    ],
+    "partOfSpeech": "Danh từ"
+   }
+  ],
+  "synonyms": [],
+  "usage": "外婆 là mẹ của mẹ; bà nội là 奶奶."
+ },
+ "zh-family-people-48": {
+  "antonyms": [],
+  "characters": [
+   {
+    "char": "孙",
+    "componentMeaning": "",
+    "hanViet": "TÔN",
+    "pictographicOrigin": "Bộ 子(con) ghép 系(nối tiếp, sợi tơ) — con nối tiếp con, \"cháu\".",
+    "radical": "子(bộ tử)",
+    "strokeCount": 6
+   },
+   {
+    "char": "子",
+    "componentMeaning": "hậu tố danh từ",
+    "hanViet": "TỬ",
+    "pictographicOrigin": "Chữ giáp cốt vẽ hình một đứa trẻ sơ sinh với hai tay dang ra — nghĩa \"con\".",
+    "radical": "子(bộ tử)",
+    "strokeCount": 3
+   }
+  ],
+  "collocations": [],
+  "compounds": [],
+  "distinguish": "",
+  "distinguishExample": "",
+  "grammarExample": "",
+  "grammarNote": "",
+  "image": "👶",
+  "mnemonic": "孙子 = 孙(con 子 nối tiếp sợi tơ 系) + 子(hậu tố) — con của con, CHÁU.",
+  "partOfSpeech": "Danh từ",
+  "senses": [
+   {
+    "meanings": [
+     {
+      "example": "他有两个孙子。 (Tā yǒu liǎng ge sūnzi.) – Ông ấy có hai cháu trai.",
+      "meaning": "cháu trai (nội)"
+     }
+    ],
+    "partOfSpeech": "Danh từ"
+   }
+  ],
+  "synonyms": [],
+  "usage": ""
+ },
+ "zh-family-people-49": {
+  "antonyms": [],
+  "characters": [
+   {
+    "char": "亲",
+    "componentMeaning": "thân",
+    "hanViet": "THÂN",
+    "pictographicOrigin": "Chữ giáp cốt liên quan tới cây gần gũi — nghĩa \"thân thích, gần gũi\".",
+    "radical": "亲(bộ thân)",
+    "strokeCount": 9
+   },
+   {
+    "char": "戚",
+    "componentMeaning": "họ hàng",
+    "hanViet": "THÍCH",
+    "pictographicOrigin": "Bộ 戈(vũ khí) — nghĩa gốc liên quan tới rìu, mượn nghĩa \"họ hàng\" (trong 亲戚).",
+    "radical": "戈(bộ qua)",
+    "strokeCount": 11
+   }
+  ],
+  "collocations": [],
+  "compounds": [],
+  "distinguish": "",
+  "distinguishExample": "",
+  "grammarExample": "",
+  "grammarNote": "",
+  "image": "👨‍👩‍👧‍👦",
+  "mnemonic": "亲戚 = 亲(thân thích) + 戚(họ hàng) — người THÂN THÍCH trong dòng HỌ.",
+  "partOfSpeech": "Danh từ",
+  "senses": [
+   {
+    "meanings": [
+     {
+      "example": "过年要去亲戚家。 (Guònián yào qù qīnqi jiā.) – Tết phải đến nhà họ hàng.",
+      "meaning": "họ hàng, người thân"
+     }
+    ],
+    "partOfSpeech": "Danh từ"
+   }
+  ],
+  "synonyms": [],
+  "usage": ""
+ },
  "zh-family-people-5": {
   "antonyms": [
    {
@@ -11759,6 +11941,462 @@
      {
       "example": "姐姐在读大学。 (Jiějie zài dú dàxué.) – Chị gái đang học đại học.",
       "meaning": "chị gái"
+     }
+    ],
+    "partOfSpeech": "Danh từ"
+   }
+  ],
+  "synonyms": [],
+  "usage": ""
+ },
+ "zh-family-people-50": {
+  "antonyms": [],
+  "characters": [
+   {
+    "char": "护",
+    "componentMeaning": "bảo hộ",
+    "hanViet": "HỘ",
+    "pictographicOrigin": "Bộ 扌(tay) — dùng tay che chở, \"bảo hộ, chăm sóc\".",
+    "radical": "扌(bộ thủ)",
+    "strokeCount": 7
+   },
+   {
+    "char": "士",
+    "componentMeaning": "người có nghề",
+    "hanViet": "SĨ",
+    "pictographicOrigin": "Chữ giáp cốt vẽ hình một cái rìu đứng thẳng — biểu tượng người có học thức/nghề nghiệp.",
+    "radical": "士(bộ sĩ)",
+    "strokeCount": 3
+   }
+  ],
+  "collocations": [],
+  "compounds": [],
+  "distinguish": "",
+  "distinguishExample": "",
+  "grammarExample": "",
+  "grammarNote": "",
+  "image": "👩‍⚕️",
+  "mnemonic": "护士 = 护(tay 扌 che chở) + 士(người có nghề) — người CHE CHỞ chăm sóc bệnh nhân, Y TÁ.",
+  "partOfSpeech": "Danh từ",
+  "senses": [
+   {
+    "meanings": [
+     {
+      "example": "护士很细心。 (Hùshi hěn xìxīn.) – Y tá rất tận tâm.",
+      "meaning": "y tá"
+     }
+    ],
+    "partOfSpeech": "Danh từ"
+   }
+  ],
+  "synonyms": [],
+  "usage": ""
+ },
+ "zh-family-people-51": {
+  "antonyms": [],
+  "characters": [
+   {
+    "char": "警",
+    "componentMeaning": "cảnh",
+    "hanViet": "CẢNH",
+    "pictographicOrigin": "Bộ 言(lời nói) trên 敬(kính cẩn) — lời cảnh báo nghiêm túc, \"cảnh giác, cảnh sát\".",
+    "radical": "言(bộ ngôn)",
+    "strokeCount": 19
+   },
+   {
+    "char": "察",
+    "componentMeaning": "sát",
+    "hanViet": "SÁT",
+    "pictographicOrigin": "Bộ 宀(mái nhà) trên 祭(tế lễ) — xem xét kỹ lưỡng như khi cúng tế, \"quan sát, kiểm tra\".",
+    "radical": "宀(bộ miên)",
+    "strokeCount": 14
+   }
+  ],
+  "collocations": [],
+  "compounds": [],
+  "distinguish": "",
+  "distinguishExample": "",
+  "grammarExample": "",
+  "grammarNote": "",
+  "image": "👮",
+  "mnemonic": "警察 = 警(lời cảnh báo 言+敬) + 察(xem xét kỹ dưới mái nhà 宀) — người CẢNH BÁO và XEM XÉT trật tự, CẢNH SÁT.",
+  "partOfSpeech": "Danh từ",
+  "senses": [
+   {
+    "meanings": [
+     {
+      "example": "警察在指挥交通。 (Jǐngchá zài zhǐhuī jiāotōng.) – Cảnh sát đang điều khiển giao thông.",
+      "meaning": "cảnh sát"
+     }
+    ],
+    "partOfSpeech": "Danh từ"
+   }
+  ],
+  "synonyms": [],
+  "usage": ""
+ },
+ "zh-family-people-52": {
+  "antonyms": [],
+  "characters": [
+   {
+    "char": "律",
+    "componentMeaning": "luật",
+    "hanViet": "LUẬT",
+    "pictographicOrigin": "Bộ 彳(bước đi) ghép 聿(cây bút) — quy tắc viết ra để mọi người tuân theo, \"luật\".",
+    "radical": "彳(bộ xích)",
+    "strokeCount": 9
+   },
+   {
+    "char": "师",
+    "componentMeaning": "thầy",
+    "hanViet": "SƯ",
+    "pictographicOrigin": "Chữ giản thể liên quan đến đội quân có tổ chức — mở rộng nghĩa người dẫn dắt, \"thầy\".",
+    "radical": "巾(bộ cân)",
+    "strokeCount": 6
+   }
+  ],
+  "collocations": [],
+  "compounds": [],
+  "distinguish": "",
+  "distinguishExample": "",
+  "grammarExample": "",
+  "grammarNote": "",
+  "image": "⚖️",
+  "mnemonic": "律师 = 律(luật, bước đi 彳 + bút 聿) + 师(thầy) — THẦY về LUẬT.",
+  "partOfSpeech": "Danh từ",
+  "senses": [
+   {
+    "meanings": [
+     {
+      "example": "他请了一位律师。 (Tā qǐngle yí wèi lǜshī.) – Anh ấy thuê một luật sư.",
+      "meaning": "luật sư"
+     }
+    ],
+    "partOfSpeech": "Danh từ"
+   }
+  ],
+  "synonyms": [],
+  "usage": ""
+ },
+ "zh-family-people-53": {
+  "antonyms": [],
+  "characters": [
+   {
+    "char": "记",
+    "componentMeaning": "ghi",
+    "hanViet": "KÝ",
+    "pictographicOrigin": "Bộ 讠(lời nói) ghép 己 — ghi nhớ, ghi chép.",
+    "radical": "讠(bộ ngôn)",
+    "strokeCount": 5
+   },
+   {
+    "char": "者",
+    "componentMeaning": "người",
+    "hanViet": "GIẢ",
+    "pictographicOrigin": "Hậu tố chỉ NGƯỜI làm việc gì (trong 记者).",
+    "radical": "耂(bộ lão)",
+    "strokeCount": 8
+   }
+  ],
+  "collocations": [],
+  "compounds": [],
+  "distinguish": "",
+  "distinguishExample": "",
+  "grammarExample": "",
+  "grammarNote": "",
+  "image": "📰",
+  "mnemonic": "记者 = 记(ghi chép 讠) + 者(người) — NGƯỜI GHI CHÉP tin tức, NHÀ BÁO.",
+  "partOfSpeech": "Danh từ",
+  "senses": [
+   {
+    "meanings": [
+     {
+      "example": "记者正在采访。 (Jìzhě zhèngzài cǎifǎng.) – Phóng viên đang phỏng vấn.",
+      "meaning": "nhà báo, phóng viên"
+     }
+    ],
+    "partOfSpeech": "Danh từ"
+   }
+  ],
+  "synonyms": [],
+  "usage": ""
+ },
+ "zh-family-people-54": {
+  "antonyms": [],
+  "characters": [
+   {
+    "char": "演",
+    "componentMeaning": "diễn",
+    "hanViet": "DIỄN",
+    "pictographicOrigin": "Bộ 氵(nước) ghép 寅 — nước chảy trôi diễn tiến, mở rộng nghĩa \"biểu diễn\".",
+    "radical": "氵(bộ thủy)",
+    "strokeCount": 14
+   },
+   {
+    "char": "员",
+    "componentMeaning": "người",
+    "hanViet": "VIÊN",
+    "pictographicOrigin": "Bộ 口(miệng, hình tròn) trên 贝(tiền cổ) — hậu tố chỉ NGƯỜI trong một nhóm/nghề.",
+    "radical": "口(bộ khẩu)",
+    "strokeCount": 7
+   }
+  ],
+  "collocations": [],
+  "compounds": [],
+  "distinguish": "",
+  "distinguishExample": "",
+  "grammarExample": "",
+  "grammarNote": "",
+  "image": "🎭",
+  "mnemonic": "演员 = 演(diễn, nước 氵 trôi chảy) + 员(người) — NGƯỜI DIỄN trên sân khấu.",
+  "partOfSpeech": "Danh từ",
+  "senses": [
+   {
+    "meanings": [
+     {
+      "example": "他是有名的演员。 (Tā shì yǒumíng de yǎnyuán.) – Anh ấy là diễn viên nổi tiếng.",
+      "meaning": "diễn viên"
+     }
+    ],
+    "partOfSpeech": "Danh từ"
+   }
+  ],
+  "synonyms": [],
+  "usage": ""
+ },
+ "zh-family-people-55": {
+  "antonyms": [],
+  "characters": [
+   {
+    "char": "运",
+    "componentMeaning": "vận",
+    "hanViet": "VẬN",
+    "pictographicOrigin": "Bộ 辶(đi) ghép 云(mây) — mây trôi vận động, \"vận động, vận chuyển\".",
+    "radical": "辶(bộ sước)",
+    "strokeCount": 7
+   },
+   {
+    "char": "动",
+    "componentMeaning": "động",
+    "hanViet": "ĐỘNG",
+    "pictographicOrigin": "Bộ 力(sức lực) — dùng sức làm vật chuyển động.",
+    "radical": "力(bộ lực)",
+    "strokeCount": 6
+   },
+   {
+    "char": "员",
+    "componentMeaning": "người",
+    "hanViet": "VIÊN",
+    "pictographicOrigin": "Bộ 口(miệng, hình tròn) trên 贝(tiền cổ) — hậu tố chỉ NGƯỜI trong một nhóm/nghề.",
+    "radical": "口(bộ khẩu)",
+    "strokeCount": 7
+   }
+  ],
+  "collocations": [],
+  "compounds": [],
+  "distinguish": "",
+  "distinguishExample": "",
+  "grammarExample": "",
+  "grammarNote": "",
+  "image": "🏃",
+  "mnemonic": "运动员 = 运动(vận động) + 员(người) — NGƯỜI làm VẬN ĐỘNG chuyên nghiệp.",
+  "partOfSpeech": "Danh từ",
+  "senses": [
+   {
+    "meanings": [
+     {
+      "example": "他是一名足球运动员。 (Tā shì yì míng zúqiú yùndòngyuán.) – Anh ấy là cầu thủ bóng đá.",
+      "meaning": "vận động viên"
+     }
+    ],
+    "partOfSpeech": "Danh từ"
+   }
+  ],
+  "synonyms": [],
+  "usage": ""
+ },
+ "zh-family-people-56": {
+  "antonyms": [],
+  "characters": [
+   {
+    "char": "农",
+    "componentMeaning": "nông",
+    "hanViet": "NÔNG",
+    "pictographicOrigin": "Chữ giản thể, liên quan tới việc cày cấy ruộng đất — \"nông nghiệp\".",
+    "radical": "冖(bộ mịch)",
+    "strokeCount": 6
+   },
+   {
+    "char": "民",
+    "componentMeaning": "dân",
+    "hanViet": "DÂN",
+    "pictographicOrigin": "Chữ giáp cốt liên quan tới con mắt bị đâm (nô lệ thời cổ) — mở rộng nghĩa \"dân, người\".",
+    "radical": "氏(bộ thị)",
+    "strokeCount": 5
+   }
+  ],
+  "collocations": [],
+  "compounds": [],
+  "distinguish": "",
+  "distinguishExample": "",
+  "grammarExample": "",
+  "grammarNote": "",
+  "image": "🧑‍🌾",
+  "mnemonic": "农民 = 农(cày cấy) + 民(dân) — DÂN làm nghề CÀY CẤY, NÔNG DÂN.",
+  "partOfSpeech": "Danh từ",
+  "senses": [
+   {
+    "meanings": [
+     {
+      "example": "农民在地里工作。 (Nóngmín zài dì lǐ gōngzuò.) – Nông dân làm việc ngoài đồng.",
+      "meaning": "nông dân"
+     }
+    ],
+    "partOfSpeech": "Danh từ"
+   }
+  ],
+  "synonyms": [],
+  "usage": ""
+ },
+ "zh-family-people-57": {
+  "antonyms": [],
+  "characters": [
+   {
+    "char": "工",
+    "componentMeaning": "",
+    "hanViet": "CÔNG",
+    "pictographicOrigin": "Chữ giáp cốt vẽ hình cái thước thợ — \"công việc, công nhân\".",
+    "radical": "工(bộ công)",
+    "strokeCount": 3
+   },
+   {
+    "char": "人",
+    "componentMeaning": "người",
+    "hanViet": "NHÂN",
+    "pictographicOrigin": "Chữ giáp cốt vẽ hình một người đứng nghiêng, thấy rõ đầu, thân, chân — nghĩa \"người\".",
+    "radical": "人(bộ nhân)",
+    "strokeCount": 2
+   }
+  ],
+  "collocations": [],
+  "compounds": [],
+  "distinguish": "",
+  "distinguishExample": "",
+  "grammarExample": "",
+  "grammarNote": "",
+  "image": "👷",
+  "mnemonic": "工人 = 工(công cụ lao động) + 人(người) — NGƯỜI dùng CÔNG CỤ lao động.",
+  "partOfSpeech": "Danh từ",
+  "senses": [
+   {
+    "meanings": [
+     {
+      "example": "工人正在建房子。 (Gōngrén zhèngzài jiàn fángzi.) – Công nhân đang xây nhà.",
+      "meaning": "công nhân"
+     }
+    ],
+    "partOfSpeech": "Danh từ"
+   }
+  ],
+  "synonyms": [],
+  "usage": ""
+ },
+ "zh-family-people-58": {
+  "antonyms": [
+   {
+    "example": "见 zh-family-people-14。",
+    "word": "孩子"
+   }
+  ],
+  "characters": [
+   {
+    "char": "大",
+    "componentMeaning": "lớn",
+    "hanViet": "ĐẠI",
+    "pictographicOrigin": "Chữ giáp cốt vẽ hình một người dang rộng hai tay hai chân — hình ảnh to lớn.",
+    "radical": "大(bộ đại)",
+    "strokeCount": 3
+   },
+   {
+    "char": "人",
+    "componentMeaning": "người",
+    "hanViet": "NHÂN",
+    "pictographicOrigin": "Chữ giáp cốt vẽ hình một người đứng nghiêng, thấy rõ đầu, thân, chân — nghĩa \"người\".",
+    "radical": "人(bộ nhân)",
+    "strokeCount": 2
+   }
+  ],
+  "collocations": [],
+  "compounds": [],
+  "distinguish": "",
+  "distinguishExample": "",
+  "grammarExample": "",
+  "grammarNote": "",
+  "image": "🧑",
+  "mnemonic": "大人 = 大(to lớn) + 人(người) — NGƯỜI đã LỚN.",
+  "partOfSpeech": "Danh từ",
+  "senses": [
+   {
+    "meanings": [
+     {
+      "example": "这是大人的事。 (Zhè shì dàren de shì.) – Đây là chuyện của người lớn.",
+      "meaning": "người lớn"
+     }
+    ],
+    "partOfSpeech": "Danh từ"
+   }
+  ],
+  "synonyms": [],
+  "usage": ""
+ },
+ "zh-family-people-59": {
+  "antonyms": [
+   {
+    "example": "见分辨\"老人\"。",
+    "word": "老人"
+   }
+  ],
+  "characters": [
+   {
+    "char": "年",
+    "componentMeaning": "năm",
+    "hanViet": "NIÊN",
+    "pictographicOrigin": "Chữ giáp cốt vẽ hình người vác bó lúa — mỗi vụ mùa gặt là một năm.",
+    "radical": "干(bộ can)",
+    "strokeCount": 6
+   },
+   {
+    "char": "轻",
+    "componentMeaning": "nhẹ",
+    "hanViet": "KHINH",
+    "pictographicOrigin": "Bộ 车(xe) ghép 圣 lấy âm — xe nhẹ dễ di chuyển, nghĩa \"nhẹ, trẻ (trong 年轻)\".",
+    "radical": "车(bộ xa)",
+    "strokeCount": 9
+   },
+   {
+    "char": "人",
+    "componentMeaning": "người",
+    "hanViet": "NHÂN",
+    "pictographicOrigin": "Chữ giáp cốt vẽ hình một người đứng nghiêng, thấy rõ đầu, thân, chân — nghĩa \"người\".",
+    "radical": "人(bộ nhân)",
+    "strokeCount": 2
+   }
+  ],
+  "collocations": [],
+  "compounds": [],
+  "distinguish": "",
+  "distinguishExample": "",
+  "grammarExample": "",
+  "grammarNote": "",
+  "image": "🧑‍🦱",
+  "mnemonic": "年轻人 = 年轻(trẻ, năm nhẹ) + 人(người) — NGƯỜI còn TRẺ.",
+  "partOfSpeech": "Danh từ",
+  "senses": [
+   {
+    "meanings": [
+     {
+      "example": "很多年轻人喜欢用手机。 (Hěn duō niánqīngrén xǐhuan yòng shǒujī.) – Nhiều bạn trẻ thích dùng điện thoại.",
+      "meaning": "người trẻ, thanh niên"
      }
     ],
     "partOfSpeech": "Danh từ"
@@ -11807,6 +12445,424 @@
   "synonyms": [],
   "usage": ""
  },
+ "zh-family-people-60": {
+  "antonyms": [
+   {
+    "example": "见分辨\"年轻人\"。",
+    "word": "年轻人"
+   }
+  ],
+  "characters": [
+   {
+    "char": "老",
+    "componentMeaning": "già",
+    "hanViet": "LÃO",
+    "pictographicOrigin": "Chữ giáp cốt vẽ hình một cụ già lưng còng chống gậy — nghĩa \"già\".",
+    "radical": "老(bộ lão)",
+    "strokeCount": 6
+   },
+   {
+    "char": "人",
+    "componentMeaning": "người",
+    "hanViet": "NHÂN",
+    "pictographicOrigin": "Chữ giáp cốt vẽ hình một người đứng nghiêng, thấy rõ đầu, thân, chân — nghĩa \"người\".",
+    "radical": "人(bộ nhân)",
+    "strokeCount": 2
+   }
+  ],
+  "collocations": [],
+  "compounds": [],
+  "distinguish": "",
+  "distinguishExample": "",
+  "grammarExample": "",
+  "grammarNote": "",
+  "image": "👴",
+  "mnemonic": "老人 = 老(già, cụ chống gậy) + 人(người) — NGƯỜI đã GIÀ.",
+  "partOfSpeech": "Danh từ",
+  "senses": [
+   {
+    "meanings": [
+     {
+      "example": "要尊重老人。 (Yào zūnzhòng lǎorén.) – Phải tôn trọng người già.",
+      "meaning": "người già"
+     }
+    ],
+    "partOfSpeech": "Danh từ"
+   }
+  ],
+  "synonyms": [],
+  "usage": ""
+ },
+ "zh-family-people-61": {
+  "antonyms": [],
+  "characters": [
+   {
+    "char": "人",
+    "componentMeaning": "người",
+    "hanViet": "NHÂN",
+    "pictographicOrigin": "Chữ giáp cốt vẽ hình một người đứng nghiêng, thấy rõ đầu, thân, chân — nghĩa \"người\".",
+    "radical": "人(bộ nhân)",
+    "strokeCount": 2
+   },
+   {
+    "char": "们",
+    "componentMeaning": "số nhiều",
+    "hanViet": "MÔN",
+    "pictographicOrigin": "Ghép bộ 亻(người) với 门 lấy âm — chữ hình thanh, dùng làm hậu tố số nhiều.",
+    "radical": "亻(bộ nhân)",
+    "strokeCount": 5
+   }
+  ],
+  "collocations": [],
+  "compounds": [],
+  "distinguish": "",
+  "distinguishExample": "",
+  "grammarExample": "",
+  "grammarNote": "",
+  "image": "👥",
+  "mnemonic": "人们 = 人(người) + 们(số nhiều) — nhiều NGƯỜI cộng lại, MỌI NGƯỜI.",
+  "partOfSpeech": "Danh từ",
+  "senses": [
+   {
+    "meanings": [
+     {
+      "example": "人们都喜欢他。 (Rénmen dōu xǐhuan tā.) – Mọi người đều thích anh ấy.",
+      "meaning": "mọi người, người ta"
+     }
+    ],
+    "partOfSpeech": "Danh từ"
+   }
+  ],
+  "synonyms": [
+   {
+    "example": "见 zh-family-people-25。",
+    "word": "大家"
+   }
+  ],
+  "usage": ""
+ },
+ "zh-family-people-62": {
+  "antonyms": [],
+  "characters": [
+   {
+    "char": "太",
+    "componentMeaning": "",
+    "hanViet": "THÁI",
+    "pictographicOrigin": "Thêm một nét vào chữ 大(to) — nhấn mạnh \"to hơn cả to\" (trong 太太).",
+    "radical": "大(bộ đại)",
+    "strokeCount": 4
+   }
+  ],
+  "collocations": [],
+  "compounds": [],
+  "distinguish": "",
+  "distinguishExample": "",
+  "grammarExample": "",
+  "grammarNote": "",
+  "image": "👩",
+  "mnemonic": "太太 = 太(rất, to) lặp lại — cách gọi trân trọng người vợ, BÀ/PHU NHÂN.",
+  "partOfSpeech": "Danh từ",
+  "senses": [
+   {
+    "meanings": [
+     {
+      "example": "王太太在家。 (Wáng tàitai zài jiā.) – Bà Vương ở nhà.",
+      "meaning": "bà, phu nhân"
+     }
+    ],
+    "partOfSpeech": "Danh từ"
+   }
+  ],
+  "synonyms": [],
+  "usage": "太太 đặt sau họ chồng để gọi vợ một cách lịch sự, tương đương \"Mrs.\"."
+ },
+ "zh-family-people-63": {
+  "antonyms": [
+   {
+    "example": "见 zh-family-people-23。",
+    "word": "先生"
+   }
+  ],
+  "characters": [
+   {
+    "char": "女",
+    "componentMeaning": "nữ",
+    "hanViet": "NỮ",
+    "pictographicOrigin": "Chữ giáp cốt vẽ hình một người quỳ, hai tay khoanh trước ngực.",
+    "radical": "女(bộ nữ)",
+    "strokeCount": 3
+   },
+   {
+    "char": "士",
+    "componentMeaning": "kính ngữ",
+    "hanViet": "SĨ",
+    "pictographicOrigin": "Chữ giáp cốt vẽ hình một cái rìu đứng thẳng — biểu tượng người có học thức/nghề nghiệp.",
+    "radical": "士(bộ sĩ)",
+    "strokeCount": 3
+   }
+  ],
+  "collocations": [],
+  "compounds": [],
+  "distinguish": "",
+  "distinguishExample": "",
+  "grammarExample": "",
+  "grammarNote": "",
+  "image": "👩‍💼",
+  "mnemonic": "女士 = 女(nữ) + 士(kính ngữ, người có địa vị) — cách gọi lịch sự phụ nữ, QUÝ BÀ.",
+  "partOfSpeech": "Danh từ",
+  "senses": [
+   {
+    "meanings": [
+     {
+      "example": "这位女士是谁？ (Zhè wèi nǚshì shì shéi?) – Quý bà này là ai?",
+      "meaning": "quý bà, chị (lịch sự)"
+     }
+    ],
+    "partOfSpeech": "Danh từ"
+   }
+  ],
+  "synonyms": [],
+  "usage": "女士 trang trọng, dùng được cho cả phụ nữ đã/chưa kết hôn, tương đương \"Ms.\"."
+ },
+ "zh-family-people-64": {
+  "antonyms": [],
+  "characters": [
+   {
+    "char": "脸",
+    "componentMeaning": "",
+    "hanViet": "KIỂM",
+    "pictographicOrigin": "Bộ 月(thân thể) ghép 佥 — phần thân thể phía trước đầu, \"khuôn mặt\".",
+    "radical": "月(bộ nhục)",
+    "strokeCount": 10
+   }
+  ],
+  "collocations": [],
+  "compounds": [],
+  "distinguish": "",
+  "distinguishExample": "",
+  "grammarExample": "",
+  "grammarNote": "",
+  "image": "😊",
+  "mnemonic": "脸 = 月(thân thể) + 佥 — phần thân thể phía trước ĐẦU, KHUÔN MẶT.",
+  "partOfSpeech": "Danh từ",
+  "senses": [
+   {
+    "meanings": [
+     {
+      "example": "她的脸很红。 (Tā de liǎn hěn hóng.) – Mặt cô ấy đỏ bừng.",
+      "meaning": "mặt, khuôn mặt"
+     }
+    ],
+    "partOfSpeech": "Danh từ"
+   }
+  ],
+  "synonyms": [],
+  "usage": ""
+ },
+ "zh-family-people-65": {
+  "antonyms": [],
+  "characters": [
+   {
+    "char": "嘴",
+    "componentMeaning": "",
+    "hanViet": "CHỦY",
+    "pictographicOrigin": "Bộ 口(miệng) ghép 觜(mỏ chim) — nghĩa \"miệng\" (khẩu ngữ).",
+    "radical": "口(bộ khẩu)",
+    "strokeCount": 16
+   }
+  ],
+  "collocations": [],
+  "compounds": [],
+  "distinguish": "",
+  "distinguishExample": "",
+  "grammarExample": "",
+  "grammarNote": "",
+  "image": "👄",
+  "mnemonic": "嘴 = 口(miệng) + 觜(mỏ chim) — MIỆNG như mỏ chim khi nói nhiều.",
+  "partOfSpeech": "Danh từ",
+  "senses": [
+   {
+    "meanings": [
+     {
+      "example": "闭嘴！ (Bìzuǐ!) – Im miệng!",
+      "meaning": "miệng, mồm"
+     }
+    ],
+    "partOfSpeech": "Danh từ"
+   }
+  ],
+  "synonyms": [
+   {
+    "example": "见 zh-family-people-40。",
+    "word": "口"
+   }
+  ],
+  "usage": "嘴 là cách nói khẩu ngữ; 口 trang trọng hơn (dùng làm lượng từ đếm người)."
+ },
+ "zh-family-people-66": {
+  "antonyms": [],
+  "characters": [
+   {
+    "char": "腿",
+    "componentMeaning": "",
+    "hanViet": "THOÁI",
+    "pictographicOrigin": "Bộ 月(thân thể) ghép 退(lùi lại) — bộ phận giúp DI CHUYỂN, \"chân\".",
+    "radical": "月(bộ nhục)",
+    "strokeCount": 13
+   }
+  ],
+  "collocations": [],
+  "compounds": [],
+  "distinguish": "\"腿\" là cẳng chân; \"脚\" là bàn chân.",
+  "distinguishExample": "腿疼（cẳng chân đau） vs 脚疼（bàn chân đau）。",
+  "grammarExample": "",
+  "grammarNote": "",
+  "image": "🦵",
+  "mnemonic": "腿 = 月(thân thể) + 退(lùi lại, di chuyển) — bộ phận giúp DI CHUYỂN/lùi, CHÂN.",
+  "partOfSpeech": "Danh từ",
+  "senses": [
+   {
+    "meanings": [
+     {
+      "example": "他的腿受伤了。 (Tā de tuǐ shòushāng le.) – Chân anh ấy bị thương.",
+      "meaning": "chân, cẳng chân"
+     }
+    ],
+    "partOfSpeech": "Danh từ"
+   }
+  ],
+  "synonyms": [],
+  "usage": "腿 chỉ toàn bộ CẲNG CHÂN (từ đùi tới cổ chân); 脚 chỉ riêng BÀN CHÂN."
+ },
+ "zh-family-people-67": {
+  "antonyms": [],
+  "characters": [
+   {
+    "char": "肚",
+    "componentMeaning": "",
+    "hanViet": "ĐỖ",
+    "pictographicOrigin": "Bộ 月(thân thể) ghép 土 lấy âm — nghĩa \"bụng\".",
+    "radical": "月(bộ nhục)",
+    "strokeCount": 7
+   },
+   {
+    "char": "子",
+    "componentMeaning": "hậu tố danh từ",
+    "hanViet": "TỬ",
+    "pictographicOrigin": "Chữ giáp cốt vẽ hình một đứa trẻ sơ sinh với hai tay dang ra — nghĩa \"con\".",
+    "radical": "子(bộ tử)",
+    "strokeCount": 3
+   }
+  ],
+  "collocations": [],
+  "compounds": [],
+  "distinguish": "",
+  "distinguishExample": "",
+  "grammarExample": "",
+  "grammarNote": "",
+  "image": "🤰",
+  "mnemonic": "肚子 = 肚(thân thể 月 + đất 土) + 子(hậu tố) — phần thân thể như \"ĐẤT\" chứa đồ ăn, BỤNG.",
+  "partOfSpeech": "Danh từ",
+  "senses": [
+   {
+    "meanings": [
+     {
+      "example": "我肚子疼。 (Wǒ dùzi téng.) – Tôi đau bụng.",
+      "meaning": "bụng"
+     }
+    ],
+    "partOfSpeech": "Danh từ"
+   }
+  ],
+  "synonyms": [],
+  "usage": ""
+ },
+ "zh-family-people-68": {
+  "antonyms": [],
+  "characters": [
+   {
+    "char": "声",
+    "componentMeaning": "",
+    "hanViet": "THANH",
+    "pictographicOrigin": "Chữ giản thể, liên quan tới nhạc cụ đá phát ra âm — nghĩa \"âm thanh\".",
+    "radical": "士(bộ sĩ)",
+    "strokeCount": 7
+   },
+   {
+    "char": "音",
+    "componentMeaning": "âm",
+    "hanViet": "ÂM",
+    "pictographicOrigin": "Liên quan tới nhạc cụ phát tiếng — nghĩa \"âm thanh\".",
+    "radical": "音(bộ âm)",
+    "strokeCount": 9
+   }
+  ],
+  "collocations": [],
+  "compounds": [],
+  "distinguish": "",
+  "distinguishExample": "",
+  "grammarExample": "",
+  "grammarNote": "",
+  "image": "🔊",
+  "mnemonic": "声音 = 声(nhạc cụ đá phát âm 士) + 音(âm thanh) — ghép đôi nhấn mạnh ÂM THANH.",
+  "partOfSpeech": "Danh từ",
+  "senses": [
+   {
+    "meanings": [
+     {
+      "example": "她的声音很好听。 (Tā de shēngyīn hěn hǎotīng.) – Giọng nói cô ấy rất hay.",
+      "meaning": "âm thanh, giọng nói"
+     }
+    ],
+    "partOfSpeech": "Danh từ"
+   }
+  ],
+  "synonyms": [],
+  "usage": ""
+ },
+ "zh-family-people-69": {
+  "antonyms": [],
+  "characters": [
+   {
+    "char": "个",
+    "componentMeaning": "",
+    "hanViet": "CÁ",
+    "pictographicOrigin": "Chữ giản thể, lượng từ phổ biến — \"vóc dáng\" (trong 个子).",
+    "radical": "人(bộ nhân)",
+    "strokeCount": 3
+   },
+   {
+    "char": "子",
+    "componentMeaning": "hậu tố danh từ",
+    "hanViet": "TỬ",
+    "pictographicOrigin": "Chữ giáp cốt vẽ hình một đứa trẻ sơ sinh với hai tay dang ra — nghĩa \"con\".",
+    "radical": "子(bộ tử)",
+    "strokeCount": 3
+   }
+  ],
+  "collocations": [],
+  "compounds": [],
+  "distinguish": "",
+  "distinguishExample": "",
+  "grammarExample": "",
+  "grammarNote": "",
+  "image": "📏",
+  "mnemonic": "个子 = 个(lượng từ đếm) + 子(hậu tố) — kích cỡ CÁI người, VÓC DÁNG.",
+  "partOfSpeech": "Danh từ",
+  "senses": [
+   {
+    "meanings": [
+     {
+      "example": "他个子很高。 (Tā gèzi hěn gāo.) – Cậu ấy dáng người cao.",
+      "meaning": "vóc dáng, chiều cao"
+     }
+    ],
+    "partOfSpeech": "Danh từ"
+   }
+  ],
+  "synonyms": [],
+  "usage": ""
+ },
  "zh-family-people-7": {
   "antonyms": [
    {
@@ -11839,6 +12895,100 @@
      {
       "example": "妹妹很可爱。 (Mèimei hěn kě'ài.) – Em gái rất đáng yêu.",
       "meaning": "em gái"
+     }
+    ],
+    "partOfSpeech": "Danh từ"
+   }
+  ],
+  "synonyms": [],
+  "usage": ""
+ },
+ "zh-family-people-70": {
+  "antonyms": [],
+  "characters": [
+   {
+    "char": "性",
+    "componentMeaning": "tính",
+    "hanViet": "TÍNH",
+    "pictographicOrigin": "Bộ 忄(tim) ghép 生(sinh ra) — bản chất sẵn có từ khi sinh ra, \"tính cách\".",
+    "radical": "忄(bộ tâm)",
+    "strokeCount": 8
+   },
+   {
+    "char": "格",
+    "componentMeaning": "cách",
+    "hanViet": "CÁCH",
+    "pictographicOrigin": "Bộ 木(gỗ) ghép 各 — khuôn khổ, tiêu chuẩn (trong 性格).",
+    "radical": "木(bộ mộc)",
+    "strokeCount": 10
+   }
+  ],
+  "collocations": [],
+  "compounds": [],
+  "distinguish": "",
+  "distinguishExample": "",
+  "grammarExample": "",
+  "grammarNote": "",
+  "image": "🎭",
+  "mnemonic": "性格 = 性(tim 忄 + sinh 生, bản chất) + 格(khuôn khổ gỗ 木) — KHUÔN KHỔ bản chất từ khi SINH ra, TÍNH CÁCH.",
+  "partOfSpeech": "Danh từ",
+  "senses": [
+   {
+    "meanings": [
+     {
+      "example": "他的性格很开朗。 (Tā de xìnggé hěn kāilǎng.) – Tính cách anh ấy rất cởi mở.",
+      "meaning": "tính cách"
+     }
+    ],
+    "partOfSpeech": "Danh từ"
+   }
+  ],
+  "synonyms": [],
+  "usage": ""
+ },
+ "zh-family-people-71": {
+  "antonyms": [],
+  "characters": [
+   {
+    "char": "朋",
+    "componentMeaning": "bạn",
+    "hanViet": "BẰNG",
+    "pictographicOrigin": "Chữ giáp cốt vẽ hình hai xâu ngọc bối buộc chung — biểu tượng của sự gắn bó, \"bạn bè\".",
+    "radical": "月(bộ nguyệt)",
+    "strokeCount": 8
+   },
+   {
+    "char": "友",
+    "componentMeaning": "bạn",
+    "hanViet": "HỮU",
+    "pictographicOrigin": "Chữ giáp cốt vẽ hình hai bàn tay nắm nhau — biểu tượng tình bạn.",
+    "radical": "又(bộ hựu)",
+    "strokeCount": 4
+   },
+   {
+    "char": "们",
+    "componentMeaning": "số nhiều",
+    "hanViet": "MÔN",
+    "pictographicOrigin": "Ghép bộ 亻(người) với 门 lấy âm — chữ hình thanh, dùng làm hậu tố số nhiều.",
+    "radical": "亻(bộ nhân)",
+    "strokeCount": 5
+   }
+  ],
+  "collocations": [],
+  "compounds": [],
+  "distinguish": "",
+  "distinguishExample": "",
+  "grammarExample": "",
+  "grammarNote": "",
+  "image": "👬",
+  "mnemonic": "朋友们 = 朋友(bạn bè) + 们(số nhiều) — nhiều BẠN BÈ cộng lại.",
+  "partOfSpeech": "Danh từ",
+  "senses": [
+   {
+    "meanings": [
+     {
+      "example": "我的朋友们都来了。 (Wǒ de péngyoumen dōu lái le.) – Các bạn tôi đều đến rồi.",
+      "meaning": "các bạn, những người bạn"
      }
     ],
     "partOfSpeech": "Danh từ"
@@ -11907,7 +13057,7 @@
     "char": "女",
     "componentMeaning": "nữ",
     "hanViet": "NỮ",
-    "pictographicOrigin": "Chữ giáp cốt vẽ hình một người quỳ, hai tay khoanh trước ngực — dáng ngồi truyền thống của phụ nữ.",
+    "pictographicOrigin": "Chữ giáp cốt vẽ hình một người quỳ, hai tay khoanh trước ngực.",
     "radical": "女(bộ nữ)",
     "strokeCount": 3
    },
@@ -17362,7 +18512,7 @@
     "char": "公",
     "componentMeaning": "công",
     "hanViet": "CÔNG",
-    "pictographicOrigin": "Chữ giáp cốt vẽ hình vật được CHIA đều công bằng — nghĩa \"công cộng, công bằng\".",
+    "pictographicOrigin": "Chữ giáp cốt vẽ vật được chia đều — \"công, ông\" (trong 外公).",
     "radical": "八(bộ bát)",
     "strokeCount": 4
    },
@@ -17491,7 +18641,7 @@
     "char": "公",
     "componentMeaning": "công",
     "hanViet": "CÔNG",
-    "pictographicOrigin": "Chữ giáp cốt vẽ hình vật được CHIA đều công bằng — nghĩa \"công cộng, công bằng\".",
+    "pictographicOrigin": "Chữ giáp cốt vẽ vật được chia đều — \"công, ông\" (trong 外公).",
     "radical": "八(bộ bát)",
     "strokeCount": 4
    },
@@ -18219,7 +19369,7 @@
     "char": "公",
     "componentMeaning": "chung",
     "hanViet": "CÔNG",
-    "pictographicOrigin": "Chữ giáp cốt vẽ hình vật được CHIA đều công bằng — nghĩa \"công cộng, công bằng\".",
+    "pictographicOrigin": "Chữ giáp cốt vẽ vật được chia đều — \"công, ông\" (trong 外公).",
     "radical": "八(bộ bát)",
     "strokeCount": 4
    },
@@ -18262,7 +19412,7 @@
     "char": "公",
     "componentMeaning": "chung",
     "hanViet": "CÔNG",
-    "pictographicOrigin": "Chữ giáp cốt vẽ hình vật được CHIA đều công bằng — nghĩa \"công cộng, công bằng\".",
+    "pictographicOrigin": "Chữ giáp cốt vẽ vật được chia đều — \"công, ông\" (trong 外公).",
     "radical": "八(bộ bát)",
     "strokeCount": 4
    },
@@ -18695,7 +19845,7 @@
     "char": "公",
     "componentMeaning": "công việc",
     "hanViet": "CÔNG",
-    "pictographicOrigin": "Chữ giáp cốt vẽ hình vật được CHIA đều công bằng — nghĩa \"công cộng, công bằng\".",
+    "pictographicOrigin": "Chữ giáp cốt vẽ vật được chia đều — \"công, ông\" (trong 外公).",
     "radical": "八(bộ bát)",
     "strokeCount": 4
    },
@@ -18863,7 +20013,7 @@
     "char": "外",
     "componentMeaning": "",
     "hanViet": "NGOẠI",
-    "pictographicOrigin": "Bộ 夕(buổi tối) ghép 卜(bói) — làm việc khác thường vào ban đêm, \"bên ngoài\".",
+    "pictographicOrigin": "Bộ 夕(tối) ghép 卜(bói) — làm việc khác thường ban đêm, \"bên ngoài\" (họ ngoại).",
     "radical": "夕(bộ tịch)",
     "strokeCount": 5
    }
@@ -19339,7 +20489,7 @@
     "char": "公",
     "componentMeaning": "công cộng",
     "hanViet": "CÔNG",
-    "pictographicOrigin": "Chữ giáp cốt vẽ hình vật được CHIA đều công bằng — nghĩa \"công cộng, công bằng\".",
+    "pictographicOrigin": "Chữ giáp cốt vẽ vật được chia đều — \"công, ông\" (trong 外公).",
     "radical": "八(bộ bát)",
     "strokeCount": 4
    },
@@ -21729,7 +22879,7 @@
     "char": "工",
     "componentMeaning": "công việc",
     "hanViet": "CÔNG",
-    "pictographicOrigin": "Chữ giáp cốt vẽ hình một cái thước thợ/công cụ lao động — nghĩa \"công việc\".",
+    "pictographicOrigin": "Chữ giáp cốt vẽ hình cái thước thợ — \"công việc, công nhân\".",
     "radical": "工(bộ công)",
     "strokeCount": 3
    },
@@ -22000,7 +23150,7 @@
     "char": "音",
     "componentMeaning": "âm thanh",
     "hanViet": "ÂM",
-    "pictographicOrigin": "Chữ giáp cốt liên quan tới nhạc cụ phát ra tiếng — nghĩa \"âm thanh\".",
+    "pictographicOrigin": "Liên quan tới nhạc cụ phát tiếng — nghĩa \"âm thanh\".",
     "radical": "音(bộ âm)",
     "strokeCount": 9
    },
@@ -22381,7 +23531,7 @@
     "char": "工",
     "componentMeaning": "công việc",
     "hanViet": "CÔNG",
-    "pictographicOrigin": "Chữ giáp cốt vẽ hình một cái thước thợ/công cụ lao động — nghĩa \"công việc\".",
+    "pictographicOrigin": "Chữ giáp cốt vẽ hình cái thước thợ — \"công việc, công nhân\".",
     "radical": "工(bộ công)",
     "strokeCount": 3
    },
@@ -24121,7 +25271,7 @@
     "char": "动",
     "componentMeaning": "động",
     "hanViet": "ĐỘNG",
-    "pictographicOrigin": "Bộ 力(sức lực) — dùng SỨC làm vật chuyển động.",
+    "pictographicOrigin": "Bộ 力(sức lực) — dùng sức làm vật chuyển động.",
     "radical": "力(bộ lực)",
     "strokeCount": 6
    }
@@ -24781,7 +25931,7 @@
     "char": "记",
     "componentMeaning": "nhớ",
     "hanViet": "KÝ",
-    "pictographicOrigin": "Bộ 讠(lời nói) ghép 己(bản thân) — ghi nhớ trong đầu, \"nhớ, ghi\".",
+    "pictographicOrigin": "Bộ 讠(lời nói) ghép 己 — ghi nhớ, ghi chép.",
     "radical": "讠(bộ ngôn)",
     "strokeCount": 5
    },
@@ -24837,7 +25987,7 @@
     "char": "记",
     "componentMeaning": "nhớ",
     "hanViet": "KÝ",
-    "pictographicOrigin": "Bộ 讠(lời nói) ghép 己(bản thân) — ghi nhớ trong đầu, \"nhớ, ghi\".",
+    "pictographicOrigin": "Bộ 讠(lời nói) ghép 己 — ghi nhớ, ghi chép.",
     "radical": "讠(bộ ngôn)",
     "strokeCount": 5
    }
