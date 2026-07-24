@@ -39717,5 +39717,1229 @@
    }
   ],
   "usage": "Động từ theo sau bởi động từ (打算去/学); cũng làm danh từ (有打算)."
+ },
+ "zh-verbs-2-48": {
+  "antonyms": [],
+  "characters": [
+   {
+    "char": "决",
+    "hanViet": "QUYẾT",
+    "radical": "冫(bộ băng)",
+    "strokeCount": 6,
+    "componentMeaning": "dứt khoát",
+    "pictographicOrigin": "Bộ 冫(nước) với 夬 — khơi vỡ dòng nước, nghĩa \"dứt khoát, quyết\"."
+   },
+   {
+    "char": "定",
+    "hanViet": "ĐỊNH",
+    "radical": "宀(bộ miên)",
+    "strokeCount": 8,
+    "componentMeaning": "định, chắc",
+    "pictographicOrigin": "Bộ 宀(nhà) với 正 — an định trong nhà, nghĩa \"yên, định\"."
+   }
+  ],
+  "collocations": [],
+  "compounds": [
+   {
+    "word": "决心",
+    "pinyin": "juéxīn",
+    "meaning": "quyết tâm",
+    "example": "他下决心减肥。 (Tā xià juéxīn jiǎnféi.) – Anh ấy quyết tâm giảm cân."
+   },
+   {
+    "word": "一定",
+    "pinyin": "yídìng",
+    "meaning": "nhất định",
+    "example": "我一定来。 (Wǒ yídìng lái.) – Tôi nhất định đến."
+   }
+  ],
+  "distinguish": "",
+  "distinguishExample": "",
+  "grammarExample": "",
+  "grammarNote": "",
+  "image": "",
+  "mnemonic": "决(dứt khoát) + 定(định) = định cho dứt khoát → quyết định.",
+  "partOfSpeech": "Động từ / Danh từ",
+  "senses": [
+   {
+    "partOfSpeech": "Động từ",
+    "meanings": [
+     {
+      "meaning": "quyết định",
+      "example": "我决定学汉语。 (Wǒ juédìng xué Hànyǔ.) – Tôi quyết định học tiếng Trung."
+     }
+    ]
+   },
+   {
+    "partOfSpeech": "Danh từ",
+    "meanings": [
+     {
+      "meaning": "quyết định (kết quả)",
+      "example": "这是一个重要的决定。 (Zhè shì yí ge zhòngyào de juédìng.) – Đây là một quyết định quan trọng."
+     }
+    ]
+   }
+  ],
+  "synonyms": [],
+  "usage": "Động từ theo sau bởi động từ/mệnh đề (决定去); cũng làm danh từ (做决定)."
+ },
+ "zh-verbs-2-49": {
+  "antonyms": [
+   {
+    "word": "反对",
+    "example": "大家都反对。 (Dàjiā dōu fǎnduì.) – Mọi người đều phản đối."
+   }
+  ],
+  "characters": [
+   {
+    "char": "同",
+    "hanViet": "ĐỒNG",
+    "radical": "口(bộ khẩu)",
+    "strokeCount": 6,
+    "componentMeaning": "cùng, giống",
+    "pictographicOrigin": "Nhiều miệng (口) nói cùng một lời — nghĩa \"cùng, giống nhau\"."
+   },
+   {
+    "char": "意",
+    "hanViet": "Ý",
+    "radical": "心(bộ tâm)",
+    "strokeCount": 13,
+    "componentMeaning": "ý, ý nghĩ",
+    "pictographicOrigin": "Bộ 心(tim) với 音(âm) — tiếng lòng, nghĩa \"ý, ý nghĩ\"."
+   }
+  ],
+  "collocations": [],
+  "compounds": [
+   {
+    "word": "意见",
+    "pinyin": "yìjiàn",
+    "meaning": "ý kiến",
+    "example": "你有什么意见？ (Nǐ yǒu shénme yìjiàn?) – Bạn có ý kiến gì?"
+   },
+   {
+    "word": "同学",
+    "pinyin": "tóngxué",
+    "meaning": "bạn học",
+    "example": "他是我的同学。 (Tā shì wǒ de tóngxué.) – Anh ấy là bạn học của tôi."
+   }
+  ],
+  "distinguish": "",
+  "distinguishExample": "",
+  "grammarExample": "",
+  "grammarNote": "",
+  "image": "",
+  "mnemonic": "同(cùng) + 意(ý) = cùng ý → đồng ý.",
+  "partOfSpeech": "Động từ",
+  "senses": [
+   {
+    "partOfSpeech": "Động từ",
+    "meanings": [
+     {
+      "meaning": "đồng ý, tán thành",
+      "example": "我同意你的看法。 (Wǒ tóngyì nǐ de kànfǎ.) – Tôi đồng ý với quan điểm của bạn."
+     }
+    ]
+   }
+  ],
+  "synonyms": [],
+  "usage": "Mang tân ngữ (同意计划) hoặc theo sau mệnh đề; đối lập 反对."
+ },
+ "zh-verbs-2-50": {
+  "antonyms": [
+   {
+    "word": "怀疑",
+    "example": "我怀疑他说谎。 (Wǒ huáiyí tā shuōhuǎng.) – Tôi nghi ngờ anh ấy nói dối."
+   }
+  ],
+  "characters": [
+   {
+    "char": "相",
+    "hanViet": "TƯƠNG",
+    "radical": "目(bộ mục)",
+    "strokeCount": 9,
+    "componentMeaning": "lẫn nhau; xem",
+    "pictographicOrigin": "Bộ 木(cây) với 目(mắt) — mắt nhìn cây, nghĩa \"xem xét; lẫn nhau\"."
+   },
+   {
+    "char": "信",
+    "hanViet": "TÍN",
+    "radical": "亻(bộ nhân)",
+    "strokeCount": 9,
+    "componentMeaning": "tin; thư",
+    "pictographicOrigin": "Bộ 亻(người) với 言(lời) — lời người đáng tin, nghĩa \"tin; thư tín\"."
+   }
+  ],
+  "collocations": [],
+  "compounds": [
+   {
+    "word": "信任",
+    "pinyin": "xìnrèn",
+    "meaning": "tin tưởng",
+    "example": "我完全信任他。 (Wǒ wánquán xìnrèn tā.) – Tôi hoàn toàn tin tưởng anh ấy."
+   },
+   {
+    "word": "信心",
+    "pinyin": "xìnxīn",
+    "meaning": "lòng tin, tự tin",
+    "example": "我对自己有信心。 (Wǒ duì zìjǐ yǒu xìnxīn.) – Tôi tự tin vào bản thân."
+   }
+  ],
+  "distinguish": "",
+  "distinguishExample": "",
+  "grammarExample": "",
+  "grammarNote": "",
+  "image": "",
+  "mnemonic": "相(lẫn nhau) + 信(tin) = tin lẫn nhau → tin tưởng.",
+  "partOfSpeech": "Động từ",
+  "senses": [
+   {
+    "partOfSpeech": "Động từ",
+    "meanings": [
+     {
+      "meaning": "tin, tin tưởng",
+      "example": "我相信你能做到。 (Wǒ xiāngxìn nǐ néng zuòdào.) – Tôi tin bạn làm được."
+     }
+    ]
+   }
+  ],
+  "synonyms": [],
+  "usage": "Mang tân ngữ người/việc, hoặc theo sau mệnh đề (相信 + câu)."
+ },
+ "zh-verbs-2-51": {
+  "antonyms": [],
+  "characters": [
+   {
+    "char": "懂",
+    "hanViet": "ĐỔNG",
+    "radical": "忄(bộ tâm đứng)",
+    "strokeCount": 15,
+    "componentMeaning": "hiểu",
+    "pictographicOrigin": "Bộ 忄(tim) với 董 — trong lòng thông tỏ, nghĩa \"hiểu\"."
+   }
+  ],
+  "collocations": [],
+  "compounds": [
+   {
+    "word": "懂得",
+    "pinyin": "dǒngde",
+    "meaning": "biết, hiểu được",
+    "example": "他懂得感恩。 (Tā dǒngde gǎn'ēn.) – Anh ấy biết ơn nghĩa."
+   },
+   {
+    "word": "听懂",
+    "pinyin": "tīngdǒng",
+    "meaning": "nghe hiểu",
+    "example": "我听懂了。 (Wǒ tīngdǒng le.) – Tôi nghe hiểu rồi."
+   }
+  ],
+  "distinguish": "\"懂\" nhấn hiểu nội dung/tri thức (懂汉语/懂道理); \"明白\" nhấn vỡ lẽ, rõ ra một điều cụ thể.",
+  "distinguishExample": "我懂这个语法，也明白你的意思。 (Wǒ dǒng zhège yǔfǎ, yě míngbai nǐ de yìsi.) – Tôi hiểu ngữ pháp này, cũng hiểu ý bạn.",
+  "grammarExample": "",
+  "grammarNote": "",
+  "image": "",
+  "mnemonic": "忄(tim/trí) thông tỏ → hiểu.",
+  "partOfSpeech": "Động từ",
+  "senses": [
+   {
+    "partOfSpeech": "Động từ",
+    "meanings": [
+     {
+      "meaning": "hiểu, nắm được (nội dung)",
+      "example": "你懂我的意思吗？ (Nǐ dǒng wǒ de yìsi ma?) – Bạn hiểu ý tôi không?"
+     }
+    ]
+   }
+  ],
+  "synonyms": [
+   {
+    "word": "明白",
+    "example": "我明白了。 (Wǒ míngbai le.) – Tôi hiểu rồi."
+   }
+  ],
+  "usage": "Làm bổ ngữ kết quả (看懂/听懂) hoặc mang tân ngữ (懂英语/懂事)."
+ },
+ "zh-verbs-2-52": {
+  "antonyms": [],
+  "characters": [
+   {
+    "char": "明",
+    "hanViet": "MINH",
+    "radical": "日(bộ nhật)",
+    "strokeCount": 8,
+    "componentMeaning": "sáng, rõ",
+    "pictographicOrigin": "Mặt trời (日) và mặt trăng (月) — sáng tỏ, nghĩa \"sáng, rõ\"."
+   },
+   {
+    "char": "白",
+    "hanViet": "BẠCH",
+    "radical": "白(bộ bạch)",
+    "strokeCount": 5,
+    "componentMeaning": "trắng, rõ",
+    "pictographicOrigin": "Vẽ hạt gạo/tia sáng trắng — nghĩa \"trắng, rõ ràng\"."
+   }
+  ],
+  "collocations": [],
+  "compounds": [
+   {
+    "word": "明天",
+    "pinyin": "míngtiān",
+    "meaning": "ngày mai",
+    "example": "明天见！ (Míngtiān jiàn!) – Mai gặp!"
+   },
+   {
+    "word": "说明",
+    "pinyin": "shuōmíng",
+    "meaning": "thuyết minh, giải thích",
+    "example": "请说明原因。 (Qǐng shuōmíng yuányīn.) – Xin giải thích nguyên nhân."
+   }
+  ],
+  "distinguish": "",
+  "distinguishExample": "",
+  "grammarExample": "",
+  "grammarNote": "",
+  "image": "",
+  "mnemonic": "明(sáng) + 白(rõ) = sáng tỏ rõ ràng → hiểu rõ.",
+  "partOfSpeech": "Động từ / Tính từ",
+  "senses": [
+   {
+    "partOfSpeech": "Động từ",
+    "meanings": [
+     {
+      "meaning": "hiểu rõ, vỡ lẽ",
+      "example": "现在我明白了。 (Xiànzài wǒ míngbai le.) – Bây giờ tôi hiểu rồi."
+     }
+    ]
+   },
+   {
+    "partOfSpeech": "Tính từ",
+    "meanings": [
+     {
+      "meaning": "rõ ràng, minh bạch",
+      "example": "这件事很明白。 (Zhè jiàn shì hěn míngbai.) – Việc này rất rõ ràng."
+     }
+    ]
+   }
+  ],
+  "synonyms": [
+   {
+    "word": "懂",
+    "example": "这个道理我懂。 (Zhège dàolǐ wǒ dǒng.) – Đạo lý này tôi hiểu."
+   }
+  ],
+  "usage": "Động từ vỡ lẽ (明白了) và tính từ rõ ràng (说得很明白)."
+ },
+ "zh-verbs-2-53": {
+  "antonyms": [],
+  "characters": [
+   {
+    "char": "了",
+    "hanViet": "LIỄU",
+    "radical": "亅(bộ quyết)",
+    "strokeCount": 2,
+    "componentMeaning": "hiểu tỏ (đọc liǎo)",
+    "pictographicOrigin": "Vẽ đứa bé bọc tã không có tay — mượn nghĩa \"xong, tỏ\" (đọc liǎo)."
+   },
+   {
+    "char": "解",
+    "hanViet": "GIẢI",
+    "radical": "角(bộ giác)",
+    "strokeCount": 13,
+    "componentMeaning": "mở ra, hiểu",
+    "pictographicOrigin": "Dao (刀) tách sừng (角) khỏi bò (牛) — nghĩa \"tách ra, giải, hiểu\"."
+   }
+  ],
+  "collocations": [],
+  "compounds": [
+   {
+    "word": "理解",
+    "pinyin": "lǐjiě",
+    "meaning": "lý giải, hiểu",
+    "example": "我理解你的心情。 (Wǒ lǐjiě nǐ de xīnqíng.) – Tôi hiểu tâm trạng của bạn."
+   },
+   {
+    "word": "解决",
+    "pinyin": "jiějué",
+    "meaning": "giải quyết",
+    "example": "问题解决了。 (Wèntí jiějué le.) – Vấn đề đã giải quyết."
+   }
+  ],
+  "distinguish": "\"了解\" nhấn nắm rõ thông tin/con người; \"理解\" nhấn thấu hiểu, thông cảm về lý lẽ, cảm xúc.",
+  "distinguishExample": "我了解情况，也理解你的难处。 (Wǒ liǎojiě qíngkuàng, yě lǐjiě nǐ de nánchu.) – Tôi nắm tình hình, cũng thông cảm cho khó khăn của bạn.",
+  "grammarExample": "",
+  "grammarNote": "",
+  "image": "",
+  "mnemonic": "了(tỏ) + 解(mở ra) = mở ra cho tỏ → hiểu rõ. Ở đây 了 đọc liǎo.",
+  "partOfSpeech": "Động từ",
+  "senses": [
+   {
+    "partOfSpeech": "Động từ",
+    "meanings": [
+     {
+      "meaning": "hiểu rõ (về ai/cái gì)",
+      "example": "我很了解他。 (Wǒ hěn liǎojiě tā.) – Tôi rất hiểu anh ấy."
+     },
+     {
+      "meaning": "tìm hiểu, nắm tình hình",
+      "example": "我去了解一下情况。 (Wǒ qù liǎojiě yíxià qíngkuàng.) – Tôi đi tìm hiểu tình hình một chút."
+     }
+    ]
+   }
+  ],
+  "synonyms": [],
+  "usage": "Mang tân ngữ người/việc (了解他/情况); 了 đọc liǎo (không phải trợ từ le)."
+ },
+ "zh-verbs-2-54": {
+  "antonyms": [
+   {
+    "word": "复习",
+    "example": "复习旧课，预习新课。 (Fùxí jiù kè, yùxí xīn kè.) – Ôn bài cũ, xem trước bài mới."
+   }
+  ],
+  "characters": [
+   {
+    "char": "预",
+    "hanViet": "DỰ",
+    "radical": "页(bộ hiệt)",
+    "strokeCount": 10,
+    "componentMeaning": "trước, dự",
+    "pictographicOrigin": "Bộ 页(đầu) với 予 — tính trước, nghĩa \"trước, dự liệu\"."
+   },
+   {
+    "char": "习",
+    "hanViet": "TẬP",
+    "radical": "乙(bộ ất)",
+    "strokeCount": 3,
+    "componentMeaning": "học, luyện",
+    "pictographicOrigin": "Giản hóa từ 習 (chim non tập bay) — nghĩa \"học, luyện tập\"."
+   }
+  ],
+  "collocations": [],
+  "compounds": [
+   {
+    "word": "复习",
+    "pinyin": "fùxí",
+    "meaning": "ôn tập",
+    "example": "考试前要复习。 (Kǎoshì qián yào fùxí.) – Trước thi phải ôn tập."
+   },
+   {
+    "word": "预报",
+    "pinyin": "yùbào",
+    "meaning": "dự báo",
+    "example": "天气预报说明天下雨。 (Tiānqì yùbào shuō míngtiān xiàyǔ.) – Dự báo nói mai mưa."
+   }
+  ],
+  "distinguish": "",
+  "distinguishExample": "",
+  "grammarExample": "",
+  "grammarNote": "",
+  "image": "",
+  "mnemonic": "预(trước) + 习(học) = học trước → chuẩn bị bài.",
+  "partOfSpeech": "Động từ",
+  "senses": [
+   {
+    "partOfSpeech": "Động từ",
+    "meanings": [
+     {
+      "meaning": "chuẩn bị bài trước (xem trước bài học)",
+      "example": "今晚预习第五课。 (Jīn wǎn yùxí dì-wǔ kè.) – Tối nay chuẩn bị trước bài năm."
+     }
+    ]
+   }
+  ],
+  "synonyms": [],
+  "usage": "Mang tân ngữ bài học (预习课文); cặp đôi với 复习."
+ },
+ "zh-verbs-2-55": {
+  "antonyms": [],
+  "characters": [
+   {
+    "char": "聊",
+    "hanViet": "LIÊU",
+    "radical": "耳(bộ nhĩ)",
+    "strokeCount": 11,
+    "componentMeaning": "trò chuyện",
+    "pictographicOrigin": "Bộ 耳(tai) với 卯 — vừa nghe vừa nói, nghĩa \"nói chuyện phiếm\"."
+   },
+   {
+    "char": "天",
+    "hanViet": "THIÊN",
+    "radical": "大(bộ đại)",
+    "strokeCount": 4,
+    "componentMeaning": "trời; chuyện (聊天)",
+    "pictographicOrigin": "Vẽ người dang tay, phía trên là trời — nghĩa \"trời\"; ở đây chỉ \"câu chuyện\"."
+   }
+  ],
+  "collocations": [],
+  "compounds": [
+   {
+    "word": "聊",
+    "pinyin": "liáo",
+    "meaning": "tán chuyện",
+    "example": "我们聊了很久。 (Wǒmen liáo le hěn jiǔ.) – Chúng tôi nói chuyện rất lâu."
+   },
+   {
+    "word": "无聊",
+    "pinyin": "wúliáo",
+    "meaning": "buồn chán",
+    "example": "周末在家很无聊。 (Zhōumò zài jiā hěn wúliáo.) – Cuối tuần ở nhà rất chán."
+   }
+  ],
+  "distinguish": "",
+  "distinguishExample": "",
+  "grammarExample": "",
+  "grammarNote": "",
+  "image": "",
+  "mnemonic": "聊(nghe-nói) + 天(chuyện trời đất) = tán chuyện → trò chuyện phiếm.",
+  "partOfSpeech": "Động từ",
+  "senses": [
+   {
+    "partOfSpeech": "Động từ",
+    "meanings": [
+     {
+      "meaning": "tán gẫu, trò chuyện phiếm",
+      "example": "我们坐下聊天吧。 (Wǒmen zuòxià liáotiān ba.) – Chúng ta ngồi xuống trò chuyện đi."
+     }
+    ]
+   }
+  ],
+  "synonyms": [
+   {
+    "word": "谈",
+    "example": "我想跟你谈谈。 (Wǒ xiǎng gēn nǐ tántan.) – Tôi muốn nói chuyện với bạn."
+   }
+  ],
+  "usage": "Động từ ly hợp (聊了一会儿天); nhẹ nhàng, không trang trọng như 谈/讨论."
+ },
+ "zh-verbs-2-56": {
+  "antonyms": [],
+  "characters": [
+   {
+    "char": "谈",
+    "hanViet": "ĐÀM",
+    "radical": "讠(bộ ngôn)",
+    "strokeCount": 10,
+    "componentMeaning": "nói, bàn",
+    "pictographicOrigin": "Bộ 讠(lời) với 炎 lấy âm — nghĩa \"nói chuyện, đàm luận\"."
+   }
+  ],
+  "collocations": [],
+  "compounds": [
+   {
+    "word": "谈话",
+    "pinyin": "tánhuà",
+    "meaning": "nói chuyện, đàm thoại",
+    "example": "老师找我谈话。 (Lǎoshī zhǎo wǒ tánhuà.) – Thầy gọi tôi nói chuyện."
+   },
+   {
+    "word": "谈判",
+    "pinyin": "tánpàn",
+    "meaning": "đàm phán",
+    "example": "双方在谈判。 (Shuāngfāng zài tánpàn.) – Hai bên đang đàm phán."
+   }
+  ],
+  "distinguish": "\"谈\" thiên về bàn việc có chủ đề, nghiêm túc hơn; \"聊天\" là chuyện phiếm thoải mái.",
+  "distinguishExample": "我们谈工作，不是聊天。 (Wǒmen tán gōngzuò, bú shì liáotiān.) – Chúng ta bàn công việc, không phải tán gẫu.",
+  "grammarExample": "",
+  "grammarNote": "",
+  "image": "",
+  "mnemonic": "讠(lời) + 炎 = trao đổi lời qua lại → nói chuyện, bàn.",
+  "partOfSpeech": "Động từ",
+  "senses": [
+   {
+    "partOfSpeech": "Động từ",
+    "meanings": [
+     {
+      "meaning": "nói chuyện, bàn (về việc gì)",
+      "example": "我想跟你谈谈这件事。 (Wǒ xiǎng gēn nǐ tántan zhè jiàn shì.) – Tôi muốn bàn với bạn việc này."
+     }
+    ]
+   }
+  ],
+  "synonyms": [
+   {
+    "word": "聊天",
+    "example": "我们聊聊天。 (Wǒmen liáoliao tiān.) – Chúng ta tán gẫu chút."
+   }
+  ],
+  "usage": "Mang tân ngữ chủ đề (谈工作/谈恋爱) hoặc dùng 谈谈 (bàn chút)."
+ },
+ "zh-verbs-2-57": {
+  "antonyms": [],
+  "characters": [
+   {
+    "char": "讨",
+    "hanViet": "THẢO",
+    "radical": "讠(bộ ngôn)",
+    "strokeCount": 5,
+    "componentMeaning": "bàn, tìm",
+    "pictographicOrigin": "Bộ 讠(lời) với 寸 — dùng lời tìm hiểu, nghĩa \"bàn, thảo\"."
+   },
+   {
+    "char": "论",
+    "hanViet": "LUẬN",
+    "radical": "讠(bộ ngôn)",
+    "strokeCount": 6,
+    "componentMeaning": "luận, bàn",
+    "pictographicOrigin": "Bộ 讠(lời) với 仑 — nghĩa \"bàn luận\"."
+   }
+  ],
+  "collocations": [],
+  "compounds": [
+   {
+    "word": "讨论会",
+    "pinyin": "tǎolùnhuì",
+    "meaning": "buổi thảo luận",
+    "example": "下午有讨论会。 (Xiàwǔ yǒu tǎolùnhuì.) – Chiều có buổi thảo luận."
+   },
+   {
+    "word": "结论",
+    "pinyin": "jiélùn",
+    "meaning": "kết luận",
+    "example": "我们得出了结论。 (Wǒmen déchū le jiélùn.) – Chúng tôi rút ra kết luận."
+   }
+  ],
+  "distinguish": "",
+  "distinguishExample": "",
+  "grammarExample": "",
+  "grammarNote": "",
+  "image": "",
+  "mnemonic": "讨(bàn) + 论(luận) = cùng bàn luận → thảo luận.",
+  "partOfSpeech": "Động từ",
+  "senses": [
+   {
+    "partOfSpeech": "Động từ",
+    "meanings": [
+     {
+      "meaning": "thảo luận, bàn bạc (nhiều người)",
+      "example": "我们讨论一下这个问题。 (Wǒmen tǎolùn yíxià zhège wèntí.) – Chúng ta thảo luận vấn đề này một chút."
+     }
+    ]
+   }
+  ],
+  "synonyms": [
+   {
+    "word": "商量",
+    "example": "我们商量一下。 (Wǒmen shāngliang yíxià.) – Chúng ta bàn bạc chút."
+   }
+  ],
+  "usage": "Mang tân ngữ vấn đề (讨论问题/计划); thường có nhiều người tham gia."
+ },
+ "zh-verbs-2-58": {
+  "antonyms": [],
+  "characters": [
+   {
+    "char": "通",
+    "hanViet": "THÔNG",
+    "radical": "辶(bộ sước)",
+    "strokeCount": 10,
+    "componentMeaning": "thông, truyền",
+    "pictographicOrigin": "Bộ 辶(đi) với 甬 — đường thông suốt, nghĩa \"thông, truyền đạt\"."
+   },
+   {
+    "char": "知",
+    "hanViet": "TRI",
+    "radical": "矢(bộ thỉ)",
+    "strokeCount": 8,
+    "componentMeaning": "biết",
+    "pictographicOrigin": "Bộ 矢(mũi tên) với 口 — lời nói nhanh như tên, nghĩa \"biết, cho biết\"."
+   }
+  ],
+  "collocations": [],
+  "compounds": [
+   {
+    "word": "知道",
+    "pinyin": "zhīdào",
+    "meaning": "biết",
+    "example": "我知道了。 (Wǒ zhīdào le.) – Tôi biết rồi."
+   },
+   {
+    "word": "通过",
+    "pinyin": "tōngguò",
+    "meaning": "thông qua, đi qua",
+    "example": "他通过了考试。 (Tā tōngguò le kǎoshì.) – Anh ấy đã qua kỳ thi."
+   }
+  ],
+  "distinguish": "",
+  "distinguishExample": "",
+  "grammarExample": "",
+  "grammarNote": "",
+  "image": "",
+  "mnemonic": "通(truyền) + 知(cho biết) = truyền cho biết → thông báo.",
+  "partOfSpeech": "Động từ / Danh từ",
+  "senses": [
+   {
+    "partOfSpeech": "Động từ",
+    "meanings": [
+     {
+      "meaning": "thông báo, báo cho biết",
+      "example": "请通知大家开会。 (Qǐng tōngzhī dàjiā kāihuì.) – Xin thông báo mọi người họp."
+     }
+    ]
+   },
+   {
+    "partOfSpeech": "Danh từ",
+    "meanings": [
+     {
+      "meaning": "thông báo (văn bản)",
+      "example": "墙上有一张通知。 (Qiáng shàng yǒu yì zhāng tōngzhī.) – Trên tường có một tờ thông báo."
+     }
+    ]
+   }
+  ],
+  "synonyms": [],
+  "usage": "Động từ theo sau người + việc (通知大家…); danh từ là tờ thông báo (发通知)."
+ },
+ "zh-verbs-2-59": {
+  "antonyms": [],
+  "characters": [
+   {
+    "char": "联",
+    "hanViet": "LIÊN",
+    "radical": "耳(bộ nhĩ)",
+    "strokeCount": 12,
+    "componentMeaning": "nối, liền",
+    "pictographicOrigin": "Giản hóa từ 聯 — nghĩa \"nối liền, liên kết\"."
+   },
+   {
+    "char": "系",
+    "hanViet": "HỆ",
+    "radical": "糸(bộ mịch)",
+    "strokeCount": 7,
+    "componentMeaning": "buộc, ràng",
+    "pictographicOrigin": "Vẽ tay buộc sợi tơ — nghĩa \"buộc, ràng buộc, hệ\"."
+   }
+  ],
+  "collocations": [],
+  "compounds": [
+   {
+    "word": "关系",
+    "pinyin": "guānxi",
+    "meaning": "quan hệ",
+    "example": "他们关系很好。 (Tāmen guānxi hěn hǎo.) – Quan hệ của họ rất tốt."
+   },
+   {
+    "word": "联系方式",
+    "pinyin": "liánxì fāngshì",
+    "meaning": "phương thức liên lạc",
+    "example": "请留下联系方式。 (Qǐng liúxià liánxì fāngshì.) – Xin để lại cách liên lạc."
+   }
+  ],
+  "distinguish": "",
+  "distinguishExample": "",
+  "grammarExample": "",
+  "grammarNote": "",
+  "image": "",
+  "mnemonic": "联(nối) + 系(buộc) = nối buộc lại → liên lạc, liên hệ.",
+  "partOfSpeech": "Động từ / Danh từ",
+  "senses": [
+   {
+    "partOfSpeech": "Động từ",
+    "meanings": [
+     {
+      "meaning": "liên lạc, liên hệ",
+      "example": "我们常常联系。 (Wǒmen chángcháng liánxì.) – Chúng tôi thường liên lạc."
+     }
+    ]
+   },
+   {
+    "partOfSpeech": "Danh từ",
+    "meanings": [
+     {
+      "meaning": "mối liên hệ",
+      "example": "这两件事有联系。 (Zhè liǎng jiàn shì yǒu liánxì.) – Hai việc này có liên quan."
+     }
+    ]
+   }
+  ],
+  "synonyms": [],
+  "usage": "Động từ (联系我/联系老师) và danh từ (有联系/失去联系)."
+ },
+ "zh-verbs-2-60": {
+  "antonyms": [],
+  "characters": [
+   {
+    "char": "发",
+    "hanViet": "PHÁT",
+    "radical": "又(bộ hựu)",
+    "strokeCount": 5,
+    "componentMeaning": "phát ra, gửi",
+    "pictographicOrigin": "Giản hóa từ 發 (bắn cung) — nghĩa \"phát ra, gửi đi\"."
+   }
+  ],
+  "collocations": [],
+  "compounds": [
+   {
+    "word": "发短信",
+    "pinyin": "fā duǎnxìn",
+    "meaning": "nhắn tin",
+    "example": "他给我发了短信。 (Tā gěi wǒ fā le duǎnxìn.) – Anh ấy nhắn tin cho tôi."
+   },
+   {
+    "word": "发烧",
+    "pinyin": "fāshāo",
+    "meaning": "sốt",
+    "example": "孩子发烧了。 (Háizi fāshāo le.) – Đứa bé bị sốt."
+   }
+  ],
+  "distinguish": "\"发\" thiên gửi điện tử/tức thời (发消息/邮件); \"寄\" là gửi qua bưu điện (寄信/寄包裹).",
+  "distinguishExample": "我发邮件给你，也寄了一张明信片。 (Wǒ fā yóujiàn gěi nǐ, yě jì le yì zhāng míngxìnpiàn.) – Tôi gửi email cho bạn, cũng gửi một tấm bưu thiếp.",
+  "grammarExample": "",
+  "grammarNote": "",
+  "image": "",
+  "mnemonic": "发 = phát/gửi đi. Đa nghĩa: 发短信 (nhắn), 发烧 (sốt), 发工资 (phát lương).",
+  "partOfSpeech": "Động từ",
+  "senses": [
+   {
+    "partOfSpeech": "Động từ",
+    "meanings": [
+     {
+      "meaning": "gửi, phát (tin nhắn, email, hàng)",
+      "example": "我给你发短信。 (Wǒ gěi nǐ fā duǎnxìn.) – Tôi nhắn tin cho bạn."
+     },
+     {
+      "meaning": "phát ra, phát (发烧, 发工资)",
+      "example": "这个月的工资发了。 (Zhège yuè de gōngzī fā le.) – Lương tháng này đã phát rồi."
+     }
+    ]
+   }
+  ],
+  "synonyms": [
+   {
+    "word": "寄",
+    "example": "我去邮局寄信。 (Wǒ qù yóujú jì xìn.) – Tôi ra bưu điện gửi thư."
+   }
+  ],
+  "usage": "Mang tân ngữ (发短信/邮件/工资); nhiều nghĩa mở rộng theo từ ghép."
+ },
+ "zh-verbs-2-61": {
+  "antonyms": [],
+  "characters": [
+   {
+    "char": "短",
+    "hanViet": "ĐOẢN",
+    "radical": "矢(bộ thỉ)",
+    "strokeCount": 12,
+    "componentMeaning": "ngắn",
+    "pictographicOrigin": "Bộ 矢(mũi tên) với 豆 — đo bằng vật ngắn, nghĩa \"ngắn\"."
+   },
+   {
+    "char": "信",
+    "hanViet": "TÍN",
+    "radical": "亻(bộ nhân)",
+    "strokeCount": 9,
+    "componentMeaning": "thư, tin",
+    "pictographicOrigin": "Bộ 亻(người) với 言(lời) — nghĩa \"thư tín, tin\"."
+   }
+  ],
+  "collocations": [],
+  "compounds": [
+   {
+    "word": "信",
+    "pinyin": "xìn",
+    "meaning": "thư",
+    "example": "我给奶奶写信。 (Wǒ gěi nǎinai xiě xìn.) – Tôi viết thư cho bà."
+   },
+   {
+    "word": "短",
+    "pinyin": "duǎn",
+    "meaning": "ngắn",
+    "example": "她的头发很短。 (Tā de tóufa hěn duǎn.) – Tóc cô ấy rất ngắn."
+   }
+  ],
+  "distinguish": "",
+  "distinguishExample": "",
+  "grammarExample": "",
+  "grammarNote": "",
+  "image": "",
+  "mnemonic": "短(ngắn) + 信(thư) = bức thư ngắn → tin nhắn.",
+  "partOfSpeech": "Danh từ",
+  "senses": [
+   {
+    "partOfSpeech": "Danh từ",
+    "meanings": [
+     {
+      "meaning": "tin nhắn (SMS)",
+      "example": "我收到你的短信了。 (Wǒ shōudào nǐ de duǎnxìn le.) – Tôi nhận được tin nhắn của bạn."
+     }
+    ]
+   }
+  ],
+  "synonyms": [],
+  "usage": "Đi với 发/收到 + 短信; ngày nay còn hay dùng 微信 (WeChat) để nhắn."
+ },
+ "zh-verbs-2-62": {
+  "antonyms": [
+   {
+    "word": "放心",
+    "example": "这件事你放心。 (Zhè jiàn shì nǐ fàngxīn.) – Việc này bạn cứ yên tâm."
+   }
+  ],
+  "characters": [
+   {
+    "char": "担",
+    "hanViet": "ĐẢM",
+    "radical": "扌(bộ thủ)",
+    "strokeCount": 8,
+    "componentMeaning": "gánh, mang",
+    "pictographicOrigin": "Bộ 扌(tay) với 旦 — vai gánh, nghĩa \"gánh vác, mang\"."
+   },
+   {
+    "char": "心",
+    "hanViet": "TÂM",
+    "radical": "心(bộ tâm)",
+    "strokeCount": 4,
+    "componentMeaning": "lòng",
+    "pictographicOrigin": "Vẽ quả tim — nghĩa \"tim, lòng\"."
+   }
+  ],
+  "collocations": [],
+  "compounds": [
+   {
+    "word": "担任",
+    "pinyin": "dānrèn",
+    "meaning": "đảm nhiệm",
+    "example": "他担任班长。 (Tā dānrèn bānzhǎng.) – Anh ấy làm lớp trưởng."
+   },
+   {
+    "word": "放心",
+    "pinyin": "fàngxīn",
+    "meaning": "yên tâm",
+    "example": "你放心吧。 (Nǐ fàngxīn ba.) – Bạn yên tâm đi."
+   }
+  ],
+  "distinguish": "",
+  "distinguishExample": "",
+  "grammarExample": "",
+  "grammarNote": "",
+  "image": "",
+  "mnemonic": "担(gánh) + 心(lòng) = lòng nặng gánh → lo lắng.",
+  "partOfSpeech": "Động từ",
+  "senses": [
+   {
+    "partOfSpeech": "Động từ",
+    "meanings": [
+     {
+      "meaning": "lo lắng, bận tâm",
+      "example": "别担心，我没事。 (Bié dānxīn, wǒ méishì.) – Đừng lo, tôi không sao."
+     }
+    ]
+   }
+  ],
+  "synonyms": [],
+  "usage": "Theo sau bởi tân ngữ/mệnh đề (担心考试/担心他生病); đối lập 放心."
+ },
+ "zh-verbs-2-63": {
+  "antonyms": [],
+  "characters": [
+   {
+    "char": "害",
+    "hanViet": "HẠI",
+    "radical": "宀(bộ miên)",
+    "strokeCount": 10,
+    "componentMeaning": "hại; khiến (sợ)",
+    "pictographicOrigin": "Bộ 宀(nhà) với 丰+口 — nghĩa \"tổn hại\"; trong 害怕 chỉ trạng thái sợ."
+   },
+   {
+    "char": "怕",
+    "hanViet": "PHẠ",
+    "radical": "忄(bộ tâm đứng)",
+    "strokeCount": 8,
+    "componentMeaning": "sợ",
+    "pictographicOrigin": "Bộ 忄(tim) với 白 — trong lòng sợ, nghĩa \"sợ\"."
+   }
+  ],
+  "collocations": [],
+  "compounds": [
+   {
+    "word": "怕",
+    "pinyin": "pà",
+    "meaning": "sợ",
+    "example": "我不怕困难。 (Wǒ bú pà kùnnan.) – Tôi không sợ khó khăn."
+   },
+   {
+    "word": "可怕",
+    "pinyin": "kěpà",
+    "meaning": "đáng sợ",
+    "example": "这个故事很可怕。 (Zhège gùshi hěn kěpà.) – Câu chuyện này đáng sợ."
+   }
+  ],
+  "distinguish": "",
+  "distinguishExample": "",
+  "grammarExample": "",
+  "grammarNote": "",
+  "image": "",
+  "mnemonic": "害(khiến) + 怕(sợ) = khiến trong lòng sợ → sợ hãi.",
+  "partOfSpeech": "Động từ",
+  "senses": [
+   {
+    "partOfSpeech": "Động từ",
+    "meanings": [
+     {
+      "meaning": "sợ, sợ hãi",
+      "example": "我害怕狗。 (Wǒ hàipà gǒu.) – Tôi sợ chó."
+     }
+    ]
+   }
+  ],
+  "synonyms": [
+   {
+    "word": "怕",
+    "example": "孩子怕黑。 (Háizi pà hēi.) – Trẻ con sợ tối."
+   }
+  ],
+  "usage": "Mang tân ngữ (害怕失败) hoặc theo sau mệnh đề (害怕考不好)."
+ },
+ "zh-verbs-2-64": {
+  "antonyms": [
+   {
+    "word": "放心",
+    "example": "你放心吧。 (Nǐ fàngxīn ba.) – Bạn yên tâm đi."
+   }
+  ],
+  "characters": [
+   {
+    "char": "着",
+    "hanViet": "TRỨ",
+    "radical": "目(bộ mục)",
+    "strokeCount": 11,
+    "componentMeaning": "dính, chạm (đọc zháo)",
+    "pictographicOrigin": "Vốn liên quan 著 — nghĩa \"chạm tới, dính\"; ở đây đọc zháo."
+   },
+   {
+    "char": "急",
+    "hanViet": "CẤP",
+    "radical": "心(bộ tâm)",
+    "strokeCount": 9,
+    "componentMeaning": "gấp, vội",
+    "pictographicOrigin": "Bộ 心(tim) với 及 — lòng nôn nóng, nghĩa \"gấp, vội\"."
+   }
+  ],
+  "collocations": [],
+  "compounds": [
+   {
+    "word": "急",
+    "pinyin": "jí",
+    "meaning": "gấp, vội",
+    "example": "这件事很急。 (Zhè jiàn shì hěn jí.) – Việc này rất gấp."
+   },
+   {
+    "word": "急忙",
+    "pinyin": "jímáng",
+    "meaning": "vội vàng",
+    "example": "他急忙跑出去。 (Tā jímáng pǎo chūqù.) – Anh ấy vội vàng chạy ra."
+   }
+  ],
+  "distinguish": "",
+  "distinguishExample": "",
+  "grammarExample": "",
+  "grammarNote": "",
+  "image": "",
+  "mnemonic": "着(chạm phải) + 急(gấp) = lòng chạm nỗi gấp → sốt ruột. 着 đọc zháo.",
+  "partOfSpeech": "Động từ / Tính từ",
+  "senses": [
+   {
+    "partOfSpeech": "Tính từ",
+    "meanings": [
+     {
+      "meaning": "sốt ruột, lo lắng bồn chồn",
+      "example": "别着急，慢慢来。 (Bié zháojí, mànmàn lái.) – Đừng sốt ruột, từ từ."
+     }
+    ]
+   }
+  ],
+  "synonyms": [],
+  "usage": "Làm tính từ trạng thái (很着急) hoặc theo sau mệnh đề (着急回家)."
+ },
+ "zh-verbs-2-65": {
+  "antonyms": [
+   {
+    "word": "担心",
+    "example": "妈妈担心我。 (Māma dānxīn wǒ.) – Mẹ lo cho tôi."
+   }
+  ],
+  "characters": [
+   {
+    "char": "放",
+    "hanViet": "PHÓNG",
+    "radical": "攵(bộ phộc)",
+    "strokeCount": 8,
+    "componentMeaning": "đặt, buông",
+    "pictographicOrigin": "Bộ 攵(tác động) với 方 — nghĩa \"thả, buông, đặt\"."
+   },
+   {
+    "char": "心",
+    "hanViet": "TÂM",
+    "radical": "心(bộ tâm)",
+    "strokeCount": 4,
+    "componentMeaning": "lòng",
+    "pictographicOrigin": "Vẽ quả tim — nghĩa \"tim, lòng\"."
+   }
+  ],
+  "collocations": [],
+  "compounds": [
+   {
+    "word": "放假",
+    "pinyin": "fàngjià",
+    "meaning": "nghỉ (lễ, phép)",
+    "example": "明天开始放假。 (Míngtiān kāishǐ fàngjià.) – Mai bắt đầu nghỉ."
+   },
+   {
+    "word": "小心",
+    "pinyin": "xiǎoxīn",
+    "meaning": "cẩn thận",
+    "example": "过马路要小心。 (Guò mǎlù yào xiǎoxīn.) – Qua đường phải cẩn thận."
+   }
+  ],
+  "distinguish": "",
+  "distinguishExample": "",
+  "grammarExample": "",
+  "grammarNote": "",
+  "image": "",
+  "mnemonic": "放(buông) + 心(lòng) = buông lòng nhẹ nhõm → yên tâm.",
+  "partOfSpeech": "Động từ",
+  "senses": [
+   {
+    "partOfSpeech": "Động từ",
+    "meanings": [
+     {
+      "meaning": "yên tâm, an tâm",
+      "example": "你放心，我会小心的。 (Nǐ fàngxīn, wǒ huì xiǎoxīn de.) – Bạn yên tâm, tôi sẽ cẩn thận."
+     }
+    ]
+   }
+  ],
+  "synonyms": [],
+  "usage": "Thường dùng độc lập (你放心) hoặc theo sau mệnh đề; đối lập 担心."
+ },
+ "zh-verbs-2-66": {
+  "antonyms": [
+   {
+    "word": "喜欢",
+    "example": "我喜欢这本书。 (Wǒ xǐhuan zhè běn shū.) – Tôi thích cuốn sách này."
+   }
+  ],
+  "characters": [
+   {
+    "char": "讨",
+    "hanViet": "THẢO",
+    "radical": "讠(bộ ngôn)",
+    "strokeCount": 5,
+    "componentMeaning": "chuốc, gây",
+    "pictographicOrigin": "Bộ 讠(lời) với 寸 — nghĩa gốc \"tìm, đòi\"; trong 讨厌 nghĩa \"gây chán\"."
+   },
+   {
+    "char": "厌",
+    "hanViet": "YẾM",
+    "radical": "厂(bộ hán)",
+    "strokeCount": 6,
+    "componentMeaning": "chán, ngán",
+    "pictographicOrigin": "Giản hóa từ 厭 — nghĩa \"chán ghét, ngán\"."
+   }
+  ],
+  "collocations": [],
+  "compounds": [
+   {
+    "word": "厌烦",
+    "pinyin": "yànfán",
+    "meaning": "chán ngán",
+    "example": "他对这些话很厌烦。 (Tā duì zhèxiē huà hěn yànfán.) – Anh ấy chán ngán những lời này."
+   },
+   {
+    "word": "讨论",
+    "pinyin": "tǎolùn",
+    "meaning": "thảo luận",
+    "example": "我们讨论了很久。 (Wǒmen tǎolùn le hěn jiǔ.) – Chúng tôi thảo luận rất lâu."
+   }
+  ],
+  "distinguish": "",
+  "distinguishExample": "",
+  "grammarExample": "",
+  "grammarNote": "",
+  "image": "",
+  "mnemonic": "讨(gây) + 厌(chán) = gây chán ghét → ghét.",
+  "partOfSpeech": "Động từ / Tính từ",
+  "senses": [
+   {
+    "partOfSpeech": "Động từ",
+    "meanings": [
+     {
+      "meaning": "ghét, chán ghét",
+      "example": "我讨厌下雨天。 (Wǒ tǎoyàn xiàyǔ tiān.) – Tôi ghét ngày mưa."
+     }
+    ]
+   },
+   {
+    "partOfSpeech": "Tính từ",
+    "meanings": [
+     {
+      "meaning": "đáng ghét, phiền phức",
+      "example": "这个人真讨厌。 (Zhège rén zhēn tǎoyàn.) – Người này thật đáng ghét."
+     }
+    ]
+   }
+  ],
+  "synonyms": [],
+  "usage": "Động từ mang tân ngữ (讨厌他) và tính từ (很讨厌); đối lập 喜欢."
+ },
+ "zh-verbs-2-67": {
+  "antonyms": [],
+  "characters": [
+   {
+    "char": "关",
+    "hanViet": "QUAN",
+    "radical": "丷(bộ bát)",
+    "strokeCount": 6,
+    "componentMeaning": "liên quan, đóng",
+    "pictographicOrigin": "Giản hóa từ 關 (then cửa) — nghĩa \"đóng; liên quan\"."
+   },
+   {
+    "char": "心",
+    "hanViet": "TÂM",
+    "radical": "心(bộ tâm)",
+    "strokeCount": 4,
+    "componentMeaning": "lòng",
+    "pictographicOrigin": "Vẽ quả tim — nghĩa \"tim, lòng\"."
+   }
+  ],
+  "collocations": [],
+  "compounds": [
+   {
+    "word": "关系",
+    "pinyin": "guānxi",
+    "meaning": "quan hệ",
+    "example": "这没关系。 (Zhè méi guānxi.) – Việc này không sao."
+   },
+   {
+    "word": "关注",
+    "pinyin": "guānzhù",
+    "meaning": "quan tâm theo dõi",
+    "example": "大家很关注这件事。 (Dàjiā hěn guānzhù zhè jiàn shì.) – Mọi người rất quan tâm việc này."
+   }
+  ],
+  "distinguish": "",
+  "distinguishExample": "",
+  "grammarExample": "",
+  "grammarNote": "",
+  "image": "",
+  "mnemonic": "关(liên quan) + 心(lòng) = để lòng vào → quan tâm.",
+  "partOfSpeech": "Động từ",
+  "senses": [
+   {
+    "partOfSpeech": "Động từ",
+    "meanings": [
+     {
+      "meaning": "quan tâm, để tâm chăm lo",
+      "example": "妈妈很关心我。 (Māma hěn guānxīn wǒ.) – Mẹ rất quan tâm tôi."
+     }
+    ]
+   }
+  ],
+  "synonyms": [
+   {
+    "word": "关怀",
+    "example": "领导对员工很关怀。 (Lǐngdǎo duì yuángōng hěn guānhuái.) – Lãnh đạo rất quan tâm nhân viên."
+   }
+  ],
+  "usage": "Mang tân ngữ người/việc (关心家人/关心国家大事)."
  }
 }
