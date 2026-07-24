@@ -532,7 +532,7 @@
     "char": "可",
     "componentMeaning": "có thể",
     "hanViet": "KHẢ",
-    "pictographicOrigin": "Chữ giáp cốt vẽ hình một cái cày và miệng — nghĩa \"có thể\".",
+    "pictographicOrigin": "Vẽ hình cái cày và miệng — nghĩa \"có thể\", dùng phiên âm \"cola\".",
     "radical": "口(bộ khẩu)",
     "strokeCount": 5
    },
@@ -6428,7 +6428,7 @@
     "char": "可",
     "componentMeaning": "có thể",
     "hanViet": "KHẢ",
-    "pictographicOrigin": "Chữ giáp cốt vẽ hình một cái cày và miệng — nghĩa \"có thể\".",
+    "pictographicOrigin": "Vẽ hình cái cày và miệng — nghĩa \"có thể\", dùng phiên âm \"cola\".",
     "radical": "口(bộ khẩu)",
     "strokeCount": 5
    },
@@ -9763,7 +9763,7 @@
     "char": "包",
     "componentMeaning": "",
     "hanViet": "BAO",
-    "pictographicOrigin": "Chữ giáp cốt vẽ hình một bào thai được bọc trong bụng mẹ — nghĩa \"bọc, túi\".",
+    "pictographicOrigin": "Hình một bào thai được bọc trong bụng mẹ — nghĩa \"bọc\" (trong 包子).",
     "radical": "勹(bộ bao)",
     "strokeCount": 5
    }
@@ -9813,7 +9813,7 @@
     "char": "包",
     "componentMeaning": "túi",
     "hanViet": "BAO",
-    "pictographicOrigin": "Chữ giáp cốt vẽ hình một bào thai được bọc trong bụng mẹ — nghĩa \"bọc, túi\".",
+    "pictographicOrigin": "Hình một bào thai được bọc trong bụng mẹ — nghĩa \"bọc\" (trong 包子).",
     "radical": "勹(bộ bao)",
     "strokeCount": 5
    }
@@ -13539,7 +13539,7 @@
     "char": "包",
     "componentMeaning": "bọc",
     "hanViet": "BAO",
-    "pictographicOrigin": "Chữ giáp cốt vẽ hình một bào thai được bọc trong bụng mẹ — nghĩa \"bọc, túi\".",
+    "pictographicOrigin": "Hình một bào thai được bọc trong bụng mẹ — nghĩa \"bọc\" (trong 包子).",
     "radical": "勹(bộ bao)",
     "strokeCount": 5
    }
@@ -14766,7 +14766,7 @@
     "char": "瓶",
     "componentMeaning": "",
     "hanViet": "BÌNH",
-    "pictographicOrigin": "Bộ 瓦(gốm, sành) ghép 并 lấy âm — bình đựng làm bằng gốm.",
+    "pictographicOrigin": "Bộ 瓦(gốm) ghép 并 lấy âm — vật đựng làm bằng gốm.",
     "radical": "瓦(bộ ngõa)",
     "strokeCount": 10
    }
@@ -14789,6 +14789,178 @@
      }
     ],
     "partOfSpeech": "Lượng từ"
+   }
+  ],
+  "synonyms": [],
+  "usage": ""
+ },
+ "zh-food-drink-46": {
+  "antonyms": [],
+  "characters": [
+   {
+    "char": "饺",
+    "componentMeaning": "",
+    "hanViet": "GIÁO",
+    "pictographicOrigin": "Bộ 饣(ăn uống) ghép 交(giao, gấp mép) — bánh có mép gấp giao nhau, SỦI CẢO.",
+    "radical": "饣(bộ thực)",
+    "strokeCount": 9
+   },
+   {
+    "char": "子",
+    "componentMeaning": "hậu tố danh từ",
+    "hanViet": "TỬ",
+    "pictographicOrigin": "Chữ giáp cốt vẽ hình một đứa trẻ sơ sinh với hai tay dang ra — nghĩa \"con\".",
+    "radical": "子(bộ tử)",
+    "strokeCount": 3
+   }
+  ],
+  "collocations": [],
+  "compounds": [],
+  "distinguish": "",
+  "distinguishExample": "",
+  "grammarExample": "",
+  "grammarNote": "",
+  "image": "🥟",
+  "mnemonic": "饺子 = 饺(ăn 饣 + giao mép 交) + 子(hậu tố) — bánh có MÉP GẤP GIAO nhau, SỦI CẢO.",
+  "partOfSpeech": "Danh từ",
+  "senses": [
+   {
+    "meanings": [
+     {
+      "example": "中国人过年吃饺子。 (Zhōngguó rén guònián chī jiǎozi.) – Người Trung Quốc ăn sủi cảo dịp Tết.",
+      "meaning": "sủi cảo, bánh chẻo"
+     }
+    ],
+    "partOfSpeech": "Danh từ"
+   }
+  ],
+  "synonyms": [],
+  "usage": ""
+ },
+ "zh-food-drink-47": {
+  "antonyms": [],
+  "characters": [
+   {
+    "char": "包",
+    "componentMeaning": "",
+    "hanViet": "BAO",
+    "pictographicOrigin": "Hình một bào thai được bọc trong bụng mẹ — nghĩa \"bọc\" (trong 包子).",
+    "radical": "勹(bộ bao)",
+    "strokeCount": 5
+   },
+   {
+    "char": "子",
+    "componentMeaning": "hậu tố danh từ",
+    "hanViet": "TỬ",
+    "pictographicOrigin": "Chữ giáp cốt vẽ hình một đứa trẻ sơ sinh với hai tay dang ra — nghĩa \"con\".",
+    "radical": "子(bộ tử)",
+    "strokeCount": 3
+   }
+  ],
+  "collocations": [],
+  "compounds": [],
+  "distinguish": "",
+  "distinguishExample": "",
+  "grammarExample": "",
+  "grammarNote": "",
+  "image": "🥠",
+  "mnemonic": "包子 = 包(bọc) + 子(hậu tố) — bánh BỌC nhân bên trong, BÁNH BAO.",
+  "partOfSpeech": "Danh từ",
+  "senses": [
+   {
+    "meanings": [
+     {
+      "example": "早饭我吃了两个包子。 (Zǎofàn wǒ chīle liǎng ge bāozi.) – Bữa sáng tôi ăn hai cái bánh bao.",
+      "meaning": "bánh bao"
+     }
+    ],
+    "partOfSpeech": "Danh từ"
+   }
+  ],
+  "synonyms": [],
+  "usage": ""
+ },
+ "zh-food-drink-48": {
+  "antonyms": [],
+  "characters": [
+   {
+    "char": "牛",
+    "componentMeaning": "bò",
+    "hanViet": "NGƯU",
+    "pictographicOrigin": "Chữ giáp cốt vẽ hình đầu con bò với hai sừng cong — nghĩa \"bò, trâu\".",
+    "radical": "牛(bộ ngưu)",
+    "strokeCount": 4
+   },
+   {
+    "char": "肉",
+    "componentMeaning": "thịt",
+    "hanViet": "NHỤC",
+    "pictographicOrigin": "Chữ giáp cốt vẽ hình một miếng thịt có vân thớ — nghĩa \"thịt\".",
+    "radical": "肉(bộ nhục)",
+    "strokeCount": 6
+   }
+  ],
+  "collocations": [],
+  "compounds": [],
+  "distinguish": "",
+  "distinguishExample": "",
+  "grammarExample": "",
+  "grammarNote": "",
+  "image": "🥩",
+  "mnemonic": "牛肉 = 牛(đầu bò có sừng) + 肉(thịt) — THỊT của con BÒ.",
+  "partOfSpeech": "Danh từ",
+  "senses": [
+   {
+    "meanings": [
+     {
+      "example": "我要一份牛肉面。 (Wǒ yào yí fèn niúròu miàn.) – Tôi muốn một suất mì bò.",
+      "meaning": "thịt bò"
+     }
+    ],
+    "partOfSpeech": "Danh từ"
+   }
+  ],
+  "synonyms": [],
+  "usage": ""
+ },
+ "zh-food-drink-49": {
+  "antonyms": [],
+  "characters": [
+   {
+    "char": "羊",
+    "componentMeaning": "cừu",
+    "hanViet": "DƯƠNG",
+    "pictographicOrigin": "Chữ giáp cốt vẽ hình đầu con cừu có hai sừng cong — nghĩa \"cừu, dê\".",
+    "radical": "羊(bộ dương)",
+    "strokeCount": 6
+   },
+   {
+    "char": "肉",
+    "componentMeaning": "thịt",
+    "hanViet": "NHỤC",
+    "pictographicOrigin": "Chữ giáp cốt vẽ hình một miếng thịt có vân thớ — nghĩa \"thịt\".",
+    "radical": "肉(bộ nhục)",
+    "strokeCount": 6
+   }
+  ],
+  "collocations": [],
+  "compounds": [],
+  "distinguish": "",
+  "distinguishExample": "",
+  "grammarExample": "",
+  "grammarNote": "",
+  "image": "🐑",
+  "mnemonic": "羊肉 = 羊(đầu cừu có sừng cong) + 肉(thịt) — THỊT của con CỪU/DÊ.",
+  "partOfSpeech": "Danh từ",
+  "senses": [
+   {
+    "meanings": [
+     {
+      "example": "他不喜欢吃羊肉。 (Tā bù xǐhuan chī yángròu.) – Anh ấy không thích ăn thịt cừu.",
+      "meaning": "thịt cừu/dê"
+     }
+    ],
+    "partOfSpeech": "Danh từ"
    }
   ],
   "synonyms": [],
@@ -14832,6 +15004,434 @@
      }
     ],
     "partOfSpeech": "Danh từ"
+   }
+  ],
+  "synonyms": [],
+  "usage": ""
+ },
+ "zh-food-drink-50": {
+  "antonyms": [],
+  "characters": [
+   {
+    "char": "猪",
+    "componentMeaning": "lợn",
+    "hanViet": "TRÙ",
+    "pictographicOrigin": "Bộ 犭(động vật) ghép 者 lấy âm — nghĩa \"con lợn\".",
+    "radical": "犭(bộ khuyển)",
+    "strokeCount": 11
+   },
+   {
+    "char": "肉",
+    "componentMeaning": "thịt",
+    "hanViet": "NHỤC",
+    "pictographicOrigin": "Chữ giáp cốt vẽ hình một miếng thịt có vân thớ — nghĩa \"thịt\".",
+    "radical": "肉(bộ nhục)",
+    "strokeCount": 6
+   }
+  ],
+  "collocations": [],
+  "compounds": [],
+  "distinguish": "",
+  "distinguishExample": "",
+  "grammarExample": "",
+  "grammarNote": "",
+  "image": "🐖",
+  "mnemonic": "猪肉 = 猪(thú 犭 + 者) + 肉(thịt) — THỊT của con LỢN.",
+  "partOfSpeech": "Danh từ",
+  "senses": [
+   {
+    "meanings": [
+     {
+      "example": "猪肉是最常见的肉类。 (Zhūròu shì zuì chángjiàn de ròulèi.) – Thịt lợn là loại thịt phổ biến nhất.",
+      "meaning": "thịt lợn"
+     }
+    ],
+    "partOfSpeech": "Danh từ"
+   }
+  ],
+  "synonyms": [],
+  "usage": ""
+ },
+ "zh-food-drink-51": {
+  "antonyms": [],
+  "characters": [
+   {
+    "char": "虾",
+    "componentMeaning": "",
+    "hanViet": "HÀ",
+    "pictographicOrigin": "Bộ 虫(côn trùng, sinh vật nhỏ) ghép 下 lấy âm — nghĩa \"con tôm\".",
+    "radical": "虫(bộ trùng)",
+    "strokeCount": 9
+   }
+  ],
+  "collocations": [],
+  "compounds": [],
+  "distinguish": "",
+  "distinguishExample": "",
+  "grammarExample": "",
+  "grammarNote": "",
+  "image": "🦐",
+  "mnemonic": "虾 = 虫(sinh vật nhỏ) + 下(dưới, lấy âm) — sinh vật sống DƯỚI nước, TÔM.",
+  "partOfSpeech": "Danh từ",
+  "senses": [
+   {
+    "meanings": [
+     {
+      "example": "这道虾很新鲜。 (Zhè dào xiā hěn xīnxiān.) – Món tôm này rất tươi.",
+      "meaning": "tôm"
+     }
+    ],
+    "partOfSpeech": "Danh từ"
+   }
+  ],
+  "synonyms": [],
+  "usage": ""
+ },
+ "zh-food-drink-52": {
+  "antonyms": [],
+  "characters": [
+   {
+    "char": "青",
+    "componentMeaning": "xanh",
+    "hanViet": "THANH",
+    "pictographicOrigin": "Chữ giáp cốt liên quan tới mầm cây xanh non — nghĩa \"xanh, trong sáng\".",
+    "radical": "青(bộ thanh)",
+    "strokeCount": 8
+   },
+   {
+    "char": "菜",
+    "componentMeaning": "rau",
+    "hanViet": "THÁI",
+    "pictographicOrigin": "Bộ 艹(cỏ, cây) trên 采(hái) — hái RAU CỎ để ăn, nghĩa \"rau, món ăn\".",
+    "radical": "艹(bộ thảo)",
+    "strokeCount": 11
+   }
+  ],
+  "collocations": [],
+  "compounds": [],
+  "distinguish": "",
+  "distinguishExample": "",
+  "grammarExample": "",
+  "grammarNote": "",
+  "image": "🥬",
+  "mnemonic": "青菜 = 青(mầm cây xanh non) + 菜(rau) — RAU màu XANH.",
+  "partOfSpeech": "Danh từ",
+  "senses": [
+   {
+    "meanings": [
+     {
+      "example": "多吃青菜对身体好。 (Duō chī qīngcài duì shēntǐ hǎo.) – Ăn nhiều rau xanh tốt cho sức khỏe.",
+      "meaning": "rau xanh"
+     }
+    ],
+    "partOfSpeech": "Danh từ"
+   }
+  ],
+  "synonyms": [
+   {
+    "example": "见 zh-food-drink-43。",
+    "word": "蔬菜"
+   }
+  ],
+  "usage": ""
+ },
+ "zh-food-drink-53": {
+  "antonyms": [],
+  "characters": [
+   {
+    "char": "西",
+    "componentMeaning": "tây",
+    "hanViet": "TÂY",
+    "pictographicOrigin": "Chữ giáp cốt vẽ hình một cái tổ chim — chim về tổ lúc mặt trời lặn hướng TÂY.",
+    "radical": "襾(bộ á)",
+    "strokeCount": 6
+   },
+   {
+    "char": "红",
+    "componentMeaning": "đỏ",
+    "hanViet": "HỒNG",
+    "pictographicOrigin": "Bộ 纟(sợi tơ) ghép 工 lấy âm — màu nhuộm vải đỏ, nghĩa \"màu đỏ\".",
+    "radical": "纟(bộ mịch)",
+    "strokeCount": 6
+   },
+   {
+    "char": "柿",
+    "componentMeaning": "quả hồng",
+    "hanViet": "THỊ",
+    "pictographicOrigin": "Bộ 木(cây) ghép 市 lấy âm — nghĩa \"quả hồng\" (trong 西红柿, cà chua).",
+    "radical": "木(bộ mộc)",
+    "strokeCount": 9
+   }
+  ],
+  "collocations": [],
+  "compounds": [],
+  "distinguish": "",
+  "distinguishExample": "",
+  "grammarExample": "",
+  "grammarNote": "",
+  "image": "🍅",
+  "mnemonic": "西红柿 = 西(tây) + 红(đỏ) + 柿(quả hồng) — quả HỒNG ĐỎ từ phương TÂY, CÀ CHUA.",
+  "partOfSpeech": "Danh từ",
+  "senses": [
+   {
+    "meanings": [
+     {
+      "example": "西红柿炒鸡蛋很好吃。 (Xīhóngshì chǎo jīdàn hěn hǎochī.) – Trứng xào cà chua rất ngon.",
+      "meaning": "cà chua"
+     }
+    ],
+    "partOfSpeech": "Danh từ"
+   }
+  ],
+  "synonyms": [
+   {
+    "example": "番茄酱 (fānqié jiàng) – tương cà chua.",
+    "word": "番茄"
+   }
+  ],
+  "usage": "西红柿 nghĩa đen \"quả hồng đỏ đến từ phương Tây\"."
+ },
+ "zh-food-drink-54": {
+  "antonyms": [],
+  "characters": [
+   {
+    "char": "土",
+    "componentMeaning": "đất",
+    "hanViet": "THỔ",
+    "pictographicOrigin": "Chữ giáp cốt vẽ hình một ụ đất — nghĩa \"đất\".",
+    "radical": "土(bộ thổ)",
+    "strokeCount": 3
+   },
+   {
+    "char": "豆",
+    "componentMeaning": "đậu",
+    "hanViet": "ĐẬU",
+    "pictographicOrigin": "Chữ giáp cốt vẽ hình một cái bát cao chân đựng thức ăn tế lễ — mượn hình dạng chỉ \"hạt đậu\".",
+    "radical": "豆(bộ đậu)",
+    "strokeCount": 7
+   }
+  ],
+  "collocations": [],
+  "compounds": [],
+  "distinguish": "",
+  "distinguishExample": "",
+  "grammarExample": "",
+  "grammarNote": "",
+  "image": "🥔",
+  "mnemonic": "土豆 = 土(đất, ụ đất) + 豆(hạt đậu) — \"ĐẬU\" mọc dưới ĐẤT, KHOAI TÂY.",
+  "partOfSpeech": "Danh từ",
+  "senses": [
+   {
+    "meanings": [
+     {
+      "example": "我喜欢吃炸土豆。 (Wǒ xǐhuan chī zhá tǔdòu.) – Tôi thích ăn khoai tây chiên.",
+      "meaning": "khoai tây"
+     }
+    ],
+    "partOfSpeech": "Danh từ"
+   }
+  ],
+  "synonyms": [],
+  "usage": "土豆 nghĩa đen \"đậu đất\"."
+ },
+ "zh-food-drink-55": {
+  "antonyms": [],
+  "characters": [
+   {
+    "char": "葡",
+    "componentMeaning": "",
+    "hanViet": "BỒ",
+    "pictographicOrigin": "Bộ 艹(cây cỏ) ghép 匍(bò lan) — dây leo bò lan, NHO.",
+    "radical": "艹(bộ thảo)",
+    "strokeCount": 12
+   },
+   {
+    "char": "萄",
+    "componentMeaning": "",
+    "hanViet": "ĐÀO",
+    "pictographicOrigin": "Bộ 艹(cây cỏ) ghép 陶 lấy âm — nghĩa \"nho\" (trong 葡萄).",
+    "radical": "艹(bộ thảo)",
+    "strokeCount": 11
+   }
+  ],
+  "collocations": [],
+  "compounds": [],
+  "distinguish": "",
+  "distinguishExample": "",
+  "grammarExample": "",
+  "grammarNote": "",
+  "image": "🍇",
+  "mnemonic": "葡萄 = 葡(dây leo bò lan 匍) + 萄(lấy âm) — dây leo cho quả NHO.",
+  "partOfSpeech": "Danh từ",
+  "senses": [
+   {
+    "meanings": [
+     {
+      "example": "这些葡萄很甜。 (Zhèxiē pútao hěn tián.) – Chùm nho này rất ngọt.",
+      "meaning": "nho"
+     }
+    ],
+    "partOfSpeech": "Danh từ"
+   }
+  ],
+  "synonyms": [],
+  "usage": ""
+ },
+ "zh-food-drink-56": {
+  "antonyms": [],
+  "characters": [
+   {
+    "char": "梨",
+    "componentMeaning": "",
+    "hanViet": "LÊ",
+    "pictographicOrigin": "Bộ 木(cây) ghép 利(sắc, lấy âm) — cây có quả LÊ.",
+    "radical": "木(bộ mộc)",
+    "strokeCount": 11
+   }
+  ],
+  "collocations": [],
+  "compounds": [],
+  "distinguish": "",
+  "distinguishExample": "",
+  "grammarExample": "",
+  "grammarNote": "",
+  "image": "🍐",
+  "mnemonic": "梨 = 木(cây) + 利(sắc bén, lấy âm) — cây cho quả LÊ.",
+  "partOfSpeech": "Danh từ",
+  "senses": [
+   {
+    "meanings": [
+     {
+      "example": "秋天是吃梨的季节。 (Qiūtiān shì chī lí de jìjié.) – Mùa thu là mùa ăn lê.",
+      "meaning": "quả lê"
+     }
+    ],
+    "partOfSpeech": "Danh từ"
+   }
+  ],
+  "synonyms": [],
+  "usage": ""
+ },
+ "zh-food-drink-57": {
+  "antonyms": [],
+  "characters": [
+   {
+    "char": "可",
+    "componentMeaning": "",
+    "hanViet": "KHẢ",
+    "pictographicOrigin": "Vẽ hình cái cày và miệng — nghĩa \"có thể\", dùng phiên âm \"cola\".",
+    "radical": "口(bộ khẩu)",
+    "strokeCount": 5
+   },
+   {
+    "char": "乐",
+    "componentMeaning": "",
+    "hanViet": "LẠC",
+    "pictographicOrigin": "Chữ giản thể từ 樂, vốn vẽ nhạc cụ dây — nghĩa \"vui\", dùng phiên âm \"cola\".",
+    "radical": "丿(bộ phiệt)",
+    "strokeCount": 5
+   }
+  ],
+  "collocations": [],
+  "compounds": [],
+  "distinguish": "",
+  "distinguishExample": "",
+  "grammarExample": "",
+  "grammarNote": "",
+  "image": "🥤",
+  "mnemonic": "可乐 là từ mượn âm \"cola\" — 可(có thể) + 乐(vui) đọc gần giống \"co-la\".",
+  "partOfSpeech": "Danh từ",
+  "senses": [
+   {
+    "meanings": [
+     {
+      "example": "我要一杯可乐。 (Wǒ yào yì bēi kělè.) – Tôi muốn một ly cô-ca.",
+      "meaning": "cô-ca, nước ngọt có ga"
+     }
+    ],
+    "partOfSpeech": "Danh từ"
+   }
+  ],
+  "synonyms": [],
+  "usage": "可乐 là từ mượn phiên âm từ \"cola\"."
+ },
+ "zh-food-drink-58": {
+  "antonyms": [],
+  "characters": [
+   {
+    "char": "酒",
+    "componentMeaning": "",
+    "hanViet": "TỬU",
+    "pictographicOrigin": "Chữ giáp cốt vẽ hình một vò rượu — nghĩa \"rượu, bia\".",
+    "radical": "氵(bộ thủy)",
+    "strokeCount": 10
+   }
+  ],
+  "collocations": [],
+  "compounds": [
+   {
+    "example": "见 zh-food-drink-33。",
+    "meaning": "bia",
+    "pinyin": "píjiǔ",
+    "word": "啤酒"
+   }
+  ],
+  "distinguish": "",
+  "distinguishExample": "",
+  "grammarExample": "",
+  "grammarNote": "",
+  "image": "🍷",
+  "mnemonic": "酒 = 氵(nước) — chất lỏng lên men, RƯỢU.",
+  "partOfSpeech": "Danh từ",
+  "senses": [
+   {
+    "meanings": [
+     {
+      "example": "他不喝酒。 (Tā bù hē jiǔ.) – Anh ấy không uống rượu.",
+      "meaning": "rượu"
+     }
+    ],
+    "partOfSpeech": "Danh từ"
+   }
+  ],
+  "synonyms": [],
+  "usage": ""
+ },
+ "zh-food-drink-59": {
+  "antonyms": [
+   {
+    "example": "见 zh-food-drink-41。",
+    "word": "甜"
+   }
+  ],
+  "characters": [
+   {
+    "char": "酸",
+    "componentMeaning": "",
+    "hanViet": "TOAN",
+    "pictographicOrigin": "Bộ 酉(vò rượu/dấm) ghép 夋 lấy âm — vị của DẤM, CHUA.",
+    "radical": "酉(bộ dậu)",
+    "strokeCount": 14
+   }
+  ],
+  "collocations": [],
+  "compounds": [],
+  "distinguish": "",
+  "distinguishExample": "",
+  "grammarExample": "",
+  "grammarNote": "",
+  "image": "🍋",
+  "mnemonic": "酸 = 酉(vò rượu/dấm) + 夋 — vị của DẤM, CHUA.",
+  "partOfSpeech": "Tính từ",
+  "senses": [
+   {
+    "meanings": [
+     {
+      "example": "这个水果很酸。 (Zhège shuǐguǒ hěn suān.) – Quả này rất chua.",
+      "meaning": "chua"
+     }
+    ],
+    "partOfSpeech": "Tính từ"
    }
   ],
   "synonyms": [],
@@ -14896,6 +15496,406 @@
   "synonyms": [],
   "usage": ""
  },
+ "zh-food-drink-60": {
+  "antonyms": [
+   {
+    "example": "良药苦口。 (Liángyào kǔkǒu.) – Thuốc tốt thì đắng miệng.",
+    "word": "甜"
+   }
+  ],
+  "characters": [
+   {
+    "char": "苦",
+    "componentMeaning": "",
+    "hanViet": "KHỔ",
+    "pictographicOrigin": "Bộ 艹(cây cỏ) ghép 古(cổ, đắng) — vị của một loại cỏ đắng, ĐẮNG.",
+    "radical": "艹(bộ thảo)",
+    "strokeCount": 8
+   }
+  ],
+  "collocations": [],
+  "compounds": [],
+  "distinguish": "",
+  "distinguishExample": "",
+  "grammarExample": "",
+  "grammarNote": "",
+  "image": "😖",
+  "mnemonic": "苦 = 艹(cỏ) + 古(cổ) — vị của một loại cỏ CỔ xưa, ĐẮNG.",
+  "partOfSpeech": "Tính từ",
+  "senses": [
+   {
+    "meanings": [
+     {
+      "example": "这个药很苦。 (Zhège yào hěn kǔ.) – Thuốc này rất đắng.",
+      "meaning": "đắng"
+     }
+    ],
+    "partOfSpeech": "Tính từ"
+   }
+  ],
+  "synonyms": [],
+  "usage": ""
+ },
+ "zh-food-drink-61": {
+  "antonyms": [],
+  "characters": [
+   {
+    "char": "咸",
+    "componentMeaning": "",
+    "hanViet": "HÀM",
+    "pictographicOrigin": "Chữ giáp cốt liên quan tới vũ khí và miệng — mượn nghĩa \"mặn\" (vị muối).",
+    "radical": "口(bộ khẩu)",
+    "strokeCount": 9
+   }
+  ],
+  "collocations": [],
+  "compounds": [],
+  "distinguish": "",
+  "distinguishExample": "",
+  "grammarExample": "",
+  "grammarNote": "",
+  "image": "🧂",
+  "mnemonic": "咸 liên quan tới vũ khí và miệng — mượn nghĩa vị MUỐI, MẶN.",
+  "partOfSpeech": "Tính từ",
+  "senses": [
+   {
+    "meanings": [
+     {
+      "example": "汤有点儿咸。 (Tāng yǒudiǎnr xián.) – Canh hơi mặn.",
+      "meaning": "mặn"
+     }
+    ],
+    "partOfSpeech": "Tính từ"
+   }
+  ],
+  "synonyms": [],
+  "usage": ""
+ },
+ "zh-food-drink-62": {
+  "antonyms": [
+   {
+    "example": "见 zh-food-drink-25。",
+    "word": "饿"
+   }
+  ],
+  "characters": [
+   {
+    "char": "饱",
+    "componentMeaning": "",
+    "hanViet": "BÃO",
+    "pictographicOrigin": "Bộ 饣(ăn uống) ghép 包(đầy, bọc) — ăn ĐẦY bụng, NO.",
+    "radical": "饣(bộ thực)",
+    "strokeCount": 8
+   }
+  ],
+  "collocations": [],
+  "compounds": [],
+  "distinguish": "",
+  "distinguishExample": "",
+  "grammarExample": "",
+  "grammarNote": "",
+  "image": "😌",
+  "mnemonic": "饱 = 饣(ăn) + 包(đầy, bọc) — ăn ĐẦY bụng, NO.",
+  "partOfSpeech": "Tính từ",
+  "senses": [
+   {
+    "meanings": [
+     {
+      "example": "我吃饱了。 (Wǒ chībǎo le.) – Tôi ăn no rồi.",
+      "meaning": "no"
+     }
+    ],
+    "partOfSpeech": "Tính từ"
+   }
+  ],
+  "synonyms": [],
+  "usage": ""
+ },
+ "zh-food-drink-63": {
+  "antonyms": [],
+  "characters": [
+   {
+    "char": "香",
+    "componentMeaning": "",
+    "hanViet": "HƯƠNG",
+    "pictographicOrigin": "Chữ giáp cốt vẽ hình bát lúa/kê tỏa mùi thơm — nghĩa \"thơm\".",
+    "radical": "香(bộ hương)",
+    "strokeCount": 9
+   }
+  ],
+  "collocations": [],
+  "compounds": [],
+  "distinguish": "",
+  "distinguishExample": "",
+  "grammarExample": "",
+  "grammarNote": "",
+  "image": "👃",
+  "mnemonic": "香 vẽ hình bát lúa/kê tỏa mùi — THƠM.",
+  "partOfSpeech": "Tính từ",
+  "senses": [
+   {
+    "meanings": [
+     {
+      "example": "这个菜真香。 (Zhège cài zhēn xiāng.) – Món này thơm quá.",
+      "meaning": "thơm"
+     }
+    ],
+    "partOfSpeech": "Tính từ"
+   }
+  ],
+  "synonyms": [],
+  "usage": ""
+ },
+ "zh-food-drink-64": {
+  "antonyms": [],
+  "characters": [
+   {
+    "char": "新",
+    "componentMeaning": "mới",
+    "hanViet": "TÂN",
+    "pictographicOrigin": "Bộ 斤(cái rìu) ghép 亲 — dùng rìu chặt cây MỚI, nghĩa \"mới\".",
+    "radical": "斤(bộ cân)",
+    "strokeCount": 13
+   },
+   {
+    "char": "鲜",
+    "componentMeaning": "tươi",
+    "hanViet": "TIÊN",
+    "pictographicOrigin": "Bộ 鱼(cá) ghép 羊(cừu) — hai loại thịt TƯƠI ngon nhất, TƯƠI.",
+    "radical": "鱼(bộ ngư)",
+    "strokeCount": 14
+   }
+  ],
+  "collocations": [],
+  "compounds": [],
+  "distinguish": "",
+  "distinguishExample": "",
+  "grammarExample": "",
+  "grammarNote": "",
+  "image": "🥗",
+  "mnemonic": "新鲜 = 新(mới) + 鲜(cá 鱼 + cừu 羊, ngon nhất) — MỚI và ngon như cá cừu tươi, TƯƠI MỚI.",
+  "partOfSpeech": "Tính từ",
+  "senses": [
+   {
+    "meanings": [
+     {
+      "example": "这些蔬菜很新鲜。 (Zhèxiē shūcài hěn xīnxiān.) – Những rau này rất tươi.",
+      "meaning": "tươi, tươi mới"
+     }
+    ],
+    "partOfSpeech": "Tính từ"
+   }
+  ],
+  "synonyms": [],
+  "usage": ""
+ },
+ "zh-food-drink-65": {
+  "antonyms": [],
+  "characters": [
+   {
+    "char": "味",
+    "componentMeaning": "",
+    "hanViet": "VỊ",
+    "pictographicOrigin": "Bộ 口(miệng) ghép 未 lấy âm — cảm nhận bằng MIỆNG, MÙI VỊ.",
+    "radical": "口(bộ khẩu)",
+    "strokeCount": 8
+   },
+   {
+    "char": "道",
+    "componentMeaning": "",
+    "hanViet": "ĐẠO",
+    "pictographicOrigin": "Bộ 辶(đi) ghép 首(đầu) — con đường dẫn đầu, mở rộng nghĩa \"đạo lý, biết\".",
+    "radical": "辶(bộ sước)",
+    "strokeCount": 12
+   }
+  ],
+  "collocations": [],
+  "compounds": [],
+  "distinguish": "",
+  "distinguishExample": "",
+  "grammarExample": "",
+  "grammarNote": "",
+  "image": "😋",
+  "mnemonic": "味道 = 味(miệng 口 cảm nhận) + 道(đường, cách) — CÁCH MIỆNG cảm nhận, MÙI VỊ.",
+  "partOfSpeech": "Danh từ",
+  "senses": [
+   {
+    "meanings": [
+     {
+      "example": "这个汤味道很好。 (Zhège tāng wèidao hěn hǎo.) – Canh này vị rất ngon.",
+      "meaning": "mùi vị, vị"
+     }
+    ],
+    "partOfSpeech": "Danh từ"
+   }
+  ],
+  "synonyms": [],
+  "usage": ""
+ },
+ "zh-food-drink-66": {
+  "antonyms": [],
+  "characters": [
+   {
+    "char": "尝",
+    "componentMeaning": "",
+    "hanViet": "THƯỜNG",
+    "pictographicOrigin": "Chữ giản thể, liên quan tới việc thử món ăn — NẾM.",
+    "radical": "小(bộ tiểu)",
+    "strokeCount": 9
+   }
+  ],
+  "collocations": [],
+  "compounds": [],
+  "distinguish": "",
+  "distinguishExample": "",
+  "grammarExample": "",
+  "grammarNote": "",
+  "image": "😛",
+  "mnemonic": "尝 liên quan tới việc thử món ăn bằng miệng — NẾM.",
+  "partOfSpeech": "Động từ",
+  "senses": [
+   {
+    "meanings": [
+     {
+      "example": "你尝尝这个菜。 (Nǐ chángchang zhège cài.) – Bạn nếm thử món này đi.",
+      "meaning": "nếm, nếm thử"
+     }
+    ],
+    "partOfSpeech": "Động từ"
+   }
+  ],
+  "synonyms": [],
+  "usage": ""
+ },
+ "zh-food-drink-67": {
+  "antonyms": [],
+  "characters": [
+   {
+    "char": "勺",
+    "componentMeaning": "",
+    "hanViet": "THƯỢC",
+    "pictographicOrigin": "Chữ giáp cốt vẽ hình một cái muôi múc canh — nghĩa \"thìa, muôi\".",
+    "radical": "勹(bộ bao)",
+    "strokeCount": 3
+   },
+   {
+    "char": "子",
+    "componentMeaning": "hậu tố danh từ",
+    "hanViet": "TỬ",
+    "pictographicOrigin": "Chữ giáp cốt vẽ hình một đứa trẻ sơ sinh với hai tay dang ra — nghĩa \"con\".",
+    "radical": "子(bộ tử)",
+    "strokeCount": 3
+   }
+  ],
+  "collocations": [],
+  "compounds": [],
+  "distinguish": "",
+  "distinguishExample": "",
+  "grammarExample": "",
+  "grammarNote": "",
+  "image": "🥄",
+  "mnemonic": "勺子 = 勺(hình cái muôi múc) + 子(hậu tố) — THÌA múc canh.",
+  "partOfSpeech": "Danh từ",
+  "senses": [
+   {
+    "meanings": [
+     {
+      "example": "请给我一个勺子。 (Qǐng gěi wǒ yí ge sháozi.) – Xin cho tôi một cái thìa.",
+      "meaning": "thìa, muỗng"
+     }
+    ],
+    "partOfSpeech": "Danh từ"
+   }
+  ],
+  "synonyms": [],
+  "usage": ""
+ },
+ "zh-food-drink-68": {
+  "antonyms": [],
+  "characters": [
+   {
+    "char": "盘",
+    "componentMeaning": "",
+    "hanViet": "BÀN",
+    "pictographicOrigin": "Bộ 皿(vật đựng) — vật đựng thức ăn hình tròn dẹt, ĐĨA.",
+    "radical": "皿(bộ mãnh)",
+    "strokeCount": 11
+   },
+   {
+    "char": "子",
+    "componentMeaning": "hậu tố danh từ",
+    "hanViet": "TỬ",
+    "pictographicOrigin": "Chữ giáp cốt vẽ hình một đứa trẻ sơ sinh với hai tay dang ra — nghĩa \"con\".",
+    "radical": "子(bộ tử)",
+    "strokeCount": 3
+   }
+  ],
+  "collocations": [],
+  "compounds": [],
+  "distinguish": "",
+  "distinguishExample": "",
+  "grammarExample": "",
+  "grammarNote": "",
+  "image": "🍽️",
+  "mnemonic": "盘子 = 盘(vật đựng 皿 hình tròn dẹt) + 子(hậu tố) — ĐĨA đựng đồ ăn.",
+  "partOfSpeech": "Danh từ",
+  "senses": [
+   {
+    "meanings": [
+     {
+      "example": "菜都放在盘子里。 (Cài dōu fàng zài pánzi lǐ.) – Món ăn đều để trong đĩa.",
+      "meaning": "đĩa"
+     }
+    ],
+    "partOfSpeech": "Danh từ"
+   }
+  ],
+  "synonyms": [],
+  "usage": ""
+ },
+ "zh-food-drink-69": {
+  "antonyms": [],
+  "characters": [
+   {
+    "char": "瓶",
+    "componentMeaning": "",
+    "hanViet": "BÌNH",
+    "pictographicOrigin": "Bộ 瓦(gốm) ghép 并 lấy âm — vật đựng làm bằng gốm.",
+    "radical": "瓦(bộ ngõa)",
+    "strokeCount": 10
+   },
+   {
+    "char": "子",
+    "componentMeaning": "hậu tố danh từ",
+    "hanViet": "TỬ",
+    "pictographicOrigin": "Chữ giáp cốt vẽ hình một đứa trẻ sơ sinh với hai tay dang ra — nghĩa \"con\".",
+    "radical": "子(bộ tử)",
+    "strokeCount": 3
+   }
+  ],
+  "collocations": [],
+  "compounds": [],
+  "distinguish": "",
+  "distinguishExample": "",
+  "grammarExample": "",
+  "grammarNote": "",
+  "image": "🍾",
+  "mnemonic": "瓶子 = 瓶(gốm 瓦) + 子(hậu tố) — vật đựng bằng GỐM/thủy tinh, CHAI.",
+  "partOfSpeech": "Danh từ",
+  "senses": [
+   {
+    "meanings": [
+     {
+      "example": "这个瓶子是空的。 (Zhège píngzi shì kōng de.) – Cái chai này rỗng.",
+      "meaning": "chai, lọ"
+     }
+    ],
+    "partOfSpeech": "Danh từ"
+   }
+  ],
+  "synonyms": [],
+  "usage": ""
+ },
  "zh-food-drink-7": {
   "antonyms": [],
   "characters": [
@@ -14944,6 +15944,448 @@
   "synonyms": [],
   "usage": ""
  },
+ "zh-food-drink-70": {
+  "antonyms": [],
+  "characters": [
+   {
+    "char": "油",
+    "componentMeaning": "",
+    "hanViet": "DU",
+    "pictographicOrigin": "Bộ 氵(nước, chất lỏng) ghép 由 lấy âm — chất lỏng để nấu ăn, DẦU.",
+    "radical": "氵(bộ thủy)",
+    "strokeCount": 8
+   }
+  ],
+  "collocations": [],
+  "compounds": [],
+  "distinguish": "",
+  "distinguishExample": "",
+  "grammarExample": "",
+  "grammarNote": "",
+  "image": "🛢️",
+  "mnemonic": "油 = 氵(nước, chất lỏng) + 由(từ đó ra) — chất lỏng tiết ra để nấu, DẦU.",
+  "partOfSpeech": "Danh từ",
+  "senses": [
+   {
+    "meanings": [
+     {
+      "example": "锅里放点儿油。 (Guō lǐ fàng diǎnr yóu.) – Cho chút dầu vào nồi.",
+      "meaning": "dầu ăn"
+     },
+     {
+      "example": "车没油了。 (Chē méi yóu le.) – Xe hết xăng rồi.",
+      "meaning": "xăng dầu"
+     }
+    ],
+    "partOfSpeech": "Danh từ"
+   }
+  ],
+  "synonyms": [],
+  "usage": ""
+ },
+ "zh-food-drink-71": {
+  "antonyms": [],
+  "characters": [
+   {
+    "char": "巧",
+    "componentMeaning": "",
+    "hanViet": "XẢO",
+    "pictographicOrigin": "Bộ 工(công cụ) ghép 丂 — khéo léo dùng công cụ, dùng phiên âm \"chocolate\".",
+    "radical": "工(bộ công)",
+    "strokeCount": 5
+   },
+   {
+    "char": "克",
+    "componentMeaning": "",
+    "hanViet": "KHẮC",
+    "pictographicOrigin": "Chữ giáp cốt vẽ hình một người đội mũ giáp — nghĩa \"khắc phục\", dùng phiên âm \"chocolate\" và đơn vị \"gram\".",
+    "radical": "儿(bộ nhân)",
+    "strokeCount": 7
+   },
+   {
+    "char": "力",
+    "componentMeaning": "sức",
+    "hanViet": "LỰC",
+    "pictographicOrigin": "Chữ giáp cốt vẽ hình một cái cày — dùng SỨC để cày, nghĩa \"sức lực\".",
+    "radical": "力(bộ lực)",
+    "strokeCount": 2
+   }
+  ],
+  "collocations": [],
+  "compounds": [],
+  "distinguish": "",
+  "distinguishExample": "",
+  "grammarExample": "",
+  "grammarNote": "",
+  "image": "🍫",
+  "mnemonic": "巧克力 là từ mượn âm \"chocolate\" — đọc gần giống \"chocolate\", SÔ-CÔ-LA.",
+  "partOfSpeech": "Danh từ",
+  "senses": [
+   {
+    "meanings": [
+     {
+      "example": "她喜欢吃巧克力。 (Tā xǐhuan chī qiǎokèlì.) – Cô ấy thích ăn sô-cô-la.",
+      "meaning": "sô-cô-la"
+     }
+    ],
+    "partOfSpeech": "Danh từ"
+   }
+  ],
+  "synonyms": [],
+  "usage": "巧克力 là từ mượn phiên âm từ \"chocolate\"."
+ },
+ "zh-food-drink-72": {
+  "antonyms": [],
+  "characters": [
+   {
+    "char": "面",
+    "componentMeaning": "bột",
+    "hanViet": "DIỆN",
+    "pictographicOrigin": "Chữ giáp cốt vẽ hình khuôn mặt người — nghĩa \"mặt\".",
+    "radical": "面(bộ diện)",
+    "strokeCount": 9
+   },
+   {
+    "char": "包",
+    "componentMeaning": "bánh",
+    "hanViet": "BAO",
+    "pictographicOrigin": "Hình một bào thai được bọc trong bụng mẹ — nghĩa \"bọc\" (trong 包子).",
+    "radical": "勹(bộ bao)",
+    "strokeCount": 5
+   },
+   {
+    "char": "店",
+    "componentMeaning": "cửa hàng",
+    "hanViet": "ĐIẾM",
+    "pictographicOrigin": "Bộ 广(mái nhà, lều) ghép 占(chiếm chỗ) — nơi dựng lều để bán hàng.",
+    "radical": "广(bộ nghiễm)",
+    "strokeCount": 8
+   }
+  ],
+  "collocations": [],
+  "compounds": [],
+  "distinguish": "",
+  "distinguishExample": "",
+  "grammarExample": "",
+  "grammarNote": "",
+  "image": "🥐",
+  "mnemonic": "面包店 = 面包(bánh mì) + 店(cửa hàng) — CỬA HÀNG bán BÁNH MÌ.",
+  "partOfSpeech": "Danh từ",
+  "senses": [
+   {
+    "meanings": [
+     {
+      "example": "面包店的面包很新鲜。 (Miànbāodiàn de miànbāo hěn xīnxiān.) – Bánh mì ở tiệm bánh rất tươi.",
+      "meaning": "tiệm bánh mì"
+     }
+    ],
+    "partOfSpeech": "Danh từ"
+   }
+  ],
+  "synonyms": [],
+  "usage": ""
+ },
+ "zh-food-drink-73": {
+  "antonyms": [],
+  "characters": [
+   {
+    "char": "请",
+    "componentMeaning": "mời",
+    "hanViet": "THỈNH",
+    "pictographicOrigin": "Ghép bộ 讠(lời nói) với 青 lấy âm — chữ hình thanh, nghĩa \"thỉnh cầu, mời\".",
+    "radical": "讠(bộ ngôn)",
+    "strokeCount": 10
+   },
+   {
+    "char": "客",
+    "componentMeaning": "khách",
+    "hanViet": "KHÁCH",
+    "pictographicOrigin": "Bộ 宀(mái nhà) trên 各 — người từ nơi khác đến nhà, \"khách\".",
+    "radical": "宀(bộ miên)",
+    "strokeCount": 9
+   }
+  ],
+  "collocations": [],
+  "compounds": [],
+  "distinguish": "",
+  "distinguishExample": "",
+  "grammarExample": "",
+  "grammarNote": "",
+  "image": "🍽️",
+  "mnemonic": "请客 = 请(mời) + 客(khách) — MỜI KHÁCH ăn, tức mình BAO.",
+  "partOfSpeech": "Động từ",
+  "senses": [
+   {
+    "meanings": [
+     {
+      "example": "今天我请客。 (Jīntiān wǒ qǐngkè.) – Hôm nay tôi mời.",
+      "meaning": "mời khách, bao ăn"
+     }
+    ],
+    "partOfSpeech": "Động từ"
+   }
+  ],
+  "synonyms": [],
+  "usage": ""
+ },
+ "zh-food-drink-74": {
+  "antonyms": [],
+  "characters": [
+   {
+    "char": "打",
+    "componentMeaning": "làm",
+    "hanViet": "ĐẢ",
+    "pictographicOrigin": "Bộ 扌(tay) ghép 丁 lấy âm — dùng TAY để đánh/thực hiện, \"đánh, gọi (điện thoại)\".",
+    "radical": "扌(bộ thủ)",
+    "strokeCount": 5
+   },
+   {
+    "char": "包",
+    "componentMeaning": "gói",
+    "hanViet": "BAO",
+    "pictographicOrigin": "Hình một bào thai được bọc trong bụng mẹ — nghĩa \"bọc\" (trong 包子).",
+    "radical": "勹(bộ bao)",
+    "strokeCount": 5
+   }
+  ],
+  "collocations": [],
+  "compounds": [],
+  "distinguish": "",
+  "distinguishExample": "",
+  "grammarExample": "",
+  "grammarNote": "",
+  "image": "🥡",
+  "mnemonic": "打包 = 打(làm, thực hiện) + 包(gói, bọc) — LÀM cho GÓI lại mang về.",
+  "partOfSpeech": "Động từ",
+  "senses": [
+   {
+    "meanings": [
+     {
+      "example": "剩下的菜可以打包吗？ (Shèngxià de cài kěyǐ dǎbāo ma?) – Đồ ăn thừa có thể gói mang về không?",
+      "meaning": "gói mang về"
+     }
+    ],
+    "partOfSpeech": "Động từ"
+   }
+  ],
+  "synonyms": [],
+  "usage": ""
+ },
+ "zh-food-drink-75": {
+  "antonyms": [],
+  "characters": [
+   {
+    "char": "豆",
+    "componentMeaning": "đậu",
+    "hanViet": "ĐẬU",
+    "pictographicOrigin": "Chữ giáp cốt vẽ hình một cái bát cao chân đựng thức ăn tế lễ — mượn hình dạng chỉ \"hạt đậu\".",
+    "radical": "豆(bộ đậu)",
+    "strokeCount": 7
+   },
+   {
+    "char": "浆",
+    "componentMeaning": "nước sánh",
+    "hanViet": "TƯƠNG",
+    "pictographicOrigin": "Bộ 水(nước) — chất lỏng đặc sánh, \"nước ép, sữa\" (trong 豆浆).",
+    "radical": "水(bộ thủy)",
+    "strokeCount": 10
+   }
+  ],
+  "collocations": [],
+  "compounds": [],
+  "distinguish": "",
+  "distinguishExample": "",
+  "grammarExample": "",
+  "grammarNote": "",
+  "image": "🥛",
+  "mnemonic": "豆浆 = 豆(hạt đậu) + 浆(nước sánh) — nước SÁNH từ ĐẬU nành xay, SỮA ĐẬU NÀNH.",
+  "partOfSpeech": "Danh từ",
+  "senses": [
+   {
+    "meanings": [
+     {
+      "example": "早饭我喝豆浆。 (Zǎofàn wǒ hē dòujiāng.) – Bữa sáng tôi uống sữa đậu nành.",
+      "meaning": "sữa đậu nành"
+     }
+    ],
+    "partOfSpeech": "Danh từ"
+   }
+  ],
+  "synonyms": [],
+  "usage": ""
+ },
+ "zh-food-drink-76": {
+  "antonyms": [],
+  "characters": [
+   {
+    "char": "饼",
+    "componentMeaning": "",
+    "hanViet": "BÍNH",
+    "pictographicOrigin": "Bộ 饣(ăn uống) ghép 并 lấy âm — bánh dẹt tròn.",
+    "radical": "饣(bộ thực)",
+    "strokeCount": 9
+   },
+   {
+    "char": "干",
+    "componentMeaning": "khô",
+    "hanViet": "CAN",
+    "pictographicOrigin": "Chữ giáp cốt vẽ hình một cây giáo hai đầu nhọn — mượn nghĩa \"khô, sạch\" (trong 干净).",
+    "radical": "干(bộ can)",
+    "strokeCount": 3
+   }
+  ],
+  "collocations": [],
+  "compounds": [],
+  "distinguish": "",
+  "distinguishExample": "",
+  "grammarExample": "",
+  "grammarNote": "",
+  "image": "🍪",
+  "mnemonic": "饼干 = 饼(bánh dẹt tròn 饣) + 干(khô) — bánh dẹt đã sấy KHÔ, BÁNH QUY.",
+  "partOfSpeech": "Danh từ",
+  "senses": [
+   {
+    "meanings": [
+     {
+      "example": "小孩喜欢吃饼干。 (Xiǎohái xǐhuan chī bǐnggān.) – Trẻ con thích ăn bánh quy.",
+      "meaning": "bánh quy"
+     }
+    ],
+    "partOfSpeech": "Danh từ"
+   }
+  ],
+  "synonyms": [],
+  "usage": ""
+ },
+ "zh-food-drink-77": {
+  "antonyms": [],
+  "characters": [
+   {
+    "char": "零",
+    "componentMeaning": "lẻ tẻ",
+    "hanViet": "LINH",
+    "pictographicOrigin": "Bộ 雨(mưa) trên 令 lấy âm — nghĩa gốc \"mưa lất phất, lẻ tẻ\", mượn làm số 0.",
+    "radical": "雨(bộ vũ)",
+    "strokeCount": 13
+   },
+   {
+    "char": "食",
+    "componentMeaning": "đồ ăn",
+    "hanViet": "THỰC",
+    "pictographicOrigin": "Chữ giáp cốt vẽ hình một nắp đậy trên bát cơm — nghĩa \"ăn, thức ăn\".",
+    "radical": "食(bộ thực)",
+    "strokeCount": 9
+   }
+  ],
+  "collocations": [],
+  "compounds": [],
+  "distinguish": "",
+  "distinguishExample": "",
+  "grammarExample": "",
+  "grammarNote": "",
+  "image": "🍿",
+  "mnemonic": "零食 = 零(lẻ tẻ, mưa lất phất) + 食(ăn) — ĐỒ ĂN lặt vặt LẺ TẺ, ĂN VẶT.",
+  "partOfSpeech": "Danh từ",
+  "senses": [
+   {
+    "meanings": [
+     {
+      "example": "少吃零食对身体好。 (Shǎo chī língshí duì shēntǐ hǎo.) – Ăn ít đồ ăn vặt tốt cho sức khỏe.",
+      "meaning": "đồ ăn vặt"
+     }
+    ],
+    "partOfSpeech": "Danh từ"
+   }
+  ],
+  "synonyms": [],
+  "usage": ""
+ },
+ "zh-food-drink-78": {
+  "antonyms": [],
+  "characters": [
+   {
+    "char": "烤",
+    "componentMeaning": "nướng",
+    "hanViet": "KHẢO",
+    "pictographicOrigin": "Bộ 火(lửa) ghép 考 lấy âm — dùng LỬA để NƯỚNG.",
+    "radical": "火(bộ hỏa)",
+    "strokeCount": 10
+   },
+   {
+    "char": "鸭",
+    "componentMeaning": "vịt",
+    "hanViet": "ÁP",
+    "pictographicOrigin": "Bộ 鸟(chim) ghép 甲 lấy âm — nghĩa \"con vịt\".",
+    "radical": "鸟(bộ điểu)",
+    "strokeCount": 10
+   }
+  ],
+  "collocations": [],
+  "compounds": [],
+  "distinguish": "",
+  "distinguishExample": "",
+  "grammarExample": "",
+  "grammarNote": "",
+  "image": "🦆",
+  "mnemonic": "烤鸭 = 烤(nướng bằng lửa 火) + 鸭(vịt) — VỊT được NƯỚNG, VỊT QUAY.",
+  "partOfSpeech": "Danh từ",
+  "senses": [
+   {
+    "meanings": [
+     {
+      "example": "北京烤鸭很有名。 (Běijīng kǎoyā hěn yǒumíng.) – Vịt quay Bắc Kinh rất nổi tiếng.",
+      "meaning": "vịt quay"
+     }
+    ],
+    "partOfSpeech": "Danh từ"
+   }
+  ],
+  "synonyms": [],
+  "usage": ""
+ },
+ "zh-food-drink-79": {
+  "antonyms": [],
+  "characters": [
+   {
+    "char": "火",
+    "componentMeaning": "lửa",
+    "hanViet": "HỎA",
+    "pictographicOrigin": "Chữ giáp cốt vẽ hình ngọn lửa đang cháy bùng lên — nghĩa \"lửa\".",
+    "radical": "火(bộ hỏa)",
+    "strokeCount": 4
+   },
+   {
+    "char": "锅",
+    "componentMeaning": "nồi",
+    "hanViet": "OA",
+    "pictographicOrigin": "Bộ 钅(kim loại) ghép 呙 — vật kim loại để nấu ăn, CÁI NỒI.",
+    "radical": "钅(bộ kim)",
+    "strokeCount": 12
+   }
+  ],
+  "collocations": [],
+  "compounds": [],
+  "distinguish": "",
+  "distinguishExample": "",
+  "grammarExample": "",
+  "grammarNote": "",
+  "image": "🍲",
+  "mnemonic": "火锅 = 火(lửa) + 锅(nồi kim loại 钅) — NỒI đun trên LỬA, LẨU.",
+  "partOfSpeech": "Danh từ",
+  "senses": [
+   {
+    "meanings": [
+     {
+      "example": "冬天吃火锅很暖和。 (Dōngtiān chī huǒguō hěn nuǎnhuo.) – Mùa đông ăn lẩu rất ấm.",
+      "meaning": "lẩu"
+     }
+    ],
+    "partOfSpeech": "Danh từ"
+   }
+  ],
+  "synonyms": [],
+  "usage": ""
+ },
  "zh-food-drink-8": {
   "antonyms": [],
   "characters": [
@@ -14971,6 +16413,135 @@
      {
       "example": "我喜欢喝绿茶。 (Wǒ xǐhuan hē lǜchá.) – Tôi thích uống trà xanh.",
       "meaning": "trà"
+     }
+    ],
+    "partOfSpeech": "Danh từ"
+   }
+  ],
+  "synonyms": [],
+  "usage": ""
+ },
+ "zh-food-drink-80": {
+  "antonyms": [],
+  "characters": [
+   {
+    "char": "草",
+    "componentMeaning": "cỏ",
+    "hanViet": "THẢO",
+    "pictographicOrigin": "Bộ 艹(cây cỏ) ghép 早 lấy âm — nghĩa \"cỏ\" (trong 草莓, dâu).",
+    "radical": "艹(bộ thảo)",
+    "strokeCount": 9
+   },
+   {
+    "char": "莓",
+    "componentMeaning": "",
+    "hanViet": "MAI",
+    "pictographicOrigin": "Bộ 艹(cây cỏ) ghép 母(mẹ) — loại cây cho quả nhỏ mọng, DÂU.",
+    "radical": "艹(bộ thảo)",
+    "strokeCount": 9
+   }
+  ],
+  "collocations": [],
+  "compounds": [],
+  "distinguish": "",
+  "distinguishExample": "",
+  "grammarExample": "",
+  "grammarNote": "",
+  "image": "🍓",
+  "mnemonic": "草莓 = 草(cỏ) + 莓(cây mẹ 母 cho quả nhỏ) — quả nhỏ mọc trên loại CỎ, DÂU TÂY.",
+  "partOfSpeech": "Danh từ",
+  "senses": [
+   {
+    "meanings": [
+     {
+      "example": "草莓很好吃。 (Cǎoméi hěn hǎochī.) – Dâu tây rất ngon.",
+      "meaning": "dâu tây"
+     }
+    ],
+    "partOfSpeech": "Danh từ"
+   }
+  ],
+  "synonyms": [],
+  "usage": ""
+ },
+ "zh-food-drink-81": {
+  "antonyms": [],
+  "characters": [
+   {
+    "char": "橙",
+    "componentMeaning": "",
+    "hanViet": "THÀNH",
+    "pictographicOrigin": "Bộ 木(cây) ghép 登 lấy âm — cây cho quả CAM.",
+    "radical": "木(bộ mộc)",
+    "strokeCount": 16
+   },
+   {
+    "char": "子",
+    "componentMeaning": "hậu tố danh từ",
+    "hanViet": "TỬ",
+    "pictographicOrigin": "Chữ giáp cốt vẽ hình một đứa trẻ sơ sinh với hai tay dang ra — nghĩa \"con\".",
+    "radical": "子(bộ tử)",
+    "strokeCount": 3
+   }
+  ],
+  "collocations": [],
+  "compounds": [],
+  "distinguish": "",
+  "distinguishExample": "",
+  "grammarExample": "",
+  "grammarNote": "",
+  "image": "🍊",
+  "mnemonic": "橙子 = 橙(cây 木 + 登 lấy âm) + 子(hậu tố) — quả CAM.",
+  "partOfSpeech": "Danh từ",
+  "senses": [
+   {
+    "meanings": [
+     {
+      "example": "橙子富含维生素C。 (Chéngzi fùhán wéishēngsù C.) – Cam giàu vitamin C.",
+      "meaning": "quả cam"
+     }
+    ],
+    "partOfSpeech": "Danh từ"
+   }
+  ],
+  "synonyms": [],
+  "usage": ""
+ },
+ "zh-food-drink-82": {
+  "antonyms": [],
+  "characters": [
+   {
+    "char": "柠",
+    "componentMeaning": "",
+    "hanViet": "NINH",
+    "pictographicOrigin": "Bộ 木(cây) ghép 宁 lấy âm — cây cho quả CHANH.",
+    "radical": "木(bộ mộc)",
+    "strokeCount": 8
+   },
+   {
+    "char": "檬",
+    "componentMeaning": "",
+    "hanViet": "MÔNG",
+    "pictographicOrigin": "Bộ 木(cây) ghép 蒙 lấy âm — nghĩa \"chanh\" (trong 柠檬).",
+    "radical": "木(bộ mộc)",
+    "strokeCount": 17
+   }
+  ],
+  "collocations": [],
+  "compounds": [],
+  "distinguish": "",
+  "distinguishExample": "",
+  "grammarExample": "",
+  "grammarNote": "",
+  "image": "🍋",
+  "mnemonic": "柠檬 = 柠(cây 木 + 宁) + 檬(cây 木 + 蒙) — ghép đôi phiên âm chỉ quả CHANH.",
+  "partOfSpeech": "Danh từ",
+  "senses": [
+   {
+    "meanings": [
+     {
+      "example": "柠檬水很酸。 (Níngméngshuǐ hěn suān.) – Nước chanh rất chua.",
+      "meaning": "chanh"
      }
     ],
     "partOfSpeech": "Danh từ"
@@ -23157,8 +24728,8 @@
    {
     "char": "乐",
     "componentMeaning": "nhạc",
-    "hanViet": "NHẠC/LẠC",
-    "pictographicOrigin": "Chữ giản thể từ 樂, vốn vẽ hình một nhạc cụ dây trên khung gỗ — nghĩa \"âm nhạc, vui\".",
+    "hanViet": "LẠC",
+    "pictographicOrigin": "Chữ giản thể từ 樂, vốn vẽ nhạc cụ dây — nghĩa \"vui\", dùng phiên âm \"cola\".",
     "radical": "丿(bộ phiệt)",
     "strokeCount": 5
    }
@@ -23957,7 +25528,7 @@
     "char": "可",
     "componentMeaning": "có thể",
     "hanViet": "KHẢ",
-    "pictographicOrigin": "Chữ giáp cốt vẽ hình một cái cày và miệng — nghĩa \"có thể\".",
+    "pictographicOrigin": "Vẽ hình cái cày và miệng — nghĩa \"có thể\", dùng phiên âm \"cola\".",
     "radical": "口(bộ khẩu)",
     "strokeCount": 5
    },
