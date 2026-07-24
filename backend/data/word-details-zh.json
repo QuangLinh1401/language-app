@@ -32580,5 +32580,1286 @@
    }
   ],
   "usage": "Nối hai mệnh đề hoặc hai động từ/tính từ cùng loại, biểu thị bổ sung hoặc tăng tiến."
+ },
+ "zh-verbs-1-146": {
+  "antonyms": [
+   {
+    "word": "减少",
+    "example": "支出减少了。 (Zhīchū jiǎnshǎo le.) – Chi tiêu giảm đi."
+   }
+  ],
+  "characters": [
+   {
+    "char": "增",
+    "hanViet": "TĂNG",
+    "radical": "土(bộ thổ)",
+    "strokeCount": 15,
+    "componentMeaning": "thêm, chồng lên",
+    "pictographicOrigin": "Bộ 土(đất) với 曾 lấy âm — đắp thêm đất, nghĩa \"tăng thêm\"."
+   },
+   {
+    "char": "加",
+    "hanViet": "GIA",
+    "radical": "力(bộ lực)",
+    "strokeCount": 5,
+    "componentMeaning": "thêm vào",
+    "pictographicOrigin": "Bộ 力(sức) với 口(miệng) — dùng sức nói thêm, nghĩa \"thêm, cộng\"."
+   }
+  ],
+  "collocations": [],
+  "compounds": [
+   {
+    "word": "增加",
+    "pinyin": "zēngjiā",
+    "meaning": "tăng thêm",
+    "example": "人口增加了。 (Rénkǒu zēngjiā le.) – Dân số tăng lên."
+   },
+   {
+    "word": "参加",
+    "pinyin": "cānjiā",
+    "meaning": "tham gia",
+    "example": "我参加了比赛。 (Wǒ cānjiā le bǐsài.) – Tôi tham gia cuộc thi."
+   }
+  ],
+  "distinguish": "",
+  "distinguishExample": "",
+  "grammarExample": "",
+  "grammarNote": "",
+  "image": "",
+  "mnemonic": "增(đắp thêm đất) + 加(cộng vào) = làm cho nhiều lên → tăng thêm.",
+  "partOfSpeech": "Động từ",
+  "senses": [
+   {
+    "partOfSpeech": "Động từ",
+    "meanings": [
+     {
+      "meaning": "tăng thêm, tăng lên",
+      "example": "公司增加了员工。 (Gōngsī zēngjiā le yuángōng.) – Công ty tăng thêm nhân viên."
+     }
+    ]
+   }
+  ],
+  "synonyms": [],
+  "usage": "Có thể mang tân ngữ (增加收入) hoặc dùng dạng \"...增加了\"; nhấn số lượng nhiều lên."
+ },
+ "zh-verbs-1-147": {
+  "antonyms": [
+   {
+    "word": "增加",
+    "example": "收入增加了。 (Shōurù zēngjiā le.) – Thu nhập tăng lên."
+   }
+  ],
+  "characters": [
+   {
+    "char": "减",
+    "hanViet": "GIẢM",
+    "radical": "冫(bộ băng)",
+    "strokeCount": 11,
+    "componentMeaning": "bớt đi",
+    "pictographicOrigin": "Bộ 冫(băng) với 咸 lấy âm — nghĩa \"trừ bớt, giảm\"."
+   },
+   {
+    "char": "少",
+    "hanViet": "THIỂU",
+    "radical": "小(bộ tiểu)",
+    "strokeCount": 4,
+    "componentMeaning": "ít",
+    "pictographicOrigin": "Bốn hạt nhỏ rơi — biểu thị \"ít, hiếm\"."
+   }
+  ],
+  "collocations": [],
+  "compounds": [
+   {
+    "word": "减肥",
+    "pinyin": "jiǎnféi",
+    "meaning": "giảm cân",
+    "example": "她在减肥。 (Tā zài jiǎnféi.) – Cô ấy đang giảm cân."
+   },
+   {
+    "word": "至少",
+    "pinyin": "zhìshǎo",
+    "meaning": "ít nhất",
+    "example": "至少要睡七个小时。 (Zhìshǎo yào shuì qī ge xiǎoshí.) – Ít nhất phải ngủ bảy tiếng."
+   }
+  ],
+  "distinguish": "",
+  "distinguishExample": "",
+  "grammarExample": "",
+  "grammarNote": "",
+  "image": "",
+  "mnemonic": "减(trừ) + 少(ít) = làm cho ít đi → giảm bớt.",
+  "partOfSpeech": "Động từ",
+  "senses": [
+   {
+    "partOfSpeech": "Động từ",
+    "meanings": [
+     {
+      "meaning": "giảm bớt, giảm đi",
+      "example": "我们要减少浪费。 (Wǒmen yào jiǎnshǎo làngfèi.) – Chúng ta phải giảm lãng phí."
+     }
+    ]
+   }
+  ],
+  "synonyms": [],
+  "usage": "Mang tân ngữ (减少支出) hoặc dùng \"...减少了\"; đối lập với 增加."
+ },
+ "zh-verbs-1-148": {
+  "antonyms": [],
+  "characters": [
+   {
+    "char": "改",
+    "hanViet": "CẢI",
+    "radical": "攵(bộ phộc)",
+    "strokeCount": 7,
+    "componentMeaning": "sửa đổi",
+    "pictographicOrigin": "Bộ 攵(tay cầm roi/gõ) với 己 — dùng tác động để \"sửa lại\"."
+   },
+   {
+    "char": "变",
+    "hanViet": "BIẾN",
+    "radical": "又(bộ hựu)",
+    "strokeCount": 8,
+    "componentMeaning": "biến, đổi khác",
+    "pictographicOrigin": "Giản hóa từ 變 — nghĩa \"thay đổi, biến hóa\"."
+   }
+  ],
+  "collocations": [],
+  "compounds": [
+   {
+    "word": "变化",
+    "pinyin": "biànhuà",
+    "meaning": "biến hóa, thay đổi",
+    "example": "城市变化很大。 (Chéngshì biànhuà hěn dà.) – Thành phố thay đổi rất nhiều."
+   },
+   {
+    "word": "改善",
+    "pinyin": "gǎishàn",
+    "meaning": "cải thiện",
+    "example": "生活改善了。 (Shēnghuó gǎishàn le.) – Cuộc sống được cải thiện."
+   }
+  ],
+  "distinguish": "\"改变\" nhấn hành động chủ động làm khác đi (có thể có chủ thể tác động); \"变化\" thiên về sự biến đổi tự thân, thường làm danh từ.",
+  "distinguishExample": "他改变了计划。 (Tā gǎibiàn le jìhuà.) – Anh ấy thay đổi kế hoạch.",
+  "grammarExample": "",
+  "grammarNote": "",
+  "image": "",
+  "mnemonic": "改(sửa) + 变(đổi) = sửa cho khác đi → thay đổi.",
+  "partOfSpeech": "Động từ",
+  "senses": [
+   {
+    "partOfSpeech": "Động từ",
+    "meanings": [
+     {
+      "meaning": "thay đổi, biến đổi",
+      "example": "我想改变自己。 (Wǒ xiǎng gǎibiàn zìjǐ.) – Tôi muốn thay đổi bản thân."
+     },
+     {
+      "meaning": "(danh) sự thay đổi",
+      "example": "这是一个大改变。 (Zhè shì yí ge dà gǎibiàn.) – Đây là một thay đổi lớn."
+     }
+    ]
+   }
+  ],
+  "synonyms": [
+   {
+    "word": "变化",
+    "example": "天气变化很快。 (Tiānqì biànhuà hěn kuài.) – Thời tiết thay đổi nhanh."
+   }
+  ],
+  "usage": "Vừa làm động từ (改变主意) vừa làm danh từ; có thể mang tân ngữ."
+ },
+ "zh-verbs-1-153": {
+  "antonyms": [
+   {
+    "word": "破坏",
+    "example": "别破坏公物。 (Bié pòhuài gōngwù.) – Đừng phá hoại của công."
+   }
+  ],
+  "characters": [
+   {
+    "char": "保",
+    "hanViet": "BẢO",
+    "radical": "亻(bộ nhân)",
+    "strokeCount": 9,
+    "componentMeaning": "giữ gìn",
+    "pictographicOrigin": "Bộ 亻(người) với 呆 — người ôm giữ con, nghĩa \"bảo vệ, giữ\"."
+   },
+   {
+    "char": "护",
+    "hanViet": "HỘ",
+    "radical": "扌(bộ thủ)",
+    "strokeCount": 7,
+    "componentMeaning": "che chở",
+    "pictographicOrigin": "Bộ 扌(tay) với 户 lấy âm — dùng tay che giữ, nghĩa \"hộ vệ\"."
+   }
+  ],
+  "collocations": [],
+  "compounds": [
+   {
+    "word": "保护环境",
+    "pinyin": "bǎohù huánjìng",
+    "meaning": "bảo vệ môi trường",
+    "example": "保护环境人人有责。 (Bǎohù huánjìng rénrén yǒu zé.) – Bảo vệ môi trường là trách nhiệm của mọi người."
+   },
+   {
+    "word": "护士",
+    "pinyin": "hùshi",
+    "meaning": "y tá",
+    "example": "护士很关心病人。 (Hùshi hěn guānxīn bìngrén.) – Y tá rất quan tâm bệnh nhân."
+   }
+  ],
+  "distinguish": "",
+  "distinguishExample": "",
+  "grammarExample": "",
+  "grammarNote": "",
+  "image": "",
+  "mnemonic": "保(giữ) + 护(che) = giữ gìn che chở → bảo vệ.",
+  "partOfSpeech": "Động từ",
+  "senses": [
+   {
+    "partOfSpeech": "Động từ",
+    "meanings": [
+     {
+      "meaning": "bảo vệ, che chở",
+      "example": "我们要保护环境。 (Wǒmen yào bǎohù huánjìng.) – Chúng ta phải bảo vệ môi trường."
+     }
+    ]
+   }
+  ],
+  "synonyms": [
+   {
+    "word": "保卫",
+    "example": "保卫祖国。 (Bǎowèi zǔguó.) – Bảo vệ tổ quốc."
+   }
+  ],
+  "usage": "Mang tân ngữ (保护动物/环境/眼睛); thường trong ngữ cảnh giữ gìn điều quý giá."
+ },
+ "zh-verbs-1-155": {
+  "antonyms": [
+   {
+    "word": "放弃",
+    "example": "别放弃！ (Bié fàngqì!) – Đừng bỏ cuộc!"
+   }
+  ],
+  "characters": [
+   {
+    "char": "坚",
+    "hanViet": "KIÊN",
+    "radical": "土(bộ thổ)",
+    "strokeCount": 7,
+    "componentMeaning": "vững chắc",
+    "pictographicOrigin": "Giản hóa từ 堅 — bộ 土(đất) gợi sự rắn chắc, nghĩa \"kiên cố\"."
+   },
+   {
+    "char": "持",
+    "hanViet": "TRÌ",
+    "radical": "扌(bộ thủ)",
+    "strokeCount": 9,
+    "componentMeaning": "nắm giữ",
+    "pictographicOrigin": "Bộ 扌(tay) với 寺 lấy âm — tay nắm giữ, nghĩa \"cầm, giữ\"."
+   }
+  ],
+  "collocations": [],
+  "compounds": [
+   {
+    "word": "坚持不懈",
+    "pinyin": "jiānchí bú xiè",
+    "meaning": "kiên trì không mệt mỏi",
+    "example": "他坚持不懈地努力。 (Tā jiānchí bú xiè de nǔlì.) – Anh ấy nỗ lực bền bỉ không ngừng."
+   },
+   {
+    "word": "支持",
+    "pinyin": "zhīchí",
+    "meaning": "ủng hộ",
+    "example": "谢谢你的支持。 (Xièxie nǐ de zhīchí.) – Cảm ơn sự ủng hộ của bạn."
+   }
+  ],
+  "distinguish": "",
+  "distinguishExample": "",
+  "grammarExample": "",
+  "grammarNote": "",
+  "image": "",
+  "mnemonic": "坚(vững) + 持(giữ) = giữ vững không buông → kiên trì.",
+  "partOfSpeech": "Động từ",
+  "senses": [
+   {
+    "partOfSpeech": "Động từ",
+    "meanings": [
+     {
+      "meaning": "kiên trì, giữ vững (không bỏ cuộc)",
+      "example": "坚持就是胜利。 (Jiānchí jiùshì shènglì.) – Kiên trì chính là chiến thắng."
+     },
+     {
+      "meaning": "khăng khăng, kiên quyết (giữ ý kiến)",
+      "example": "他坚持自己的看法。 (Tā jiānchí zìjǐ de kànfǎ.) – Anh ấy khăng khăng giữ quan điểm của mình."
+     }
+    ]
+   }
+  ],
+  "synonyms": [
+   {
+    "word": "坚定",
+    "example": "他态度坚定。 (Tā tàidù jiāndìng.) – Thái độ anh ấy kiên định."
+   }
+  ],
+  "usage": "Có thể theo sau bởi động từ (坚持锻炼) hoặc danh từ ý kiến (坚持原则)."
+ },
+ "zh-verbs-2-136": {
+  "antonyms": [
+   {
+    "word": "坚持",
+    "example": "坚持到底。 (Jiānchí dàodǐ.) – Kiên trì đến cùng."
+   }
+  ],
+  "characters": [
+   {
+    "char": "放",
+    "hanViet": "PHÓNG",
+    "radical": "攵(bộ phộc)",
+    "strokeCount": 8,
+    "componentMeaning": "buông, thả",
+    "pictographicOrigin": "Bộ 攵(gõ/tác động) với 方 lấy âm — nghĩa \"thả ra, buông\"."
+   },
+   {
+    "char": "弃",
+    "hanViet": "KHÍ",
+    "radical": "廾(bộ củng)",
+    "strokeCount": 7,
+    "componentMeaning": "vứt bỏ",
+    "pictographicOrigin": "Vốn vẽ hai tay hất bỏ đứa trẻ trong nong — nghĩa \"vứt bỏ, ruồng bỏ\"."
+   }
+  ],
+  "collocations": [],
+  "compounds": [
+   {
+    "word": "放松",
+    "pinyin": "fàngsōng",
+    "meaning": "thư giãn",
+    "example": "周末好好放松一下。 (Zhōumò hǎohǎo fàngsōng yíxià.) – Cuối tuần thư giãn cho khỏe."
+   },
+   {
+    "word": "抛弃",
+    "pinyin": "pāoqì",
+    "meaning": "ruồng bỏ",
+    "example": "别抛弃希望。 (Bié pāoqì xīwàng.) – Đừng vứt bỏ hy vọng."
+   }
+  ],
+  "distinguish": "",
+  "distinguishExample": "",
+  "grammarExample": "",
+  "grammarNote": "",
+  "image": "",
+  "mnemonic": "放(buông) + 弃(vứt) = buông tay vứt đi → từ bỏ.",
+  "partOfSpeech": "Động từ",
+  "senses": [
+   {
+    "partOfSpeech": "Động từ",
+    "meanings": [
+     {
+      "meaning": "từ bỏ, buông bỏ",
+      "example": "别轻易放弃。 (Bié qīngyì fàngqì.) – Đừng dễ dàng từ bỏ."
+     }
+    ]
+   }
+  ],
+  "synonyms": [],
+  "usage": "Mang tân ngữ (放弃机会/梦想) hoặc dùng độc lập; sắc thái tiếc nuối hoặc dứt khoát tùy ngữ cảnh."
+ },
+ "zh-verbs-1-137": {
+  "antonyms": [],
+  "characters": [
+   {
+    "char": "发",
+    "hanViet": "PHÁT",
+    "radical": "又(bộ hựu)",
+    "strokeCount": 5,
+    "componentMeaning": "phát ra, phóng",
+    "pictographicOrigin": "Giản hóa từ 發 (bắn cung) — nghĩa \"phát ra, khởi phát\"."
+   },
+   {
+    "char": "展",
+    "hanViet": "TRIỂN",
+    "radical": "尸(bộ thi)",
+    "strokeCount": 10,
+    "componentMeaning": "mở rộng, giãn ra",
+    "pictographicOrigin": "Gợi hình thân người duỗi ra — nghĩa \"trải rộng, triển khai\"."
+   }
+  ],
+  "collocations": [],
+  "compounds": [
+   {
+    "word": "发现",
+    "pinyin": "fāxiàn",
+    "meaning": "phát hiện",
+    "example": "我发现了一个问题。 (Wǒ fāxiàn le yí ge wèntí.) – Tôi phát hiện một vấn đề."
+   },
+   {
+    "word": "展览",
+    "pinyin": "zhǎnlǎn",
+    "meaning": "triển lãm",
+    "example": "我们去看展览。 (Wǒmen qù kàn zhǎnlǎn.) – Chúng ta đi xem triển lãm."
+   }
+  ],
+  "distinguish": "",
+  "distinguishExample": "",
+  "grammarExample": "",
+  "grammarNote": "",
+  "image": "",
+  "mnemonic": "发(khởi phát) + 展(mở rộng) = khởi lên rồi mở ra → phát triển.",
+  "partOfSpeech": "Động từ",
+  "senses": [
+   {
+    "partOfSpeech": "Động từ",
+    "meanings": [
+     {
+      "meaning": "phát triển, mở mang",
+      "example": "这个城市发展得很快。 (Zhège chéngshì fāzhǎn de hěn kuài.) – Thành phố này phát triển rất nhanh."
+     },
+     {
+      "meaning": "(danh) sự phát triển",
+      "example": "经济发展很重要。 (Jīngjì fāzhǎn hěn zhòngyào.) – Phát triển kinh tế rất quan trọng."
+     }
+    ]
+   }
+  ],
+  "synonyms": [
+   {
+    "word": "发达",
+    "example": "这里经济发达。 (Zhèlǐ jīngjì fādá.) – Nơi đây kinh tế phát triển."
+   }
+  ],
+  "usage": "Vừa động từ vừa danh từ; hay đi với 经济/社会/科技 + 发展."
+ },
+ "zh-verbs-2-233": {
+  "antonyms": [
+   {
+    "word": "退步",
+    "example": "成绩退步了。 (Chéngjì tuìbù le.) – Thành tích sa sút."
+   }
+  ],
+  "characters": [
+   {
+    "char": "进",
+    "hanViet": "TIẾN",
+    "radical": "辶(bộ sước)",
+    "strokeCount": 7,
+    "componentMeaning": "tiến tới",
+    "pictographicOrigin": "Bộ 辶(đi) với 井 lấy âm — nghĩa \"đi tới, vào\"."
+   },
+   {
+    "char": "步",
+    "hanViet": "BỘ",
+    "radical": "止(bộ chỉ)",
+    "strokeCount": 7,
+    "componentMeaning": "bước chân",
+    "pictographicOrigin": "Hai bàn chân (止) trước sau — nghĩa \"bước đi\"."
+   }
+  ],
+  "collocations": [],
+  "compounds": [
+   {
+    "word": "进步",
+    "pinyin": "jìnbù",
+    "meaning": "tiến bộ",
+    "example": "他进步了。 (Tā jìnbù le.) – Anh ấy tiến bộ rồi."
+   },
+   {
+    "word": "散步",
+    "pinyin": "sànbù",
+    "meaning": "đi dạo",
+    "example": "晚饭后去散步。 (Wǎnfàn hòu qù sànbù.) – Sau bữa tối đi dạo."
+   }
+  ],
+  "distinguish": "",
+  "distinguishExample": "",
+  "grammarExample": "",
+  "grammarNote": "",
+  "image": "",
+  "mnemonic": "进(tiến) + 步(bước) = bước tới trước → tiến bộ.",
+  "partOfSpeech": "Động từ / Danh từ",
+  "senses": [
+   {
+    "partOfSpeech": "Động từ",
+    "meanings": [
+     {
+      "meaning": "tiến bộ, tiến lên",
+      "example": "你的汉语进步很大。 (Nǐ de Hànyǔ jìnbù hěn dà.) – Tiếng Trung của bạn tiến bộ rất nhiều."
+     }
+    ]
+   }
+  ],
+  "synonyms": [],
+  "usage": "Làm động từ (không mang tân ngữ, dùng \"...进步了/进步很大\") hoặc danh từ (取得进步)."
+ },
+ "zh-verbs-1-140": {
+  "antonyms": [],
+  "characters": [
+   {
+    "char": "表",
+    "hanViet": "BIỂU",
+    "radical": "衣(bộ y)",
+    "strokeCount": 8,
+    "componentMeaning": "bày ra ngoài",
+    "pictographicOrigin": "Vốn là 毛+衣 (lông thú mặt ngoài áo) — nghĩa \"bề ngoài, bày tỏ\"."
+   },
+   {
+    "char": "达",
+    "hanViet": "ĐẠT",
+    "radical": "辶(bộ sước)",
+    "strokeCount": 6,
+    "componentMeaning": "đạt tới, thông suốt",
+    "pictographicOrigin": "Bộ 辶(đi) với 大 — đi tới nơi, nghĩa \"đạt, thông\"."
+   }
+  ],
+  "collocations": [],
+  "compounds": [
+   {
+    "word": "表示",
+    "pinyin": "biǎoshì",
+    "meaning": "bày tỏ, biểu thị",
+    "example": "他表示同意。 (Tā biǎoshì tóngyì.) – Anh ấy tỏ ý đồng ý."
+   },
+   {
+    "word": "到达",
+    "pinyin": "dàodá",
+    "meaning": "đến nơi",
+    "example": "飞机准时到达。 (Fēijī zhǔnshí dàodá.) – Máy bay đến đúng giờ."
+   }
+  ],
+  "distinguish": "",
+  "distinguishExample": "",
+  "grammarExample": "",
+  "grammarNote": "",
+  "image": "",
+  "mnemonic": "表(bày ra) + 达(thông tới) = đưa ý ra ngoài cho thông → diễn đạt.",
+  "partOfSpeech": "Động từ",
+  "senses": [
+   {
+    "partOfSpeech": "Động từ",
+    "meanings": [
+     {
+      "meaning": "biểu đạt, diễn đạt (ý nghĩ, tình cảm)",
+      "example": "我不知道怎么表达。 (Wǒ bù zhīdào zěnme biǎodá.) – Tôi không biết diễn đạt thế nào."
+     }
+    ]
+   }
+  ],
+  "synonyms": [
+   {
+    "word": "表示",
+    "example": "用行动表示。 (Yòng xíngdòng biǎoshì.) – Dùng hành động để bày tỏ."
+   }
+  ],
+  "usage": "Mang tân ngữ trừu tượng (表达感情/意思/观点); khác 表示 (thiên về nêu thái độ ngắn gọn)."
+ },
+ "zh-verbs-2-238": {
+  "antonyms": [],
+  "characters": [
+   {
+    "char": "重",
+    "hanViet": "TRÙNG",
+    "radical": "里(bộ lý)",
+    "strokeCount": 9,
+    "componentMeaning": "lặp lại, chồng (đọc chóng)",
+    "pictographicOrigin": "Vẽ người vác bao nặng — nghĩa gốc \"nặng\" (zhòng); đọc chóng nghĩa \"lặp lại, chồng\"."
+   },
+   {
+    "char": "复",
+    "hanViet": "PHỤC",
+    "radical": "夂(bộ truy)",
+    "strokeCount": 9,
+    "componentMeaning": "lại, trở lại",
+    "pictographicOrigin": "Giản hóa từ 復 — nghĩa \"quay lại, lặp lại\"."
+   }
+  ],
+  "collocations": [],
+  "compounds": [
+   {
+    "word": "复习",
+    "pinyin": "fùxí",
+    "meaning": "ôn tập",
+    "example": "考试前要复习。 (Kǎoshì qián yào fùxí.) – Trước thi phải ôn tập."
+   },
+   {
+    "word": "重新",
+    "pinyin": "chóngxīn",
+    "meaning": "làm lại từ đầu",
+    "example": "我们重新开始。 (Wǒmen chóngxīn kāishǐ.) – Chúng ta bắt đầu lại."
+   }
+  ],
+  "distinguish": "",
+  "distinguishExample": "",
+  "grammarExample": "",
+  "grammarNote": "",
+  "image": "",
+  "mnemonic": "重(đọc chóng: lặp) + 复(lại) = làm lại lần nữa → lặp lại. Lưu ý 重 ở đây đọc chóng.",
+  "partOfSpeech": "Động từ",
+  "senses": [
+   {
+    "partOfSpeech": "Động từ",
+    "meanings": [
+     {
+      "meaning": "lặp lại, nhắc lại",
+      "example": "请不要重复同样的错误。 (Qǐng bú yào chóngfù tóngyàng de cuòwù.) – Xin đừng lặp lại lỗi cũ."
+     }
+    ]
+   }
+  ],
+  "synonyms": [
+   {
+    "word": "反复",
+    "example": "他反复练习。 (Tā fǎnfù liànxí.) – Anh ấy luyện tập lặp đi lặp lại."
+   }
+  ],
+  "usage": "Mang tân ngữ (重复内容) hoặc dùng độc lập; chú ý phân biệt âm zhòng (nặng) / chóng (lặp)."
+ },
+ "zh-verbs-2-266": {
+  "antonyms": [],
+  "characters": [
+   {
+    "char": "建",
+    "hanViet": "KIẾN",
+    "radical": "廴(bộ dẫn)",
+    "strokeCount": 8,
+    "componentMeaning": "dựng, lập",
+    "pictographicOrigin": "Bộ 廴(bước dài) với 聿(cây bút) — vạch quy hoạch rồi dựng, nghĩa \"xây dựng\"."
+   },
+   {
+    "char": "立",
+    "hanViet": "LẬP",
+    "radical": "立(bộ lập)",
+    "strokeCount": 5,
+    "componentMeaning": "đứng, lập nên",
+    "pictographicOrigin": "Vẽ người đứng trên mặt đất — nghĩa \"đứng, thành lập\"."
+   }
+  ],
+  "collocations": [],
+  "compounds": [
+   {
+    "word": "建设",
+    "pinyin": "jiànshè",
+    "meaning": "xây dựng (đất nước)",
+    "example": "建设美好家园。 (Jiànshè měihǎo jiāyuán.) – Xây dựng quê hương tươi đẹp."
+   },
+   {
+    "word": "成立",
+    "pinyin": "chénglì",
+    "meaning": "thành lập",
+    "example": "公司去年成立。 (Gōngsī qùnián chénglì.) – Công ty thành lập năm ngoái."
+   }
+  ],
+  "distinguish": "",
+  "distinguishExample": "",
+  "grammarExample": "",
+  "grammarNote": "",
+  "image": "",
+  "mnemonic": "建(dựng) + 立(lập) = dựng nên và lập ra → thành lập.",
+  "partOfSpeech": "Động từ",
+  "senses": [
+   {
+    "partOfSpeech": "Động từ",
+    "meanings": [
+     {
+      "meaning": "thành lập, xây dựng (tổ chức, quan hệ)",
+      "example": "他们建立了一家公司。 (Tāmen jiànlì le yì jiā gōngsī.) – Họ thành lập một công ty."
+     },
+     {
+      "meaning": "gây dựng (quan hệ, lòng tin)",
+      "example": "我们建立了友谊。 (Wǒmen jiànlì le yǒuyì.) – Chúng tôi xây dựng tình bạn."
+     }
+    ]
+   }
+  ],
+  "synonyms": [
+   {
+    "word": "成立",
+    "example": "学校成立于1950年。 (Xuéxiào chénglì yú 1950 nián.) – Trường thành lập năm 1950."
+   }
+  ],
+  "usage": "Mang tân ngữ (建立关系/制度/公司); thiên về khởi tạo cái mới trừu tượng lẫn cụ thể."
+ },
+ "zh-verbs-2-268": {
+  "antonyms": [],
+  "characters": [
+   {
+    "char": "组",
+    "hanViet": "TỔ",
+    "radical": "纟(bộ mịch)",
+    "strokeCount": 8,
+    "componentMeaning": "kết thành nhóm",
+    "pictographicOrigin": "Bộ 纟(sợi tơ) với 且 lấy âm — bện sợi thành nhóm, nghĩa \"tổ, nhóm\"."
+   },
+   {
+    "char": "织",
+    "hanViet": "CHỨC",
+    "radical": "纟(bộ mịch)",
+    "strokeCount": 8,
+    "componentMeaning": "dệt, đan kết",
+    "pictographicOrigin": "Bộ 纟(tơ) với 只 — nghĩa \"dệt, đan\"."
+   }
+  ],
+  "collocations": [],
+  "compounds": [
+   {
+    "word": "组成",
+    "pinyin": "zǔchéng",
+    "meaning": "cấu thành",
+    "example": "班级由三十人组成。 (Bānjí yóu sānshí rén zǔchéng.) – Lớp gồm ba mươi người."
+   },
+   {
+    "word": "小组",
+    "pinyin": "xiǎozǔ",
+    "meaning": "nhóm nhỏ",
+    "example": "我们分成四个小组。 (Wǒmen fēnchéng sì ge xiǎozǔ.) – Chúng ta chia thành bốn nhóm."
+   }
+  ],
+  "distinguish": "",
+  "distinguishExample": "",
+  "grammarExample": "",
+  "grammarNote": "",
+  "image": "",
+  "mnemonic": "组(kết nhóm) + 织(dệt kết) = kết mọi thứ lại → tổ chức.",
+  "partOfSpeech": "Động từ / Danh từ",
+  "senses": [
+   {
+    "partOfSpeech": "Động từ",
+    "meanings": [
+     {
+      "meaning": "tổ chức (hoạt động, người)",
+      "example": "老师组织了一次活动。 (Lǎoshī zǔzhī le yí cì huódòng.) – Thầy giáo tổ chức một hoạt động."
+     }
+    ]
+   },
+   {
+    "partOfSpeech": "Danh từ",
+    "meanings": [
+     {
+      "meaning": "tổ chức (tập thể)",
+      "example": "这是一个国际组织。 (Zhè shì yí ge guójì zǔzhī.) – Đây là một tổ chức quốc tế."
+     }
+    ]
+   }
+  ],
+  "synonyms": [
+   {
+    "word": "举办",
+    "example": "学校举办晚会。 (Xuéxiào jǔbàn wǎnhuì.) – Trường tổ chức dạ hội."
+   }
+  ],
+  "usage": "Động từ mang tân ngữ (组织活动/比赛); danh từ chỉ tập thể có cơ cấu."
+ },
+ "zh-verbs-2-269": {
+  "antonyms": [],
+  "characters": [
+   {
+    "char": "举",
+    "hanViet": "CỬ",
+    "radical": "丶(bộ chủ)",
+    "strokeCount": 9,
+    "componentMeaning": "nâng lên, tiến hành",
+    "pictographicOrigin": "Giản hóa từ 舉 (nhiều tay cùng nâng) — nghĩa \"giơ lên, tiến hành\"."
+   },
+   {
+    "char": "办",
+    "hanViet": "BIỆN",
+    "radical": "力(bộ lực)",
+    "strokeCount": 4,
+    "componentMeaning": "làm, lo liệu",
+    "pictographicOrigin": "Bộ 力(sức) ở giữa — dùng sức lo việc, nghĩa \"làm, xử lý\"."
+   }
+  ],
+  "collocations": [],
+  "compounds": [
+   {
+    "word": "办公室",
+    "pinyin": "bàngōngshì",
+    "meaning": "văn phòng",
+    "example": "经理在办公室。 (Jīnglǐ zài bàngōngshì.) – Giám đốc ở văn phòng."
+   },
+   {
+    "word": "举行",
+    "pinyin": "jǔxíng",
+    "meaning": "tiến hành, cử hành",
+    "example": "运动会明天举行。 (Yùndònghuì míngtiān jǔxíng.) – Đại hội thể thao tổ chức ngày mai."
+   }
+  ],
+  "distinguish": "\"举办\" nhấn người/đơn vị đứng ra tổ chức (举办比赛); \"举行\" nhấn sự kiện diễn ra (比赛举行). ",
+  "distinguishExample": "公司举办活动，活动在下午举行。 (Gōngsī jǔbàn huódòng, huódòng zài xiàwǔ jǔxíng.) – Công ty tổ chức hoạt động, hoạt động diễn ra buổi chiều.",
+  "grammarExample": "",
+  "grammarNote": "",
+  "image": "",
+  "mnemonic": "举(đứng ra nâng lên) + 办(lo liệu) = đứng ra lo tổ chức.",
+  "partOfSpeech": "Động từ",
+  "senses": [
+   {
+    "partOfSpeech": "Động từ",
+    "meanings": [
+     {
+      "meaning": "tổ chức (sự kiện, cuộc thi)",
+      "example": "学校举办了一场音乐会。 (Xuéxiào jǔbàn le yì chǎng yīnyuèhuì.) – Trường tổ chức một buổi hòa nhạc."
+     }
+    ]
+   }
+  ],
+  "synonyms": [
+   {
+    "word": "举行",
+    "example": "举行婚礼。 (Jǔxíng hūnlǐ.) – Tổ chức lễ cưới."
+   }
+  ],
+  "usage": "Mang tân ngữ là sự kiện (举办展览/比赛/晚会)."
+ },
+ "zh-verbs-1-145": {
+  "antonyms": [],
+  "characters": [
+   {
+    "char": "提",
+    "hanViet": "ĐỀ",
+    "radical": "扌(bộ thủ)",
+    "strokeCount": 12,
+    "componentMeaning": "nâng, nêu lên",
+    "pictographicOrigin": "Bộ 扌(tay) với 是 lấy âm — tay nâng lên, nghĩa \"nhấc, nêu ra\"."
+   },
+   {
+    "char": "出",
+    "hanViet": "XUẤT",
+    "radical": "凵(bộ khảm)",
+    "strokeCount": 5,
+    "componentMeaning": "ra, đưa ra",
+    "pictographicOrigin": "Vẽ bàn chân bước ra khỏi hang — nghĩa \"đi ra, đưa ra\"."
+   }
+  ],
+  "collocations": [],
+  "compounds": [
+   {
+    "word": "提高",
+    "pinyin": "tígāo",
+    "meaning": "nâng cao",
+    "example": "提高水平。 (Tígāo shuǐpíng.) – Nâng cao trình độ."
+   },
+   {
+    "word": "出发",
+    "pinyin": "chūfā",
+    "meaning": "xuất phát",
+    "example": "我们八点出发。 (Wǒmen bā diǎn chūfā.) – Chúng ta xuất phát lúc tám giờ."
+   }
+  ],
+  "distinguish": "",
+  "distinguishExample": "",
+  "grammarExample": "",
+  "grammarNote": "",
+  "image": "",
+  "mnemonic": "提(nâng) + 出(ra) = nâng ý kiến đưa ra → đề xuất.",
+  "partOfSpeech": "Động từ",
+  "senses": [
+   {
+    "partOfSpeech": "Động từ",
+    "meanings": [
+     {
+      "meaning": "đề xuất, nêu ra (ý kiến, yêu cầu)",
+      "example": "他提出了一个好主意。 (Tā tíchū le yí ge hǎo zhǔyi.) – Anh ấy đưa ra một ý hay."
+     }
+    ]
+   }
+  ],
+  "synonyms": [
+   {
+    "word": "提议",
+    "example": "我提议休息一下。 (Wǒ tíyì xiūxi yíxià.) – Tôi đề nghị nghỉ một chút."
+   }
+  ],
+  "usage": "Mang tân ngữ trừu tượng (提出问题/建议/要求/意见)."
+ },
+ "zh-verbs-2-227": {
+  "antonyms": [],
+  "characters": [
+   {
+    "char": "建",
+    "hanViet": "KIẾN",
+    "radical": "廴(bộ dẫn)",
+    "strokeCount": 8,
+    "componentMeaning": "lập, đưa ra",
+    "pictographicOrigin": "Bộ 廴 với 聿(bút) — vạch ra kế hoạch, nghĩa \"dựng, đề ra\"."
+   },
+   {
+    "char": "议",
+    "hanViet": "NGHỊ",
+    "radical": "讠(bộ ngôn)",
+    "strokeCount": 5,
+    "componentMeaning": "bàn, luận",
+    "pictographicOrigin": "Bộ 讠(lời) với 义 lấy âm — nghĩa \"bàn bạc, nghị luận\"."
+   }
+  ],
+  "collocations": [],
+  "compounds": [
+   {
+    "word": "会议",
+    "pinyin": "huìyì",
+    "meaning": "cuộc họp",
+    "example": "下午有会议。 (Xiàwǔ yǒu huìyì.) – Chiều có cuộc họp."
+   },
+   {
+    "word": "意见",
+    "pinyin": "yìjiàn",
+    "meaning": "ý kiến",
+    "example": "你有什么意见？ (Nǐ yǒu shénme yìjiàn?) – Bạn có ý kiến gì?"
+   }
+  ],
+  "distinguish": "",
+  "distinguishExample": "",
+  "grammarExample": "",
+  "grammarNote": "",
+  "image": "",
+  "mnemonic": "建(đề ra) + 议(bàn) = nêu ra để bàn → đề nghị.",
+  "partOfSpeech": "Động từ / Danh từ",
+  "senses": [
+   {
+    "partOfSpeech": "Động từ",
+    "meanings": [
+     {
+      "meaning": "kiến nghị, đề nghị",
+      "example": "我建议你早点儿休息。 (Wǒ jiànyì nǐ zǎodiǎnr xiūxi.) – Tôi khuyên bạn nghỉ sớm."
+     }
+    ]
+   },
+   {
+    "partOfSpeech": "Danh từ",
+    "meanings": [
+     {
+      "meaning": "lời đề nghị",
+      "example": "这是一个好建议。 (Zhè shì yí ge hǎo jiànyì.) – Đây là một đề nghị hay."
+     }
+    ]
+   }
+  ],
+  "synonyms": [
+   {
+    "word": "提议",
+    "example": "我提议投票决定。 (Wǒ tíyì tóupiào juédìng.) – Tôi đề nghị bỏ phiếu quyết định."
+   }
+  ],
+  "usage": "Động từ theo sau bởi mệnh đề (建议你...) ; danh từ đi với 提/接受 (提建议)."
+ },
+ "zh-verbs-2-139": {
+  "antonyms": [
+   {
+    "word": "批评",
+    "example": "老师批评了他。 (Lǎoshī pīpíng le tā.) – Thầy phê bình anh ấy."
+   }
+  ],
+  "characters": [
+   {
+    "char": "鼓",
+    "hanViet": "CỔ",
+    "radical": "鼓(bộ cổ)",
+    "strokeCount": 13,
+    "componentMeaning": "trống; cổ vũ",
+    "pictographicOrigin": "Vẽ tay cầm dùi gõ trống — nghĩa \"cái trống\", suy ra \"cổ vũ, khích lệ\"."
+   },
+   {
+    "char": "励",
+    "hanViet": "LỆ",
+    "radical": "力(bộ lực)",
+    "strokeCount": 7,
+    "componentMeaning": "khích lệ",
+    "pictographicOrigin": "Bộ 力(sức) với 厉 lấy âm — thêm sức cho người, nghĩa \"khích lệ\"."
+   }
+  ],
+  "collocations": [],
+  "compounds": [
+   {
+    "word": "鼓掌",
+    "pinyin": "gǔzhǎng",
+    "meaning": "vỗ tay",
+    "example": "大家为他鼓掌。 (Dàjiā wèi tā gǔzhǎng.) – Mọi người vỗ tay cho anh ấy."
+   },
+   {
+    "word": "奖励",
+    "pinyin": "jiǎnglì",
+    "meaning": "khen thưởng",
+    "example": "公司奖励优秀员工。 (Gōngsī jiǎnglì yōuxiù yuángōng.) – Công ty khen thưởng nhân viên xuất sắc."
+   }
+  ],
+  "distinguish": "",
+  "distinguishExample": "",
+  "grammarExample": "",
+  "grammarNote": "",
+  "image": "",
+  "mnemonic": "鼓(đánh trống thúc) + 励(thêm sức) = thúc trống tiếp sức → khích lệ.",
+  "partOfSpeech": "Động từ",
+  "senses": [
+   {
+    "partOfSpeech": "Động từ",
+    "meanings": [
+     {
+      "meaning": "khích lệ, cổ vũ, động viên",
+      "example": "老师鼓励我们努力。 (Lǎoshī gǔlì wǒmen nǔlì.) – Thầy giáo động viên chúng tôi cố gắng."
+     }
+    ]
+   }
+  ],
+  "synonyms": [],
+  "usage": "Mang tân ngữ là người, thường theo sau bởi động từ (鼓励学生学习)."
+ },
+ "zh-verbs-2-140": {
+  "antonyms": [
+   {
+    "word": "反对",
+    "example": "没有人反对。 (Méiyǒu rén fǎnduì.) – Không ai phản đối."
+   }
+  ],
+  "characters": [
+   {
+    "char": "支",
+    "hanViet": "CHI",
+    "radical": "支(bộ chi)",
+    "strokeCount": 4,
+    "componentMeaning": "chống đỡ, nhánh",
+    "pictographicOrigin": "Vẽ tay (又) cầm cành tre (十) — nghĩa \"cành nhánh, chống đỡ\"."
+   },
+   {
+    "char": "持",
+    "hanViet": "TRÌ",
+    "radical": "扌(bộ thủ)",
+    "strokeCount": 9,
+    "componentMeaning": "giữ, đỡ",
+    "pictographicOrigin": "Bộ 扌(tay) với 寺 lấy âm — tay nắm giữ, nghĩa \"cầm giữ\"."
+   }
+  ],
+  "collocations": [],
+  "compounds": [
+   {
+    "word": "支付",
+    "pinyin": "zhīfù",
+    "meaning": "chi trả",
+    "example": "用手机支付。 (Yòng shǒujī zhīfù.) – Thanh toán bằng điện thoại."
+   },
+   {
+    "word": "坚持",
+    "pinyin": "jiānchí",
+    "meaning": "kiên trì",
+    "example": "坚持就是胜利。 (Jiānchí jiùshì shènglì.) – Kiên trì là chiến thắng."
+   }
+  ],
+  "distinguish": "",
+  "distinguishExample": "",
+  "grammarExample": "",
+  "grammarNote": "",
+  "image": "",
+  "mnemonic": "支(chống nhánh) + 持(giữ) = chống đỡ giữ vững → ủng hộ.",
+  "partOfSpeech": "Động từ / Danh từ",
+  "senses": [
+   {
+    "partOfSpeech": "Động từ",
+    "meanings": [
+     {
+      "meaning": "ủng hộ, hậu thuẫn",
+      "example": "我支持你的决定。 (Wǒ zhīchí nǐ de juédìng.) – Tôi ủng hộ quyết định của bạn."
+     },
+     {
+      "meaning": "chống đỡ, gắng chịu",
+      "example": "他病了还支持着上班。 (Tā bìng le hái zhīchí zhe shàngbān.) – Ốm rồi mà anh ấy vẫn gắng đi làm."
+     }
+    ]
+   }
+  ],
+  "synonyms": [],
+  "usage": "Mang tân ngữ (支持某人/某事); nghĩa \"gắng chịu\" thường có 着 hoặc 不住 (支持不住)."
+ },
+ "zh-verbs-2-132": {
+  "antonyms": [],
+  "characters": [
+   {
+    "char": "实",
+    "hanViet": "THỰC",
+    "radical": "宀(bộ miên)",
+    "strokeCount": 8,
+    "componentMeaning": "thật, hiện thực",
+    "pictographicOrigin": "Bộ 宀(mái nhà) với 头 — nhà đầy đủ, nghĩa \"chân thực, thực chất\" (giản hóa 實)."
+   },
+   {
+    "char": "现",
+    "hanViet": "HIỆN",
+    "radical": "王(bộ ngọc)",
+    "strokeCount": 8,
+    "componentMeaning": "hiện ra",
+    "pictographicOrigin": "Bộ 王(ngọc) với 见(thấy) — ngọc lộ ra cho thấy, nghĩa \"hiện ra, hiện tại\"."
+   }
+  ],
+  "collocations": [],
+  "compounds": [
+   {
+    "word": "现在",
+    "pinyin": "xiànzài",
+    "meaning": "bây giờ",
+    "example": "现在几点？ (Xiànzài jǐ diǎn?) – Bây giờ mấy giờ?"
+   },
+   {
+    "word": "实际",
+    "pinyin": "shíjì",
+    "meaning": "thực tế",
+    "example": "要联系实际。 (Yào liánxì shíjì.) – Phải gắn với thực tế."
+   }
+  ],
+  "distinguish": "",
+  "distinguishExample": "",
+  "grammarExample": "",
+  "grammarNote": "",
+  "image": "",
+  "mnemonic": "实(thành thật/thật) + 现(hiện ra) = làm cho hiện thành thật → thực hiện.",
+  "partOfSpeech": "Động từ",
+  "senses": [
+   {
+    "partOfSpeech": "Động từ",
+    "meanings": [
+     {
+      "meaning": "thực hiện, biến thành hiện thực",
+      "example": "他实现了自己的梦想。 (Tā shíxiàn le zìjǐ de mèngxiǎng.) – Anh ấy thực hiện được ước mơ."
+     }
+    ]
+   }
+  ],
+  "synonyms": [
+   {
+    "word": "完成",
+    "example": "完成任务。 (Wánchéng rènwù.) – Hoàn thành nhiệm vụ."
+   }
+  ],
+  "usage": "Mang tân ngữ trừu tượng (实现梦想/目标/愿望/价值)."
+ },
+ "zh-verbs-1-154": {
+  "antonyms": [],
+  "characters": [
+   {
+    "char": "保",
+    "hanViet": "BẢO",
+    "radical": "亻(bộ nhân)",
+    "strokeCount": 9,
+    "componentMeaning": "giữ, bảo đảm",
+    "pictographicOrigin": "Bộ 亻(người) ôm giữ 呆 — nghĩa \"giữ gìn, bảo đảm\"."
+   },
+   {
+    "char": "证",
+    "hanViet": "CHỨNG",
+    "radical": "讠(bộ ngôn)",
+    "strokeCount": 7,
+    "componentMeaning": "chứng thực",
+    "pictographicOrigin": "Bộ 讠(lời) với 正 lấy âm — lời làm bằng chứng, nghĩa \"chứng minh, chứng cứ\"."
+   }
+  ],
+  "collocations": [],
+  "compounds": [
+   {
+    "word": "证明",
+    "pinyin": "zhèngmíng",
+    "meaning": "chứng minh",
+    "example": "请证明这是真的。 (Qǐng zhèngmíng zhè shì zhēn de.) – Hãy chứng minh điều này là thật."
+   },
+   {
+    "word": "保护",
+    "pinyin": "bǎohù",
+    "meaning": "bảo vệ",
+    "example": "保护环境。 (Bǎohù huánjìng.) – Bảo vệ môi trường."
+   }
+  ],
+  "distinguish": "",
+  "distinguishExample": "",
+  "grammarExample": "",
+  "grammarNote": "",
+  "image": "",
+  "mnemonic": "保(giữ chắc) + 证(làm chứng) = lấy lời bảo giữ → cam đoan.",
+  "partOfSpeech": "Động từ / Danh từ",
+  "senses": [
+   {
+    "partOfSpeech": "Động từ",
+    "meanings": [
+     {
+      "meaning": "bảo đảm, cam đoan",
+      "example": "我保证不会迟到。 (Wǒ bǎozhèng bú huì chídào.) – Tôi bảo đảm sẽ không đến muộn."
+     }
+    ]
+   },
+   {
+    "partOfSpeech": "Danh từ",
+    "meanings": [
+     {
+      "meaning": "sự bảo đảm",
+      "example": "这是质量的保证。 (Zhè shì zhìliàng de bǎozhèng.) – Đây là sự bảo đảm chất lượng."
+     }
+    ]
+   }
+  ],
+  "synonyms": [
+   {
+    "word": "担保",
+    "example": "我为他担保。 (Wǒ wèi tā dānbǎo.) – Tôi bảo lãnh cho anh ấy."
+   }
+  ],
+  "usage": "Động từ theo sau bởi mệnh đề (保证...) ; danh từ đi với 提供/有 (提供保证)."
+ },
+ "zh-verbs-2-234": {
+  "antonyms": [],
+  "characters": [
+   {
+    "char": "利",
+    "hanViet": "LỢI",
+    "radical": "刂(bộ đao)",
+    "strokeCount": 7,
+    "componentMeaning": "lợi ích, sắc",
+    "pictographicOrigin": "Bộ 禾(lúa) với 刂(dao) — dao cắt lúa được mùa, nghĩa \"lợi, sắc bén\"."
+   },
+   {
+    "char": "用",
+    "hanViet": "DỤNG",
+    "radical": "用(bộ dụng)",
+    "strokeCount": 5,
+    "componentMeaning": "dùng",
+    "pictographicOrigin": "Vốn vẽ cái thùng/chuông dùng được — nghĩa \"sử dụng\"."
+   }
+  ],
+  "collocations": [],
+  "compounds": [
+   {
+    "word": "使用",
+    "pinyin": "shǐyòng",
+    "meaning": "sử dụng",
+    "example": "正确使用工具。 (Zhèngquè shǐyòng gōngjù.) – Sử dụng công cụ đúng cách."
+   },
+   {
+    "word": "利益",
+    "pinyin": "lìyì",
+    "meaning": "lợi ích",
+    "example": "要保护大家的利益。 (Yào bǎohù dàjiā de lìyì.) – Phải bảo vệ lợi ích của mọi người."
+   }
+  ],
+  "distinguish": "",
+  "distinguishExample": "",
+  "grammarExample": "",
+  "grammarNote": "",
+  "image": "",
+  "mnemonic": "利(lợi) + 用(dùng) = dùng sao cho có lợi → tận dụng (hoặc lợi dụng).",
+  "partOfSpeech": "Động từ",
+  "senses": [
+   {
+    "partOfSpeech": "Động từ",
+    "meanings": [
+     {
+      "meaning": "tận dụng, sử dụng (mặt tích cực)",
+      "example": "要好好利用时间。 (Yào hǎohǎo lìyòng shíjiān.) – Phải tận dụng tốt thời gian."
+     },
+     {
+      "meaning": "lợi dụng (mặt tiêu cực)",
+      "example": "别被人利用了。 (Bié bèi rén lìyòng le.) – Đừng để bị người ta lợi dụng."
+     }
+    ]
+   }
+  ],
+  "synonyms": [
+   {
+    "word": "使用",
+    "example": "这个软件很好用。 (Zhège ruǎnjiàn hěn hǎoyòng.) – Phần mềm này dễ dùng."
+   }
+  ],
+  "usage": "Mang tân ngữ (利用时间/机会/资源); ngữ cảnh quyết định nghĩa tích cực hay tiêu cực."
  }
 }
