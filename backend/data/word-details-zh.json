@@ -31646,5 +31646,939 @@
   ],
   "synonyms": [],
   "usage": ""
+ },
+ "zh-basics-138": {
+  "antonyms": [],
+  "characters": [
+   {
+    "char": "一",
+    "hanViet": "NHẤT",
+    "radical": "一(bộ nhất)",
+    "strokeCount": 1,
+    "componentMeaning": "chỉ số một / một phía",
+    "pictographicOrigin": "Một nét ngang — chữ chỉ sự, tượng trưng số 1."
+   },
+   {
+    "char": "边",
+    "hanViet": "BIÊN",
+    "radical": "辶(bộ sước)",
+    "strokeCount": 5,
+    "componentMeaning": "cạnh, bên, mép",
+    "pictographicOrigin": "Bộ 辶(đi) gợi ranh giới, đường biên; nay nghĩa \"bên, cạnh\"."
+   }
+  ],
+  "collocations": [],
+  "compounds": [
+   {
+    "word": "旁边",
+    "pinyin": "pángbiān",
+    "meaning": "bên cạnh",
+    "example": "银行在学校旁边。 (Yínháng zài xuéxiào pángbiān.) – Ngân hàng ở bên cạnh trường."
+   },
+   {
+    "word": "右边",
+    "pinyin": "yòubian",
+    "meaning": "bên phải",
+    "example": "洗手间在右边。 (Xǐshǒujiān zài yòubian.) – Nhà vệ sinh ở bên phải."
+   }
+  ],
+  "distinguish": "",
+  "distinguishExample": "",
+  "grammarExample": "",
+  "grammarNote": "",
+  "image": "",
+  "mnemonic": "一边 = 一(một) + 边(bên): \"một bên\"; lặp 一边...一边... thành \"vừa... vừa...\" (mỗi động tác một bên).",
+  "partOfSpeech": "Phó từ / Liên từ",
+  "senses": [
+   {
+    "partOfSpeech": "Phó từ",
+    "meanings": [
+     {
+      "meaning": "vừa... vừa... (hai động tác cùng lúc), dùng dạng 一边...一边...",
+      "example": "他一边吃饭一边看电视。 (Tā yìbiān chīfàn yìbiān kàn diànshì.) – Anh ấy vừa ăn cơm vừa xem tivi."
+     },
+     {
+      "meaning": "một bên, một phía (danh từ chỉ vị trí)",
+      "example": "路的一边有很多树。 (Lù de yìbiān yǒu hěn duō shù.) – Một bên đường có rất nhiều cây."
+     }
+    ]
+   }
+  ],
+  "synonyms": [
+   {
+    "word": "一面",
+    "example": "他一面走一面想。 (Tā yímiàn zǒu yímiàn xiǎng.) – Anh ấy vừa đi vừa nghĩ."
+   }
+  ],
+  "usage": "Dạng 一边 A 一边 B diễn tả hai việc xảy ra đồng thời; A và B đều là động từ."
+ },
+ "zh-basics-139": {
+  "antonyms": [],
+  "characters": [
+   {
+    "char": "究",
+    "hanViet": "CỨU",
+    "radical": "穴(bộ huyệt)",
+    "strokeCount": 7,
+    "componentMeaning": "truy xét đến cùng",
+    "pictographicOrigin": "Bộ 穴(hang) trên 九(chín/cùng cực) — đào sâu vào tận cùng để tìm hiểu."
+   },
+   {
+    "char": "竟",
+    "hanViet": "CÁNH",
+    "radical": "立(bộ lập)",
+    "strokeCount": 11,
+    "componentMeaning": "đến cùng, rốt cuộc",
+    "pictographicOrigin": "Vốn vẽ người (儿) đứng, nghĩa \"hết, xong\"; nay là \"rốt cuộc\"."
+   }
+  ],
+  "collocations": [],
+  "compounds": [
+   {
+    "word": "研究",
+    "pinyin": "yánjiū",
+    "meaning": "nghiên cứu",
+    "example": "他在研究这个问题。 (Tā zài yánjiū zhège wèntí.) – Anh ấy đang nghiên cứu vấn đề này."
+   },
+   {
+    "word": "毕竟",
+    "pinyin": "bìjìng",
+    "meaning": "dù sao, rốt cuộc",
+    "example": "他毕竟年轻。 (Tā bìjìng niánqīng.) – Dù sao anh ấy vẫn còn trẻ."
+   }
+  ],
+  "distinguish": "\"究竟\" thiên về văn viết, trang trọng hơn; \"到底\" thông dụng trong khẩu ngữ. Nghĩa gần như nhau khi truy vấn.",
+  "distinguishExample": "书面语常用\"究竟\"，口语常用\"到底\"。 (Shūmiànyǔ cháng yòng \"jiūjìng\", kǒuyǔ cháng yòng \"dàodǐ\".) – Văn viết hay dùng 究竟, khẩu ngữ hay dùng 到底.",
+  "grammarExample": "",
+  "grammarNote": "",
+  "image": "",
+  "mnemonic": "究(đào đến tận hang) + 竟(đến cùng) = truy \"đến CÙNG\", rốt cuộc là gì.",
+  "partOfSpeech": "Phó từ",
+  "senses": [
+   {
+    "partOfSpeech": "Phó từ",
+    "meanings": [
+     {
+      "meaning": "rốt cuộc, cuối cùng (dùng trong câu hỏi để truy vấn cho ra lẽ)",
+      "example": "你究竟想要什么？ (Nǐ jiūjìng xiǎng yào shénme?) – Rốt cuộc bạn muốn gì?"
+     },
+     {
+      "meaning": "suy cho cùng, dù sao (nhấn mạnh sự thật hiển nhiên)",
+      "example": "他究竟还是个孩子。 (Tā jiūjìng háishì ge háizi.) – Suy cho cùng nó vẫn là một đứa trẻ."
+     }
+    ]
+   }
+  ],
+  "synonyms": [
+   {
+    "word": "到底",
+    "example": "你到底去不去？ (Nǐ dàodǐ qù bú qù?) – Rốt cuộc bạn có đi không?"
+   }
+  ],
+  "usage": "Dùng trong câu nghi vấn để hỏi cho ra nhẽ; không dùng trong câu hỏi có 吗."
+ },
+ "zh-basics-140": {
+  "antonyms": [],
+  "characters": [
+   {
+    "char": "到",
+    "hanViet": "ĐÁO",
+    "radical": "刂(bộ đao)",
+    "strokeCount": 8,
+    "componentMeaning": "đến, tới nơi",
+    "pictographicOrigin": "Bộ 至(đến) ghép 刂 lấy âm — nghĩa \"đến, tới\"."
+   },
+   {
+    "char": "底",
+    "hanViet": "ĐỂ",
+    "radical": "广(bộ nghiễm)",
+    "strokeCount": 8,
+    "componentMeaning": "đáy, tận cùng",
+    "pictographicOrigin": "Bộ 广(mái nhà) với 氐(đáy, thấp) — chỉ \"phần đáy, tận cùng\"."
+   }
+  ],
+  "collocations": [],
+  "compounds": [
+   {
+    "word": "底下",
+    "pinyin": "dǐxia",
+    "meaning": "phía dưới",
+    "example": "猫在桌子底下。 (Māo zài zhuōzi dǐxia.) – Con mèo ở dưới gầm bàn."
+   },
+   {
+    "word": "年底",
+    "pinyin": "niándǐ",
+    "meaning": "cuối năm",
+    "example": "年底工作很忙。 (Niándǐ gōngzuò hěn máng.) – Cuối năm công việc rất bận."
+   }
+  ],
+  "distinguish": "",
+  "distinguishExample": "",
+  "grammarExample": "",
+  "grammarNote": "",
+  "image": "",
+  "mnemonic": "到(đến) + 底(đáy) = đi \"đến ĐÁY\" vấn đề, tức rốt cuộc.",
+  "partOfSpeech": "Phó từ",
+  "senses": [
+   {
+    "partOfSpeech": "Phó từ",
+    "meanings": [
+     {
+      "meaning": "rốt cuộc, cuối cùng (truy vấn trong câu hỏi)",
+      "example": "你到底想不想去？ (Nǐ dàodǐ xiǎng bù xiǎng qù?) – Rốt cuộc bạn có muốn đi không?"
+     },
+     {
+      "meaning": "cuối cùng thì (một việc rồi cũng xảy ra)",
+      "example": "努力了这么久，他到底成功了。 (Nǔlì le zhème jiǔ, tā dàodǐ chénggōng le.) – Cố gắng bấy lâu, cuối cùng anh ấy cũng thành công."
+     }
+    ]
+   }
+  ],
+  "synonyms": [
+   {
+    "word": "究竟",
+    "example": "这究竟是怎么回事？ (Zhè jiūjìng shì zěnme huí shì?) – Rốt cuộc là chuyện gì?"
+   }
+  ],
+  "usage": "Truy vấn trong câu hỏi (không đi với 吗); cũng dùng kể việc rốt cuộc rồi cũng thành."
+ },
+ "zh-basics-141": {
+  "antonyms": [],
+  "characters": [
+   {
+    "char": "其",
+    "hanViet": "KỲ",
+    "radical": "八(bộ bát)",
+    "strokeCount": 8,
+    "componentMeaning": "đó, ấy (đại từ)",
+    "pictographicOrigin": "Vốn vẽ cái nia/giần (sau mượn làm đại từ \"ấy\")."
+   },
+   {
+    "char": "实",
+    "hanViet": "THỰC",
+    "radical": "宀(bộ miên)",
+    "strokeCount": 8,
+    "componentMeaning": "thật, thực",
+    "pictographicOrigin": "Bộ 宀(mái nhà) trên 头, nghĩa \"đầy đủ, chân thực\" (giản hóa từ 實)."
+   }
+  ],
+  "collocations": [],
+  "compounds": [
+   {
+    "word": "实在",
+    "pinyin": "shízài",
+    "meaning": "thật sự, quả thực",
+    "example": "我实在太累了。 (Wǒ shízài tài lèi le.) – Tôi thật sự quá mệt."
+   },
+   {
+    "word": "事实",
+    "pinyin": "shìshí",
+    "meaning": "sự thật",
+    "example": "这是事实。 (Zhè shì shìshí.) – Đây là sự thật."
+   }
+  ],
+  "distinguish": "",
+  "distinguishExample": "",
+  "grammarExample": "",
+  "grammarNote": "",
+  "image": "",
+  "mnemonic": "其(ấy) + 实(thật) = \"cái thật của nó\", tức THỰC RA.",
+  "partOfSpeech": "Phó từ",
+  "senses": [
+   {
+    "partOfSpeech": "Phó từ",
+    "meanings": [
+     {
+      "meaning": "thực ra, kỳ thực (nêu sự thật khác với vẻ ngoài/điều tưởng)",
+      "example": "他看起来很凶，其实很善良。 (Tā kàn qǐlái hěn xiōng, qíshí hěn shànliáng.) – Trông anh ấy dữ, thực ra rất hiền."
+     }
+    ]
+   }
+  ],
+  "synonyms": [
+   {
+    "word": "实际上",
+    "example": "实际上，事情没那么难。 (Shíjìshang, shìqing méi nàme nán.) – Thực tế, việc không khó thế."
+   }
+  ],
+  "usage": "Đặt đầu vế hoặc sau chủ ngữ, nêu sự thật trái với ấn tượng ban đầu; thường đi cặp với vế \"trông có vẻ...\"."
+ },
+ "zh-basics-142": {
+  "antonyms": [],
+  "characters": [
+   {
+    "char": "原",
+    "hanViet": "NGUYÊN",
+    "radical": "厂(bộ hán)",
+    "strokeCount": 10,
+    "componentMeaning": "gốc, ban đầu",
+    "pictographicOrigin": "Bộ 厂(sườn núi) với 泉(suối) — nghĩa gốc \"nguồn suối\", suy ra \"nguồn gốc, ban đầu\"."
+   },
+   {
+    "char": "来",
+    "hanViet": "LAI",
+    "radical": "木(bộ mộc)",
+    "strokeCount": 7,
+    "componentMeaning": "đến, tới",
+    "pictographicOrigin": "Vốn vẽ cây lúa mì (麥), mượn làm động từ \"đến\"."
+   }
+  ],
+  "collocations": [],
+  "compounds": [
+   {
+    "word": "原因",
+    "pinyin": "yuányīn",
+    "meaning": "nguyên nhân",
+    "example": "迟到的原因是堵车。 (Chídào de yuányīn shì dǔchē.) – Nguyên nhân đến muộn là tắc đường."
+   },
+   {
+    "word": "原来如此",
+    "pinyin": "yuánlái rúcǐ",
+    "meaning": "thì ra là vậy",
+    "example": "原来如此，我明白了。 (Yuánlái rúcǐ, wǒ míngbai le.) – Thì ra vậy, tôi hiểu rồi."
+   }
+  ],
+  "distinguish": "\"原来\" nhấn \"hóa ra\" (mới vỡ lẽ) hoặc \"vốn dĩ\"; \"本来\" thiên về \"vốn dĩ, lẽ ra\" và ít dùng nghĩa \"vỡ lẽ\".",
+  "distinguishExample": "原来他没走。 (Yuánlái tā méi zǒu.) – Hóa ra anh ấy chưa đi. / 我本来不想来。 (Wǒ běnlái bù xiǎng lái.) – Tôi vốn không muốn đến.",
+  "grammarExample": "",
+  "grammarNote": "",
+  "image": "",
+  "mnemonic": "原(gốc) + 来(đến) = \"vốn từ đầu\" → hóa ra / vốn dĩ.",
+  "partOfSpeech": "Phó từ / Tính từ",
+  "senses": [
+   {
+    "partOfSpeech": "Phó từ",
+    "meanings": [
+     {
+      "meaning": "hóa ra, thì ra (bỗng vỡ lẽ điều chưa biết)",
+      "example": "原来是你啊！ (Yuánlái shì nǐ a!) – Hóa ra là bạn à!"
+     },
+     {
+      "meaning": "vốn dĩ, ban đầu (trạng thái lúc đầu)",
+      "example": "这里原来是一个公园。 (Zhèlǐ yuánlái shì yí ge gōngyuán.) – Nơi này vốn là một công viên."
+     }
+    ]
+   }
+  ],
+  "synonyms": [
+   {
+    "word": "本来",
+    "example": "我本来想去。 (Wǒ běnlái xiǎng qù.) – Tôi vốn định đi."
+   }
+  ],
+  "usage": "Nghĩa \"hóa ra\" thường đứng đầu câu; nghĩa \"vốn dĩ\" đứng trước động từ/tính từ."
+ },
+ "zh-basics-143": {
+  "antonyms": [],
+  "characters": [
+   {
+    "char": "恐",
+    "hanViet": "KHỦNG",
+    "radical": "心(bộ tâm)",
+    "strokeCount": 10,
+    "componentMeaning": "sợ, lo",
+    "pictographicOrigin": "Bộ 心(tim) dưới 巩 lấy âm — nghĩa \"sợ hãi, e ngại\"."
+   },
+   {
+    "char": "怕",
+    "hanViet": "PHẠ",
+    "radical": "忄(bộ tâm đứng)",
+    "strokeCount": 8,
+    "componentMeaning": "sợ",
+    "pictographicOrigin": "Bộ 忄(tim) với 白 lấy âm — trong lòng \"sợ\"."
+   }
+  ],
+  "collocations": [],
+  "compounds": [
+   {
+    "word": "害怕",
+    "pinyin": "hàipà",
+    "meaning": "sợ hãi",
+    "example": "我害怕狗。 (Wǒ hàipà gǒu.) – Tôi sợ chó."
+   },
+   {
+    "word": "恐怖",
+    "pinyin": "kǒngbù",
+    "meaning": "khủng bố, rùng rợn",
+    "example": "这是一部恐怖电影。 (Zhè shì yí bù kǒngbù diànyǐng.) – Đây là phim kinh dị."
+   }
+  ],
+  "distinguish": "",
+  "distinguishExample": "",
+  "grammarExample": "",
+  "grammarNote": "",
+  "image": "",
+  "mnemonic": "恐(sợ) + 怕(sợ) = trong lòng e sợ → \"e rằng\" điều chẳng lành.",
+  "partOfSpeech": "Phó từ",
+  "senses": [
+   {
+    "partOfSpeech": "Phó từ",
+    "meanings": [
+     {
+      "meaning": "e rằng, sợ là (phỏng đoán điều không hay)",
+      "example": "恐怕今天来不及了。 (Kǒngpà jīntiān láibují le.) – E rằng hôm nay không kịp rồi."
+     },
+     {
+      "meaning": "chắc khoảng, e đến (ước lượng số lượng)",
+      "example": "这本书恐怕有五百页。 (Zhè běn shū kǒngpà yǒu wǔbǎi yè.) – Cuốn này e đến năm trăm trang."
+     }
+    ]
+   }
+  ],
+  "synonyms": [
+   {
+    "word": "也许",
+    "example": "他也许不来了。 (Tā yěxǔ bù lái le.) – Có lẽ anh ấy không đến nữa."
+   }
+  ],
+  "usage": "Dùng phỏng đoán điều tiêu cực hoặc ước lượng; mang sắc thái lo ngại, lịch sự khi từ chối/cảnh báo."
+ },
+ "zh-basics-144": {
+  "antonyms": [],
+  "characters": [
+   {
+    "char": "既",
+    "hanViet": "KÝ",
+    "radical": "旡(bộ ký)",
+    "strokeCount": 9,
+    "componentMeaning": "đã, đã rồi",
+    "pictographicOrigin": "Vốn vẽ người ăn xong quay đầu đi (皀+旡) — nghĩa \"đã xong, đã rồi\"."
+   },
+   {
+    "char": "然",
+    "hanViet": "NHIÊN",
+    "radical": "灬(bộ hỏa)",
+    "strokeCount": 12,
+    "componentMeaning": "như thế, vậy",
+    "pictographicOrigin": "Vốn nghĩa \"đốt cháy\" (灬 là lửa), sau mượn làm hư từ \"như vậy\"."
+   }
+  ],
+  "collocations": [],
+  "compounds": [
+   {
+    "word": "既然如此",
+    "pinyin": "jìrán rúcǐ",
+    "meaning": "đã vậy thì",
+    "example": "既然如此，我不勉强你。 (Jìrán rúcǐ, wǒ bù miǎnqiáng nǐ.) – Đã vậy thì tôi không ép bạn."
+   },
+   {
+    "word": "虽然",
+    "pinyin": "suīrán",
+    "meaning": "tuy rằng",
+    "example": "虽然累，但很开心。 (Suīrán lèi, dàn hěn kāixīn.) – Tuy mệt nhưng rất vui."
+   }
+  ],
+  "distinguish": "\"既然\" nêu điều đã là sự thật rồi suy ra kết luận; khác \"因为\" (nêu nguyên nhân khách quan). 既然 thường cặp 就.",
+  "distinguishExample": "既然你决定了，我支持你。 (Jìrán nǐ juédìng le, wǒ zhīchí nǐ.) – Đã quyết rồi thì tôi ủng hộ bạn.",
+  "grammarExample": "",
+  "grammarNote": "",
+  "image": "",
+  "mnemonic": "既(đã rồi) + 然(như vậy) = \"đã như vậy rồi thì...\".",
+  "partOfSpeech": "Liên từ",
+  "senses": [
+   {
+    "partOfSpeech": "Liên từ",
+    "meanings": [
+     {
+      "meaning": "đã... thì (nêu tiền đề đã có, dẫn tới kết luận), thường cặp với 就/那么",
+      "example": "既然你不舒服，就早点儿休息吧。 (Jìrán nǐ bù shūfu, jiù zǎodiǎnr xiūxi ba.) – Đã không khỏe thì nghỉ sớm đi."
+     }
+    ]
+   }
+  ],
+  "synonyms": [
+   {
+    "word": "既",
+    "example": "既来之，则安之。 (Jì lái zhī, zé ān zhī.) – Đã đến thì ở cho yên."
+   }
+  ],
+  "usage": "Đứng đầu vế điều kiện đã biết; vế sau thường có 就/那么 để nêu kết luận."
+ },
+ "zh-basics-145": {
+  "antonyms": [],
+  "characters": [
+   {
+    "char": "由",
+    "hanViet": "DO",
+    "radical": "田(bộ điền)",
+    "strokeCount": 5,
+    "componentMeaning": "do, từ (nguồn gốc)",
+    "pictographicOrigin": "Vốn vẽ mầm cây nhú ra từ ruộng — nghĩa \"do đâu mà ra, từ\"."
+   },
+   {
+    "char": "于",
+    "hanViet": "VU",
+    "radical": "二(bộ nhị)",
+    "strokeCount": 3,
+    "componentMeaning": "ở, tại (giới từ)",
+    "pictographicOrigin": "Chữ chỉ sự, làm giới từ chỉ nơi chốn/đối tượng \"ở, tại, đối với\"."
+   }
+  ],
+  "collocations": [],
+  "compounds": [
+   {
+    "word": "理由",
+    "pinyin": "lǐyóu",
+    "meaning": "lý do",
+    "example": "你有什么理由？ (Nǐ yǒu shénme lǐyóu?) – Bạn có lý do gì?"
+   },
+   {
+    "word": "由于",
+    "pinyin": "yóuyú",
+    "meaning": "do bởi",
+    "example": "由于时间关系，我们下次再谈。 (Yóuyú shíjiān guānxi, wǒmen xiàcì zài tán.) – Do thời gian, lần sau bàn tiếp."
+   }
+  ],
+  "distinguish": "\"由于\" trang trọng, thiên văn viết, hay cặp 因此/所以; \"因为\" thông dụng, cặp 所以. \"由于\" thường không đứng ở vế sau.",
+  "distinguishExample": "由于努力，他成功了。 (Yóuyú nǔlì, tā chénggōng le.) – Nhờ nỗ lực, anh ấy thành công.",
+  "grammarExample": "",
+  "grammarNote": "",
+  "image": "",
+  "mnemonic": "由(từ đâu ra) + 于(tại) = \"bắt nguồn từ\" → do bởi.",
+  "partOfSpeech": "Giới từ / Liên từ",
+  "senses": [
+   {
+    "partOfSpeech": "Giới từ",
+    "meanings": [
+     {
+      "meaning": "do bởi, bởi vì (nêu nguyên nhân), thường cặp 所以/因此",
+      "example": "由于下雨，比赛取消了。 (Yóuyú xiàyǔ, bǐsài qǔxiāo le.) – Do trời mưa, trận đấu bị hủy."
+     }
+    ]
+   }
+  ],
+  "synonyms": [
+   {
+    "word": "因为",
+    "example": "因为下雨，我没去。 (Yīnwèi xiàyǔ, wǒ méi qù.) – Vì mưa nên tôi không đi."
+   }
+  ],
+  "usage": "Đứng đầu câu nêu nguyên nhân; vế kết quả dùng 因此/所以. Ít dùng trong khẩu ngữ đời thường."
+ },
+ "zh-basics-146": {
+  "antonyms": [],
+  "characters": [
+   {
+    "char": "否",
+    "hanViet": "PHỦ",
+    "radical": "口(bộ khẩu)",
+    "strokeCount": 7,
+    "componentMeaning": "không, phủ định",
+    "pictographicOrigin": "Bộ 不(không) trên 口(miệng) — miệng nói \"không\", nghĩa phủ định."
+   },
+   {
+    "char": "则",
+    "hanViet": "TẮC",
+    "radical": "刂(bộ đao)",
+    "strokeCount": 6,
+    "componentMeaning": "thì, ắt",
+    "pictographicOrigin": "Bộ 贝(vỏ sò/tiền) với 刂(dao) — vốn nghĩa \"quy tắc\", làm hư từ \"thì, ắt\"."
+   }
+  ],
+  "collocations": [],
+  "compounds": [
+   {
+    "word": "是否",
+    "pinyin": "shìfǒu",
+    "meaning": "có... hay không",
+    "example": "请告诉我是否可以。 (Qǐng gàosu wǒ shìfǒu kěyǐ.) – Hãy cho tôi biết có được hay không."
+   },
+   {
+    "word": "规则",
+    "pinyin": "guīzé",
+    "meaning": "quy tắc",
+    "example": "游戏有规则。 (Yóuxì yǒu guīzé.) – Trò chơi có luật."
+   }
+  ],
+  "distinguish": "\"否则\" thiên văn viết, trang trọng; \"不然\" thông dụng khẩu ngữ. Nghĩa như nhau.",
+  "distinguishExample": "按时完成，否则会有麻烦。 (Ànshí wánchéng, fǒuzé huì yǒu máfan.) – Hoàn thành đúng hạn, không thì rắc rối.",
+  "grammarExample": "",
+  "grammarNote": "",
+  "image": "",
+  "mnemonic": "否(không) + 则(thì) = \"nếu không thì...\".",
+  "partOfSpeech": "Liên từ",
+  "senses": [
+   {
+    "partOfSpeech": "Liên từ",
+    "meanings": [
+     {
+      "meaning": "nếu không thì, bằng không (nêu hậu quả nếu điều trước không xảy ra)",
+      "example": "快走吧，否则要迟到了。 (Kuài zǒu ba, fǒuzé yào chídào le.) – Đi nhanh đi, không thì muộn mất."
+     }
+    ]
+   }
+  ],
+  "synonyms": [
+   {
+    "word": "不然",
+    "example": "多穿点儿，不然会冷。 (Duō chuān diǎnr, bùrán huì lěng.) – Mặc thêm, không thì lạnh."
+   },
+   {
+    "word": "要不然",
+    "example": "快点，要不然赶不上。 (Kuài diǎn, yàoburán gǎnbushàng.) – Nhanh lên, không thì lỡ mất."
+   }
+  ],
+  "usage": "Đứng đầu vế sau, nêu hậu quả xấu nếu điều kiện vế trước không được đáp ứng."
+ },
+ "zh-basics-147": {
+  "antonyms": [],
+  "characters": [
+   {
+    "char": "不",
+    "hanViet": "BẤT",
+    "radical": "一(bộ nhất)",
+    "strokeCount": 4,
+    "componentMeaning": "không",
+    "pictographicOrigin": "Chữ chỉ sự, biểu thị phủ định \"không\"."
+   },
+   {
+    "char": "管",
+    "hanViet": "QUẢN",
+    "radical": "竹(bộ trúc)",
+    "strokeCount": 14,
+    "componentMeaning": "quản, để ý đến",
+    "pictographicOrigin": "Bộ 竹(tre) với 官 lấy âm — vốn là ống tre, suy ra \"cai quản, để ý\"."
+   }
+  ],
+  "collocations": [],
+  "compounds": [
+   {
+    "word": "管理",
+    "pinyin": "guǎnlǐ",
+    "meaning": "quản lý",
+    "example": "他管理一家公司。 (Tā guǎnlǐ yì jiā gōngsī.) – Anh ấy quản lý một công ty."
+   },
+   {
+    "word": "不管怎样",
+    "pinyin": "bùguǎn zěnyàng",
+    "meaning": "dù thế nào",
+    "example": "不管怎样，我都会来。 (Bùguǎn zěnyàng, wǒ dōu huì lái.) – Dù thế nào tôi cũng đến."
+   }
+  ],
+  "distinguish": "\"不管\" thiên khẩu ngữ; \"无论\" trang trọng hơn, thiên văn viết. Cả hai đi với từ nghi vấn (谁/什么/多) + 都/也.",
+  "distinguishExample": "不管你信不信，这是真的。 (Bùguǎn nǐ xìn bú xìn, zhè shì zhēn de.) – Dù bạn tin hay không, đây là thật.",
+  "grammarExample": "",
+  "grammarNote": "",
+  "image": "",
+  "mnemonic": "不(không) + 管(để ý) = \"không để ý đến\" điều kiện gì → bất kể.",
+  "partOfSpeech": "Liên từ",
+  "senses": [
+   {
+    "partOfSpeech": "Liên từ",
+    "meanings": [
+     {
+      "meaning": "bất kể, mặc kệ (dù thế nào kết quả cũng vậy), cặp với 都/也",
+      "example": "不管多难，我都要做完。 (Bùguǎn duō nán, wǒ dōu yào zuòwán.) – Bất kể khó thế nào, tôi cũng làm xong."
+     }
+    ]
+   }
+  ],
+  "synonyms": [
+   {
+    "word": "无论",
+    "example": "无论谁来我都欢迎。 (Wúlùn shéi lái wǒ dōu huānyíng.) – Bất kể ai đến tôi đều hoan nghênh."
+   }
+  ],
+  "usage": "Vế 不管 phải chứa từ nghi vấn hoặc cấu trúc chọn lựa (A 还是 B); vế sau bắt buộc có 都/也."
+ },
+ "zh-basics-148": {
+  "antonyms": [],
+  "characters": [
+   {
+    "char": "无",
+    "hanViet": "VÔ",
+    "radical": "无(bộ vô)",
+    "strokeCount": 4,
+    "componentMeaning": "không, không có",
+    "pictographicOrigin": "Giản hóa từ 無 (vốn vẽ người cầm đồ múa), mượn nghĩa \"không có\"."
+   },
+   {
+    "char": "论",
+    "hanViet": "LUẬN",
+    "radical": "讠(bộ ngôn)",
+    "strokeCount": 6,
+    "componentMeaning": "bàn, xét",
+    "pictographicOrigin": "Bộ 讠(lời nói) với 仑 lấy âm — nghĩa \"bàn luận, xét đến\"."
+   }
+  ],
+  "collocations": [],
+  "compounds": [
+   {
+    "word": "讨论",
+    "pinyin": "tǎolùn",
+    "meaning": "thảo luận",
+    "example": "我们讨论这个问题。 (Wǒmen tǎolùn zhège wèntí.) – Chúng ta thảo luận vấn đề này."
+   },
+   {
+    "word": "无论如何",
+    "pinyin": "wúlùn rúhé",
+    "meaning": "dù thế nào đi nữa",
+    "example": "无论如何我都要去。 (Wúlùn rúhé wǒ dōu yào qù.) – Dù thế nào tôi cũng phải đi."
+   }
+  ],
+  "distinguish": "",
+  "distinguishExample": "",
+  "grammarExample": "",
+  "grammarNote": "",
+  "image": "",
+  "mnemonic": "无(không) + 论(bàn) = \"khỏi bàn tới\" điều kiện nào → bất luận.",
+  "partOfSpeech": "Liên từ",
+  "senses": [
+   {
+    "partOfSpeech": "Liên từ",
+    "meanings": [
+     {
+      "meaning": "bất luận, dù cho (kết quả không đổi), cặp với 都/也",
+      "example": "无论多忙，他都坚持锻炼。 (Wúlùn duō máng, tā dōu jiānchí duànliàn.) – Dù bận thế nào, anh ấy vẫn kiên trì tập luyện."
+     }
+    ]
+   }
+  ],
+  "synonyms": [
+   {
+    "word": "不管",
+    "example": "不管多晚，他都会回家。 (Bùguǎn duō wǎn, tā dōu huì huíjiā.) – Dù muộn thế nào anh ấy cũng về nhà."
+   }
+  ],
+  "usage": "Đi với từ nghi vấn (谁/什么/怎么/多...) hoặc A 还是 B; vế sau có 都/也. Trang trọng hơn 不管."
+ },
+ "zh-basics-149": {
+  "antonyms": [],
+  "characters": [
+   {
+    "char": "尽",
+    "hanViet": "TẬN",
+    "radical": "尸(bộ thi)",
+    "strokeCount": 6,
+    "componentMeaning": "hết mức, cứ",
+    "pictographicOrigin": "Giản hóa từ 盡 (vẽ tay cầm chổi quét sạch chậu) — nghĩa \"hết, cạn\"."
+   },
+   {
+    "char": "管",
+    "hanViet": "QUẢN",
+    "radical": "竹(bộ trúc)",
+    "strokeCount": 14,
+    "componentMeaning": "để ý, ngại",
+    "pictographicOrigin": "Bộ 竹(tre) với 官 lấy âm — trong 尽管 nghĩa \"cứ, chẳng ngại\"."
+   }
+  ],
+  "collocations": [],
+  "compounds": [
+   {
+    "word": "尽力",
+    "pinyin": "jìnlì",
+    "meaning": "hết sức",
+    "example": "我会尽力帮你。 (Wǒ huì jìnlì bāng nǐ.) – Tôi sẽ hết sức giúp bạn."
+   },
+   {
+    "word": "尽量",
+    "pinyin": "jǐnliàng",
+    "meaning": "cố hết mức",
+    "example": "请尽量早点儿来。 (Qǐng jǐnliàng zǎodiǎnr lái.) – Xin cố đến sớm nhất có thể."
+   }
+  ],
+  "distinguish": "Nghĩa \"mặc dù\" giống 虽然 (cặp 但是). Nghĩa \"cứ việc\" là phó từ, khác hẳn — cho phép làm gì thoải mái.",
+  "distinguishExample": "尽管说，我不生气。 (Jǐnguǎn shuō, wǒ bù shēngqì.) – Cứ nói đi, tôi không giận.",
+  "grammarExample": "",
+  "grammarNote": "",
+  "image": "",
+  "mnemonic": "尽(hết mức) + 管 = \"cứ hết mức mà làm/dù sao\"; tùy ngữ cảnh là \"mặc dù\" hoặc \"cứ việc\".",
+  "partOfSpeech": "Liên từ / Phó từ",
+  "senses": [
+   {
+    "partOfSpeech": "Liên từ",
+    "meanings": [
+     {
+      "meaning": "mặc dù (nhượng bộ), cặp với 但是/可是",
+      "example": "尽管很累，他还是坚持工作。 (Jǐnguǎn hěn lèi, tā háishì jiānchí gōngzuò.) – Mặc dù mệt, anh ấy vẫn kiên trì làm việc."
+     },
+     {
+      "partOfSpeech": "Phó từ",
+      "meaning": "cứ việc, cứ thoải mái (không ngại)",
+      "example": "有问题尽管问我。 (Yǒu wèntí jǐnguǎn wèn wǒ.) – Có gì cứ hỏi tôi thoải mái."
+     }
+    ]
+   }
+  ],
+  "synonyms": [
+   {
+    "word": "虽然",
+    "example": "虽然下雨，我们还是出发了。 (Suīrán xiàyǔ, wǒmen háishì chūfā le.) – Tuy mưa, chúng tôi vẫn xuất phát."
+   }
+  ],
+  "usage": "Nghĩa nhượng bộ đứng đầu câu, cặp 但是/还是; nghĩa \"cứ việc\" đứng trước động từ."
+ },
+ "zh-basics-198": {
+  "antonyms": [],
+  "characters": [
+   {
+    "char": "甚",
+    "hanViet": "THẬM",
+    "radical": "甘(bộ cam)",
+    "strokeCount": 9,
+    "componentMeaning": "rất, quá mức",
+    "pictographicOrigin": "Bộ 甘(ngọt) với 匹 — vốn nghĩa \"quá mức thích thú\", nay là \"rất, thậm chí\"."
+   },
+   {
+    "char": "至",
+    "hanViet": "CHÍ",
+    "radical": "至(bộ chí)",
+    "strokeCount": 6,
+    "componentMeaning": "đến, tận",
+    "pictographicOrigin": "Vẽ mũi tên cắm xuống đất — nghĩa \"đến nơi, tới cùng\"."
+   }
+  ],
+  "collocations": [],
+  "compounds": [
+   {
+    "word": "甚至于",
+    "pinyin": "shènzhìyú",
+    "meaning": "thậm chí đến mức",
+    "example": "他甚至于忘了自己的生日。 (Tā shènzhìyú wàng le zìjǐ de shēngrì.) – Anh ấy thậm chí quên cả sinh nhật mình."
+   },
+   {
+    "word": "至少",
+    "pinyin": "zhìshǎo",
+    "meaning": "ít nhất",
+    "example": "你至少要休息一天。 (Nǐ zhìshǎo yào xiūxi yì tiān.) – Bạn ít nhất phải nghỉ một ngày."
+   }
+  ],
+  "distinguish": "",
+  "distinguishExample": "",
+  "grammarExample": "",
+  "grammarNote": "",
+  "image": "",
+  "mnemonic": "甚(quá mức) + 至(đến tận) = \"đến tận mức...\" → thậm chí.",
+  "partOfSpeech": "Phó từ / Liên từ",
+  "senses": [
+   {
+    "partOfSpeech": "Phó từ",
+    "meanings": [
+     {
+      "meaning": "thậm chí (nhấn mạnh mức độ cao, ngoài dự đoán)",
+      "example": "他忙得甚至没时间吃饭。 (Tā máng de shènzhì méi shíjiān chīfàn.) – Anh ấy bận đến mức thậm chí không có thời gian ăn."
+     }
+    ]
+   }
+  ],
+  "synonyms": [],
+  "usage": "Nêu trường hợp cực đoan để nhấn mạnh; thường đứng trước thành phần được nhấn, hay dùng sau 得 chỉ mức độ."
+ },
+ "zh-basics-199": {
+  "antonyms": [],
+  "characters": [
+   {
+    "char": "其",
+    "hanViet": "KỲ",
+    "radical": "八(bộ bát)",
+    "strokeCount": 8,
+    "componentMeaning": "đó, cái ấy",
+    "pictographicOrigin": "Vốn vẽ cái nia; mượn làm đại từ \"ấy, đó\"."
+   },
+   {
+    "char": "中",
+    "hanViet": "TRUNG",
+    "radical": "丨(bộ cổn)",
+    "strokeCount": 4,
+    "componentMeaning": "ở giữa, trong",
+    "pictographicOrigin": "Vẽ một vạch xuyên qua giữa vòng — nghĩa \"ở giữa, trong\"."
+   }
+  ],
+  "collocations": [],
+  "compounds": [
+   {
+    "word": "中间",
+    "pinyin": "zhōngjiān",
+    "meaning": "ở giữa",
+    "example": "他坐在中间。 (Tā zuò zài zhōngjiān.) – Anh ấy ngồi ở giữa."
+   },
+   {
+    "word": "其他",
+    "pinyin": "qítā",
+    "meaning": "khác, cái khác",
+    "example": "其他人都走了。 (Qítā rén dōu zǒu le.) – Những người khác đều đi rồi."
+   }
+  ],
+  "distinguish": "",
+  "distinguishExample": "",
+  "grammarExample": "",
+  "grammarNote": "",
+  "image": "",
+  "mnemonic": "其(đó) + 中(trong) = \"trong cái đó\" → trong số đó.",
+  "partOfSpeech": "Đại từ / Danh từ vị trí",
+  "senses": [
+   {
+    "partOfSpeech": "Danh từ",
+    "meanings": [
+     {
+      "meaning": "trong đó, trong số đó",
+      "example": "我买了五本书，其中三本是小说。 (Wǒ mǎi le wǔ běn shū, qízhōng sān běn shì xiǎoshuō.) – Tôi mua năm cuốn, trong đó ba cuốn là tiểu thuyết."
+     }
+    ]
+   }
+  ],
+  "synonyms": [],
+  "usage": "Trỏ về một tập hợp đã nêu trước; đứng đầu vế để nói về một phần của tập hợp ấy."
+ },
+ "zh-basics-201": {
+  "antonyms": [],
+  "characters": [
+   {
+    "char": "并",
+    "hanViet": "TỊNH",
+    "radical": "八(bộ bát)",
+    "strokeCount": 6,
+    "componentMeaning": "cùng, hơn nữa",
+    "pictographicOrigin": "Vốn vẽ hai người đứng cạnh nhau (並) — nghĩa \"song song, cùng, và\"."
+   },
+   {
+    "char": "且",
+    "hanViet": "THẢ",
+    "radical": "一(bộ nhất)",
+    "strokeCount": 5,
+    "componentMeaning": "vả lại, hơn nữa",
+    "pictographicOrigin": "Vốn vẽ bệ thờ tổ tiên; mượn làm hư từ \"vả lại, hơn nữa\"."
+   }
+  ],
+  "collocations": [],
+  "compounds": [
+   {
+    "word": "而且",
+    "pinyin": "érqiě",
+    "meaning": "hơn nữa, mà còn",
+    "example": "他会说汉语，而且说得很好。 (Tā huì shuō Hànyǔ, érqiě shuō de hěn hǎo.) – Anh ấy biết tiếng Trung, hơn nữa nói rất giỏi."
+   },
+   {
+    "word": "并不",
+    "pinyin": "bìngbù",
+    "meaning": "hoàn toàn không (nhấn mạnh phủ định)",
+    "example": "这并不难。 (Zhè bìng bù nán.) – Điều này chẳng hề khó."
+   }
+  ],
+  "distinguish": "\"并且\" nối hai vế/động từ ngang hàng hoặc tăng tiến; \"而且\" thường nối trong cặp 不但...而且. Nghĩa gần nhau.",
+  "distinguishExample": "他学习好，并且很谦虚。 (Tā xuéxí hǎo, bìngqiě hěn qiānxū.) – Cậu ấy học giỏi, hơn nữa rất khiêm tốn.",
+  "grammarExample": "",
+  "grammarNote": "",
+  "image": "",
+  "mnemonic": "并(cùng) + 且(vả lại) = nối thêm \"và hơn nữa\".",
+  "partOfSpeech": "Liên từ",
+  "senses": [
+   {
+    "partOfSpeech": "Liên từ",
+    "meanings": [
+     {
+      "meaning": "hơn nữa, và (nối thêm, tăng tiến), thường cặp với 不但/不仅",
+      "example": "这个方法简单，并且很有效。 (Zhège fāngfǎ jiǎndān, bìngqiě hěn yǒuxiào.) – Cách này đơn giản, hơn nữa còn hiệu quả."
+     }
+    ]
+   }
+  ],
+  "synonyms": [
+   {
+    "word": "而且",
+    "example": "便宜而且好吃。 (Piányi érqiě hǎochī.) – Rẻ mà lại ngon."
+   }
+  ],
+  "usage": "Nối hai mệnh đề hoặc hai động từ/tính từ cùng loại, biểu thị bổ sung hoặc tăng tiến."
  }
 }
