@@ -35095,5 +35095,1156 @@
    }
   ],
   "usage": "Chỉ loài người nói chung; trang trọng, dùng trong ngữ cảnh khoa học/xã hội."
+ },
+ "zh-family-people-79": {
+  "antonyms": [],
+  "characters": [
+   {
+    "char": "民",
+    "hanViet": "DÂN",
+    "radical": "氏(bộ thị)",
+    "strokeCount": 5,
+    "componentMeaning": "dân, người dân",
+    "pictographicOrigin": "Vốn vẽ con mắt bị đâm (nô lệ), sau nghĩa \"dân thường\"."
+   },
+   {
+    "char": "族",
+    "hanViet": "TỘC",
+    "radical": "方(bộ phương)",
+    "strokeCount": 11,
+    "componentMeaning": "tộc, dòng họ",
+    "pictographicOrigin": "Bộ 方(cờ) với 矢(tên) — người tụ dưới một lá cờ, nghĩa \"tộc\"."
+   }
+  ],
+  "collocations": [],
+  "compounds": [
+   {
+    "word": "人民",
+    "pinyin": "rénmín",
+    "meaning": "nhân dân",
+    "example": "为人民服务。 (Wèi rénmín fúwù.) – Phục vụ nhân dân."
+   },
+   {
+    "word": "家族",
+    "pinyin": "jiāzú",
+    "meaning": "gia tộc",
+    "example": "这是一个大家族。 (Zhè shì yí ge dà jiāzú.) – Đây là một gia tộc lớn."
+   }
+  ],
+  "distinguish": "",
+  "distinguishExample": "",
+  "grammarExample": "",
+  "grammarNote": "",
+  "image": "",
+  "mnemonic": "民(dân) + 族(tộc) = nhóm dân cùng nguồn gốc → dân tộc.",
+  "partOfSpeech": "Danh từ",
+  "senses": [
+   {
+    "partOfSpeech": "Danh từ",
+    "meanings": [
+     {
+      "meaning": "dân tộc",
+      "example": "中国有五十六个民族。 (Zhōngguó yǒu wǔshíliù ge mínzú.) – Trung Quốc có 56 dân tộc."
+     }
+    ]
+   }
+  ],
+  "synonyms": [],
+  "usage": "Chỉ cộng đồng người cùng nguồn gốc/văn hóa; hay đi với 少数民族 (dân tộc thiểu số)."
+ },
+ "zh-family-people-80": {
+  "antonyms": [],
+  "characters": [
+   {
+    "char": "态",
+    "hanViet": "THÁI",
+    "radical": "心(bộ tâm)",
+    "strokeCount": 8,
+    "componentMeaning": "trạng thái, dáng vẻ",
+    "pictographicOrigin": "Giản hóa từ 態 — bộ 心(tim) gợi trạng thái bên trong, nghĩa \"thái độ, dáng\"."
+   },
+   {
+    "char": "度",
+    "hanViet": "ĐỘ",
+    "radical": "广(bộ nghiễm)",
+    "strokeCount": 9,
+    "componentMeaning": "mức độ",
+    "pictographicOrigin": "Bộ 广(mái) với 又(tay đo) — đo lường, nghĩa \"độ, mức\"."
+   }
+  ],
+  "collocations": [],
+  "compounds": [
+   {
+    "word": "态度认真",
+    "pinyin": "tàidù rènzhēn",
+    "meaning": "thái độ nghiêm túc",
+    "example": "他学习态度认真。 (Tā xuéxí tàidù rènzhēn.) – Thái độ học tập của cậu ấy nghiêm túc."
+   },
+   {
+    "word": "温度",
+    "pinyin": "wēndù",
+    "meaning": "nhiệt độ",
+    "example": "今天温度很高。 (Jīntiān wēndù hěn gāo.) – Hôm nay nhiệt độ cao."
+   }
+  ],
+  "distinguish": "",
+  "distinguishExample": "",
+  "grammarExample": "",
+  "grammarNote": "",
+  "image": "",
+  "mnemonic": "态(trạng thái trong lòng) + 度(mức) = cách thể hiện ra ngoài → thái độ.",
+  "partOfSpeech": "Danh từ",
+  "senses": [
+   {
+    "partOfSpeech": "Danh từ",
+    "meanings": [
+     {
+      "meaning": "thái độ, cách đối xử",
+      "example": "他的工作态度很好。 (Tā de gōngzuò tàidù hěn hǎo.) – Thái độ làm việc của anh ấy rất tốt."
+     }
+    ]
+   }
+  ],
+  "synonyms": [],
+  "usage": "Chỉ cách đối xử/lập trường; hay đi với 端正态度 (chấn chỉnh thái độ), 对…的态度."
+ },
+ "zh-family-people-81": {
+  "antonyms": [
+   {
+    "word": "内心",
+    "example": "他内心很善良。 (Tā nèixīn hěn shànliáng.) – Trong lòng anh ấy rất tốt."
+   }
+  ],
+  "characters": [
+   {
+    "char": "外",
+    "hanViet": "NGOẠI",
+    "radical": "夕(bộ tịch)",
+    "strokeCount": 5,
+    "componentMeaning": "ngoài",
+    "pictographicOrigin": "Bộ 夕(chiều tối) với 卜(bói) — bói lúc tối là chuyện ngoài lệ, nghĩa \"bên ngoài\"."
+   },
+   {
+    "char": "表",
+    "hanViet": "BIỂU",
+    "radical": "衣(bộ y)",
+    "strokeCount": 8,
+    "componentMeaning": "bề mặt, bày ra",
+    "pictographicOrigin": "Lông thú ở mặt ngoài áo — nghĩa \"bề ngoài\"."
+   }
+  ],
+  "collocations": [],
+  "compounds": [
+   {
+    "word": "外面",
+    "pinyin": "wàimiàn",
+    "meaning": "bên ngoài",
+    "example": "外面在下雨。 (Wàimiàn zài xiàyǔ.) – Bên ngoài đang mưa."
+   },
+   {
+    "word": "表面",
+    "pinyin": "biǎomiàn",
+    "meaning": "bề mặt",
+    "example": "桌子表面很光滑。 (Zhuōzi biǎomiàn hěn guānghuá.) – Mặt bàn rất nhẵn."
+   }
+  ],
+  "distinguish": "",
+  "distinguishExample": "",
+  "grammarExample": "",
+  "grammarNote": "",
+  "image": "",
+  "mnemonic": "外(ngoài) + 表(mặt) = mặt bên ngoài → vẻ ngoài.",
+  "partOfSpeech": "Danh từ",
+  "senses": [
+   {
+    "partOfSpeech": "Danh từ",
+    "meanings": [
+     {
+      "meaning": "vẻ bề ngoài, hình thức bên ngoài",
+      "example": "不要只看外表。 (Bú yào zhǐ kàn wàibiǎo.) – Đừng chỉ nhìn vẻ bề ngoài."
+     }
+    ]
+   }
+  ],
+  "synonyms": [],
+  "usage": "Chỉ hình thức bên ngoài của người/vật; hay đối lập với 内心/内在."
+ },
+ "zh-family-people-82": {
+  "antonyms": [],
+  "characters": [
+   {
+    "char": "样",
+    "hanViet": "DẠNG",
+    "radical": "木(bộ mộc)",
+    "strokeCount": 10,
+    "componentMeaning": "kiểu, dạng",
+    "pictographicOrigin": "Bộ 木(gỗ) với 羊 lấy âm — mẫu gỗ, nghĩa \"kiểu mẫu, dạng\"."
+   },
+   {
+    "char": "子",
+    "hanViet": "TỬ",
+    "radical": "子(bộ tử)",
+    "strokeCount": 3,
+    "componentMeaning": "hậu tố danh từ",
+    "pictographicOrigin": "Vẽ em bé quấn tã — nghĩa \"con\"; ở đây là hậu tố."
+   }
+  ],
+  "collocations": [],
+  "compounds": [
+   {
+    "word": "一样",
+    "pinyin": "yíyàng",
+    "meaning": "giống nhau",
+    "example": "我们的书包一样。 (Wǒmen de shūbāo yíyàng.) – Cặp của chúng tôi giống nhau."
+   },
+   {
+    "word": "样式",
+    "pinyin": "yàngshì",
+    "meaning": "kiểu dáng",
+    "example": "这件衣服样式很新。 (Zhè jiàn yīfu yàngshì hěn xīn.) – Áo này kiểu rất mới."
+   }
+  ],
+  "distinguish": "",
+  "distinguishExample": "",
+  "grammarExample": "",
+  "grammarNote": "",
+  "image": "",
+  "mnemonic": "样(kiểu) + 子(hậu tố) = kiểu dáng, bộ dạng.",
+  "partOfSpeech": "Danh từ",
+  "senses": [
+   {
+    "partOfSpeech": "Danh từ",
+    "meanings": [
+     {
+      "meaning": "dáng vẻ, hình dạng",
+      "example": "这个杯子样子很好看。 (Zhège bēizi yàngzi hěn hǎokàn.) – Cái cốc này kiểu dáng rất đẹp."
+     },
+     {
+      "meaning": "bộ dạng, vẻ (biểu lộ ra)",
+      "example": "他一副高兴的样子。 (Tā yí fù gāoxìng de yàngzi.) – Anh ấy ra vẻ vui mừng."
+     }
+    ]
+   }
+  ],
+  "synonyms": [],
+  "usage": "Chỉ hình dạng vật hoặc bộ dạng người; cấu trúc \"…的样子\" nghĩa \"ra vẻ…\"."
+ },
+ "zh-food-drink-83": {
+  "antonyms": [],
+  "characters": [
+   {
+    "char": "烤",
+    "hanViet": "KHẢO",
+    "radical": "火(bộ hỏa)",
+    "strokeCount": 10,
+    "componentMeaning": "nướng",
+    "pictographicOrigin": "Bộ 火(lửa) với 考 lấy âm — dùng lửa làm chín, nghĩa \"nướng\"."
+   }
+  ],
+  "collocations": [],
+  "compounds": [
+   {
+    "word": "烤鸭",
+    "pinyin": "kǎoyā",
+    "meaning": "vịt quay",
+    "example": "北京烤鸭很有名。 (Běijīng kǎoyā hěn yǒumíng.) – Vịt quay Bắc Kinh rất nổi tiếng."
+   },
+   {
+    "word": "烤箱",
+    "pinyin": "kǎoxiāng",
+    "meaning": "lò nướng",
+    "example": "蛋糕放进烤箱。 (Dàngāo fàng jìn kǎoxiāng.) – Cho bánh vào lò nướng."
+   }
+  ],
+  "distinguish": "",
+  "distinguishExample": "",
+  "grammarExample": "",
+  "grammarNote": "",
+  "image": "",
+  "mnemonic": "火(lửa) bên trái = dùng lửa làm chín → nướng.",
+  "partOfSpeech": "Động từ",
+  "senses": [
+   {
+    "partOfSpeech": "Động từ",
+    "meanings": [
+     {
+      "meaning": "nướng (trên lửa/lò)",
+      "example": "我们一起烤肉吧。 (Wǒmen yìqǐ kǎoròu ba.) – Chúng ta nướng thịt đi."
+     }
+    ]
+   }
+  ],
+  "synonyms": [
+   {
+    "word": "烧",
+    "example": "烧一壶水。 (Shāo yì hú shuǐ.) – Đun một ấm nước."
+   }
+  ],
+  "usage": "Mang tân ngữ là thực phẩm (烤肉/烤鸭/烤面包); nhấn cách chế biến bằng nhiệt khô."
+ },
+ "zh-food-drink-84": {
+  "antonyms": [],
+  "characters": [
+   {
+    "char": "炒",
+    "hanViet": "SẢO",
+    "radical": "火(bộ hỏa)",
+    "strokeCount": 8,
+    "componentMeaning": "xào, đảo",
+    "pictographicOrigin": "Bộ 火(lửa) với 少 lấy âm — đảo nhanh trên lửa, nghĩa \"xào\"."
+   }
+  ],
+  "collocations": [],
+  "compounds": [
+   {
+    "word": "炒饭",
+    "pinyin": "chǎofàn",
+    "meaning": "cơm rang",
+    "example": "我点了一份炒饭。 (Wǒ diǎn le yí fèn chǎofàn.) – Tôi gọi một suất cơm rang."
+   },
+   {
+    "word": "炒面",
+    "pinyin": "chǎomiàn",
+    "meaning": "mì xào",
+    "example": "这家的炒面很好吃。 (Zhè jiā de chǎomiàn hěn hǎochī.) – Mì xào quán này rất ngon."
+   }
+  ],
+  "distinguish": "",
+  "distinguishExample": "",
+  "grammarExample": "",
+  "grammarNote": "",
+  "image": "",
+  "mnemonic": "火(lửa) + 少(ít) = đảo nhanh với ít dầu trên lửa → xào.",
+  "partOfSpeech": "Động từ",
+  "senses": [
+   {
+    "partOfSpeech": "Động từ",
+    "meanings": [
+     {
+      "meaning": "xào, rang (đảo trên chảo nóng)",
+      "example": "妈妈在炒菜。 (Māma zài chǎocài.) – Mẹ đang xào rau."
+     }
+    ]
+   }
+  ],
+  "synonyms": [],
+  "usage": "Mang tân ngữ thực phẩm (炒菜/炒饭/炒鸡蛋); cách nấu đảo nhanh trên chảo."
+ },
+ "zh-food-drink-85": {
+  "antonyms": [],
+  "characters": [
+   {
+    "char": "煮",
+    "hanViet": "CHỬ",
+    "radical": "灬(bộ hỏa)",
+    "strokeCount": 12,
+    "componentMeaning": "nấu, luộc",
+    "pictographicOrigin": "Bộ 灬(lửa) dưới 者 lấy âm — đun trong nước, nghĩa \"nấu, luộc\"."
+   }
+  ],
+  "collocations": [],
+  "compounds": [
+   {
+    "word": "煮饭",
+    "pinyin": "zhǔfàn",
+    "meaning": "nấu cơm",
+    "example": "我来煮饭。 (Wǒ lái zhǔfàn.) – Để tôi nấu cơm."
+   },
+   {
+    "word": "煮熟",
+    "pinyin": "zhǔshú",
+    "meaning": "luộc chín",
+    "example": "把肉煮熟。 (Bǎ ròu zhǔshú.) – Luộc chín thịt."
+   }
+  ],
+  "distinguish": "",
+  "distinguishExample": "",
+  "grammarExample": "",
+  "grammarNote": "",
+  "image": "",
+  "mnemonic": "灬(bốn chấm lửa) ở dưới = đun trong nước → nấu, luộc.",
+  "partOfSpeech": "Động từ",
+  "senses": [
+   {
+    "partOfSpeech": "Động từ",
+    "meanings": [
+     {
+      "meaning": "nấu, luộc, hầm (trong nước sôi)",
+      "example": "我煮了一些鸡蛋。 (Wǒ zhǔ le yìxiē jīdàn.) – Tôi luộc mấy quả trứng."
+     }
+    ]
+   }
+  ],
+  "synonyms": [],
+  "usage": "Mang tân ngữ thực phẩm (煮鸡蛋/煮面/煮粥); cách nấu bằng nước sôi."
+ },
+ "zh-food-drink-86": {
+  "antonyms": [],
+  "characters": [
+   {
+    "char": "摆",
+    "hanViet": "BÃI",
+    "radical": "扌(bộ thủ)",
+    "strokeCount": 13,
+    "componentMeaning": "bày, sắp đặt",
+    "pictographicOrigin": "Giản hóa từ 擺 — bộ 扌(tay) sắp đặt đồ vật, nghĩa \"bày, đặt\"."
+   }
+  ],
+  "collocations": [],
+  "compounds": [
+   {
+    "word": "摆放",
+    "pinyin": "bǎifàng",
+    "meaning": "bày đặt",
+    "example": "东西摆放得很整齐。 (Dōngxi bǎifàng de hěn zhěngqí.) – Đồ đạc bày rất ngăn nắp."
+   },
+   {
+    "word": "摆手",
+    "pinyin": "bǎishǒu",
+    "meaning": "phẩy tay",
+    "example": "他摆手拒绝了。 (Tā bǎishǒu jùjué le.) – Anh ấy phẩy tay từ chối."
+   }
+  ],
+  "distinguish": "",
+  "distinguishExample": "",
+  "grammarExample": "",
+  "grammarNote": "",
+  "image": "",
+  "mnemonic": "扌(tay) bày đồ ra cho ngay ngắn → bày, xếp.",
+  "partOfSpeech": "Động từ",
+  "senses": [
+   {
+    "partOfSpeech": "Động từ",
+    "meanings": [
+     {
+      "meaning": "bày, xếp, đặt (cho ngay ngắn)",
+      "example": "她把菜摆在桌子上。 (Tā bǎ cài bǎi zài zhuōzi shàng.) – Cô ấy bày món ăn lên bàn."
+     },
+     {
+      "meaning": "phe phẩy, vẫy (摆手)",
+      "example": "他摆摆手表示不要。 (Tā bǎibǎi shǒu biǎoshì bú yào.) – Anh ấy phẩy tay ý không cần."
+     }
+    ]
+   }
+  ],
+  "synonyms": [
+   {
+    "word": "放",
+    "example": "把书放在桌上。 (Bǎ shū fàng zài zhuō shàng.) – Đặt sách lên bàn."
+   }
+  ],
+  "usage": "Thường dùng cấu trúc 把…摆在…; nghĩa \"phẩy tay\" đi với 手."
+ },
+ "zh-food-drink-87": {
+  "antonyms": [],
+  "characters": [
+   {
+    "char": "食",
+    "hanViet": "THỰC",
+    "radical": "食(bộ thực)",
+    "strokeCount": 9,
+    "componentMeaning": "ăn, thức ăn",
+    "pictographicOrigin": "Vẽ cái bát đầy thức ăn có nắp — nghĩa \"ăn, lương thực\"."
+   },
+   {
+    "char": "堂",
+    "hanViet": "ĐƯỜNG",
+    "radical": "土(bộ thổ)",
+    "strokeCount": 11,
+    "componentMeaning": "gian phòng lớn",
+    "pictographicOrigin": "Bộ 土(đất/nền) với 尚 lấy âm — nhà lớn trên nền cao, nghĩa \"sảnh, gian\"."
+   }
+  ],
+  "collocations": [],
+  "compounds": [
+   {
+    "word": "食物",
+    "pinyin": "shíwù",
+    "meaning": "thức ăn",
+    "example": "这些食物很新鲜。 (Zhèxiē shíwù hěn xīnxiān.) – Đồ ăn này rất tươi."
+   },
+   {
+    "word": "课堂",
+    "pinyin": "kètáng",
+    "meaning": "lớp học",
+    "example": "课堂上要认真。 (Kètáng shàng yào rènzhēn.) – Trong lớp phải nghiêm túc."
+   }
+  ],
+  "distinguish": "",
+  "distinguishExample": "",
+  "grammarExample": "",
+  "grammarNote": "",
+  "image": "",
+  "mnemonic": "食(ăn) + 堂(gian phòng) = gian phòng để ăn → nhà ăn.",
+  "partOfSpeech": "Danh từ",
+  "senses": [
+   {
+    "partOfSpeech": "Danh từ",
+    "meanings": [
+     {
+      "meaning": "nhà ăn, căng tin (trường/cơ quan)",
+      "example": "我们在学校食堂吃饭。 (Wǒmen zài xuéxiào shítáng chīfàn.) – Chúng tôi ăn ở căng tin trường."
+     }
+    ]
+   }
+  ],
+  "synonyms": [
+   {
+    "word": "餐厅",
+    "example": "这家餐厅很有名。 (Zhè jiā cāntīng hěn yǒumíng.) – Nhà hàng này nổi tiếng."
+   }
+  ],
+  "usage": "Chỉ nơi ăn tập thể trong trường/cơ quan; khác 餐厅/饭店 (nhà hàng kinh doanh)."
+ },
+ "zh-food-drink-88": {
+  "antonyms": [],
+  "characters": [
+   {
+    "char": "烧",
+    "hanViet": "THIÊU",
+    "radical": "火(bộ hỏa)",
+    "strokeCount": 10,
+    "componentMeaning": "đốt, đun",
+    "pictographicOrigin": "Bộ 火(lửa) với 尧 lấy âm — nghĩa \"đốt, đun, nấu\"."
+   },
+   {
+    "char": "烤",
+    "hanViet": "KHẢO",
+    "radical": "火(bộ hỏa)",
+    "strokeCount": 10,
+    "componentMeaning": "nướng",
+    "pictographicOrigin": "Bộ 火(lửa) với 考 lấy âm — nghĩa \"nướng\"."
+   }
+  ],
+  "collocations": [],
+  "compounds": [
+   {
+    "word": "烧",
+    "pinyin": "shāo",
+    "meaning": "đốt, đun; sốt",
+    "example": "他发烧了。 (Tā fāshāo le.) – Anh ấy bị sốt."
+   },
+   {
+    "word": "烧饭",
+    "pinyin": "shāofàn",
+    "meaning": "nấu cơm (khẩu ngữ)",
+    "example": "妈妈在烧饭。 (Māma zài shāofàn.) – Mẹ đang nấu cơm."
+   }
+  ],
+  "distinguish": "",
+  "distinguishExample": "",
+  "grammarExample": "",
+  "grammarNote": "",
+  "image": "",
+  "mnemonic": "烧(đốt) + 烤(nướng) = nướng trên lửa → đồ nướng BBQ.",
+  "partOfSpeech": "Danh từ / Động từ",
+  "senses": [
+   {
+    "partOfSpeech": "Danh từ",
+    "meanings": [
+     {
+      "meaning": "đồ nướng, tiệc nướng (BBQ)",
+      "example": "晚上我们去吃烧烤。 (Wǎnshang wǒmen qù chī shāokǎo.) – Tối nay chúng ta đi ăn đồ nướng."
+     }
+    ]
+   }
+  ],
+  "synonyms": [],
+  "usage": "Chủ yếu làm danh từ chỉ món nướng ngoài trời/quán; cũng làm động từ \"nướng\"."
+ },
+ "zh-food-drink-89": {
+  "antonyms": [
+   {
+    "word": "咸",
+    "example": "这个菜太咸了。 (Zhège cài tài xián le.) – Món này quá mặn."
+   },
+   {
+    "word": "浓",
+    "example": "这杯咖啡很浓。 (Zhè bēi kāfēi hěn nóng.) – Ly cà phê này rất đậm."
+   }
+  ],
+  "characters": [
+   {
+    "char": "淡",
+    "hanViet": "ĐẠM",
+    "radical": "氵(bộ thủy)",
+    "strokeCount": 11,
+    "componentMeaning": "nhạt",
+    "pictographicOrigin": "Bộ 氵(nước) với 炎(lửa) — nước làm loãng lửa, nghĩa \"nhạt, loãng\"."
+   }
+  ],
+  "collocations": [],
+  "compounds": [
+   {
+    "word": "清淡",
+    "pinyin": "qīngdàn",
+    "meaning": "thanh đạm",
+    "example": "老人喜欢清淡的菜。 (Lǎorén xǐhuan qīngdàn de cài.) – Người già thích món thanh đạm."
+   },
+   {
+    "word": "淡水",
+    "pinyin": "dànshuǐ",
+    "meaning": "nước ngọt",
+    "example": "淡水鱼很好吃。 (Dànshuǐyú hěn hǎochī.) – Cá nước ngọt rất ngon."
+   }
+  ],
+  "distinguish": "",
+  "distinguishExample": "",
+  "grammarExample": "",
+  "grammarNote": "",
+  "image": "",
+  "mnemonic": "氵(nước) làm loãng đi → nhạt (vị/màu).",
+  "partOfSpeech": "Tính từ",
+  "senses": [
+   {
+    "partOfSpeech": "Tính từ",
+    "meanings": [
+     {
+      "meaning": "nhạt (vị)",
+      "example": "这个汤太淡了。 (Zhège tāng tài dàn le.) – Món canh này quá nhạt."
+     },
+     {
+      "meaning": "nhạt (màu, nồng độ)",
+      "example": "她喜欢淡一点儿的颜色。 (Tā xǐhuan dàn yìdiǎnr de yánsè.) – Cô ấy thích màu nhạt hơn."
+     }
+    ]
+   }
+  ],
+  "synonyms": [],
+  "usage": "Dùng cho vị (đối 咸/浓) lẫn màu sắc/nồng độ (对 浓/深)."
+ },
+ "zh-food-drink-90": {
+  "antonyms": [
+   {
+    "word": "清淡",
+    "example": "多吃清淡的食物。 (Duō chī qīngdàn de shíwù.) – Ăn nhiều đồ thanh đạm."
+   }
+  ],
+  "characters": [
+   {
+    "char": "油",
+    "hanViet": "DU",
+    "radical": "氵(bộ thủy)",
+    "strokeCount": 8,
+    "componentMeaning": "dầu, mỡ",
+    "pictographicOrigin": "Bộ 氵(chất lỏng) với 由 lấy âm — nghĩa \"dầu\"."
+   },
+   {
+    "char": "腻",
+    "hanViet": "NHỊ",
+    "radical": "月(bộ nhục)",
+    "strokeCount": 13,
+    "componentMeaning": "ngán, ngậy",
+    "pictographicOrigin": "Bộ 月(thịt) với 贰 lấy âm — mỡ thịt nhiều, nghĩa \"ngậy, ngán\"."
+   }
+  ],
+  "collocations": [],
+  "compounds": [
+   {
+    "word": "油",
+    "pinyin": "yóu",
+    "meaning": "dầu ăn",
+    "example": "这个菜油太多。 (Zhège cài yóu tài duō.) – Món này nhiều dầu quá."
+   },
+   {
+    "word": "腻",
+    "pinyin": "nì",
+    "meaning": "ngán",
+    "example": "天天吃肉会腻。 (Tiāntiān chī ròu huì nì.) – Ngày nào cũng ăn thịt sẽ ngán."
+   }
+  ],
+  "distinguish": "",
+  "distinguishExample": "",
+  "grammarExample": "",
+  "grammarNote": "",
+  "image": "",
+  "mnemonic": "油(dầu) + 腻(ngậy) = nhiều dầu mỡ đến ngán → béo ngậy.",
+  "partOfSpeech": "Tính từ",
+  "senses": [
+   {
+    "partOfSpeech": "Tính từ",
+    "meanings": [
+     {
+      "meaning": "béo ngậy, nhiều dầu mỡ (dễ ngán)",
+      "example": "这个菜太油腻了。 (Zhège cài tài yóunì le.) – Món này nhiều dầu mỡ quá."
+     }
+    ]
+   }
+  ],
+  "synonyms": [],
+  "usage": "Mô tả món ăn nhiều dầu mỡ; đối lập 清淡."
+ },
+ "zh-food-drink-91": {
+  "antonyms": [],
+  "characters": [
+   {
+    "char": "解",
+    "hanViet": "GIẢI",
+    "radical": "角(bộ giác)",
+    "strokeCount": 13,
+    "componentMeaning": "cởi bỏ, làm hết",
+    "pictographicOrigin": "Dùng dao (刀) tách sừng (角) khỏi bò (牛) — nghĩa \"tách ra, giải\"."
+   },
+   {
+    "char": "渴",
+    "hanViet": "KHÁT",
+    "radical": "氵(bộ thủy)",
+    "strokeCount": 12,
+    "componentMeaning": "khát",
+    "pictographicOrigin": "Bộ 氵(nước) với 曷 lấy âm — thiếu nước, nghĩa \"khát\"."
+   }
+  ],
+  "collocations": [],
+  "compounds": [
+   {
+    "word": "解决",
+    "pinyin": "jiějué",
+    "meaning": "giải quyết",
+    "example": "这个问题解决了。 (Zhège wèntí jiějué le.) – Vấn đề đã được giải quyết."
+   },
+   {
+    "word": "口渴",
+    "pinyin": "kǒukě",
+    "meaning": "khát nước",
+    "example": "我有点儿口渴。 (Wǒ yǒudiǎnr kǒukě.) – Tôi hơi khát."
+   }
+  ],
+  "distinguish": "",
+  "distinguishExample": "",
+  "grammarExample": "",
+  "grammarNote": "",
+  "image": "",
+  "mnemonic": "解(làm hết) + 渴(khát) = làm hết cơn khát → giải khát.",
+  "partOfSpeech": "Động từ",
+  "senses": [
+   {
+    "partOfSpeech": "Động từ",
+    "meanings": [
+     {
+      "meaning": "giải khát, đỡ khát",
+      "example": "喝西瓜汁很解渴。 (Hē xīguāzhī hěn jiěkě.) – Uống nước dưa hấu rất giải khát."
+     }
+    ]
+   }
+  ],
+  "synonyms": [],
+  "usage": "Thường làm vị ngữ (很解渴) hoặc mang tân ngữ ẩn; đối tượng là cơn khát."
+ },
+ "zh-food-drink-92": {
+  "antonyms": [],
+  "characters": [
+   {
+    "char": "食",
+    "hanViet": "THỰC",
+    "radical": "食(bộ thực)",
+    "strokeCount": 9,
+    "componentMeaning": "ăn, thức ăn",
+    "pictographicOrigin": "Bát thức ăn có nắp — nghĩa \"ăn, lương thực\"."
+   },
+   {
+    "char": "物",
+    "hanViet": "VẬT",
+    "radical": "牛(bộ ngưu)",
+    "strokeCount": 8,
+    "componentMeaning": "vật, đồ",
+    "pictographicOrigin": "Bộ 牛(bò) với 勿 lấy âm — nghĩa \"vật, đồ vật\"."
+   }
+  ],
+  "collocations": [],
+  "compounds": [
+   {
+    "word": "动物",
+    "pinyin": "dòngwù",
+    "meaning": "động vật",
+    "example": "我喜欢小动物。 (Wǒ xǐhuan xiǎo dòngwù.) – Tôi thích động vật nhỏ."
+   },
+   {
+    "word": "礼物",
+    "pinyin": "lǐwù",
+    "meaning": "quà",
+    "example": "这是给你的礼物。 (Zhè shì gěi nǐ de lǐwù.) – Đây là quà cho bạn."
+   }
+  ],
+  "distinguish": "\"食物\" chỉ đồ ăn nói chung (kể cả tự nhiên); \"食品\" thiên về thực phẩm được chế biến/đóng gói bán ra.",
+  "distinguishExample": "水果是天然食物；饼干是加工食品。 (Shuǐguǒ shì tiānrán shíwù; bǐnggān shì jiāgōng shípǐn.) – Trái cây là thực phẩm tự nhiên; bánh quy là thực phẩm chế biến.",
+  "grammarExample": "",
+  "grammarNote": "",
+  "image": "",
+  "mnemonic": "食(ăn) + 物(vật) = vật để ăn → thức ăn.",
+  "partOfSpeech": "Danh từ",
+  "senses": [
+   {
+    "partOfSpeech": "Danh từ",
+    "meanings": [
+     {
+      "meaning": "thực phẩm, đồ ăn (nói chung)",
+      "example": "这些食物很有营养。 (Zhèxiē shíwù hěn yǒu yíngyǎng.) – Những thức ăn này rất bổ dưỡng."
+     }
+    ]
+   }
+  ],
+  "synonyms": [
+   {
+    "word": "食品",
+    "example": "这是进口食品。 (Zhè shì jìnkǒu shípǐn.) – Đây là thực phẩm nhập khẩu."
+   }
+  ],
+  "usage": "Danh từ chung cho đồ ăn; không đếm trực tiếp bằng lượng từ món."
+ },
+ "zh-food-drink-93": {
+  "antonyms": [],
+  "characters": [
+   {
+    "char": "食",
+    "hanViet": "THỰC",
+    "radical": "食(bộ thực)",
+    "strokeCount": 9,
+    "componentMeaning": "ăn",
+    "pictographicOrigin": "Bát thức ăn có nắp — nghĩa \"ăn\"."
+   },
+   {
+    "char": "品",
+    "hanViet": "PHẨM",
+    "radical": "口(bộ khẩu)",
+    "strokeCount": 9,
+    "componentMeaning": "phẩm, món hàng",
+    "pictographicOrigin": "Ba cái miệng (口) — nhiều vật, nghĩa \"phẩm loại, hàng\"."
+   }
+  ],
+  "collocations": [],
+  "compounds": [
+   {
+    "word": "产品",
+    "pinyin": "chǎnpǐn",
+    "meaning": "sản phẩm",
+    "example": "这是新产品。 (Zhè shì xīn chǎnpǐn.) – Đây là sản phẩm mới."
+   },
+   {
+    "word": "品尝",
+    "pinyin": "pǐncháng",
+    "meaning": "nếm thử",
+    "example": "请品尝这道菜。 (Qǐng pǐncháng zhè dào cài.) – Xin nếm thử món này."
+   }
+  ],
+  "distinguish": "",
+  "distinguishExample": "",
+  "grammarExample": "",
+  "grammarNote": "",
+  "image": "",
+  "mnemonic": "食(ăn) + 品(mặt hàng) = mặt hàng để ăn → thực phẩm (hàng hóa).",
+  "partOfSpeech": "Danh từ",
+  "senses": [
+   {
+    "partOfSpeech": "Danh từ",
+    "meanings": [
+     {
+      "meaning": "thực phẩm (chế biến, đóng gói, hàng hóa)",
+      "example": "超市里有各种食品。 (Chāoshì lǐ yǒu gèzhǒng shípǐn.) – Trong siêu thị có đủ loại thực phẩm."
+     }
+    ]
+   }
+  ],
+  "synonyms": [
+   {
+    "word": "食物",
+    "example": "别浪费食物。 (Bié làngfèi shíwù.) – Đừng lãng phí thức ăn."
+   }
+  ],
+  "usage": "Thiên về thực phẩm là hàng hóa (食品安全/进口食品); phân biệt với 食物 (đồ ăn chung)."
+ },
+ "zh-food-drink-94": {
+  "antonyms": [],
+  "characters": [
+   {
+    "char": "点",
+    "hanViet": "ĐIỂM",
+    "radical": "灬(bộ hỏa)",
+    "strokeCount": 9,
+    "componentMeaning": "chấm, chút",
+    "pictographicOrigin": "Giản hóa từ 點 — nghĩa \"chấm nhỏ, một chút\"."
+   },
+   {
+    "char": "心",
+    "hanViet": "TÂM",
+    "radical": "心(bộ tâm)",
+    "strokeCount": 4,
+    "componentMeaning": "lòng, bụng",
+    "pictographicOrigin": "Vẽ quả tim — nghĩa \"tim, lòng\"; 点心 nghĩa gốc \"lót dạ\"."
+   }
+  ],
+  "collocations": [],
+  "compounds": [
+   {
+    "word": "小吃",
+    "pinyin": "xiǎochī",
+    "meaning": "món ăn vặt",
+    "example": "这条街有很多小吃。 (Zhè tiáo jiē yǒu hěn duō xiǎochī.) – Con phố này có nhiều món ăn vặt."
+   },
+   {
+    "word": "甜点",
+    "pinyin": "tiándiǎn",
+    "meaning": "món tráng miệng",
+    "example": "饭后来点甜点。 (Fàn hòu lái diǎn tiándiǎn.) – Sau bữa ăn chút tráng miệng."
+   }
+  ],
+  "distinguish": "",
+  "distinguishExample": "",
+  "grammarExample": "",
+  "grammarNote": "",
+  "image": "",
+  "mnemonic": "点(chút) + 心(lòng dạ) = ăn chút cho \"ấm lòng\" → điểm tâm.",
+  "partOfSpeech": "Danh từ",
+  "senses": [
+   {
+    "partOfSpeech": "Danh từ",
+    "meanings": [
+     {
+      "meaning": "điểm tâm, đồ ăn nhẹ (bánh trái ăn kèm trà)",
+      "example": "下午我们吃点心吧。 (Xiàwǔ wǒmen chī diǎnxin ba.) – Buổi chiều ta ăn điểm tâm nhé."
+     }
+    ]
+   }
+  ],
+  "synonyms": [],
+  "usage": "Chỉ bánh trái/đồ nhẹ ăn kèm trà hoặc lót dạ; không phải bữa chính."
+ },
+ "zh-food-drink-95": {
+  "antonyms": [],
+  "characters": [
+   {
+    "char": "调",
+    "hanViet": "ĐIỀU",
+    "radical": "讠(bộ ngôn)",
+    "strokeCount": 10,
+    "componentMeaning": "điều chỉnh, pha",
+    "pictographicOrigin": "Bộ 讠(lời) với 周 lấy âm — điều hòa cho hợp, nghĩa \"điều chỉnh, pha trộn\"."
+   },
+   {
+    "char": "料",
+    "hanViet": "LIỆU",
+    "radical": "斗(bộ đẩu)",
+    "strokeCount": 10,
+    "componentMeaning": "nguyên liệu",
+    "pictographicOrigin": "Bộ 米(gạo) với 斗(đấu đong) — đong nguyên liệu, nghĩa \"vật liệu\"."
+   }
+  ],
+  "collocations": [],
+  "compounds": [
+   {
+    "word": "材料",
+    "pinyin": "cáiliào",
+    "meaning": "nguyên liệu; tài liệu",
+    "example": "做菜的材料买好了。 (Zuòcài de cáiliào mǎi hǎo le.) – Nguyên liệu nấu ăn đã mua xong."
+   },
+   {
+    "word": "调整",
+    "pinyin": "tiáozhěng",
+    "meaning": "điều chỉnh",
+    "example": "调整一下时间。 (Tiáozhěng yíxià shíjiān.) – Điều chỉnh lại thời gian."
+   }
+  ],
+  "distinguish": "",
+  "distinguishExample": "",
+  "grammarExample": "",
+  "grammarNote": "",
+  "image": "",
+  "mnemonic": "调(pha nêm) + 料(nguyên liệu) = nguyên liệu để nêm → gia vị.",
+  "partOfSpeech": "Danh từ",
+  "senses": [
+   {
+    "partOfSpeech": "Danh từ",
+    "meanings": [
+     {
+      "meaning": "gia vị, đồ nêm",
+      "example": "做菜要放调料。 (Zuòcài yào fàng tiáoliào.) – Nấu ăn phải cho gia vị."
+     }
+    ]
+   }
+  ],
+  "synonyms": [],
+  "usage": "Chỉ đồ nêm nếm (muối, đường, xì dầu…); hay đi với 放/加 + 调料."
+ },
+ "zh-places-transport-104": {
+  "antonyms": [],
+  "characters": [
+   {
+    "char": "周",
+    "hanViet": "CHU",
+    "radical": "口(bộ khẩu)",
+    "strokeCount": 8,
+    "componentMeaning": "vòng quanh",
+    "pictographicOrigin": "Ruộng trồng dày kín — nghĩa \"khắp, vòng quanh\"."
+   },
+   {
+    "char": "边",
+    "hanViet": "BIÊN",
+    "radical": "辶(bộ sước)",
+    "strokeCount": 5,
+    "componentMeaning": "bên, mép",
+    "pictographicOrigin": "Bộ 辶(đi) gợi đường biên — nghĩa \"bên, cạnh\"."
+   }
+  ],
+  "collocations": [],
+  "compounds": [
+   {
+    "word": "周围",
+    "pinyin": "zhōuwéi",
+    "meaning": "xung quanh",
+    "example": "房子周围是树。 (Fángzi zhōuwéi shì shù.) – Quanh nhà là cây."
+   },
+   {
+    "word": "旁边",
+    "pinyin": "pángbiān",
+    "meaning": "bên cạnh",
+    "example": "他站在我旁边。 (Tā zhàn zài wǒ pángbiān.) – Anh ấy đứng cạnh tôi."
+   }
+  ],
+  "distinguish": "",
+  "distinguishExample": "",
+  "grammarExample": "",
+  "grammarNote": "",
+  "image": "",
+  "mnemonic": "周(vòng) + 边(bên) = vùng bên vòng quanh → lân cận.",
+  "partOfSpeech": "Danh từ",
+  "senses": [
+   {
+    "partOfSpeech": "Danh từ",
+    "meanings": [
+     {
+      "meaning": "xung quanh, khu vực lân cận",
+      "example": "学校周边有很多小吃店。 (Xuéxiào zhōubiān yǒu hěn duō xiǎochīdiàn.) – Quanh trường có nhiều quán ăn vặt."
+     }
+    ]
+   }
+  ],
+  "synonyms": [
+   {
+    "word": "周围",
+    "example": "周围很安静。 (Zhōuwéi hěn ānjìng.) – Xung quanh rất yên tĩnh."
+   }
+  ],
+  "usage": "Chỉ khu vực bao quanh một điểm; gần nghĩa 周围, hay dùng \"…周边\"."
+ },
+ "zh-places-transport-105": {
+  "antonyms": [
+   {
+    "word": "市区",
+    "example": "从郊区到市区要一小时。 (Cóng jiāoqū dào shìqū yào yì xiǎoshí.) – Từ ngoại ô vào nội thành mất một tiếng."
+   }
+  ],
+  "characters": [
+   {
+    "char": "郊",
+    "hanViet": "GIAO",
+    "radical": "阝(bộ ấp)",
+    "strokeCount": 8,
+    "componentMeaning": "vùng ngoài thành",
+    "pictographicOrigin": "Bộ 阝(ấp/thành) với 交 lấy âm — vùng giáp ranh thành, nghĩa \"ngoại ô\"."
+   },
+   {
+    "char": "区",
+    "hanViet": "KHU",
+    "radical": "匚(bộ phương)",
+    "strokeCount": 4,
+    "componentMeaning": "khu vực",
+    "pictographicOrigin": "Giản hóa từ 區 — vật chứa chia ngăn, nghĩa \"khu, vùng\"."
+   }
+  ],
+  "collocations": [],
+  "compounds": [
+   {
+    "word": "市区",
+    "pinyin": "shìqū",
+    "meaning": "nội thành",
+    "example": "市区很热闹。 (Shìqū hěn rènao.) – Nội thành rất nhộn nhịp."
+   },
+   {
+    "word": "地区",
+    "pinyin": "dìqū",
+    "meaning": "khu vực, vùng",
+    "example": "这个地区很发达。 (Zhège dìqū hěn fādá.) – Vùng này rất phát triển."
+   }
+  ],
+  "distinguish": "",
+  "distinguishExample": "",
+  "grammarExample": "",
+  "grammarNote": "",
+  "image": "",
+  "mnemonic": "郊(ngoài thành) + 区(khu) = khu ngoài thành → ngoại ô.",
+  "partOfSpeech": "Danh từ",
+  "senses": [
+   {
+    "partOfSpeech": "Danh từ",
+    "meanings": [
+     {
+      "meaning": "ngoại ô, vùng ven thành phố",
+      "example": "他住在城市郊区。 (Tā zhù zài chéngshì jiāoqū.) – Anh ấy sống ở ngoại ô thành phố."
+     }
+    ]
+   }
+  ],
+  "synonyms": [],
+  "usage": "Chỉ vùng ven đô, đối lập 市区; thường gắn thuê nhà rẻ, không khí tốt."
+ },
+ "zh-places-transport-106": {
+  "antonyms": [
+   {
+    "word": "郊区",
+    "example": "郊区空气好。 (Jiāoqū kōngqì hǎo.) – Ngoại ô không khí trong lành."
+   }
+  ],
+  "characters": [
+   {
+    "char": "市",
+    "hanViet": "THỊ",
+    "radical": "巾(bộ cân)",
+    "strokeCount": 5,
+    "componentMeaning": "chợ, thành phố",
+    "pictographicOrigin": "Vốn chỉ nơi họp chợ có treo cờ vải (巾) — nghĩa \"chợ, thành thị\"."
+   },
+   {
+    "char": "区",
+    "hanViet": "KHU",
+    "radical": "匚(bộ phương)",
+    "strokeCount": 4,
+    "componentMeaning": "khu vực",
+    "pictographicOrigin": "Giản hóa từ 區 — nghĩa \"khu, vùng\"."
+   }
+  ],
+  "collocations": [],
+  "compounds": [
+   {
+    "word": "城市",
+    "pinyin": "chéngshì",
+    "meaning": "thành phố",
+    "example": "上海是个大城市。 (Shànghǎi shì ge dà chéngshì.) – Thượng Hải là thành phố lớn."
+   },
+   {
+    "word": "区别",
+    "pinyin": "qūbié",
+    "meaning": "khác biệt",
+    "example": "这两个词有区别。 (Zhè liǎng ge cí yǒu qūbié.) – Hai từ này có sự khác biệt."
+   }
+  ],
+  "distinguish": "",
+  "distinguishExample": "",
+  "grammarExample": "",
+  "grammarNote": "",
+  "image": "",
+  "mnemonic": "市(thành phố) + 区(khu) = khu trung tâm thành phố → nội thành.",
+  "partOfSpeech": "Danh từ",
+  "senses": [
+   {
+    "partOfSpeech": "Danh từ",
+    "meanings": [
+     {
+      "meaning": "nội thành, khu trung tâm thành phố",
+      "example": "市区的房子很贵。 (Shìqū de fángzi hěn guì.) – Nhà trong nội thành rất đắt."
+     }
+    ]
+   }
+  ],
+  "synonyms": [],
+  "usage": "Chỉ khu trung tâm/nội đô, đối lập 郊区."
  }
 }
