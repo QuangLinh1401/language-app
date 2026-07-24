@@ -33861,5 +33861,1239 @@
    }
   ],
   "usage": "Mang tân ngữ (利用时间/机会/资源); ngữ cảnh quyết định nghĩa tích cực hay tiêu cực."
+ },
+ "zh-numbers-time-98": {
+  "antonyms": [],
+  "characters": [
+   {
+    "char": "目",
+    "hanViet": "MỤC",
+    "radical": "目(bộ mục)",
+    "strokeCount": 5,
+    "componentMeaning": "mắt; trước mắt",
+    "pictographicOrigin": "Vẽ con mắt (dựng đứng) — nghĩa \"mắt, nhìn\"."
+   },
+   {
+    "char": "前",
+    "hanViet": "TIỀN",
+    "radical": "刂(bộ đao)",
+    "strokeCount": 9,
+    "componentMeaning": "phía trước",
+    "pictographicOrigin": "Vẽ bàn chân đi trên thuyền tiến tới — nghĩa \"phía trước, trước\"."
+   }
+  ],
+  "collocations": [],
+  "compounds": [
+   {
+    "word": "前面",
+    "pinyin": "qiánmiàn",
+    "meaning": "phía trước",
+    "example": "银行在前面。 (Yínháng zài qiánmiàn.) – Ngân hàng ở phía trước."
+   },
+   {
+    "word": "以前",
+    "pinyin": "yǐqián",
+    "meaning": "trước đây",
+    "example": "我以前住在河内。 (Wǒ yǐqián zhù zài Hénèi.) – Trước đây tôi sống ở Hà Nội."
+   }
+  ],
+  "distinguish": "",
+  "distinguishExample": "",
+  "grammarExample": "",
+  "grammarNote": "",
+  "image": "",
+  "mnemonic": "目(mắt) + 前(trước) = ngay \"trước mắt\" → hiện tại.",
+  "partOfSpeech": "Danh từ chỉ thời gian",
+  "senses": [
+   {
+    "partOfSpeech": "Danh từ",
+    "meanings": [
+     {
+      "meaning": "hiện nay, hiện tại, trước mắt",
+      "example": "目前一切都很顺利。 (Mùqián yíqiè dōu hěn shùnlì.) – Hiện tại mọi thứ đều thuận lợi."
+     }
+    ]
+   }
+  ],
+  "synonyms": [
+   {
+    "word": "现在",
+    "example": "现在几点？ (Xiànzài jǐ diǎn?) – Bây giờ mấy giờ?"
+   },
+   {
+    "word": "如今",
+    "example": "如今生活好多了。 (Rújīn shēnghuó hǎo duō le.) – Ngày nay cuộc sống tốt hơn nhiều."
+   }
+  ],
+  "usage": "Trang trọng hơn 现在; thường đứng đầu câu làm trạng ngữ thời gian."
+ },
+ "zh-numbers-time-99": {
+  "antonyms": [],
+  "characters": [
+   {
+    "char": "以",
+    "hanViet": "DĨ",
+    "radical": "人(bộ nhân)",
+    "strokeCount": 4,
+    "componentMeaning": "lấy, từ",
+    "pictographicOrigin": "Vốn vẽ người cầm vật — nghĩa \"lấy, dùng, từ\"."
+   },
+   {
+    "char": "来",
+    "hanViet": "LAI",
+    "radical": "木(bộ mộc)",
+    "strokeCount": 7,
+    "componentMeaning": "đến nay",
+    "pictographicOrigin": "Vẽ cây lúa mì, mượn làm \"đến\"."
+   }
+  ],
+  "collocations": [],
+  "compounds": [
+   {
+    "word": "以后",
+    "pinyin": "yǐhòu",
+    "meaning": "về sau",
+    "example": "以后再说吧。 (Yǐhòu zài shuō ba.) – Để sau nói tiếp."
+   },
+   {
+    "word": "从来",
+    "pinyin": "cónglái",
+    "meaning": "xưa nay",
+    "example": "我从来没去过。 (Wǒ cónglái méi qùguo.) – Tôi chưa từng đến."
+   }
+  ],
+  "distinguish": "",
+  "distinguishExample": "",
+  "grammarExample": "",
+  "grammarNote": "",
+  "image": "",
+  "mnemonic": "以(từ) + 来(đến nay) = tính \"từ mốc đó đến giờ\".",
+  "partOfSpeech": "Trợ từ thời gian",
+  "senses": [
+   {
+    "partOfSpeech": "Trợ từ",
+    "meanings": [
+     {
+      "meaning": "từ... đến nay (đặt sau mốc thời gian/sự kiện)",
+      "example": "入学以来，他一直很努力。 (Rùxué yǐlái, tā yìzhí hěn nǔlì.) – Từ khi nhập học đến nay, cậu ấy luôn nỗ lực."
+     }
+    ]
+   }
+  ],
+  "synonyms": [],
+  "usage": "Đặt SAU một mốc thời gian hoặc động từ (…以来); vế sau thường mô tả trạng thái kéo dài."
+ },
+ "zh-numbers-time-100": {
+  "antonyms": [],
+  "characters": [
+   {
+    "char": "从",
+    "hanViet": "TÙNG",
+    "radical": "人(bộ nhân)",
+    "strokeCount": 4,
+    "componentMeaning": "từ; theo",
+    "pictographicOrigin": "Hai người (人) nối nhau — một người theo sau người kia, nghĩa \"theo, từ\"."
+   },
+   {
+    "char": "来",
+    "hanViet": "LAI",
+    "radical": "木(bộ mộc)",
+    "strokeCount": 7,
+    "componentMeaning": "đến nay",
+    "pictographicOrigin": "Vẽ cây lúa mì, mượn nghĩa \"đến\"."
+   }
+  ],
+  "collocations": [],
+  "compounds": [
+   {
+    "word": "从前",
+    "pinyin": "cóngqián",
+    "meaning": "ngày xưa",
+    "example": "从前这里是森林。 (Cóngqián zhèlǐ shì sēnlín.) – Ngày xưa nơi đây là rừng."
+   },
+   {
+    "word": "从此",
+    "pinyin": "cóngcǐ",
+    "meaning": "từ đó về sau",
+    "example": "从此他们幸福地生活。 (Cóngcǐ tāmen xìngfú de shēnghuó.) – Từ đó họ sống hạnh phúc."
+   }
+  ],
+  "distinguish": "",
+  "distinguishExample": "",
+  "grammarExample": "",
+  "grammarNote": "",
+  "image": "",
+  "mnemonic": "从(từ) + 来(nay) = từ trước đến nay; hầu như luôn đi với 不/没.",
+  "partOfSpeech": "Phó từ",
+  "senses": [
+   {
+    "partOfSpeech": "Phó từ",
+    "meanings": [
+     {
+      "meaning": "xưa nay, từ trước đến giờ (thường dùng với phủ định 从来不/没)",
+      "example": "我从来不抽烟。 (Wǒ cónglái bù chōuyān.) – Tôi xưa nay không hút thuốc."
+     }
+    ]
+   }
+  ],
+  "synonyms": [
+   {
+    "word": "向来",
+    "example": "他向来准时。 (Tā xiànglái zhǔnshí.) – Anh ấy xưa nay luôn đúng giờ."
+   }
+  ],
+  "usage": "Đứng trước động từ, đa số dùng trong câu phủ định (从来不/从来没) để nhấn \"chưa từng bao giờ\"."
+ },
+ "zh-numbers-time-101": {
+  "antonyms": [],
+  "characters": [
+   {
+    "char": "按",
+    "hanViet": "ÁN",
+    "radical": "扌(bộ thủ)",
+    "strokeCount": 9,
+    "componentMeaning": "theo, dựa; ấn",
+    "pictographicOrigin": "Bộ 扌(tay) với 安 lấy âm — tay ấn xuống, suy ra \"theo, chiếu theo\"."
+   },
+   {
+    "char": "时",
+    "hanViet": "THỜI",
+    "radical": "日(bộ nhật)",
+    "strokeCount": 7,
+    "componentMeaning": "thời gian",
+    "pictographicOrigin": "Bộ 日(mặt trời) với 寸 — đo thời gian theo mặt trời, nghĩa \"giờ, thời\"."
+   }
+  ],
+  "collocations": [],
+  "compounds": [
+   {
+    "word": "按照",
+    "pinyin": "ànzhào",
+    "meaning": "theo, dựa theo",
+    "example": "按照说明去做。 (Ànzhào shuōmíng qù zuò.) – Làm theo hướng dẫn."
+   },
+   {
+    "word": "时间",
+    "pinyin": "shíjiān",
+    "meaning": "thời gian",
+    "example": "没有时间了。 (Méiyǒu shíjiān le.) – Hết thời gian rồi."
+   }
+  ],
+  "distinguish": "\"按时\" nhấn theo đúng lịch/hạn đã định (按时吃药); \"准时\" nhấn đúng khớp thời điểm (准时到).",
+  "distinguishExample": "按时吃药，准时上班。 (Ànshí chī yào, zhǔnshí shàngbān.) – Uống thuốc đúng giờ, đi làm đúng giờ.",
+  "grammarExample": "",
+  "grammarNote": "",
+  "image": "",
+  "mnemonic": "按(theo) + 时(giờ) = làm \"theo đúng giờ\" quy định.",
+  "partOfSpeech": "Phó từ",
+  "senses": [
+   {
+    "partOfSpeech": "Phó từ",
+    "meanings": [
+     {
+      "meaning": "đúng giờ, đúng hạn (theo thời gian quy định)",
+      "example": "请按时完成作业。 (Qǐng ànshí wánchéng zuòyè.) – Xin hoàn thành bài tập đúng hạn."
+     }
+    ]
+   }
+  ],
+  "synonyms": [
+   {
+    "word": "准时",
+    "example": "请准时到达。 (Qǐng zhǔnshí dàodá.) – Xin đến đúng giờ."
+   }
+  ],
+  "usage": "Đứng trước động từ; nhấn việc tuân theo lịch trình/thời hạn."
+ },
+ "zh-numbers-time-102": {
+  "antonyms": [],
+  "characters": [
+   {
+    "char": "准",
+    "hanViet": "CHUẨN",
+    "radical": "冫(bộ băng)",
+    "strokeCount": 10,
+    "componentMeaning": "chuẩn xác",
+    "pictographicOrigin": "Giản hóa từ 準 — nghĩa \"mực chuẩn, chính xác\"."
+   },
+   {
+    "char": "时",
+    "hanViet": "THỜI",
+    "radical": "日(bộ nhật)",
+    "strokeCount": 7,
+    "componentMeaning": "thời điểm",
+    "pictographicOrigin": "Bộ 日 với 寸 — đo thời gian, nghĩa \"giờ\"."
+   }
+  ],
+  "collocations": [],
+  "compounds": [
+   {
+    "word": "准备",
+    "pinyin": "zhǔnbèi",
+    "meaning": "chuẩn bị",
+    "example": "我在准备考试。 (Wǒ zài zhǔnbèi kǎoshì.) – Tôi đang chuẩn bị thi."
+   },
+   {
+    "word": "标准",
+    "pinyin": "biāozhǔn",
+    "meaning": "tiêu chuẩn",
+    "example": "她发音很标准。 (Tā fāyīn hěn biāozhǔn.) – Cô ấy phát âm rất chuẩn."
+   }
+  ],
+  "distinguish": "",
+  "distinguishExample": "",
+  "grammarExample": "",
+  "grammarNote": "",
+  "image": "",
+  "mnemonic": "准(chính xác) + 时(giờ) = khớp chính xác thời điểm → đúng giờ.",
+  "partOfSpeech": "Phó từ / Tính từ",
+  "senses": [
+   {
+    "partOfSpeech": "Phó từ",
+    "meanings": [
+     {
+      "meaning": "đúng giờ (khớp thời điểm hẹn)",
+      "example": "火车准时出发。 (Huǒchē zhǔnshí chūfā.) – Tàu xuất phát đúng giờ."
+     }
+    ]
+   }
+  ],
+  "synonyms": [
+   {
+    "word": "按时",
+    "example": "按时上课。 (Ànshí shàngkè.) – Vào lớp đúng giờ."
+   }
+  ],
+  "usage": "Đứng trước động từ (准时到/出发/上班); nhấn khớp đúng thời điểm hẹn."
+ },
+ "zh-numbers-time-103": {
+  "antonyms": [
+   {
+    "word": "推迟",
+    "example": "比赛推迟了。 (Bǐsài tuīchí le.) – Trận đấu bị hoãn lại."
+   }
+  ],
+  "characters": [
+   {
+    "char": "提",
+    "hanViet": "ĐỀ",
+    "radical": "扌(bộ thủ)",
+    "strokeCount": 12,
+    "componentMeaning": "nâng, đưa lên",
+    "pictographicOrigin": "Bộ 扌(tay) với 是 lấy âm — tay nhấc lên, nghĩa \"nâng, nêu\"."
+   },
+   {
+    "char": "前",
+    "hanViet": "TIỀN",
+    "radical": "刂(bộ đao)",
+    "strokeCount": 9,
+    "componentMeaning": "trước",
+    "pictographicOrigin": "Bàn chân tiến tới trên thuyền — nghĩa \"phía trước, trước\"."
+   }
+  ],
+  "collocations": [],
+  "compounds": [
+   {
+    "word": "提高",
+    "pinyin": "tígāo",
+    "meaning": "nâng cao",
+    "example": "提高效率。 (Tígāo xiàolǜ.) – Nâng cao hiệu suất."
+   },
+   {
+    "word": "提醒",
+    "pinyin": "tíxǐng",
+    "meaning": "nhắc nhở",
+    "example": "提醒我明天开会。 (Tíxǐng wǒ míngtiān kāihuì.) – Nhắc tôi mai họp."
+   }
+  ],
+  "distinguish": "",
+  "distinguishExample": "",
+  "grammarExample": "",
+  "grammarNote": "",
+  "image": "",
+  "mnemonic": "提(đưa lên) + 前(trước) = đưa lên trước → làm sớm hơn.",
+  "partOfSpeech": "Động từ / Phó từ",
+  "senses": [
+   {
+    "partOfSpeech": "Động từ",
+    "meanings": [
+     {
+      "meaning": "làm sớm hơn dự kiến, đưa lên trước",
+      "example": "会议提前了。 (Huìyì tíqián le.) – Cuộc họp được dời lên sớm hơn."
+     }
+    ]
+   },
+   {
+    "partOfSpeech": "Phó từ",
+    "meanings": [
+     {
+      "meaning": "trước (một khoảng thời gian)",
+      "example": "请提前十分钟到。 (Qǐng tíqián shí fēnzhōng dào.) – Xin đến sớm mười phút."
+     }
+    ]
+   }
+  ],
+  "synonyms": [],
+  "usage": "Làm động từ (时间提前) hoặc phó từ chỉ mức sớm (提前 + số lượng thời gian + động từ)."
+ },
+ "zh-numbers-time-104": {
+  "antonyms": [],
+  "characters": [
+   {
+    "char": "忽",
+    "hanViet": "HỐT",
+    "radical": "心(bộ tâm)",
+    "strokeCount": 8,
+    "componentMeaning": "bỗng, chợt",
+    "pictographicOrigin": "Bộ 心(tim) với 勿 lấy âm — trong lòng chợt nảy, nghĩa \"bỗng, lơ là\"."
+   },
+   {
+    "char": "然",
+    "hanViet": "NHIÊN",
+    "radical": "灬(bộ hỏa)",
+    "strokeCount": 12,
+    "componentMeaning": "như thế",
+    "pictographicOrigin": "Vốn nghĩa \"đốt cháy\", mượn làm hư từ \"như vậy\"."
+   }
+  ],
+  "collocations": [],
+  "compounds": [
+   {
+    "word": "忽视",
+    "pinyin": "hūshì",
+    "meaning": "xem nhẹ, lơ là",
+    "example": "别忽视小问题。 (Bié hūshì xiǎo wèntí.) – Đừng xem nhẹ vấn đề nhỏ."
+   },
+   {
+    "word": "突然",
+    "pinyin": "tūrán",
+    "meaning": "đột nhiên",
+    "example": "他突然笑了。 (Tā tūrán xiào le.) – Anh ấy bỗng cười."
+   }
+  ],
+  "distinguish": "\"忽然\" và \"突然\" gần nghĩa; \"突然\" còn làm tính từ (很突然), \"忽然\" chủ yếu làm phó từ.",
+  "distinguishExample": "这件事太突然了。 (Zhè jiàn shì tài tūrán le.) – Việc này quá đột ngột.",
+  "grammarExample": "",
+  "grammarNote": "",
+  "image": "",
+  "mnemonic": "忽(chợt) + 然(vậy) = chợt xảy ra → đột nhiên.",
+  "partOfSpeech": "Phó từ",
+  "senses": [
+   {
+    "partOfSpeech": "Phó từ",
+    "meanings": [
+     {
+      "meaning": "đột nhiên, bỗng nhiên",
+      "example": "天忽然下起雨来。 (Tiān hūrán xià qǐ yǔ lái.) – Trời bỗng nhiên đổ mưa."
+     }
+    ]
+   }
+  ],
+  "synonyms": [
+   {
+    "word": "突然",
+    "example": "突然停电了。 (Tūrán tíngdiàn le.) – Bỗng mất điện."
+   }
+  ],
+  "usage": "Đứng trước động từ/mệnh đề, diễn tả sự việc xảy ra bất ngờ."
+ },
+ "zh-numbers-time-105": {
+  "antonyms": [],
+  "characters": [
+   {
+    "char": "逐",
+    "hanViet": "TRỤC",
+    "radical": "辶(bộ sước)",
+    "strokeCount": 10,
+    "componentMeaning": "lần lượt, đuổi theo",
+    "pictographicOrigin": "Bộ 辶(đi) với 豕(lợn) — đuổi theo con vật, nghĩa \"đuổi; lần lượt\"."
+   },
+   {
+    "char": "渐",
+    "hanViet": "TIỆM",
+    "radical": "氵(bộ thủy)",
+    "strokeCount": 11,
+    "componentMeaning": "dần dần",
+    "pictographicOrigin": "Bộ 氵(nước) với 斩 lấy âm — nước thấm dần, nghĩa \"từ từ\"."
+   }
+  ],
+  "collocations": [],
+  "compounds": [
+   {
+    "word": "逐步",
+    "pinyin": "zhúbù",
+    "meaning": "từng bước",
+    "example": "问题逐步解决了。 (Wèntí zhúbù jiějué le.) – Vấn đề dần được giải quyết từng bước."
+   },
+   {
+    "word": "渐渐",
+    "pinyin": "jiànjiàn",
+    "meaning": "dần dần",
+    "example": "雨渐渐停了。 (Yǔ jiànjiàn tíng le.) – Mưa dần tạnh."
+   }
+  ],
+  "distinguish": "",
+  "distinguishExample": "",
+  "grammarExample": "",
+  "grammarNote": "",
+  "image": "",
+  "mnemonic": "逐(lần lượt) + 渐(từ từ) = biến đổi từng chút → dần dần.",
+  "partOfSpeech": "Phó từ",
+  "senses": [
+   {
+    "partOfSpeech": "Phó từ",
+    "meanings": [
+     {
+      "meaning": "dần dần, từ từ (biến đổi theo thời gian)",
+      "example": "天气逐渐冷了。 (Tiānqì zhújiàn lěng le.) – Thời tiết dần lạnh đi."
+     }
+    ]
+   }
+  ],
+  "synonyms": [
+   {
+    "word": "渐渐",
+    "example": "天渐渐黑了。 (Tiān jiànjiàn hēi le.) – Trời dần tối."
+   }
+  ],
+  "usage": "Đứng trước động từ/tính từ chỉ quá trình biến đổi; văn viết hơn 慢慢."
+ },
+ "zh-numbers-time-106": {
+  "antonyms": [
+   {
+    "word": "永远",
+    "example": "我永远记得你。 (Wǒ yǒngyuǎn jìde nǐ.) – Tôi mãi nhớ bạn."
+   }
+  ],
+  "characters": [
+   {
+    "char": "暂",
+    "hanViet": "TẠM",
+    "radical": "日(bộ nhật)",
+    "strokeCount": 12,
+    "componentMeaning": "tạm, ngắn ngủi",
+    "pictographicOrigin": "Bộ 日(thời gian) với 斩 lấy âm — chỉ khoảng thời gian ngắn, nghĩa \"tạm thời\"."
+   },
+   {
+    "char": "时",
+    "hanViet": "THỜI",
+    "radical": "日(bộ nhật)",
+    "strokeCount": 7,
+    "componentMeaning": "thời gian",
+    "pictographicOrigin": "Bộ 日 với 寸 — nghĩa \"giờ, thời\"."
+   }
+  ],
+  "collocations": [],
+  "compounds": [
+   {
+    "word": "暂停",
+    "pinyin": "zàntíng",
+    "meaning": "tạm dừng",
+    "example": "比赛暂停了。 (Bǐsài zàntíng le.) – Trận đấu tạm dừng."
+   },
+   {
+    "word": "临时",
+    "pinyin": "línshí",
+    "meaning": "tạm thời, đột xuất",
+    "example": "这是临时决定。 (Zhè shì línshí juédìng.) – Đây là quyết định đột xuất."
+   }
+  ],
+  "distinguish": "",
+  "distinguishExample": "",
+  "grammarExample": "",
+  "grammarNote": "",
+  "image": "",
+  "mnemonic": "暂(ngắn ngủi) + 时(thời) = trong thời gian ngắn → tạm thời.",
+  "partOfSpeech": "Phó từ / Tính từ",
+  "senses": [
+   {
+    "partOfSpeech": "Tính từ",
+    "meanings": [
+     {
+      "meaning": "tạm thời, trong chốc lát",
+      "example": "我暂时住在朋友家。 (Wǒ zànshí zhù zài péngyou jiā.) – Tôi tạm ở nhà bạn."
+     }
+    ]
+   }
+  ],
+  "synonyms": [],
+  "usage": "Đứng trước động từ (暂时不用/暂时住) hoặc bổ nghĩa trạng thái; nhấn tính chất chưa lâu dài."
+ },
+ "zh-numbers-time-107": {
+  "antonyms": [],
+  "characters": [
+   {
+    "char": "周",
+    "hanViet": "CHU",
+    "radical": "口(bộ khẩu)",
+    "strokeCount": 8,
+    "componentMeaning": "vòng quanh; tuần",
+    "pictographicOrigin": "Vốn vẽ ruộng trồng dày kín — nghĩa \"khắp, vòng quanh\"."
+   },
+   {
+    "char": "围",
+    "hanViet": "VI",
+    "radical": "囗(bộ vi)",
+    "strokeCount": 7,
+    "componentMeaning": "vây quanh",
+    "pictographicOrigin": "Bộ 囗(vòng vây) với 韦 lấy âm — nghĩa \"vây, bao quanh\"."
+   }
+  ],
+  "collocations": [],
+  "compounds": [
+   {
+    "word": "周末",
+    "pinyin": "zhōumò",
+    "meaning": "cuối tuần",
+    "example": "周末去公园。 (Zhōumò qù gōngyuán.) – Cuối tuần đi công viên."
+   },
+   {
+    "word": "围巾",
+    "pinyin": "wéijīn",
+    "meaning": "khăn quàng",
+    "example": "冬天要戴围巾。 (Dōngtiān yào dài wéijīn.) – Mùa đông phải quàng khăn."
+   }
+  ],
+  "distinguish": "\"周围\" chỉ vùng bao quanh một điểm/vật; \"附近\" chỉ khu vực lân cận, gần đó nói chung.",
+  "distinguishExample": "房子周围是树，附近有一家医院。 (Fángzi zhōuwéi shì shù, fùjìn yǒu yì jiā yīyuàn.) – Quanh nhà là cây, gần đó có một bệnh viện.",
+  "grammarExample": "",
+  "grammarNote": "",
+  "image": "",
+  "mnemonic": "周(vòng) + 围(vây) = vây thành vòng → xung quanh.",
+  "partOfSpeech": "Danh từ vị trí",
+  "senses": [
+   {
+    "partOfSpeech": "Danh từ",
+    "meanings": [
+     {
+      "meaning": "xung quanh, chung quanh",
+      "example": "学校周围有很多商店。 (Xuéxiào zhōuwéi yǒu hěn duō shāngdiàn.) – Xung quanh trường có nhiều cửa hàng."
+     }
+    ]
+   }
+  ],
+  "synonyms": [
+   {
+    "word": "附近",
+    "example": "附近有超市吗？ (Fùjìn yǒu chāoshì ma?) – Gần đây có siêu thị không?"
+   }
+  ],
+  "usage": "Làm danh từ vị trí, đứng sau đối tượng (…的周围) hoặc trước 有/是."
+ },
+ "zh-numbers-time-108": {
+  "antonyms": [],
+  "characters": [
+   {
+    "char": "阶",
+    "hanViet": "GIAI",
+    "radical": "阝(bộ phụ)",
+    "strokeCount": 6,
+    "componentMeaning": "bậc thang",
+    "pictographicOrigin": "Bộ 阝(gò đất) với 介 lấy âm — bậc thềm trên gò, nghĩa \"bậc, cấp\"."
+   },
+   {
+    "char": "段",
+    "hanViet": "ĐOẠN",
+    "radical": "殳(bộ thù)",
+    "strokeCount": 9,
+    "componentMeaning": "đoạn, khúc",
+    "pictographicOrigin": "Vẽ tay cầm dùi đục đá thành khúc — nghĩa \"đoạn, khúc\"."
+   }
+  ],
+  "collocations": [],
+  "compounds": [
+   {
+    "word": "段",
+    "pinyin": "duàn",
+    "meaning": "đoạn (lượng từ)",
+    "example": "这段话很重要。 (Zhè duàn huà hěn zhòngyào.) – Đoạn này rất quan trọng."
+   },
+   {
+    "word": "阶级",
+    "pinyin": "jiējí",
+    "meaning": "giai cấp",
+    "example": "社会分不同阶级。 (Shèhuì fēn bùtóng jiējí.) – Xã hội chia thành các giai cấp khác nhau."
+   }
+  ],
+  "distinguish": "",
+  "distinguishExample": "",
+  "grammarExample": "",
+  "grammarNote": "",
+  "image": "",
+  "mnemonic": "阶(bậc) + 段(khúc) = từng bậc từng khúc → giai đoạn.",
+  "partOfSpeech": "Danh từ",
+  "senses": [
+   {
+    "partOfSpeech": "Danh từ",
+    "meanings": [
+     {
+      "meaning": "giai đoạn, chặng",
+      "example": "现在是最关键的阶段。 (Xiànzài shì zuì guānjiàn de jiēduàn.) – Bây giờ là giai đoạn then chốt nhất."
+     }
+    ]
+   }
+  ],
+  "synonyms": [
+   {
+    "word": "时期",
+    "example": "这是重要时期。 (Zhè shì zhòngyào shíqī.) – Đây là thời kỳ quan trọng."
+   }
+  ],
+  "usage": "Chỉ một chặng trong quá trình; hay đi với 这个/那个/第一 + 阶段."
+ },
+ "zh-numbers-time-109": {
+  "antonyms": [
+   {
+    "word": "过去",
+    "example": "过去的事别想了。 (Guòqù de shì bié xiǎng le.) – Chuyện quá khứ đừng nghĩ nữa."
+   }
+  ],
+  "characters": [
+   {
+    "char": "未",
+    "hanViet": "VỊ",
+    "radical": "木(bộ mộc)",
+    "strokeCount": 5,
+    "componentMeaning": "chưa",
+    "pictographicOrigin": "Vẽ ngọn cây còn non chưa lớn — nghĩa \"chưa, chưa tới\"."
+   },
+   {
+    "char": "来",
+    "hanViet": "LAI",
+    "radical": "木(bộ mộc)",
+    "strokeCount": 7,
+    "componentMeaning": "tới",
+    "pictographicOrigin": "Vẽ cây lúa mì, mượn nghĩa \"đến\"."
+   }
+  ],
+  "collocations": [],
+  "compounds": [
+   {
+    "word": "将来",
+    "pinyin": "jiānglái",
+    "meaning": "tương lai",
+    "example": "你将来想做什么？ (Nǐ jiānglái xiǎng zuò shénme?) – Sau này bạn muốn làm gì?"
+   },
+   {
+    "word": "未必",
+    "pinyin": "wèibì",
+    "meaning": "chưa chắc",
+    "example": "他未必会来。 (Tā wèibì huì lái.) – Chưa chắc anh ấy đến."
+   }
+  ],
+  "distinguish": "",
+  "distinguishExample": "",
+  "grammarExample": "",
+  "grammarNote": "",
+  "image": "",
+  "mnemonic": "未(chưa) + 来(tới) = thời gian \"chưa tới\" → tương lai.",
+  "partOfSpeech": "Danh từ chỉ thời gian",
+  "senses": [
+   {
+    "partOfSpeech": "Danh từ",
+    "meanings": [
+     {
+      "meaning": "tương lai, sau này",
+      "example": "我对未来充满希望。 (Wǒ duì wèilái chōngmǎn xīwàng.) – Tôi tràn đầy hy vọng vào tương lai."
+     }
+    ]
+   }
+  ],
+  "synonyms": [],
+  "usage": "Danh từ trừu tượng; hay đi với 对未来/未来的 + danh từ."
+ },
+ "zh-numbers-time-110": {
+  "antonyms": [],
+  "characters": [
+   {
+    "char": "如",
+    "hanViet": "NHƯ",
+    "radical": "女(bộ nữ)",
+    "strokeCount": 6,
+    "componentMeaning": "như, theo",
+    "pictographicOrigin": "Bộ 女(nữ) với 口(miệng) — nghe theo lời, nghĩa \"như, theo\"."
+   },
+   {
+    "char": "今",
+    "hanViet": "KIM",
+    "radical": "人(bộ nhân)",
+    "strokeCount": 4,
+    "componentMeaning": "nay, hiện tại",
+    "pictographicOrigin": "Vẽ miệng ngậm vật ngay lúc này — nghĩa \"nay, hiện tại\"."
+   }
+  ],
+  "collocations": [],
+  "compounds": [
+   {
+    "word": "今天",
+    "pinyin": "jīntiān",
+    "meaning": "hôm nay",
+    "example": "今天天气很好。 (Jīntiān tiānqì hěn hǎo.) – Hôm nay trời đẹp."
+   },
+   {
+    "word": "如果",
+    "pinyin": "rúguǒ",
+    "meaning": "nếu như",
+    "example": "如果下雨我就不去。 (Rúguǒ xiàyǔ wǒ jiù bú qù.) – Nếu mưa thì tôi không đi."
+   }
+  ],
+  "distinguish": "",
+  "distinguishExample": "",
+  "grammarExample": "",
+  "grammarNote": "",
+  "image": "",
+  "mnemonic": "如(theo tới) + 今(nay) = tính đến \"nay\" → ngày nay.",
+  "partOfSpeech": "Danh từ chỉ thời gian",
+  "senses": [
+   {
+    "partOfSpeech": "Danh từ",
+    "meanings": [
+     {
+      "meaning": "ngày nay, hiện nay (đối chiếu với quá khứ)",
+      "example": "如今生活越来越好。 (Rújīn shēnghuó yuèláiyuè hǎo.) – Ngày nay cuộc sống ngày càng tốt."
+     }
+    ]
+   }
+  ],
+  "synonyms": [
+   {
+    "word": "目前",
+    "example": "目前一切正常。 (Mùqián yíqiè zhèngcháng.) – Hiện tại mọi thứ bình thường."
+   }
+  ],
+  "usage": "Văn viết, thường mở đầu câu đối chiếu nay với xưa (如今…, 过去…)."
+ },
+ "zh-family-people-72": {
+  "antonyms": [],
+  "characters": [
+   {
+    "char": "对",
+    "hanViet": "ĐỐI",
+    "radical": "寸(bộ thốn)",
+    "strokeCount": 5,
+    "componentMeaning": "đối diện, bên kia",
+    "pictographicOrigin": "Giản hóa từ 對 — nghĩa \"đối diện, đáp lại\"."
+   },
+   {
+    "char": "方",
+    "hanViet": "PHƯƠNG",
+    "radical": "方(bộ phương)",
+    "strokeCount": 4,
+    "componentMeaning": "bên, phía",
+    "pictographicOrigin": "Vẽ lưỡi cày/thuyền ghép — nghĩa \"phương hướng, bên\"."
+   }
+  ],
+  "collocations": [],
+  "compounds": [
+   {
+    "word": "双方",
+    "pinyin": "shuāngfāng",
+    "meaning": "hai bên",
+    "example": "双方都同意了。 (Shuāngfāng dōu tóngyì le.) – Cả hai bên đều đồng ý."
+   },
+   {
+    "word": "对面",
+    "pinyin": "duìmiàn",
+    "meaning": "đối diện",
+    "example": "银行在对面。 (Yínháng zài duìmiàn.) – Ngân hàng ở đối diện."
+   }
+  ],
+  "distinguish": "",
+  "distinguishExample": "",
+  "grammarExample": "",
+  "grammarNote": "",
+  "image": "",
+  "mnemonic": "对(đối diện) + 方(bên) = bên đối diện → đối phương.",
+  "partOfSpeech": "Danh từ",
+  "senses": [
+   {
+    "partOfSpeech": "Danh từ",
+    "meanings": [
+     {
+      "meaning": "đối phương, bên kia (trong giao tiếp/đối thoại)",
+      "example": "要多为对方着想。 (Yào duō wèi duìfāng zhuóxiǎng.) – Phải nghĩ nhiều cho đối phương."
+     }
+    ]
+   }
+  ],
+  "synonyms": [],
+  "usage": "Chỉ phía bên kia trong tương tác (đàm phán, thi đấu, giao tiếp)."
+ },
+ "zh-family-people-73": {
+  "antonyms": [],
+  "characters": [
+   {
+    "char": "双",
+    "hanViet": "SONG",
+    "radical": "又(bộ hựu)",
+    "strokeCount": 4,
+    "componentMeaning": "đôi, hai",
+    "pictographicOrigin": "Hai bàn tay (又) — nghĩa \"đôi, cặp\"."
+   },
+   {
+    "char": "方",
+    "hanViet": "PHƯƠNG",
+    "radical": "方(bộ phương)",
+    "strokeCount": 4,
+    "componentMeaning": "bên, phía",
+    "pictographicOrigin": "Vẽ lưỡi cày — nghĩa \"phương, bên\"."
+   }
+  ],
+  "collocations": [],
+  "compounds": [
+   {
+    "word": "双",
+    "pinyin": "shuāng",
+    "meaning": "đôi (lượng từ)",
+    "example": "一双鞋。 (Yì shuāng xié.) – Một đôi giày."
+   },
+   {
+    "word": "方面",
+    "pinyin": "fāngmiàn",
+    "meaning": "phương diện",
+    "example": "这方面我不太懂。 (Zhè fāngmiàn wǒ bú tài dǒng.) – Mảng này tôi không rành."
+   }
+  ],
+  "distinguish": "",
+  "distinguishExample": "",
+  "grammarExample": "",
+  "grammarNote": "",
+  "image": "",
+  "mnemonic": "双(đôi) + 方(bên) = hai bên.",
+  "partOfSpeech": "Danh từ",
+  "senses": [
+   {
+    "partOfSpeech": "Danh từ",
+    "meanings": [
+     {
+      "meaning": "hai bên, đôi bên",
+      "example": "这件事对双方都有好处。 (Zhè jiàn shì duì shuāngfāng dōu yǒu hǎochù.) – Việc này có lợi cho cả hai bên."
+     }
+    ]
+   }
+  ],
+  "synonyms": [],
+  "usage": "Chỉ cả hai phía cùng lúc (双方同意/合作); thường trong ngữ cảnh thỏa thuận, quan hệ."
+ },
+ "zh-family-people-74": {
+  "antonyms": [
+   {
+    "word": "儿童",
+    "example": "这是儿童乐园。 (Zhè shì értóng lèyuán.) – Đây là khu vui chơi trẻ em."
+   }
+  ],
+  "characters": [
+   {
+    "char": "成",
+    "hanViet": "THÀNH",
+    "radical": "戈(bộ qua)",
+    "strokeCount": 6,
+    "componentMeaning": "thành, nên",
+    "pictographicOrigin": "Bộ 戈(vũ khí) — hoàn thành việc, nghĩa \"thành, xong\"."
+   },
+   {
+    "char": "人",
+    "hanViet": "NHÂN",
+    "radical": "人(bộ nhân)",
+    "strokeCount": 2,
+    "componentMeaning": "người",
+    "pictographicOrigin": "Vẽ dáng người đứng nghiêng — nghĩa \"người\"."
+   }
+  ],
+  "collocations": [],
+  "compounds": [
+   {
+    "word": "成年",
+    "pinyin": "chéngnián",
+    "meaning": "trưởng thành (đủ tuổi)",
+    "example": "他还没成年。 (Tā hái méi chéngnián.) – Cậu ấy chưa đủ tuổi trưởng thành."
+   },
+   {
+    "word": "成功",
+    "pinyin": "chénggōng",
+    "meaning": "thành công",
+    "example": "祝你成功！ (Zhù nǐ chénggōng!) – Chúc bạn thành công!"
+   }
+  ],
+  "distinguish": "",
+  "distinguishExample": "",
+  "grammarExample": "",
+  "grammarNote": "",
+  "image": "",
+  "mnemonic": "成(đã thành) + 人 = người đã trưởng thành.",
+  "partOfSpeech": "Danh từ",
+  "senses": [
+   {
+    "partOfSpeech": "Danh từ",
+    "meanings": [
+     {
+      "meaning": "người trưởng thành, người lớn",
+      "example": "这部电影只适合成人看。 (Zhè bù diànyǐng zhǐ shìhé chéngrén kàn.) – Phim này chỉ phù hợp cho người lớn xem."
+     }
+    ]
+   }
+  ],
+  "synonyms": [],
+  "usage": "Chỉ người đủ tuổi/đã lớn; đối lập với 儿童/未成年人."
+ },
+ "zh-family-people-75": {
+  "antonyms": [],
+  "characters": [
+   {
+    "char": "青",
+    "hanViet": "THANH",
+    "radical": "青(bộ thanh)",
+    "strokeCount": 8,
+    "componentMeaning": "xanh; trẻ",
+    "pictographicOrigin": "Mầm cây (生) trên khoáng vật xanh (丹) — nghĩa \"xanh, tươi trẻ\"."
+   },
+   {
+    "char": "年",
+    "hanViet": "NIÊN",
+    "radical": "干(bộ can)",
+    "strokeCount": 6,
+    "componentMeaning": "năm, tuổi",
+    "pictographicOrigin": "Vẽ người gánh lúa chín — một vụ là một \"năm\"."
+   }
+  ],
+  "collocations": [],
+  "compounds": [
+   {
+    "word": "青春",
+    "pinyin": "qīngchūn",
+    "meaning": "tuổi thanh xuân",
+    "example": "珍惜青春。 (Zhēnxī qīngchūn.) – Trân trọng tuổi thanh xuân."
+   },
+   {
+    "word": "年轻",
+    "pinyin": "niánqīng",
+    "meaning": "trẻ",
+    "example": "她还很年轻。 (Tā hái hěn niánqīng.) – Cô ấy vẫn còn trẻ."
+   }
+  ],
+  "distinguish": "",
+  "distinguishExample": "",
+  "grammarExample": "",
+  "grammarNote": "",
+  "image": "",
+  "mnemonic": "青(tươi trẻ) + 年(tuổi) = tuổi tươi trẻ → thanh niên.",
+  "partOfSpeech": "Danh từ",
+  "senses": [
+   {
+    "partOfSpeech": "Danh từ",
+    "meanings": [
+     {
+      "meaning": "thanh niên, người trẻ tuổi",
+      "example": "青年应该多学习。 (Qīngnián yīnggāi duō xuéxí.) – Thanh niên nên học nhiều."
+     }
+    ]
+   }
+  ],
+  "synonyms": [
+   {
+    "word": "年轻人",
+    "example": "年轻人喜欢新事物。 (Niánqīngrén xǐhuan xīn shìwù.) – Người trẻ thích cái mới."
+   }
+  ],
+  "usage": "Chỉ nhóm người trẻ (thường 15–35 tuổi); trang trọng hơn 年轻人."
+ },
+ "zh-family-people-76": {
+  "antonyms": [
+   {
+    "word": "年轻人",
+    "example": "年轻人精力充沛。 (Niánqīngrén jīnglì chōngpèi.) – Người trẻ tràn đầy năng lượng."
+   }
+  ],
+  "characters": [
+   {
+    "char": "老",
+    "hanViet": "LÃO",
+    "radical": "老(bộ lão)",
+    "strokeCount": 6,
+    "componentMeaning": "già",
+    "pictographicOrigin": "Vẽ người tóc dài chống gậy — nghĩa \"già, lâu năm\"."
+   },
+   {
+    "char": "年",
+    "hanViet": "NIÊN",
+    "radical": "干(bộ can)",
+    "strokeCount": 6,
+    "componentMeaning": "tuổi",
+    "pictographicOrigin": "Người gánh lúa chín — nghĩa \"năm, tuổi\"."
+   },
+   {
+    "char": "人",
+    "hanViet": "NHÂN",
+    "radical": "人(bộ nhân)",
+    "strokeCount": 2,
+    "componentMeaning": "người",
+    "pictographicOrigin": "Dáng người đứng — nghĩa \"người\"."
+   }
+  ],
+  "collocations": [],
+  "compounds": [
+   {
+    "word": "老人",
+    "pinyin": "lǎorén",
+    "meaning": "người già",
+    "example": "要给老人让座。 (Yào gěi lǎorén ràngzuò.) – Phải nhường ghế cho người già."
+   },
+   {
+    "word": "中年",
+    "pinyin": "zhōngnián",
+    "meaning": "trung niên",
+    "example": "他已经是中年人了。 (Tā yǐjīng shì zhōngniánrén le.) – Anh ấy đã là người trung niên."
+   }
+  ],
+  "distinguish": "",
+  "distinguishExample": "",
+  "grammarExample": "",
+  "grammarNote": "",
+  "image": "",
+  "mnemonic": "老年(tuổi già) + 人 = người tuổi già.",
+  "partOfSpeech": "Danh từ",
+  "senses": [
+   {
+    "partOfSpeech": "Danh từ",
+    "meanings": [
+     {
+      "meaning": "người già, người cao tuổi",
+      "example": "我们要照顾老年人。 (Wǒmen yào zhàogù lǎoniánrén.) – Chúng ta phải chăm sóc người già."
+     }
+    ]
+   }
+  ],
+  "synonyms": [],
+  "usage": "Cách gọi lịch sự cho người cao tuổi; dùng nhiều trong văn phúc lợi xã hội."
+ },
+ "zh-family-people-77": {
+  "antonyms": [
+   {
+    "word": "熟人",
+    "example": "路上遇到一个熟人。 (Lù shàng yùdào yí ge shúrén.) – Gặp một người quen trên đường."
+   }
+  ],
+  "characters": [
+   {
+    "char": "陌",
+    "hanViet": "MẠCH",
+    "radical": "阝(bộ phụ)",
+    "strokeCount": 9,
+    "componentMeaning": "xa lạ; bờ ruộng",
+    "pictographicOrigin": "Bộ 阝(gò/đường) với 百 — vốn là lối bờ ruộng, suy ra \"xa lạ\" trong 陌生."
+   },
+   {
+    "char": "生",
+    "hanViet": "SINH",
+    "radical": "生(bộ sinh)",
+    "strokeCount": 5,
+    "componentMeaning": "lạ, chưa quen",
+    "pictographicOrigin": "Vẽ mầm cây mọc lên khỏi đất — nghĩa \"sinh ra\"; trong 陌生 nghĩa \"chưa quen\"."
+   },
+   {
+    "char": "人",
+    "hanViet": "NHÂN",
+    "radical": "人(bộ nhân)",
+    "strokeCount": 2,
+    "componentMeaning": "người",
+    "pictographicOrigin": "Dáng người — nghĩa \"người\"."
+   }
+  ],
+  "collocations": [],
+  "compounds": [
+   {
+    "word": "陌生",
+    "pinyin": "mòshēng",
+    "meaning": "xa lạ",
+    "example": "这是一个陌生的地方。 (Zhè shì yí ge mòshēng de dìfang.) – Đây là nơi xa lạ."
+   },
+   {
+    "word": "生人",
+    "pinyin": "shēngrén",
+    "meaning": "người lạ (khẩu ngữ)",
+    "example": "孩子怕生人。 (Háizi pà shēngrén.) – Trẻ con sợ người lạ."
+   }
+  ],
+  "distinguish": "",
+  "distinguishExample": "",
+  "grammarExample": "",
+  "grammarNote": "",
+  "image": "",
+  "mnemonic": "陌生(xa lạ) + 人 = người xa lạ.",
+  "partOfSpeech": "Danh từ",
+  "senses": [
+   {
+    "partOfSpeech": "Danh từ",
+    "meanings": [
+     {
+      "meaning": "người lạ, người không quen",
+      "example": "别跟陌生人走。 (Bié gēn mòshēngrén zǒu.) – Đừng đi theo người lạ."
+     }
+    ]
+   }
+  ],
+  "synonyms": [],
+  "usage": "Chỉ người chưa quen biết; hay dùng trong lời dặn an toàn."
+ },
+ "zh-family-people-78": {
+  "antonyms": [],
+  "characters": [
+   {
+    "char": "人",
+    "hanViet": "NHÂN",
+    "radical": "人(bộ nhân)",
+    "strokeCount": 2,
+    "componentMeaning": "người",
+    "pictographicOrigin": "Dáng người đứng nghiêng — nghĩa \"người\"."
+   },
+   {
+    "char": "类",
+    "hanViet": "LOẠI",
+    "radical": "米(bộ mễ)",
+    "strokeCount": 9,
+    "componentMeaning": "loài, loại",
+    "pictographicOrigin": "Giản hóa từ 類 — nghĩa \"loài, chủng loại\"."
+   }
+  ],
+  "collocations": [],
+  "compounds": [
+   {
+    "word": "种类",
+    "pinyin": "zhǒnglèi",
+    "meaning": "chủng loại",
+    "example": "水果的种类很多。 (Shuǐguǒ de zhǒnglèi hěn duō.) – Trái cây có nhiều loại."
+   },
+   {
+    "word": "分类",
+    "pinyin": "fēnlèi",
+    "meaning": "phân loại",
+    "example": "垃圾要分类。 (Lājī yào fēnlèi.) – Rác phải phân loại."
+   }
+  ],
+  "distinguish": "",
+  "distinguishExample": "",
+  "grammarExample": "",
+  "grammarNote": "",
+  "image": "",
+  "mnemonic": "人(người) + 类(loài) = loài người → nhân loại.",
+  "partOfSpeech": "Danh từ",
+  "senses": [
+   {
+    "partOfSpeech": "Danh từ",
+    "meanings": [
+     {
+      "meaning": "nhân loại, loài người",
+      "example": "科技改变了人类的生活。 (Kējì gǎibiàn le rénlèi de shēnghuó.) – Công nghệ đã thay đổi cuộc sống của nhân loại."
+     }
+    ]
+   }
+  ],
+  "synonyms": [
+   {
+    "word": "人们",
+    "example": "人们都喜欢春天。 (Rénmen dōu xǐhuan chūntiān.) – Người ta ai cũng thích mùa xuân."
+   }
+  ],
+  "usage": "Chỉ loài người nói chung; trang trọng, dùng trong ngữ cảnh khoa học/xã hội."
  }
 }
