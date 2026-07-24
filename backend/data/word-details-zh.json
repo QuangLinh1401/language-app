@@ -1,4 +1,1896 @@
 {
+ "zh-adjectives-1": {
+  "antonyms": [
+   {
+    "example": "见分辨\"小\"。",
+    "word": "小"
+   }
+  ],
+  "characters": [
+   {
+    "char": "大",
+    "componentMeaning": "",
+    "hanViet": "ĐẠI",
+    "pictographicOrigin": "Chữ giáp cốt vẽ hình một người dang rộng hai tay hai chân — hình ảnh to lớn nhất có thể vẽ.",
+    "radical": "大(bộ đại)",
+    "strokeCount": 3
+   }
+  ],
+  "collocations": [],
+  "compounds": [],
+  "distinguish": "",
+  "distinguishExample": "",
+  "grammarExample": "",
+  "grammarNote": "",
+  "image": "🐘",
+  "mnemonic": "大 trông như một người dang rộng hai tay hai chân — hình ảnh TO LỚN nhất có thể vẽ.",
+  "partOfSpeech": "Tính từ",
+  "senses": [
+   {
+    "meanings": [
+     {
+      "example": "这是一个大房子。 (Zhè shì yí ge dà fángzi.) – Đây là một ngôi nhà lớn.",
+      "meaning": "to, lớn"
+     }
+    ],
+    "partOfSpeech": "Tính từ"
+   }
+  ],
+  "synonyms": [],
+  "usage": ""
+ },
+ "zh-adjectives-10": {
+  "antonyms": [
+   {
+    "example": "见分辨\"新\"。",
+    "word": "新"
+   }
+  ],
+  "characters": [
+   {
+    "char": "旧",
+    "componentMeaning": "",
+    "hanViet": "CỰU",
+    "pictographicOrigin": "Chữ giản thể, nghĩa \"cũ, xưa\".",
+    "radical": "日(bộ nhật)",
+    "strokeCount": 5
+   }
+  ],
+  "collocations": [],
+  "compounds": [],
+  "distinguish": "",
+  "distinguishExample": "",
+  "grammarExample": "",
+  "grammarNote": "",
+  "image": "📻",
+  "mnemonic": "旧 (giản thể) — hình dung một vật đã dùng lâu, CŨ.",
+  "partOfSpeech": "Tính từ",
+  "senses": [
+   {
+    "meanings": [
+     {
+      "example": "这是一本旧书。 (Zhè shì yì běn jiù shū.) – Đây là một quyển sách cũ.",
+      "meaning": "cũ"
+     }
+    ],
+    "partOfSpeech": "Tính từ"
+   }
+  ],
+  "synonyms": [],
+  "usage": ""
+ },
+ "zh-adjectives-11": {
+  "antonyms": [
+   {
+    "example": "夏天热，冬天冷。 (Xiàtiān rè, dōngtiān lěng.) – Mùa hè nóng, mùa đông lạnh.",
+    "word": "冷"
+   }
+  ],
+  "characters": [
+   {
+    "char": "热",
+    "componentMeaning": "",
+    "hanViet": "NHIỆT",
+    "pictographicOrigin": "Bộ 灬(lửa) ghép 势(thế) — sức nóng của LỬA, nghĩa \"nóng\".",
+    "radical": "灬(bộ hỏa)",
+    "strokeCount": 10
+   }
+  ],
+  "collocations": [],
+  "compounds": [],
+  "distinguish": "",
+  "distinguishExample": "",
+  "grammarExample": "",
+  "grammarNote": "",
+  "image": "🔥",
+  "mnemonic": "热 = 灬(lửa) + 势(thế mạnh) — sức LỬA bùng lên, NÓNG.",
+  "partOfSpeech": "Tính từ",
+  "senses": [
+   {
+    "meanings": [
+     {
+      "example": "今天很热。 (Jīntiān hěn rè.) – Hôm nay rất nóng.",
+      "meaning": "nóng"
+     }
+    ],
+    "partOfSpeech": "Tính từ"
+   }
+  ],
+  "synonyms": [],
+  "usage": ""
+ },
+ "zh-adjectives-12": {
+  "antonyms": [
+   {
+    "example": "见分辨\"热\"。",
+    "word": "热"
+   }
+  ],
+  "characters": [
+   {
+    "char": "冷",
+    "componentMeaning": "",
+    "hanViet": "LÃNH",
+    "pictographicOrigin": "Bộ 冫(băng giá) ghép 令 lấy âm — nghĩa \"lạnh\".",
+    "radical": "冫(bộ băng)",
+    "strokeCount": 7
+   }
+  ],
+  "collocations": [],
+  "compounds": [],
+  "distinguish": "",
+  "distinguishExample": "",
+  "grammarExample": "",
+  "grammarNote": "",
+  "image": "❄️",
+  "mnemonic": "冷 = 冫(hai chấm băng giá) + 令 — cảm giác LẠNH như băng.",
+  "partOfSpeech": "Tính từ",
+  "senses": [
+   {
+    "meanings": [
+     {
+      "example": "外面很冷，多穿点儿衣服。 (Wàimiàn hěn lěng, duō chuān diǎnr yīfu.) – Bên ngoài lạnh lắm, mặc thêm áo vào.",
+      "meaning": "lạnh"
+     }
+    ],
+    "partOfSpeech": "Tính từ"
+   }
+  ],
+  "synonyms": [],
+  "usage": ""
+ },
+ "zh-adjectives-13": {
+  "antonyms": [
+   {
+    "example": "工作日忙，周末闲。 (Gōngzuòrì máng, zhōumò xián.) – Ngày làm việc bận, cuối tuần rảnh.",
+    "word": "闲"
+   }
+  ],
+  "characters": [
+   {
+    "char": "忙",
+    "componentMeaning": "",
+    "hanViet": "MANG",
+    "pictographicOrigin": "Bộ 忄(tim) ghép 亡(mất) — trong lòng như MẤT hết thời gian rảnh, nghĩa \"bận\".",
+    "radical": "忄(bộ tâm)",
+    "strokeCount": 6
+   }
+  ],
+  "collocations": [],
+  "compounds": [],
+  "distinguish": "",
+  "distinguishExample": "",
+  "grammarExample": "",
+  "grammarNote": "",
+  "image": "😰",
+  "mnemonic": "忙 = 忄(tim) + 亡(mất) — trong lòng như MẤT hết thời gian rảnh, BẬN.",
+  "partOfSpeech": "Tính từ",
+  "senses": [
+   {
+    "meanings": [
+     {
+      "example": "最近我很忙。 (Zuìjìn wǒ hěn máng.) – Dạo này tôi rất bận.",
+      "meaning": "bận"
+     }
+    ],
+    "partOfSpeech": "Tính từ"
+   }
+  ],
+  "synonyms": [],
+  "usage": ""
+ },
+ "zh-adjectives-14": {
+  "antonyms": [],
+  "characters": [
+   {
+    "char": "累",
+    "componentMeaning": "",
+    "hanViet": "LỤY",
+    "pictographicOrigin": "Bộ 纟(sợi tơ) trên 田(ruộng) — nhiều sợi tơ/gánh nặng chồng chất, nghĩa \"mệt\".",
+    "radical": "纟(bộ mịch)",
+    "strokeCount": 11
+   }
+  ],
+  "collocations": [],
+  "compounds": [],
+  "distinguish": "",
+  "distinguishExample": "",
+  "grammarExample": "",
+  "grammarNote": "",
+  "image": "😩",
+  "mnemonic": "累 = 纟(sợi tơ) trên 田(ruộng) — gánh nhiều sợi/việc chồng chất, MỆT.",
+  "partOfSpeech": "Tính từ",
+  "senses": [
+   {
+    "meanings": [
+     {
+      "example": "工作了一天，我很累。 (Gōngzuòle yìtiān, wǒ hěn lèi.) – Làm việc cả ngày, tôi rất mệt.",
+      "meaning": "mệt"
+     }
+    ],
+    "partOfSpeech": "Tính từ"
+   }
+  ],
+  "synonyms": [],
+  "usage": ""
+ },
+ "zh-adjectives-15": {
+  "antonyms": [
+   {
+    "example": "他走得快，我走得慢。 (Tā zǒu de kuài, wǒ zǒu de màn.) – Anh ấy đi nhanh, tôi đi chậm.",
+    "word": "慢"
+   }
+  ],
+  "characters": [
+   {
+    "char": "快",
+    "componentMeaning": "",
+    "hanViet": "KHOÁI",
+    "pictographicOrigin": "Bộ 忄(tim) ghép 夬(dứt khoát) — tâm trạng dứt khoát nhanh nhẹn, nghĩa \"nhanh, vui\".",
+    "radical": "忄(bộ tâm)",
+    "strokeCount": 7
+   }
+  ],
+  "collocations": [],
+  "compounds": [],
+  "distinguish": "",
+  "distinguishExample": "",
+  "grammarExample": "",
+  "grammarNote": "",
+  "image": "⚡",
+  "mnemonic": "快 = 忄(tim) + 夬(dứt khoát) — tâm trạng dứt khoát, NHANH.",
+  "partOfSpeech": "Tính từ",
+  "senses": [
+   {
+    "meanings": [
+     {
+      "example": "他跑得很快。 (Tā pǎo de hěn kuài.) – Anh ấy chạy rất nhanh.",
+      "meaning": "nhanh"
+     }
+    ],
+    "partOfSpeech": "Tính từ"
+   }
+  ],
+  "synonyms": [],
+  "usage": ""
+ },
+ "zh-adjectives-16": {
+  "antonyms": [
+   {
+    "example": "见分辨\"快\"。",
+    "word": "快"
+   }
+  ],
+  "characters": [
+   {
+    "char": "慢",
+    "componentMeaning": "",
+    "hanViet": "MẠN",
+    "pictographicOrigin": "Bộ 忄(tim) ghép 曼(kéo dài) — tâm trạng thong thả kéo dài, nghĩa \"chậm\".",
+    "radical": "忄(bộ tâm)",
+    "strokeCount": 14
+   }
+  ],
+  "collocations": [],
+  "compounds": [],
+  "distinguish": "",
+  "distinguishExample": "",
+  "grammarExample": "",
+  "grammarNote": "",
+  "image": "🐢",
+  "mnemonic": "慢 = 忄(tim) + 曼(kéo dài) — tâm trạng thong thả kéo dài, CHẬM.",
+  "partOfSpeech": "Tính từ",
+  "senses": [
+   {
+    "meanings": [
+     {
+      "example": "这辆车开得很慢。 (Zhè liàng chē kāi de hěn màn.) – Chiếc xe này chạy rất chậm.",
+      "meaning": "chậm"
+     }
+    ],
+    "partOfSpeech": "Tính từ"
+   }
+  ],
+  "synonyms": [],
+  "usage": ""
+ },
+ "zh-adjectives-17": {
+  "antonyms": [
+   {
+    "example": "见分辨\"便宜\"。",
+    "word": "便宜"
+   }
+  ],
+  "characters": [
+   {
+    "char": "贵",
+    "componentMeaning": "",
+    "hanViet": "QUÝ",
+    "pictographicOrigin": "Bộ 贝(tiền cổ, vỏ sò) — vật cần nhiều TIỀN mới mua được, nghĩa \"đắt, quý\".",
+    "radical": "贝(bộ bối)",
+    "strokeCount": 9
+   }
+  ],
+  "collocations": [],
+  "compounds": [],
+  "distinguish": "",
+  "distinguishExample": "",
+  "grammarExample": "",
+  "grammarNote": "",
+  "image": "💎",
+  "mnemonic": "贵 có bộ 贝(tiền cổ) — cần nhiều TIỀN mới mua được, ĐẮT.",
+  "partOfSpeech": "Tính từ",
+  "senses": [
+   {
+    "meanings": [
+     {
+      "example": "这个手机太贵了。 (Zhège shǒujī tài guì le.) – Chiếc điện thoại này đắt quá.",
+      "meaning": "đắt"
+     }
+    ],
+    "partOfSpeech": "Tính từ"
+   }
+  ],
+  "synonyms": [],
+  "usage": ""
+ },
+ "zh-adjectives-18": {
+  "antonyms": [
+   {
+    "example": "这个便宜，那个贵。 (Zhège piányi, nàge guì.) – Cái này rẻ, cái kia đắt.",
+    "word": "贵"
+   }
+  ],
+  "characters": [
+   {
+    "char": "便",
+    "componentMeaning": "tiện",
+    "hanViet": "TIỆN",
+    "pictographicOrigin": "Bộ 亻(người) ghép 更(thay đổi) — người thấy THUẬN TIỆN thì thay đổi cho phù hợp.",
+    "radical": "亻(bộ nhân)",
+    "strokeCount": 9
+   },
+   {
+    "char": "宜",
+    "componentMeaning": "thích hợp",
+    "hanViet": "NGHI",
+    "pictographicOrigin": "Bộ 宀(mái nhà) — vật đặt đúng chỗ dưới mái nhà, nghĩa \"thích hợp, rẻ\" (trong 便宜).",
+    "radical": "宀(bộ miên)",
+    "strokeCount": 8
+   }
+  ],
+  "collocations": [],
+  "compounds": [],
+  "distinguish": "",
+  "distinguishExample": "",
+  "grammarExample": "",
+  "grammarNote": "",
+  "image": "🏷️",
+  "mnemonic": "便宜 = 便(tiện) + 宜(thích hợp) — giá TIỆN LỢI, THÍCH HỢP với túi tiền, RẺ.",
+  "partOfSpeech": "Tính từ",
+  "senses": [
+   {
+    "meanings": [
+     {
+      "example": "这里的东西很便宜。 (Zhèlǐ de dōngxi hěn piányi.) – Đồ ở đây rất rẻ.",
+      "meaning": "rẻ"
+     }
+    ],
+    "partOfSpeech": "Tính từ"
+   }
+  ],
+  "synonyms": [],
+  "usage": ""
+ },
+ "zh-adjectives-19": {
+  "antonyms": [],
+  "characters": [
+   {
+    "char": "漂",
+    "componentMeaning": "",
+    "hanViet": "PHIÊU",
+    "pictographicOrigin": "Bộ 氵(nước) ghép 票(tấm vé, nhẹ) — trôi nổi nhẹ nhàng trên NƯỚC, mở rộng nghĩa \"đẹp\" (trong 漂亮).",
+    "radical": "氵(bộ thủy)",
+    "strokeCount": 14
+   },
+   {
+    "char": "亮",
+    "componentMeaning": "",
+    "hanViet": "LƯỢNG",
+    "pictographicOrigin": "Chữ giáp cốt liên quan tới ánh sáng từ cao — nghĩa \"sáng, đẹp\".",
+    "radical": "亠(bộ đầu)",
+    "strokeCount": 9
+   }
+  ],
+  "collocations": [],
+  "compounds": [],
+  "distinguish": "\"漂亮\" thường khen NGƯỜI (đặc biệt nữ) hoặc vật đẹp; \"帅\" chuyên khen NAM giới đẹp trai; \"好看\" trung tính, dùng rộng cho cả người và vật.",
+  "distinguishExample": "她很漂亮，他很帅，这件衣服很好看。 – Cô ấy xinh, anh ấy đẹp trai, chiếc áo này đẹp.",
+  "grammarExample": "",
+  "grammarNote": "",
+  "image": "💄",
+  "mnemonic": "漂亮 = 漂(trôi nhẹ trên nước) + 亮(ánh sáng) — nhẹ nhàng và SÁNG, ĐẸP.",
+  "partOfSpeech": "Tính từ",
+  "senses": [
+   {
+    "meanings": [
+     {
+      "example": "她很漂亮。 (Tā hěn piàoliang.) – Cô ấy rất xinh.",
+      "meaning": "đẹp, xinh"
+     }
+    ],
+    "partOfSpeech": "Tính từ"
+   }
+  ],
+  "synonyms": [
+   {
+    "example": "见分辨\"好看\"。",
+    "word": "好看"
+   }
+  ],
+  "usage": "漂亮 chủ yếu dùng khen vẻ đẹp phụ nữ/sự vật; khen nam giới đẹp trai dùng 帅."
+ },
+ "zh-adjectives-2": {
+  "antonyms": [
+   {
+    "example": "大的贵，小的便宜。 (Dà de guì, xiǎo de piányi.) – Cái to thì đắt, cái nhỏ thì rẻ.",
+    "word": "大"
+   }
+  ],
+  "characters": [
+   {
+    "char": "小",
+    "componentMeaning": "",
+    "hanViet": "TIỂU",
+    "pictographicOrigin": "Chữ giáp cốt vẽ ba hạt cát nhỏ li ti — nghĩa \"nhỏ\".",
+    "radical": "小(bộ tiểu)",
+    "strokeCount": 3
+   }
+  ],
+  "collocations": [],
+  "compounds": [],
+  "distinguish": "",
+  "distinguishExample": "",
+  "grammarExample": "",
+  "grammarNote": "",
+  "image": "🐜",
+  "mnemonic": "小 là ba hạt cát li ti — biểu tượng của sự NHỎ BÉ.",
+  "partOfSpeech": "Tính từ",
+  "senses": [
+   {
+    "meanings": [
+     {
+      "example": "这只猫很小。 (Zhè zhī māo hěn xiǎo.) – Con mèo này rất nhỏ.",
+      "meaning": "nhỏ, bé"
+     }
+    ],
+    "partOfSpeech": "Tính từ"
+   }
+  ],
+  "synonyms": [],
+  "usage": ""
+ },
+ "zh-adjectives-20": {
+  "antonyms": [],
+  "characters": [
+   {
+    "char": "帅",
+    "componentMeaning": "",
+    "hanViet": "SOÁI",
+    "pictographicOrigin": "Bộ 巾(vải, cờ hiệu) — vị tướng chỉ huy oai phong, mở rộng nghĩa \"đẹp trai\".",
+    "radical": "巾(bộ cân)",
+    "strokeCount": 6
+   }
+  ],
+  "collocations": [],
+  "compounds": [],
+  "distinguish": "",
+  "distinguishExample": "",
+  "grammarExample": "",
+  "grammarNote": "",
+  "image": "😎",
+  "mnemonic": "帅 = 巾(cờ hiệu) — vị tướng chỉ huy oai phong, ĐẸP TRAI.",
+  "partOfSpeech": "Tính từ",
+  "senses": [
+   {
+    "meanings": [
+     {
+      "example": "这个男孩很帅。 (Zhège nánhái hěn shuài.) – Cậu bé này đẹp trai.",
+      "meaning": "đẹp trai"
+     }
+    ],
+    "partOfSpeech": "Tính từ"
+   }
+  ],
+  "synonyms": [],
+  "usage": "Xem phân biệt tại mục \"漂亮\"."
+ },
+ "zh-adjectives-21": {
+  "antonyms": [],
+  "characters": [
+   {
+    "char": "可",
+    "componentMeaning": "có thể",
+    "hanViet": "KHẢ",
+    "pictographicOrigin": "Chữ giáp cốt vẽ hình một cái cày và miệng — nghĩa \"có thể\".",
+    "radical": "口(bộ khẩu)",
+    "strokeCount": 5
+   },
+   {
+    "char": "爱",
+    "componentMeaning": "yêu",
+    "hanViet": "ÁI",
+    "pictographicOrigin": "Chữ giản thể từ 愛, vốn có bộ 心(tim) — nghĩa \"yêu, đáng yêu\".",
+    "radical": "爫(bộ trảo)",
+    "strokeCount": 10
+   }
+  ],
+  "collocations": [],
+  "compounds": [],
+  "distinguish": "",
+  "distinguishExample": "",
+  "grammarExample": "",
+  "grammarNote": "",
+  "image": "🥰",
+  "mnemonic": "可爱 = 可(có thể) + 爱(yêu) — CÓ THỂ YÊU được ngay, DỄ THƯƠNG.",
+  "partOfSpeech": "Tính từ",
+  "senses": [
+   {
+    "meanings": [
+     {
+      "example": "这只小狗很可爱。 (Zhè zhī xiǎo gǒu hěn kě'ài.) – Chú chó con này rất dễ thương.",
+      "meaning": "dễ thương"
+     }
+    ],
+    "partOfSpeech": "Tính từ"
+   }
+  ],
+  "synonyms": [],
+  "usage": ""
+ },
+ "zh-adjectives-22": {
+  "antonyms": [],
+  "characters": [
+   {
+    "char": "聪",
+    "componentMeaning": "tai thính",
+    "hanViet": "THÔNG",
+    "pictographicOrigin": "Bộ 耳(tai) — nghe rõ, nhạy bén, nghĩa \"thông minh\".",
+    "radical": "耳(bộ nhĩ)",
+    "strokeCount": 15
+   },
+   {
+    "char": "明",
+    "componentMeaning": "sáng suốt",
+    "hanViet": "MINH",
+    "pictographicOrigin": "Ghép 日(mặt trời) và 月(mặt trăng) — cả hai cùng chiếu sáng, \"sáng suốt\".",
+    "radical": "日(bộ nhật)",
+    "strokeCount": 8
+   }
+  ],
+  "collocations": [],
+  "compounds": [],
+  "distinguish": "",
+  "distinguishExample": "",
+  "grammarExample": "",
+  "grammarNote": "",
+  "image": "🧠",
+  "mnemonic": "聪明 = 聪(tai thính 耳) + 明(sáng suốt) — TAI THÍNH và đầu ÓC SÁNG SUỐT, THÔNG MINH.",
+  "partOfSpeech": "Tính từ",
+  "senses": [
+   {
+    "meanings": [
+     {
+      "example": "这个孩子很聪明。 (Zhège háizi hěn cōngming.) – Đứa trẻ này rất thông minh.",
+      "meaning": "thông minh"
+     }
+    ],
+    "partOfSpeech": "Tính từ"
+   }
+  ],
+  "synonyms": [],
+  "usage": ""
+ },
+ "zh-adjectives-23": {
+  "antonyms": [],
+  "characters": [
+   {
+    "char": "好",
+    "componentMeaning": "tốt",
+    "hanViet": "HẢO",
+    "pictographicOrigin": "Hình một người phụ nữ (女) bên đứa trẻ (子) — biểu thị điều tốt đẹp.",
+    "radical": "女(bộ nữ)",
+    "strokeCount": 6
+   },
+   {
+    "char": "看",
+    "componentMeaning": "nhìn",
+    "hanViet": "KHÁN",
+    "pictographicOrigin": "Bàn tay (手) che trên mắt (目) — dáng nhìn xa.",
+    "radical": "目(bộ mục)",
+    "strokeCount": 9
+   }
+  ],
+  "collocations": [],
+  "compounds": [],
+  "distinguish": "",
+  "distinguishExample": "",
+  "grammarExample": "",
+  "grammarNote": "",
+  "image": "😍",
+  "mnemonic": "好看 = 好(tốt) + 看(nhìn) — NHÌN thấy TỐT đẹp, ĐẸP.",
+  "partOfSpeech": "Tính từ",
+  "senses": [
+   {
+    "meanings": [
+     {
+      "example": "这部电影很好看。 (Zhè bù diànyǐng hěn hǎokàn.) – Bộ phim này rất hay.",
+      "meaning": "đẹp, hay (khi nhìn/xem)"
+     }
+    ],
+    "partOfSpeech": "Tính từ"
+   }
+  ],
+  "synonyms": [],
+  "usage": "Xem phân biệt tại mục \"漂亮\"."
+ },
+ "zh-adjectives-24": {
+  "antonyms": [
+   {
+    "example": "见分辨\"容易\"。",
+    "word": "容易"
+   }
+  ],
+  "characters": [
+   {
+    "char": "难",
+    "componentMeaning": "",
+    "hanViet": "NAN",
+    "pictographicOrigin": "Chữ giản thể, vốn liên quan tới một loài chim khó bắt — nghĩa \"khó\".",
+    "radical": "又(bộ hựu)",
+    "strokeCount": 10
+   }
+  ],
+  "collocations": [],
+  "compounds": [],
+  "distinguish": "",
+  "distinguishExample": "",
+  "grammarExample": "",
+  "grammarNote": "",
+  "image": "😖",
+  "mnemonic": "难 (giản thể) liên quan tới một loài chim khó bắt — KHÓ.",
+  "partOfSpeech": "Tính từ",
+  "senses": [
+   {
+    "meanings": [
+     {
+      "example": "这道题很难。 (Zhè dào tí hěn nán.) – Câu hỏi này rất khó.",
+      "meaning": "khó"
+     }
+    ],
+    "partOfSpeech": "Tính từ"
+   }
+  ],
+  "synonyms": [],
+  "usage": ""
+ },
+ "zh-adjectives-25": {
+  "antonyms": [
+   {
+    "example": "简单的容易，复杂的难。 (Jiǎndān de róngyì, fùzá de nán.) – Đơn giản thì dễ, phức tạp thì khó.",
+    "word": "难"
+   }
+  ],
+  "characters": [
+   {
+    "char": "容",
+    "componentMeaning": "",
+    "hanViet": "DUNG",
+    "pictographicOrigin": "Bộ 宀(mái nhà) — không gian chứa đựng, dễ dàng tiếp nhận, nghĩa \"dễ, chứa đựng\".",
+    "radical": "宀(bộ miên)",
+    "strokeCount": 10
+   },
+   {
+    "char": "易",
+    "componentMeaning": "",
+    "hanViet": "DỊ",
+    "pictographicOrigin": "Chữ giáp cốt liên quan tới ánh nắng thay đổi (biến đổi dễ dàng) — nghĩa \"dễ\".",
+    "radical": "日(bộ nhật)",
+    "strokeCount": 8
+   }
+  ],
+  "collocations": [],
+  "compounds": [],
+  "distinguish": "",
+  "distinguishExample": "",
+  "grammarExample": "",
+  "grammarNote": "",
+  "image": "👍",
+  "mnemonic": "容易 = 容(chứa đựng dễ dàng) + 易(ánh nắng thay đổi dễ) — mọi thứ DỄ DÀNG.",
+  "partOfSpeech": "Tính từ",
+  "senses": [
+   {
+    "meanings": [
+     {
+      "example": "这个问题很容易。 (Zhège wèntí hěn róngyì.) – Câu hỏi này rất dễ.",
+      "meaning": "dễ"
+     }
+    ],
+    "partOfSpeech": "Tính từ"
+   }
+  ],
+  "synonyms": [],
+  "usage": ""
+ },
+ "zh-adjectives-26": {
+  "antonyms": [
+   {
+    "example": "见分辨\"脏\"。",
+    "word": "脏"
+   }
+  ],
+  "characters": [
+   {
+    "char": "干",
+    "componentMeaning": "",
+    "hanViet": "CAN",
+    "pictographicOrigin": "Chữ giáp cốt vẽ hình một cây giáo hai đầu nhọn — mượn nghĩa \"khô, sạch\" (trong 干净).",
+    "radical": "干(bộ can)",
+    "strokeCount": 3
+   },
+   {
+    "char": "净",
+    "componentMeaning": "",
+    "hanViet": "TỊNH",
+    "pictographicOrigin": "Bộ 冫(băng, trong suốt) — nghĩa \"sạch sẽ\".",
+    "radical": "冫(bộ băng)",
+    "strokeCount": 8
+   }
+  ],
+  "collocations": [],
+  "compounds": [],
+  "distinguish": "",
+  "distinguishExample": "",
+  "grammarExample": "",
+  "grammarNote": "",
+  "image": "✨",
+  "mnemonic": "干净 = 干(khô ráo) + 净(băng trong suốt) — khô ráo trong suốt, SẠCH SẼ.",
+  "partOfSpeech": "Tính từ",
+  "senses": [
+   {
+    "meanings": [
+     {
+      "example": "房间很干净。 (Fángjiān hěn gānjìng.) – Căn phòng rất sạch sẽ.",
+      "meaning": "sạch sẽ"
+     }
+    ],
+    "partOfSpeech": "Tính từ"
+   }
+  ],
+  "synonyms": [],
+  "usage": ""
+ },
+ "zh-adjectives-27": {
+  "antonyms": [
+   {
+    "example": "这个干净，那个脏。 (Zhège gānjìng, nàge zāng.) – Cái này sạch, cái kia bẩn.",
+    "word": "干净"
+   }
+  ],
+  "characters": [
+   {
+    "char": "脏",
+    "componentMeaning": "",
+    "hanViet": "TẠNG",
+    "pictographicOrigin": "Bộ 月(thân thể) — nghĩa gốc \"nội tạng\", mượn âm khác chỉ \"bẩn\".",
+    "radical": "月(bộ nhục)",
+    "strokeCount": 10
+   }
+  ],
+  "collocations": [],
+  "compounds": [],
+  "distinguish": "",
+  "distinguishExample": "",
+  "grammarExample": "",
+  "grammarNote": "",
+  "image": "🗑️",
+  "mnemonic": "脏 có bộ 月(thân thể) — liên tưởng tới nội tạng dơ bẩn bên trong, BẨN.",
+  "partOfSpeech": "Tính từ",
+  "senses": [
+   {
+    "meanings": [
+     {
+      "example": "你的手很脏。 (Nǐ de shǒu hěn zāng.) – Tay bạn bẩn quá.",
+      "meaning": "bẩn"
+     }
+    ],
+    "partOfSpeech": "Tính từ"
+   }
+  ],
+  "synonyms": [],
+  "usage": ""
+ },
+ "zh-adjectives-28": {
+  "antonyms": [
+   {
+    "example": "见分辨\"难过\"。",
+    "word": "难过"
+   }
+  ],
+  "characters": [
+   {
+    "char": "开",
+    "componentMeaning": "mở",
+    "hanViet": "KHAI",
+    "pictographicOrigin": "Hai tay mở cánh cửa/then cài — nghĩa \"mở\" (trong 开心 = mở lòng, vui).",
+    "radical": "廾(bộ củng)",
+    "strokeCount": 4
+   },
+   {
+    "char": "心",
+    "componentMeaning": "lòng",
+    "hanViet": "TÂM",
+    "pictographicOrigin": "Chữ giáp cốt vẽ hình quả tim người — nghĩa \"tim, lòng\".",
+    "radical": "心(bộ tâm)",
+    "strokeCount": 4
+   }
+  ],
+  "collocations": [],
+  "compounds": [],
+  "distinguish": "",
+  "distinguishExample": "",
+  "grammarExample": "",
+  "grammarNote": "",
+  "image": "😊",
+  "mnemonic": "开心 = 开(mở) + 心(tim) — MỞ TẤM LÒNG ra, VUI VẺ.",
+  "partOfSpeech": "Tính từ",
+  "senses": [
+   {
+    "meanings": [
+     {
+      "example": "今天我很开心。 (Jīntiān wǒ hěn kāixīn.) – Hôm nay tôi rất vui.",
+      "meaning": "vui vẻ"
+     }
+    ],
+    "partOfSpeech": "Tính từ"
+   }
+  ],
+  "synonyms": [
+   {
+    "example": "见 zh-basics-50 phần \"高兴\"。",
+    "word": "高兴"
+   }
+  ],
+  "usage": ""
+ },
+ "zh-adjectives-29": {
+  "antonyms": [
+   {
+    "example": "见分辨\"开心\"。",
+    "word": "开心"
+   }
+  ],
+  "characters": [
+   {
+    "char": "难",
+    "componentMeaning": "khó",
+    "hanViet": "NAN",
+    "pictographicOrigin": "Chữ giản thể, vốn liên quan tới một loài chim khó bắt — nghĩa \"khó\".",
+    "radical": "又(bộ hựu)",
+    "strokeCount": 10
+   },
+   {
+    "char": "过",
+    "componentMeaning": "trải qua",
+    "hanViet": "QUÁ",
+    "pictographicOrigin": "Bộ 辶(đi) ghép 寸(tấc) — đi vượt qua một khoảng, nghĩa \"qua, quá\".",
+    "radical": "辶(bộ sước)",
+    "strokeCount": 6
+   }
+  ],
+  "collocations": [],
+  "compounds": [],
+  "distinguish": "",
+  "distinguishExample": "",
+  "grammarExample": "",
+  "grammarNote": "",
+  "image": "😢",
+  "mnemonic": "难过 = 难(khó) + 过(trải qua) — KHÓ mà TRẢI QUA nổi, BUỒN.",
+  "partOfSpeech": "Tính từ",
+  "senses": [
+   {
+    "meanings": [
+     {
+      "example": "听到这个消息我很难过。 (Tīngdào zhège xiāoxi wǒ hěn nánguò.) – Nghe tin này tôi rất buồn.",
+      "meaning": "buồn"
+     }
+    ],
+    "partOfSpeech": "Tính từ"
+   }
+  ],
+  "synonyms": [],
+  "usage": ""
+ },
+ "zh-adjectives-3": {
+  "antonyms": [
+   {
+    "example": "见分辨\"少\"。",
+    "word": "少"
+   }
+  ],
+  "characters": [
+   {
+    "char": "多",
+    "componentMeaning": "",
+    "hanViet": "ĐA",
+    "pictographicOrigin": "Hai chữ 夕(thịt/mặt trăng) chồng lên nhau — biểu thị số lượng nhiều.",
+    "radical": "夕(bộ tịch)",
+    "strokeCount": 6
+   }
+  ],
+  "collocations": [],
+  "compounds": [],
+  "distinguish": "",
+  "distinguishExample": "",
+  "grammarExample": "",
+  "grammarNote": "",
+  "image": "📈",
+  "mnemonic": "多 là hai chữ 夕 (thịt) chồng lên nhau — có NHIỀU miếng thịt.",
+  "partOfSpeech": "Tính từ",
+  "senses": [
+   {
+    "meanings": [
+     {
+      "example": "这里的人很多。 (Zhèlǐ de rén hěn duō.) – Người ở đây rất nhiều.",
+      "meaning": "nhiều"
+     }
+    ],
+    "partOfSpeech": "Tính từ"
+   }
+  ],
+  "synonyms": [],
+  "usage": ""
+ },
+ "zh-adjectives-30": {
+  "antonyms": [],
+  "characters": [
+   {
+    "char": "生",
+    "componentMeaning": "sinh ra",
+    "hanViet": "SINH",
+    "pictographicOrigin": "Chữ giáp cốt vẽ hình mầm cây nhú lên khỏi đất — nghĩa \"sinh ra\".",
+    "radical": "生(bộ sinh)",
+    "strokeCount": 5
+   },
+   {
+    "char": "气",
+    "componentMeaning": "khí",
+    "hanViet": "KHÍ",
+    "pictographicOrigin": "Chữ giáp cốt vẽ ba làn hơi/mây bốc lên — nghĩa \"khí, hơi\".",
+    "radical": "气(bộ khí)",
+    "strokeCount": 4
+   }
+  ],
+  "collocations": [],
+  "compounds": [],
+  "distinguish": "",
+  "distinguishExample": "",
+  "grammarExample": "",
+  "grammarNote": "",
+  "image": "😠",
+  "mnemonic": "生气 = 生(sinh ra) + 气(khí) — SINH ra luồng KHÍ nóng trong người, TỨC GIẬN.",
+  "partOfSpeech": "Tính từ",
+  "senses": [
+   {
+    "meanings": [
+     {
+      "example": "他为什么生气了？ (Tā wèishénme shēngqì le?) – Sao anh ấy tức giận vậy?",
+      "meaning": "tức giận"
+     }
+    ],
+    "partOfSpeech": "Tính từ"
+   }
+  ],
+  "synonyms": [],
+  "usage": ""
+ },
+ "zh-adjectives-31": {
+  "antonyms": [],
+  "characters": [
+   {
+    "char": "舒",
+    "componentMeaning": "",
+    "hanViet": "THƯ",
+    "pictographicOrigin": "Bộ 舍(nhà trọ, thư thái) ghép 予 — nghĩa \"thoải mái, dễ chịu\".",
+    "radical": "舌(bộ thiệt)",
+    "strokeCount": 12
+   },
+   {
+    "char": "服",
+    "componentMeaning": "",
+    "hanViet": "PHỤC",
+    "pictographicOrigin": "Bộ 月(thân thể) — nghĩa gốc \"khuất phục\", nay có nghĩa \"quần áo, thoải mái\" (trong 舒服).",
+    "radical": "月(bộ nhục)",
+    "strokeCount": 8
+   }
+  ],
+  "collocations": [],
+  "compounds": [],
+  "distinguish": "",
+  "distinguishExample": "",
+  "grammarExample": "",
+  "grammarNote": "",
+  "image": "😌",
+  "mnemonic": "舒服 = 舒(thư thái) + 服(thân thể) — THÂN THỂ cảm thấy THƯ THÁI, DỄ CHỊU.",
+  "partOfSpeech": "Tính từ",
+  "senses": [
+   {
+    "meanings": [
+     {
+      "example": "躺在床上很舒服。 (Tǎng zài chuáng shàng hěn shūfu.) – Nằm trên giường rất thoải mái.",
+      "meaning": "dễ chịu, thoải mái"
+     }
+    ],
+    "partOfSpeech": "Tính từ"
+   }
+  ],
+  "synonyms": [],
+  "usage": ""
+ },
+ "zh-adjectives-32": {
+  "antonyms": [],
+  "characters": [
+   {
+    "char": "重",
+    "componentMeaning": "nặng",
+    "hanViet": "TRỌNG",
+    "pictographicOrigin": "Chữ giáp cốt vẽ hình một người vác túi hàng nặng — nghĩa \"nặng, quan trọng\".",
+    "radical": "里(bộ lý)",
+    "strokeCount": 9
+   },
+   {
+    "char": "要",
+    "componentMeaning": "cần",
+    "hanViet": "YẾU",
+    "pictographicOrigin": "Bộ 西 trên 女 — nghĩa gốc liên quan tới eo lưng, mở rộng nghĩa \"quan trọng\".",
+    "radical": "西(bộ tây)",
+    "strokeCount": 9
+   }
+  ],
+  "collocations": [],
+  "compounds": [],
+  "distinguish": "",
+  "distinguishExample": "",
+  "grammarExample": "",
+  "grammarNote": "",
+  "image": "❗",
+  "mnemonic": "重要 = 重(người vác túi nặng) + 要(cần) — nặng và CẦN, QUAN TRỌNG.",
+  "partOfSpeech": "Tính từ",
+  "senses": [
+   {
+    "meanings": [
+     {
+      "example": "健康很重要。 (Jiànkāng hěn zhòngyào.) – Sức khỏe rất quan trọng.",
+      "meaning": "quan trọng"
+     }
+    ],
+    "partOfSpeech": "Tính từ"
+   }
+  ],
+  "synonyms": [],
+  "usage": ""
+ },
+ "zh-adjectives-33": {
+  "antonyms": [
+   {
+    "example": "见分辨\"没意思\"。",
+    "word": "没意思"
+   }
+  ],
+  "characters": [
+   {
+    "char": "有",
+    "componentMeaning": "có",
+    "hanViet": "HỮU",
+    "pictographicOrigin": "Chữ giáp cốt vẽ hình một bàn tay cầm miếng thịt — có thức ăn trong tay, nghĩa \"có\".",
+    "radical": "月(bộ nhục)",
+    "strokeCount": 6
+   },
+   {
+    "char": "意",
+    "componentMeaning": "ý",
+    "hanViet": "Ý",
+    "pictographicOrigin": "Bộ 心(tim) dưới 音(âm thanh) — âm thanh phát ra từ TÂM Ý.",
+    "radical": "心(bộ tâm)",
+    "strokeCount": 13
+   },
+   {
+    "char": "思",
+    "componentMeaning": "nghĩ",
+    "hanViet": "TƯ",
+    "pictographicOrigin": "Bộ 心(tim) dưới 田(ruộng, hình đầu) — TÂM TRÍ suy nghĩ.",
+    "radical": "心(bộ tâm)",
+    "strokeCount": 9
+   }
+  ],
+  "collocations": [],
+  "compounds": [],
+  "distinguish": "",
+  "distinguishExample": "",
+  "grammarExample": "",
+  "grammarNote": "",
+  "image": "🎉",
+  "mnemonic": "有意思 = 有(có) + 意思(ý vị) — CÓ Ý VỊ hấp dẫn, THÚ VỊ.",
+  "partOfSpeech": "Cụm tính từ",
+  "senses": [
+   {
+    "meanings": [
+     {
+      "example": "这本书很有意思。 (Zhè běn shū hěn yǒu yìsi.) – Cuốn sách này rất thú vị.",
+      "meaning": "thú vị, hay"
+     }
+    ],
+    "partOfSpeech": "Cụm tính từ"
+   }
+  ],
+  "synonyms": [],
+  "usage": "有意思 nghĩa đen là \"có ý nghĩa/ý vị\", dùng khen một điều gì đó hấp dẫn."
+ },
+ "zh-adjectives-34": {
+  "antonyms": [
+   {
+    "example": "见分辨\"有意思\"。",
+    "word": "有意思"
+   }
+  ],
+  "characters": [
+   {
+    "char": "没",
+    "componentMeaning": "không",
+    "hanViet": "MỘT/MÔ",
+    "pictographicOrigin": "Bộ 氵(nước) — hình ảnh người chìm xuống nước (nghĩa gốc \"chìm, mất\"), sau mượn làm từ phủ định.",
+    "radical": "氵(bộ thủy)",
+    "strokeCount": 7
+   },
+   {
+    "char": "意",
+    "componentMeaning": "ý",
+    "hanViet": "Ý",
+    "pictographicOrigin": "Bộ 心(tim) dưới 音(âm thanh) — âm thanh phát ra từ TÂM Ý.",
+    "radical": "心(bộ tâm)",
+    "strokeCount": 13
+   },
+   {
+    "char": "思",
+    "componentMeaning": "nghĩ",
+    "hanViet": "TƯ",
+    "pictographicOrigin": "Bộ 心(tim) dưới 田(ruộng, hình đầu) — TÂM TRÍ suy nghĩ.",
+    "radical": "心(bộ tâm)",
+    "strokeCount": 9
+   }
+  ],
+  "collocations": [],
+  "compounds": [],
+  "distinguish": "",
+  "distinguishExample": "",
+  "grammarExample": "",
+  "grammarNote": "",
+  "image": "😑",
+  "mnemonic": "没意思 = 没(không) + 意思(ý vị) — KHÔNG CÓ Ý VỊ gì, CHÁN.",
+  "partOfSpeech": "Cụm tính từ",
+  "senses": [
+   {
+    "meanings": [
+     {
+      "example": "这个游戏没意思。 (Zhège yóuxì méi yìsi.) – Trò chơi này chán quá.",
+      "meaning": "chán, không thú vị"
+     }
+    ],
+    "partOfSpeech": "Cụm tính từ"
+   }
+  ],
+  "synonyms": [],
+  "usage": ""
+ },
+ "zh-adjectives-35": {
+  "antonyms": [],
+  "characters": [
+   {
+    "char": "有",
+    "componentMeaning": "có",
+    "hanViet": "HỮU",
+    "pictographicOrigin": "Chữ giáp cốt vẽ hình một bàn tay cầm miếng thịt — có thức ăn trong tay, nghĩa \"có\".",
+    "radical": "月(bộ nhục)",
+    "strokeCount": 6
+   },
+   {
+    "char": "名",
+    "componentMeaning": "tên tuổi",
+    "hanViet": "DANH",
+    "pictographicOrigin": "Ghép 夕(tối) với 口(miệng) — đêm tối phải xưng TÊN bằng miệng.",
+    "radical": "口(bộ khẩu)",
+    "strokeCount": 6
+   }
+  ],
+  "collocations": [],
+  "compounds": [],
+  "distinguish": "",
+  "distinguishExample": "",
+  "grammarExample": "",
+  "grammarNote": "",
+  "image": "🌟",
+  "mnemonic": "有名 = 有(có) + 名(tên tuổi) — CÓ TÊN TUỔI được nhiều người biết, NỔI TIẾNG.",
+  "partOfSpeech": "Tính từ",
+  "senses": [
+   {
+    "meanings": [
+     {
+      "example": "他是一位有名的演员。 (Tā shì yí wèi yǒumíng de yǎnyuán.) – Anh ấy là một diễn viên nổi tiếng.",
+      "meaning": "nổi tiếng"
+     }
+    ],
+    "partOfSpeech": "Tính từ"
+   }
+  ],
+  "synonyms": [
+   {
+    "example": "著名作家 (zhùmíng zuòjiā) – nhà văn nổi tiếng.",
+    "word": "著名"
+   }
+  ],
+  "usage": ""
+ },
+ "zh-adjectives-36": {
+  "antonyms": [],
+  "characters": [
+   {
+    "char": "红",
+    "componentMeaning": "",
+    "hanViet": "HỒNG",
+    "pictographicOrigin": "Bộ 纟(sợi tơ) ghép 工 lấy âm — màu nhuộm vải đỏ, nghĩa \"màu đỏ\".",
+    "radical": "纟(bộ mịch)",
+    "strokeCount": 6
+   }
+  ],
+  "collocations": [],
+  "compounds": [],
+  "distinguish": "",
+  "distinguishExample": "",
+  "grammarExample": "",
+  "grammarNote": "",
+  "image": "🔴",
+  "mnemonic": "红 = 纟(sợi tơ) + 工 — vải nhuộm màu ĐỎ.",
+  "partOfSpeech": "Tính từ",
+  "senses": [
+   {
+    "meanings": [
+     {
+      "example": "她穿着红色的裙子。 (Tā chuānzhe hóngsè de qúnzi.) – Cô ấy mặc váy màu đỏ.",
+      "meaning": "màu đỏ"
+     }
+    ],
+    "partOfSpeech": "Tính từ"
+   }
+  ],
+  "synonyms": [],
+  "usage": ""
+ },
+ "zh-adjectives-37": {
+  "antonyms": [
+   {
+    "example": "见分辨\"黑\"。",
+    "word": "黑"
+   }
+  ],
+  "characters": [
+   {
+    "char": "白",
+    "componentMeaning": "",
+    "hanViet": "BẠCH",
+    "pictographicOrigin": "Chữ giáp cốt vẽ hình một ngọn nến/hạt gạo sáng trắng — nghĩa \"màu trắng\".",
+    "radical": "白(bộ bạch)",
+    "strokeCount": 5
+   }
+  ],
+  "collocations": [],
+  "compounds": [],
+  "distinguish": "",
+  "distinguishExample": "",
+  "grammarExample": "",
+  "grammarNote": "",
+  "image": "⚪",
+  "mnemonic": "白 trông như một ngọn nến/hạt gạo sáng — màu TRẮNG.",
+  "partOfSpeech": "Tính từ",
+  "senses": [
+   {
+    "meanings": [
+     {
+      "example": "他喜欢穿白色的衣服。 (Tā xǐhuan chuān báisè de yīfu.) – Anh ấy thích mặc quần áo màu trắng.",
+      "meaning": "màu trắng"
+     }
+    ],
+    "partOfSpeech": "Tính từ"
+   }
+  ],
+  "synonyms": [],
+  "usage": ""
+ },
+ "zh-adjectives-38": {
+  "antonyms": [
+   {
+    "example": "黑天鹅和白天鹅。 (Hēi tiān'é hé bái tiān'é.) – Thiên nga đen và thiên nga trắng.",
+    "word": "白"
+   }
+  ],
+  "characters": [
+   {
+    "char": "黑",
+    "componentMeaning": "",
+    "hanViet": "HẮC",
+    "pictographicOrigin": "Chữ giáp cốt vẽ hình một người bị ám khói đen trên mặt — nghĩa \"màu đen\".",
+    "radical": "黑(bộ hắc)",
+    "strokeCount": 12
+   }
+  ],
+  "collocations": [],
+  "compounds": [],
+  "distinguish": "",
+  "distinguishExample": "",
+  "grammarExample": "",
+  "grammarNote": "",
+  "image": "⚫",
+  "mnemonic": "黑 vẽ hình một người bị ám khói ĐEN trên mặt.",
+  "partOfSpeech": "Tính từ",
+  "senses": [
+   {
+    "meanings": [
+     {
+      "example": "他的头发是黑色的。 (Tā de tóufa shì hēisè de.) – Tóc anh ấy màu đen.",
+      "meaning": "màu đen"
+     }
+    ],
+    "partOfSpeech": "Tính từ"
+   }
+  ],
+  "synonyms": [],
+  "usage": ""
+ },
+ "zh-adjectives-39": {
+  "antonyms": [],
+  "characters": [
+   {
+    "char": "蓝",
+    "componentMeaning": "",
+    "hanViet": "LAM",
+    "pictographicOrigin": "Bộ 艹(cây cỏ, chỉ cây chàm nhuộm màu) — màu nhuộm từ cây, nghĩa \"màu xanh dương\".",
+    "radical": "艹(bộ thảo)",
+    "strokeCount": 13
+   }
+  ],
+  "collocations": [],
+  "compounds": [],
+  "distinguish": "\"蓝\" (xanh dương, màu trời/biển) khác \"绿\" (xanh lá, màu cây cỏ).",
+  "distinguishExample": "天是蓝的，草是绿的。 (Tiān shì lán de, cǎo shì lǜ de.) – Trời xanh dương, cỏ xanh lá.",
+  "grammarExample": "",
+  "grammarNote": "",
+  "image": "🔵",
+  "mnemonic": "蓝 = 艹(cây chàm) — màu nhuộm từ cây chàm, XANH DƯƠNG.",
+  "partOfSpeech": "Tính từ",
+  "senses": [
+   {
+    "meanings": [
+     {
+      "example": "天空是蓝色的。 (Tiānkōng shì lánsè de.) – Bầu trời màu xanh dương.",
+      "meaning": "màu xanh dương"
+     }
+    ],
+    "partOfSpeech": "Tính từ"
+   }
+  ],
+  "synonyms": [],
+  "usage": ""
+ },
+ "zh-adjectives-4": {
+  "antonyms": [
+   {
+    "example": "多和少。 (Duō hé shǎo.) – Nhiều và ít.",
+    "word": "多"
+   }
+  ],
+  "characters": [
+   {
+    "char": "少",
+    "componentMeaning": "",
+    "hanViet": "THIỂU",
+    "pictographicOrigin": "Thêm một chấm nhỏ vào chữ 小(nhỏ) — nhấn mạnh ý \"ít hơn cả nhỏ\".",
+    "radical": "小(bộ tiểu)",
+    "strokeCount": 4
+   }
+  ],
+  "collocations": [],
+  "compounds": [],
+  "distinguish": "",
+  "distinguishExample": "",
+  "grammarExample": "",
+  "grammarNote": "",
+  "image": "📉",
+  "mnemonic": "少 = 小(nhỏ) thêm một chấm — còn ÍT hơn cả nhỏ.",
+  "partOfSpeech": "Tính từ",
+  "senses": [
+   {
+    "meanings": [
+     {
+      "example": "今天来的人很少。 (Jīntiān lái de rén hěn shǎo.) – Hôm nay người đến rất ít.",
+      "meaning": "ít"
+     }
+    ],
+    "partOfSpeech": "Tính từ"
+   }
+  ],
+  "synonyms": [],
+  "usage": ""
+ },
+ "zh-adjectives-40": {
+  "antonyms": [],
+  "characters": [
+   {
+    "char": "绿",
+    "componentMeaning": "",
+    "hanViet": "LỤC",
+    "pictographicOrigin": "Bộ 纟(sợi tơ) ghép 录 lấy âm — màu nhuộm vải xanh, nghĩa \"màu xanh lá\".",
+    "radical": "纟(bộ mịch)",
+    "strokeCount": 11
+   }
+  ],
+  "collocations": [],
+  "compounds": [],
+  "distinguish": "",
+  "distinguishExample": "",
+  "grammarExample": "",
+  "grammarNote": "",
+  "image": "🟢",
+  "mnemonic": "绿 = 纟(sợi tơ) + 录 — vải nhuộm màu XANH LÁ.",
+  "partOfSpeech": "Tính từ",
+  "senses": [
+   {
+    "meanings": [
+     {
+      "example": "树叶是绿色的。 (Shùyè shì lǜsè de.) – Lá cây màu xanh lá.",
+      "meaning": "màu xanh lá"
+     }
+    ],
+    "partOfSpeech": "Tính từ"
+   }
+  ],
+  "synonyms": [],
+  "usage": "Xem phân biệt tại mục \"蓝\"."
+ },
+ "zh-adjectives-41": {
+  "antonyms": [],
+  "characters": [
+   {
+    "char": "黄",
+    "componentMeaning": "",
+    "hanViet": "HOÀNG",
+    "pictographicOrigin": "Chữ giáp cốt vẽ hình một người đeo miếng ngọc màu vàng — nghĩa \"màu vàng\".",
+    "radical": "黄(bộ hoàng)",
+    "strokeCount": 11
+   }
+  ],
+  "collocations": [],
+  "compounds": [],
+  "distinguish": "",
+  "distinguishExample": "",
+  "grammarExample": "",
+  "grammarNote": "",
+  "image": "🟡",
+  "mnemonic": "黄 vẽ hình một người đeo miếng ngọc màu VÀNG.",
+  "partOfSpeech": "Tính từ",
+  "senses": [
+   {
+    "meanings": [
+     {
+      "example": "香蕉是黄色的。 (Xiāngjiāo shì huángsè de.) – Chuối màu vàng.",
+      "meaning": "màu vàng"
+     }
+    ],
+    "partOfSpeech": "Tính từ"
+   }
+  ],
+  "synonyms": [],
+  "usage": ""
+ },
+ "zh-adjectives-42": {
+  "antonyms": [],
+  "characters": [
+   {
+    "char": "颜",
+    "componentMeaning": "",
+    "hanViet": "NHAN",
+    "pictographicOrigin": "Bộ 页(đầu người) — sắc mặt, vẻ mặt, mở rộng nghĩa \"màu sắc\" (trong 颜色).",
+    "radical": "页(bộ hiệt)",
+    "strokeCount": 15
+   },
+   {
+    "char": "色",
+    "componentMeaning": "sắc",
+    "hanViet": "SẮC",
+    "pictographicOrigin": "Chữ giáp cốt vẽ hình một người quỳ trước người khác thể hiện SẮC MẶT — nghĩa \"màu sắc, vẻ mặt\".",
+    "radical": "色(bộ sắc)",
+    "strokeCount": 6
+   }
+  ],
+  "collocations": [],
+  "compounds": [],
+  "distinguish": "",
+  "distinguishExample": "",
+  "grammarExample": "",
+  "grammarNote": "",
+  "image": "🎨",
+  "mnemonic": "颜色 = 颜(sắc mặt 页) + 色(vẻ mặt) — ghép đôi nghĩa MÀU SẮC.",
+  "partOfSpeech": "Danh từ",
+  "senses": [
+   {
+    "meanings": [
+     {
+      "example": "你喜欢什么颜色？ (Nǐ xǐhuan shénme yánsè?) – Bạn thích màu gì?",
+      "meaning": "màu sắc"
+     }
+    ],
+    "partOfSpeech": "Danh từ"
+   }
+  ],
+  "synonyms": [],
+  "usage": ""
+ },
+ "zh-adjectives-43": {
+  "antonyms": [
+   {
+    "example": "见分辨\"瘦\"。",
+    "word": "瘦"
+   }
+  ],
+  "characters": [
+   {
+    "char": "胖",
+    "componentMeaning": "",
+    "hanViet": "BÀN",
+    "pictographicOrigin": "Bộ 月(thân thể) ghép 半(nửa) — nghĩa \"béo, mập\".",
+    "radical": "月(bộ nhục)",
+    "strokeCount": 9
+   }
+  ],
+  "collocations": [],
+  "compounds": [],
+  "distinguish": "",
+  "distinguishExample": "",
+  "grammarExample": "",
+  "grammarNote": "",
+  "image": "🐷",
+  "mnemonic": "胖 = 月(thân thể) + 半(nửa) — thân thể to hơn một NỬA bình thường, BÉO.",
+  "partOfSpeech": "Tính từ",
+  "senses": [
+   {
+    "meanings": [
+     {
+      "example": "他最近胖了。 (Tā zuìjìn pàng le.) – Dạo này anh ấy béo lên.",
+      "meaning": "béo, mập"
+     }
+    ],
+    "partOfSpeech": "Tính từ"
+   }
+  ],
+  "synonyms": [],
+  "usage": ""
+ },
+ "zh-adjectives-44": {
+  "antonyms": [
+   {
+    "example": "他胖，她瘦。 (Tā pàng, tā shòu.) – Anh ấy béo, cô ấy gầy.",
+    "word": "胖"
+   }
+  ],
+  "characters": [
+   {
+    "char": "瘦",
+    "componentMeaning": "",
+    "hanViet": "SẤU",
+    "pictographicOrigin": "Bộ 疒(bệnh tật, gầy yếu) — nghĩa \"gầy, ốm\".",
+    "radical": "疒(bộ nạch)",
+    "strokeCount": 14
+   }
+  ],
+  "collocations": [],
+  "compounds": [],
+  "distinguish": "",
+  "distinguishExample": "",
+  "grammarExample": "",
+  "grammarNote": "",
+  "image": "🥢",
+  "mnemonic": "瘦 có bộ 疒(bệnh tật, gầy yếu) — GẦY như người ốm.",
+  "partOfSpeech": "Tính từ",
+  "senses": [
+   {
+    "meanings": [
+     {
+      "example": "她太瘦了，要多吃点儿。 (Tā tài shòu le, yào duō chī diǎnr.) – Cô ấy gầy quá, cần ăn nhiều hơn.",
+      "meaning": "gầy, ốm"
+     }
+    ],
+    "partOfSpeech": "Tính từ"
+   }
+  ],
+  "synonyms": [],
+  "usage": ""
+ },
+ "zh-adjectives-45": {
+  "antonyms": [
+   {
+    "example": "他年轻，我老了。 (Tā niánqīng, wǒ lǎo le.) – Anh ấy trẻ, tôi già rồi.",
+    "word": "老"
+   }
+  ],
+  "characters": [
+   {
+    "char": "年",
+    "componentMeaning": "năm",
+    "hanViet": "NIÊN",
+    "pictographicOrigin": "Chữ giáp cốt vẽ hình người vác bó lúa — mỗi vụ mùa gặt là một năm.",
+    "radical": "干(bộ can)",
+    "strokeCount": 6
+   },
+   {
+    "char": "轻",
+    "componentMeaning": "nhẹ",
+    "hanViet": "KHINH",
+    "pictographicOrigin": "Bộ 车(xe) ghép 圣 lấy âm — xe nhẹ dễ di chuyển, nghĩa \"nhẹ, trẻ (trong 年轻)\".",
+    "radical": "车(bộ xa)",
+    "strokeCount": 9
+   }
+  ],
+  "collocations": [],
+  "compounds": [],
+  "distinguish": "",
+  "distinguishExample": "",
+  "grammarExample": "",
+  "grammarNote": "",
+  "image": "🧑",
+  "mnemonic": "年轻 = 年(năm, tuổi) + 轻(nhẹ) — số năm còn NHẸ, TRẺ.",
+  "partOfSpeech": "Tính từ",
+  "senses": [
+   {
+    "meanings": [
+     {
+      "example": "他看起来很年轻。 (Tā kànqǐlai hěn niánqīng.) – Anh ấy trông rất trẻ.",
+      "meaning": "trẻ"
+     }
+    ],
+    "partOfSpeech": "Tính từ"
+   }
+  ],
+  "synonyms": [],
+  "usage": ""
+ },
+ "zh-adjectives-5": {
+  "antonyms": [
+   {
+    "example": "他很高，我很矮。 (Tā hěn gāo, wǒ hěn ǎi.) – Anh ấy cao, tôi thấp.",
+    "word": "矮"
+   }
+  ],
+  "characters": [
+   {
+    "char": "高",
+    "componentMeaning": "",
+    "hanViet": "CAO",
+    "pictographicOrigin": "Chữ giáp cốt vẽ hình một tòa lầu cao nhiều tầng — nghĩa \"cao\".",
+    "radical": "高(bộ cao)",
+    "strokeCount": 10
+   }
+  ],
+  "collocations": [],
+  "compounds": [],
+  "distinguish": "",
+  "distinguishExample": "",
+  "grammarExample": "",
+  "grammarNote": "",
+  "image": "🦒",
+  "mnemonic": "高 trông như một tòa lầu nhiều tầng — rất CAO.",
+  "partOfSpeech": "Tính từ",
+  "senses": [
+   {
+    "meanings": [
+     {
+      "example": "他个子很高。 (Tā gèzi hěn gāo.) – Anh ấy dáng người cao.",
+      "meaning": "cao"
+     }
+    ],
+    "partOfSpeech": "Tính từ"
+   }
+  ],
+  "synonyms": [],
+  "usage": ""
+ },
+ "zh-adjectives-6": {
+  "antonyms": [
+   {
+    "example": "见分辨\"高\"。",
+    "word": "高"
+   }
+  ],
+  "characters": [
+   {
+    "char": "矮",
+    "componentMeaning": "",
+    "hanViet": "OẢI",
+    "pictographicOrigin": "Bộ 矢(mũi tên, vật ngắn) ghép 委 — nghĩa \"thấp\".",
+    "radical": "矢(bộ thỉ)",
+    "strokeCount": 13
+   }
+  ],
+  "collocations": [],
+  "compounds": [],
+  "distinguish": "",
+  "distinguishExample": "",
+  "grammarExample": "",
+  "grammarNote": "",
+  "image": "🧍",
+  "mnemonic": "矮 = 矢(mũi tên ngắn) + 委(cong xuống) — vật ngắn cong xuống, THẤP.",
+  "partOfSpeech": "Tính từ",
+  "senses": [
+   {
+    "meanings": [
+     {
+      "example": "他比我矮。 (Tā bǐ wǒ ǎi.) – Anh ấy thấp hơn tôi.",
+      "meaning": "thấp (người)"
+     }
+    ],
+    "partOfSpeech": "Tính từ"
+   }
+  ],
+  "synonyms": [],
+  "usage": "矮 chỉ dùng cho chiều cao NGƯỜI/VẬT; độ thấp của địa hình dùng từ khác (低)."
+ },
+ "zh-adjectives-7": {
+  "antonyms": [
+   {
+    "example": "头发长，裙子短。 (Tóufa cháng, qúnzi duǎn.) – Tóc dài, váy ngắn.",
+    "word": "短"
+   }
+  ],
+  "characters": [
+   {
+    "char": "长",
+    "componentMeaning": "",
+    "hanViet": "TRƯỜNG",
+    "pictographicOrigin": "Chữ giản thể, vốn vẽ hình một người tóc dài — nghĩa \"dài\".",
+    "radical": "长(bộ trường)",
+    "strokeCount": 4
+   }
+  ],
+  "collocations": [],
+  "compounds": [],
+  "distinguish": "",
+  "distinguishExample": "",
+  "grammarExample": "",
+  "grammarNote": "",
+  "image": "📏",
+  "mnemonic": "长 (giản thể) vốn vẽ hình người tóc DÀI.",
+  "partOfSpeech": "Tính từ",
+  "senses": [
+   {
+    "meanings": [
+     {
+      "example": "这条河很长。 (Zhè tiáo hé hěn cháng.) – Con sông này rất dài.",
+      "meaning": "dài"
+     }
+    ],
+    "partOfSpeech": "Tính từ"
+   }
+  ],
+  "synonyms": [],
+  "usage": ""
+ },
+ "zh-adjectives-8": {
+  "antonyms": [
+   {
+    "example": "见分辨\"长\"。",
+    "word": "长"
+   }
+  ],
+  "characters": [
+   {
+    "char": "短",
+    "componentMeaning": "",
+    "hanViet": "ĐOẢN",
+    "pictographicOrigin": "Bộ 矢(mũi tên, vật ngắn) ghép 豆(đậu, hình tròn nhỏ) — nghĩa \"ngắn\".",
+    "radical": "矢(bộ thỉ)",
+    "strokeCount": 12
+   }
+  ],
+  "collocations": [],
+  "compounds": [],
+  "distinguish": "",
+  "distinguishExample": "",
+  "grammarExample": "",
+  "grammarNote": "",
+  "image": "📐",
+  "mnemonic": "短 = 矢(mũi tên ngắn) + 豆(hạt đậu nhỏ) — hai vật đều nhỏ NGẮN.",
+  "partOfSpeech": "Tính từ",
+  "senses": [
+   {
+    "meanings": [
+     {
+      "example": "这篇文章很短。 (Zhè piān wénzhāng hěn duǎn.) – Bài viết này rất ngắn.",
+      "meaning": "ngắn"
+     }
+    ],
+    "partOfSpeech": "Tính từ"
+   }
+  ],
+  "synonyms": [],
+  "usage": ""
+ },
+ "zh-adjectives-9": {
+  "antonyms": [
+   {
+    "example": "这个新，那个旧。 (Zhège xīn, nàge jiù.) – Cái này mới, cái kia cũ.",
+    "word": "旧"
+   }
+  ],
+  "characters": [
+   {
+    "char": "新",
+    "componentMeaning": "",
+    "hanViet": "TÂN",
+    "pictographicOrigin": "Bộ 斤(cái rìu) ghép 亲 — dùng rìu chặt cây MỚI, nghĩa \"mới\".",
+    "radical": "斤(bộ cân)",
+    "strokeCount": 13
+   }
+  ],
+  "collocations": [],
+  "compounds": [],
+  "distinguish": "",
+  "distinguishExample": "",
+  "grammarExample": "",
+  "grammarNote": "",
+  "image": "✨",
+  "mnemonic": "新 = 斤(cái rìu) + 亲 — dùng rìu chặt cây MỚI đốn.",
+  "partOfSpeech": "Tính từ",
+  "senses": [
+   {
+    "meanings": [
+     {
+      "example": "我买了一部新手机。 (Wǒ mǎile yí bù xīn shǒujī.) – Tôi mua một chiếc điện thoại mới.",
+      "meaning": "mới"
+     }
+    ],
+    "partOfSpeech": "Tính từ"
+   }
+  ],
+  "synonyms": [],
+  "usage": ""
+ },
  "zh-basics-1": {
   "antonyms": [
    {
@@ -76,7 +1968,7 @@
     "char": "好",
     "componentMeaning": "tốt, ghép thành lời chào",
     "hanViet": "HẢO",
-    "pictographicOrigin": "Hình một người phụ nữ (女) bên cạnh đứa trẻ (子) — hình ảnh mẹ con, biểu thị điều tốt đẹp.",
+    "pictographicOrigin": "Hình một người phụ nữ (女) bên đứa trẻ (子) — biểu thị điều tốt đẹp.",
     "radical": "女(bộ nữ)",
     "strokeCount": 6
    }
@@ -192,7 +2084,7 @@
     "char": "气",
     "componentMeaning": "khí, thái độ",
     "hanViet": "KHÍ",
-    "pictographicOrigin": "Chữ giáp cốt vẽ ba làn hơi/mây bốc lên — hình ảnh khí, hơi thở.",
+    "pictographicOrigin": "Chữ giáp cốt vẽ ba làn hơi/mây bốc lên — nghĩa \"khí, hơi\".",
     "radical": "气(bộ khí)",
     "strokeCount": 4
    }
@@ -1479,15 +3371,15 @@
     "char": "多",
     "componentMeaning": "nhiều",
     "hanViet": "ĐA",
-    "pictographicOrigin": "Hình hai chữ 夕(thịt/mặt trăng) chồng lên nhau — biểu thị số lượng nhiều.",
+    "pictographicOrigin": "Hai chữ 夕(thịt/mặt trăng) chồng lên nhau — biểu thị số lượng nhiều.",
     "radical": "夕(bộ tịch)",
     "strokeCount": 6
    },
    {
     "char": "少",
     "componentMeaning": "ít",
-    "hanViet": "THIỂU/THIẾU",
-    "pictographicOrigin": "Thêm một nét chấm nhỏ vào chữ 小(nhỏ) — nhấn mạnh ý \"ít hơn cả nhỏ\".",
+    "hanViet": "THIỂU",
+    "pictographicOrigin": "Thêm một chấm nhỏ vào chữ 小(nhỏ) — nhấn mạnh ý \"ít hơn cả nhỏ\".",
     "radical": "小(bộ tiểu)",
     "strokeCount": 4
    }
@@ -1933,7 +3825,7 @@
     "char": "名",
     "componentMeaning": "tên",
     "hanViet": "DANH",
-    "pictographicOrigin": "Ghép 夕(tối, đêm) với 口(miệng) — đêm tối không nhìn rõ mặt nên phải xưng tên bằng miệng.",
+    "pictographicOrigin": "Ghép 夕(tối) với 口(miệng) — đêm tối phải xưng TÊN bằng miệng.",
     "radical": "口(bộ khẩu)",
     "strokeCount": 6
    },
@@ -2057,7 +3949,7 @@
     "char": "好",
     "componentMeaning": "",
     "hanViet": "HẢO",
-    "pictographicOrigin": "Hình một người phụ nữ (女) bên cạnh đứa trẻ (子) — hình ảnh mẹ con, biểu thị điều tốt đẹp.",
+    "pictographicOrigin": "Hình một người phụ nữ (女) bên đứa trẻ (子) — biểu thị điều tốt đẹp.",
     "radical": "女(bộ nữ)",
     "strokeCount": 6
    }
@@ -3161,7 +5053,7 @@
     "char": "生",
     "componentMeaning": "người (hậu tố)",
     "hanViet": "SINH",
-    "pictographicOrigin": "Chữ giáp cốt vẽ hình mầm cây nhú lên khỏi đất — nghĩa \"sinh ra, sống\".",
+    "pictographicOrigin": "Chữ giáp cốt vẽ hình mầm cây nhú lên khỏi đất — nghĩa \"sinh ra\".",
     "radical": "生(bộ sinh)",
     "strokeCount": 5
    }
@@ -3211,7 +5103,7 @@
     "char": "生",
     "componentMeaning": "người (hậu tố)",
     "hanViet": "SINH",
-    "pictographicOrigin": "Chữ giáp cốt vẽ hình mầm cây nhú lên khỏi đất — nghĩa \"sinh ra, sống\".",
+    "pictographicOrigin": "Chữ giáp cốt vẽ hình mầm cây nhú lên khỏi đất — nghĩa \"sinh ra\".",
     "radical": "生(bộ sinh)",
     "strokeCount": 5
    }
@@ -3271,7 +5163,7 @@
     "char": "生",
     "componentMeaning": "người (hậu tố)",
     "hanViet": "SINH",
-    "pictographicOrigin": "Chữ giáp cốt vẽ hình mầm cây nhú lên khỏi đất — nghĩa \"sinh ra, sống\".",
+    "pictographicOrigin": "Chữ giáp cốt vẽ hình mầm cây nhú lên khỏi đất — nghĩa \"sinh ra\".",
     "radical": "生(bộ sinh)",
     "strokeCount": 5
    }
@@ -3311,7 +5203,7 @@
     "char": "小",
     "componentMeaning": "nhỏ",
     "hanViet": "TIỂU",
-    "pictographicOrigin": "Chữ giáp cốt vẽ ba hạt cát nhỏ li ti — nghĩa \"nhỏ, bé\".",
+    "pictographicOrigin": "Chữ giáp cốt vẽ ba hạt cát nhỏ li ti — nghĩa \"nhỏ\".",
     "radical": "小(bộ tiểu)",
     "strokeCount": 3
    },
@@ -3634,7 +5526,7 @@
     "char": "服",
     "componentMeaning": "phục",
     "hanViet": "PHỤC",
-    "pictographicOrigin": "Bộ 月(thân thể) — nghĩa gốc \"khuất phục, phục vụ\", nay có nghĩa \"quần áo, phục vụ\".",
+    "pictographicOrigin": "Bộ 月(thân thể) — nghĩa gốc \"khuất phục\", nay có nghĩa \"quần áo, thoải mái\" (trong 舒服).",
     "radical": "月(bộ nhục)",
     "strokeCount": 8
    },
@@ -5229,7 +7121,7 @@
     "char": "好",
     "componentMeaning": "tốt",
     "hanViet": "HẢO",
-    "pictographicOrigin": "Hình một người phụ nữ (女) bên cạnh đứa trẻ (子) — hình ảnh mẹ con, biểu thị điều tốt đẹp.",
+    "pictographicOrigin": "Hình một người phụ nữ (女) bên đứa trẻ (子) — biểu thị điều tốt đẹp.",
     "radical": "女(bộ nữ)",
     "strokeCount": 6
    },
@@ -5272,7 +7164,7 @@
     "char": "好",
     "componentMeaning": "tốt",
     "hanViet": "HẢO",
-    "pictographicOrigin": "Hình một người phụ nữ (女) bên cạnh đứa trẻ (子) — hình ảnh mẹ con, biểu thị điều tốt đẹp.",
+    "pictographicOrigin": "Hình một người phụ nữ (女) bên đứa trẻ (子) — biểu thị điều tốt đẹp.",
     "radical": "女(bộ nữ)",
     "strokeCount": 6
    },
@@ -6966,7 +8858,7 @@
     "char": "年",
     "componentMeaning": "",
     "hanViet": "NIÊN",
-    "pictographicOrigin": "Chữ giáp cốt vẽ hình người vác bó lúa — mỗi vụ mùa gặt là một NĂM.",
+    "pictographicOrigin": "Chữ giáp cốt vẽ hình người vác bó lúa — mỗi vụ mùa gặt là một năm.",
     "radical": "干(bộ can)",
     "strokeCount": 6
    }
@@ -7368,7 +9260,7 @@
     "char": "明",
     "componentMeaning": "sáng, rõ",
     "hanViet": "MINH",
-    "pictographicOrigin": "Ghép 日(mặt trời) và 月(mặt trăng) — cả hai cùng chiếu sáng thì trời rất SÁNG, rõ ràng.",
+    "pictographicOrigin": "Ghép 日(mặt trời) và 月(mặt trăng) — cả hai cùng chiếu sáng, \"sáng suốt\".",
     "radical": "日(bộ nhật)",
     "strokeCount": 8
    },
@@ -7837,7 +9729,7 @@
     "char": "小",
     "componentMeaning": "nhỏ",
     "hanViet": "TIỂU",
-    "pictographicOrigin": "Chữ giáp cốt vẽ ba hạt cát nhỏ li ti — nghĩa \"nhỏ, bé\".",
+    "pictographicOrigin": "Chữ giáp cốt vẽ ba hạt cát nhỏ li ti — nghĩa \"nhỏ\".",
     "radical": "小(bộ tiểu)",
     "strokeCount": 3
    },
@@ -7936,7 +9828,7 @@
     "char": "年",
     "componentMeaning": "năm",
     "hanViet": "NIÊN",
-    "pictographicOrigin": "Chữ giáp cốt vẽ hình người vác bó lúa — mỗi vụ mùa gặt là một NĂM.",
+    "pictographicOrigin": "Chữ giáp cốt vẽ hình người vác bó lúa — mỗi vụ mùa gặt là một năm.",
     "radical": "干(bộ can)",
     "strokeCount": 6
    }
@@ -8011,7 +9903,7 @@
     "char": "明",
     "componentMeaning": "sắp tới",
     "hanViet": "MINH",
-    "pictographicOrigin": "Ghép 日(mặt trời) và 月(mặt trăng) — cả hai cùng chiếu sáng thì trời rất SÁNG, rõ ràng.",
+    "pictographicOrigin": "Ghép 日(mặt trời) và 月(mặt trăng) — cả hai cùng chiếu sáng, \"sáng suốt\".",
     "radical": "日(bộ nhật)",
     "strokeCount": 8
    },
@@ -8019,7 +9911,7 @@
     "char": "年",
     "componentMeaning": "năm",
     "hanViet": "NIÊN",
-    "pictographicOrigin": "Chữ giáp cốt vẽ hình người vác bó lúa — mỗi vụ mùa gặt là một NĂM.",
+    "pictographicOrigin": "Chữ giáp cốt vẽ hình người vác bó lúa — mỗi vụ mùa gặt là một năm.",
     "radical": "干(bộ can)",
     "strokeCount": 6
    }
@@ -8054,7 +9946,7 @@
     "char": "生",
     "componentMeaning": "sinh",
     "hanViet": "SINH",
-    "pictographicOrigin": "Chữ giáp cốt vẽ hình mầm cây nhú lên khỏi đất — nghĩa \"sinh ra, sống\".",
+    "pictographicOrigin": "Chữ giáp cốt vẽ hình mầm cây nhú lên khỏi đất — nghĩa \"sinh ra\".",
     "radical": "生(bộ sinh)",
     "strokeCount": 5
    },
@@ -10348,7 +12240,7 @@
     "char": "开",
     "componentMeaning": "mở, điều khiển",
     "hanViet": "KHAI",
-    "pictographicOrigin": "Hai tay mở cánh cửa/then cài — nghĩa \"mở, bắt đầu\".",
+    "pictographicOrigin": "Hai tay mở cánh cửa/then cài — nghĩa \"mở\" (trong 开心 = mở lòng, vui).",
     "radical": "廾(bộ củng)",
     "strokeCount": 4
    },
@@ -11105,7 +12997,7 @@
     "char": "要",
     "componentMeaning": "",
     "hanViet": "YẾU",
-    "pictographicOrigin": "Bộ 西 trên 女 — nghĩa gốc liên quan tới eo lưng, mở rộng nghĩa \"muốn, cần, quan trọng\".",
+    "pictographicOrigin": "Bộ 西 trên 女 — nghĩa gốc liên quan tới eo lưng, mở rộng nghĩa \"quan trọng\".",
     "radical": "西(bộ tây)",
     "strokeCount": 9
    }
@@ -11245,7 +13137,7 @@
     "char": "爱",
     "componentMeaning": "",
     "hanViet": "ÁI",
-    "pictographicOrigin": "Chữ giản thể từ 愛, vốn có bộ 心(tim) ở giữa — trái tim dành cho ai đó, \"yêu\".",
+    "pictographicOrigin": "Chữ giản thể từ 愛, vốn có bộ 心(tim) — nghĩa \"yêu, đáng yêu\".",
     "radical": "爫(bộ trảo)",
     "strokeCount": 10
    }
@@ -11399,7 +13291,7 @@
     "char": "可",
     "componentMeaning": "có thể",
     "hanViet": "KHẢ",
-    "pictographicOrigin": "Chữ giáp cốt vẽ hình một cái cày và miệng — nghĩa \"có thể, được\".",
+    "pictographicOrigin": "Chữ giáp cốt vẽ hình một cái cày và miệng — nghĩa \"có thể\".",
     "radical": "口(bộ khẩu)",
     "strokeCount": 5
    },
@@ -11824,7 +13716,7 @@
     "char": "看",
     "componentMeaning": "",
     "hanViet": "KHÁN",
-    "pictographicOrigin": "Chữ giáp cốt vẽ hình bàn tay (手) che trên mắt (目) — dáng nhìn xa, \"xem, nhìn\".",
+    "pictographicOrigin": "Bàn tay (手) che trên mắt (目) — dáng nhìn xa.",
     "radical": "目(bộ mục)",
     "strokeCount": 9
    }
@@ -12082,7 +13974,7 @@
     "char": "开",
     "componentMeaning": "",
     "hanViet": "KHAI",
-    "pictographicOrigin": "Hai tay mở cánh cửa/then cài — nghĩa \"mở, bắt đầu\".",
+    "pictographicOrigin": "Hai tay mở cánh cửa/then cài — nghĩa \"mở\" (trong 开心 = mở lòng, vui).",
     "radical": "廾(bộ củng)",
     "strokeCount": 4
    }
@@ -13606,7 +15498,7 @@
     "char": "要",
     "componentMeaning": "",
     "hanViet": "YẾU",
-    "pictographicOrigin": "Bộ 西 trên 女 — nghĩa gốc liên quan tới eo lưng, mở rộng nghĩa \"muốn, cần, quan trọng\".",
+    "pictographicOrigin": "Bộ 西 trên 女 — nghĩa gốc liên quan tới eo lưng, mở rộng nghĩa \"quan trọng\".",
     "radical": "西(bộ tây)",
     "strokeCount": 9
    }
@@ -14142,7 +16034,7 @@
     "char": "开",
     "componentMeaning": "mở",
     "hanViet": "KHAI",
-    "pictographicOrigin": "Hai tay mở cánh cửa/then cài — nghĩa \"mở, bắt đầu\".",
+    "pictographicOrigin": "Hai tay mở cánh cửa/then cài — nghĩa \"mở\" (trong 开心 = mở lòng, vui).",
     "radical": "廾(bộ củng)",
     "strokeCount": 4
    },
@@ -14405,7 +16297,7 @@
     "char": "生",
     "componentMeaning": "sinh ra",
     "hanViet": "SINH",
-    "pictographicOrigin": "Chữ giáp cốt vẽ hình mầm cây nhú lên khỏi đất — nghĩa \"sinh ra, sống\".",
+    "pictographicOrigin": "Chữ giáp cốt vẽ hình mầm cây nhú lên khỏi đất — nghĩa \"sinh ra\".",
     "radical": "生(bộ sinh)",
     "strokeCount": 5
    },
